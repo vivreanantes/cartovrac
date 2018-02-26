@@ -1,0 +1,944 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.54.13 ff15392f",
+  "osm3s": {
+    "timestamp_osm_base": "2018-02-26T21:16:02Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 1574437644,
+  "lat": 47.2609125,
+  "lon": -1.5167036,
+  "tags": {
+    "addr:city": "Nantes",
+    "addr:housenumber": "20",
+    "addr:postcode": "44300",
+    "addr:street": "Rue Eugénie Cotton",
+    "bulk_purchase": "yes",
+    "name": "Chlorophylle Beaujoire",
+    "note": "Epicerie Bio",
+    "opening_hours": "Mo-Sa 09:00-19:30; Su off",
+    "organic": "only",
+    "shop": "convenience",
+    "website": "http://www.chlorophylle-coop.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 1688797566,
+  "lat": 47.2524065,
+  "lon": -1.4995435,
+  "tags": {
+    "addr:city": "Nantes",
+    "addr:housenumber": "1",
+    "addr:postcode": "44300",
+    "addr:street": "Rue du Marché Commun",
+    "bulk_purchase": "yes",
+    "contact:email": "contact@fleuronbio44.com",
+    "name": "Fleuron Bio",
+    "opening_hours": "Mo 10:30-19:00; Tu-We 09:30-19:00; Th 09:00-19:30; Fr-Sa 09:30-19:00; Su off",
+    "organic": "only",
+    "shop": "convenience",
+    "source": "Nantes Métropole 11/2011",
+    "website": "https://www.fleuronbio44.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 2108864449,
+  "lat": 47.2910573,
+  "lon": -2.2108191,
+  "tags": {
+    "addr:city": "Trignac",
+    "addr:postcode": "44570",
+    "addr:street": "Rue des Aigrettes",
+    "bulk_purchase": "yes",
+    "name": "Les Hameaux Bio Biocoop Trignac",
+    "opening_hours": "Mo-Sa 09:30-19:15; Su off",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "http://www.leshameauxbio.fr/magasins/o%C3%B9-sommes-nous/trignac/"
+  }
+},
+{
+  "type": "node",
+  "id": 2416353080,
+  "lat": 47.1279578,
+  "lon": -2.1233429,
+  "tags": {
+    "addr:city": "Pornic",
+    "addr:housenumber": "1",
+    "addr:postcode": "44210",
+    "addr:street": "Rue du traité de Lisbonne",
+    "bulk_purchase": "yes",
+    "name": "Les Hameaux Bio Biocoop Pornic",
+    "opening_hours": "Mo-Sa 09:30-19:15; Su off",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "http://www.leshameauxbio.fr/magasins/o%C3%B9-sommes-nous/pornic/"
+  }
+},
+{
+  "type": "node",
+  "id": 2672093889,
+  "lat": 47.3726034,
+  "lon": -1.9319780,
+  "tags": {
+    "addr:city": "Savenay",
+    "addr:postcode": "44260",
+    "addr:street": "Les Fretauderies",
+    "brand": "Biocoop",
+    "bulk_purchase": "yes",
+    "name": "Biocoop Le Sillon Bio",
+    "opening_hours": "Mo-Th 09:00-13:00, 14:30-19:00; Fr-Sa 09:00-19:00; Su off",
+    "operator": "Le Sillon Bio",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "http://www.lesillonbio.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 3097016385,
+  "lat": 47.2541524,
+  "lon": -1.6172077,
+  "tags": {
+    "addr:city": "Orvault",
+    "addr:country": "FR",
+    "addr:housenumber": "8",
+    "addr:postcode": "44700",
+    "addr:street": "Rue du Commandant Charcot",
+    "bulk_purchase": "yes",
+    "contact:phone": "+33 2 40 63 42 43",
+    "fair_trade": "yes",
+    "name": "Biocoop",
+    "note": "Produits Bio",
+    "opening_hours": "Mo-Fr 09:30-19:30; Sa 09:30-19:00; Su off",
+    "organic": "only",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "shop": "supermarket",
+    "website": "https://www.biocoop.fr/magasins-bio/Trouver-mon-magasin-Biocoop/Pays-de-la-Loire/Loire-Atlantique/BIOCOOP-NANTES-ORVAULT",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3097043664,
+  "lat": 47.2041496,
+  "lon": -1.5504689,
+  "tags": {
+    "addr:city": "Nantes",
+    "addr:country": "FR",
+    "addr:housenumber": "17",
+    "addr:postcode": "44200",
+    "addr:street": "Boulevard Gustave Roch",
+    "bulk_purchase": "yes",
+    "contact:phone": "+33 2 40 48 55 67",
+    "contact:website": "https://www.biocoop.fr/magasins-bio/Trouver-mon-magasin-Biocoop/Pays-de-la-Loire/Loire-Atlantique/BIOCOOP-NANTES-REPUBLIQUE",
+    "fair_trade": "yes",
+    "name": "Biocoop",
+    "opening_hours": "Mo 12:00-19:30; Tu-Fr 09:30-19:30; Sa 09:30-19:00",
+    "organic": "only",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "shop": "supermarket",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3333942666,
+  "lat": 47.0487570,
+  "lon": -1.6347666,
+  "tags": {
+    "addr:city": "Saint-Philbert-de-Grand-Lieu",
+    "addr:housenumber": "7",
+    "addr:postcode": "44310",
+    "addr:street": "Le moulin de la chaussée",
+    "bulk_purchase": "yes",
+    "name": "Biocoop du Lac",
+    "opening_hours": "Mo 15:00-19:30; Tu-Sa 09:00-13:00,15:00-19:30",
+    "organic": "yes",
+    "shop": "convenience",
+    "website": "https://www.biocoop.fr/magasins-bio/Trouver-mon-magasin-Biocoop/Pays-de-la-Loire/Loire-Atlantique/BIOCOOP-DU-LAC"
+  }
+},
+{
+  "type": "node",
+  "id": 3409181065,
+  "lat": 47.3755787,
+  "lon": -1.1947395,
+  "tags": {
+    "addr:city": "Saint-Géréon",
+    "addr:housenumber": "104",
+    "addr:postcode": "44150",
+    "addr:street": "Rue du Bocage",
+    "bulk_purchase": "yes",
+    "name": "Biocoop",
+    "opening_hours": "Mo 14:00-19:00; Tu-Sa 09:00-12:30, 14:00-19:00; Su off",
+    "organic": "only",
+    "phone": "+33 2 40831925",
+    "shop": "supermarket",
+    "website": "http://www.biocoop-ancenis.fr/"
+  }
+},
+{
+  "type": "node",
+  "id": 3676423718,
+  "lat": 47.2243684,
+  "lon": -1.5501701,
+  "tags": {
+    "addr:city": "Nantes",
+    "addr:housenumber": "14",
+    "addr:postcode": "44000",
+    "addr:street": "Rue Pitre Chevalier",
+    "bulk_purchase": "yes",
+    "name": "La Vie Claire",
+    "opening_hours": "Mo 11:30-19:00; Tu-Sa 08:30-19:00; Su off",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "http://www.lavieclaire.com/magasin-bio/nantes.html"
+  }
+},
+{
+  "type": "node",
+  "id": 3792409253,
+  "lat": 47.2611509,
+  "lon": -1.5821251,
+  "tags": {
+    "addr:city": "Nantes",
+    "addr:housenumber": "188",
+    "addr:postcode": "44300",
+    "addr:street": "Route de Rennes",
+    "bulk_purchase": "yes",
+    "name": "Biocoop",
+    "opening_hours": "Mo-Fr 09:30-19:30; Sa 09:30-19:00; Su off",
+    "operator": "Biocoop",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://www.biocoop.fr/magasins-bio/Trouver-mon-magasin-Biocoop/Pays-de-la-Loire/Loire-Atlantique/BIOCOOP-DU-LAC"
+  }
+},
+{
+  "type": "node",
+  "id": 3798285433,
+  "lat": 47.2264688,
+  "lon": -1.6386397,
+  "tags": {
+    "addr:city": "Saint-Herblain",
+    "addr:housenumber": "332",
+    "addr:postcode": "44800",
+    "addr:street": "Boulevard Marcel Paul",
+    "bulk_purchase": "yes",
+    "name": "Biocoop Les Halles Nantes Ouest",
+    "opening_hours": "Mo-Th 09:30-19:00; Fr-Sa 09:00-19:00; Su off",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "http://stherblainleshalles.biocoop.net/"
+  }
+},
+{
+  "type": "node",
+  "id": 4267907899,
+  "lat": 47.3244071,
+  "lon": -2.4109019,
+  "tags": {
+    "addr:city": "Guérande",
+    "addr:postcode": "44350",
+    "addr:street": "Rue de la Briquerie",
+    "bulk_purchase": "yes",
+    "name": "Les Hameaux Bio Biocoop Guérande",
+    "opening_hours": "Mo-Sa 09:30-19:15; Su off",
+    "operator": "Biocoop",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "http://www.leshameauxbio.fr/nos-magasins/gu%C3%A9rande/"
+  }
+},
+{
+  "type": "node",
+  "id": 4396149089,
+  "lat": 47.2172562,
+  "lon": -1.5574106,
+  "tags": {
+    "addr:city": "Nantes",
+    "addr:housenumber": "23",
+    "addr:postcode": "44000",
+    "addr:street": "Allée d'Orléans",
+    "brand": "Naturalia",
+    "bulk_purchase": "yes",
+    "contact:phone": "+33 2 40357540",
+    "description": "Épicerie biologique et naturelle",
+    "name": "Naturalia",
+    "opening_hours": "Mo-Sa 09:00-20:00; Su 09:00-13:30",
+    "organic": "only",
+    "shop": "convenience",
+    "website": "https://magasins.naturalia.fr/produits-bio/nantes/3954/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4416898146,
+  "lat": 47.2337591,
+  "lon": -1.5859370,
+  "tags": {
+    "addr:city": "Saint-Herblain",
+    "addr:housenumber": "34",
+    "addr:postcode": "44800",
+    "addr:street": "Rue des Plantes",
+    "bulk_purchase": "yes",
+    "name": "Chlorophylle Beauséjour",
+    "opening_hours": "Mo-Sa 09:00-19:30; Su off",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "http://www.chlorophylle-coop.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 4416911931,
+  "lat": 47.1919208,
+  "lon": -1.5824362,
+  "tags": {
+    "addr:city": "Rezé",
+    "addr:housenumber": "18",
+    "addr:postcode": "44400",
+    "addr:street": "Rue Ordronneau",
+    "bulk_purchase": "yes",
+    "name": "Chlorophylle Beausud",
+    "opening_hours": "Mo-Sa 09:00-19:30; Su off",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "http://www.chlorophylle-coop.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 4499730098,
+  "lat": 47.2800523,
+  "lon": -2.2156298,
+  "tags": {
+    "addr:city": "Saint-Nazaire",
+    "addr:country": "FR",
+    "addr:housenumber": "89",
+    "addr:postcode": "44600",
+    "addr:street": "Rue Jean Jaurès",
+    "bulk_purchase": "yes",
+    "name": "Les Hameaux Bio Biocoop Saint-Nazaire",
+    "opening_hours": "Mo-Th 08:30-12:30, 14:30-19:15; Fr-Sa 08:30-19:15; Su off",
+    "organic": "yes",
+    "shop": "convenience",
+    "website": "http://www.leshameauxbio.fr/magasins/o%C3%B9-sommes-nous/saint-nazaire/"
+  }
+},
+{
+  "type": "node",
+  "id": 4657132729,
+  "lat": 47.0865666,
+  "lon": -1.2623221,
+  "tags": {
+    "addr:city": "Gétigné",
+    "addr:postcode": "44190",
+    "bulk_purchase": "yes",
+    "name": "Naturéo",
+    "opening_hours": "Mo-Sa 09:30-19:30; Su off",
+    "organic": "only",
+    "shop": "convenience",
+    "website": "http://natureo-bio.fr/magasin-getigne"
+  }
+},
+{
+  "type": "node",
+  "id": 4750862440,
+  "lat": 47.2650899,
+  "lon": -1.4876903,
+  "tags": {
+    "addr:city": "Sainte-Luce-sur-Loire",
+    "addr:housenumber": "13",
+    "addr:postcode": "44980",
+    "addr:street": "Rue Denis Papin",
+    "bulk_purchase": "yes",
+    "name": "Chlorophylle - Bio Luce",
+    "opening_hours": "Mo-Sa 09:00-19:30",
+    "operator": "Chlorophylle",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "http://www.chlorophylle-coop.com"
+  }
+},
+{
+  "type": "node",
+  "id": 5053854903,
+  "lat": 47.2587736,
+  "lon": -1.5012009,
+  "tags": {
+    "addr:city": "Nantes",
+    "addr:housenumber": "19",
+    "addr:postcode": "44300",
+    "addr:street": "Rue du Marché Commun",
+    "bulk_purchase": "yes",
+    "description": "Alimentation biologique et éco-produits",
+    "name": "Les Hameaux Bio Biocoop Nantes",
+    "opening_hours": "Mo-Sa 09:30-19:30; Su off",
+    "operator": "Biocoop",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "http://www.leshameauxbio.fr/magasins/o%C3%B9-sommes-nous/nantes/"
+  }
+},
+{
+  "type": "node",
+  "id": 5132304814,
+  "lat": 47.2838290,
+  "lon": -1.5528676,
+  "tags": {
+    "addr:city": "La Chapelle sur Erdre",
+    "addr:postcode": "44240",
+    "addr:street": "Rue D'Utrecht",
+    "bulk_purchase": "yes",
+    "name": "Naturéo",
+    "opening_hours": "Mo-Sa 09:30-20:00; Su off",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://www.natureo-bio.fr/magasin-bio/la-chapelle-sur-erdre/"
+  }
+},
+{
+  "type": "node",
+  "id": 5226961589,
+  "lat": 47.2286219,
+  "lon": -1.6343382,
+  "tags": {
+    "addr:city": "Saint Herblain",
+    "addr:housenumber": "279",
+    "addr:postcode": "44800",
+    "addr:street": "Boulevard Marcel Paul",
+    "bulk_purchase": "yes",
+    "name": "Chlorophylle",
+    "opening_hours": "Mo-Sa 09:00-19:30; Su off",
+    "shop": "supermarket",
+    "website": "http://www.chlorophylle-coop.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 5333494928,
+  "lat": 47.2574890,
+  "lon": -2.3166586,
+  "tags": {
+    "addr:city": "Pornichet",
+    "addr:housenumber": "4",
+    "addr:postcode": "44380",
+    "addr:street": "Avenue du Courtil Riel",
+    "bulk_purchase": "yes",
+    "name": "Les Hameaux Bio Biocoop Pornichet",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "http://www.leshameauxbio.fr/magasins/o%C3%B9-sommes-nous/pornichet/"
+  }
+},
+{
+  "type": "node",
+  "id": 5409751735,
+  "lat": 47.2939053,
+  "lon": -1.3914448,
+  "tags": {
+    "addr:city": "Mauves-sur-Loire",
+    "addr:housenumber": "1",
+    "addr:postcode": "44470",
+    "addr:street": "Rue Loquets",
+    "bulk_purchase": "yes",
+    "name": "L'Epicerie du Port",
+    "opening_hours": "Mo 15:00-19:30; Tu-Fr 09:00-12:30, 15:00-19:45; Th off; Sa 09:00-12:30, 15:00-19:00; Su 09:30-12:30",
+    "organic": "yes",
+    "shop": "convenience",
+    "website": "https://www.facebook.com/L%C3%A9picerie-du-port-574717069319717/"
+  }
+},
+{
+  "type": "node",
+  "id": 5413237027,
+  "lat": 47.2507053,
+  "lon": -1.6166313,
+  "tags": {
+    "addr:city": "Orvault",
+    "addr:housenumber": "290",
+    "addr:postcode": "44706",
+    "addr:street": "Route de Vannes",
+    "bulk_purchase": "yes",
+    "name": "Les Fermiers du coin",
+    "opening_hours": "Tu-Fr 09:30-19:30; Sa 09:30-18:00; Su off",
+    "organic": "yes",
+    "shop": "convenience",
+    "website": "http://www.lesfermiersducoin.fr/"
+  }
+},
+{
+  "type": "node",
+  "id": 5418567639,
+  "lat": 47.5211878,
+  "lon": -2.2869608,
+  "tags": {
+    "addr:city": "Nivillac",
+    "addr:postcode": "56130",
+    "addr:street": "Route de Redon-Saint Dolay",
+    "bulk_purchase": "yes",
+    "name": "O'Val en Vert",
+    "opening_hours": "Mo 14:00-19:00; Tu-Sa 09:15-19:00; Su off",
+    "organic": "yes",
+    "shop": "convenience",
+    "website": "http://ovalenvert.fr/"
+  }
+},
+{
+  "type": "node",
+  "id": 5420284870,
+  "lat": 47.1747231,
+  "lon": -1.5193826,
+  "tags": {
+    "addr:city": "Vertou",
+    "addr:housenumber": "3",
+    "addr:postcode": "44120",
+    "addr:street": "Place Pierre Desfossés",
+    "bulk_purchase": "yes",
+    "name": "Les coteaux nantais Vertou",
+    "opening_hours": "Mo off; Tu-Sa 09:00-12:30, 15:00-18:30; Su off",
+    "organic": "yes",
+    "shop": "convenience",
+    "website": "http://www.coteaux-nantais.com/fr/content/vente-directe"
+  }
+},
+{
+  "type": "node",
+  "id": 1034073369,
+  "lat": 47.2102484,
+  "lon": -1.7282223,
+  "tags": {
+    "addr:city": "Couëron",
+    "addr:housenumber": "8",
+    "addr:postcode": "44220",
+    "addr:street": "Rue Alcide Charles d’ Orbigny",
+    "bulk_purchase": "only",
+    "contact:email": "contact@epicerie-leptitpoids.fr",
+    "name": "Le P'tit Poids",
+    "opening_hours": "Tu-Th 09:00-12:30, 14:30-19:00; Fr 09:00-12:30, 15:30-19:00; Sa 09:30-12:30, 15:00-19:00",
+    "organic": "yes",
+    "shop": "convenience",
+    "website": "http://epicerie-leptitpoids.fr/"
+  }
+},
+{
+  "type": "node",
+  "id": 1727920548,
+  "lat": 47.2176945,
+  "lon": -1.5552341,
+  "tags": {
+    "addr:city": "Nantes",
+    "addr:housenumber": "3",
+    "addr:postcode": "44000",
+    "addr:street": "Rue de l'Hôtel de Ville",
+    "bulk_purchase": "only",
+    "description": "Boutique sans emballage. Produits alimentaires (farine,céréales,pâtes...), produits du quotidien (lessive…)",
+    "email": "contact@obocal.com",
+    "name": "Boutique Ô Bocal",
+    "opening_hours": "Tu-Fr 10:00-19:30; Sa 10:00-19:00",
+    "organic": "only",
+    "shop": "convenience",
+    "source": "Association Mieux trier à Nantes, 07/2016",
+    "website": "http://www.obocal.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 5277827989,
+  "lat": 47.2167671,
+  "lon": -1.5592915,
+  "tags": {
+    "addr:city": "Nantes",
+    "addr:housenumber": "3",
+    "addr:postcode": "44000",
+    "addr:street": "Rue Pierre-Chéreau",
+    "bulk_purchase": "only",
+    "name": "Épicerie Day by Day",
+    "opening_hours": "Tu-Sa 10:30-13:00,15:00-19:00",
+    "organic": "yes",
+    "shop": "convenience",
+    "website": "http://daybyday-shop.com/magasin/nantes"
+  }
+},
+{
+  "type": "node",
+  "id": 5412170284,
+  "lat": 47.2315637,
+  "lon": -1.5744980,
+  "tags": {
+    "addr:city": "Nantes",
+    "addr:housenumber": "42",
+    "addr:postcode": "44100",
+    "addr:street": "Boulevard Jean XXIII",
+    "bulk_purchase": "only",
+    "name": "Green Shopper",
+    "opening_hours": "Mo 15:00-20:00; Tu-We 10:00-13:00, 17:00-19:00; Th 15:00-20:00; Fr 10:00-13:00, 17:00-19:00",
+    "organic": "yes",
+    "shop": "convenience",
+    "website": "https://greenshopper.fr/"
+  }
+},
+{
+  "type": "node",
+  "id": 5414276240,
+  "lat": 47.1037065,
+  "lon": -1.2322024,
+  "tags": {
+    "addr:city": "Sèvremoine",
+    "addr:housenumber": "14 bis",
+    "addr:postcode": "49230",
+    "addr:street": "Le Parveau",
+    "bulk_purchase": "only",
+    "contact:email": "casavrac@gmail.com",
+    "description": "Boutique de vente en ligne et sur place de produits vrac avec ivraison ou retrait en boutique",
+    "name": "CasaVrac",
+    "opening_hours:url": "https://www.casavrac.com/horaires",
+    "organic": "yes",
+    "shop": "convenience",
+    "website": "https://www.casavrac.com/"
+  }
+},
+{
+  "type": "way",
+  "id": 65504482,
+  "center": {
+    "lat": 47.1886989,
+    "lon": -1.4920779
+  },
+  "nodes": [
+    799410885,
+    799428989,
+    799407802,
+    799429737,
+    799419789,
+    799400848,
+    799421912,
+    799427917,
+    799410885
+  ],
+  "tags": {
+    "addr:city": "Saint-Sebastien-sur-Loire",
+    "addr:postcode": "44230",
+    "addr:street": "Rue Louis Blanc",
+    "building": "yes",
+    "bulk_purchase": "yes",
+    "name": "Biocoop",
+    "opening_hours": "Mo-Fr 09:30-19:30; Sa 09:30-19:00; Su off",
+    "organic": "only",
+    "shop": "supermarket",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+    "website": "https://www.biocoop.fr/magasins-bio/Trouver-mon-magasin-Biocoop/Pays-de-la-Loire/Loire-Atlantique/BIOCOOP-NANTES-SUD"
+  }
+},
+{
+  "type": "way",
+  "id": 73488024,
+  "center": {
+    "lat": 47.1873927,
+    "lon": -1.4621323
+  },
+  "nodes": [
+    870868750,
+    870880413,
+    870883344,
+    870867220,
+    870882556,
+    870870970,
+    870866907,
+    870870507,
+    870883019,
+    870864045,
+    870868771,
+    870876424,
+    870883048,
+    870882112,
+    870870349,
+    870867396,
+    870865728,
+    870877455,
+    870868750
+  ],
+  "tags": {
+    "addr:city": "Basse-Goulaine",
+    "addr:housenumber": "5",
+    "addr:postcode": "44115",
+    "addr:street": "Rue de l’Atlantique",
+    "building": "yes",
+    "bulk_purchase": "yes",
+    "name": "Chlorophylle Bio Goulaine",
+    "opening_hours": "Mo-Sa 09:00-19:30; Su off",
+    "organic": "only",
+    "shop": "supermarket",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+    "website": "http://www.chlorophylle-coop.com/"
+  }
+},
+{
+  "type": "way",
+  "id": 74126992,
+  "center": {
+    "lat": 47.1689113,
+    "lon": -1.4758052
+  },
+  "nodes": [
+    876929795,
+    876918191,
+    876936145,
+    876948833,
+    876926353,
+    876915067,
+    876932736,
+    876937153,
+    876913596,
+    876919633,
+    876914823,
+    876932523,
+    876921018,
+    3655506785,
+    876929795
+  ],
+  "tags": {
+    "addr:city": "Vertou",
+    "addr:housenumber": "15",
+    "addr:postcode": "44120",
+    "addr:street": "Rue Jeanne D'Arc",
+    "building": "yes",
+    "bulk_purchase": "yes",
+    "name": "La Vie Claire Vertou",
+    "opening_hours": "Mo-Sa 09:30-19:30; Su off",
+    "organic": "only",
+    "shop": "supermarket",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+    "website": "http://www.lavieclaire.com/magasin-bio/vertou.html"
+  }
+},
+{
+  "type": "way",
+  "id": 79282180,
+  "center": {
+    "lat": 47.0986000,
+    "lon": -1.2813321
+  },
+  "nodes": [
+    925924443,
+    925927611,
+    925895256,
+    925886168,
+    925905594,
+    925932873,
+    925900677,
+    925943936,
+    925912210,
+    925924443
+  ],
+  "tags": {
+    "addr:city": "Clisson",
+    "addr:housenumber": "5",
+    "addr:postcode": "44190",
+    "addr:street": "Rue des Malifestes",
+    "building": "yes",
+    "bulk_purchase": "yes",
+    "name": "Biocoop des 3 Provinces",
+    "opening_hours": "Mo off; Tu-Th 09:30-13:00, 14:30-19:30; Fr-Sa 09:30-19:30; Su off",
+    "operator": "Biocoop",
+    "organic": "only",
+    "shop": "convenience",
+    "website": "https://www.biocoop.fr/magasins-bio/Trouver-mon-magasin-Biocoop/Pays-de-la-Loire/Loire-Atlantique/BIOCOOP-DES-3-PROVINCES"
+  }
+},
+{
+  "type": "way",
+  "id": 80166696,
+  "center": {
+    "lat": 47.1560021,
+    "lon": -1.2666751
+  },
+  "nodes": [
+    935152125,
+    935008209,
+    935086736,
+    935139068,
+    935096183,
+    935159690,
+    935152125
+  ],
+  "tags": {
+    "addr:city": "Vallet",
+    "addr:housenumber": "24",
+    "addr:postcode": "44330",
+    "addr:street": "Boulevard d'Italie",
+    "building": "yes",
+    "bulk_purchase": "yes",
+    "name": "La Sangueze - Magasin Biocoop",
+    "opening_hours": "Mo-Sa 09:00-13:00, 14:30-19:00; Su off",
+    "organic": "only",
+    "phone": "+33 2 40 85 17 84",
+    "shop": "supermarket",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+    "website": "http://www.biocoop.fr/magasins-bio/Trouver-mon-magasin-Biocoop/Centre-Val-de-Loire/Loire-Atlantique/LA-SANGUEZE"
+  }
+},
+{
+  "type": "way",
+  "id": 84144147,
+  "center": {
+    "lat": 47.1551051,
+    "lon": -1.5363765
+  },
+  "nodes": [
+    978738263,
+    978721707,
+    978640415,
+    978727339,
+    978781696,
+    978781226,
+    978659448,
+    978725009,
+    978793796,
+    978783410,
+    978601090,
+    978741193,
+    978624261,
+    978649639,
+    978664393,
+    978604268,
+    978750438,
+    978710005,
+    978600917,
+    978598390,
+    978738263
+  ],
+  "tags": {
+    "addr:city": "Rezé",
+    "addr:housenumber": "147",
+    "addr:postcode": "44400",
+    "addr:street": "Route des Sorinières",
+    "bulk_purchase": "yes",
+    "name": "Chlorophylle Beaucéane",
+    "opening_hours": "Mo-Sa 09:00-19:30; Su off",
+    "organic": "only",
+    "shop": "supermarket",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+    "website": "http://www.chlorophylle-coop.com/"
+  }
+},
+{
+  "type": "way",
+  "id": 157255103,
+  "center": {
+    "lat": 47.4749255,
+    "lon": -1.7582613
+  },
+  "nodes": [
+    1694661834,
+    1694661836,
+    5372910662,
+    1694661823,
+    1694661808,
+    1694661804,
+    1694661792,
+    1694661775,
+    1694661756,
+    1694661834
+  ],
+  "tags": {
+    "addr:city": "Blain",
+    "addr:housenumber": "39",
+    "addr:postcode": "44130",
+    "addr:street": "Rue de Nantes",
+    "building": "yes",
+    "bulk_purchase": "yes",
+    "name": "Biocoop",
+    "opening_hours": "Mo 14:30-19:00; Tu-Th 09:00-12:45, 14:30-19:00; Fr 09:00-19:00; Sa 09:00-12:45, 14:30-18:30; Su off",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "http://biocinelle.biocoop.net/"
+  }
+},
+{
+  "type": "way",
+  "id": 224599086,
+  "center": {
+    "lat": 47.3603276,
+    "lon": -1.9439195
+  },
+  "nodes": [
+    2333495447,
+    2333496040,
+    2333501842,
+    2333509251,
+    2333508738,
+    2333502364,
+    2333502556,
+    2333501244,
+    2333500580,
+    2333500324,
+    2333495447
+  ],
+  "tags": {
+    "addr:city": "Savenay",
+    "addr:housenumber": "16",
+    "addr:postcode": "44260",
+    "addr:street": "Rue de l'église",
+    "building": "yes",
+    "bulk_purchase": "yes",
+    "name": "Ah ! L'étal Local",
+    "opening_hours": "Tu 09:00-13:00, 15:30-19:00; We-Fr 09:00-13:00, 15:00-19:00; Sa 09:00-19:00; Su 09:00-13:00",
+    "organic": "yes",
+    "shop": "convenience",
+    "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2012",
+    "website": "https://www.facebook.com/pg/ahletallocal"
+  }
+},
+{
+  "type": "way",
+  "id": 273808893,
+  "center": {
+    "lat": 47.7110600,
+    "lon": -1.3721131
+  },
+  "nodes": [
+    2786183593,
+    2786183459,
+    2786183089,
+    2786182909,
+    2786183448,
+    2786183593
+  ],
+  "tags": {
+    "addr:city": "Châteaubriant",
+    "addr:housenumber": "67 A",
+    "addr:postcode": "44110",
+    "addr:street": "Rue d'Ancenis",
+    "building": "retail",
+    "bulk_purchase": "yes",
+    "description": "Céréales de petit déjeuner;fruits secs;biscuits;sucre, thé, café et pépites de chocolat bio équitables;céréales et légumineuses;semoules, pâtes, farines, levure, sel, lessive, nettoyant multi-usages, liquide vaisselle, savon de marseille, etc.",
+    "level": "0",
+    "name": "Biocoop Biosphère",
+    "opening_hours": "Mo 14:00-19:00; Tu-Th 09:00-12:30, 14:00-19:00; Fr 09:00-19:00; Sa 09:00-18:00; Su off",
+    "organic": "only",
+    "phone": "+33 2 40 28 15 40",
+    "shop": "supermarket",
+    "website": "http://biosphere.biocoop.net/",
+    "wheelchair": "yes",
+    "wikipedia": "fr:Biocoop"
+  }
+}
+
+  ]
+}

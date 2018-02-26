@@ -50,24 +50,38 @@ L.tileLayer(
 ).addTo(map);
 
 
-$.ajax({
-    url:
-        'https://www.overpass-api.de/api/interpreter?data=' + 
-        '[out:json][timeout:25][maxsize:10737418];' +
-	'node["bulk_purchase"="yes"]('+boundSearchS+','+boundSearchW+','+boundSearchN+','+boundSearchE+');out;'+
-	'node["bulk_purchase"="only"]('+boundSearchS+','+boundSearchW+','+boundSearchN+','+boundSearchE+');out;'+
-	'way["bulk_purchase"="yes"]('+boundSearchS+','+boundSearchW+','+boundSearchN+','+boundSearchE+');out center;'+
-	'way["bulk_purchase"="only"]('+boundSearchS+','+boundSearchW+','+boundSearchN+','+boundSearchE+');out center;',
-    dataType: 'json',
-    type: 'GET',
-    async: true,
-    crossDomain: true
-}).done(function(response) {
-	addListOfShops(response.elements);
-}).fail(function(error) {
-    console.log(error);
-    alert('Impossible de récupérer les données :/');
-}).always(function() {});
+/**
+ * Load data from cache first
+ */
+$(document).ready(function(){
+    $.getJSON('cache_data.json', function(response) {
+        addListOfShops(response.elements);
+    })
+});
+
+/**
+ * Load data from OpenStreetMap with Overpass-Api
+ */
+function loadDataFromOSM(){
+    $.ajax({
+        url:
+            'https://www.overpass-api.de/api/interpreter?data=' + 
+            '[out:json][timeout:25][maxsize:10737418];' +
+	    'node["bulk_purchase"="yes"]('+boundSearchS+','+boundSearchW+','+boundSearchN+','+boundSearchE+');out;'+
+	    'node["bulk_purchase"="only"]('+boundSearchS+','+boundSearchW+','+boundSearchN+','+boundSearchE+');out;'+
+	    'way["bulk_purchase"="yes"]('+boundSearchS+','+boundSearchW+','+boundSearchN+','+boundSearchE+');out center;'+
+	    'way["bulk_purchase"="only"]('+boundSearchS+','+boundSearchW+','+boundSearchN+','+boundSearchE+');out center;',
+        dataType: 'json',
+        type: 'GET',
+        async: true,
+        crossDomain: true
+    }).done(function(response) {
+        //addListOfShops(response.elements);
+    }).fail(function(error) {
+        console.log(error);
+        alert('Impossible de récupérer les données :/');
+    }).always(function() {});
+}
 
 /**
  * Take a list of shops as JSON and display them in a cluster on the map
