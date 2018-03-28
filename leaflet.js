@@ -1,3 +1,56 @@
+// List of J'aime tes bocaux partner OSM nodes
+var jtbPartners = [
+	5456625523, 
+	1619954291, 
+	3474743920, 
+	3474835770, 
+	3474835769, 
+	1619954323, 
+	5456638652, 
+	1619954233, 
+	3470086335, 
+	5459152854, 
+	1727920548, 
+	3094180230, 
+	2255955928, 
+	5460145598, 
+	4394780789, 
+	476294585, 
+	2258874087, 
+	5460210375, 
+	2607658264, 
+	2289128176, 
+	2258874081, 
+	2485095784, 
+	3125795830, 
+	5460269733, 
+	5277827989, 
+	5460303725, 
+	2607658274, 
+	2255955928, 
+	5460375747, 
+	5460383333, 
+	5066198364, 
+	5460390736, 
+	1034073369, 
+	4201236610, 
+	2320443633, 
+	5460433357, 
+	224599086, 
+	5460439635, 
+	2583958955, 
+	5053854903, 
+	3683626198, 
+	364694509, 
+	1688797566, 
+	5460448714, 
+	2759353718, 
+	5460452139, 
+	5418567639, 
+	5460462886, 
+	5460468439
+];
+
 // Icon for supermarkets & conveniences having a bulk section
 var onlyBulkIcon = new L.Icon({
 	iconUrl: 'marker_bulk_only_icon.png',
@@ -14,12 +67,6 @@ var boundW = -2.7;
 var boundN = 48.1;
 var boundE = -0.4;
 var bounds = new L.LatLngBounds(new L.LatLng(boundN, boundE), new L.LatLng(boundS, boundW));
-
-// Bound for search
-var boundSearchS = 46.9;
-var boundSearchW = -2.7;
-var boundSearchN = 47.9;
-var boundSearchE = -0.4;
 
 // Map definition
 var maxZoom = 18;
@@ -60,30 +107,6 @@ $(document).ready(function(){
 });
 
 /**
- * Load data from OpenStreetMap with Overpass-Api
- */
-function loadDataFromOSM(){
-    $.ajax({
-        url:
-            'https://www.overpass-api.de/api/interpreter?data=' + 
-            '[out:json][timeout:25][maxsize:10737418];' +
-	    'node["bulk_purchase"="yes"]('+boundSearchS+','+boundSearchW+','+boundSearchN+','+boundSearchE+');out;'+
-	    'node["bulk_purchase"="only"]('+boundSearchS+','+boundSearchW+','+boundSearchN+','+boundSearchE+');out;'+
-	    'way["bulk_purchase"="yes"]('+boundSearchS+','+boundSearchW+','+boundSearchN+','+boundSearchE+');out center;'+
-	    'way["bulk_purchase"="only"]('+boundSearchS+','+boundSearchW+','+boundSearchN+','+boundSearchE+');out center;',
-        dataType: 'json',
-        type: 'GET',
-        async: true,
-        crossDomain: true
-    }).done(function(response) {
-        //addListOfShops(response.elements);
-    }).fail(function(error) {
-        console.log(error);
-        alert('Impossible de récupérer les données :/');
-    }).always(function() {});
-}
-
-/**
  * Take a list of shops as JSON and display them in a cluster on the map
  **/
 function addListOfShops(shopsJson) {
@@ -119,6 +142,7 @@ function addListOfShops(shopsJson) {
 
 		// Create popup content depending on element's tags
 		var popup = getPopupContent(
+				shop['id'],
 				name,
 				shopType,
 				shopTags['organic'],
@@ -143,24 +167,10 @@ function addListOfShops(shopsJson) {
 }
 
 /**
- * Transform OpenStreetMap hours into french readable hours
- **/
-function getReadableHours(hours){
-	return hours.replace("Mo", "Lundi")
-		.replace("Tu", "Mardi")
-		.replace("We", "Mercredi")
-		.replace("Th", "Jeudi")
-		.replace("Fr", "Vendredi")
-		.replace("Sa", "Samedi")
-		.replace("Su", "Dimanche")
-		.replace("off", "fermé")
-		.replace(",", " & ");
-}
-
-/**
  * Format shop information into an html style string for the popup
  **/
 function getPopupContent(
+		nodeId,
 		name,
 		shopType,
 		organic,
@@ -175,29 +185,7 @@ function getPopupContent(
 	var popup = '<b>'+name+'</b><br />';
 
 	// Set the shop type
-	popup += '<i>';
-
-	if (shopType == "convenience") {
-		popup += 'Épicerie';
-	} else if (shopType == "supermarket") {
-		popup += 'Supermarché';
-	}
-
-	if (organic == "yes" || organic == "only") {
-		popup += ' bio.';
-	}
-
-	if (bulk_purchase == "yes") {
-		popup += ' avec rayon vrac';
-	} else if (bulk_purchase == "only") {
-		popup += ' 100% vrac';
-	}
-
-	if (name == "Green Shopper") {
-		popup += ' en ligne';	
-	}
-
-	popup += '</i><br />';
+	popup += getShopTitle(name, shopType, organic, bulk_purchase) + '<br />';
 		
 	// Set the address	
 	if (street && housenumber) {
@@ -227,5 +215,94 @@ function getPopupContent(
 		popup +='<a href="' + website + '" target="_blank">Site web</a><br />';
 	}
 
+	// Show as J'aime tes bocaux partner if it's the case
+    if ($.inArray(nodeId, jtbPartners) > 0){
+	    popup += '<hr style="padding-bottom: ;padding-bottom: 0px;" size="1">';
+	    popup += '<div style="display: flex;"><img style="height: 50px;" src="jtb.png"/><div style="margin: auto; font-weight: bold;">Partenaire <br />J\'aime tes bocaux</div></div>';
+    }
+
 	return popup;
+}
+
+function getShopTitle(name, shopType, organic, bulk_purchase) {
+	// Start text with italic style
+	var title = '<i>';
+
+	// Set the shop type
+	if (shopType == "convenience") {
+		title += 'Épicerie';
+	} else if (shopType == "supermarket") {
+		title += 'Supermarché';
+	} else if (shopType == "butcher") {
+		title += 'Boucherie';
+	} else if (shopType == "dairy" || shopType == "cheese") {
+		title += 'Crèmerie';
+	} else if (shopType == "greengrocer") {
+		title += 'Primeur';
+	} else if (shopType == "chocolate") {
+		title += 'Chocolatier';
+	} else if (shopType == "bakery") {
+		title += 'Boulangerie';
+	} else if (shopType == "coffee") {
+		title += 'Torrefacteur';
+	} else if (shopType == "pastry") {
+		title += 'Pâtisserie';
+	} else if (shopType == "deli") {
+		title += 'Épicerie fine';
+	} else if (shopType == "tea") {
+		title += 'Magasin de thé';
+	} else if (shopType == "confectionery") {
+		title += 'Confiserie';
+	} else if (shopType == "seafood") {
+		title += 'Poissonerie';
+	} else if (shopType == "agrarian") {
+		title += 'Ferme';
+	} else {
+		title += 'Commerce';
+	}
+
+	// Add annotation if products are organics
+    var hasOrganicProducts = organic == "yes" || organic == "only";
+	if (hasOrganicProducts) {
+		title += ' bio.';
+	}
+
+
+	// Add different suffixe depending if it's a shop selling some bulk products or mainly bulk products
+    var hasOnlyBulkProducts = bulk_purchase == "only";
+	var hasBulkSection = bulk_purchase == "yes" || hasOnlyBulkProducts;
+		
+	if (hasBulkSection) {
+		if (bulk_purchase == "only") {
+			title += ' 100% vrac';
+		} else {
+			title += ' avec rayon vrac';
+		}
+
+		if (name == "Green Shopper") {
+			title += ' en ligne';	
+		}
+	} else {
+		title += ' acceptant vos contenants';
+	}
+
+	// Close text with style
+	title += '</i>';
+
+	return title;
+}
+
+/**
+ * Transform OpenStreetMap hours into french readable hours
+ **/
+function getReadableHours(hours){
+	return hours.replace("Mo", "Lundi")
+		.replace("Tu", "Mardi")
+		.replace("We", "Mercredi")
+		.replace("Th", "Jeudi")
+		.replace("Fr", "Vendredi")
+		.replace("Sa", "Samedi")
+		.replace("Su", "Dimanche")
+		.replace("off", "fermé")
+		.replace(",", " & ");
 }
