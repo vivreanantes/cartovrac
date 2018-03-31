@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.54.13 ff15392f",
   "osm3s": {
-    "timestamp_osm_base": "2018-03-28T19:54:02Z",
+    "timestamp_osm_base": "2018-03-31T16:36:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -1107,7 +1107,7 @@
     "addr:postcode": "44000",
     "addr:street": "Rue Racine",
     "name": "Du vert en ville",
-    "organic": "yes",
+    "organic": "only",
     "shop": "convenience",
     "source": "J'aime tes bocaux"
   }
@@ -1313,6 +1313,19 @@
     "organic": "only",
     "shop": "supermarket",
     "website": "http://www.eau-vive.com"
+  }
+},
+{
+  "type": "node",
+  "id": 5518872681,
+  "lat": 47.2223980,
+  "lon": -1.7135231,
+  "tags": {
+    "addr:city": "Couëron",
+    "addr:postcode": "44220",
+    "addr:street": "Chemin du Chef de l'Eau",
+    "name": "Ferme des Roches",
+    "shop": "agrarian"
   }
 },
 {
