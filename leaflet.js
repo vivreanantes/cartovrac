@@ -132,11 +132,10 @@ function addListOfShops(shopsJson) {
 
 		// Get shop information
 		var name = shopTags['name'];
-		var shopType = shopTags['shop'];
 		var bulk_purchase = shopTags['bulk_purchase'];
 
 		// check minimum information to display a marker
-		if (!lat || !lon || !name || !shopType) {
+		if (!lat || !lon || !name) {
 			continue
 		}
 
@@ -144,7 +143,8 @@ function addListOfShops(shopsJson) {
 		var popup = getPopupContent(
 				shop['id'],
 				name,
-				shopType,
+				shopTags['shop'],
+				shopTags['amenity'],
 				shopTags['organic'],
 				bulk_purchase,
 				shopTags['addr:housenumber'],
@@ -173,6 +173,7 @@ function getPopupContent(
 		nodeId,
 		name,
 		shopType,
+		amenity,
 		organic,
 		bulk_purchase,
 		housenumber,
@@ -185,7 +186,10 @@ function getPopupContent(
 	var popup = '<b>'+name+'</b><br />';
 
 	// Set the shop type
-	popup += getShopTitle(name, shopType, organic, bulk_purchase) + '<br />';
+	var shopTitle = getShopTitle(name, amenity, shopType, organic, bulk_purchase);
+	if (shopTitle) {
+		popup += shopTitle + '<br />';
+	}
 		
 	// Set the address	
 	if (street && housenumber) {
@@ -224,7 +228,7 @@ function getPopupContent(
 	return popup;
 }
 
-function getShopTitle(name, shopType, organic, bulk_purchase) {
+function getShopTitle(name, amenity, shopType, organic, bulk_purchase) {
 	// Start text with italic style
 	var title = '<i>';
 
@@ -257,8 +261,15 @@ function getShopTitle(name, shopType, organic, bulk_purchase) {
 		title += 'Poissonerie';
 	} else if (shopType == "agrarian") {
 		title += 'Ferme';
-	} else {
+	} else if (shopType != null) {
 		title += 'Commerce';
+	} else if (amenity == "fast_food") {
+		title += 'Fast-food';
+	}  else if (amenity == "restaurant") {
+		title += 'Restaurant';
+	} else {
+		log("Unknown shop type with name="+name+" ; type="+shopType+" and amenity="+amenity)
+		return null;
 	}
 
 	// Add annotation if products are organics
