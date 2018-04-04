@@ -268,7 +268,7 @@ function getShopTitle(name, amenity, shopType, organic, bulk_purchase) {
 	}  else if (amenity == "restaurant") {
 		title += 'Restaurant';
 	} else {
-		log("Unknown shop type with name="+name+" ; type="+shopType+" and amenity="+amenity)
+		console.log("Unknown shop type with name="+name+" ; type="+shopType+" and amenity="+amenity);
 		return null;
 	}
 

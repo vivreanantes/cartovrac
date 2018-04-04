@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.54.13 ff15392f",
   "osm3s": {
-    "timestamp_osm_base": "2018-03-31T16:36:02Z",
+    "timestamp_osm_base": "2018-04-04T14:02:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -26,6 +26,29 @@
     "cuisine": "french",
     "name": "La Cuillère en Coin",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre;mise à jour : 2009"
+  }
+},
+{
+  "type": "node",
+  "id": 475385271,
+  "lat": 47.2147524,
+  "lon": -1.5548521,
+  "tags": {
+    "addr:city": "Nantes",
+    "addr:housenumber": "9",
+    "addr:postcode": "44000",
+    "addr:street": "Rue de la Bléterie",
+    "amenity": "restaurant",
+    "contact:city": "Nantes",
+    "contact:country": "FR",
+    "contact:housenumber": "9",
+    "contact:postcode": "44000",
+    "contact:street": "Rue de la Bléterie",
+    "contact:website": "http://www.chacharestaurant.fr/",
+    "cuisine": "french",
+    "name": "Chacha",
+    "organic": "yes",
+    "takeaway": "yes"
   }
 },
 {
@@ -287,6 +310,28 @@
     "name": "Le Bouffay Spañol",
     "origin": "spanish",
     "shop": "deli"
+  }
+},
+{
+  "type": "node",
+  "id": 2393205127,
+  "lat": 47.2162797,
+  "lon": -1.5521914,
+  "tags": {
+    "amenity": "restaurant",
+    "capacity": "45",
+    "contact:city": "Nantes",
+    "contact:country": "FR",
+    "contact:housenumber": "12",
+    "contact:postcode": "44000",
+    "contact:street": "Rue du Château",
+    "cuisine": "french",
+    "name": "Dînette",
+    "opening_hours": "Mo-Su 12:00-19:00; Tu off",
+    "phone": "+33 2 51 82 79 13",
+    "smoking": "outside",
+    "website": "https://www.facebook.com/dinettenantes/",
+    "wheelchair": "limited"
   }
 },
 {
@@ -695,6 +740,33 @@
 },
 {
   "type": "node",
+  "id": 4199637816,
+  "lat": 47.2211715,
+  "lon": -1.5578118,
+  "tags": {
+    "addr:city": "Nantes",
+    "addr:postcode": "44000",
+    "addr:street": "Rue Basse Porte",
+    "name": "Talensac Marée",
+    "shop": "seafood"
+  }
+},
+{
+  "type": "node",
+  "id": 4201236594,
+  "lat": 47.2211701,
+  "lon": -1.5580034,
+  "tags": {
+    "addr:city": "Nantes",
+    "addr:postcode": "44000",
+    "addr:street": "Rue Basse Porte",
+    "name": "Boucherie Biologique Nantaise",
+    "organic": "yes",
+    "shop": "butcher"
+  }
+},
+{
+  "type": "node",
   "id": 4201236610,
   "lat": 47.2212685,
   "lon": -1.5582387,
@@ -850,6 +922,24 @@
     "organic": "only",
     "shop": "supermarket",
     "website": "http://www.chlorophylle-coop.com"
+  }
+},
+{
+  "type": "node",
+  "id": 4917847921,
+  "lat": 47.2207118,
+  "lon": -1.5486393,
+  "tags": {
+    "addr:city": "Nantes",
+    "addr:housenumber": "66",
+    "addr:postcode": "44000",
+    "addr:street": "Rue Maréchal Joffre",
+    "amenity": "restaurant",
+    "cuisine": "asian",
+    "name": "Thaigan",
+    "name:fr": "Thaigan",
+    "takeaway": "yes",
+    "website": "https://www.facebook.com/thaigannantes/"
   }
 },
 {
@@ -1171,6 +1261,20 @@
 },
 {
   "type": "node",
+  "id": 5460362739,
+  "lat": 47.2135328,
+  "lon": -1.5628934,
+  "tags": {
+    "addr:city": "Nantes",
+    "addr:housenumber": "2",
+    "addr:postcode": "44000",
+    "addr:street": "Rue Franklin",
+    "name": "ThéÔphil",
+    "shop": "tea"
+  }
+},
+{
+  "type": "node",
   "id": 5460375747,
   "lat": 47.2119373,
   "lon": -1.6529673,
@@ -1326,6 +1430,23 @@
     "addr:street": "Chemin du Chef de l'Eau",
     "name": "Ferme des Roches",
     "shop": "agrarian"
+  }
+},
+{
+  "type": "node",
+  "id": 5528055528,
+  "lat": 47.2070656,
+  "lon": -1.5551622,
+  "tags": {
+    "addr:city": "Nantes",
+    "addr:housenumber": "6",
+    "addr:postcode": "44200",
+    "addr:street": "Rue Louis Blanc",
+    "amenity": "restaurant",
+    "cuisine": "vegan;french;local",
+    "name": "Petit b",
+    "takeaway": "yes",
+    "website": "https://www.facebook.com/petitbcafelibrairie/"
   }
 },
 {
