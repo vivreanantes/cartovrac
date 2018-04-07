@@ -51,14 +51,155 @@ var jtbPartners = [
 	5460468439
 ];
 
-// Icon for supermarkets & conveniences having a bulk section
-var onlyBulkIcon = new L.Icon({
-	iconUrl: 'marker_bulk_only_icon.png',
-  	shadowUrl: 'marker-shadow.png',
-  	iconSize: [35, 57],
-  	iconAnchor: [15, 57],
-  	popupAnchor: [3, -58],
-  	shadowSize: [50, 50]
+// Icons
+var iconSize = [35, 57];
+var iconAnchor = [15, 57];
+var popupAnchor = [3, -58];
+var	shadowSize = [50, 50];
+var shadowUrl = 'marker-shadow.png';
+
+var convenienceIcon = new L.Icon({
+	iconUrl: 'icons/icon_convenience.png',
+  	shadowUrl: shadowUrl,
+  	iconSize: iconSize,
+  	iconAnchor: iconAnchor,
+  	popupAnchor: popupAnchor,
+  	shadowSize: shadowSize
+});
+
+var supermarketIcon = new L.Icon({
+	iconUrl: 'icons/icon_supermarket.png',
+  	shadowUrl: shadowUrl,
+  	iconSize: iconSize,
+  	iconAnchor: iconAnchor,
+  	popupAnchor: popupAnchor,
+  	shadowSize: shadowSize
+});
+
+var butcherIcon = new L.Icon({
+	iconUrl: 'icons/icon_butcher.png',
+  	shadowUrl: shadowUrl,
+  	iconSize: iconSize,
+  	iconAnchor: iconAnchor,
+  	popupAnchor: popupAnchor,
+  	shadowSize: shadowSize
+});
+
+var dairyIcon = new L.Icon({
+	iconUrl: 'icons/icon_dairy.png',
+  	shadowUrl: shadowUrl,
+  	iconSize: iconSize,
+  	iconAnchor: iconAnchor,
+  	popupAnchor: popupAnchor,
+  	shadowSize: shadowSize
+});
+
+var greengrocerIcon = new L.Icon({
+	iconUrl: 'icons/icon_greengrocer.png',
+  	shadowUrl: shadowUrl,
+  	iconSize: iconSize,
+  	iconAnchor: iconAnchor,
+  	popupAnchor: popupAnchor,
+  	shadowSize: shadowSize
+});
+
+var chocolateIcon = new L.Icon({
+	iconUrl: 'icons/icon_chocolate.png',
+  	shadowUrl: shadowUrl,
+  	iconSize: iconSize,
+  	iconAnchor: iconAnchor,
+  	popupAnchor: popupAnchor,
+  	shadowSize: shadowSize
+});
+
+var bakeryIcon = new L.Icon({
+	iconUrl: 'icons/icon_bakery.png',
+  	shadowUrl: shadowUrl,
+  	iconSize: iconSize,
+  	iconAnchor: iconAnchor,
+  	popupAnchor: popupAnchor,
+  	shadowSize: shadowSize
+});
+
+var coffeeIcon = new L.Icon({
+	iconUrl: 'icons/icon_coffee.png',
+  	shadowUrl: shadowUrl,
+  	iconSize: iconSize,
+  	iconAnchor: iconAnchor,
+  	popupAnchor: popupAnchor,
+  	shadowSize: shadowSize
+});
+
+var pastryIcon = new L.Icon({
+	iconUrl: 'icons/icon_pastry.png',
+  	shadowUrl: shadowUrl,
+  	iconSize: iconSize,
+  	iconAnchor: iconAnchor,
+  	popupAnchor: popupAnchor,
+  	shadowSize: shadowSize
+});
+
+var deliIcon = new L.Icon({
+	iconUrl: 'icons/icon_deli.png',
+  	shadowUrl: shadowUrl,
+  	iconSize: iconSize,
+  	iconAnchor: iconAnchor,
+  	popupAnchor: popupAnchor,
+  	shadowSize: shadowSize
+});
+
+var teaIcon = new L.Icon({
+	iconUrl: 'icons/icon_tea.png',
+  	shadowUrl: shadowUrl,
+  	iconSize: iconSize,
+  	iconAnchor: iconAnchor,
+  	popupAnchor: popupAnchor,
+  	shadowSize: shadowSize
+});
+
+var confectioneryIcon = new L.Icon({
+	iconUrl: 'icons/icon_confectionery.png',
+  	shadowUrl: shadowUrl,
+  	iconSize: iconSize,
+  	iconAnchor: iconAnchor,
+  	popupAnchor: popupAnchor,
+  	shadowSize: shadowSize
+});
+
+var seafoodIcon = new L.Icon({
+	iconUrl: 'icons/icon_seafood.png',
+  	shadowUrl: shadowUrl,
+  	iconSize: iconSize,
+  	iconAnchor: iconAnchor,
+  	popupAnchor: popupAnchor,
+  	shadowSize: shadowSize
+});
+
+var agrarianIcon = new L.Icon({
+	iconUrl: 'icons/agrarian.png',
+  	shadowUrl: shadowUrl,
+  	iconSize: iconSize,
+  	iconAnchor: iconAnchor,
+  	popupAnchor: popupAnchor,
+  	shadowSize: shadowSize
+});
+
+var fastFoodIcon = new L.Icon({
+	iconUrl: 'icons/icon_fast_food.png',
+  	shadowUrl: shadowUrl,
+  	iconSize: iconSize,
+  	iconAnchor: iconAnchor,
+  	popupAnchor: popupAnchor,
+  	shadowSize: shadowSize
+});
+
+var restaurantIcon = new L.Icon({
+	iconUrl: 'icons/icon_restaurant.png',
+  	shadowUrl: shadowUrl,
+  	iconSize: iconSize,
+  	iconAnchor: iconAnchor,
+  	popupAnchor: popupAnchor,
+  	shadowSize: shadowSize
 });
 
 // Bounds for display
@@ -156,7 +297,7 @@ function addListOfShops(shopsJson) {
 		);
 
 		// Create icon depending on the shop type
-		var icon = {icon: onlyBulkIcon}
+		var icon = getIcon(shopTags['shop'], shopTags['amenity']);
 
 		// Add marker and popup to the cluser
 		cluster.addLayer(L.marker(new L.latLng(lat,lon), icon).bindPopup(popup));
@@ -261,8 +402,6 @@ function getShopTitle(name, amenity, shopType, organic, bulk_purchase) {
 		title += 'Poissonerie';
 	} else if (shopType == "agrarian") {
 		title += 'Ferme';
-	} else if (shopType != null) {
-		title += 'Commerce';
 	} else if (amenity == "fast_food") {
 		title += 'Fast-food';
 	}  else if (amenity == "restaurant") {
@@ -317,3 +456,48 @@ function getReadableHours(hours){
 		.replace("off", "fermé")
 		.replace(",", " & ");
 }
+
+/**
+ * Get the icon that matches the shop type
+ */
+ function getIcon(shopType, amenity) {
+ 	var icon;
+
+ 	if (shopType == "convenience") {
+		icon = {icon: convenienceIcon};
+	} else if (shopType == "supermarket") {
+		icon = {icon: supermarketIcon};
+	} else if (shopType == "butcher") {
+		icon = {icon: butcherIcon};
+	} else if (shopType == "dairy" || shopType == "cheese") {
+		icon = {icon: dairyIcon};
+	} else if (shopType == "greengrocer") {
+		icon = {icon: greengrocerIcon};
+	} else if (shopType == "chocolate") {
+		icon = {icon: chocolateIcon};
+	} else if (shopType == "bakery") {
+		icon = {icon: bakeryIcon};
+	} else if (shopType == "coffee") {
+		icon = {icon: coffeeIcon};
+	} else if (shopType == "pastry") {
+		icon = {icon: pastryIcon};
+	} else if (shopType == "deli") {
+		icon = {icon: deliIcon};
+	} else if (shopType == "tea") {
+		icon = {icon: teaIcon};
+	} else if (shopType == "confectionery") {
+		icon = {icon: confectioneryIcon};
+	} else if (shopType == "seafood") {
+		icon = {icon: seafoodIcon};
+	} else if (shopType == "agrarian") {
+		icon = {icon: agrarianIcon};
+	} else if (amenity == "fast_food") {
+		icon = {icon: fastFoodIcon};
+	}  else if (amenity == "restaurant") {
+		icon = {icon: restaurantIcon};
+	} else {
+		icon = null;
+	}
+ 	
+ 	return icon;
+ }
