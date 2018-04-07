@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.54.13 ff15392f",
   "osm3s": {
-    "timestamp_osm_base": "2018-04-04T14:02:02Z",
+    "timestamp_osm_base": "2018-04-07T16:19:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -258,6 +258,21 @@
 },
 {
   "type": "node",
+  "id": 2258874082,
+  "lat": 47.2165132,
+  "lon": -1.5550782,
+  "tags": {
+    "amenity": "cafe",
+    "contact:city": "Nantes",
+    "contact:country": "FR",
+    "contact:housenumber": "5",
+    "contact:postcode": "44000",
+    "contact:street": "Rue des Bons Français",
+    "name": "Mango"
+  }
+},
+{
+  "type": "node",
   "id": 2258874087,
   "lat": 47.2164559,
   "lon": -1.5552468,
@@ -272,7 +287,7 @@
     "contact:postcode": "44000",
     "contact:street": "Rue des Carmes",
     "name": "Sources",
-    "opening_hours": "mon off; tue-sat: 10:00-19:30; sun off",
+    "opening_hours": "mon off; tue-sat 10:00-19:30; sun off",
     "shop": "deli"
   }
 },
@@ -926,6 +941,23 @@
 },
 {
   "type": "node",
+  "id": 4829754273,
+  "lat": 47.2143194,
+  "lon": -1.5634232,
+  "tags": {
+    "addr:city": "Nantes",
+    "addr:housenumber": "7",
+    "addr:postcode": "44000",
+    "addr:street": "Rue Franklin",
+    "craft": "caterer",
+    "name": "Brison",
+    "opening_hours": "Mo-Sa 08:30-19:45; Su off",
+    "phone": "+33 2 40 48 51 39",
+    "website": "http://www.brisontraiteur.com/"
+  }
+},
+{
+  "type": "node",
   "id": 4917847921,
   "lat": 47.2207118,
   "lon": -1.5486393,
@@ -1447,6 +1479,21 @@
     "name": "Petit b",
     "takeaway": "yes",
     "website": "https://www.facebook.com/petitbcafelibrairie/"
+  }
+},
+{
+  "type": "node",
+  "id": 5536163901,
+  "lat": 47.2760082,
+  "lon": -2.2133227,
+  "tags": {
+    "addr:city": "Saint-Nazaire",
+    "addr:housenumber": "17",
+    "addr:postcode": "44600",
+    "addr:street": "Avenue de la République",
+    "name": "La Coop du Coin",
+    "shop": "convenience",
+    "website": "https://lacoopducoin-epicerie-cooperative-participative.fr/"
   }
 },
 {

@@ -48,7 +48,22 @@ var jtbPartners = [
 	5460452139, 
 	5418567639, 
 	5460462886, 
-	5460468439
+	5460468439,
+	5518872681,
+	5460362739,
+	2672093889,
+	5333494928,
+	4267907899,
+	2416353080,
+	4201236594,
+	4199637816,
+	475385271,
+	4917847921,
+	2393205127,
+	5528055528,
+	5536163901,
+	2258874082,
+	4829754273
 ];
 
 // Icons
@@ -121,8 +136,8 @@ var bakeryIcon = new L.Icon({
   	shadowSize: shadowSize
 });
 
-var coffeeIcon = new L.Icon({
-	iconUrl: 'icons/icon_coffee.png',
+var coffeeShopIcon = new L.Icon({
+	iconUrl: 'icons/icon_coffeeShop.png',
   	shadowUrl: shadowUrl,
   	iconSize: iconSize,
   	iconAnchor: iconAnchor,
@@ -195,6 +210,15 @@ var fastFoodIcon = new L.Icon({
 
 var restaurantIcon = new L.Icon({
 	iconUrl: 'icons/icon_restaurant.png',
+  	shadowUrl: shadowUrl,
+  	iconSize: iconSize,
+  	iconAnchor: iconAnchor,
+  	popupAnchor: popupAnchor,
+  	shadowSize: shadowSize
+});
+
+var cafeAmenityIcon = new L.Icon({
+	iconUrl: 'icons/icon_cafeAmenity.png',
   	shadowUrl: shadowUrl,
   	iconSize: iconSize,
   	iconAnchor: iconAnchor,
@@ -285,7 +309,8 @@ function addListOfShops(shopsJson) {
 				shop['id'],
 				name,
 				shopTags['shop'],
-				shopTags['amenity'],
+				shopTags['amenity'], 
+				shopTags['craft'],
 				shopTags['organic'],
 				bulk_purchase,
 				shopTags['addr:housenumber'],
@@ -297,7 +322,7 @@ function addListOfShops(shopsJson) {
 		);
 
 		// Create icon depending on the shop type
-		var icon = getIcon(shopTags['shop'], shopTags['amenity']);
+		var icon = getIcon(shopTags['shop'], shopTags['amenity'], shopTags['craft']);
 
 		// Add marker and popup to the cluser
 		cluster.addLayer(L.marker(new L.latLng(lat,lon), icon).bindPopup(popup));
@@ -315,6 +340,7 @@ function getPopupContent(
 		name,
 		shopType,
 		amenity,
+		craft,
 		organic,
 		bulk_purchase,
 		housenumber,
@@ -327,7 +353,7 @@ function getPopupContent(
 	var popup = '<b>'+name+'</b><br />';
 
 	// Set the shop type
-	var shopTitle = getShopTitle(name, amenity, shopType, organic, bulk_purchase);
+	var shopTitle = getShopTitle(name, amenity, craft, shopType, organic, bulk_purchase);
 	if (shopTitle) {
 		popup += shopTitle + '<br />';
 	}
@@ -369,7 +395,7 @@ function getPopupContent(
 	return popup;
 }
 
-function getShopTitle(name, amenity, shopType, organic, bulk_purchase) {
+function getShopTitle(name, amenity, craft, shopType, organic, bulk_purchase) {
 	// Start text with italic style
 	var title = '<i>';
 
@@ -406,6 +432,10 @@ function getShopTitle(name, amenity, shopType, organic, bulk_purchase) {
 		title += 'Fast-food';
 	}  else if (amenity == "restaurant") {
 		title += 'Restaurant';
+	} else if (amenity == "cafe") {
+		title += 'Café';
+	} else if (craft == "caterer") {
+		title += 'Traiteur';
 	} else {
 		console.log("Unknown shop type with name="+name+" ; type="+shopType+" and amenity="+amenity);
 		return null;
@@ -460,7 +490,7 @@ function getReadableHours(hours){
 /**
  * Get the icon that matches the shop type
  */
- function getIcon(shopType, amenity) {
+ function getIcon(shopType, amenity, craft) {
  	var icon;
 
  	if (shopType == "convenience") {
@@ -478,7 +508,7 @@ function getReadableHours(hours){
 	} else if (shopType == "bakery") {
 		icon = {icon: bakeryIcon};
 	} else if (shopType == "coffee") {
-		icon = {icon: coffeeIcon};
+		icon = {icon: coffeeShopIcon};
 	} else if (shopType == "pastry") {
 		icon = {icon: pastryIcon};
 	} else if (shopType == "deli") {
@@ -493,7 +523,11 @@ function getReadableHours(hours){
 		icon = {icon: agrarianIcon};
 	} else if (amenity == "fast_food") {
 		icon = {icon: fastFoodIcon};
-	}  else if (amenity == "restaurant") {
+	} else if (amenity == "restaurant") {
+		icon = {icon: restaurantIcon};
+	} else if (amenity == "cafe") {
+		icon = {icon: cafeAmenityIcon};
+	} else if (craft == "caterer") {
 		icon = {icon: restaurantIcon};
 	} else {
 		icon = null;
