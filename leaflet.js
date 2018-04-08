@@ -34,6 +34,47 @@ L.tileLayer(
 ).addTo(map);
 
 
+var ShopEnum = {
+  CONVENIENCE: 1,
+  SUPERMARKET: 2,
+  BUTCHER: 3,
+  DAIRY: 4,
+  GREENGROCER: 5,
+  BAKERY: 6,
+  COFFEE: 7,
+  PASTRY: 8,
+  DELI: 9,
+  TEA: 10,
+  CONFECTIONERY: 11,
+  SEAFOOD: 12,
+  AGRARIAN: 13,
+  FAST_FOOD: 14,
+  RESTAURANT: 15,
+  CAFE: 16,
+  CATERER: 17,
+  CHOCOLATE: 18,
+  properties: {
+    1: {icon: convenienceIcon, titlePrefix: 'Épicerie'},
+    2: {icon: supermarketIcon, titlePrefix: 'Supermarché'},
+    3: {icon: butcherIcon, titlePrefix: 'Boucherie'},
+    4: {icon: dairyIcon, titlePrefix: 'Crèmerie'},
+    5: {icon: greengrocerIcon, titlePrefix: 'Primeur'},
+    6: {icon: bakeryIcon, titlePrefix: 'Boulangerie'},
+    7: {icon: coffeeShopIcon, titlePrefix: 'Torrefacteur'},
+    8: {icon: pastryIcon, titlePrefix: 'Pâtisserie'},
+    9: {icon: deliIcon, titlePrefix: 'Épicerie fine'},
+    10: {icon: teaIcon, titlePrefix: 'Magasin de thé'},
+    11: {icon: confectioneryIcon, titlePrefix: 'Confiserie'},
+    12: {icon: seafoodIcon, titlePrefix: 'Poissonerie'},
+    13: {icon: agrarianIcon, titlePrefix: 'Ferme'},
+    14: {icon: fastFoodIcon, titlePrefix: 'Fast-food'},
+    15: {icon: restaurantIcon, titlePrefix: 'Restaurant'},
+    16: {icon: cafeAmenityIcon, titlePrefix: 'Café'},
+    17: {icon: restaurantIcon, titlePrefix: 'Traiteur'},
+    18: {icon: chocolateIcon, titlePrefix: 'Chocolatier'}
+  }
+};
+
 /**
  * Load data from cache first
  */
@@ -75,34 +116,36 @@ function addListOfShops() {
 			lon = shop['lon'];
 		}
 
-		// Get shop information
-		var name = shopTags['name'];
-		var bulk_purchase = shopTags['bulk_purchase'];
-
 		// check minimum information to display a marker
-		if (!lat || !lon || !name) {
-			continue
+		if (!lat || !lon) {
+			continue;
 		}
+
+		// Get the type of shop/amenity to manage
+		var type = getType(shopTags['name'], shopTags['shop'], shopTags['amenity'], shopTags['craft']);
 
 		// Create popup content depending on element's tags
 		var popup = getPopupContent(
 				shop['id'],
-				name,
-				shopTags['shop'],
-				shopTags['amenity'], 
-				shopTags['craft'],
+				shopTags['name'],
 				shopTags['organic'],
-				bulk_purchase,
+				shopTags['bulk_purchase'],
 				shopTags['addr:housenumber'],
 				shopTags['addr:street'],
 				shopTags['addr:postcode'],
 				shopTags['addr:city'],
 				shopTags['opening_hours'],
-				shopTags['website']
+				shopTags['website'],
+				type
 		);
 
+		// Check that popup has been correctly created
+		if (!popup) {
+			continue;
+		}
+
 		// Create icon depending on the shop type
-		var icon = getIcon(shopTags['shop'], shopTags['amenity'], shopTags['craft']);
+		var icon = {icon: ShopEnum.properties[type].icon};
 
 		// Add marker and popup to the cluser
 		cluster.addLayer(L.marker(new L.latLng(lat,lon), icon).bindPopup(popup));
@@ -118,9 +161,6 @@ function addListOfShops() {
 function getPopupContent(
 		nodeId,
 		name,
-		shopType,
-		amenity,
-		craft,
 		organic,
 		bulk_purchase,
 		housenumber,
@@ -128,12 +168,19 @@ function getPopupContent(
 		postcode,
 		city,
 		hours,
-		website
+		website,
+		type
 ){
+
+	// Check that name exists
+	if (!name) {
+		return null;
+	}
+
 	var popup = '<b>'+name+'</b><br />';
 
 	// Set the shop type
-	var shopTitle = getShopTitle(name, amenity, craft, shopType, organic, bulk_purchase);
+	var shopTitle = getShopTitle(type, organic, bulk_purchase);
 	if (shopTitle) {
 		popup += shopTitle + '<br />';
 	}
@@ -185,51 +232,12 @@ function isJaimeTesBocauxPartner(nodeId) {
  	return matchingPartners.length > 0;
 }
 
-function getShopTitle(name, amenity, craft, shopType, organic, bulk_purchase) {
-	// Start text with italic style
-	var title = '<i>';
-
-	// Set the shop type
-	if (shopType == "convenience") {
-		title += 'Épicerie';
-	} else if (shopType == "supermarket") {
-		title += 'Supermarché';
-	} else if (shopType == "butcher") {
-		title += 'Boucherie';
-	} else if (shopType == "dairy" || shopType == "cheese") {
-		title += 'Crèmerie';
-	} else if (shopType == "greengrocer") {
-		title += 'Primeur';
-	} else if (shopType == "chocolate") {
-		title += 'Chocolatier';
-	} else if (shopType == "bakery") {
-		title += 'Boulangerie';
-	} else if (shopType == "coffee") {
-		title += 'Torrefacteur';
-	} else if (shopType == "pastry") {
-		title += 'Pâtisserie';
-	} else if (shopType == "deli") {
-		title += 'Épicerie fine';
-	} else if (shopType == "tea") {
-		title += 'Magasin de thé';
-	} else if (shopType == "confectionery") {
-		title += 'Confiserie';
-	} else if (shopType == "seafood") {
-		title += 'Poissonerie';
-	} else if (shopType == "agrarian") {
-		title += 'Ferme';
-	} else if (amenity == "fast_food") {
-		title += 'Fast-food';
-	}  else if (amenity == "restaurant") {
-		title += 'Restaurant';
-	} else if (amenity == "cafe") {
-		title += 'Café';
-	} else if (craft == "caterer") {
-		title += 'Traiteur';
-	} else {
-		console.log("Unknown shop type with name="+name+" ; type="+shopType+" and amenity="+amenity);
-		return null;
-	}
+/**
+ * Get a title describing the shop type
+ */
+function getShopTitle(type, organic, bulk_purchase) {
+	// Start text with italic style and add prefix depending on type
+	var title = '<i>' + ShopEnum.properties[type].titlePrefix;
 
 	// Add annotation if products are organics
     var hasOrganicProducts = organic == "yes" || organic == "only";
@@ -278,50 +286,51 @@ function getReadableHours(hours){
 }
 
 /**
- * Get the icon that matches the shop type
+ * Get the type of shop/amenity
  */
- function getIcon(shopType, amenity, craft) {
- 	var icon;
+ function getType(name, shopType, amenity, craft) {
+ 	var type;
 
  	if (shopType == "convenience") {
-		icon = {icon: convenienceIcon};
+		type = ShopEnum.CONVENIENCE;
 	} else if (shopType == "supermarket") {
-		icon = {icon: supermarketIcon};
+		type = ShopEnum.SUPERMARKET;
 	} else if (shopType == "butcher") {
-		icon = {icon: butcherIcon};
+		type = ShopEnum.BUTCHER;
 	} else if (shopType == "dairy" || shopType == "cheese") {
-		icon = {icon: dairyIcon};
+		type = ShopEnum.DAIRY;
 	} else if (shopType == "greengrocer") {
-		icon = {icon: greengrocerIcon};
+		type = ShopEnum.GREENGROCER;
 	} else if (shopType == "chocolate") {
-		icon = {icon: chocolateIcon};
+		type = ShopEnum.CHOCOLATE;
 	} else if (shopType == "bakery") {
-		icon = {icon: bakeryIcon};
+		type = ShopEnum.BAKERY;
 	} else if (shopType == "coffee") {
-		icon = {icon: coffeeShopIcon};
+		type = ShopEnum.COFFEE;
 	} else if (shopType == "pastry") {
-		icon = {icon: pastryIcon};
+		type = ShopEnum.PASTRY;
 	} else if (shopType == "deli") {
-		icon = {icon: deliIcon};
+		type = ShopEnum.DELI;
 	} else if (shopType == "tea") {
-		icon = {icon: teaIcon};
+		type = ShopEnum.TEA;
 	} else if (shopType == "confectionery") {
-		icon = {icon: confectioneryIcon};
+		type = ShopEnum.CONFECTIONERY;
 	} else if (shopType == "seafood") {
-		icon = {icon: seafoodIcon};
+		type = ShopEnum.SEAFOOD;
 	} else if (shopType == "agrarian") {
-		icon = {icon: agrarianIcon};
+		type = ShopEnum.AGRARIAN;
 	} else if (amenity == "fast_food") {
-		icon = {icon: fastFoodIcon};
+		type = ShopEnum.FAST_FOOD;
 	} else if (amenity == "restaurant") {
-		icon = {icon: restaurantIcon};
+		type = ShopEnum.RESTAURANT;
 	} else if (amenity == "cafe") {
-		icon = {icon: cafeAmenityIcon};
+		type = ShopEnum.CAFE;
 	} else if (craft == "caterer") {
-		icon = {icon: restaurantIcon};
+		type = ShopEnum.CATERER;
 	} else {
-		icon = null;
+		console.log("Unknown shop type with name="+name+" ; type="+shopType+" ; craft="+craft+" and amenity="+amenity);
+		type = null;
 	}
  	
- 	return icon;
+ 	return type;
  }
