@@ -33,6 +33,50 @@ L.tileLayer(
 	}
 ).addTo(map);
 
+// Add the cluster
+var cluster = new L.MarkerClusterGroup();
+cluster.addTo(map);
+
+// Add subgroups to the cluster
+var bulkSectionSubGroup = L.featureGroup.subGroup(cluster).addTo(map);
+var butcherShopSubGroup = L.featureGroup.subGroup(cluster).addTo(map);
+var dairyShopSubGroup = L.featureGroup.subGroup(cluster).addTo(map);
+var greengrocerShopSubGroup = L.featureGroup.subGroup(cluster).addTo(map);
+var bakeryShopSubGroup = L.featureGroup.subGroup(cluster).addTo(map);
+var coffeeAndTeaShopSubGroup = L.featureGroup.subGroup(cluster).addTo(map);
+var deliShopSubGroup = L.featureGroup.subGroup(cluster).addTo(map);
+var pastryShopSubGroup = L.featureGroup.subGroup(cluster).addTo(map);
+var seafoodShopSubGroup = L.featureGroup.subGroup(cluster).addTo(map);
+var agrarianShopSubGroup = L.featureGroup.subGroup(cluster).addTo(map);
+var restaurantAndFastFoodShopSubGroup = L.featureGroup.subGroup(cluster).addTo(map);
+var confectioneryAndChocolateShopSubGroup = L.featureGroup.subGroup(cluster).addTo(map);
+var cafeShopSubGroup = L.featureGroup.subGroup(cluster).addTo(map);
+var catererCraftSubGroup = L.featureGroup.subGroup(cluster).addTo(map);
+
+// Add the control
+L.control.layers(null, null, { collapsed: true })
+	.addOverlay(bulkSectionSubGroup, 'Magasins avec rayon vrac'+getIconForControlLayer(convenienceIconUrl)+getIconForControlLayer(supermarketIconUrl))
+	.addOverlay(butcherShopSubGroup, 'Boucheries & charcuteries'+getIconForControlLayer(butcherIconUrl))
+	.addOverlay(dairyShopSubGroup, 'Crèmeries'+getIconForControlLayer(dairyIconUrl))
+	.addOverlay(greengrocerShopSubGroup, 'Primeurs'+getIconForControlLayer(greengrocerIconUrl))
+	.addOverlay(bakeryShopSubGroup, 'Boulangeries'+getIconForControlLayer(bakeryIconUrl))
+	.addOverlay(coffeeAndTeaShopSubGroup, 'Magasins de thé et café'+getIconForControlLayer(coffeeShopIconUrl)+getIconForControlLayer(teaIconUrl))
+	.addOverlay(deliShopSubGroup, 'Épiceries fines'+getIconForControlLayer(deliIconUrl))
+	.addOverlay(pastryShopSubGroup, 'Pâtissiers'+getIconForControlLayer(pastryIconUrl))
+	.addOverlay(seafoodShopSubGroup, 'Poissoneries'+getIconForControlLayer(seafoodIconUrl))
+	.addOverlay(agrarianShopSubGroup, 'Fermes'+getIconForControlLayer(agrarianIconUrl))
+	.addOverlay(restaurantAndFastFoodShopSubGroup, 'Restaurants & Fast-foods'+getIconForControlLayer(restaurantIconUrl)+getIconForControlLayer(fastFoodIconUrl))
+	.addOverlay(confectioneryAndChocolateShopSubGroup, 'Confiseries & chocolatiers'+getIconForControlLayer(confectioneryIconUrl)+getIconForControlLayer(chocolateIconUrl))
+	.addOverlay(cafeShopSubGroup, 'Cafés & bars'+getIconForControlLayer(cafeAmenityIconUrl))
+	.addOverlay(catererCraftSubGroup, 'Traiteurs'+getIconForControlLayer(restaurantIconUrl))
+	.addTo(map);
+
+/**
+ * Generate an HTML formatted picto for the control layer using the given url
+ */
+function getIconForControlLayer(url){
+	return '<img src="'+url+'" height="30px" style="margin-left: 2px; margin-right: 2px;"/>';
+}
 
 var ShopEnum = {
   CONVENIENCE: 1,
@@ -54,24 +98,24 @@ var ShopEnum = {
   CATERER: 17,
   CHOCOLATE: 18,
   properties: {
-    1: {icon: convenienceIcon, titlePrefix: 'Épicerie'},
-    2: {icon: supermarketIcon, titlePrefix: 'Supermarché'},
-    3: {icon: butcherIcon, titlePrefix: 'Boucherie'},
-    4: {icon: dairyIcon, titlePrefix: 'Crèmerie'},
-    5: {icon: greengrocerIcon, titlePrefix: 'Primeur'},
-    6: {icon: bakeryIcon, titlePrefix: 'Boulangerie'},
-    7: {icon: coffeeShopIcon, titlePrefix: 'Torrefacteur'},
-    8: {icon: pastryIcon, titlePrefix: 'Pâtisserie'},
-    9: {icon: deliIcon, titlePrefix: 'Épicerie fine'},
-    10: {icon: teaIcon, titlePrefix: 'Magasin de thé'},
-    11: {icon: confectioneryIcon, titlePrefix: 'Confiserie'},
-    12: {icon: seafoodIcon, titlePrefix: 'Poissonerie'},
-    13: {icon: agrarianIcon, titlePrefix: 'Ferme'},
-    14: {icon: fastFoodIcon, titlePrefix: 'Fast-food'},
-    15: {icon: restaurantIcon, titlePrefix: 'Restaurant'},
-    16: {icon: cafeAmenityIcon, titlePrefix: 'Café'},
-    17: {icon: restaurantIcon, titlePrefix: 'Traiteur'},
-    18: {icon: chocolateIcon, titlePrefix: 'Chocolatier'}
+    1: {icon: convenienceIcon, titlePrefix: 'Épicerie', group: bulkSectionSubGroup},
+    2: {icon: supermarketIcon, titlePrefix: 'Supermarché', group: bulkSectionSubGroup},
+    3: {icon: butcherIcon, titlePrefix: 'Boucherie', group: butcherShopSubGroup},
+    4: {icon: dairyIcon, titlePrefix: 'Crèmerie', group: dairyShopSubGroup},
+    5: {icon: greengrocerIcon, titlePrefix: 'Primeur', group: greengrocerShopSubGroup},
+    6: {icon: bakeryIcon, titlePrefix: 'Boulangerie', group: bakeryShopSubGroup},
+    7: {icon: coffeeShopIcon, titlePrefix: 'Torrefacteur', group: coffeeAndTeaShopSubGroup},
+    8: {icon: pastryIcon, titlePrefix: 'Pâtisserie', group: pastryShopSubGroup},
+    9: {icon: deliIcon, titlePrefix: 'Épicerie fine', group: deliShopSubGroup},
+    10: {icon: teaIcon, titlePrefix: 'Magasin de thé', group: coffeeAndTeaShopSubGroup},
+    11: {icon: confectioneryIcon, titlePrefix: 'Confiserie', group: confectioneryAndChocolateShopSubGroup},
+    12: {icon: seafoodIcon, titlePrefix: 'Poissonerie', group: seafoodShopSubGroup},
+    13: {icon: agrarianIcon, titlePrefix: 'Ferme', group: agrarianShopSubGroup},
+    14: {icon: fastFoodIcon, titlePrefix: 'Fast-food', group: restaurantAndFastFoodShopSubGroup},
+    15: {icon: restaurantIcon, titlePrefix: 'Restaurant', group: restaurantAndFastFoodShopSubGroup},
+    16: {icon: cafeAmenityIcon, titlePrefix: 'Café', group: cafeShopSubGroup},
+    17: {icon: restaurantIcon, titlePrefix: 'Traiteur', group: catererCraftSubGroup},
+    18: {icon: chocolateIcon, titlePrefix: 'Chocolatier', group: confectioneryAndChocolateShopSubGroup}
   }
 };
 
@@ -95,12 +139,7 @@ $(document).ready(function(){
 /**
  * Take a list of shops as JSON and display them in a cluster on the map
  **/
-function addListOfShops() {
-	var cluster = new L.MarkerClusterGroup();
-	var bulkOnlySubGroup = L.featureGroup.subGroup(cluster);
-	var bulkSubGroup = L.featureGroup.subGroup(cluster);
-	var control = L.control.layers(null, null, { collapsed: false });
-		
+function addListOfShops() {	
 	for (var shopIndex in shopsJson) {
 		var shop = shopsJson[shopIndex]
 		var shopTags = shop['tags'];
@@ -151,21 +190,8 @@ function addListOfShops() {
 		var icon = {icon: ShopEnum.properties[type].icon};
 
 		// Add marker and popup to the cluser
-		var marker = L.marker(new L.latLng(lat,lon), icon).bindPopup(popup)
-		if (bulk_purchase == "yes") {
-			marker.addTo(bulkSubGroup);
-		} else if (bulk_purchase == "only") {
-			marker.addTo(bulkOnlySubGroup);
-		}
+		var marker = L.marker(new L.latLng(lat,lon), icon).bindPopup(popup).addTo(ShopEnum.properties[type].group);
 	}
-
-	// Add the cluster
-	cluster.addTo(map);
-	control.addOverlay(bulkOnlySubGroup, 'Vrac uniquement');
-	control.addOverlay(bulkSubGroup, 'Avec rayon vrac');
-	control.addTo(map);
-	bulkOnlySubGroup.addTo(map);
-	bulkSubGroup.addTo(map);
 }
 
 /**
