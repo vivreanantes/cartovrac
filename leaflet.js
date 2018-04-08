@@ -97,6 +97,9 @@ $(document).ready(function(){
  **/
 function addListOfShops() {
 	var cluster = new L.MarkerClusterGroup();
+	var bulkOnlySubGroup = L.featureGroup.subGroup(cluster);
+	var bulkSubGroup = L.featureGroup.subGroup(cluster);
+	var control = L.control.layers(null, null, { collapsed: false });
 		
 	for (var shopIndex in shopsJson) {
 		var shop = shopsJson[shopIndex]
@@ -148,11 +151,21 @@ function addListOfShops() {
 		var icon = {icon: ShopEnum.properties[type].icon};
 
 		// Add marker and popup to the cluser
-		cluster.addLayer(L.marker(new L.latLng(lat,lon), icon).bindPopup(popup));
+		var marker = L.marker(new L.latLng(lat,lon), icon).bindPopup(popup)
+		if (bulk_purchase == "yes") {
+			marker.addTo(bulkSubGroup);
+		} else if (bulk_purchase == "only") {
+			marker.addTo(bulkOnlySubGroup);
+		}
 	}
 
 	// Add the cluster
-	map.addLayer(cluster);
+	cluster.addTo(map);
+	control.addOverlay(bulkOnlySubGroup, 'Vrac uniquement');
+	control.addOverlay(bulkSubGroup, 'Avec rayon vrac');
+	control.addTo(map);
+	bulkOnlySubGroup.addTo(map);
+	bulkSubGroup.addTo(map);
 }
 
 /**
