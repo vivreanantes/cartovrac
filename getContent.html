@@ -1,0 +1,21 @@
+<html>
+	<head></head>
+	<body></body>
+	<script src="http://code.jquery.com/jquery-latest.min.js" 
+			type="text/javascript">	
+	</script>
+	<script type="text/javascript">
+		$.getJSON('jtb_partners.json', function(response) {
+	        var jtbPartners = response.elements
+	        var url = 'https://www.overpass-api.de/api/interpreter?data=[out:json][timeout:25][maxsize:10737418];(node["bulk_purchase"="yes"](46.9,-2.7,47.9,-0.4);node["bulk_purchase"="only"](46.9,-2.7,47.9,-0.4);way["bulk_purchase"="yes"](46.9,-2.7,47.9,-0.4);way["bulk_purchase"="only"](46.9,-2.7,47.9,-0.4)';
+
+	        for (var partnerIndex in jtbPartners) {
+				var partner = jtbPartners[partnerIndex];
+				url += ';' + partner.type + '(' + partner.id + ')';
+			}
+
+			url += ');out center;';
+			window.location = url;
+	    })
+	</script>
+</html>

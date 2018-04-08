@@ -1,71 +1,3 @@
-// List of J'aime tes bocaux partner OSM nodes
-var jtbPartners = [
-	5456625523, 
-	1619954291, 
-	3474743920, 
-	3474835770, 
-	3474835769, 
-	1619954323, 
-	5456638652, 
-	1619954233, 
-	3470086335, 
-	5459152854, 
-	1727920548, 
-	3094180230, 
-	2255955928, 
-	5460145598, 
-	4394780789, 
-	476294585, 
-	2258874087, 
-	5460210375, 
-	2607658264, 
-	2289128176, 
-	2258874081, 
-	2485095784, 
-	3125795830, 
-	5460269733, 
-	5277827989, 
-	5460303725, 
-	2607658274, 
-	2255955928, 
-	5460375747, 
-	5460383333, 
-	5066198364, 
-	5460390736, 
-	1034073369, 
-	4201236610, 
-	2320443633, 
-	5460433357, 
-	224599086, 
-	5460439635, 
-	2583958955, 
-	5053854903, 
-	3683626198, 
-	364694509, 
-	1688797566, 
-	5460448714, 
-	2759353718, 
-	5460452139, 
-	5418567639, 
-	5460462886, 
-	5460468439,
-	5518872681,
-	5460362739,
-	2672093889,
-	5333494928,
-	4267907899,
-	2416353080,
-	4201236594,
-	4199637816,
-	475385271,
-	4917847921,
-	2393205127,
-	5528055528,
-	5536163901,
-	2258874082,
-	4829754273
-];
-
 // Icons
 var iconSize = [35, 57];
 var iconAnchor = [15, 57];
@@ -265,16 +197,24 @@ L.tileLayer(
 /**
  * Load data from cache first
  */
+var shopsJson, jtbPartners;
 $(document).ready(function(){
-    $.getJSON('cache_data.json', function(response) {
-        addListOfShops(response.elements);
-    })
+	$.when(
+	    $.getJSON('cache_data.json', function(response) {
+	        shopsJson = response.elements
+	    }),
+	    $.getJSON('jtb_partners.json', function(response) {
+	        jtbPartners = response.elements
+	    })
+	).then(function() {
+	    addListOfShops();
+	});
 });
 
 /**
  * Take a list of shops as JSON and display them in a cluster on the map
  **/
-function addListOfShops(shopsJson) {
+function addListOfShops() {
 	var cluster = new L.MarkerClusterGroup();
 		
 	for (var shopIndex in shopsJson) {
@@ -387,12 +327,22 @@ function getPopupContent(
 	}
 
 	// Show as J'aime tes bocaux partner if it's the case
-    if ($.inArray(nodeId, jtbPartners) > 0){
+    if (isJaimeTesBocauxPartner(nodeId)){
 	    popup += '<hr style="padding-bottom: ;padding-bottom: 0px;" size="1">';
 	    popup += '<div style="display: flex;"><img style="height: 50px;" src="jtb.png"/><div style="margin: auto; font-weight: bold;">Partenaire <br />J\'aime tes bocaux</div></div>';
     }
 
 	return popup;
+}
+
+/**
+ * Check if the shop is a partner of the organization "J'aime tes bocaux"
+ * @param nodeId the id of the element
+ * @return true if it's a "J'aime tes bocaux" partner, false otherwise
+ */
+function isJaimeTesBocauxPartner(nodeId) {
+	var matchingPartners = jtbPartners.filter(partner => partner.id == nodeId);
+ 	return matchingPartners.length > 0;
 }
 
 function getShopTitle(name, amenity, craft, shopType, organic, bulk_purchase) {
