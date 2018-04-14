@@ -34,7 +34,7 @@ L.tileLayer(
 ).addTo(map);
 
 // Add the cluster
-var cluster = new L.MarkerClusterGroup();
+var cluster = new L.MarkerClusterGroup({maxClusterRadius: 50});
 cluster.addTo(map);
 
 // Add subgroups to the cluster
