@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.54.13 ff15392f",
   "osm3s": {
-    "timestamp_osm_base": "2018-04-08T16:06:02Z",
+    "timestamp_osm_base": "2018-04-16T17:44:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -1510,6 +1510,23 @@
     "name": "La Coop du Coin",
     "shop": "convenience",
     "website": "https://lacoopducoin-epicerie-cooperative-participative.fr/"
+  }
+},
+{
+  "type": "node",
+  "id": 5557299433,
+  "lat": 47.0960940,
+  "lon": -1.8062200,
+  "tags": {
+    "addr:city": "Sainte-Pazanne",
+    "addr:housenumber": "23",
+    "addr:postcode": "44680",
+    "addr:street": "Rue Roche Blanche",
+    "bulk_purchase": "yes",
+    "name": "Au jardin bioretz",
+    "organic": "only",
+    "shop": "agrarian",
+    "website": "http://www.aujardinbioretz.com/"
   }
 },
 {
