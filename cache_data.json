@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.54.13 ff15392f",
   "osm3s": {
-    "timestamp_osm_base": "2018-04-16T17:44:02Z",
+    "timestamp_osm_base": "2018-04-17T16:37:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -1524,6 +1524,7 @@
     "addr:street": "Rue Roche Blanche",
     "bulk_purchase": "yes",
     "name": "Au jardin bioretz",
+    "opening_hours": "Tu-Fr 09:00-12:30,13:30-19:00; Sa 09:00-12:30",
     "organic": "only",
     "shop": "agrarian",
     "website": "http://www.aujardinbioretz.com/"
