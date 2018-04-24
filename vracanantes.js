@@ -1,8 +1,8 @@
 // Bounds for display
-var boundS = 46.9;
-var boundW = -2.7;
-var boundN = 48.1;
-var boundE = -0.4;
+var boundS = 40;
+var boundW = -5;
+var boundN = 53;
+var boundE = 8;
 var bounds = new L.LatLngBounds(new L.LatLng(boundN, boundE), new L.LatLng(boundS, boundW));
 
 // Map definition
