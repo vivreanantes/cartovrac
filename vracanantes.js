@@ -169,6 +169,16 @@ function getHtmlFormattedPartnerships(nodeId) {
  * @return true if it's a "J'aime tes bocaux" partner, false otherwise
  */
 function isJaimeTesBocauxPartner(nodeId) {
-	var matchingPartners = jtbPartners.filter(partner => partner.id == nodeId);
- 	return matchingPartners.length > 0;
+
+    for (var groupIndex in jtbPartners) {
+    	var group = jtbPartners[groupIndex];
+		for (var idIndex in group.ids) {
+			var id = group.ids[idIndex];
+			if (id == nodeId) {
+	       		return true;
+	       	}
+		}
+	}
+
+ 	return false;
 }
