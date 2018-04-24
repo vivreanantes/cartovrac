@@ -7,7 +7,7 @@ var bounds = new L.LatLngBounds(new L.LatLng(boundN, boundE), new L.LatLng(bound
 
 // Map definition
 var maxZoom = 18;
-var minZoom = 9;
+var minZoom = 5;
 var defaultZoom = 10;
 var mapCenter = new L.latLng(47.25,-1.56);
 var map = L.map('map', {
