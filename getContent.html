@@ -7,7 +7,8 @@
 	<script type="text/javascript">
 		$.getJSON('jtb_partners.json', function(response) {
 	        var jtbPartners = response.elements
-	        var url = 'https://www.overpass-api.de/api/interpreter?data=[out:json][timeout:100][maxsize:10737418];(node["bulk_purchase"="yes"](40,-8,53,8);node["bulk_purchase"="only"](46.9,-2.7,47.9,-0.4);way["bulk_purchase"="yes"](46.9,-2.7,47.9,-0.4);way["bulk_purchase"="only"](46.9,-2.7,47.9,-0.4)';
+	        var coords = '(40,-8,53,8)';
+	        var url = 'https://www.overpass-api.de/api/interpreter?data=[out:json][timeout:500][maxsize:20737418];(node["bulk_purchase"="yes"]'+coords+';node["bulk_purchase"="only"]'+coords+';way["bulk_purchase"="yes"]'+coords+';way["bulk_purchase"="only"]'+coords+'';
 
 	        for (var partnerIndex in jtbPartners) {
 				var partner = jtbPartners[partnerIndex];

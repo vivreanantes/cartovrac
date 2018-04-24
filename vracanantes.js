@@ -81,6 +81,9 @@ function addListOfShops() {
 
 		// Get the type of shop/amenity to manage
 		var type = getType(shopTags['name'], shopTags['shop'], shopTags['amenity'], shopTags['craft']);
+		if (!type) {
+			continue;
+		}
 
 		// Create popup content depending on element's tags
 		var popup = getPopupContent(
