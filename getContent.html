@@ -5,11 +5,24 @@
 			type="text/javascript">	
 	</script>
 	<script type="text/javascript">
-		$.getJSON('jtb_partners.json', function(response) {
-	        var jtbPartners = response.elements
-	        var coords = '(40,-8,53,8)';
-	        var url = 'https://www.overpass-api.de/api/interpreter?data=[out:json][timeout:500][maxsize:20737418];(node["bulk_purchase"="yes"]'+coords+';node["bulk_purchase"="only"]'+coords+';way["bulk_purchase"="yes"]'+coords+';way["bulk_purchase"="only"]'+coords+';';
+		var ignoredShops, jtbPartners;
+		$.when(
+		    $.getJSON('ignored_shops.json', function(response) {
+		        ignoredShops = response.elements
+		    }),
+		    $.getJSON('jtb_partners.json', function(response) {
+		        jtbPartners = response.elements
+		    })
+			).then(function() {
+			    var url = generateUrl();
+			    window.location = url;
+		});
 
+		function generateUrl() {
+	        var coords = '(40,-8,53,8)';
+	        var url = 'https://www.overpass-api.de/api/interpreter?data=[out:json][timeout:500][maxsize:20737418];((node["bulk_purchase"="yes"]'+coords+';node["bulk_purchase"="only"]'+coords+';way["bulk_purchase"="yes"]'+coords+';way["bulk_purchase"="only"]'+coords+';';
+
+	        // Add partners
 	        for (var partnerIndex in jtbPartners) {
 				var partner = jtbPartners[partnerIndex];
 				url += partner.type + '(id:';
@@ -21,8 +34,23 @@
 				url += ');';
 			}
 
-			url += ');out center;';
-			window.location = url;
-	    })
+			url += '); - (';
+
+			// Add ignores
+	        for (var ignoredIndex in ignoredShops) {
+				var ignored = ignoredShops[ignoredIndex];
+				url += '' + ignored.type + '(id:';
+
+				$.each(ignored.ids, function(key, value){
+       				 url += value + ', ';
+    			});
+				url = url.substring(0, url.length - 2);
+				url += ');';
+			}
+
+			url += '););out center;';
+
+			return url;
+		}
 	</script>
 </html>
