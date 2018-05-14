@@ -2,11 +2,31 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.55 579b1eec",
   "osm3s": {
-    "timestamp_osm_base": "2018-05-12T14:36:02Z",
+    "timestamp_osm_base": "2018-05-14T20:08:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
 
+{
+  "type": "node",
+  "id": 311317251,
+  "lat": 45.1851904,
+  "lon": 5.7204375,
+  "tags": {
+    "addr:city": "Grenoble",
+    "addr:housenumber": "7",
+    "addr:postcode": "38000",
+    "addr:street": "Place Condorcet",
+    "bulk_purchase": "only",
+    "name": "day by day - Mon épicerie en vrac",
+    "opening_hours": "09:30-13:00,15:00-19:30",
+    "operator": "Mon sac en vrac",
+    "organic": "yes",
+    "shop": "convenience",
+    "source": "survey",
+    "website": "http://daybyday-shop.com/magasin/grenoble"
+  }
+},
 {
   "type": "node",
   "id": 364694509,
@@ -231,6 +251,24 @@
     "shop": "supermarket",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
     "website": "http://www.biocoop-royan.com"
+  }
+},
+{
+  "type": "node",
+  "id": 839045600,
+  "lat": 48.4318902,
+  "lon": -4.4038615,
+  "tags": {
+    "addr:city": "Guipavas",
+    "addr:housenumber": "12",
+    "addr:postcode": "29490",
+    "addr:street": "Rue de la Vallée",
+    "bulk_purchase": "yes",
+    "name": "Bio de Guip",
+    "operator": "Biomonde",
+    "organic": "yes",
+    "shop": "convenience",
+    "website": "https://www.biomonde.fr/bio-de-guip,3,46"
   }
 },
 {
@@ -720,6 +758,28 @@
 },
 {
   "type": "node",
+  "id": 1849044485,
+  "lat": 44.8265371,
+  "lon": -0.6374514,
+  "tags": {
+    "addr:city": "Mérignac",
+    "addr:housenumber": "72",
+    "addr:postcode": "33700",
+    "addr:street": "Avenue Pierre Mendès-France",
+    "bulk_purchase": "yes",
+    "change:XLT-MIEL": "yes",
+    "currency:XLT": "MIEL",
+    "name": "Biocoop Maxibio",
+    "opening_hours": "Tu-Sa 09:30-19:30; Mo 14:00-19:30",
+    "organic": "only",
+    "payment:cash:XLT-MIEL": "yes",
+    "phone": "+33556120392",
+    "shop": "supermarket",
+    "website": "http://biocoop.fr/magasins-bio/Trouver-mon-magasin-Biocoop/Nouvelle-Aquitaine2/Gironde/BIOCOOP-MERIGNAC"
+  }
+},
+{
+  "type": "node",
   "id": 1888009599,
   "lat": 48.5446251,
   "lon": 7.7410065,
@@ -1083,6 +1143,9 @@
   "lat": 45.8299523,
   "lon": 1.2556377,
   "tags": {
+    "addr:city": "Limoges",
+    "addr:housenumber": "15",
+    "addr:postcode": "87000",
     "addr:street": "Rue Othon Péconnet",
     "bulk_purchase": "only",
     "change:XLT-PELU": "yes",
@@ -1092,8 +1155,10 @@
     "name": "Day by Day",
     "opening_hours": "Tu-Sa 09:30-13:00,14:30-19:30",
     "operator": "Day by Day",
+    "organic": "yes",
     "payment:cash:XLT-PELU": "yes",
-    "shop": "convenience"
+    "shop": "convenience",
+    "website": "http://daybyday-shop.com/magasin/limoges"
   }
 },
 {
@@ -1464,12 +1529,13 @@
     "addr:city": "Paris",
     "addr:housenumber": "70",
     "addr:postcode": "75007",
-    "addr:street": "rue de sevres",
+    "addr:street": "Rue de Sèvres",
     "bulk_purchase": "only",
     "name": "Day by Day",
     "operator": "Day by Day",
+    "organic": "yes",
     "shop": "convenience",
-    "website": "http://daybyday-shop.com/"
+    "website": "http://daybyday-shop.com/magasin/paris-7"
   }
 },
 {
@@ -1499,12 +1565,16 @@
   "lat": 48.8414380,
   "lon": 2.3029770,
   "tags": {
+    "addr:city": "Paris",
     "addr:housenumber": "1",
+    "addr:postcode": "75015",
     "addr:street": "Rue du Général Beuret",
     "amenity": "shop",
     "bulk_purchase": "only",
     "name": "day by day",
-    "shop": "convenience"
+    "organic": "yes",
+    "shop": "convenience",
+    "website": "http://daybyday-shop.com/magasin/paris-15e"
   }
 },
 {
@@ -1759,6 +1829,26 @@
 },
 {
   "type": "node",
+  "id": 3885946782,
+  "lat": 50.8257250,
+  "lon": 4.3449171,
+  "tags": {
+    "addr:city": "Saint-Gilles - Sint-Gillis",
+    "addr:housenumber": "29",
+    "addr:postcode": "1060",
+    "addr:street": "Avenue Paul Dejaer - Paul Dejaerlaan",
+    "bulk_purchase": "only",
+    "name": "day by day Bruxelles",
+    "opening_hours": "Tu-Sa 11:00-18:30",
+    "organic": "yes",
+    "phone": "+32 2 851 24 20",
+    "second_hand": "yes",
+    "shop": "convenience",
+    "website": "http://daybyday-shop.com/magasin/bruxelles"
+  }
+},
+{
+  "type": "node",
   "id": 3888792442,
   "lat": 48.8077025,
   "lon": -3.4421678,
@@ -1878,9 +1968,10 @@
     "bulk_purchase": "only",
     "contact:email": "daybyday.rennes@gmail.com",
     "name": "Day by day",
+    "organic": "yes",
     "phone": "+33 9 67 55 09 15",
     "shop": "convenience",
-    "website": "http://daybyday-shop.com"
+    "website": "http://daybyday-shop.com/magasin/rennes"
   }
 },
 {
@@ -1904,6 +1995,21 @@
     "phone": "+33 2 96 14 01 06",
     "shop": "supermarket",
     "website": "https://www.biocoop.fr/magasins-bio/Trouver-mon-magasin-Biocoop/Bretagne/Cotes-d-Armor/BIOCOOP-DOUARGANN"
+  }
+},
+{
+  "type": "node",
+  "id": 4087781224,
+  "lat": 48.7335311,
+  "lon": -3.4375928,
+  "tags": {
+    "addr:city": "Lannion",
+    "addr:postcode": "22300",
+    "addr:street": "Rue de Saint-Marc",
+    "bulk_purchase": "yes",
+    "name": "La Vie Claire magasin bio",
+    "organic": "only",
+    "shop": "supermarket"
   }
 },
 {
@@ -2210,6 +2316,29 @@
 },
 {
   "type": "node",
+  "id": 4394808437,
+  "lat": 48.0164053,
+  "lon": -4.5007821,
+  "tags": {
+    "addr:city": "Plouhinec",
+    "addr:housenumber": "2",
+    "addr:postcode": "29780",
+    "addr:street": "Rue Brizeux",
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "bulk_purchase": "yes",
+    "name": "La Vie Claire",
+    "opening_hours": "Mo-Fr 09:30-12:30,14:30-19:30; Sa 09:30-19:30; Su,PH off",
+    "operator": "La Vie Claire, SA, 69700 Montagny",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "http://www.lavieclaire.com/magasin-bio/plouhinec-audierne.html",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
   "id": 4396149089,
   "lat": 47.2172562,
   "lon": -1.5574106,
@@ -2424,6 +2553,28 @@
 },
 {
   "type": "node",
+  "id": 4512195230,
+  "lat": 47.3928514,
+  "lon": 0.6809829,
+  "tags": {
+    "addr:city": "Tours",
+    "addr:housenumber": "109",
+    "addr:postcode": "37000",
+    "addr:street": "Rue des Halles",
+    "brand": "day by day",
+    "bulk_purchase": "only",
+    "contact:phone": "+33 2 36 97 00 02",
+    "description": "Alimentation, Cosmétiques et Droguerie en vrac...",
+    "name": "day by day",
+    "opening_hours": "Tu-Sa 09:30-13:00,14:30-19:00",
+    "organic": "yes",
+    "phone": "+33 2 36 97 00 02",
+    "shop": "convenience",
+    "website": "http://daybyday-shop.com/magasin/tours"
+  }
+},
+{
+  "type": "node",
   "id": 4512774457,
   "lat": 48.6831223,
   "lon": 6.1718647,
@@ -2492,14 +2643,38 @@
   "lat": 48.8900868,
   "lon": 2.1973952,
   "tags": {
+    "addr:city": "Nanterre",
+    "addr:housenumber": "13",
+    "addr:postcode": "92000",
+    "addr:street": "Place Gabriel Péri",
     "bulk_purchase": "only",
     "name": "Day by Day",
     "opening_hours": "Tu-Su 09:30-13:30, Tu-Sa 15:30-19:30",
     "operator": "Day by Day",
+    "organic": "yes",
     "shop": "convenience",
     "source": "survey 2017",
-    "website": "http://daybyday-shop.com/vrac-nanterre.html",
+    "website": "http://daybyday-shop.com/magasin/nanterre",
     "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4538398679,
+  "lat": 45.1575472,
+  "lon": 1.5345609,
+  "tags": {
+    "addr:city": "Brive-la-Gaillarde",
+    "addr:housenumber": "23",
+    "addr:postcode": "19100",
+    "addr:street": "Rue Gambetta",
+    "bulk_purchase": "only",
+    "contact:phone": "+33 5 55 22 73 71",
+    "name": "day by day",
+    "opening_hours": "Tu-Sa 09:30-13:00,15:00-19:00",
+    "organic": "yes",
+    "shop": "convenience",
+    "website": "http://daybyday-shop.com/magasin/brive-la-gaillarde"
   }
 },
 {
@@ -2564,14 +2739,19 @@
   "lat": 48.5657412,
   "lon": 7.7590243,
   "tags": {
+    "addr:city": "Strasbourg",
+    "addr:housenumber": "90",
+    "addr:postcode": "67100",
+    "addr:street": "Route du Polygone",
     "bulk_purchase": "only",
     "contact:website": "http://daybyday-shop.com/magasin/strasbourg",
-    "name": "Day by Day",
+    "name": "day by day Strasbourg",
     "opening_hours": "Tu-Fr 09:30-13:00, 15:00-19:30; Sa 08:30-13:00, 15:00-18:30",
     "organic": "yes",
     "ref:FR:SIRET": "81847068400015",
     "shop": "convenience",
     "source": "survey",
+    "website": "http://daybyday-shop.com/magasin/strasbourg",
     "wheelchair": "no"
   }
 },
@@ -2644,18 +2824,44 @@
 },
 {
   "type": "node",
+  "id": 4685425730,
+  "lat": 45.7770652,
+  "lon": 3.0852236,
+  "tags": {
+    "addr:city": "Clermont-Ferrand",
+    "addr:housenumber": "14",
+    "addr:postcode": "63000",
+    "addr:street": "Rue Saint-Genès",
+    "bulk_purchase": "only",
+    "description:fr": "Épicerie en vrac, sans emballage",
+    "name": "Day by Day Clermont",
+    "opening_hours": "Tu-Sa 09:30-14:00,15:00-19:00",
+    "organic": "yes",
+    "payment:cash:XLT-DUME": "yes",
+    "shop": "convenience",
+    "website": "http://daybyday-shop.com/magasin/clermont-ferrand"
+  }
+},
+{
+  "type": "node",
   "id": 4688545391,
   "lat": 50.6266853,
   "lon": 3.0477330,
   "tags": {
+    "addr:city": "Lille",
+    "addr:housenumber": "384",
+    "addr:postcode": "59000",
+    "addr:street": "Rue Léon Gambetta",
     "bulk_purchase": "only",
     "contact:phone": "+33 3 20 07 62 93",
     "contact:website": "http://daybyday-shop.com/magasin/lille",
     "description": "mon épicerie en vrac",
-    "name": "Day by Day",
+    "name": "day by day Lille",
     "opening_hours": "Tu-Sa 09:30-13:00,15:00-19:30, Su 09:25-13:30",
-    "operator": "Day by Day",
-    "shop": "convenience"
+    "operator": "day by day",
+    "organic": "yes",
+    "shop": "convenience",
+    "website": "http://daybyday-shop.com/magasin/lille"
   }
 },
 {
@@ -2664,15 +2870,20 @@
   "lat": 49.1152428,
   "lon": 6.1785568,
   "tags": {
+    "addr:city": "Metz",
+    "addr:housenumber": "27",
+    "addr:postcode": "57000",
+    "addr:street": "Place du Quarteau",
     "bulk_purchase": "only",
     "contact:phone": "+33 3 72 39 54 22",
     "contact:website": "http://daybyday-shop.com/magasin/metz",
     "description": "Epicerie en vrac sans emballage. Produit alimentaire, vin, cosmétique et droguerie",
-    "name": "Day by Day",
+    "name": "day by day Metz",
     "opening_hours": "Tu-Fr 09:30-13:30,15:00-19:00; Sa 09:30-19:00; Su 09:30-12:00",
     "operator": "Day by Day",
     "organic": "yes",
-    "shop": "convenience"
+    "shop": "convenience",
+    "website": "http://daybyday-shop.com/magasin/metz"
   }
 },
 {
@@ -2728,6 +2939,29 @@
     "organic": "only",
     "shop": "supermarket",
     "website": "http://www.chlorophylle-coop.com"
+  }
+},
+{
+  "type": "node",
+  "id": 4760427539,
+  "lat": 48.7009399,
+  "lon": 6.1765016,
+  "tags": {
+    "addr:city": "Nancy",
+    "addr:housenumber": "37",
+    "addr:postcode": "54000",
+    "addr:street": "Boulevard Charles V",
+    "bulk_purchase": "only",
+    "currency:XLT": "FLOR",
+    "email": "daybyday.nancy@gmail.com",
+    "name": "day by day",
+    "opening_hours": "Mo-Sa 09:30-13:00,14:30-19:00",
+    "organic": "yes",
+    "payment:cash:XLT-FLOR": "yes",
+    "phone": "+33 9 86 65 68 45",
+    "shop": "convenience",
+    "source": "survey",
+    "website": "http://daybyday-shop.com/magasin/nancy"
   }
 },
 {
@@ -2800,6 +3034,22 @@
 },
 {
   "type": "node",
+  "id": 4783664546,
+  "lat": 48.3894140,
+  "lon": -4.4897255,
+  "tags": {
+    "addr:city": "Brest",
+    "addr:postcode": "29000",
+    "addr:street": "Rue de Lyon",
+    "bulk_purchase": "only",
+    "name": "Day by Day",
+    "organic": "yes",
+    "shop": "convenience",
+    "website": "http://daybyday-shop.com/magasin/brest"
+  }
+},
+{
+  "type": "node",
   "id": 4784308455,
   "lat": 48.0300899,
   "lon": -1.7591600,
@@ -2856,6 +3106,48 @@
     "opening_hours": "Mo-Sa 08:30-19:45; Su off",
     "phone": "+33 2 40 48 51 39",
     "website": "http://www.brisontraiteur.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 4831463841,
+  "lat": 48.3882021,
+  "lon": -4.4899799,
+  "tags": {
+    "addr:city": "Brest",
+    "addr:housenumber": "41",
+    "addr:postcode": "29200",
+    "addr:street": "Rue Louis Pasteur",
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "bulk_purchase": "yes",
+    "name": "La Vie Claire",
+    "opening_hours": "Mo 15:00-19:30; Tu-Fr 09:00-19:30; Sa 09:00-19:00",
+    "operator": "SARL Marzin-Le Gall",
+    "organic": "only",
+    "phone": "+33298803891",
+    "shop": "convenience",
+    "website": "http://www.lavieclaire.com/magasin-bio/brest.html"
+  }
+},
+{
+  "type": "node",
+  "id": 4861896708,
+  "lat": 48.0954624,
+  "lon": -4.3437304,
+  "tags": {
+    "addr:city": "Douarnenez",
+    "addr:housenumber": "16",
+    "addr:postcode": "29100",
+    "addr:street": "Avenue de la Gare",
+    "bulk_purchase": "yes",
+    "level": "0",
+    "name": "Ys et bio",
+    "operator": "Biomonde",
+    "organic": "only",
+    "shop": "convenience",
+    "website": "http://www.magasin-ysetbio-douarnenez.fr/"
   }
 },
 {
@@ -3048,8 +3340,13 @@
   "lat": 43.5970474,
   "lon": 1.4272468,
   "tags": {
+    "addr:city": "Toulouse",
+    "addr:housenumber": "37",
+    "addr:postcode": "31300",
+    "addr:street": "Avenue Étienne Billières",
     "bulk_purchase": "only",
     "name": "day by day",
+    "organic": "yes",
     "shop": "convenience",
     "website": "http://daybyday-shop.com/magasin/toulouse"
   }
@@ -3069,6 +3366,22 @@
     "organic": "only",
     "shop": "convenience",
     "website": "http://lecourtilbio.biocoop.net/"
+  }
+},
+{
+  "type": "node",
+  "id": 5004979092,
+  "lat": 48.5092567,
+  "lon": -4.0720548,
+  "tags": {
+    "addr:city": "Landivisiau",
+    "addr:postcode": "29400",
+    "addr:street": "Place des halles",
+    "bulk_purchase": "yes",
+    "name": "Halles Terre Native",
+    "organic": "only",
+    "shop": "convenience",
+    "website": "https://www.biomonde.fr/halles-terre-native,3,227"
   }
 },
 {
@@ -3180,8 +3493,9 @@
     "contact:website": "http://daybyday-shop.com",
     "name": "Day by Day",
     "operator": "Terre et Saveur",
-    "organic": "no",
-    "shop": "convenience"
+    "organic": "yes",
+    "shop": "convenience",
+    "website": "http://daybyday-shop.com/magasin/rouen"
   }
 },
 {
@@ -3199,6 +3513,26 @@
     "shop": "supermarket",
     "website": "https://www.biocoop-stmarcel.fr",
     "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5051303755,
+  "lat": 48.8895694,
+  "lon": 2.3202326,
+  "tags": {
+    "addr:city": "Paris",
+    "addr:housenumber": "46",
+    "addr:postcode": "75017",
+    "addr:street": "Rue des Moines",
+    "bulk_purchase": "only",
+    "description": "Épicerie en vrac",
+    "name": "day by day Batignolles",
+    "opening_hours": "Tu-Fr 09:30-13:00, 15:30-19:30; Sa 09:30-20:00, 09:00-18:00; Su 09:30-13:00",
+    "organic": "yes",
+    "shop": "convenience",
+    "survey:date": "2018-05-11",
+    "website": "http://daybyday-shop.com/magasin/paris-17e"
   }
 },
 {
@@ -3560,6 +3894,22 @@
 },
 {
   "type": "node",
+  "id": 5240172486,
+  "lat": 50.6398734,
+  "lon": 3.0191437,
+  "tags": {
+    "addr:city": "Lomme",
+    "addr:housenumber": "321",
+    "addr:postcode": "59160",
+    "addr:street": "Avenue de Dunkerque",
+    "bulk_purchase": "only",
+    "name": "À Vos Bocaux",
+    "opening_hours": "Tu,Fr 09:00-18:00, We 09:00-11:30,14:00-18:30, Th 10:30-18:00, Sa 09:00-19:00",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
   "id": 5244957090,
   "lat": 44.6120317,
   "lon": 4.4096678,
@@ -3727,11 +4077,16 @@
   "lat": 43.2987595,
   "lon": 5.3983641,
   "tags": {
+    "addr:city": "Marseille",
+    "addr:housenumber": "7",
+    "addr:postcode": "13004",
+    "addr:street": "Rue Granoux",
     "bulk_purchase": "only",
-    "name": "Day by day",
+    "name": "day by day Marseille",
     "opening_hours": "Tu-Sa 09:30-13:00, 15:00-19:00",
     "organic": "yes",
-    "shop": "convenience"
+    "shop": "convenience",
+    "website": "http://daybyday-shop.com/magasin/marseille"
   }
 },
 {
@@ -4147,6 +4502,24 @@
     "organic": "only",
     "shop": "supermarket",
     "website": "http://www.eau-vive.com"
+  }
+},
+{
+  "type": "node",
+  "id": 5518695844,
+  "lat": 48.7566594,
+  "lon": 2.3064484,
+  "tags": {
+    "addr:city": "Antony",
+    "addr:housenumber": "62",
+    "addr:postcode": "92160",
+    "addr:street": "Avenue Aristide Briand",
+    "bulk_purchase": "only",
+    "name": "day by day",
+    "opening_hours": "Tu-Sa 09:30-12:45, 15:00-19:30, 09:00-18:00; Su 10:00-12:45",
+    "organic": "yes",
+    "shop": "convenience",
+    "website": "http://daybyday-shop.com/magasin/antony"
   }
 },
 {
@@ -5217,8 +5590,9 @@
     "addr:street": "Rue Delsaux",
     "bulk_purchase": "only",
     "email": "daybyday.valenciennes@gmail.com",
-    "name": "Day by Day",
+    "name": "day by day Valenciennes",
     "operator": "Day by Day",
+    "organic": "yes",
     "phone": "+33 9 84 52 51 99",
     "shop": "convenience",
     "website": "http://daybyday-shop.com/magasin/valenciennes"
@@ -5323,6 +5697,158 @@
   }
 },
 {
+  "type": "node",
+  "id": 5613829917,
+  "lat": 48.5767290,
+  "lon": -3.8257654,
+  "tags": {
+    "addr:city": "Morlaix",
+    "addr:housenumber": "7",
+    "addr:postcode": "29600",
+    "addr:street": "Rue d'Aiguillon",
+    "bulk_purchase": "yes",
+    "name": "La Vie Claire",
+    "organic": "only",
+    "shop": "convenience",
+    "website": "http://www.lavieclaire.com/magasin-bio/morlaix.html"
+  }
+},
+{
+  "type": "node",
+  "id": 5618124489,
+  "lat": 43.4589796,
+  "lon": -1.5409723,
+  "tags": {
+    "addr:city": "Biarritz",
+    "addr:postcode": "64200",
+    "addr:street": "Rue Luis Mariano",
+    "bulk_purchase": "only",
+    "name": "day by day",
+    "organic": "yes",
+    "shop": "convenience",
+    "website": "http://daybyday-shop.com/magasin/biarritz"
+  }
+},
+{
+  "type": "node",
+  "id": 5618194552,
+  "lat": 43.6090240,
+  "lon": 3.8742346,
+  "tags": {
+    "addr:city": "Montpellier",
+    "addr:housenumber": "31",
+    "addr:postcode": "34000",
+    "addr:street": "Rue Saint-Guilhem",
+    "bulk_purchase": "only",
+    "name": "day by day",
+    "organic": "yes",
+    "shop": "convenience",
+    "website": "http://daybyday-shop.com/magasin/montpellier"
+  }
+},
+{
+  "type": "node",
+  "id": 5618210818,
+  "lat": 48.8303916,
+  "lon": 2.2447462,
+  "tags": {
+    "addr:city": "Boulogne-Billancourt",
+    "addr:housenumber": "32",
+    "addr:postcode": "92100",
+    "addr:street": "Rue de Solférino",
+    "bulk_purchase": "only",
+    "name": "day by day",
+    "organic": "yes",
+    "shop": "convenience",
+    "website": "http://daybyday-shop.com/magasin/boulogne-billancourt"
+  }
+},
+{
+  "type": "node",
+  "id": 5618216050,
+  "lat": 48.8223731,
+  "lon": 2.4196640,
+  "tags": {
+    "addr:city": "Charenton-le-Pont",
+    "addr:housenumber": "31 bis",
+    "addr:postcode": "94220",
+    "addr:street": "Avenue du Maréchal de Lattre de Tassigny",
+    "bulk_purchase": "only",
+    "name": "day by day",
+    "organic": "yes",
+    "shop": "convenience",
+    "website": "http://daybyday-shop.com/magasin/charenton-le-pont"
+  }
+},
+{
+  "type": "node",
+  "id": 5618224717,
+  "lat": 48.8053780,
+  "lon": 2.1426481,
+  "tags": {
+    "addr:city": "Versailles",
+    "addr:housenumber": "9",
+    "addr:postcode": "78000",
+    "addr:street": "Rue de Montreuil",
+    "bulk_purchase": "only",
+    "name": "day by day",
+    "organic": "yes",
+    "shop": "convenience",
+    "website": "http://daybyday-shop.com/magasin/versailles"
+  }
+},
+{
+  "type": "node",
+  "id": 5618249615,
+  "lat": 47.3223582,
+  "lon": 5.0408183,
+  "tags": {
+    "addr:city": "Dijon",
+    "addr:housenumber": "3",
+    "addr:postcode": "21000",
+    "addr:street": "Place Notre-Dame",
+    "bulk_purchase": "only",
+    "name": "day by day",
+    "organic": "yes",
+    "shop": "convenience",
+    "website": "http://daybyday-shop.com/magasin/dijon"
+  }
+},
+{
+  "type": "node",
+  "id": 5618256642,
+  "lat": 48.2971991,
+  "lon": 4.0760324,
+  "tags": {
+    "addr:city": "Troyes",
+    "addr:housenumber": "32",
+    "addr:postcode": "10000",
+    "addr:street": "Rue Émile Zola",
+    "bulk_purchase": "only",
+    "name": "day by day",
+    "organic": "yes",
+    "shop": "convenience",
+    "website": "http://daybyday-shop.com/magasin/troyes"
+  }
+},
+{
+  "type": "node",
+  "id": 5618257512,
+  "lat": 47.9006827,
+  "lon": 1.9059444,
+  "tags": {
+    "addr:city": "Orléans",
+    "addr:housenumber": "2",
+    "addr:postcode": "45000",
+    "addr:street": "Place Louis XI",
+    "bulk_purchase": "only",
+    "name": "day by day",
+    "organic": "yes",
+    "shop": "convenience",
+    "website": "http://daybyday-shop.com/magasin/orleans"
+  }
+},
+{
   "type": "way",
   "id": 36940774,
   "center": {
@@ -5340,13 +5866,17 @@
     429567100
   ],
   "tags": {
+    "addr:city": "Annecy",
     "addr:housenumber": "4",
+    "addr:postcode": "74000",
     "addr:street": "Rue Joseph Dessaix",
     "building": "yes",
     "bulk_purchase": "only",
-    "name": "Day by day",
+    "name": "day by day",
+    "organic": "yes",
     "shop": "convenience",
-    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre;mise à jour : 2008"
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre;mise à jour : 2008",
+    "website": "http://daybyday-shop.com/magasin/annecy"
   }
 },
 {
@@ -5655,7 +6185,7 @@
     780447713
   ],
   "tags": {
-    "building": "yes",
+    "building": "retail",
     "bulk_purchase": "yes",
     "name": "Auchan",
     "operator": "Auchan",
@@ -6234,6 +6764,38 @@
 },
 {
   "type": "way",
+  "id": 71210428,
+  "center": {
+    "lat": 44.9327149,
+    "lon": 4.8932333
+  },
+  "nodes": [
+    847685084,
+    847685219,
+    847686002,
+    847685571,
+    2503403931,
+    847684658,
+    847684764,
+    847686458,
+    847685954,
+    847685084
+  ],
+  "tags": {
+    "addr:city": "Valence",
+    "addr:housenumber": "48",
+    "addr:postcode": "26000",
+    "addr:street": "Rue Madier de Montjau",
+    "bulk_purchase": "only",
+    "name": "day by day",
+    "organic": "yes",
+    "shop": "convenience",
+    "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2017",
+    "website": "http://daybyday-shop.com/magasin/valence"
+  }
+},
+{
+  "type": "way",
   "id": 71257138,
   "center": {
     "lat": 47.7994293,
@@ -6477,6 +7039,39 @@
 },
 {
   "type": "way",
+  "id": 78334552,
+  "center": {
+    "lat": 44.7849509,
+    "lon": -0.5071382
+  },
+  "nodes": [
+    919620618,
+    919620956,
+    919620794,
+    919620474,
+    919621505,
+    919621504,
+    919620898,
+    919620649,
+    919620729,
+    919621415,
+    919620618
+  ],
+  "tags": {
+    "addr:city": "Latresne",
+    "addr:postcode": "33360",
+    "addr:street": "Chemin du Port de l'Homme",
+    "building": "yes",
+    "bulk_purchase": "yes",
+    "name": "Biocoop Latresne",
+    "organic": "only",
+    "shop": "supermarket",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+    "website": "https://www.facebook.com/biocooplatresne/"
+  }
+},
+{
+  "type": "way",
   "id": 79282180,
   "center": {
     "lat": 47.0986000,
@@ -6629,6 +7224,7 @@
     "bulk_purchase": "only",
     "description": "Magasin vrac.",
     "name": "Day by day",
+    "organic": "yes",
     "shop": "convenience",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
     "website": "http://daybyday-shop.com/magasin/lyon"
@@ -6712,6 +7308,38 @@
     "shop": "supermarket",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
     "website": "http://www.chlorophylle-coop.com/"
+  }
+},
+{
+  "type": "way",
+  "id": 85100144,
+  "center": {
+    "lat": 50.6275048,
+    "lon": 3.1085841
+  },
+  "nodes": [
+    987123457,
+    987174659,
+    987165080,
+    987164567,
+    442306122,
+    987117340,
+    987066093,
+    987155361,
+    987077485,
+    987123457
+  ],
+  "tags": {
+    "building": "yes",
+    "bulk_purchase": "only",
+    "diet": "vegetarian;vegan",
+    "name": "Hello Bocaux",
+    "opening_hours": "Tu,Th,Fr 09:30-13:00,15:30-19:30; We,Sa 9:00-13:00,15:30-19:30",
+    "organic": "only",
+    "shop": "convenience",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+    "start_date": "2018",
+    "website": "https://www.facebook.com/HelloBocauxHellemmes/"
   }
 },
 {
@@ -6863,6 +7491,41 @@
     "shop": "supermarket",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
     "website": "http://www.lacoumpagnie.fr/"
+  }
+},
+{
+  "type": "way",
+  "id": 90733605,
+  "center": {
+    "lat": 49.2582381,
+    "lon": 4.0421065
+  },
+  "nodes": [
+    1052449900,
+    1052349129,
+    1052623427,
+    1052385856,
+    1052362345,
+    1052614805,
+    1052776908,
+    1052558793,
+    1052350953,
+    1052753821,
+    1052506872,
+    1052449900
+  ],
+  "tags": {
+    "addr:city": "Reims",
+    "addr:housenumber": "26",
+    "addr:postcode": "51100",
+    "addr:street": "Avenue Jean Jaurès",
+    "building": "yes",
+    "bulk_purchase": "only",
+    "name": "day by day",
+    "organic": "yes",
+    "shop": "convenience",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadas. Mise à jour : 2010",
+    "website": "http://daybyday-shop.com/magasin/reims"
   }
 },
 {
@@ -7506,6 +8169,41 @@
 },
 {
   "type": "way",
+  "id": 126909504,
+  "center": {
+    "lat": 47.4725385,
+    "lon": -0.5528465
+  },
+  "nodes": [
+    1405660712,
+    2852670314,
+    1405659190,
+    1405659912,
+    1405659965,
+    1405660711,
+    1405660924,
+    1405660450,
+    1405661380,
+    1405661184,
+    1405661576,
+    1405660712
+  ],
+  "tags": {
+    "addr:city": "Angers",
+    "addr:housenumber": "29",
+    "addr:postcode": "49100",
+    "addr:street": "Rue de la Roë",
+    "building": "yes",
+    "bulk_purchase": "only",
+    "name": "day by day",
+    "organic": "yes",
+    "shop": "convenience",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011",
+    "website": "http://daybyday-shop.com/magasin/angers"
+  }
+},
+{
+  "type": "way",
   "id": 130563221,
   "center": {
     "lat": 43.4770215,
@@ -7805,6 +8503,68 @@
     "shop": "supermarket",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012",
     "website": "http://www.biocoopbordeauxlac.com/"
+  }
+},
+{
+  "type": "way",
+  "id": 154703403,
+  "center": {
+    "lat": 44.8670450,
+    "lon": -0.6070920
+  },
+  "nodes": [
+    1671870830,
+    1671870215,
+    1671868385,
+    1671868615,
+    1671870981,
+    1671871207,
+    1671870886,
+    1671871478,
+    1671870830
+  ],
+  "tags": {
+    "addr:city": "Le Bouscat",
+    "addr:housenumber": "340",
+    "addr:postcode": "33110",
+    "addr:street": "Avenue de la Libération",
+    "building": "yes",
+    "bulk_purchase": "yes",
+    "name": "Biocoop Le Bouscat",
+    "organic": "only",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012",
+    "website": "https://fr-fr.facebook.com/biocooplebouscat/"
+  }
+},
+{
+  "type": "way",
+  "id": 154772532,
+  "center": {
+    "lat": 44.8470650,
+    "lon": -0.5803290
+  },
+  "nodes": [
+    1672531361,
+    1672531292,
+    1672530804,
+    2242681776,
+    1672530742,
+    1672531132,
+    1672531144,
+    1672531263,
+    1672531361
+  ],
+  "tags": {
+    "addr:city": "Bordeaux",
+    "addr:housenumber": "61",
+    "addr:postcode": "33000",
+    "addr:street": "Rue Fondaudège",
+    "building": "yes",
+    "bulk_purchase": "only",
+    "name": "day by day",
+    "organic": "yes",
+    "shop": "convenience",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012"
   }
 },
 {
