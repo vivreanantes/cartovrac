@@ -19,8 +19,7 @@
 		});
 
 		function generateUrl() {
-	        var coords = '(40,-8,53,8)';
-	        var url = 'https://www.overpass-api.de/api/interpreter?data=[out:json][timeout:500][maxsize:20737418];((node["bulk_purchase"="yes"]'+coords+';node["bulk_purchase"="only"]'+coords+';way["bulk_purchase"="yes"]'+coords+';way["bulk_purchase"="only"]'+coords+';';
+	        var url = 'https://www.overpass-api.de/api/interpreter?data=[out:json][timeout:500][maxsize:20737418];(area["ISO3166-1"="FR"];)->.fr;((node["bulk_purchase"="yes"](area.fr);node["bulk_purchase"="only"](area.fr);way["bulk_purchase"="yes"](area.fr);way["bulk_purchase"="only"](area.fr);';
 
 	        // Add partners
 	        for (var partnerIndex in jtbPartners) {

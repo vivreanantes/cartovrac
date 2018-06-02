@@ -2,7 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.55.3 9da5e7ae",
   "osm3s": {
-    "timestamp_osm_base": "2018-06-02T21:13:02Z",
+    "timestamp_osm_base": "2018-06-02T21:27:02Z",
+    "timestamp_areas_base": "2018-06-02T21:12:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -208,32 +209,6 @@
     "organic": "only",
     "shop": "supermarket",
     "website": "http://biocoop.fr/magasins-bio/Trouver-mon-magasin-Biocoop/Ile-de-France/Paris/BIOCOOP-PARIS-12EME"
-  }
-},
-{
-  "type": "node",
-  "id": 556430190,
-  "lat": 50.9120064,
-  "lon": 6.9185920,
-  "tags": {
-    "addr:city": "Köln",
-    "addr:country": "DE",
-    "addr:housenumber": "406",
-    "addr:postcode": "50937",
-    "addr:street": "Berrenrather Straße",
-    "bulk_purchase": "yes",
-    "description": "Kölns erster \"Unverpackt Laden\"",
-    "email": "hallo@tante-olga.de",
-    "fax": "+49 221 9460077",
-    "name": "Tante Olga",
-    "note": "ehemals Bäckerei Heilinger",
-    "opening_hours": "Mo,Sa 10:00-15:00; Tu-Fr 11:00-19:00; Su,PH off",
-    "organic": "yes",
-    "phone": "+49 221 94600076",
-    "shop": "convenience",
-    "start_date": "2016-11-05",
-    "website": "http://www.tante-olga.de/",
-    "wheelchair": "no"
   }
 },
 {
@@ -680,29 +655,6 @@
 },
 {
   "type": "node",
-  "id": 1505749868,
-  "lat": 47.1410058,
-  "lon": 7.2462051,
-  "tags": {
-    "addr:city": "Biel/Bienne",
-    "addr:country": "CH",
-    "addr:housenumber": "1",
-    "addr:postcode": "2502",
-    "addr:street": "Kirchgässli",
-    "addr:street:fr": "Ruelle de l'Église",
-    "bulk_purchase": "yes",
-    "contact:email": "info@batavia.ch",
-    "contact:phone": "+41 32 342 00 64",
-    "contact:website": "http://www.batavia.ch",
-    "name": "Batavia",
-    "opening_hours": "We-Fr 07:00-19:00; Sa 08:30-16:00; Su-Tu off",
-    "organic": "yes",
-    "shop": "convenience",
-    "wheelchair": "no"
-  }
-},
-{
-  "type": "node",
   "id": 1574437644,
   "lat": 47.2609125,
   "lon": -1.5167036,
@@ -718,29 +670,6 @@
     "organic": "only",
     "shop": "convenience",
     "website": "http://www.chlorophylle-coop.com/"
-  }
-},
-{
-  "type": "node",
-  "id": 1577028307,
-  "lat": 50.7136090,
-  "lon": 7.0448295,
-  "tags": {
-    "addr:city": "Bonn",
-    "addr:country": "DE",
-    "addr:housenumber": "266",
-    "addr:postcode": "53123",
-    "addr:street": "Rochusstraße",
-    "bulk_purchase": "yes",
-    "email": "info@freikost.de",
-    "fax": "+49 228 9669 0332",
-    "name": "Freikost Deinet",
-    "opening_hours": "Mo-Fr 09:00-18:30; Sa 09:00-14:00; Su,PH off",
-    "organic": "yes",
-    "phone": "+49 228 9669 0330",
-    "shop": "convenience",
-    "website": "http://www.freikost.de",
-    "wheelchair": "limited"
   }
 },
 {
@@ -2577,23 +2506,6 @@
 },
 {
   "type": "node",
-  "id": 3832040657,
-  "lat": 51.9511131,
-  "lon": 7.6248277,
-  "tags": {
-    "addr:housenumber": "52-54",
-    "addr:postcode": "48153",
-    "addr:street": "Hammer Straße",
-    "bulk_purchase": "yes",
-    "description": "unverpackt-Konzept",
-    "name": "Einzelhandel - zum Wohlfüllen",
-    "opening_hours": "Mo-Fr 09:30-19:00; Sa 10:00-17:00",
-    "shop": "supermarket",
-    "website": "http://www.einzelhandel.ms/"
-  }
-},
-{
-  "type": "node",
   "id": 3875439227,
   "lat": 48.8482795,
   "lon": 2.3788100,
@@ -2610,26 +2522,6 @@
     "phone": "+33 1 44 74 04 10",
     "shop": "supermarket",
     "website": "http://biocoop-aligre.biocoop.net/"
-  }
-},
-{
-  "type": "node",
-  "id": 3885946782,
-  "lat": 50.8257250,
-  "lon": 4.3449171,
-  "tags": {
-    "addr:city": "Saint-Gilles - Sint-Gillis",
-    "addr:housenumber": "29",
-    "addr:postcode": "1060",
-    "addr:street": "Avenue Paul Dejaer - Paul Dejaerlaan",
-    "bulk_purchase": "only",
-    "name": "day by day Bruxelles",
-    "opening_hours": "Tu-Sa 11:00-18:30",
-    "organic": "yes",
-    "phone": "+32 2 851 24 20",
-    "second_hand": "yes",
-    "shop": "convenience",
-    "website": "http://daybyday-shop.com/magasin/bruxelles"
   }
 },
 {
@@ -2652,26 +2544,6 @@
     "shop": "supermarket",
     "website": "https://www.biocoop.fr/magasins-bio/Trouver-mon-magasin-Biocoop/Bretagne/Cotes-d-Armor/BIOCOOP-DOUAR-BIHAN",
     "wikipedia": "fr:Biocoop"
-  }
-},
-{
-  "type": "node",
-  "id": 3957016050,
-  "lat": 51.9625841,
-  "lon": 7.6446395,
-  "tags": {
-    "addr:city": "Münster",
-    "addr:country": "DE",
-    "addr:housenumber": "63",
-    "addr:postcode": "48145",
-    "addr:street": "Warendorfer Straße",
-    "bulk_purchase": "yes",
-    "name": "natürlich unverpackt",
-    "opening_hours": "Mo-Fr 09:00-19:00; Sa 09:00-15:00",
-    "phone": "+4925139779720",
-    "shop": "convenience",
-    "website": "http://www.natuerlich-unverpackt.de",
-    "wheelchair": "yes"
   }
 },
 {
@@ -2925,25 +2797,6 @@
     "name": "Les Délices de Provence",
     "origin": "mediterranean",
     "shop": "deli"
-  }
-},
-{
-  "type": "node",
-  "id": 4201925356,
-  "lat": 49.7627515,
-  "lon": 6.6491800,
-  "tags": {
-    "addr:city": "Trier",
-    "addr:country": "DE",
-    "addr:housenumber": "65",
-    "addr:postcode": "54292",
-    "addr:street": "Paulinstraße",
-    "bulk_purchase": "yes",
-    "name": "unverpackt Trier",
-    "opening_hours": "Mo-Fr 09:00-19:00; Sa 10:00-16:00",
-    "shop": "convenience",
-    "website": "www.unverpackt-trier.de",
-    "wheelchair": "yes"
   }
 },
 {
@@ -4527,26 +4380,6 @@
 },
 {
   "type": "node",
-  "id": 5007901395,
-  "lat": 50.9480079,
-  "lon": 6.9217112,
-  "tags": {
-    "addr:city": "Köln",
-    "addr:housenumber": "270",
-    "addr:postcode": "50823",
-    "addr:street": "Venloer Straße",
-    "bulk_purchase": "yes",
-    "email": "post@veedelskraemer.de",
-    "name": "Veedelskrämer",
-    "opening_hours": "Mo-Fr 10:00-13:00,14:00-19:00; Sa 10:00-16:00",
-    "phone": "+49 221 16893806",
-    "shop": "convenience",
-    "website": "https://www.veedelskraemer.de/",
-    "wheelchair": "yes"
-  }
-},
-{
-  "type": "node",
   "id": 5010220778,
   "lat": 49.1175192,
   "lon": 6.1781779,
@@ -4821,49 +4654,6 @@
 },
 {
   "type": "node",
-  "id": 5145048483,
-  "lat": 41.4928743,
-  "lon": 2.1386127,
-  "tags": {
-    "addr:city": "Cerdanyola del Vallès",
-    "addr:housenumber": "21-23",
-    "addr:postcode": "08290",
-    "addr:street": "Passeig Cordelles",
-    "addr:unit": "2",
-    "bulk_purchase": "yes",
-    "description": "Bulk food and spices",
-    "email": "panxa.contenta@hotmail.com",
-    "name": "Panxa Contenta",
-    "opening_hours": "Mo-Sa 10:00-13:30; Mo-Fr 17:00-20:00; Su closed",
-    "payment:cash": "yes",
-    "payment:credit_cards": "yes",
-    "phone": "+34 931 82 58 18",
-    "shop": "supermarket",
-    "website": "https://facebook.com/panxa.contenta.cerdanyola/"
-  }
-},
-{
-  "type": "node",
-  "id": 5145052699,
-  "lat": 41.4916468,
-  "lon": 2.1417509,
-  "tags": {
-    "addr:city": "Cerdanyola del Vallès",
-    "addr:housenumber": "74",
-    "addr:postcode": "08290",
-    "addr:street": "Carrer de Francesc Layret",
-    "bulk_purchase": "yes",
-    "description": "Bulk food and spices",
-    "email": "elpicoti.cerdanyola@gmail.com",
-    "name": "El picotí",
-    "opening_hours": "Mo 17:00-20:30; Tu-Sa 9:00-14:00, 17:00-20:30",
-    "phone": "+34 660 87 94 19",
-    "shop": "supermarket",
-    "website": "https://www.facebook.com/elpicoti"
-  }
-},
-{
-  "type": "node",
   "id": 5154125899,
   "lat": 48.5589047,
   "lon": -3.1223007,
@@ -4921,18 +4711,6 @@
 },
 {
   "type": "node",
-  "id": 5188912372,
-  "lat": 51.5436100,
-  "lon": -0.0758230,
-  "tags": {
-    "bulk_purchase": "only",
-    "name": "Bulk Market",
-    "shop": "convenience",
-    "website": "https://www.bulkmarket.uk/"
-  }
-},
-{
-  "type": "node",
   "id": 5202232443,
   "lat": 50.6312625,
   "lon": 3.0544663,
@@ -4945,63 +4723,6 @@
     "shop": "supermarket",
     "source": "survey",
     "survey:date": "2017-10"
-  }
-},
-{
-  "type": "node",
-  "id": 5202943314,
-  "lat": 41.3797898,
-  "lon": 2.1619606,
-  "tags": {
-    "addr:city": "Barcelona",
-    "addr:housenumber": "16",
-    "addr:postcode": "08011",
-    "addr:street": "Carrer del Comte d'Urgell",
-    "bulk_purchase": "yes",
-    "email": "info@elpagesdor.com",
-    "name": "El Pages d'Or",
-    "opening_hours": "Mo-Su 09:00-21:00",
-    "phone": "+34 930 07 33 01",
-    "shop": "supermarket",
-    "website": "https://www.facebook.com/pagesdor"
-  }
-},
-{
-  "type": "node",
-  "id": 5203044962,
-  "lat": 41.3759466,
-  "lon": 2.1536654,
-  "tags": {
-    "addr:city": "Barcelona",
-    "addr:housenumber": "62",
-    "addr:postcode": "08015",
-    "addr:street": "Avinguda de Mistral",
-    "bulk_purchase": "yes",
-    "diet:vegan": "only",
-    "email": "info@gransdelaterra.com",
-    "name": "Grans de la Terra",
-    "opening_hours": "Mo-Sa 10:00-21:30",
-    "phone": "+34 936 11 61 86",
-    "shop": "supermarket",
-    "website": "http://www.gransdelaterra.com/"
-  }
-},
-{
-  "type": "node",
-  "id": 5203180301,
-  "lat": 41.3996311,
-  "lon": 2.1541322,
-  "tags": {
-    "addr:city": "Barcelona",
-    "addr:housenumber": "17",
-    "addr:postcode": "08012",
-    "addr:street": "Carrer de Sant Cristòfol",
-    "bulk_purchase": "yes",
-    "name": "Al gra",
-    "opening_hours": "Mo-Fr 09:30-15:00; 17:00-20:30; Sa 09:30-15:00; Su closed",
-    "phone": "+34 932 38 89 55",
-    "shop": "supermarket",
-    "website": "https://www.facebook.com/algrabcn"
   }
 },
 {
@@ -5167,6 +4888,25 @@
 },
 {
   "type": "node",
+  "id": 5242400683,
+  "lat": -21.3408315,
+  "lon": 55.4692661,
+  "tags": {
+    "addr:city": "Saint-Pierre",
+    "addr:housenumber": "89",
+    "addr:postcode": "97410",
+    "addr:street": "Rue du Four à Chaux",
+    "bulk_purchase": "only",
+    "description": "façade 3, \népicerie végétarienne 100% naturel",
+    "name": "Chez mamzel",
+    "organic": "yes",
+    "shop": "convenience",
+    "source": "survey : Projet master 2 RNET Mairie St-Pierre",
+    "source_1": "Kaart Ground Survey 2017"
+  }
+},
+{
+  "type": "node",
   "id": 5244957090,
   "lat": 44.6120317,
   "lon": 4.4096678,
@@ -5180,25 +4920,6 @@
     "organic": "only",
     "shop": "supermarket",
     "website": "http://lesgatobio.biocoop.net"
-  }
-},
-{
-  "type": "node",
-  "id": 5248675265,
-  "lat": 41.3857346,
-  "lon": 2.1828163,
-  "tags": {
-    "addr:city": "Barcelona",
-    "addr:housenumber": "2",
-    "addr:postcode": "08003",
-    "addr:street": "Plaça Comercial",
-    "bulk_purchase": "yes",
-    "email": "info@casaperris.com",
-    "name": "Casa Perris",
-    "opening_hours": "Mo-Fr 08:00-20:00; Sa 08:30-20:00",
-    "phone": "+34 933 19 55 48",
-    "shop": "supermarket",
-    "website": "http://www.casaperris.com"
   }
 },
 {
@@ -5522,28 +5243,6 @@
     "organic": "yes",
     "shop": "convenience",
     "website": "http://www.coteaux-nantais.com/fr/content/vente-directe"
-  }
-},
-{
-  "type": "node",
-  "id": 5452060690,
-  "lat": 50.9175650,
-  "lon": 6.9604634,
-  "tags": {
-    "addr:city": "Köln",
-    "addr:country": "DE",
-    "addr:housenumber": "66",
-    "addr:postcode": "50677",
-    "addr:street": "Bonner Straße",
-    "bulk_purchase": "yes",
-    "email": "info@migori.de",
-    "name": "migori",
-    "opening_hours": "Mo-We 10:00-18:30; Th-Fr 10:00-20:00; Sa 10:00-16:00; Su,PH off",
-    "organic": "yes",
-    "phone": "+40 221 94246298",
-    "shop": "convenience",
-    "website": "http://migori.de/",
-    "wheelchair": "yes"
   }
 },
 {
@@ -6469,6 +6168,23 @@
     "shop": "supermarket",
     "website": "http://www.scarabee-biocoop.fr",
     "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 5573379327,
+  "lat": 41.9289383,
+  "lon": 8.7375780,
+  "tags": {
+    "addr:city": "Ajaccio",
+    "addr:housenumber": "6",
+    "addr:postcode": "20090",
+    "addr:street": "Rue Docteur François del Pellegrino",
+    "bulk_purchase": "yes",
+    "name": "Biocoop Del Pellegrino",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "http://www.biocoopdelpellegrino.com"
   }
 },
 {
