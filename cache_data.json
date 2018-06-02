@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.55.3 9da5e7ae",
   "osm3s": {
-    "timestamp_osm_base": "2018-06-02T21:27:02Z",
-    "timestamp_areas_base": "2018-06-02T21:12:02Z",
+    "timestamp_osm_base": "2018-06-02T22:41:01Z",
+    "timestamp_areas_base": "2018-06-02T22:16:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -250,6 +250,17 @@
     "phone": "+33 4 75 02 99 32",
     "shop": "supermarket",
     "website": "http://www.biocoopromans.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 669180003,
+  "lat": 47.1863374,
+  "lon": -1.5274938,
+  "tags": {
+    "name": "Boulangerie de Sèvre",
+    "shop": "bakery",
+    "website": "https://www.facebook.com/boulangeriedesevres/"
   }
 },
 {
@@ -7068,6 +7079,28 @@
     "name": "Cambuza",
     "organic": "yes",
     "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 5659509071,
+  "lat": 47.2810384,
+  "lon": -2.2149858,
+  "tags": {
+    "name": "Les Halles Paysannes",
+    "shop": "farm",
+    "website": "http://www.terroirs44.org/les-halles-paysannes/"
+  }
+},
+{
+  "type": "node",
+  "id": 5659525443,
+  "lat": 47.1846442,
+  "lon": -1.5469085,
+  "tags": {
+    "name": "La Fromagerie Saint Paul",
+    "shop": "cheese",
+    "website": "https://www.facebook.com/La-Fromagerie-SAINT-PAUL-442537955887586/"
   }
 },
 {
