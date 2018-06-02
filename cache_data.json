@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.55.3 9da5e7ae",
   "osm3s": {
-    "timestamp_osm_base": "2018-06-02T22:41:01Z",
+    "timestamp_osm_base": "2018-06-02T23:08:02Z",
     "timestamp_areas_base": "2018-06-02T22:16:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
@@ -7851,6 +7851,7 @@
     "bulk_purchase": "yes",
     "name": "Biocoop Croq'Santé",
     "organic": "only",
+    "shop": "supermarket",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
     "website": "http://www.biocoop-riberac.fr"
   }
@@ -8597,6 +8598,7 @@
     "bulk_purchase": "yes",
     "name": "Biocoop Grain d'or",
     "organic": "only",
+    "shop": "supermarket",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
     "website": "http://www.biocoop-perigueux.fr"
   }
@@ -9184,7 +9186,7 @@
     "bulk_purchase": "yes",
     "name": "Biocoop La Canopée",
     "organic": "only",
-    "shop": "food",
+    "shop": "supermarket",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
     "website": "http://lacanopee.biocoop.net"
   }
@@ -9864,6 +9866,7 @@
     "bulk_purchase": "yes",
     "name": "Biocoop",
     "organic": "only",
+    "shop": "supermarket",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011",
     "website": "https://www.biocoop.fr/magasins-bio/Trouver-mon-magasin-Biocoop/Bretagne/Finistere/BIOCOOP-DOUARNENEZ"
   }
@@ -10411,6 +10414,7 @@
     "bulk_purchase": "yes",
     "name": "Biocoop Le cadre bio St Lambert",
     "organic": "only",
+    "shop": "supermarket",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012",
     "website": "http://lecadrebionord.biocoop.net"
   }
@@ -10514,6 +10518,7 @@
     "bulk_purchase": "yes",
     "name": "Biocoop Le Bouscat",
     "organic": "only",
+    "shop": "supermarket",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012",
     "website": "https://fr-fr.facebook.com/biocooplebouscat/"
   }
@@ -11344,6 +11349,7 @@
     "bulk_purchase": "yes",
     "name": "Biocoop",
     "organic": "only",
+    "shop": "supermarket",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013",
     "website": "http://biocoop.fr/magasins-bio/Trouver-mon-magasin-Biocoop/Nouvelle-Aquitaine2/Gironde/SAVEURS-ET-NATURE-1"
   }
@@ -11427,6 +11433,7 @@
     "bulk_purchase": "yes",
     "name": "Biocoop Le cadre bio",
     "organic": "only",
+    "shop": "supermarket",
     "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2013",
     "website": "http://lecadrebio.biocoop.net"
   }
