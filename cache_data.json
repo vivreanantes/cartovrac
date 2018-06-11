@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.55.3 9da5e7ae",
   "osm3s": {
-    "timestamp_osm_base": "2018-06-02T23:08:02Z",
-    "timestamp_areas_base": "2018-06-02T22:16:02Z",
+    "timestamp_osm_base": "2018-06-08T18:50:02Z",
+    "timestamp_areas_base": "2018-06-08T15:34:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -49,6 +49,18 @@
     "shop": "convenience",
     "source": "survey",
     "website": "http://daybyday-shop.com/magasin/grenoble"
+  }
+},
+{
+  "type": "node",
+  "id": 332488441,
+  "lat": 47.2490052,
+  "lon": -0.0864905,
+  "tags": {
+    "bulk_purchase": "yes",
+    "name": "Biocoop",
+    "organic": "only",
+    "shop": "supermarket"
   }
 },
 {
@@ -120,6 +132,19 @@
     "organic": "only",
     "shop": "supermarket",
     "website": "http://pontarlier.biocoop.net/"
+  }
+},
+{
+  "type": "node",
+  "id": 469754379,
+  "lat": 48.8997185,
+  "lon": 2.5174559,
+  "tags": {
+    "bulk_purchase": "yes",
+    "name": "Biocoop",
+    "operator": "Biocoop",
+    "organic": "only",
+    "shop": "supermarket"
   }
 },
 {
@@ -213,6 +238,24 @@
 },
 {
   "type": "node",
+  "id": 627857438,
+  "lat": 48.8855549,
+  "lon": 2.3755636,
+  "tags": {
+    "addr:city": "Paris",
+    "addr:housenumber": "46bis",
+    "addr:postcode": "75019",
+    "addr:street": "Quai de la Loire",
+    "bulk_purchase": "yes",
+    "name": "Biocoop Canal Bio",
+    "opening_hours": "Mo 12:00-20:00; Tu-Sa 10:00-20:00",
+    "organic": "only",
+    "shop": "convenience",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
   "id": 627893217,
   "lat": 43.9622366,
   "lon": 3.8564786,
@@ -261,6 +304,19 @@
     "name": "Boulangerie de Sèvre",
     "shop": "bakery",
     "website": "https://www.facebook.com/boulangeriedesevres/"
+  }
+},
+{
+  "type": "node",
+  "id": 670930189,
+  "lat": 48.8348484,
+  "lon": 2.5069016,
+  "tags": {
+    "bulk_purchase": "yes",
+    "name": "Biocoop",
+    "operator": "Biocoop",
+    "organic": "only",
+    "shop": "supermarket"
   }
 },
 {
@@ -321,6 +377,19 @@
     "organic": "yes",
     "shop": "convenience",
     "website": "https://www.biomonde.fr/bio-de-guip,3,46"
+  }
+},
+{
+  "type": "node",
+  "id": 897487756,
+  "lat": 46.3384227,
+  "lon": -0.4465017,
+  "tags": {
+    "bulk_purchase": "yes",
+    "name": "Biocoop",
+    "operator": "Biocoop",
+    "organic": "only",
+    "shop": "supermarket"
   }
 },
 {
@@ -576,6 +645,7 @@
     "bulk_purchase": "yes",
     "name": "Biocoop Tourne-Sol",
     "operator": "Biocoop",
+    "organic": "only",
     "shop": "convenience",
     "website": "http://www.tourne-sol-biocoop.fr"
   }
@@ -666,6 +736,19 @@
 },
 {
   "type": "node",
+  "id": 1567664483,
+  "lat": 48.6788070,
+  "lon": 2.1319719,
+  "tags": {
+    "bulk_purchase": "yes",
+    "name": "Biocoop",
+    "organic": "only",
+    "shop": "supermarket",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"
+  }
+},
+{
+  "type": "node",
   "id": 1574437644,
   "lat": 47.2609125,
   "lon": -1.5167036,
@@ -726,6 +809,19 @@
     "phone": "+33 4 78 42 09 46",
     "shop": "supermarket",
     "website": "http://www.biocooplyonbellecour.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 1610346633,
+  "lat": 48.9608896,
+  "lon": 1.8142728,
+  "tags": {
+    "bulk_purchase": "yes",
+    "name": "Biocoop",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "http://www.biocoop.fr/magasins-bio/trouver-ma-biocoop/ile-de-france/yvelines/biocoop-epone"
   }
 },
 {
@@ -934,19 +1030,21 @@
 {
   "type": "node",
   "id": 1797889998,
-  "lat": 46.6932211,
-  "lon": -1.4331839,
+  "lat": 46.6931852,
+  "lon": -1.4331852,
   "tags": {
     "addr:city": "La Roche-sur-Yon",
     "addr:housenumber": "91",
     "addr:postcode": "85000",
     "addr:street": "Rue Philippe Lebon",
+    "brand": "Biocoop",
     "bulk_purchase": "yes",
     "contact:phone": "+33 2 51 40 27 69",
     "currency:XLT": "VNDO",
     "description": "Supermarché bio et équitable",
-    "name": "Croq'Bio Nord",
-    "operator": "Biocoop",
+    "name": "Biocoop Croq'Bio Nord",
+    "opening_hours": "Mo-Th 9:30-13:00; Fr 9:30-19:00; Sa 9:30-18:30",
+    "operator": "Biocoop Croq'Bio",
     "organic": "only",
     "payment:cash:XLT-VNDO": "yes",
     "shop": "supermarket",
@@ -1125,6 +1223,19 @@
 },
 {
   "type": "node",
+  "id": 2007934427,
+  "lat": 45.9390818,
+  "lon": 6.1224948,
+  "tags": {
+    "bulk_purchase": "yes",
+    "name": "Biocoop",
+    "operator": "Aquarius",
+    "organic": "only",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
   "id": 2086186228,
   "lat": 47.8699692,
   "lon": -3.5919584,
@@ -1215,6 +1326,39 @@
     "phone": "+33 2 98 30 35 90",
     "shop": "supermarket",
     "website": "http://www.laclefdeschamps.ouvaton.org"
+  }
+},
+{
+  "type": "node",
+  "id": 2142687722,
+  "lat": 46.5491585,
+  "lon": 0.2962873,
+  "tags": {
+    "addr:city": "Poitiers",
+    "addr:housenumber": "14",
+    "addr:postcode": "86000",
+    "addr:street": "Route de la Saulaie",
+    "brand": "Biocoop",
+    "brand:wikidata": "Q2904039",
+    "brand:wikipedia": "fr:Biocoop",
+    "bulk_purchase": "yes",
+    "name": "Biocoop",
+    "organic": "only",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 2178890676,
+  "lat": 42.7769824,
+  "lon": 2.9187497,
+  "tags": {
+    "bulk_purchase": "yes",
+    "fixme": "name",
+    "name": "Biocoop",
+    "operator": "Biocoop",
+    "organic": "only",
+    "shop": "supermarket"
   }
 },
 {
@@ -1319,6 +1463,24 @@
 },
 {
   "type": "node",
+  "id": 2282181472,
+  "lat": 46.8368659,
+  "lon": 0.5431636,
+  "tags": {
+    "bulk_purchase": "yes",
+    "contact:email": "ptv2@wanadoo.fr",
+    "contact:fax": "+33549863710",
+    "contact:phone": "+33549027141",
+    "contact:website": "http://www.lepoistoutvert.com",
+    "name": "Biocoop",
+    "opening_hours": "Mo-Sa 09:30-19:00",
+    "operator": "Biocoop",
+    "organic": "only",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
   "id": 2289128176,
   "lat": 47.2148493,
   "lon": -1.5538938,
@@ -1334,6 +1496,19 @@
     "contact:street": "Rue du Bouffay",
     "name": "Boucherie du Bouffay",
     "shop": "butcher"
+  }
+},
+{
+  "type": "node",
+  "id": 2308410719,
+  "lat": 45.2876817,
+  "lon": 4.1677416,
+  "tags": {
+    "bulk_purchase": "yes",
+    "name": "Biocoop",
+    "operator": "Biocoop",
+    "organic": "only",
+    "shop": "supermarket"
   }
 },
 {
@@ -1524,6 +1699,21 @@
     "organic": "only",
     "shop": "supermarket",
     "website": "http://biocoop.fr/magasins-bio/Trouver-mon-magasin-Biocoop/Auvergne-Rhone-Alpes/Ardeche/BIOCOOP-LA-MAISON-DU-BIO"
+  }
+},
+{
+  "type": "node",
+  "id": 2483199565,
+  "lat": 47.4699261,
+  "lon": -0.5513979,
+  "tags": {
+    "addr:housenumber": "22",
+    "addr:street": "Rue Saint-Julien",
+    "bulk_purchase": "only",
+    "description": "Epicerie bio",
+    "name": "L'Epicerie 2 Pauline",
+    "opening_hours": "Mo 14:00-19:30; Tu-Sa 10:00-14:00,15:30-19:30",
+    "shop": "supermarket"
   }
 },
 {
@@ -1842,6 +2032,24 @@
 },
 {
   "type": "node",
+  "id": 2947278395,
+  "lat": 45.1889418,
+  "lon": 5.7290004,
+  "tags": {
+    "addr:city": "Grenoble",
+    "addr:housenumber": "2",
+    "addr:postcode": "38000",
+    "addr:street": "Rue Condillac",
+    "bulk_purchase": "only",
+    "name": "La Bonne Pioche",
+    "opening_hours": "10:00 / 20:00",
+    "operator": "SCOP La Bonne Pioche",
+    "shop": "convenience",
+    "source": "survey"
+  }
+},
+{
+  "type": "node",
   "id": 2976418012,
   "lat": 44.2937442,
   "lon": 2.5608637,
@@ -1858,6 +2066,24 @@
     "phone": "+33 5 65 47 07 93",
     "shop": "convenience",
     "website": "https://www.biocoop.fr/magasins-bio/Trouver-mon-magasin-Biocoop/Occitanie2/Aveyron/BIOCOOP-LA-PRIMAUBE"
+  }
+},
+{
+  "type": "node",
+  "id": 3043649884,
+  "lat": 47.9543271,
+  "lon": 1.8919414,
+  "tags": {
+    "addr:city": "Saran",
+    "addr:housenumber": "40",
+    "addr:postcode": "45770",
+    "addr:street": "Rue Gabriel Debacq",
+    "bulk_purchase": "yes",
+    "name": "Biocoop Orléans",
+    "opening_hours": "Mo 15:00-19:00; Tu-Th 9:30-13:00, 14:30-19:00; Fr-Sa 9:30-19:00",
+    "organic": "only",
+    "phone": "+33 2 38 73 20 45",
+    "shop": "supermarket"
   }
 },
 {
@@ -2082,6 +2308,19 @@
 },
 {
   "type": "node",
+  "id": 3296447067,
+  "lat": 48.7762702,
+  "lon": 2.2557593,
+  "tags": {
+    "bulk_purchase": "yes",
+    "name": "Biocoop L'Arbre de Vie",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "http://larbredevie.biocoop.net/"
+  }
+},
+{
+  "type": "node",
   "id": 3296968269,
   "lat": 46.9690911,
   "lon": -1.3271961,
@@ -2111,7 +2350,7 @@
     "bulk_purchase": "yes",
     "name": "Biocoop du Lac",
     "opening_hours": "Mo 15:00-19:30; Tu-Sa 09:00-13:00,15:00-19:30",
-    "organic": "yes",
+    "organic": "only",
     "shop": "convenience",
     "website": "https://www.biocoop.fr/magasins-bio/Trouver-mon-magasin-Biocoop/Pays-de-la-Loire/Loire-Atlantique/BIOCOOP-DU-LAC"
   }
@@ -2321,6 +2560,21 @@
 },
 {
   "type": "node",
+  "id": 3533486610,
+  "lat": 44.1256774,
+  "lon": 0.3395415,
+  "tags": {
+    "bulk_purchase": "yes",
+    "contact:phone": "+33 5 53 97 27 18",
+    "name": "Biocoop l'Albret Vert",
+    "opening_hours": "Mo 15:00-19:00; Tu-Sa 09:30-13:00,15:00-19:00",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "http://www.biocoop-nerac.fr/"
+  }
+},
+{
+  "type": "node",
   "id": 3554489123,
   "lat": 50.7402958,
   "lon": 2.2743804,
@@ -2338,6 +2592,29 @@
     "phone": "+33 3 21 11 95 38",
     "shop": "supermarket",
     "website": "http://www.biocoop-de-laudomarois.fr/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3644826203,
+  "lat": 43.9132014,
+  "lon": 2.1429803,
+  "tags": {
+    "addr:city": "Albi",
+    "addr:housenumber": "9",
+    "addr:postcode": "81000",
+    "addr:street": "Rue de Puech Petit",
+    "brand:website": "https://www.biocoop.fr",
+    "brand:wikidata": "Q2904039",
+    "brand:wikipedia": "fr:Biocoop",
+    "bulk_purchase": "yes",
+    "level": "0",
+    "name": "Biocoop",
+    "operator": "Christophe Chane",
+    "organic": "only",
+    "phone": "+33 5 81 02 33 98",
+    "shop": "supermarket",
     "wheelchair": "yes"
   }
 },
@@ -2581,6 +2858,19 @@
 },
 {
   "type": "node",
+  "id": 3994143457,
+  "lat": 45.4860602,
+  "lon": 6.5240644,
+  "tags": {
+    "bulk_purchase": "yes",
+    "franchise": "Biocoop",
+    "name": "Biocoop Au Panier Vert",
+    "organic": "only",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
   "id": 4004498215,
   "lat": 44.7799577,
   "lon": -0.6893747,
@@ -2707,6 +2997,22 @@
 },
 {
   "type": "node",
+  "id": 4078476071,
+  "lat": 48.9083801,
+  "lon": 2.2613287,
+  "tags": {
+    "addr:city": "Bois-Colombes",
+    "addr:housenumber": "5",
+    "addr:postcode": "92270",
+    "addr:street": "Rue Hispano Suiza",
+    "bulk_purchase": "yes",
+    "name": "Biocoop",
+    "organic": "only",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
   "id": 4087781224,
   "lat": 48.7335311,
   "lon": -3.4375928,
@@ -2828,6 +3134,22 @@
     "payment:cash:XLT-MIEL": "yes",
     "shop": "convenience",
     "website": "http://www.biocoopbouliac.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 4231558468,
+  "lat": 45.0509972,
+  "lon": 3.8931820,
+  "tags": {
+    "alt_name": "Biocoop",
+    "bulk_purchase": "yes",
+    "name": "Echo nature Biocoop",
+    "opening_hours": "Mo 10:00-12:30, 14:00-19:00; Tu-Th 09:00-12:30,14:00-19:00; Fr-Sa 09:00-19:00",
+    "organic": "only",
+    "phone": "+33 4 71 02 95 81",
+    "shop": "supermarket",
+    "website": "http://echonature.fr/"
   }
 },
 {
@@ -3398,7 +3720,7 @@
     "bulk_purchase": "yes",
     "name": "Les Hameaux Bio Biocoop Saint-Nazaire",
     "opening_hours": "Mo-Th 08:30-12:30, 14:30-19:15; Fr-Sa 08:30-19:15; Su off",
-    "organic": "yes",
+    "organic": "only",
     "shop": "convenience",
     "website": "http://www.leshameauxbio.fr/magasins/o%C3%B9-sommes-nous/saint-nazaire/"
   }
@@ -3618,6 +3940,25 @@
 },
 {
   "type": "node",
+  "id": 4559046864,
+  "lat": 49.9051758,
+  "lon": 1.0792792,
+  "tags": {
+    "addr:city": "Dieppe",
+    "addr:postcode": "76200",
+    "addr:street": "Avenue des Canadiens",
+    "brand:wikipedia": "fr:Biocoop",
+    "bulk_purchase": "yes",
+    "name": "Biocoop",
+    "operator": "L'Asticot Bio",
+    "organic": "only",
+    "phone": "+33 2 35 83 50 86",
+    "shop": "supermarket",
+    "website": "http://www.biocoop.fr"
+  }
+},
+{
+  "type": "node",
   "id": 4598296543,
   "lat": 48.5803297,
   "lon": 7.7576726,
@@ -3690,6 +4031,7 @@
     "description": "Magasin bio, snack bio",
     "name": "Biocoop Nice Grimaldi",
     "opening_hours": "Mo-Sa 09:30-19:30",
+    "organic": "only",
     "shop": "supermarket",
     "website": "https://www.instagram.com/biocoopnicegrimaldi"
   }
@@ -4154,6 +4496,39 @@
 },
 {
   "type": "node",
+  "id": 4843398120,
+  "lat": 45.4413433,
+  "lon": 4.3889514,
+  "tags": {
+    "bulk_purchase": "only",
+    "contact:website": "http://www.vracenvert.fr",
+    "description": "Épicerie sans emballage",
+    "name": "Vrac en Vert",
+    "shop": "deli"
+  }
+},
+{
+  "type": "node",
+  "id": 4859390034,
+  "lat": 48.8493274,
+  "lon": 2.4560206,
+  "tags": {
+    "addr:city": "Vincennes",
+    "addr:housenumber": "140",
+    "addr:postcode": "94300",
+    "addr:street": "Rue Defrance",
+    "bulk_purchase": "yes",
+    "name": "Biocoop Bio Rigollots",
+    "opening_hours": "Mo-Sa 10:00-20:00",
+    "operator": "Biocoop",
+    "organic": "only",
+    "phone": "+33 1 58 64 36 03",
+    "shop": "supermarket",
+    "website": "http://www.biocoop-vincennes.fr/"
+  }
+},
+{
+  "type": "node",
   "id": 4861896708,
   "lat": 48.0954624,
   "lon": -4.3437304,
@@ -4231,6 +4606,22 @@
 },
 {
   "type": "node",
+  "id": 4906092326,
+  "lat": 45.5259174,
+  "lon": 4.6083249,
+  "tags": {
+    "bulk_purchase": "yes",
+    "name": "Biocoop Au P'tit Bionheur",
+    "opening_hours": "Tu,Th 09:00-12:30,14:00-19:00; We,Fr,Sa 09:00-19:00",
+    "organic": "only",
+    "phone": "+33 4 77 55 19 61",
+    "shop": "supermarket",
+    "start_date": "2016",
+    "website": "http://biocoop.fr/magasins-bio/Trouver-mon-magasin-Biocoop/Auvergne-Rhone-Alpes/Loire/BIOCOOP-AU-P-TIT-BIONHEUR"
+  }
+},
+{
+  "type": "node",
   "id": 4911467953,
   "lat": 43.6408244,
   "lon": 5.0972613,
@@ -4282,6 +4673,23 @@
     "phone": "+33 5 56 58 46 07",
     "shop": "supermarket",
     "website": "http://biocoop.fr/magasins-bio/Trouver-mon-magasin-Biocoop/Nouvelle-Aquitaine2/Gironde/BIOCOOP-CHARTRONS"
+  }
+},
+{
+  "type": "node",
+  "id": 4922966782,
+  "lat": 44.7925701,
+  "lon": -0.5354581,
+  "tags": {
+    "bulk_purchase": "yes",
+    "contact:phone": "+33 5 56 85 80 90",
+    "currency:XLT": "MIEL",
+    "name": "Biocoop Rives d'Arcins",
+    "opening_hours": "Mo 14:00-19:30; Tu-Sa 10:00-19:30",
+    "organic": "only",
+    "payment:cash:XLT-MIEL": "yes",
+    "shop": "supermarket",
+    "website": "http://www.biocooprivesdarcins.com"
   }
 },
 {
@@ -4338,6 +4746,44 @@
 },
 {
   "type": "node",
+  "id": 4954881769,
+  "lat": 50.7339948,
+  "lon": 1.6207389,
+  "tags": {
+    "addr:city": "Saint-Martin-Boulogne",
+    "addr:housenumber": "1",
+    "addr:postcode": "62280",
+    "addr:street": "Route de Calais",
+    "bulk_purchase": "yes",
+    "name": "Biocoop Saint-Martin",
+    "opening_hours": "Mo 14:30-19:00; Tu-Th 09:30-12:30,14:30-19:00; Fr 09:30-19:00; Sa 09:00-19:00; ",
+    "organic": "only",
+    "phone": "+33 3 59 70 19 78",
+    "shop": "supermarket",
+    "website": "http://www.biocoop-saintmartin.com"
+  }
+},
+{
+  "type": "node",
+  "id": 4954881770,
+  "lat": 50.7251509,
+  "lon": 1.6033170,
+  "tags": {
+    "addr:city": "Boulogne-sur-Mer",
+    "addr:housenumber": "17",
+    "addr:postcode": "62200",
+    "addr:street": "Rue Edmond Rostand",
+    "bulk_purchase": "yes",
+    "name": "Biocoop Opale Bio",
+    "opening_hours": "Mo 14:30-19:00; Tu-Th 09:30-12:30,14:30-19:00; Fr 09:30-19:00; Sa 09:00-19:00; ",
+    "organic": "only",
+    "phone": "+33 3 21 32 65 53",
+    "shop": "supermarket",
+    "website": "http://www.biocoop-boulognesurmer.fr"
+  }
+},
+{
+  "type": "node",
   "id": 4962546028,
   "lat": 49.2761931,
   "lon": -0.6845764,
@@ -4387,6 +4833,22 @@
     "organic": "only",
     "shop": "convenience",
     "website": "http://lecourtilbio.biocoop.net/"
+  }
+},
+{
+  "type": "node",
+  "id": 4999139989,
+  "lat": 47.8391013,
+  "lon": -0.3055298,
+  "tags": {
+    "addr:city": "Sablé-sur-Sarthe",
+    "addr:postcode": "72300",
+    "addr:street": "Rue de la Martinière",
+    "bulk_purchase": "yes",
+    "name": "Biocoop",
+    "organic": "only",
+    "phone": "+33 2 43 62 95 22",
+    "shop": "supermarket"
   }
 },
 {
@@ -4448,6 +4910,28 @@
 },
 {
   "type": "node",
+  "id": 5015133583,
+  "lat": 47.6374443,
+  "lon": 6.8589828,
+  "tags": {
+    "brand": "Biocoop",
+    "brand:wikidata": "Q2904039",
+    "brand:wikipedia": "fr:Biocoop",
+    "bulk_purchase": "yes",
+    "name": "Biocoop",
+    "opening_hours": "Mo 14:00-19:00; Tu-Th 09:00-12:30,14:00-19:00; Fr,Sa 09:00-19:00",
+    "operator": "Le Grenier Vert",
+    "operator:type": "community",
+    "organic": "only",
+    "phone": "+33 3 84 55 09 62",
+    "ref:FR:SIREN": "340 356 120 000055",
+    "shop": "supermarket",
+    "website": "http://biocoop.fr/magasins-bio/trouver-ma-biocoop/franche-comte/territoire-de-belfort/le-grenier-vert",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
   "id": 5016657224,
   "lat": 47.9970628,
   "lon": -4.1077757,
@@ -4475,7 +4959,7 @@
     "addr:street": "Route des Eyzies",
     "bulk_purchase": "yes",
     "name": "Biocoop",
-    "organic": "yes",
+    "organic": "only",
     "shop": "supermarket",
     "website": "http://www.biocoopmontignac.fr",
     "wheelchair": "yes"
@@ -4648,6 +5132,27 @@
 },
 {
   "type": "node",
+  "id": 5121644545,
+  "lat": 47.6609706,
+  "lon": -2.0778479,
+  "tags": {
+    "addr:city": "Redon",
+    "addr:housenumber": "51",
+    "addr:postcode": "35600",
+    "addr:street": "Rue de la Châtaigneraie",
+    "brand:wikipedia": "fr:Biocoop",
+    "bulk_purchase": "yes",
+    "contact:phone": "+33 2 99 72 21 08",
+    "contact:website": "http://leheronbleu.biocoop.net",
+    "name": "Biocoop",
+    "operator": "Le Héron Bleu",
+    "organic": "only",
+    "shop": "supermarket",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
   "id": 5132304814,
   "lat": 47.2838290,
   "lon": -1.5528676,
@@ -4674,7 +5179,7 @@
     "addr:street": "Rue du Stade",
     "bulk_purchase": "yes",
     "name": "Biocoop Guimgampaise",
-    "organic": "yes",
+    "organic": "only",
     "shop": "supermarket",
     "website": "https://www.biocoop.fr/magasins-bio/Trouver-mon-magasin-Biocoop/Bretagne/Cotes-d-Armor/BIOCOOP-GUINGAMPAISE"
   }
@@ -5524,6 +6029,21 @@
 },
 {
   "type": "node",
+  "id": 5466393193,
+  "lat": 50.5858759,
+  "lon": 2.9437272,
+  "tags": {
+    "addr:city": "Wavrin",
+    "addr:postcode": "59211",
+    "addr:street": "Rue Anatole France",
+    "bulk_purchase": "yes",
+    "name": "Biocoop - Vert'tige",
+    "organic": "only",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
   "id": 5477873624,
   "lat": 47.2492184,
   "lon": -1.6116004,
@@ -5538,6 +6058,39 @@
     "organic": "only",
     "shop": "supermarket",
     "website": "http://www.eau-vive.com"
+  }
+},
+{
+  "type": "node",
+  "id": 5498682157,
+  "lat": 45.8711827,
+  "lon": 1.2686594,
+  "tags": {
+    "bulk_purchase": "yes",
+    "contact:housenumber": "1",
+    "contact:phone": "+33 5 44 22 94 90",
+    "currency:XLT": "PELU",
+    "name": "Biocoop Uzurat",
+    "opening_hours": "Mo 14:30-19:00; Tu-Fr 09:30-13:00,14:30-19:00; Sa 09:30-19:00",
+    "organic": "only",
+    "payment:cash:XLT-SVLT": "yes",
+    "shop": "supermarket",
+    "website": "http://www.biocoop-uzurat.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 5499061544,
+  "lat": 44.2503886,
+  "lon": 0.3837530,
+  "tags": {
+    "bulk_purchase": "yes",
+    "contact:phone": "+33 5 55 66 77 47",
+    "name": "Biocoop Gaïa",
+    "opening_hours": "Mo 15:00-19:30; Tu-Th 09:00-13:00,15:00-19:30; Fr,Sa 09:00-19:30",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "http://www.biocoop-gaia.fr/"
   }
 },
 {
@@ -6167,11 +6720,11 @@
     "brand": "Biocoop",
     "brand:wikipedia": "fr:Biocoop",
     "bulk_purchase": "yes",
-    "loc_name": "Scarabée Biocoop Vasselot",
     "name": "Biocoop Scarabée Vasselot",
     "opening_hours": "Mo-Sa 09:30-19:30",
     "operator": "Société coopérative d'alimentation rennaise biologique et écologique",
     "organic": "only",
+    "outdoor_seating": "yes",
     "payment:cash": "yes",
     "payment:credit_cards": "yes",
     "payment:debit_cards": "yes",
@@ -6584,6 +7137,19 @@
     "name": "Biocoop Marguerittes",
     "organic": "only",
     "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 5594413334,
+  "lat": 48.3976453,
+  "lon": 2.4219522,
+  "tags": {
+    "bulk_purchase": "yes",
+    "name": "Biocoop",
+    "organic": "only",
+    "shop": "supermarket",
+    "wheelchair": "yes"
   }
 },
 {
@@ -7052,6 +7618,21 @@
 },
 {
   "type": "node",
+  "id": 5624617627,
+  "lat": 48.8717368,
+  "lon": 2.8711268,
+  "tags": {
+    "addr:city": "Couilly-Pont-aux-Dames",
+    "addr:street": "65, avenue de l’Ensoleillée",
+    "bulk_purchase": "yes",
+    "name": "Biocoop",
+    "operator": "Biocoop",
+    "organic": "only",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
   "id": 5632847676,
   "lat": 48.5092751,
   "lon": -4.0720540,
@@ -7066,6 +7647,18 @@
     "organic": "only",
     "shop": "convenience",
     "website": "https://www.biomonde.fr/halles-terre-native,3,227"
+  }
+},
+{
+  "type": "node",
+  "id": 5645837732,
+  "lat": 50.3701389,
+  "lon": 3.5337270,
+  "tags": {
+    "bulk_purchase": "yes",
+    "name": "Biocoop",
+    "organic": "only",
+    "shop": "supermarket"
   }
 },
 {
@@ -7101,6 +7694,17 @@
     "name": "La Fromagerie Saint Paul",
     "shop": "cheese",
     "website": "https://www.facebook.com/La-Fromagerie-SAINT-PAUL-442537955887586/"
+  }
+},
+{
+  "type": "node",
+  "id": 5674954133,
+  "lat": 49.4188151,
+  "lon": 0.2315180,
+  "tags": {
+    "bulk_purchase": "only",
+    "name": "Épicerie \"Chez Poulet\"",
+    "shop": "convenience"
   }
 },
 {
@@ -7535,6 +8139,7 @@
     789058549,
     788994318,
     789018361,
+    5664871197,
     789055731,
     789026048
   ],
@@ -8064,6 +8669,31 @@
     "shop": "convenience",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
     "website": "http://www.biocoopcastellane.fr"
+  }
+},
+{
+  "type": "way",
+  "id": 69133158,
+  "center": {
+    "lat": 43.2836474,
+    "lon": 5.3836889
+  },
+  "nodes": [
+    829205895,
+    829176926,
+    829257183,
+    829180512,
+    829146272,
+    829205895
+  ],
+  "tags": {
+    "building": "yes",
+    "bulk_purchase": "only",
+    "name": "Les Toqués du Bocal",
+    "organic": "yes",
+    "shop": "convenience",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+    "website": "https://www.facebook.com/pg/LesToquesduBocal"
   }
 },
 {
@@ -8725,15 +9355,41 @@
     "addr:housenumber": "24",
     "addr:postcode": "44330",
     "addr:street": "Boulevard d'Italie",
+    "brand": "Biocoop",
     "building": "yes",
     "bulk_purchase": "yes",
-    "name": "La Sangueze - Magasin Biocoop",
+    "name": "Biocoop La Sanguèze",
     "opening_hours": "Mo-Sa 09:00-13:00, 14:30-19:00; Su off",
+    "operator": "Biocoop La Sanguèze",
     "organic": "only",
     "phone": "+33 2 40 85 17 84",
     "shop": "supermarket",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
-    "website": "http://www.biocoop.fr/magasins-bio/Trouver-mon-magasin-Biocoop/Centre-Val-de-Loire/Loire-Atlantique/LA-SANGUEZE"
+    "website": "http://lasanguezevallet.biocoop.net/"
+  }
+},
+{
+  "type": "way",
+  "id": 80547744,
+  "center": {
+    "lat": 46.1341028,
+    "lon": 6.2685339
+  },
+  "nodes": [
+    939610098,
+    939914258,
+    939920808,
+    939912196,
+    939911063,
+    939917354,
+    939610098
+  ],
+  "tags": {
+    "building": "yes",
+    "bulk_purchase": "only",
+    "name": "Épicerie & Cie - Reignier-Esery",
+    "shop": "convenience",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"
   }
 },
 {
@@ -9146,15 +9802,17 @@
     "addr:housenumber": "74",
     "addr:postcode": "85400",
     "addr:street": "Rue de Montréal",
+    "brand": "Biocoop",
     "building": "yes",
     "bulk_purchase": "yes",
     "contact:phone": "+33 2 51 46 19 82",
     "currency:XLT": "VNDO",
-    "name": "Croq'bio",
-    "operator": "Biocoop",
+    "name": "Biocoop Croq'bio Sud",
+    "opening_hours": "Mo-Th 9:30-13:00; Fr 9:30-19:00; Sa 9:30-18:30",
+    "operator": "Biocoop Croq'Bio",
     "organic": "only",
     "payment:cash:XLT-VNDO": "yes",
-    "shop": "convenience",
+    "shop": "supermarket",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
     "website": "https://www.biocoop-croqbio.com/"
   }
@@ -10321,6 +10979,39 @@
 },
 {
   "type": "way",
+  "id": 144494406,
+  "center": {
+    "lat": 45.5305230,
+    "lon": 4.6172470
+  },
+  "nodes": [
+    1580537189,
+    1580536901,
+    1580536964,
+    1580536833,
+    1580536808,
+    1580536762,
+    1580536643,
+    1580536546,
+    1580536581,
+    1580536388,
+    1580536184,
+    1580536246,
+    1580536334,
+    1580536338,
+    1580536571,
+    1580537189
+  ],
+  "tags": {
+    "building": "yes",
+    "bulk_purchase": "only",
+    "name": "Épicerie Vrac",
+    "shop": "convenience",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012"
+  }
+},
+{
+  "type": "way",
   "id": 147200653,
   "center": {
     "lat": 42.6191965,
@@ -10875,6 +11566,7 @@
     "bulk_purchase": "yes",
     "name": "Biocoop",
     "operator": "La Belz' Saison",
+    "organic": "only",
     "phone": "+33 2 97 59 44 00",
     "shop": "supermarket",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012",
@@ -11692,7 +12384,7 @@
     "name": "Le Fenouil Biocoop",
     "opening_hours": "Mo-Sa 09:00-19:00",
     "operator": "Le Fenouil Biocoop",
-    "organic": "yes",
+    "organic": "only",
     "phone": "+33 2 43 88 36 70",
     "shop": "supermarket",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2014",
@@ -11791,7 +12483,7 @@
     "building": "retail",
     "bulk_purchase": "yes",
     "name": "Biocoop Douar Nevez",
-    "organic": "yes",
+    "organic": "only",
     "shop": "supermarket",
     "source": "survey",
     "source:geometry": "Bing",
@@ -11989,7 +12681,7 @@
     4946154750
   ],
   "tags": {
-    "addr:city": "Saint-Jean d'Angely",
+    "addr:city": "Saint-Jean-d'Angély",
     "addr:housenumber": "13",
     "addr:postcode": "17400",
     "addr:street": "Rue Roger Menaud",

@@ -1,12 +1,12 @@
 // Bounds for display
 var boundS = 40;
-var boundW = -5;
+var boundW = -5.5;
 var boundN = 53;
 var boundE = 8;
 var bounds = new L.LatLngBounds(new L.LatLng(boundN, boundE), new L.LatLng(boundS, boundW));
 
 // Map definition
-var maxZoom = 18;
+var maxZoom = 17;
 var minZoom = 5;
 var defaultZoom = 10;
 var mapCenter = new L.latLng(47.25,-1.56);
