@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.55.3 9da5e7ae",
   "osm3s": {
-    "timestamp_osm_base": "2018-06-08T18:50:02Z",
-    "timestamp_areas_base": "2018-06-08T15:34:02Z",
+    "timestamp_osm_base": "2018-06-14T18:04:01Z",
+    "timestamp_areas_base": "2018-06-14T17:35:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -5464,7 +5464,7 @@
     "addr:street": "Parc commercial des 5 chemins",
     "bulk_purchase": "yes",
     "name": "Biocoop Les 7 Épis",
-    "opening_hours": "Tu-Th 09:30-13:00,15:00-19:00; Fr,Sa 09:30-19:00",
+    "opening_hours": "Mo 15:00-19:00; Tu-Th 09:30-13:00,15:00-19:00; Fr,Sa 09:30-19:00",
     "operator": "Les 7 Épis",
     "organic": "only",
     "phone": "+33 2 97 81 89 12",
@@ -7708,6 +7708,21 @@
   }
 },
 {
+  "type": "node",
+  "id": 5690435704,
+  "lat": 47.2385023,
+  "lon": -1.3481662,
+  "tags": {
+    "addr:housenumber": "9",
+    "addr:street": "Rue Porte Saumon",
+    "bulk_purchase": "yes",
+    "name": "Épicerie Hüeck",
+    "organic": "yes",
+    "shop": "convenience",
+    "website": "https://www.facebook.com/Epicerie-H%C3%9CECK-222949064797452/"
+  }
+},
+{
   "type": "way",
   "id": 36940774,
   "center": {
@@ -8151,7 +8166,7 @@
     "brand:wikipedia": "fr:Biocoop",
     "building": "yes",
     "bulk_purchase": "yes",
-    "name": "Biocoop Scarabée St-Grégoire",
+    "name": "Biocoop Scarabée Saint-Grégoire",
     "opening_hours": "Mo-Fr 09:30-19:30; Sa 09:30-19:00",
     "operator": "Société coopérative d'alimentation rennaise biologique et écologique",
     "organic": "only",
