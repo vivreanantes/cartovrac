@@ -1,9 +1,9 @@
 {
   "version": 0.6,
-  "generator": "Overpass API 0.7.55.3 9da5e7ae",
+  "generator": "Overpass API 0.7.55.4 3079d8ea",
   "osm3s": {
-    "timestamp_osm_base": "2018-06-14T18:04:01Z",
-    "timestamp_areas_base": "2018-06-14T17:35:02Z",
+    "timestamp_osm_base": "2018-07-22T20:14:02Z",
+    "timestamp_areas_base": "2018-07-22T19:07:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -61,6 +61,17 @@
     "name": "Biocoop",
     "organic": "only",
     "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 354402986,
+  "lat": 47.2218511,
+  "lon": -1.6880651,
+  "tags": {
+    "bulk_purchase": "yes",
+    "name": "La Noe Allais",
+    "place": "hamlet"
   }
 },
 {
@@ -1014,12 +1025,12 @@
     "addr:street": "Avenue des Peupliers",
     "brand:wikipedia": "fr:Biocoop",
     "bulk_purchase": "yes",
+    "disused:shop": "supermarket",
     "name": "Biocoop Scarabée Cesson",
     "opening_hours": "Mo-Fr 09:30-19:00",
     "operator": "Société coopérative d'alimentation rennaise biologique et écologique",
     "organic": "only",
     "phone": "+33 2 99 83 09 84",
-    "shop": "supermarket",
     "source:addr": "Rennes Métropole",
     "source:addr:housenumber:ref": "44048",
     "source:addr:version": "2016-04-01",
@@ -1097,6 +1108,7 @@
     "brand:wikipedia": "fr:Biocoop",
     "bulk_purchase": "yes",
     "name": "Biocoop Pays de Vitré",
+    "opening_hours": "Mo 14:30-19:00; Tu-Th 09:30-13:00,14:30-19:00; Fr,Sa 09:30-19:00",
     "organic": "only",
     "shop": "supermarket",
     "website": "http://biocoop.fr/magasins-bio/Trouver-mon-magasin-Biocoop/Bretagne/Ille-et-Vilaine/BIOCOOP-PAYS-DE-VITRE",
@@ -1384,6 +1396,26 @@
 },
 {
   "type": "node",
+  "id": 2258874078,
+  "lat": 47.2156747,
+  "lon": -1.5545283,
+  "tags": {
+    "contact:city": "Nantes",
+    "contact:country": "FR",
+    "contact:housenumber": "24",
+    "contact:phone": "+33 2 40475968",
+    "contact:postcode": "44000",
+    "contact:street": "Rue de la Marne",
+    "contact:website": "http://labrulerienantes.free.fr",
+    "description": "La Brûlerie propose du café torréfiés sur place et du thé provenant du monde entier",
+    "name": "La BrûLeRie",
+    "opening_hours": "Mo 14:00-19:00; Tu-Sa 10:00-19:00",
+    "shop": "coffee",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
   "id": 2258874081,
   "lat": 47.2158933,
   "lon": -1.5549826,
@@ -1638,6 +1670,20 @@
     "smoking": "outside",
     "website": "https://www.facebook.com/dinettenantes/",
     "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 2403889708,
+  "lat": 47.2142717,
+  "lon": -1.5549126,
+  "tags": {
+    "amenity": "fast_food",
+    "contact:city": "Nantes",
+    "contact:housenumber": "4",
+    "contact:postcode": "44000",
+    "contact:street": "Allée Flesselles",
+    "name": "Chez Claire"
   }
 },
 {
@@ -2967,9 +3013,10 @@
     "contact:email": "daybyday.rennes@gmail.com",
     "name": "Day by day",
     "organic": "yes",
+    "payment:cash": "yes",
     "phone": "+33 9 67 55 09 15",
     "shop": "convenience",
-    "website": "http://daybyday-shop.com/magasin/rennes"
+    "website": "http://daybyday-shop.com/"
   }
 },
 {
@@ -3439,10 +3486,6 @@
   "lat": 45.7673405,
   "lon": 4.8310525,
   "tags": {
-    "addr:city": "Lyon",
-    "addr:housenumber": "13",
-    "addr:postcode": "69001",
-    "addr:street": "Rue d'Algérie",
     "brand": "Biocoop",
     "bulk_purchase": "yes",
     "name": "Biocoop des Terreaux",
@@ -3450,7 +3493,7 @@
     "organic": "only",
     "phone": "+33 4 72 45 88 50",
     "shop": "supermarket",
-    "website": "http://biocoop.fr/magasins-bio/Trouver-mon-magasin-Biocoop/Auvergne-Rhone-Alpes/Rhone/BIOCOOP-LES-TERREAUX"
+    "website": "https://biocoop.fr/magasins-bio/Trouver-mon-magasin-Biocoop/Auvergne-Rhone-Alpes/Rhone/BIOCOOP-LES-TERREAUX"
   }
 },
 {
@@ -4933,16 +4976,19 @@
 {
   "type": "node",
   "id": 5016657224,
-  "lat": 47.9970628,
-  "lon": -4.1077757,
+  "lat": 47.9970752,
+  "lon": -4.1077998,
   "tags": {
     "addr:city": "Quimper",
     "addr:housenumber": "16",
     "addr:postcode": "29000",
     "addr:street": "Rue de la Providence",
+    "brand": "Biocoop",
     "bulk_purchase": "yes",
-    "name": "Biocoop",
+    "name": "Biocoop Quimper Chapeau rouge",
+    "opening_hours": "Mo 14:30-19:00; Tu-Th 09:30-13:30,14:30-19:00; Fr-Sa 09:30-19:00",
     "organic": "only",
+    "phone": "+33 2 98 98 86 80",
     "shop": "supermarket",
     "website": "http://www.biocoop-quimper.fr",
     "wheelchair": "yes"
@@ -5863,6 +5909,7 @@
     "addr:postcode": "44000",
     "addr:street": "Rue Guépin",
     "name": "Le Comptoir NanTHE du CAFE",
+    "opening_hours": "We-Fr 10:30-14:00,15:00-19:00; Mo 12:00-17:00; Tu 12:00-19:00; Sa 10:00-19:00",
     "shop": "coffee"
   }
 },
@@ -5877,6 +5924,7 @@
     "addr:postcode": "44000",
     "addr:street": "Rue Franklin",
     "name": "ThéÔphil",
+    "opening_hours": "Tu-Sa 10:00-13:00,14:00-19:00",
     "shop": "tea"
   }
 },
@@ -5951,20 +5999,6 @@
     "addr:street": "Allée des Tanneurs",
     "amenity": "restaurant",
     "name": "Mon Bento"
-  }
-},
-{
-  "type": "node",
-  "id": 5460448714,
-  "lat": 47.2131916,
-  "lon": -1.5455523,
-  "tags": {
-    "addr:city": "Nantes",
-    "addr:housenumber": "4",
-    "addr:postcode": "44000",
-    "addr:street": "Rue de Jemmapes",
-    "amenity": "restaurant",
-    "name": "L'Atelier de la Cité"
   }
 },
 {
@@ -6720,6 +6754,8 @@
     "brand": "Biocoop",
     "brand:wikipedia": "fr:Biocoop",
     "bulk_purchase": "yes",
+    "diet:vegan": "yes",
+    "diet:vegetarian": "yes",
     "name": "Biocoop Scarabée Vasselot",
     "opening_hours": "Mo-Sa 09:30-19:30",
     "operator": "Société coopérative d'alimentation rennaise biologique et écologique",
@@ -6796,7 +6832,9 @@
     "addr:street": "Rue Paul Le Roux",
     "bulk_purchase": "yes",
     "name": "Biocoop Ti Stal Lostenk",
+    "opening_hours": "Tu,Th 16:00-19:00; We, Fr 9:00-12:30, 16:00-19:00; Sa 9:00-12:30; ",
     "organic": "only",
+    "phone": "+33 2 97 11 74 81",
     "shop": "supermarket",
     "website": "http://biocoop.fr/magasins-bio/Trouver-mon-magasin-Biocoop/Bretagne/Morbihan/BIOCOOP-TI-STAL-LOSTENK"
   }
@@ -7012,7 +7050,7 @@
   "lat": 47.7692541,
   "lon": -3.0178280,
   "tags": {
-    "addr:city": "pluvigner",
+    "addr:city": "Pluvigner",
     "addr:housenumber": "23",
     "addr:postcode": "56330",
     "addr:street": "Route d'Auray",
@@ -7723,6 +7761,39 @@
   }
 },
 {
+  "type": "node",
+  "id": 5742063956,
+  "lat": 49.6181104,
+  "lon": 0.7519614,
+  "tags": {
+    "addr:city": "Yvetot",
+    "addr:country": "FR",
+    "addr:housenumber": "8",
+    "addr:postcode": "76190",
+    "addr:street": "Rue Pierre et Marie Curie",
+    "bulk_purchase": "yes",
+    "description": "Coopérative de magasin Biomonde",
+    "fax": "+33235564113",
+    "name": "La Planète Bleue",
+    "opening_hours": "Mo 14:30-18:00; Tu-Fr 09:30-12:30,14:30-19:00; Sa 09:00-13:00,14:30-18:30",
+    "organic": "only",
+    "phone": "+33235952447",
+    "shop": "supermarket",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011",
+    "website": "www.biomonde.fr/la-planete-bleue,3,125"
+  }
+},
+{
+  "type": "node",
+  "id": 5764223180,
+  "lat": 47.2507966,
+  "lon": -1.4834407,
+  "tags": {
+    "name": "Co'Thé Gourmand",
+    "shop": "tea"
+  }
+},
+{
   "type": "way",
   "id": 36940774,
   "center": {
@@ -8016,60 +8087,6 @@
     "phone": "+33 2 98 83 07 06",
     "shop": "supermarket",
     "website": "http://www.finisterra.fr"
-  }
-},
-{
-  "type": "way",
-  "id": 62546439,
-  "center": {
-    "lat": 45.9374119,
-    "lon": 6.0755078
-  },
-  "nodes": [
-    780447713,
-    780421399,
-    780452375,
-    780443955,
-    780454535,
-    780428284,
-    780443463,
-    780432427,
-    780450494,
-    780437327,
-    780428423,
-    780444661,
-    780414035,
-    780414609,
-    780442595,
-    780423919,
-    780434352,
-    780433101,
-    780416227,
-    780443559,
-    780421555,
-    780414460,
-    780414006,
-    780421619,
-    780423963,
-    780450259,
-    780451632,
-    780447896,
-    780454618,
-    780425279,
-    780415552,
-    780455668,
-    780447713
-  ],
-  "tags": {
-    "building": "retail",
-    "bulk_purchase": "yes",
-    "name": "Auchan",
-    "operator": "Auchan",
-    "organic": "yes",
-    "shop": "supermarket",
-    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
-    "website": "http://www.auchan.fr/",
-    "wheelchair": "yes"
   }
 },
 {
@@ -9005,6 +9022,7 @@
     863079239,
     862964724,
     863119638,
+    5769965295,
     863079233
   ],
   "tags": {
@@ -10108,10 +10126,12 @@
     "brand": "Biocoop",
     "brand:wikidata": "Q2904039",
     "brand:wikipedia": "fr:Biocoop",
+    "brand_1": "Biocoop",
     "building": "yes",
     "bulk_purchase": "yes",
     "email": "contact@biocoop-quimper.fr",
-    "name": "Biocoop",
+    "name": "Biocoop Quimper Tréquefellec",
+    "opening_hours": "9:30-19:00 Su off",
     "operator": "Biocoop Quimper",
     "organic": "only",
     "phone": "+33 2 98 64 51 41",
@@ -10481,38 +10501,6 @@
 },
 {
   "type": "way",
-  "id": 122016547,
-  "center": {
-    "lat": 49.6182225,
-    "lon": 0.7483330
-  },
-  "nodes": [
-    1364367616,
-    1364367550,
-    1364367322,
-    1364366184,
-    1364366717,
-    1364367616
-  ],
-  "tags": {
-    "addr:city": "Yvetot",
-    "addr:housenumber": "11",
-    "addr:postcode": "76190",
-    "addr:street": "Avenue Foch",
-    "building": "yes",
-    "bulk_purchase": "yes",
-    "description": "Coopérative de magasin Biomonde",
-    "name": "La Planète Bleue",
-    "opening_hours": "Mo 14:30-18:00; Tu-Fr 09:30-12:30,14:30-19:00; Sa 09:30-13:00,14:30-18:30",
-    "organic": "only",
-    "phone": "+33235952447",
-    "shop": "supermarket",
-    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011",
-    "website": "www.la-planete-bleue.fr"
-  }
-},
-{
-  "type": "way",
   "id": 122880119,
   "center": {
     "lat": 48.0800625,
@@ -10532,13 +10520,16 @@
     1371656741
   ],
   "tags": {
-    "addr:city": "Douarnedez",
+    "addr:city": "Douarnenez",
     "addr:postcode": "29100",
     "addr:street": "Rue Gabriel Le Signe",
-    "building": "yes",
+    "brand": "Biocoop",
+    "building": "retail",
     "bulk_purchase": "yes",
-    "name": "Biocoop",
+    "name": "Biocoop Douarnenez",
+    "opening_hours": "09:30-13:00,14:00-19:00; Su off",
     "organic": "only",
+    "phone": "+33 2 30 09 01 04",
     "shop": "supermarket",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011",
     "website": "https://www.biocoop.fr/magasins-bio/Trouver-mon-magasin-Biocoop/Bretagne/Finistere/BIOCOOP-DOUARNENEZ"
