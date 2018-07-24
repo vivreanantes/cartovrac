@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.55.4 3079d8ea",
   "osm3s": {
-    "timestamp_osm_base": "2018-07-22T20:14:02Z",
-    "timestamp_areas_base": "2018-07-22T19:07:02Z",
+    "timestamp_osm_base": "2018-07-24T20:22:01Z",
+    "timestamp_areas_base": "2018-07-24T19:03:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -245,6 +245,24 @@
     "organic": "only",
     "shop": "supermarket",
     "website": "http://biocoop.fr/magasins-bio/Trouver-mon-magasin-Biocoop/Ile-de-France/Paris/BIOCOOP-PARIS-12EME"
+  }
+},
+{
+  "type": "node",
+  "id": 521232558,
+  "lat": 45.7596558,
+  "lon": 4.8471882,
+  "tags": {
+    "bulk_purchase": "only",
+    "description": "Épicerie à la fois locavore (qui privilégie des produits issus d’une agriculture locale, dans un rayon de 200km autour de Lyon), et zéro déchet (pour réduire au maximum les emballages).",
+    "name": "À la Source",
+    "opening_hours": "Mo-Fr 11:00-20:00; Sa 10:00-19:00; Su 10:00-13:00",
+    "payment:cards": "yes",
+    "payment:cash": "yes",
+    "phone": "+33 6 37 19 06 26",
+    "shop": "convenience",
+    "website": "https://alasource-lyon.com/",
+    "wheelchair": "yes"
   }
 },
 {
@@ -1495,6 +1513,19 @@
 },
 {
   "type": "node",
+  "id": 2267314182,
+  "lat": 46.7834562,
+  "lon": 4.8567286,
+  "tags": {
+    "bulk_purchase": "only",
+    "name": "2 poids, 2 mesures",
+    "organic": "only",
+    "shop": "convenience",
+    "website": "https://www.facebook.com/2pois2mesures"
+  }
+},
+{
+  "type": "node",
   "id": 2282181472,
   "lat": 46.8368659,
   "lon": 0.5431636,
@@ -1856,6 +1887,20 @@
 },
 {
   "type": "node",
+  "id": 2537873787,
+  "lat": 44.8216508,
+  "lon": -0.5827753,
+  "tags": {
+    "bulk_purchase": "only",
+    "name": "Ladybird",
+    "opening_hours": "Mo 16:00-19:00; Tu-Fr 09:30-13:00, 16:00-19:00; Sa 09:30-13:30; Su off",
+    "organic": "only",
+    "shop": "convenience",
+    "website": "https://ladybird.business.site/"
+  }
+},
+{
+  "type": "node",
   "id": 2583958955,
   "lat": 47.2066461,
   "lon": -1.5491679,
@@ -2013,6 +2058,27 @@
     "organic": "only",
     "shop": "supermarket",
     "website": "http://www.biocoop-narbonne.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 2814029480,
+  "lat": 45.7685039,
+  "lon": 4.8462121,
+  "tags": {
+    "addr:city": "Lyon 6eme Arrondissement",
+    "addr:housenumber": "97",
+    "addr:postcode": "69006",
+    "addr:street": "Rue de Créqui",
+    "bulk_purchase": "only",
+    "contact:email": "http://mamiemarie.com/lepicerie/nous-contacter/",
+    "description": "Épicerie local, 100%bio, vrac.",
+    "name": "Mamie Marie",
+    "opening_hours": "Mo 14:00-19:30, Tu 09:30-19:30, Sa 10:00-19:30",
+    "organic": "only",
+    "shop": "supermarket",
+    "source": "Grand Lyon - 10/2011;local_knowledge",
+    "website": "http://mamiemarie.com"
   }
 },
 {
@@ -4154,6 +4220,19 @@
 },
 {
   "type": "node",
+  "id": 4645757305,
+  "lat": 45.6244515,
+  "lon": -1.0266690,
+  "tags": {
+    "bulk_purchase": "only",
+    "name": "Mademoiselle vrac",
+    "organic": "only",
+    "shop": "convenience",
+    "website": "https://www.mademoisellevrac.fr"
+  }
+},
+{
+  "type": "node",
   "id": 4657132729,
   "lat": 47.0865666,
   "lon": -1.2623221,
@@ -5224,7 +5303,7 @@
     "addr:postcode": "22200",
     "addr:street": "Rue du Stade",
     "bulk_purchase": "yes",
-    "name": "Biocoop Guimgampaise",
+    "name": "Biocoop Guingampaise",
     "organic": "only",
     "shop": "supermarket",
     "website": "https://www.biocoop.fr/magasins-bio/Trouver-mon-magasin-Biocoop/Bretagne/Cotes-d-Armor/BIOCOOP-GUINGAMPAISE"
@@ -7747,6 +7826,26 @@
 },
 {
   "type": "node",
+  "id": 5677604285,
+  "lat": 48.7164466,
+  "lon": 2.2471395,
+  "tags": {
+    "addr:city": "Palaiseau",
+    "addr:housenumber": "51",
+    "addr:postcode": "91120",
+    "addr:street": "Rue de Paris",
+    "bulk_purchase": "only",
+    "description": "Épicerie en vrac, apporter ses propres contenants",
+    "name": "Vrac Nature",
+    "opening_hours": "Mo-Su 09:30-19:30",
+    "organic": "only",
+    "shop": "convenience",
+    "start_date": "2018-05-21",
+    "website": "https://www.vracnature.fr/"
+  }
+},
+{
+  "type": "node",
   "id": 5690435704,
   "lat": 47.2385023,
   "lon": -1.3481662,
@@ -7791,6 +7890,97 @@
   "tags": {
     "name": "Co'Thé Gourmand",
     "shop": "tea"
+  }
+},
+{
+  "type": "node",
+  "id": 5780037753,
+  "lat": 42.5645519,
+  "lon": 9.4404404,
+  "tags": {
+    "bulk_purchase": "only",
+    "name": "Les silos de Nina",
+    "organic": "only",
+    "shop": "convenience",
+    "website": "https://www.facebook.com/pg/LesSilosdeNinaEpicerieSansEmballage"
+  }
+},
+{
+  "type": "node",
+  "id": 5780037754,
+  "lat": 46.2446431,
+  "lon": 6.0269167,
+  "tags": {
+    "bulk_purchase": "only",
+    "name": "Au p'tit bocal",
+    "organic": "only",
+    "shop": "convenience",
+    "website": "http://auptitbocal.fr/"
+  }
+},
+{
+  "type": "node",
+  "id": 5780077353,
+  "lat": 48.4621544,
+  "lon": 7.4794956,
+  "tags": {
+    "bulk_purchase": "only",
+    "name": "Les petits bocaux",
+    "organic": "only",
+    "shop": "convenience",
+    "website": "http://lespetitsbocaux.fr/"
+  }
+},
+{
+  "type": "node",
+  "id": 5782834678,
+  "lat": 44.1778578,
+  "lon": 4.6145681,
+  "tags": {
+    "bulk_purchase": "yes",
+    "name": "La vie claire",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "http://www.lavieclaire.com/magasin-bio/bagnols-sur-ceze.html"
+  }
+},
+{
+  "type": "node",
+  "id": 5782834679,
+  "lat": 49.0390197,
+  "lon": 2.6854043,
+  "tags": {
+    "bulk_purchase": "yes",
+    "name": "Naturéo Saint-Mard",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://www.natureo-bio.fr/magasin-bio/saint-mard/"
+  }
+},
+{
+  "type": "node",
+  "id": 5782834680,
+  "lat": 46.3656228,
+  "lon": 6.5009335,
+  "tags": {
+    "bulk_purchase": "only",
+    "name": "La vie selon Gaïa",
+    "organic": "only",
+    "shop": "convenience",
+    "website": "https://www.gaiachablais.com"
+  }
+},
+{
+  "type": "node",
+  "id": 5782834681,
+  "lat": 46.3025143,
+  "lon": -0.4877430,
+  "tags": {
+    "bulk_purchase": "only",
+    "name": "Mademoiselle vrac Niort",
+    "organic": "only",
+    "shop": "convenience",
+    "website": "https://www.facebook.com/mademoisellevracniort/"
   }
 },
 {
@@ -8087,6 +8277,43 @@
     "phone": "+33 2 98 83 07 06",
     "shop": "supermarket",
     "website": "http://www.finisterra.fr"
+  }
+},
+{
+  "type": "way",
+  "id": 56965858,
+  "center": {
+    "lat": 44.8943778,
+    "lon": -0.7134033
+  },
+  "nodes": [
+    710915971,
+    710915957,
+    710915952,
+    710915959,
+    710915954,
+    710915965,
+    710915966,
+    710915970,
+    710915956,
+    710915968,
+    710915971
+  ],
+  "tags": {
+    "addr:city": "Saint-Médard-en-Jalles",
+    "addr:housenumber": "168",
+    "addr:postcode": "33160",
+    "addr:street": "Avenue Montaigne",
+    "building": "yes",
+    "bulk_purchase": "yes",
+    "name": "au Jardin d'Alice",
+    "opening_hours": "Mo 14:00-19:30, Tu-Sa 09:00-19:00",
+    "operator": "Bio Monde",
+    "organic": "only",
+    "phone": "+33 556992242",
+    "shop": "supermarket",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+    "website": "https://www.facebook.com/auJardindAliceBiomonde/"
   }
 },
 {
@@ -9884,6 +10111,31 @@
 },
 {
   "type": "way",
+  "id": 87858422,
+  "center": {
+    "lat": 49.2645344,
+    "lon": 4.0272584
+  },
+  "nodes": [
+    1020964221,
+    1020718333,
+    1021051545,
+    1020777849,
+    1020760314,
+    1020964221
+  ],
+  "tags": {
+    "building": "yes",
+    "bulk_purchase": "yes",
+    "name": "Biocoop Saint-Thomas",
+    "organic": "only",
+    "shop": "supermarket",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadas. Mise à jour : 2010",
+    "website": "http://www.biocoop-saint-thomas.fr"
+  }
+},
+{
+  "type": "way",
   "id": 87877792,
   "center": {
     "lat": 48.4170405,
@@ -10497,6 +10749,37 @@
     "organic": "only",
     "shop": "supermarket",
     "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2014"
+  }
+},
+{
+  "type": "way",
+  "id": 119804092,
+  "center": {
+    "lat": 46.1616695,
+    "lon": -1.1481015
+  },
+  "nodes": [
+    1344709702,
+    1344709445,
+    1344709444,
+    1344710563,
+    1344710808,
+    1344711102,
+    1344711114,
+    1344713439,
+    1344713704,
+    1344709920,
+    1344709702
+  ],
+  "tags": {
+    "building": "yes",
+    "bulk_purchase": "only",
+    "name": "Un bol d'air",
+    "opening_hours": "Tu-Fr 10:00-19:00; Sa 09:00-19:00; Su 10:00-13:00",
+    "organic": "only",
+    "shop": "convenience",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011",
+    "website": "https://www.unboldair-epicerie-bio-larochelle.fr/"
   }
 },
 {
