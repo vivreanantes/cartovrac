@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.55.4 3079d8ea",
   "osm3s": {
-    "timestamp_osm_base": "2018-07-24T20:22:01Z",
-    "timestamp_areas_base": "2018-07-24T19:03:02Z",
+    "timestamp_osm_base": "2018-08-01T06:21:02Z",
+    "timestamp_areas_base": "2018-08-01T05:33:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -995,6 +995,23 @@
 },
 {
   "type": "node",
+  "id": 1728042741,
+  "lat": 45.7483398,
+  "lon": 4.8392996,
+  "tags": {
+    "alt_name": "3 petits pois",
+    "bulk_purchase": "only",
+    "contact:housenumber": "124",
+    "contact:phone": "+33 9 54185464",
+    "contact:website": "http://www.3ptitspois.fr/",
+    "name": "3 ptits pois",
+    "opening_hours": "Mo 13:00-20:00; Tu-Sa 10:00-20:00; Th 10:00-13:00,14:00-20:00",
+    "organic": "only",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
   "id": 1739077819,
   "lat": 42.9647447,
   "lon": 1.6092369,
@@ -1190,8 +1207,8 @@
 {
   "type": "node",
   "id": 1910398310,
-  "lat": 47.5604537,
-  "lon": -2.5075932,
+  "lat": 47.5591433,
+  "lon": -2.5102808,
   "tags": {
     "addr:city": "Muzillac",
     "addr:postcode": "56190",
@@ -1563,19 +1580,6 @@
 },
 {
   "type": "node",
-  "id": 2308410719,
-  "lat": 45.2876817,
-  "lon": 4.1677416,
-  "tags": {
-    "bulk_purchase": "yes",
-    "name": "Biocoop",
-    "operator": "Biocoop",
-    "organic": "only",
-    "shop": "supermarket"
-  }
-},
-{
-  "type": "node",
   "id": 2320443633,
   "lat": 47.2151685,
   "lon": -1.5527066,
@@ -1744,7 +1748,7 @@
     "addr:city": "Toulouse",
     "addr:postcode": "31000",
     "addr:street": "rue Baour-Lormian",
-    "bulk_purchase": "yes",
+    "bulk_purchase": "only",
     "contact:housenumber": "7",
     "cuisine": "regional",
     "currency:XLT": "SVLT",
@@ -2812,6 +2816,20 @@
 },
 {
   "type": "node",
+  "id": 3770283182,
+  "lat": 43.2992195,
+  "lon": 5.3844977,
+  "tags": {
+    "amenity": "restaurant",
+    "bulk_purchase": "only",
+    "name": "Le Bar à Vrac",
+    "organic": "yes",
+    "shop": "convenience",
+    "website": "http://baravrac.com/"
+  }
+},
+{
+  "type": "node",
   "id": 3792409253,
   "lat": 47.2611509,
   "lon": -1.5821251,
@@ -3087,6 +3105,26 @@
 },
 {
   "type": "node",
+  "id": 4065565596,
+  "lat": 44.8372330,
+  "lon": -0.5712535,
+  "tags": {
+    "addr:city": "Bordeaux",
+    "addr:housenumber": "38",
+    "addr:postcode": "33000",
+    "addr:street": "Rue Sainte-Colombe",
+    "bulk_purchase": "only",
+    "level": "0",
+    "name": "La Recharge",
+    "operator": "Jules Rivet",
+    "organic": "only",
+    "shop": "convenience",
+    "website": "http://www.la-recharge.fr/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
   "id": 4070135011,
   "lat": 48.7345955,
   "lon": -3.4453223,
@@ -3106,6 +3144,25 @@
     "phone": "+33 2 96 14 01 06",
     "shop": "supermarket",
     "website": "https://www.biocoop.fr/magasins-bio/Trouver-mon-magasin-Biocoop/Bretagne/Cotes-d-Armor/BIOCOOP-DOUARGANN"
+  }
+},
+{
+  "type": "node",
+  "id": 4076469242,
+  "lat": 43.6208278,
+  "lon": 6.9731175,
+  "tags": {
+    "bulk_purchase": "only",
+    "contact:email": "contact@boomerang.bio",
+    "contact:facebook": "https://www.facebook.com/epicerieboomerang/",
+    "contact:phone": "+33 4 93 12 10 22",
+    "email": "contact@boomerang.bio",
+    "name": "Boomerang",
+    "opening_hours": "Tu-Sa 9:00-13:00,15:00-19:00",
+    "organic": "yes",
+    "phone": "+33 4 93 12 10 22",
+    "shop": "convenience",
+    "website": "http://www.boomerang.bio/"
   }
 },
 {
@@ -3263,6 +3320,22 @@
     "phone": "+33 4 71 02 95 81",
     "shop": "supermarket",
     "website": "http://echonature.fr/"
+  }
+},
+{
+  "type": "node",
+  "id": 4232065502,
+  "lat": 43.4937338,
+  "lon": -1.4810985,
+  "tags": {
+    "addr:city": "Bayonne",
+    "addr:postcode": "64100",
+    "addr:street": "Avenue Maréchal Foch",
+    "bulk_purchase": "only",
+    "name": "La Mesure",
+    "organic": "only",
+    "shop": "convenience",
+    "website": "https://www.facebook.com/La-Mesure-1502631610029216/"
   }
 },
 {
@@ -4068,6 +4141,22 @@
 },
 {
   "type": "node",
+  "id": 4591148708,
+  "lat": 43.3107029,
+  "lon": 5.3872483,
+  "tags": {
+    "addr:housenumber": "36",
+    "addr:street": "Rue Bernard",
+    "bulk_purchase": "only",
+    "name": "Drogheria Belle de Mai",
+    "note": "Épicerie fine produits italiens et bios",
+    "organic": "yes",
+    "shop": "convenience",
+    "website": "https://cantinedumidi.wordpress.com/epicerie/"
+  }
+},
+{
+  "type": "node",
   "id": 4598296543,
   "lat": 48.5803297,
   "lon": 7.7576726,
@@ -4502,6 +4591,19 @@
 },
 {
   "type": "node",
+  "id": 4779678765,
+  "lat": 45.6865159,
+  "lon": 5.9135264,
+  "tags": {
+    "bulk_purchase": "only",
+    "name": "La Ressource",
+    "organic": "only",
+    "shop": "convenience",
+    "website": "http://laressource.fr/"
+  }
+},
+{
+  "type": "node",
   "id": 4783664546,
   "lat": 48.3894140,
   "lon": -4.4897255,
@@ -4772,6 +4874,39 @@
     "name:fr": "Thaigan",
     "takeaway": "yes",
     "website": "https://www.facebook.com/thaigannantes/"
+  }
+},
+{
+  "type": "node",
+  "id": 4918684294,
+  "lat": 48.3523535,
+  "lon": -1.2244908,
+  "tags": {
+    "bulk_purchase": "only",
+    "name": "Le Bocal",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "http://www.breizhgwer.fr/adresse/le-bocal/"
+  }
+},
+{
+  "type": "node",
+  "id": 4920177643,
+  "lat": 47.2366324,
+  "lon": 6.0283245,
+  "tags": {
+    "bulk_purchase": "only",
+    "contact:housenumber": "90",
+    "contact:phone": "+33 3 81 59 95 67",
+    "currency:XLT": "PIVE",
+    "name": "Le Vrac",
+    "opening_hours": "Mo 14:00-19:00; Tu-Su 09:30-13:00,14:00-19:30",
+    "organic": "only",
+    "payment:cash:XLT-PIVE": "yes",
+    "ref:FR:NAF": "4711B",
+    "ref:FR:SIRET": "80468120300027",
+    "shop": "convenience",
+    "website": "https://www.facebook.com/levracepiceriesansemballage/"
   }
 },
 {
@@ -7984,6 +8119,128 @@
   }
 },
 {
+  "type": "node",
+  "id": 5789641623,
+  "lat": 44.5094214,
+  "lon": 0.1589746,
+  "tags": {
+    "bulk_purchase": "only",
+    "name": "La Source Origin'elles",
+    "organic": "only",
+    "shop": "convenience",
+    "website": "https://www.lasourceoriginelles.fr"
+  }
+},
+{
+  "type": "node",
+  "id": 5789641624,
+  "lat": 43.4703018,
+  "lon": -0.9251291,
+  "tags": {
+    "bulk_purchase": "only",
+    "name": "Dans mon bocal",
+    "organic": "only",
+    "shop": "convenience",
+    "website": "https://www.facebook.com/pg/dansmonbocal64/"
+  }
+},
+{
+  "type": "node",
+  "id": 5795723202,
+  "lat": 43.6063764,
+  "lon": 2.2450441,
+  "tags": {
+    "addr:housenumber": "10",
+    "bulk_purchase": "only",
+    "name": "L'épicerie & co",
+    "organic": "only",
+    "shop": "convenience",
+    "website": "https://www.facebook.com/LEpicerie-Co-569065536585028/"
+  }
+},
+{
+  "type": "node",
+  "id": 5795723203,
+  "lat": 43.6053434,
+  "lon": 3.8778872,
+  "tags": {
+    "addr:housenumber": "9",
+    "bulk_purchase": "only",
+    "name": "Cityzen market",
+    "organic": "only",
+    "shop": "convenience",
+    "website": "http://www.cityzen-market.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 5795723204,
+  "lat": 43.2917334,
+  "lon": 5.3591310,
+  "tags": {
+    "bulk_purchase": "only",
+    "name": "Au grain près",
+    "organic": "only",
+    "shop": "convenience",
+    "website": "https://www.augrainpres.com"
+  }
+},
+{
+  "type": "node",
+  "id": 5796548674,
+  "lat": 45.2864447,
+  "lon": 4.1599563,
+  "tags": {
+    "bulk_purchase": "yes",
+    "name": "Biocoop Monistrol-sur-Loire",
+    "official_name": "Velay Nature Biocoop Monistrol-sur-Loire",
+    "opening_hours": "Tu-Su 09:00-19:00",
+    "organic": "only",
+    "phone": "+33 4 71 66 31 26",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 5796884426,
+  "lat": 41.9480302,
+  "lon": 8.7745144,
+  "tags": {
+    "bulk_purchase": "only",
+    "contact:facebook": "https://www.facebook.com/LOria-1093844257335021/",
+    "name": "L'Oria",
+    "organic": "yes",
+    "shop": "convenience",
+    "website": "https://loria-vrac.shopfactory.com"
+  }
+},
+{
+  "type": "node",
+  "id": 5798520425,
+  "lat": 45.7807524,
+  "lon": 3.0788718,
+  "tags": {
+    "bulk_purchase": "only",
+    "name": "La fabrique de Marie",
+    "organic": "yes",
+    "shop": "cosmetics",
+    "website": "https://www.fabriquemarie.fr/"
+  }
+},
+{
+  "type": "node",
+  "id": 5798520426,
+  "lat": 48.6952182,
+  "lon": 6.1782955,
+  "tags": {
+    "bulk_purchase": "only",
+    "name": "La juste dose",
+    "organic": "only",
+    "shop": "convenience",
+    "website": "http://www.lajustedose.fr/"
+  }
+},
+{
   "type": "way",
   "id": 36940774,
   "center": {
@@ -8748,6 +9005,32 @@
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
     "website": "http://www.bergeracbio.com",
     "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 68590729,
+  "center": {
+    "lat": 44.8549988,
+    "lon": 0.4853730
+  },
+  "nodes": [
+    824672260,
+    824687773,
+    3505217926,
+    824651002,
+    824689523,
+    824716456,
+    824672260
+  ],
+  "tags": {
+    "building": "yes",
+    "bulk_purchase": "only",
+    "name": "Épicerie Pêle-mêle",
+    "organic": "only",
+    "shop": "convenience",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+    "website": "https://www.facebook.com/Epicerie-Pêle-Mêle-212900379092022"
   }
 },
 {
@@ -9606,6 +9889,7 @@
     935008209,
     935086736,
     935139068,
+    5792911680,
     935096183,
     935159690,
     935152125
@@ -10025,6 +10309,34 @@
 },
 {
   "type": "way",
+  "id": 86236185,
+  "center": {
+    "lat": 46.6714370,
+    "lon": -1.4240835
+  },
+  "nodes": [
+    1000849855,
+    1000952161,
+    1000863404,
+    1000888152,
+    1000968300,
+    1000979999,
+    1000872782,
+    1000944800,
+    1000849855
+  ],
+  "tags": {
+    "building": "yes",
+    "bulk_purchase": "only",
+    "name": "Chez Pascal",
+    "organic": "only",
+    "shop": "convenience",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+    "website": "http://www.epiceriechezpascal.com/"
+  }
+},
+{
+  "type": "way",
   "id": 86274311,
   "center": {
     "lat": 46.6553605,
@@ -10234,6 +10546,35 @@
     "shop": "convenience",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadas. Mise à jour : 2010",
     "website": "http://daybyday-shop.com/magasin/reims"
+  }
+},
+{
+  "type": "way",
+  "id": 90808716,
+  "center": {
+    "lat": 45.9353520,
+    "lon": -0.9583380
+  },
+  "nodes": [
+    1054270947,
+    1054059790,
+    1054145610,
+    1054004178,
+    1054178309,
+    1054040969,
+    1053910242,
+    1054206589,
+    1054270947
+  ],
+  "tags": {
+    "addr:housenumber": "36",
+    "building": "yes",
+    "bulk_purchase": "only",
+    "name": "Les bocaux de Mélanie",
+    "organic": "only",
+    "shop": "convenience",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+    "website": "https://www.facebook.com/Les-Bocaux-de-M%C3%A9lanie-237574150151335/"
   }
 },
 {
