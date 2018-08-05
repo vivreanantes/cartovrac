@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.55.4 3079d8ea",
   "osm3s": {
-    "timestamp_osm_base": "2018-08-01T06:21:02Z",
-    "timestamp_areas_base": "2018-08-01T05:33:02Z",
+    "timestamp_osm_base": "2018-08-05T09:15:02Z",
+    "timestamp_areas_base": "2018-08-05T08:54:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -1174,6 +1174,20 @@
 },
 {
   "type": "node",
+  "id": 1883053256,
+  "lat": 46.7251238,
+  "lon": -2.3497839,
+  "tags": {
+    "bulk_purchase": "yes",
+    "contact:phone": "0251587294",
+    "name": "Chez Fredo",
+    "organic": "only",
+    "shop": "convenience",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012"
+  }
+},
+{
+  "type": "node",
   "id": 1888009599,
   "lat": 48.5446251,
   "lon": 7.7410065,
@@ -2012,6 +2026,23 @@
     "organic": "only",
     "shop": "supermarket",
     "website": "http://www.biocoopdupayssanton.fr/"
+  }
+},
+{
+  "type": "node",
+  "id": 2731965896,
+  "lat": 45.5260970,
+  "lon": 4.8758095,
+  "tags": {
+    "addr:city": "Vienne",
+    "addr:housenumber": "74",
+    "addr:postcode": "38200",
+    "addr:street": "Rue Marchande",
+    "bulk_purchase": "only",
+    "name": "Graine de Lin",
+    "organic": "yes",
+    "shop": "convenience",
+    "website": "https://www.facebook.com/pg/RaphaelGDL"
   }
 },
 {
@@ -5041,6 +5072,22 @@
 },
 {
   "type": "node",
+  "id": 4956297732,
+  "lat": 45.7674103,
+  "lon": 4.8377735,
+  "tags": {
+    "bulk_purchase": "only",
+    "contact:facebook": "https://www.facebook.com/bulkolyon/",
+    "description": "Magasin éco-responsable de produits en vrac",
+    "name": "Bulko",
+    "opening_hours": "Mo-Sa 10:00-20:00, Su 10:00-14:00",
+    "organic": "yes",
+    "shop": "convenience",
+    "website": "http://www.bulko-lyon.com/"
+  }
+},
+{
+  "type": "node",
   "id": 4962546028,
   "lat": 49.2761931,
   "lon": -0.6845764,
@@ -7056,15 +7103,16 @@
 {
   "type": "node",
   "id": 5578150590,
-  "lat": 47.6737527,
-  "lon": -2.0649105,
+  "lat": 47.6736967,
+  "lon": -2.0649588,
   "tags": {
     "addr:city": "Redon",
     "addr:housenumber": "5",
     "addr:postcode": "35600",
     "addr:street": "Rue Louis Guilloux",
+    "brand": "Biocoop",
     "bulk_purchase": "yes",
-    "name": "Le Héron bleu",
+    "name": "Bioccop Le Héron bleu",
     "organic": "only",
     "shop": "supermarket",
     "website": "http://leheronbleu.biocoop.net"
@@ -7285,7 +7333,7 @@
     "addr:postcode": "56370",
     "addr:street": "Place des Trinitaires",
     "bulk_purchase": "yes",
-    "name": "BIO N YOU",
+    "name": "Bio N You",
     "organic": "only",
     "shop": "supermarket",
     "website": "https://www.biomonde.fr/bio-n-you,3,251"
@@ -7909,6 +7957,7 @@
   "tags": {
     "bulk_purchase": "yes",
     "name": "Biocoop",
+    "opening_hours": "Mo-Th 09:30-12:30,14:30-19:00; Fr,Sa 09:30-19:00",
     "organic": "only",
     "shop": "supermarket"
   }
@@ -7946,6 +7995,18 @@
     "name": "La Fromagerie Saint Paul",
     "shop": "cheese",
     "website": "https://www.facebook.com/La-Fromagerie-SAINT-PAUL-442537955887586/"
+  }
+},
+{
+  "type": "node",
+  "id": 5673332572,
+  "lat": 45.2978987,
+  "lon": 5.4833244,
+  "tags": {
+    "bulk_purchase": "only",
+    "name": "Graines d'épicières",
+    "organic": "yes",
+    "shop": "convenience"
   }
 },
 {
@@ -8238,6 +8299,113 @@
     "organic": "only",
     "shop": "convenience",
     "website": "http://www.lajustedose.fr/"
+  }
+},
+{
+  "type": "node",
+  "id": 5801177886,
+  "lat": 48.8747068,
+  "lon": 2.3868925,
+  "tags": {
+    "bulk_purchase": "yes",
+    "name": "Réservoir Bio",
+    "organic": "only",
+    "shop": "convenience",
+    "website": "https://www.facebook.com/ReservoirBio/"
+  }
+},
+{
+  "type": "node",
+  "id": 5802287981,
+  "lat": 48.6874375,
+  "lon": 2.3518825,
+  "tags": {
+    "bulk_purchase": "only",
+    "name": "Day by Day",
+    "organic": "yes",
+    "shop": "convenience",
+    "website": "http://daybyday-shop.com/magasin/savigny"
+  }
+},
+{
+  "type": "node",
+  "id": 5802287982,
+  "lat": 49.8955531,
+  "lon": 2.2934143,
+  "tags": {
+    "bulk_purchase": "only",
+    "name": "Day by Day",
+    "organic": "yes",
+    "shop": "convenience",
+    "website": "http://daybyday-shop.com/magasin/amiens"
+  }
+},
+{
+  "type": "node",
+  "id": 5802287983,
+  "lat": 48.4462882,
+  "lon": 1.4887695,
+  "tags": {
+    "addr:street": "25",
+    "bulk_purchase": "only",
+    "name": "Day by Day",
+    "organic": "yes",
+    "shop": "convenience",
+    "website": "http://daybyday-shop.com/magasin/chartres"
+  }
+},
+{
+  "type": "node",
+  "id": 5802287984,
+  "lat": 51.0361239,
+  "lon": 2.3770646,
+  "tags": {
+    "addr:street": "3",
+    "bulk_purchase": "only",
+    "name": "Day by Day",
+    "organic": "yes",
+    "shop": "convenience",
+    "website": "http://daybyday-shop.com/magasin/dunkerque"
+  }
+},
+{
+  "type": "node",
+  "id": 5803867066,
+  "lat": 44.4184210,
+  "lon": 4.8024087,
+  "tags": {
+    "bulk_purchase": "only",
+    "name": "La Préserve",
+    "organic": "yes",
+    "shop": "convenience",
+    "website": "https://www.facebook.com/ellepreserveladrome/"
+  }
+},
+{
+  "type": "way",
+  "id": 35739853,
+  "center": {
+    "lat": 45.9122989,
+    "lon": 6.1164530
+  },
+  "nodes": [
+    418042488,
+    418042490,
+    418042520,
+    418042518,
+    418042491,
+    418042493,
+    418042488
+  ],
+  "tags": {
+    "addr:housenumber": "12",
+    "brand:wikipedia": "Q2904039",
+    "building": "yes",
+    "bulk_purchase": "yes",
+    "name": "biocoop",
+    "organic": "only",
+    "shop": "supermarket",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre;mise à jour : 2008"
   }
 },
 {
@@ -9306,7 +9474,7 @@
     "addr:street": "Rue de Kerhoas",
     "building": "yes",
     "bulk_purchase": "yes",
-    "name": "BREIZH BIO",
+    "name": "Breizh Bio",
     "organic": "only",
     "shop": "supermarket",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
@@ -10865,6 +11033,31 @@
     "shop": "supermarket",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011",
     "website": "http://www.biocoop4pavillons.com/"
+  }
+},
+{
+  "type": "way",
+  "id": 106241596,
+  "center": {
+    "lat": 49.4313520,
+    "lon": 2.0828120
+  },
+  "nodes": [
+    1222096241,
+    1222099191,
+    1222099192,
+    1222096246,
+    1222096224,
+    1222096241
+  ],
+  "tags": {
+    "building": "yes",
+    "bulk_purchase": "only",
+    "name": "Avracadabio",
+    "organic": "only",
+    "shop": "convenience",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011",
+    "website": "https://www.facebook.com/avracadabio60/"
   }
 },
 {
@@ -12541,6 +12734,35 @@
     "payment:cash:XLT-SVLT": "yes",
     "shop": "supermarket",
     "website": "https://fr-fr.facebook.com/BIOCOOP-GRANDEUR-NATURE-LABEGE-302447139787439/"
+  }
+},
+{
+  "type": "way",
+  "id": 220459134,
+  "center": {
+    "lat": 50.4597370,
+    "lon": 1.7584420
+  },
+  "nodes": [
+    2295732707,
+    2295732708,
+    2295732709,
+    2295732712,
+    2295732716,
+    2295732721,
+    2295732722,
+    2295732714,
+    2295732710,
+    2295732707
+  ],
+  "tags": {
+    "building": "yes",
+    "bulk_purchase": "only",
+    "name": "Sainbio's",
+    "organic": "only",
+    "shop": "convenience",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013",
+    "website": "https://www.facebook.com/Sainbios-137427169737634/"
   }
 },
 {
