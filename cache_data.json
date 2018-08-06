@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.55.4 3079d8ea",
   "osm3s": {
-    "timestamp_osm_base": "2018-08-05T09:15:02Z",
-    "timestamp_areas_base": "2018-08-05T08:54:02Z",
+    "timestamp_osm_base": "2018-08-06T22:10:02Z",
+    "timestamp_areas_base": "2018-08-06T21:16:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -330,9 +330,9 @@
   "lat": 47.1863374,
   "lon": -1.5274938,
   "tags": {
+    "facebook": "https://www.facebook.com/boulangeriedesevres/",
     "name": "Boulangerie de Sèvre",
-    "shop": "bakery",
-    "website": "https://www.facebook.com/boulangeriedesevres/"
+    "shop": "bakery"
   }
 },
 {
@@ -1220,6 +1220,20 @@
 },
 {
   "type": "node",
+  "id": 1905663497,
+  "lat": 45.3655207,
+  "lon": 5.5936353,
+  "tags": {
+    "addr:housenumber": "16",
+    "bulk_purchase": "only",
+    "contact:facebook": "https://www.facebook.com/montvrac",
+    "name": "Mont Vrac",
+    "organic": "only",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
   "id": 1910398310,
   "lat": 47.5591433,
   "lon": -2.5102808,
@@ -1549,10 +1563,10 @@
   "lon": 4.8567286,
   "tags": {
     "bulk_purchase": "only",
+    "facebook": "https://www.facebook.com/2pois2mesures",
     "name": "2 poids, 2 mesures",
     "organic": "only",
-    "shop": "convenience",
-    "website": "https://www.facebook.com/2pois2mesures"
+    "shop": "convenience"
   }
 },
 {
@@ -1713,11 +1727,11 @@
     "contact:postcode": "44000",
     "contact:street": "Rue du Château",
     "cuisine": "french",
+    "facebook": "https://www.facebook.com/dinettenantes/",
     "name": "Dînette",
     "opening_hours": "Mo-Su 12:00-19:00; Tu off",
     "phone": "+33 2 51 82 79 13",
     "smoking": "outside",
-    "website": "https://www.facebook.com/dinettenantes/",
     "wheelchair": "limited"
   }
 },
@@ -1794,6 +1808,29 @@
     "organic": "only",
     "shop": "supermarket",
     "website": "http://biocoop.fr/magasins-bio/Trouver-mon-magasin-Biocoop/Auvergne-Rhone-Alpes/Ardeche/BIOCOOP-LA-MAISON-DU-BIO"
+  }
+},
+{
+  "type": "node",
+  "id": 2473274107,
+  "lat": 47.2409324,
+  "lon": 2.5979630,
+  "tags": {
+    "addr:housenumber": "2",
+    "addr:postcode": "18220",
+    "amenity": "restaurant",
+    "bulk_purchase": "yes",
+    "contact:phone": "+33248641751",
+    "contact:website": "http://augresdesouches.fr",
+    "cuisine": "regional",
+    "diet:vegan": "yes",
+    "diet:vegetarian": "yes",
+    "ele": "220 m",
+    "name": "Au Grès des Ouches",
+    "note": "Cuisine rythmée au grès des saisons avec des produits locaux et pain maison.",
+    "opening_hours": "Mo,Tu,Th-Sa 11:00-14:00+; Fr,Sa 17:00-22:00,11:00-14:00",
+    "source": "lapixelerie.net",
+    "wheelchair": "limited"
   }
 },
 {
@@ -2039,10 +2076,10 @@
     "addr:postcode": "38200",
     "addr:street": "Rue Marchande",
     "bulk_purchase": "only",
+    "facebook": "https://www.facebook.com/pg/RaphaelGDL",
     "name": "Graine de Lin",
     "organic": "yes",
-    "shop": "convenience",
-    "website": "https://www.facebook.com/pg/RaphaelGDL"
+    "shop": "convenience"
   }
 },
 {
@@ -3363,10 +3400,10 @@
     "addr:postcode": "64100",
     "addr:street": "Avenue Maréchal Foch",
     "bulk_purchase": "only",
+    "facebook": "https://www.facebook.com/La-Mesure-1502631610029216/",
     "name": "La Mesure",
     "organic": "only",
-    "shop": "convenience",
-    "website": "https://www.facebook.com/La-Mesure-1502631610029216/"
+    "shop": "convenience"
   }
 },
 {
@@ -3677,10 +3714,10 @@
     "addr:postcode": "25500",
     "addr:street": "Chemin des Pierres",
     "bulk_purchase": "yes",
+    "facebook": "https://www.facebook.com/biocooplerefugedessaveurs/",
     "name": "Biocoop Le refuge des saveurs",
     "organic": "only",
-    "shop": "supermarket",
-    "website": "https://www.google.com/url?https://fr-fr.facebook.com/biocooplerefugedessaveurs/sg=AOvVaw0XAxskgSUO2w0Er40Ae4V6"
+    "shop": "supermarket"
   }
 },
 {
@@ -4563,13 +4600,13 @@
     "addr:street": "Rue du Maguéro",
     "bulk_purchase": "yes",
     "email": "halleterrenative@hotmail.fr",
+    "facebook": "https://www.facebook.com/halleterrenative/",
     "name": "L'Halle Terre Native",
     "name:fr": "L'Halle Terre Native",
     "opening_hours": "Tu, Th-Fr 09:30-12:30, 14:00-19:00; Sa 09:30-13:00, 15:00-18:30",
     "organic": "yes",
     "phone": "+33297010957",
-    "shop": "convenience",
-    "website": "https://www.facebook.com/halleterrenative/"
+    "shop": "convenience"
   }
 },
 {
@@ -4901,10 +4938,10 @@
     "addr:street": "Rue Maréchal Joffre",
     "amenity": "restaurant",
     "cuisine": "asian",
+    "facebook": "https://www.facebook.com/thaigannantes/",
     "name": "Thaigan",
     "name:fr": "Thaigan",
-    "takeaway": "yes",
-    "website": "https://www.facebook.com/thaigannantes/"
+    "takeaway": "yes"
   }
 },
 {
@@ -4930,14 +4967,14 @@
     "contact:housenumber": "90",
     "contact:phone": "+33 3 81 59 95 67",
     "currency:XLT": "PIVE",
+    "facebook": "https://www.facebook.com/levracepiceriesansemballage/",
     "name": "Le Vrac",
     "opening_hours": "Mo 14:00-19:00; Tu-Su 09:30-13:00,14:00-19:30",
     "organic": "only",
     "payment:cash:XLT-PIVE": "yes",
     "ref:FR:NAF": "4711B",
     "ref:FR:SIRET": "80468120300027",
-    "shop": "convenience",
-    "website": "https://www.facebook.com/levracepiceriesansemballage/"
+    "shop": "convenience"
   }
 },
 {
@@ -5534,6 +5571,23 @@
 },
 {
   "type": "node",
+  "id": 5188975157,
+  "lat": 45.7793496,
+  "lon": 3.0821410,
+  "tags": {
+    "addr:housenumber": "12",
+    "addr:street": "Rue du 11 Novembre",
+    "bulk_purchase": "only",
+    "name": "La Petite Réserve",
+    "opening_hours": "Mo 14:00-19:00, Tu-Sa 10:00-19:00",
+    "organic": "yes",
+    "shop": "convenience",
+    "start_date": "2017-12-06",
+    "website": "http://www.la-petite-reserve.fr/"
+  }
+},
+{
+  "type": "node",
   "id": 5202232443,
   "lat": 50.6312625,
   "lon": 3.0544663,
@@ -5819,6 +5873,24 @@
 },
 {
   "type": "node",
+  "id": 5281631586,
+  "lat": 43.6766895,
+  "lon": 4.6255796,
+  "tags": {
+    "addr:city": "Arles",
+    "addr:housenumber": "23bis",
+    "addr:postcode": "13200",
+    "addr:street": "Rue de la République",
+    "bulk_purchase": "only",
+    "contact:facebook": "https://www.facebook.com/bocalandco",
+    "name": "Bocal & Co",
+    "organic": "only",
+    "shop": "convenience",
+    "website": "http://bocalandco.fr/"
+  }
+},
+{
+  "type": "node",
   "id": 5310273096,
   "lat": 44.7950283,
   "lon": -0.5381013,
@@ -5970,11 +6042,11 @@
     "addr:postcode": "44470",
     "addr:street": "Rue Loquets",
     "bulk_purchase": "yes",
+    "facebook": "https://www.facebook.com/L%C3%A9picerie-du-port-574717069319717/",
     "name": "L'Epicerie du Port",
     "opening_hours": "Mo 15:00-19:30; Tu-Fr 09:00-12:30, 15:00-19:45; Th off; Sa 09:00-12:30, 15:00-19:00; Su 09:30-12:30",
     "organic": "yes",
-    "shop": "convenience",
-    "website": "https://www.facebook.com/L%C3%A9picerie-du-port-574717069319717/"
+    "shop": "convenience"
   }
 },
 {
@@ -6449,9 +6521,9 @@
     "addr:street": "Rue Louis Blanc",
     "amenity": "restaurant",
     "cuisine": "vegan;french;local",
+    "facebook": "https://www.facebook.com/petitbcafelibrairie/",
     "name": "Petit b",
-    "takeaway": "yes",
-    "website": "https://www.facebook.com/petitbcafelibrairie/"
+    "takeaway": "yes"
   }
 },
 {
@@ -7093,7 +7165,7 @@
     "addr:street": "Rue Paul Le Roux",
     "bulk_purchase": "yes",
     "name": "Biocoop Ti Stal Lostenk",
-    "opening_hours": "Tu,Th 16:00-19:00; We, Fr 9:00-12:30, 16:00-19:00; Sa 9:00-12:30; ",
+    "opening_hours": "Tu,Th 16:00-19:00; We, Fr 9:00-12:30, 16:00-19:00; Sa 9:00-12:30",
     "organic": "only",
     "phone": "+33 2 97 11 74 81",
     "shop": "supermarket",
@@ -7463,10 +7535,10 @@
     "addr:postcode": "50100",
     "addr:street": "Rue de la Paix",
     "bulk_purchase": "only",
+    "facebook": "https://www.facebook.com/laconsigne.epicerie.durable/",
     "name": "La Consigne",
     "organic": "yes",
-    "shop": "convenience",
-    "website": "https://www.facebook.com/laconsigne.epicerie.durable/"
+    "shop": "convenience"
   }
 },
 {
@@ -7631,10 +7703,10 @@
     "addr:postcode": "31190",
     "addr:street": "Route de Toulouse",
     "bulk_purchase": "yes",
+    "facebook": "https://fr-fr.facebook.com/Bioterive/",
     "name": "Biocoop Bioterive",
     "organic": "only",
-    "shop": "supermarket",
-    "website": "https://fr-fr.facebook.com/Bioterive/"
+    "shop": "supermarket"
   }
 },
 {
@@ -7721,10 +7793,10 @@
     "addr:postcode": "33290",
     "addr:street": "Rue de la Gare",
     "bulk_purchase": "yes",
+    "facebook": "https://fr-fr.facebook.com/biocoopemporium/",
     "name": "Biocoop Emporium",
     "organic": "only",
-    "shop": "supermarket",
-    "website": "https://fr-fr.facebook.com/biocoopemporium/"
+    "shop": "supermarket"
   }
 },
 {
@@ -7992,9 +8064,9 @@
   "lat": 47.1846442,
   "lon": -1.5469085,
   "tags": {
+    "facebook": "https://www.facebook.com/La-Fromagerie-SAINT-PAUL-442537955887586/",
     "name": "La Fromagerie Saint Paul",
-    "shop": "cheese",
-    "website": "https://www.facebook.com/La-Fromagerie-SAINT-PAUL-442537955887586/"
+    "shop": "cheese"
   }
 },
 {
@@ -8042,6 +8114,29 @@
 },
 {
   "type": "node",
+  "id": 5683362306,
+  "lat": 48.5927762,
+  "lon": 7.7236298,
+  "tags": {
+    "addr:city": "strasbourg",
+    "addr:housenumber": "36",
+    "addr:postcode": "67200",
+    "addr:street": "Route de Mittelhausbergen",
+    "bulk_purchase": "only",
+    "description": "Epicerie 100% Vrac, Zéro Déchets, Bio.\nAlimentaire, Cosmétique, Entretien\n",
+    "name": "BeeVrac",
+    "opening_hours": "Tu-Fr 10:00-13:00, Tu-Fr 14:30-19:30, Sa 10:00-17:00",
+    "organic": "only",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "shop": "supermarket",
+    "website": "https://Beevrac.fr"
+  }
+},
+{
+  "type": "node",
   "id": 5690435704,
   "lat": 47.2385023,
   "lon": -1.3481662,
@@ -8049,10 +8144,10 @@
     "addr:housenumber": "9",
     "addr:street": "Rue Porte Saumon",
     "bulk_purchase": "yes",
+    "facebook": "https://www.facebook.com/Epicerie-H%C3%9CECK-222949064797452/",
     "name": "Épicerie Hüeck",
     "organic": "yes",
-    "shop": "convenience",
-    "website": "https://www.facebook.com/Epicerie-H%C3%9CECK-222949064797452/"
+    "shop": "convenience"
   }
 },
 {
@@ -8095,10 +8190,10 @@
   "lon": 9.4404404,
   "tags": {
     "bulk_purchase": "only",
+    "facebook": "https://www.facebook.com/pg/LesSilosdeNinaEpicerieSansEmballage",
     "name": "Les silos de Nina",
     "organic": "only",
-    "shop": "convenience",
-    "website": "https://www.facebook.com/pg/LesSilosdeNinaEpicerieSansEmballage"
+    "shop": "convenience"
   }
 },
 {
@@ -8173,10 +8268,10 @@
   "lon": -0.4877430,
   "tags": {
     "bulk_purchase": "only",
+    "facebook": "https://www.facebook.com/mademoisellevracniort/",
     "name": "Mademoiselle vrac Niort",
     "organic": "only",
-    "shop": "convenience",
-    "website": "https://www.facebook.com/mademoisellevracniort/"
+    "shop": "convenience"
   }
 },
 {
@@ -8199,10 +8294,10 @@
   "lon": -0.9251291,
   "tags": {
     "bulk_purchase": "only",
+    "facebook": "https://www.facebook.com/pg/dansmonbocal64/",
     "name": "Dans mon bocal",
     "organic": "only",
-    "shop": "convenience",
-    "website": "https://www.facebook.com/pg/dansmonbocal64/"
+    "shop": "convenience"
   }
 },
 {
@@ -8213,10 +8308,10 @@
   "tags": {
     "addr:housenumber": "10",
     "bulk_purchase": "only",
+    "facebook": "https://www.facebook.com/LEpicerie-Co-569065536585028/",
     "name": "L'épicerie & co",
     "organic": "only",
-    "shop": "convenience",
-    "website": "https://www.facebook.com/LEpicerie-Co-569065536585028/"
+    "shop": "convenience"
   }
 },
 {
@@ -8308,10 +8403,10 @@
   "lon": 2.3868925,
   "tags": {
     "bulk_purchase": "yes",
+    "facebook": "https://www.facebook.com/ReservoirBio/",
     "name": "Réservoir Bio",
     "organic": "only",
-    "shop": "convenience",
-    "website": "https://www.facebook.com/ReservoirBio/"
+    "shop": "convenience"
   }
 },
 {
@@ -8346,7 +8441,7 @@
   "lat": 48.4462882,
   "lon": 1.4887695,
   "tags": {
-    "addr:street": "25",
+    "addr:housenumber": "25",
     "bulk_purchase": "only",
     "name": "Day by Day",
     "organic": "yes",
@@ -8375,10 +8470,89 @@
   "lon": 4.8024087,
   "tags": {
     "bulk_purchase": "only",
+    "facebook": "https://www.facebook.com/ellepreserveladrome/",
     "name": "La Préserve",
     "organic": "yes",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 5810803553,
+  "lat": 43.7648633,
+  "lon": 7.4823362,
+  "tags": {
+    "bulk_purchase": "only",
+    "contact:facebook": "https://www.facebook.com/AuGrammePres06190/",
+    "name": "Au Gramme Près",
+    "organic": "only",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 5810803554,
+  "lat": 44.9928471,
+  "lon": -0.4483591,
+  "tags": {
+    "bulk_purchase": "only",
+    "contact:facebook": "https://www.facebook.com/aucomptoirlocal",
+    "name": "Au Comptoir Local",
+    "organic": "only",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 5810803555,
+  "lat": 43.6058002,
+  "lon": 3.8759533,
+  "tags": {
+    "bulk_purchase": "only",
+    "contact:facebook": "https://www.facebook.com/achacunsonbocal/",
+    "name": "A Chacun son Bocal",
+    "organic": "only",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 5812263843,
+  "lat": 50.5397180,
+  "lon": 3.0760099,
+  "tags": {
+    "bulk_purchase": "only",
+    "contact:facebook": "https://www.facebook.com/bevrac/",
+    "name": "Be Vrac",
+    "organic": "only",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 5812263844,
+  "lat": 49.4696277,
+  "lon": 1.1205340,
+  "tags": {
+    "bulk_purchase": "only",
+    "contact:facebook": "https://www.facebook.com/myriamtraverscelinerodrigo/",
+    "name": "Chez Mère-Grand, l'Epicerie d'Antan",
+    "organic": "only",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 5812263845,
+  "lat": 48.6427698,
+  "lon": 1.8286862,
+  "tags": {
+    "bulk_purchase": "only",
+    "contact:facebook": "https://www.facebook.com/Comptoir-du-Vrac-1860619837282992/",
+    "name": "Comptoir du Vrac",
+    "organic": "only",
     "shop": "convenience",
-    "website": "https://www.facebook.com/ellepreserveladrome/"
+    "website": "http://www.comptoirduvrac.com/"
   }
 },
 {
@@ -8731,14 +8905,14 @@
     "addr:street": "Avenue Montaigne",
     "building": "yes",
     "bulk_purchase": "yes",
-    "name": "au Jardin d'Alice",
+    "facebook": "https://www.facebook.com/auJardindAliceBiomonde/",
+    "name": "Au Jardin d'Alice",
     "opening_hours": "Mo 14:00-19:30, Tu-Sa 09:00-19:00",
     "operator": "Bio Monde",
     "organic": "only",
     "phone": "+33 556992242",
     "shop": "supermarket",
-    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
-    "website": "https://www.facebook.com/auJardindAliceBiomonde/"
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"
   }
 },
 {
@@ -9194,11 +9368,11 @@
   "tags": {
     "building": "yes",
     "bulk_purchase": "only",
+    "facebook": "https://www.facebook.com/Epicerie-Pêle-Mêle-212900379092022",
     "name": "Épicerie Pêle-mêle",
     "organic": "only",
     "shop": "convenience",
-    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
-    "website": "https://www.facebook.com/Epicerie-Pêle-Mêle-212900379092022"
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"
   }
 },
 {
@@ -9350,6 +9524,35 @@
 },
 {
   "type": "way",
+  "id": 69122480,
+  "center": {
+    "lat": 43.2824954,
+    "lon": 5.3732085
+  },
+  "nodes": [
+    829144760,
+    829143104,
+    829212652,
+    829140591,
+    829170423,
+    829240472,
+    829245007,
+    829144760
+  ],
+  "tags": {
+    "addr:housenumber": "17",
+    "building": "yes",
+    "bulk_purchase": "only",
+    "contact:facebook": "https://www.facebook.com/ChezFrancetteVauban/",
+    "name": "Chez Francette",
+    "organic": "only",
+    "shop": "convenience",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+    "website": "https://www.chezfrancette.fr/"
+  }
+},
+{
+  "type": "way",
   "id": 69128954,
   "center": {
     "lat": 43.2873993,
@@ -9399,11 +9602,11 @@
   "tags": {
     "building": "yes",
     "bulk_purchase": "only",
+    "facebook": "https://www.facebook.com/pg/LesToquesduBocal",
     "name": "Les Toqués du Bocal",
     "organic": "yes",
     "shop": "convenience",
-    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
-    "website": "https://www.facebook.com/pg/LesToquesduBocal"
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"
   }
 },
 {
@@ -9686,14 +9889,12 @@
   "id": 72688317,
   "center": {
     "lat": 43.4906996,
-    "lon": -1.4610902
+    "lon": -1.4610912
   },
   "nodes": [
     863079233,
     863059760,
     863008528,
-    863096443,
-    863118148,
     863065197,
     862955838,
     862941790,
@@ -9721,6 +9922,7 @@
     "phone": "+33 5 59 55 00 82",
     "shop": "supermarket",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+    "wall": "no",
     "website": "http://biocoop-bab.fr/"
   }
 },
@@ -9970,11 +10172,11 @@
     "addr:street": "Chemin du Port de l'Homme",
     "building": "yes",
     "bulk_purchase": "yes",
+    "facebook": "https://www.facebook.com/biocooplatresne/",
     "name": "Biocoop Latresne",
     "organic": "only",
     "shop": "supermarket",
-    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
-    "website": "https://www.facebook.com/biocooplatresne/"
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"
   }
 },
 {
@@ -10028,6 +10230,7 @@
     925900677,
     925943936,
     925912210,
+    5810955675,
     925924443
   ],
   "tags": {
@@ -10466,13 +10669,13 @@
     "building": "yes",
     "bulk_purchase": "only",
     "diet": "vegetarian;vegan",
+    "facebook": "https://www.facebook.com/HelloBocauxHellemmes/",
     "name": "Hello Bocaux",
     "opening_hours": "Tu,Th,Fr 09:30-13:00,15:30-19:30; We,Sa 9:00-13:00,15:30-19:30",
     "organic": "only",
     "shop": "convenience",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
-    "start_date": "2018",
-    "website": "https://www.facebook.com/HelloBocauxHellemmes/"
+    "start_date": "2018"
   }
 },
 {
@@ -10738,11 +10941,11 @@
     "addr:housenumber": "36",
     "building": "yes",
     "bulk_purchase": "only",
+    "facebook": "https://www.facebook.com/Les-Bocaux-de-M%C3%A9lanie-237574150151335/",
     "name": "Les bocaux de Mélanie",
     "organic": "only",
     "shop": "convenience",
-    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
-    "website": "https://www.facebook.com/Les-Bocaux-de-M%C3%A9lanie-237574150151335/"
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"
   }
 },
 {
@@ -11053,11 +11256,11 @@
   "tags": {
     "building": "yes",
     "bulk_purchase": "only",
+    "facebook": "https://www.facebook.com/avracadabio60/",
     "name": "Avracadabio",
     "organic": "only",
     "shop": "convenience",
-    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011",
-    "website": "https://www.facebook.com/avracadabio60/"
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"
   }
 },
 {
@@ -11551,6 +11754,7 @@
     "addr:street": "Route de Trets",
     "building": "yes",
     "bulk_purchase": "yes",
+    "facebook": "https://fr-fr.facebook.com/biocoopsaintevictoire/",
     "level": "0",
     "name": "Biocoop Sainte-Victoire",
     "operator": "Julien Moulaire, Sylvie Moulaire",
@@ -11558,7 +11762,6 @@
     "phone": "+33 4 42 91 43 59",
     "shop": "supermarket",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011",
-    "website": "https://fr-fr.facebook.com/biocoopsaintevictoire/",
     "wheelchair": "yes",
     "wikipedia": "fr:Biocoop"
   }
@@ -11728,11 +11931,11 @@
     "addr:street": "Rue Jean Pages",
     "building": "yes",
     "bulk_purchase": "yes",
+    "facebook": "https://fr-fr.facebook.com/biocoop.villenave/",
     "name": "Biocoop",
     "organic": "only",
     "shop": "supermarket",
-    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011",
-    "website": "https://fr-fr.facebook.com/biocoop.villenave/"
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"
   }
 },
 {
@@ -12030,11 +12233,11 @@
     "addr:street": "Avenue de la Libération",
     "building": "yes",
     "bulk_purchase": "yes",
+    "facebook": "https://fr-fr.facebook.com/biocooplebouscat/",
     "name": "Biocoop Le Bouscat",
     "organic": "only",
     "shop": "supermarket",
-    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012",
-    "website": "https://fr-fr.facebook.com/biocooplebouscat/"
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012"
   }
 },
 {
@@ -12167,12 +12370,12 @@
     "addr:street": "Avenue du Général Leclerc",
     "building": "yes",
     "bulk_purchase": "yes",
+    "facebook": "https://fr-fr.facebook.com/biocoopbordeauxcauderan/",
     "name": "Biocoop",
     "organic": "only",
     "phone": "+33 557295319",
     "shop": "supermarket",
-    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012",
-    "website": "https://fr-fr.facebook.com/biocoopbordeauxcauderan/"
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012"
   }
 },
 {
@@ -12354,6 +12557,31 @@
     "shop": "supermarket",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012",
     "website": "http://www.biocoop-cholet.fr/"
+  }
+},
+{
+  "type": "way",
+  "id": 169577607,
+  "center": {
+    "lat": 44.4981345,
+    "lon": 0.9686185
+  },
+  "nodes": [
+    1807385002,
+    1807384832,
+    1807384409,
+    1807384646,
+    1807384840,
+    1807385002
+  ],
+  "tags": {
+    "building": "yes",
+    "bulk_purchase": "only",
+    "contact:facebook": "https://www.facebook.com/EpicerieComptoirNature/",
+    "name": "Comptoir Nature",
+    "organic": "only",
+    "shop": "convenience",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012"
   }
 },
 {
@@ -12728,12 +12956,12 @@
     "bulk_purchase": "yes",
     "contact:phone": "+33 5 61 52 00 10",
     "currency:XLT": "SVLT",
+    "facebook": "https://fr-fr.facebook.com/BIOCOOP-GRANDEUR-NATURE-LABEGE-302447139787439/",
     "name": "Biocoop Grandeur Nature",
     "operator": "Biocoop",
     "organic": "only",
     "payment:cash:XLT-SVLT": "yes",
-    "shop": "supermarket",
-    "website": "https://fr-fr.facebook.com/BIOCOOP-GRANDEUR-NATURE-LABEGE-302447139787439/"
+    "shop": "supermarket"
   }
 },
 {
@@ -12758,11 +12986,11 @@
   "tags": {
     "building": "yes",
     "bulk_purchase": "only",
+    "facebook": "https://www.facebook.com/Sainbios-137427169737634/",
     "name": "Sainbio's",
     "organic": "only",
     "shop": "convenience",
-    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013",
-    "website": "https://www.facebook.com/Sainbios-137427169737634/"
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013"
   }
 },
 {
@@ -12792,12 +13020,12 @@
     "addr:street": "Rue de l'église",
     "building": "yes",
     "bulk_purchase": "yes",
+    "facebook": "https://www.facebook.com/pg/ahletallocal",
     "name": "Ah ! L'étal Local",
     "opening_hours": "Tu 09:00-13:00, 15:30-19:00; We-Fr 09:00-13:00, 15:00-19:00; Sa 09:00-19:00; Su 09:00-13:00",
     "organic": "yes",
     "shop": "convenience",
-    "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2012",
-    "website": "https://www.facebook.com/pg/ahletallocal"
+    "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2012"
   }
 },
 {
@@ -12855,12 +13083,12 @@
     "addr:street": "Avenue Jean Jaurès",
     "building": "yes",
     "bulk_purchase": "yes",
+    "facebook": "https://fr-fr.facebook.com/BiocoopPessac/",
     "name": "Biocoop",
     "opening_hours": "Mo 14:30-19:30; Tu-Th 09:30-13:30,15:00-19:30; Fr,Sa 09:30-19:30",
     "organic": "only",
     "shop": "supermarket",
-    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013",
-    "website": "https://fr-fr.facebook.com/BiocoopPessac/"
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013"
   }
 },
 {
@@ -12984,6 +13212,34 @@
 },
 {
   "type": "way",
+  "id": 236490934,
+  "center": {
+    "lat": 46.0320635,
+    "lon": 5.6646285
+  },
+  "nodes": [
+    2445146986,
+    2445147008,
+    2445146998,
+    2814690011,
+    2445146981,
+    2445146984,
+    2445146986
+  ],
+  "tags": {
+    "building": "yes",
+    "bulk_purchase": "only",
+    "contact:facebook": "https://www.facebook.com/lenatureldesours",
+    "name": "Le Naturel des Ours",
+    "organic": "yes",
+    "shop": "cosmetics",
+    "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2013",
+    "wall": "no",
+    "website": "https://lenatureldesours.fr/"
+  }
+},
+{
+  "type": "way",
   "id": 239045061,
   "center": {
     "lat": 44.3607754,
@@ -13082,6 +13338,36 @@
     "phone": "+33 2 29 00 33 33",
     "shop": "supermarket",
     "website": "http://www.finisterra.fr"
+  }
+},
+{
+  "type": "way",
+  "id": 246530340,
+  "center": {
+    "lat": 46.0517081,
+    "lon": 3.9251515
+  },
+  "nodes": [
+    2535594763,
+    2535593872,
+    2535593915,
+    2535594148,
+    2535594178,
+    2535594286,
+    2535594553,
+    2535594803,
+    2535594763
+  ],
+  "tags": {
+    "addr:housenumber": "53",
+    "building": "yes",
+    "bulk_purchase": "only",
+    "contact:facebook": "https://www.facebook.com/Le-Bocal-191952564771454/",
+    "name": "Le bocal",
+    "organic": "only",
+    "shop": "convenience",
+    "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2013",
+    "website": "https://lebocalenvrac.fr/"
   }
 },
 {
@@ -13627,11 +13913,11 @@
     "addr:street": "Allée Pablo Picasso",
     "building": "yes",
     "bulk_purchase": "yes",
+    "facebook": "https://fr-fr.facebook.com/biocoopportet/",
     "name": "Biocoop",
     "organic": "only",
     "phone": "+335 61 16 13 06",
-    "shop": "supermarket",
-    "website": "https://fr-fr.facebook.com/biocoopportet/"
+    "shop": "supermarket"
   }
 },
 {
