@@ -1,5 +1,5 @@
 #!/bin/bash
-wget -o output.json 'https://www.overpass-api.de/api/interpreter?data=[out:json][timeout:500][maxsize:20737418];((node["bulk_purchase"="yes"]))'
+wget -o output.json 'https://www.overpass-api.de/api/interpreter?data=[out:json][timeout:500][maxsize:20737418];((node["collaborative_repair_shop"="yes"]))'
 
 # var ignoredShops, jtbPartners;
 # 		$.when(
@@ -16,7 +16,7 @@ wget -o output.json 'https://www.overpass-api.de/api/interpreter?data=[out:json]
 
 		# function generateUrl() {
 # coords='(40,-8,53,8)'
-# url="https://www.overpass-api.de/api/interpreter?data=[out:json][timeout:500][maxsize:20737418];(area[\"ISO3166-1\"=\"FR\"]; )->.fr;(node[\"bulk_purchase\"][\"bulk_purchase\"!=\"no\"](area.fr);way[\"bulk_purchase\"][\"bulk_purchase\"!=\"no\"](area.fr););out center;"
+# url="https://www.overpass-api.de/api/interpreter?data=[out:json][timeout:500][maxsize:20737418];(area[\"ISO3166-1\"=\"FR\"]; )->.fr;(node[\"collaborative_repair_shop\"][\"collaborative_repair_shop\"!=\"no\"](area.fr);way[\"collaborative_repair_shop\"][\"collaborative_repair_shop\"!=\"no\"](area.fr););out center;"
 # wget -O cache_data.json "$url"
 # echo "$url"
 

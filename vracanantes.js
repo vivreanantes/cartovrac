@@ -90,7 +90,7 @@ function addListOfShops() {
 				shop['id'],
 				shopTags['name'],
 				shopTags['organic'],
-				shopTags['bulk_purchase'],
+				shopTags['collaborative_repair_shop'],
 				shopTags['addr:housenumber'],
 				shopTags['addr:street'],
 				shopTags['addr:postcode'],
@@ -114,7 +114,7 @@ function getPopupContent(
 		nodeId,
 		name,
 		organic,
-		bulk_purchase,
+		collaborative_repair_shop,
 		housenumber,
 		street,
 		postcode,
@@ -131,7 +131,7 @@ function getPopupContent(
 	var popup = '<b>'+name+'</b><br />';
 
 	// Set the shop type
-	var shopTitle = getShopTitle(type, organic, bulk_purchase);
+	var shopTitle = getShopTitle(type, organic, collaborative_repair_shop);
 	if (shopTitle) {
 		popup += '<i>' + shopTitle ;
 
