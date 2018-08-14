@@ -80,7 +80,7 @@ function addListOfShops() {
 		}
 
 		// Get the type of shop/amenity to manage
-		var type = getType(shopTags['name'], shopTags['shop'], shopTags['amenity'], shopTags['craft']);
+		var type = getType(shopTags['repair:fabrik'], shopTags['shop'], shopTags['amenity'], shopTags['craft']);
 		if (!type) {
 			continue;
 		}
@@ -89,14 +89,13 @@ function addListOfShops() {
 		var popup = getPopupContent(
 				shop['id'],
 				shopTags['name'],
-				shopTags['organic'],
 				shopTags['collaborative_repair_shop'],
 				shopTags['addr:housenumber'],
 				shopTags['addr:street'],
 				shopTags['addr:postcode'],
 				shopTags['addr:city'],
-				shopTags['opening_hours'],
-				shopTags['website'],
+				shopTags['service_times'],
+				shopTags['contact:website'],
 				type
 		);
 

@@ -52,9 +52,13 @@ a:hover {
 h1, h2, h3 {
   font-family: 'Open Sans', Arial, sans-serif;
   font-weight: 600;
-  color: #32CD32;
+  color: #e0ad4d;
 }
 
+h1 {
+  font-size:12px;
+}
+  
 h2 {
   margin-top: 60px;
 }
@@ -222,6 +226,10 @@ a.anchor {
   a.anchor {
       top: -120px;
     }
+	
+  h1 {
+    font-size:8px;
+  }
 }
 
 @media screen and (min-width: 700px) {
@@ -261,5 +269,9 @@ a.anchor {
 
     a.anchor {
       top: -90px;
+    }
+	
+    h1 {
+      font-size:16px;
     }
 }

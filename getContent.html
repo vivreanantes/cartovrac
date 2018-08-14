@@ -19,7 +19,7 @@
 		});
 
 		function generateUrl() {
-	        var url = 'https://www.overpass-api.de/api/interpreter?data=[out:json][timeout:500][maxsize:20737418];(area["ISO3166-1"="FR"];)->.fr;((node["bulk_purchase"~"yes|only"](area.fr);way["bulk_purchase"~"yes|only"](area.fr);';
+	        var url = 'https://www.overpass-api.de/api/interpreter?data=[out:json][timeout:500][maxsize:20737418];(area["ISO3166-1"="FR"];)->.fr;((node["repair"~"assisted_self_service"](area.fr);way["repair"~"assisted_self_service"](area.fr);';
 
 	        // Add partners
 	        for (var partnerIndex in jtbPartners) {
