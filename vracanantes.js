@@ -80,7 +80,13 @@ function addListOfShops() {
 		}
 
 		// Get the type of shop/amenity to manage
-		var type = getType(shopTags['repair:fabrik'], shopTags['shop'], shopTags['amenity'], shopTags['craft']);
+		var type = getType(shopTags['service:fabrik:repair'], shopTags['shop'], shopTags['amenity'], shopTags['craft']);		
+		var type2 = getType(shopTags['service:furniture:repair'], shopTags['shop'], shopTags['amenity'], shopTags['craft']);
+		var type3 = getType(shopTags['service:computers:repair'], shopTags['shop'], shopTags['amenity'], shopTags['craft']);
+		var type4 = getType(shopTags['service:camera:repair'], shopTags['shop'], shopTags['amenity'], shopTags['craft']);
+		var type5 = getType(shopTags['service:bicycle:repair'], shopTags['shop'], shopTags['amenity'], shopTags['craft']);
+		var type6 = getType(shopTags['service:small_electronics_device:repair'], shopTags['shop'], shopTags['amenity'], shopTags['craft']);
+		
 		if (!type) {
 			continue;
 		}
