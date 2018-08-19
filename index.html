@@ -28,23 +28,24 @@
 		<script src="lib/shopmarker/marker_icons.js"></script>
 		<script src="lib/shopmarker/shopmarker.js"></script>
 		<!--[if IE]> <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-	
-        <!-- Piwik
-        <script type="text/javascript">
-            var _paq = _paq || [];
-            /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-            _paq.push(['trackPageView']);
-            _paq.push(['enableLinkTracking']);
-            (function() {
-             var u="//www.coreparation44.fr/analytics/";
-             _paq.push(['setTrackerUrl', u+'piwik.php']);
-             _paq.push(['setSiteId', '1']);
-             var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-             g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-             })();
-            </script>
-        End Piwik Code -->
-    </head>
+			
+		<!-- Matomo -->
+		<script type="text/javascript">
+		  var _paq = _paq || [];
+		  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+		  _paq.push(['trackPageView']);
+		  _paq.push(['enableLinkTracking']);
+		  (function() {
+			var u="//coreparation44.fr/analytics/piwik/";
+			_paq.push(['setTrackerUrl', u+'piwik.php']);
+			_paq.push(['setSiteId', '1']);
+			var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+			g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+		  })();
+		</script>
+		<!-- End Matomo Code -->
+		
+	</head>
 	<body>
 
 		<header>
@@ -84,7 +85,7 @@
 
 		<h2>Le calendrier</h2>
 
-		<p>Les prochains évènements<br/>
+		<p>
 		<iframe style="width:100%;" frameborder="0" scrolling="no" allowtransparency="allowtransparency" class="cibulFrame cbpgbdy" data-oabdy src="//openagenda.com/agendas/17121232/embeds/87925481/events?lang=fr"></iframe><script type="text/javascript" src="//openagenda.com/js/embed/cibulBodyWidget.js"></script>
 		</p>
 		
@@ -106,7 +107,7 @@
 			- le calendrier n'est pas stocké chez Facebook mais dans l'agenda libre Open-Agenda.<br/>
 			- afin de diminuer la consommation électrique des requêtes, on ne récupère pas en temps réel les données de l'agenda et de la carte, mais uniquement 1 fois toutes les 
 			24 heures et à la demande.<br/>
-			- les statistiques ne sont pas réalisées par "Google Analytics" mais la solution libre Piwik et hébergées sur ce site.<br/>
+			- les statistiques ne sont pas réalisées par "Google Analytics" mais la solution libre Matomo et hébergées sur ce site.<br/>
 			- le code source de ce site est libre, et <a href='https://github.com/vivreanantes/vracanantes/tree/feature/AteliersReparationCollaboratifLoireAtlantique' target=_ne>disponible sur github</a>.
 		</p>
 
@@ -114,10 +115,10 @@
 		<h2>Contribuer</h2>
 		<p>Pour la carte, au choix : <br>
 			- remplir le <a href='https://docs.google.com/forms/d/e/1FAIpQLSd95D0AvY4B7biFf7tQz5TNDDg5_4wZXP4U3IOlxkS4McCrxw/viewform' target=_new>formulaire</a><br/>
-			- inscrire les données directement dans OpenStreetMap. <a href='https://github.com/vivreanantes/vracanantes/blob/feature/AteliersReparationCollaboratifLoireAtlantique/add_markers.md' target=_new>add_markers.md</a>
+			- inscrire les données directement dans OpenStreetMap. <a href='https://github.com/vivreanantes/vracanantes/blob/feature/AteliersReparationCollaboratifLoireAtlantique/add_markers.md' target=_new>voir guide</a>
 		</p>
 		<p>Pour le calendrier : <br>
-			- ajouter l'évènement sur <a href='https://openagenda.com/ateliers-de-co-reparation/' target=_new>Open-Agenda</a>
+			- ajouter l'évènement sur Open-Agenda <a href='https://github.com/vivreanantes/vracanantes/blob/feature/AteliersReparationCollaboratifLoireAtlantique/add_events.md' target=_new>voir guide</a>
 		</p>
 		
 		<a class="anchor" id="contact"></a>
