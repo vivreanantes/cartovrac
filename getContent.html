@@ -22,7 +22,7 @@
 	        var url = 'https://www.overpass-api.de/api/interpreter?data=[out:json][timeout:500][maxsize:20737418];(area["ISO3166-1"="FR"];)->.fr;((node["repair"~"assisted_self_service"](area.fr);way["repair"~"assisted_self_service"](area.fr);';
 
 	        // Add partners
-	        for (var partnerIndex in jtbPartners) {
+	        /* for (var partnerIndex in jtbPartners) {
 				var partner = jtbPartners[partnerIndex];
 				url += partner.type + '(id:';
 
@@ -46,7 +46,7 @@
 				url = url.substring(0, url.length - 2);
 				url += ');';
 			}
-
+			*/
 			url += '););out center;';
 
 			return url;

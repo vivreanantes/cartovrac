@@ -58,7 +58,8 @@ $(document).ready(function(){
 function addListOfShops() {	
 	for (var shopIndex in shopsJson) {
 		var shop = shopsJson[shopIndex]
-		var shopTags = shop['tags'];
+		//var shopTags = shop['tags'];
+		var repairTags = shop['tags'];
 		var lat, lon;
 
 		// Get coordinates
@@ -80,13 +81,8 @@ function addListOfShops() {
 		}
 
 		// Get the type of shop/amenity to manage
-		var type = getType(shopTags['service:fabrik:repair'], shopTags['shop'], shopTags['amenity'], shopTags['craft']);		
-		var type2 = getType(shopTags['service:furniture:repair'], shopTags['shop'], shopTags['amenity'], shopTags['craft']);
-		var type3 = getType(shopTags['service:computers:repair'], shopTags['shop'], shopTags['amenity'], shopTags['craft']);
-		var type4 = getType(shopTags['service:camera:repair'], shopTags['shop'], shopTags['amenity'], shopTags['craft']);
-		var type5 = getType(shopTags['service:bicycle:repair'], shopTags['shop'], shopTags['amenity'], shopTags['craft']);
-		var type6 = getType(shopTags['service:small_electronics_device:repair'], shopTags['shop'], shopTags['amenity'], shopTags['craft']);
-		
+		var type = getTypeRepair(repairTags['service:fabrik:repair'], repairTags['service:bicycle:repair'], repairTags['service:camera:repair'], repairTags['service:computer:repair'], repairTags['service:fabrik:repair'], repairTags['service:furniture:repair'], repairTags['service:small_electronics_device:repair']);
+				
 		if (!type) {
 			continue;
 		}
@@ -94,14 +90,18 @@ function addListOfShops() {
 		// Create popup content depending on element's tags
 		var popup = getPopupContent(
 				shop['id'],
-				shopTags['name'],
-				shopTags['collaborative_repair_shop'],
-				shopTags['addr:housenumber'],
-				shopTags['addr:street'],
-				shopTags['addr:postcode'],
-				shopTags['addr:city'],
-				shopTags['service_times'],
-				shopTags['contact:website'],
+				repairTags['name'],
+				repairTags['collaborative_repair_shop'],
+				repairTags['addr:housenumber'],
+				repairTags['addr:street'],
+				repairTags['addr:postcode'],
+				repairTags['addr:city'],
+				repairTags['service_times'],
+				repairTags['contact:email'],
+				repairTags['contact:facebook'],
+				repairTags['contact:phone'],
+				repairTags['contact:website'],
+				repairTags['description:fr'],
 				type
 		);
 
@@ -118,17 +118,19 @@ function addListOfShops() {
 function getPopupContent(
 		nodeId,
 		name,
-		organic,
 		collaborative_repair_shop,
 		housenumber,
 		street,
 		postcode,
 		city,
-		opening_hours,
+		service_times,
+		email,
+		facebook,
+		phone,
 		website,
+		description,
 		type
 ){
-
 	// Check that name exists
 	if (!name) {
 		return null;
@@ -136,19 +138,21 @@ function getPopupContent(
 	var popup = '<b>'+name+'</b><br />';
 
 	// Set the shop type
-	var shopTitle = getShopTitle(type, organic, collaborative_repair_shop);
-	if (shopTitle) {
-		popup += '<i>' + shopTitle ;
-
-		if (name == "Green Shopper") {
-			popup += ' en ligne';	
-		}
-
-		popup += '</i><br />';
+	var shopTitle = getShopTitle(type, collaborative_repair_shop);
+	if (description) {
+		popup += '<i>'+description+'</i><br />';
 	}
-		
 	popup += getHtmlFormattedAddress(housenumber, street, postcode, city);	
-	popup += getHtmlFormattedHours(opening_hours);
+	popup += getHtmlFormattedHours(service_times);
+	if (phone) {
+		popup += phone+'<br />';
+	}
+	if (facebook) {
+		popup += getHtmlFormattedWebsite(facebook);
+	}
+	if (phone) {
+		popup += phone+'<br />';
+	}
 	popup += getHtmlFormattedWebsite(website);
 	popup += getHtmlFormattedPartnerships(nodeId);
 	return popup;
