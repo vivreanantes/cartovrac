@@ -29,7 +29,7 @@ L.tileLayer(
 			'Imagery © <a href="http://mapbox.com">Mapbox</a>',
 		maxZoom: maxZoom,
 		id: 'mapbox.streets',
-		accessToken: 'pk.eyJ1IjoidnJhY2FuYW50ZXMiLCJhIjoiY2prZ21vczFsMGppcTN2bXBkYjlqMDI2dCJ9.hVcNnccvl1jTyIzdsK4DaA'
+		accessToken: 'pk.eyJ1IjoidnJhY2FuYW50ZXMiLCJhIjoiY2psMmtneDllMWowNDN3cDR6NGtwbmk5MyJ9.BLI4o0qCMZBck7mdYcUhuA'
 	}
 ).addTo(map);
 
