@@ -21,8 +21,8 @@ Les tags suivants doivent être utilisés :<br/>
 			<b>repair=assisted_self_service</b><br/>
 			service:fabrik:repair<br/>
 			service:furniture:repair<br/>
-			service:computer:repair<br/>
-			service:camera:repair<br/>
+			service:comp__uter:repair<br/>
+			service:cam__era:repair<br/>
 			service:bicycle:repair<br/>
 			service:small_electronics_device<br/>
 			service_times<br/>
