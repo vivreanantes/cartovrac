@@ -185,7 +185,7 @@ function getHtmlFormattedPartnerships(nodeId) {
 
 	if (isJaimeTesBocauxPartner(nodeId)){
 	    partners += '<hr style="padding-bottom: ;padding-bottom: 0px;" size="1">';
-	    partners += '<div style="display: flex;"><img style="height: 50px;" src="jtb.png"/><div style="margin: auto; font-weight: bold;">Partenaire <br />J\'aime tes bocaux</div></div>';
+	    partners += '<div style="display: flex;"><img style="height: 50px;" src="img/jtb.png"/><div style="margin: auto; font-weight: bold;">Partenaire <br />J\'aime tes bocaux</div></div>';
     }
 
 	return partners;
