@@ -3,16 +3,16 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<meta name="viewport" content="width=device-width,initial-scale=1">
 
-		<title>Vrac à Nantes - Carte des commerces sans emballage</title>
+		<title>CartoVrac - Carte des commerces sans emballage</title>
 		<meta name=”description” 
-		content="Carte des commerces de vente en vrac en Loire-Atlantique destinée aux personnes souhaitant réduire leurs emballages et aux adeptes du Zéro Déchet." />
-		<meta name=”keywords” content="nantes, vrac, emballages, zéro déchets, magasin vrac, magasin zéro déchet" />
-		<meta property="og:title" content="Vrac à Nantes - carte des commerces sans emballage" />
-		<meta property="og:site_name" content="Vrac à Nantes" />  
+		content="Carte des commerces de vente en vrac en France destinée aux personnes souhaitant réduire leurs emballages et aux adeptes du Zéro Déchet." />
+		<meta name=”keywords” content="vrac, emballages, zéro déchets, magasin vrac, magasin zéro déchet, France" />
+		<meta property="og:title" content="CartoVrac - carte des commerces sans emballage" />
+		<meta property="og:site_name" content="CartoVrac" />  
 		<meta property="og:type" content="website" /> 
-		<meta property="og:url" content="http://www.vracanantes.fr" /> 
+		<meta property="og:url" content="http://www.cartovrac.fr" /> 
 		<meta property="og:image" content="logo-carte.png" /> 
-		<meta property="og:description" content="Carte des commerces de vente en vrac en Loire-Atlantique destinée aux personnes souhaitant réduire leurs emballages et aux adeptes du Zéro Déchet."  /> 
+		<meta property="og:description" content="Carte des commerces de vente en vrac en France destinée aux personnes souhaitant réduire leurs emballages et aux adeptes du Zéro Déchet."  /> 
 		<meta property="og:locale" content="fr_FR" />
 
 		<link rel="icon" type="image/png" href="logo.png" />
@@ -22,32 +22,15 @@
 		<link rel="stylesheet" href="lib/mastercluster/MarkerCluster.css" />
 		<link rel="stylesheet" href="lib/mastercluster/MarkerCluster.Default.css" />
 
+		<script src="lib/jquery-3.3.1.min.js"></script>
 		<script src="lib/leaflet-1.3.1/leaflet.js"></script>
 		<script src="lib/mastercluster/leaflet.markercluster.js"></script>
 		<script src="lib/subgroup/subgroup.js"></script>
 		<script src="lib/shopmarker/marker_icons.js"></script>
 		<script src="lib/shopmarker/shopmarker.js"></script>
 		<!--[if IE]> <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-	
-        <!-- Piwik -->
-        <script type="text/javascript">
-            var _paq = _paq || [];
-            /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-            _paq.push(['trackPageView']);
-            _paq.push(['enableLinkTracking']);
-            (function() {
-             var u="//www.mieuxtrieranantes.fr/vracanantes/analytics/";
-             _paq.push(['setTrackerUrl', u+'piwik.php']);
-             _paq.push(['setSiteId', '1']);
-             var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-             g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-             })();
-            </script>
-        <!-- End Piwik Code -->
     </head>
 	<body>
-
-
 
 		<header>
 			<nav role="navigation">
@@ -58,7 +41,7 @@
 					    <span></span>
 					</div>
 
-					<a href="#jumptomap"><h1>Vrac à Nantes</h1></a>
+					<a href="#jumptomap"><h1>CartoVrac</h1></a>
 
 					<ul id="menu" class="menu">
 						<a href="#jumptomap" onclick="closeMenu()" title="Carte magasins vrac"><li>La carte</li></a>
@@ -73,14 +56,8 @@
 
 
 		<a class="anchor" id="jumptomap"></a>
-<iframe id="map"
-    title="Carte Vrac à Nantes"
-    width="100%"
-    height="90%"
-    z-index="1"
-    frameborder="0"
-    src="https://cartovrac.fr?mode=embedded&lat=47.25&lng=-1.56&zoom=10">
-</iframe>
+		<div id="map" style="width: 100%;  height: 90%; z-index: 1;"></div>
+
 	<div id="content">
 
 		<a class="anchor" id="projet"></a>
@@ -88,28 +65,36 @@
 		<h2>Le projet</h2>
 
 		<h3>Cartographie des points de vente en vrac</h2>
-		<p>Vrac à Nantes est une solution créée par <a href="http://mieuxtrieranantes.fr/" target="_blank">Mieux trier à Nantes</a> afin de faciliter la vie des consommateurs de la région nantaise souhaitant réduire leurs déchets.</p>
+		<p>CartoVrac est une solution créée par l'association <a href="http://mieuxtrieranantes.fr/" target="_blank">Mieux trier à Nantes</a> afin de faciliter la vie des consommateurs souhaitant réduire leurs déchets.</p>
 		<p>Ce projet consiste ainsi essentiellement en un référencement progressif des différents commerces permettant aux utilisateurs de limiter leurs emballages.</p>
 		<p>À ce jour, seuls les épiceries et supermarchés comprenant des rayons de vente en vrac suffisamment grands ont été répertoriés. Par la suite il sera possible de retrouver davantage de commerces proposant tout type de produits en vente sans emballage.</p>
-		<p>Les données sont générées par différentes associations nantaises tel que <a href="https://www.facebook.com/Jaime-tes-bocaux-1147296918725687/" target="_blank">J'aime tes bocaux</a>, <a href="http://www.oasis-environnement.org/" target="_blank">Oasis Environnement</a>, <a href="http://www.boutabout.org/" target="_blank">Bout' à Bout'</a>, <a href="http://mieuxtrieranantes.fr/" target="_blank">Mieux trier à Nantes</a> ainsi que quelques citoyens indépendants. Mieux trier à Nantes collecte ces données afin de les redistribuer du mieux possible sous forme d'un Open Data.</p>
-		<p>Par la suite d'autres applications seront réalisées afin de faciliter davantage les citoyens "Zéro Déchet" dans leurs démarches.</p>
+		<p>Les données sont générées aussi bien par des citoyens et que des associations.</p>
+		<p>Sur la région nantaises, un certain nombre d'associations contribuent particulièrement à la génération de données, dont : </p>
+		<ul>
+			<li><a href="https://www.facebook.com/Jaime-tes-bocaux-1147296918725687/" target="_blank">J'aime tes bocaux</a></li> 
+			<li><a href="http://www.oasis-environnement.org/" target="_blank">Oasis Environnement</a></li>
+			<li><a href="http://www.boutabout.org/" target="_blank">Bout' à Bout'</a></li>
+			<li><a href="http://mieuxtrieranantes.fr/" target="_blank">Mieux trier à Nantes</a></li>
+		</ul>
+
+		<p>Mieux trier à Nantes collecte ces données afin de les redistribuer du mieux possible sous forme d'un Open Data.</p>
 
 	  	<h3>L'association Mieux trier à Nantes</h2>
 		<p>Mieux trier à Nantes est une association de la région nantaise oeuvrant autour de la réduction et de la valorisation des déchets.</p>
 		<p>L'association a notamment créé une application web et mobile <a href="http://mieuxtrieranantes.fr/" target="_blank">"Mieux trier à Nantes"</a> afin d'aider les habitants de Nantes Métropole à mieux trier.</p>
-		<p>C'est dans  le cadre de la réduction des déchets que Mieux trier à Nantes développe ce nouveau site web, Vrac à Nantes, à destination des adeptes du "Zéro Déchet".</p>
+		<p>C'est dans le cadre de la réduction des déchets que Mieux trier à Nantes développe ce nouveau site web, CartoVrac, à destination des adeptes du "Zéro Déchet".</p>
 
 		<a class="anchor" id="contribuer"></a>
 		<h2>Contribuer</h2>
 		<h3>Fonctionnement du projet</h3>
-		<p>Le site Vrac à Nantes n’est pas une base de données des magasins de vente en vrac en soi mais un outil qui permet de visualiser des données faisant partie d’un Open Data appelé OpenStreetMap (cartographie libre sur le monde entier - <a href="http://openstreetmap.org" target="_blank">http://openstreetmap.org</a>).</p>
+		<p>Le site CartoVrac n’est pas une base de données des magasins de vente en vrac en soi mais un outil qui permet de visualiser des données faisant partie d’un Open Data appelé OpenStreetMap (cartographie libre sur le monde entier - <a href="http://openstreetmap.org" target="_blank">http://openstreetmap.org</a>).</p>
 
-		<p>Afin de référencer de nouveaux commerces sur Vrac à Nantes, nous les ajoutons sur OpenStreetMap en précisant que le magasin effectue de la vente en vrac puis nous filtrons les données d'OpenStreetMap afin de les afficher sur Vrac à Nantes.</p>
+		<p>Afin de référencer de nouveaux commerces sur CartoVrac, nous les ajoutons sur OpenStreetMap en précisant que le magasin effectue de la vente en vrac puis nous filtrons les données d'OpenStreetMap afin de les afficher sur CartoVrac.</p>
 
 		<p>Pour en savoir davantage sur le projet ou participer à son développement, rendez-vous sur notre page <a href="https://github.com/vivreanantes/vracanantes" target="_blank">GitHub</a>.</p>
 
 		<h3>Ajouter un commerce</h3>
-		<p>Pour ajouter un commerce sur la carte Vrac à Nantes, il vous faudra le renseigner au préalable sur <a href="https://www.openstreetmap.org" target="_blank">OpenStreetMap</a>. Pour cela :</p>
+		<p>Pour ajouter un commerce sur la carte CartoVrac, il vous faudra le renseigner au préalable sur <a href="https://www.openstreetmap.org" target="_blank">OpenStreetMap</a>. Pour cela :</p>
 		<ol>
 			<li>Connectez-vous sur <a href="https://www.openstreetmap.org" target="_blank">OpenStreetMap</a> (la création d'un compte est obligatoire mais rapide).</li>
 			<li>Sur OpenStreetMap effectuez une recherche afin de voir si votre commerce existe.</li> 
@@ -120,22 +105,20 @@
 					</li>
 				</ul>
 			</li>
-			<li>Pour que le commerce apparaisse sur la carte Vrac à Nantes, assurez-vous de renseigner la clé/tag <i>bulk_purchase</i> avec la valeur  <i>only</i> si le magasin ne fait que de la vente en vrac ou <i>yes</i> si la vente en vrac est significative mais ne concerne pas l'activité principale du commerce.</li>
+			<li>Pour que le commerce apparaisse sur la carte CartoVrac, assurez-vous de renseigner la clé/tag <i>bulk_purchase</i> avec la valeur  <i>only</i> si le magasin ne fait que de la vente en vrac ou <i>yes</i> si la vente en vrac est significative mais ne concerne pas l'activité principale du commerce.</li>
 			<li>Enregistrez votre modification.</li> 
 		</ol>
-		<p>La modification sera affichée sur Vrac à Nantes une fois la carte mise à jour. Nous tâchons de mettre nos données à jour régulièrement.</p>
+		<p>La modification sera affichée sur CartoVrac une fois la carte mise à jour. Nous tâchons de mettre nos données à jour régulièrement.</p>
 
 		<a class="anchor" id="contact"></a>
 	  	<h2>Contact</h2>
-	  	<p>Si vous souhaitez participer au projet, nous faire part de données erronées ou nous donner votre avis, vous pouvez nous contacter par email en écrivant à l'adresse : <img src="email.png" style="height: 18px; vertical-align: middle; padding-bottom: 3px;"/></p>
+	  	<p>Si vous souhaitez participer au projet, nous faire part de données erronées ou nous donner votre avis, vous pouvez nous contacter par email en écrivant à l'adresse : <img src="email_cartovrac.png" style="height: 18px; vertical-align: middle; padding-bottom: 3px;"/></p>
 	  	<p>Si vous avez un projet similaire, nous serions également ravis de pouvoir vous aider ! :)</p>
 	  	<br/><br/>
 	  	</div>
 
 	</body>
 
-
-	<script src="lib/jquery-3.3.1.min.js" type="text/javascript"></script>
 	<script type="text/javascript">
 		function menuToggle() {
 		    document.getElementById("menu").classList.toggle("show");
@@ -182,4 +165,6 @@
 			document.getElementById('content').style.display = 'none';
 		}
 	</script>
+
+	<script src="vracanantes.js" type="text/javascript"></script>
 </html>

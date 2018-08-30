@@ -1,19 +1,36 @@
 // Bounds for display
-var boundS = 40;
-var boundW = -5.5;
-var boundN = 53;
-var boundE = 8;
+var minBoundS = 40;
+var minBoundW = -7;
+var maxBoundN = 53;
+var maxBoundE = 11;
+
+// Get bounds from get parameters and validate them before using it.
+var boundS = Math.max(getQueryParam("boundS") || 0, minBoundS);
+var boundW = Math.max(getQueryParam("boundW") || -180, minBoundW);
+var boundN = Math.min(getQueryParam("boundN") || 90, maxBoundN);
+var boundE = Math.min(getQueryParam("boundE") || 180, maxBoundE);
+if (boundN < boundS || boundE < boundW) {
+	console.error("error - wrong coordinates parameters");
+	boundN = maxBoundN;
+	boundS = minBoundS;
+	boundW = minBoundW;
+	boundE = maxBoundE;
+}
+
 var bounds = new L.LatLngBounds(new L.LatLng(boundN, boundE), new L.LatLng(boundS, boundW));
 
 // Map definition
 var maxZoom = 17;
 var minZoom = 5;
-var defaultZoom = 10;
-var mapCenter = new L.latLng(47.25,-1.56);
+var defaultZoom = 6;
+var zoom = getQueryParam("zoom") || 6;
+var centerLat = getQueryParam("lat") || 47;
+var centerLng = getQueryParam("lng") || 2;
+var mapCenter = new L.latLng(centerLat, centerLng);
 var map = L.map('map', {
 		fullscreenControl: true,
 		center: mapCenter,
-		zoom: defaultZoom,
+		zoom: zoom,
 		minZoom: minZoom,
 		maxZoom: maxZoom,
 		maxBounds: bounds
@@ -29,7 +46,7 @@ L.tileLayer(
 			'Imagery © <a href="http://mapbox.com">Mapbox</a>',
 		maxZoom: maxZoom,
 		id: 'mapbox.streets',
-		accessToken: 'pk.eyJ1IjoidnJhY2FuYW50ZXMiLCJhIjoiY2prZ21vczFsMGppcTN2bXBkYjlqMDI2dCJ9.hVcNnccvl1jTyIzdsK4DaA'
+		accessToken: 'pk.eyJ1IjoidnJhY2FuYW50ZXMiLCJhIjoiY2prZ21vaWMxMDVxZTNwcm5wZ29vbmY2aCJ9.cBMOReBbeqSWQA3nWsGnuw'
 	}
 ).addTo(map);
 
@@ -76,12 +93,14 @@ function addListOfShops() {
 
 		// check minimum information to display a marker
 		if (!lat || !lon) {
+			console.log("No coordinates found for shop: id="+shop['id']+" ; name="+name);
 			continue;
 		}
 
 		// Get the type of shop/amenity to manage
 		var type = getType(shopTags['name'], shopTags['shop'], shopTags['amenity'], shopTags['craft']);
 		if (!type) {
+			console.log("No type found for shop: id="+shop['id']+" ; name="+name);
 			continue;
 		}
 
@@ -104,9 +123,12 @@ function addListOfShops() {
 		);
 
 		// Check that popup has been correctly created
-		if (popup && lat && lon) {
-			addMarkerToMap(type, popup, lat, lon);
+		if (!popup) {
+			console.log("No popup found for shop : id="+shop['id']+" ; name="+name);
+			continue;
 		}
+		
+		addMarkerToMap(type, popup, lat, lon);
 	}
 }
 
