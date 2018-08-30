@@ -160,7 +160,7 @@
 		});
 
 		<!-- Embedded mode -->
-          var getQueryParam = function(param) {
+         var getQueryParam = function(param) {
             var found;
             window.location.search.substr(1).split("&").forEach(function(item) {
               if (param == item.split("=")[0]) {
@@ -168,13 +168,13 @@
               }
             });
             return found;
-          };
-		  if (getQueryParam("mode")=="embedded") {
+        };
+		if (getQueryParam("mode")=="embedded") {
 		    document.getElementById('map').style.top = "0px";
 		    document.getElementById('map').style.height = "100%";
 			document.getElementById('menuToggle').style.display = 'none';
 			document.getElementById('content').style.display = 'none';
-		  }
+		}
 	</script>
 
 	<script src="vracanantes.js" type="text/javascript"></script>
