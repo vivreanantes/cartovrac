@@ -1,0 +1,265 @@
+/* roboto-regular - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/roboto-v18-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Roboto'), local('Roboto-Regular'),
+       url('../fonts/roboto-v18-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/roboto-v18-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/roboto-v18-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/roboto-v18-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/roboto-v18-latin-regular.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+
+/* open-sans-regular - latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/open-sans-v15-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Open Sans Regular'), local('OpenSans-Regular'),
+       url('../fonts/open-sans-v15-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/open-sans-v15-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/open-sans-v15-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/open-sans-v15-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/open-sans-v15-latin-regular.svg#OpenSans') format('svg'); /* Legacy iOS */
+}
+
+body {
+  top: 0px;
+  left: 0px;
+    margin: 0;
+    padding: 0;
+  
+    /* make it look decent enough */
+    background: #fffff7;
+
+
+    font-family: 'Roboto',Helvetica,Arial,sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #232323;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: tomato;
+}
+
+h1, h2, h3 {
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-weight: 600;
+  color: #32CD32;
+}
+
+h2 {
+  margin-top: 60px;
+}
+
+#scroll {
+	position: absolute;
+	display: inline-block;
+	bottom: 35px;
+	margin: 0 auto;
+	right: 30px;
+	z-index: 2;
+}
+
+#scroll img {
+	width: 50px;
+	height: 50px;
+}
+
+
+
+
+#menuToggle {
+  position: fixed;
+  width: 100%;
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 0;
+  height: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background: #ffffff;
+  z-index: 3;
+  margin-bottom: 0px;
+}
+
+#menuToggle h1{
+  margin: 0px;
+  font-size: 2em;
+  margin-bottom: 6px;
+}
+
+#burger {
+ display: block;
+  margin-right: 25px;
+  float: left;
+  z-index: 1;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#burger span {
+  display: block;
+  width: 30px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  background: #888;
+  border-radius: 3px;
+  z-index: 1;
+  transform-origin: 4px 0px;
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+.menu {
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  display: none;
+  width: 100%;
+  background: #fff;
+  z-index: 1;
+  margin-left: -15px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  padding: 0;
+  padding-left: 15px;
+}
+
+#menu li {
+  float: none;
+  margin: 15px;
+  font-size: 22px;
+  margin-left: 0px;
+}
+
+.box-shadow {
+    box-shadow: 0 0 0 0 #ccc;
+}
+
+#content {
+  margin-top: 90px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  max-width: 900px;
+  color: #000000;
+}
+
+#content a {
+  text-decoration: none;
+  color: #32CD32;
+  transition: color 0.3s ease;
+}
+
+#content a:hover {
+  color: tomato;
+}
+
+#map {
+  top: 70px;
+  position: relative;
+}
+
+.show{
+    display: block;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -70px;
+    visibility: hidden;
+}
+
+@media screen and (min-width: 450px) {
+  #map {
+    top: 115px;
+  }
+
+  #burger {
+   display: none;
+  }
+
+  #menuToggle {
+      display: block;
+      height: 75px;
+      padding-bottom: 25px;
+      margin-bottom: 3px;
+  }
+
+  .menu{
+    display: block;
+    width: 100%;
+    background: none;
+    margin-left: -15px;
+  }
+
+  #menu li{
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  #content {
+    margin-top: 160px;
+  }
+
+  .box-shadow {
+    box-shadow: 0 4px 2px -2px #ccc;
+  }
+
+  a.anchor {
+      top: -120px;
+    }
+}
+
+@media screen and (min-width: 700px) {
+   
+  #map {
+    top: 75px;
+  }
+
+  #burger {
+   display: none;
+  }
+
+  #menuToggle {
+      display: flex;
+      height: 35px;
+      padding-bottom: 25px;
+    }
+
+  .menu{
+    display: block;
+    width: auto;
+    background: none;
+    margin-left: 15px;
+  }
+
+    #menu li{
+      float: left;
+    }
+
+    .show{
+      display: block;
+    }
+
+    #content {
+     margin-top: 140px;
+    }
+
+    a.anchor {
+      top: -90px;
+    }
+}
