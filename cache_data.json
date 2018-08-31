@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.55.4 3079d8ea",
   "osm3s": {
-    "timestamp_osm_base": "2018-08-30T21:04:02Z",
-    "timestamp_areas_base": "2018-08-30T18:40:02Z",
+    "timestamp_osm_base": "2018-08-31T06:18:02Z",
+    "timestamp_areas_base": "2018-08-31T05:18:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -2576,7 +2576,8 @@
     "opening_hours": "10:00 / 20:00",
     "operator": "SCOP La Bonne Pioche",
     "shop": "convenience",
-    "source": "survey"
+    "source": "survey",
+    "wheelchair": "no"
   }
 },
 {
