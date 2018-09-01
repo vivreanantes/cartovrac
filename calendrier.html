@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <meta charset="UTF-8">
+    <script type="text/javascript">
+		var requestURL = 'events.json';
+    // requestURL = 'https://openagenda.com/agendas/17121232/events.json?oaq[from]=2018-08-29&oaq[to]=2018-10-09&oaq[what]=Loire-Atlantique&oaq[scope]=department';
+		var request = new XMLHttpRequest();
+		request.open('GET', requestURL, true);
+		request.responseType = 'json';
+		request.send();
+
+		request.onload = function() {
+      var today = new Date();
+  		var jsonObj = request.response;
+  	  var type_event = jsonObj['events'];
+      var date_event = jsonObj['timings'];
+
+      for (var i = 0; i < type_event.length; i++) {
+
+        document.write("<html><head></head><body><table style='border-width:2px;border-style:solid;'>");
+        document.write("<tr><td width='15px'>");
+
+        if (type_event[i].thumbnail == false) {
+          document.write("&nbsp;");
+        }
+        else {
+          document.write("<img src='"+type_event[i].thumbnail+"' width='100px' style='max-width:100px;height:auto' />");
+        }
+
+        document.write("</td><td width='10%'><b>");
+        document.write(type_event[i].title.fr);
+        document.write("</b></td><td width='20%'>");
+        document.write(type_event[i].description.fr);
+        document.write("</td><td width='25%'>");
+
+        for(var j = 0; j < type_event[i].timings.length; j++) {
+          var eventStartDate = new Date(type_event[i].timings[j].start);
+          var timeDiff = eventStartDate.getTime() - today.getTime();
+          var diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24));
+          if (diffDays<=60) {
+            document.write("Dans "+diffDays+" jour(s) : ");
+            document.write(type_event[i].timings[j].start.substring(8,10) + " ");
+            var mois = type_event[i].timings[j].start.substring(5,7).replace("01", "janvier")
+        .replace("02", "février").replace("03", "mars").replace("04", "avril").replace("05", "mai").replace("06", "juin").replace("07", "juillet")
+        .replace("08", "aôut").replace("09", "septembre").replace("10", "octobre").replace("11", "novembre").replace("12", "décembre")
+            document.write(mois + " ");
+            document.write(type_event[i].timings[j].start.substring(0,4) + "/");
+            document.write();
+            document.write(" "+type_event[i].timings[j].start.substring(11,16));
+            document.write("-"+type_event[i].timings[j].end.substring(11,16));
+            document.write("<br/>");
+          }
+        }
+
+        document.write("</td><td width='20%'>");
+        document.write(type_event[i].address);
+        document.write("<br/>");
+        document.write(type_event[i].locationName);
+        // document.write("</td><td width='15%'>");
+        // document.write(type_event[i].keywords.fr);
+        document.write("</td><td width='10%'>");
+        document.write(type_event[i].conditions.fr);
+        document.write("</td></tr>");
+        document.write("</table>");
+        document.write("</body></html>");
+        }
+    }
+    </script>
+  </body>
+</html>
