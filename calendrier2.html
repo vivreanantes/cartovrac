@@ -16,15 +16,10 @@
   	  var type_event = jsonObj['events'];
       var date_event = jsonObj['timings'];
 
-
-      document.write("<html><head>");
-      document.write("<style> .wrap{ border:1px dotted brown;} .wrap>div{float:left;} .wrap>:first-child {width:20%;} .wrap>:nth-child(2n){width:40%;} .wrap>:nth-child(3n){width:20%;} .wrap>:nth-child(4n){width:20%;} .wrap>:last-child{width:20%;} @media (max-width: 40em) {  .wrap>div.truc { float:none;width:auto; }} .clear{clear:both;} </style>");
-      // document.write("<style>@media (min-width: 40em) {  .wrap {    display: table;    table-layout: fixed;    width: 100%;  }  .wrap > * {    display: table-cell;    table-layout: fixed;  }  .wrap > :first-child {    width: 70%;  }}</style>");
-      document.write("</head><body>");
-
       for (var i = 0; i < type_event.length; i++) {
-        // document.write("<table style='border-width:2px;border-style:solid;'>");
-        document.write("<div class='wrap'><div class='truc'>");
+
+        document.write("<html><head></head><body><table style='border-width:2px;border-style:solid;'>");
+        document.write("<tr><td width='15px'>");
 
         if (type_event[i].thumbnail == false) {
           document.write("&nbsp;");
@@ -33,10 +28,12 @@
           document.write("<img src='"+type_event[i].thumbnail+"' width='100px' style='max-width:100px;height:auto' />");
         }
 
-        document.write("</div><div class='truc'>");
-        document.write("<b>"+type_event[i].title.fr+"</b>");
-        document.write("<br/>"+type_event[i].description.fr);
-        document.write("</div><div class='truc'>");
+        document.write("</td><td width='10%'><b>");
+        document.write(type_event[i].title.fr);
+        document.write("</b></td><td width='20%'>");
+        document.write(type_event[i].description.fr);
+        document.write("</td><td width='25%'>");
+
         for(var j = 0; j < type_event[i].timings.length; j++) {
           var eventStartDate = new Date(type_event[i].timings[j].start);
           var timeDiff = eventStartDate.getTime() - today.getTime();
@@ -48,28 +45,26 @@
         .replace("02", "février").replace("03", "mars").replace("04", "avril").replace("05", "mai").replace("06", "juin").replace("07", "juillet")
         .replace("08", "aôut").replace("09", "septembre").replace("10", "octobre").replace("11", "novembre").replace("12", "décembre")
             document.write(mois + " ");
-            document.write(type_event[i].timings[j].start.substring(0,4));
+            document.write(type_event[i].timings[j].start.substring(0,4) + "/");
+            document.write();
             document.write(" "+type_event[i].timings[j].start.substring(11,16));
             document.write("-"+type_event[i].timings[j].end.substring(11,16));
             document.write("<br/>");
           }
         }
-        document.write("</div><div class='truc'>");
-        document.write("<address>");
-        document.write(type_event[i].locationName);
-        document.write(" : ");
-        document.write(type_event[i].address);
-        // document.write("</div><div class='truc' width='15%'>");
-        // document.write(type_event[i].keywords.fr);
-        document.write("</address><br/>");
-        document.write(type_event[i].conditions.fr);
-        document.write("</div></div>");
-        document.write("<div class='clear'></div>");
-        document.write("<br/>");
 
-        }
-        // document.write("</table>");
+        document.write("</td><td width='20%'>");
+        document.write(type_event[i].address);
+        document.write("<br/>");
+        document.write(type_event[i].locationName);
+        // document.write("</td><td width='15%'>");
+        // document.write(type_event[i].keywords.fr);
+        document.write("</td><td width='10%'>");
+        document.write(type_event[i].conditions.fr);
+        document.write("</td></tr>");
+        document.write("</table>");
         document.write("</body></html>");
+        }
     }
     </script>
   </body>
