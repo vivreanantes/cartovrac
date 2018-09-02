@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.55.4 3079d8ea",
   "osm3s": {
-    "timestamp_osm_base": "2018-09-02T12:03:02Z",
-    "timestamp_areas_base": "2018-09-02T11:28:02Z",
+    "timestamp_osm_base": "2018-09-02T17:00:02Z",
+    "timestamp_areas_base": "2018-09-02T16:21:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -307,6 +307,25 @@
 },
 {
   "type": "node",
+  "id": 652135219,
+  "lat": 45.1880971,
+  "lon": 5.7199109,
+  "tags": {
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire",
+    "opening_hours": "Tu-Sa 09:00-19:30; Mo 14:00-19:30",
+    "organic": "only",
+    "shop": "convenience",
+    "source": "survey",
+    "website": "http://www.lavieclaire.com/magasin-bio/grenoble.html"
+  }
+},
+{
+  "type": "node",
   "id": 663594963,
   "lat": 45.0538412,
   "lon": 5.0829606,
@@ -346,6 +365,26 @@
     "operator": "Biocoop",
     "organic": "only",
     "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 676463445,
+  "lat": 45.7524626,
+  "lon": 4.8992542,
+  "tags": {
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire Bron",
+    "opening_hours": "Mo-Sa 09:00-19:30; Su 09:00-13:00",
+    "operator": "La Vie Claire",
+    "organic": "only",
+    "phone": "+33 4 78 54 61 09",
+    "shop": "convenience",
+    "website": "http://www.lavieclaire.com/magasin-bio/bron.html"
   }
 },
 {
@@ -423,6 +462,23 @@
 },
 {
   "type": "node",
+  "id": 831628628,
+  "lat": 43.5717683,
+  "lon": 7.0839726,
+  "tags": {
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire",
+    "organic": "only",
+    "shop": "convenience",
+    "website": "http://www.lavieclaire.com/magasin-bio/golfe-juan.html"
+  }
+},
+{
+  "type": "node",
   "id": 839045600,
   "lat": 48.4318902,
   "lon": -4.4038615,
@@ -437,6 +493,19 @@
     "organic": "yes",
     "shop": "convenience",
     "website": "https://www.biomonde.fr/bio-de-guip,3,46"
+  }
+},
+{
+  "type": "node",
+  "id": 870139513,
+  "lat": 48.8360247,
+  "lon": 2.2360163,
+  "tags": {
+    "addr:housenumber": "163ter",
+    "bulk_purchase": "yes",
+    "name": "Biocoop",
+    "organic": "only",
+    "shop": "convenience"
   }
 },
 {
@@ -466,6 +535,29 @@
     "organic": "only",
     "shop": "convenience",
     "website": "http://www.lavieclaire.com/magasin-bio/aulnay-sous-bois.html"
+  }
+},
+{
+  "type": "node",
+  "id": 926606430,
+  "lat": 45.4322351,
+  "lon": 4.3885431,
+  "tags": {
+    "addr:city": "Saint-Étienne",
+    "addr:housenumber": "25",
+    "addr:postcode": "42000",
+    "addr:street": "Cours Victor Hugo",
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "contact:website": "http://www.lavieclaire.com/magasin-bio/saint-etienne.html",
+    "name": "La Vie Claire",
+    "note": "FIXME vérifier localisation dans cette rue",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "http://www.lavieclaire.com/magasin-bio/saint-etienne.html"
   }
 },
 {
@@ -541,6 +633,24 @@
     "organic": "only",
     "shop": "supermarket",
     "website": "http://www.legrenier-bio.fr"
+  }
+},
+{
+  "type": "node",
+  "id": 1074412251,
+  "lat": 48.8731375,
+  "lon": 2.1637556,
+  "tags": {
+    "bulk_purchase": "yes",
+    "contact:fax": "+33 1 41 42 18 62",
+    "contact:phone": "+33 1 41 42 18 61",
+    "name": "Biocoop Toutelabio Rueil",
+    "opening_hours": "Mo-Sa 10:00-20:00",
+    "operator": "Biocoop",
+    "organic": "only",
+    "shop": "supermarket",
+    "source": "survey 2013",
+    "website": "https://www.toutelabio.com/rueil-malmaison"
   }
 },
 {
@@ -634,6 +744,25 @@
     "shop": "supermarket",
     "website": "http://biogone.biocoop.net/",
     "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 1166362466,
+  "lat": 45.7669768,
+  "lon": 4.8457192,
+  "tags": {
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire Lyon Vendôme",
+    "opening_hours": "Mo-Sa 09:00-20:00; Su 09:00-13:00",
+    "organic": "only",
+    "phone": "+33 4 78 24 02 37",
+    "shop": "convenience",
+    "website": "http://www.lavieclaire.com/magasin-bio/lyon-vendome.html"
   }
 },
 {
@@ -1029,6 +1158,51 @@
 },
 {
   "type": "node",
+  "id": 1661467105,
+  "lat": 43.7025478,
+  "lon": 7.2688442,
+  "tags": {
+    "addr:city": "Nice",
+    "addr:housenumber": "18",
+    "addr:postcode": "06000",
+    "addr:street": "Rue Lamartine",
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La vie claire",
+    "opening_hours": "Mo-Sa 09:00-19:00",
+    "organic": "only",
+    "phone": "+33 4 93 54 85 99",
+    "shop": "convenience",
+    "website": "http://www.lavieclaire.com/magasin-bio/nice-lamartine.html",
+    "wheelchair": "yes",
+    "wikidata": "Q3213589",
+    "wikipedia": "fr:La Vie claire"
+  }
+},
+{
+  "type": "node",
+  "id": 1678269790,
+  "lat": 44.1388389,
+  "lon": 5.9666318,
+  "tags": {
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire",
+    "organic": "only",
+    "shop": "convenience",
+    "source": "survey",
+    "survey:date": "2017",
+    "website": "http://www.lavieclaire.com/magasin-bio/peipin-sisteron.html"
+  }
+},
+{
+  "type": "node",
   "id": 1682930391,
   "lat": 47.5095163,
   "lon": 6.7946911,
@@ -1223,6 +1397,27 @@
 },
 {
   "type": "node",
+  "id": 1786440113,
+  "lat": 45.9070648,
+  "lon": 6.1064275,
+  "tags": {
+    "addr:city": "Annecy",
+    "addr:postcode": "74960",
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "http://www.lavieclaire.com/magasin-bio/cran-gevrier-annecy.html",
+    "wikidata": "Q3213589",
+    "wikipedia": "fr:La Vie claire"
+  }
+},
+{
+  "type": "node",
   "id": 1786626414,
   "lat": 48.1135228,
   "lon": -1.6071457,
@@ -1272,6 +1467,29 @@
 },
 {
   "type": "node",
+  "id": 1809323350,
+  "lat": 48.6886616,
+  "lon": 2.3864595,
+  "tags": {
+    "addr:city": "Juvisy-sur-Orge",
+    "addr:housenumber": "1",
+    "addr:postcode": "91260",
+    "addr:street": "Rue de Draveil",
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire",
+    "operator": "Palmarosa",
+    "organic": "only",
+    "phone": "+33 1 69 21 40 73",
+    "shop": "convenience",
+    "website": "http://www.lavieclaire.com/magasin-bio/juvisy-sur-orge.html"
+  }
+},
+{
+  "type": "node",
   "id": 1814839942,
   "lat": 47.2398720,
   "lon": 6.0343095,
@@ -1299,6 +1517,22 @@
     "shop": "supermarket",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012",
     "website": "http://lacanopee-besancon.biocoop.net"
+  }
+},
+{
+  "type": "node",
+  "id": 1816125905,
+  "lat": 48.8502659,
+  "lon": 2.3931700,
+  "tags": {
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire",
+    "organic": "only",
+    "shop": "convenience"
   }
 },
 {
@@ -1361,6 +1595,23 @@
     "shop": "supermarket",
     "source": "survey+bing",
     "website": "http://www.lavieclaire.com/magasin-bio/brie-comte-robert.html"
+  }
+},
+{
+  "type": "node",
+  "id": 1871936780,
+  "lat": 43.6842807,
+  "lon": 4.1523095,
+  "tags": {
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire",
+    "organic": "only",
+    "shop": "convenience",
+    "website": "http://www.lavieclaire.com/magasin-bio/lunel.html"
   }
 },
 {
@@ -1447,6 +1698,23 @@
 },
 {
   "type": "node",
+  "id": 1938248757,
+  "lat": 48.1733891,
+  "lon": 6.4498661,
+  "tags": {
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire",
+    "organic": "yes",
+    "shop": "convenience",
+    "website": "http://www.lavieclaire.com/magasin-bio/epinal.html"
+  }
+},
+{
+  "type": "node",
   "id": 1947694254,
   "lat": 45.9842214,
   "lon": 4.7426970,
@@ -1516,6 +1784,25 @@
     "operator": "Aquarius",
     "organic": "only",
     "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 2017222972,
+  "lat": 45.7717073,
+  "lon": 4.8052840,
+  "tags": {
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire Lyon Vaise",
+    "opening_hours": "Mo-Sa 09:30-19:30; Su 09:00-13:00",
+    "organic": "only",
+    "phone": "+33 4 72 19 78 68",
+    "shop": "convenience",
+    "website": "http://www.lavieclaire.com/magasin-bio/lyon-vaise.html"
   }
 },
 {
@@ -1821,6 +2108,25 @@
 },
 {
   "type": "node",
+  "id": 2271668305,
+  "lat": 45.7638803,
+  "lon": 4.8635986,
+  "tags": {
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire Lyon Lafayette",
+    "opening_hours": "Mo-Sa 09:00-20:00; Su 09:00-13:00",
+    "organic": "only",
+    "phone": "+33 4 72 74 26 30",
+    "shop": "convenience",
+    "website": "http://www.lavieclaire.com/magasin-bio/lyon-lafayette.html"
+  }
+},
+{
+  "type": "node",
   "id": 2282181472,
   "lat": 46.8368659,
   "lon": 0.5431636,
@@ -1854,6 +2160,24 @@
     "contact:street": "Rue du Bouffay",
     "name": "Boucherie du Bouffay",
     "shop": "butcher"
+  }
+},
+{
+  "type": "node",
+  "id": 2299194514,
+  "lat": 48.8557613,
+  "lon": 2.7852875,
+  "tags": {
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire",
+    "opening_hours": "Mo-Sa 10:00-20:00",
+    "organic": "only",
+    "shop": "convenience",
+    "wheelchair": "yes"
   }
 },
 {
@@ -1898,6 +2222,23 @@
     "name": "Le Bouffay Spañol",
     "origin": "spanish",
     "shop": "deli"
+  }
+},
+{
+  "type": "node",
+  "id": 2322131706,
+  "lat": 42.5001428,
+  "lon": 2.7595882,
+  "tags": {
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "http://www.lavieclaire.com/magasin-bio/ceret.html"
   }
 },
 {
@@ -1955,6 +2296,27 @@
     "ref:FR:NAF": "4729Z",
     "shop": "supermarket",
     "website": "http://www.biominimes.fr/"
+  }
+},
+{
+  "type": "node",
+  "id": 2341641498,
+  "lat": 48.5506772,
+  "lon": -1.7526627,
+  "tags": {
+    "addr:housenumber": "32",
+    "addr:street": "Rue Lejamptel",
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "bulk_purchase": "yes",
+    "contact:email": "biodedol@gmail.com",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "contact:phone": "+33 2 99 56 59 71",
+    "name": "La Vie Claire",
+    "organic": "only",
+    "shop": "convenience",
+    "website": "http://www.biodedol.fr/"
   }
 },
 {
@@ -2042,6 +2404,24 @@
 },
 {
   "type": "node",
+  "id": 2426734602,
+  "lat": 43.6070522,
+  "lon": 2.2406015,
+  "tags": {
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire",
+    "operator": "La Vie Claire",
+    "organic": "only",
+    "shop": "supermarket",
+    "source": "survey"
+  }
+},
+{
+  "type": "node",
   "id": 2458144305,
   "lat": 43.6030175,
   "lon": 1.4442396,
@@ -2064,6 +2444,42 @@
     "shop": "convenience",
     "source": "knowledge",
     "website": "http://www.ceci-et-cela.fr/"
+  }
+},
+{
+  "type": "node",
+  "id": 2462536395,
+  "lat": 45.7562760,
+  "lon": 4.7980177,
+  "tags": {
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire Lyon Point du Jour",
+    "opening_hours": "Mo-Sa 08:30-19:30; Su 08:30-13:00",
+    "organic": "only",
+    "phone": "+33 4 78 59 78 12",
+    "shop": "convenience",
+    "website": "http://www.lavieclaire.com/magasin-bio/lyon-point-du-jour.html"
+  }
+},
+{
+  "type": "node",
+  "id": 2466646274,
+  "lat": 44.6208115,
+  "lon": 4.3893559,
+  "tags": {
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire",
+    "organic": "only",
+    "shop": "convenience",
+    "website": "http://www.lavieclaire.com/magasin-bio/aubenas.html"
   }
 },
 {
@@ -2166,6 +2582,26 @@
     "payment:cash:XLT-PELU": "yes",
     "shop": "convenience",
     "website": "http://daybyday-shop.com/magasin/limoges"
+  }
+},
+{
+  "type": "node",
+  "id": 2512682678,
+  "lat": 45.7419267,
+  "lon": 4.8823591,
+  "tags": {
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire Lyon Rockfeller",
+    "opening_hours": "Mo-Sa 09:00-19:30",
+    "organic": "only",
+    "phone": "+33 4 78 00 74 66",
+    "shop": "convenience",
+    "website": "http://www.lavieclaire.com/magasin-bio/lyon-rockfeller.html",
+    "wheelchair": "yes"
   }
 },
 {
@@ -2306,6 +2742,23 @@
 },
 {
   "type": "node",
+  "id": 2610563687,
+  "lat": 45.8220131,
+  "lon": 4.9941177,
+  "tags": {
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire",
+    "organic": "only",
+    "shop": "convenience",
+    "website": "http://www.lavieclaire.com/magasin-bio/beynost.html"
+  }
+},
+{
+  "type": "node",
   "id": 2611030688,
   "lat": 43.6389313,
   "lon": 1.5007776,
@@ -2319,6 +2772,37 @@
     "organic": "only",
     "shop": "supermarket",
     "website": "http://www.biocoop-montredon.com"
+  }
+},
+{
+  "type": "node",
+  "id": 2627192639,
+  "lat": 45.5693191,
+  "lon": 5.9206039,
+  "tags": {
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire",
+    "organic": "only",
+    "shop": "convenience",
+    "website": "http://www.lavieclaire.com/magasin-bio/chambery.html"
+  }
+},
+{
+  "type": "node",
+  "id": 2641023043,
+  "lat": 48.8525882,
+  "lon": 2.3137384,
+  "tags": {
+    "bulk_purchase": "yes",
+    "contact:website": "http://www.biocoop.fr/",
+    "name": "Biocoop",
+    "office": "company",
+    "organic": "only",
+    "shop": "supermarket"
   }
 },
 {
@@ -2344,6 +2828,25 @@
 },
 {
   "type": "node",
+  "id": 2668275619,
+  "lat": 48.8695769,
+  "lon": 2.5770917,
+  "tags": {
+    "addr:city": "Chelles",
+    "addr:housenumber": "10",
+    "addr:postcode": "77500",
+    "addr:street": "Avenue du Général de Gaulle",
+    "bulk_purchase": "yes",
+    "name": "Biocoop",
+    "opening_hours": "Mo-Sa 09:30-19:30",
+    "organic": "only",
+    "phone": "+33 1 64 21 65 25",
+    "shop": "supermarket",
+    "website": "http://www.biocoop-chelles.com"
+  }
+},
+{
+  "type": "node",
   "id": 2672093889,
   "lat": 47.3726034,
   "lon": -1.9319780,
@@ -2359,6 +2862,31 @@
     "organic": "only",
     "shop": "supermarket",
     "website": "http://www.lesillonbio.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 2685865640,
+  "lat": 47.6646437,
+  "lon": 6.8454454,
+  "tags": {
+    "addr:city": "Valdoie",
+    "addr:housename": "ZAC du Bois de l'Arsot",
+    "addr:housenumber": "9",
+    "addr:postcode": "90300",
+    "addr:street": "Avenue du Général de Gaulle",
+    "brand": "Biocoop",
+    "brand:website": "https://www.biocoop.fr",
+    "brand:wikidata": "Q2904039",
+    "brand:wikipedia": "fr:Biocoop",
+    "bulk_purchase": "yes",
+    "name": "Biocoop",
+    "operator": "Le Grenier Vert - L'autre rive",
+    "operator:type": "community",
+    "organic": "only",
+    "phone": "+33 3 84 28 14 20",
+    "shop": "supermarket",
+    "source": "site internet de Biocoop"
   }
 },
 {
@@ -2467,6 +2995,27 @@
 },
 {
   "type": "node",
+  "id": 2795881515,
+  "lat": 45.8158670,
+  "lon": 1.3109792,
+  "tags": {
+    "brand": "Biocoop",
+    "bulk_purchase": "yes",
+    "contact:phone": "+33 5 55 08 43 78",
+    "currency:XLT": "PELU",
+    "name": "Biocoop Limoubio",
+    "opening_hours": "Mo-Fr 09:30-13:00,14:30-19:00; Sa 09:30-19:00",
+    "organic": "only",
+    "payment:cash:XLT-PELU": "yes",
+    "ref:FR:NAF": "4729Z",
+    "ref:FR:SIRET": "50868957700015",
+    "shop": "convenience",
+    "survey:date": "2018-08-25",
+    "website": "http://feytiat.biocoop.net/"
+  }
+},
+{
+  "type": "node",
   "id": 2814029480,
   "lat": 45.7685039,
   "lon": 4.8462121,
@@ -2484,6 +3033,24 @@
     "shop": "supermarket",
     "source": "Grand Lyon - 10/2011;local_knowledge",
     "website": "http://mamiemarie.com"
+  }
+},
+{
+  "type": "node",
+  "id": 2825137664,
+  "lat": 42.6692824,
+  "lon": 2.8981052,
+  "tags": {
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire",
+    "operator": "La Vie Claire",
+    "organic": "yes",
+    "shop": "supermarket",
+    "website": "http://www.lavieclaire.com/magasin-bio/perpignan.html"
   }
 },
 {
@@ -2794,6 +3361,23 @@
 },
 {
   "type": "node",
+  "id": 3130579834,
+  "lat": 42.8488844,
+  "lon": 1.6050665,
+  "tags": {
+    "addr:city": "Tarascon-sur-Ariège",
+    "addr:country": "FR",
+    "addr:housenumber": "10;23",
+    "addr:postcode": "09400",
+    "addr:street": "Avenue Victor Pilhés",
+    "bulk_purchase": "yes",
+    "name": "Biocoop - Magasin Bio",
+    "organic": "only",
+    "shop": "department_store"
+  }
+},
+{
+  "type": "node",
   "id": 3181284286,
   "lat": 48.8477752,
   "lon": 2.3188691,
@@ -2874,6 +3458,69 @@
     "shop": "supermarket",
     "website": "http://lagambille.biocoop.net/",
     "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3221259508,
+  "lat": 43.5307533,
+  "lon": 6.4459544,
+  "tags": {
+    "bulk_purchase": "yes",
+    "name": "Biocoop",
+    "organic": "only",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 3235637469,
+  "lat": 45.5652714,
+  "lon": 5.4466504,
+  "tags": {
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire",
+    "organic": "only",
+    "shop": "convenience",
+    "website": "http://www.lavieclaire.com/magasin-bio/la-tour-du-pin.html"
+  }
+},
+{
+  "type": "node",
+  "id": 3239607275,
+  "lat": 48.7811659,
+  "lon": 2.3164748,
+  "tags": {
+    "addr:city": "Bourg-la-Reine",
+    "addr:housenumber": "73",
+    "addr:postcode": "92340",
+    "addr:street": "Avenue du Général Leclerc",
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "http://www.lavieclaire.com/magasin-bio/bourg-la-reine.html"
+  }
+},
+{
+  "type": "node",
+  "id": 3246461793,
+  "lat": 46.4822325,
+  "lon": -0.5980341,
+  "tags": {
+    "bulk_purchase": "yes",
+    "name": "Biocoop (le plantivore)",
+    "organic": "only",
+    "shop": "supermarket",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2014"
   }
 },
 {
@@ -3035,6 +3682,36 @@
     "organic": "only",
     "shop": "supermarket",
     "website": "http://biocoop.fr/magasins-bio/Trouver-mon-magasin-Biocoop/Ile-de-France/Paris/BELLEVILLE-EN-BIO"
+  }
+},
+{
+  "type": "node",
+  "id": 3391002061,
+  "lat": 44.0756449,
+  "lon": 6.1865796,
+  "tags": {
+    "addr:city": "Digne-les-Bains",
+    "addr:housename": "Espace Beau de Rochas",
+    "addr:postcode": "04000",
+    "addr:street": "Avenue Gutenberg",
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "bulk_purchase": "yes",
+    "contact:email": "lavieclairedignelesbains@gmail.com",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "contact:mobile": "+33632604369",
+    "contact:phone": "+33492322173",
+    "name": "La Vie Claire Digne Les Bains",
+    "old_shop": "cafe",
+    "opening_hours": "Mo 14:30-19:00; Tu-Sa 09:00-19:00",
+    "operator": "Albanese distri bio SASU",
+    "organic": "only",
+    "ref:FR:SIREN": "82173732700014",
+    "ref:FR:SIRET": "821737327",
+    "shop": "convenience",
+    "website": "http://www.lavieclaire.com/magasin-bio/digne-les-bains.html",
+    "wheelchair": "yes"
   }
 },
 {
@@ -3277,6 +3954,20 @@
 },
 {
   "type": "node",
+  "id": 3543816536,
+  "lat": 46.8447385,
+  "lon": -0.5049289,
+  "tags": {
+    "bulk_purchase": "yes",
+    "name": "Biocoop",
+    "organic": "only",
+    "shop": "convenience",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2015",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
   "id": 3554489123,
   "lat": 50.7402958,
   "lon": 2.2743804,
@@ -3407,6 +4098,18 @@
 },
 {
   "type": "node",
+  "id": 3677776037,
+  "lat": 48.8701721,
+  "lon": 2.6791735,
+  "tags": {
+    "bulk_purchase": "yes",
+    "name": "Biocoop",
+    "organic": "only",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
   "id": 3683626198,
   "lat": 47.2119489,
   "lon": -1.5462896,
@@ -3436,10 +4139,72 @@
     "brand:wikidata": "Q3213589",
     "brand:wikipedia": "fr:La Vie claire",
     "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
     "name": "La Vie Claire",
     "organic": "only",
     "shop": "convenience",
     "website": "http://www.lavieclaire.com/magasin-bio/albert.html"
+  }
+},
+{
+  "type": "node",
+  "id": 3698100837,
+  "lat": 45.7372918,
+  "lon": 4.8324684,
+  "tags": {
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire Lyon Gerland",
+    "opening_hours": "Mo-Sa 09:00-19:30",
+    "organic": "only",
+    "phone": "+33 4 78 96 42 04",
+    "shop": "convenience",
+    "website": "http://www.lavieclaire.com/magasin-bio/lyon-gerland.html"
+  }
+},
+{
+  "type": "node",
+  "id": 3703241904,
+  "lat": 45.5316561,
+  "lon": 5.6849542,
+  "tags": {
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "http://www.lavieclaire.com/magasin-bio/le-pont-de-beauvoisin.html"
+  }
+},
+{
+  "type": "node",
+  "id": 3735814272,
+  "lat": 49.1202725,
+  "lon": 6.1882111,
+  "tags": {
+    "addr:city": "Metz",
+    "addr:housenumber": "4",
+    "addr:postcode": "57070",
+    "addr:street": "Boulevard de Trèves",
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "bulk_purchase": "yes",
+    "contact:email": "lavieclaire-metz@orange.fr",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "description": "Produits biologiques alimentaires, de bien-être et de beauté.",
+    "name": "La vie claire",
+    "opening_hours": "Mo 14:00-19:00; Tu-Sa 09:30-19:00",
+    "organic": "only",
+    "phone": "+33 3 87 50 45 48",
+    "shop": "supermarket",
+    "website": "http://lavieclaire.com/magasin-bio/metz.html"
   }
 },
 {
@@ -3492,6 +4257,26 @@
     "organic": "yes",
     "shop": "convenience",
     "website": "http://baravrac.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 3777229824,
+  "lat": 48.9084076,
+  "lon": 2.0435953,
+  "tags": {
+    "addr:city": "Chambourcy",
+    "addr:housenumber": "50",
+    "addr:postcode": "78240",
+    "addr:street": "Route de Mantes",
+    "bulk_purchase": "yes",
+    "name": "biocoop chambourcy",
+    "opening_hours": "Mo-Sa 10:00-20:00",
+    "operator": "biocoop",
+    "organic": "yes",
+    "phone": "+331 30 74 33 36",
+    "shop": "supermarket",
+    "website": "http://chambourcy.toutelabio.com"
   }
 },
 {
@@ -3606,6 +4391,40 @@
 },
 {
   "type": "node",
+  "id": 3844346134,
+  "lat": 45.1704030,
+  "lon": 5.7398013,
+  "tags": {
+    "bulk_purchase": "yes",
+    "name": "Biocoop",
+    "opening_hours": "Mo 15:00-19:00, Tu-Sa 09:00-12:30,15:00-19:00",
+    "organic": "only",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 3872596650,
+  "lat": 45.7165371,
+  "lon": 4.8095135,
+  "tags": {
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire Oullins",
+    "opening_hours": "Mo-Sa 09:00-19:00",
+    "operator": "La Vie Claire",
+    "organic": "only",
+    "phone": "+33 4 37 41 53 42",
+    "shop": "convenience",
+    "website": "http://www.lavieclaire.com/magasin-bio/oullins.html",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
   "id": 3875439227,
   "lat": 48.8482795,
   "lon": 2.3788100,
@@ -3679,6 +4498,23 @@
     "source": "survey",
     "survey:date": "2017-06-29",
     "website": "http://www.lavieclaire.com/magasin-bio/montrouge.html"
+  }
+},
+{
+  "type": "node",
+  "id": 3961161857,
+  "lat": 47.2664070,
+  "lon": 6.0605709,
+  "tags": {
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "http://www.lavieclaire.com/magasin-bio/besancon-chalezeule.html"
   }
 },
 {
@@ -3839,6 +4675,28 @@
 },
 {
   "type": "node",
+  "id": 4032506711,
+  "lat": 46.1775534,
+  "lon": -1.1128933,
+  "tags": {
+    "addr:city": "Puilboreau",
+    "addr:housenumber": "7",
+    "addr:postcode": "17138",
+    "addr:street": "Avenue du 8 Mai",
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire",
+    "organic": "only",
+    "phone": "+33 9 79 73 30 81",
+    "shop": "convenience",
+    "website": "http://www.lavieclaire.fr"
+  }
+},
+{
+  "type": "node",
   "id": 4037785465,
   "lat": 48.1070402,
   "lon": -1.6712595,
@@ -3855,6 +4713,25 @@
     "phone": "+33 9 67 55 09 15",
     "shop": "convenience",
     "website": "http://daybyday-shop.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 4048211217,
+  "lat": 45.7329589,
+  "lon": 4.9099306,
+  "tags": {
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire Bron Centre",
+    "opening_hours": "Mo-Sa 09:00-19:30; Su 09:00-13:00",
+    "organic": "only",
+    "phone": "+33 4 72 37 36 56",
+    "shop": "convenience",
+    "website": "http://www.lavieclaire.com/magasin-bio/bron-centre.html"
   }
 },
 {
@@ -3931,6 +4808,26 @@
     "addr:street": "Rue Hispano Suiza",
     "bulk_purchase": "yes",
     "name": "Biocoop",
+    "organic": "only",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 4083482885,
+  "lat": -21.3333944,
+  "lon": 55.4568828,
+  "tags": {
+    "addr:city": "Saint-Pierre",
+    "addr:housenumber": "13",
+    "addr:postcode": "97410",
+    "addr:street": "Rue de la Poudrière",
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire",
     "organic": "only",
     "shop": "supermarket"
   }
@@ -4041,6 +4938,22 @@
     "shop": "supermarket",
     "website": "http://www.lavieclaire.com/magasin-bio/rouen.html",
     "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 4186127957,
+  "lat": 47.8122398,
+  "lon": 3.5675464,
+  "tags": {
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire",
+    "organic": "only",
+    "shop": "convenience"
   }
 },
 {
@@ -4560,6 +5473,44 @@
 },
 {
   "type": "node",
+  "id": 4348498997,
+  "lat": 44.1151326,
+  "lon": 4.1066565,
+  "tags": {
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "http://www.lavieclaire.com/magasin-bio/ales.html"
+  }
+},
+{
+  "type": "node",
+  "id": 4360311362,
+  "lat": 47.0209099,
+  "lon": 4.8419295,
+  "tags": {
+    "addr:city": "Beaune",
+    "addr:postcode": "21200",
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire",
+    "opening_hours": "Tu - Fr 09:00-12:30, 14:30-19:15; Sa 09:00-19:00",
+    "organic": "only",
+    "shop": "supermarket",
+    "source": "survey",
+    "website": "http://www.lavieclaire.com/magasin-bio/beaune.html"
+  }
+},
+{
+  "type": "node",
   "id": 4369829567,
   "lat": 48.8087035,
   "lon": 2.1883609,
@@ -4688,6 +5639,158 @@
 },
 {
   "type": "node",
+  "id": 4404587178,
+  "lat": 45.7648839,
+  "lon": 4.8364865,
+  "tags": {
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire Lyon Gentil",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-13:00",
+    "organic": "only",
+    "phone": "+33 4 72 15 70 66",
+    "shop": "convenience",
+    "website": "http://www.lavieclaire.com/magasin-bio/lyon-gentil.html"
+  }
+},
+{
+  "type": "node",
+  "id": 4404592101,
+  "lat": 45.7573845,
+  "lon": 4.8464859,
+  "tags": {
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire Saxe",
+    "opening_hours": "Mo-Sa 09:00-19:30; Su 09:00-13:00",
+    "organic": "only",
+    "phone": "+33 4 72 43 04 43",
+    "shop": "convenience",
+    "website": "http://www.lavieclaire.com/magasin-bio/lyon-saxe.html"
+  }
+},
+{
+  "type": "node",
+  "id": 4405526108,
+  "lat": 45.7813437,
+  "lon": 4.8331060,
+  "tags": {
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire Lyon Croix-Rousse",
+    "opening_hours": "Mo-Sa 09:00-20:00; Su 09:00-13:00",
+    "organic": "only",
+    "phone": "+33 4 78 69 20 93",
+    "shop": "convenience",
+    "website": "http://www.lavieclaire.com/magasin-bio/lyon-croix-rousse.html"
+  }
+},
+{
+  "type": "node",
+  "id": 4405549489,
+  "lat": 45.7696279,
+  "lon": 4.8768108,
+  "tags": {
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire Villeurbanne",
+    "opening_hours": "Mo-Sa 09:00-19:30",
+    "organic": "only",
+    "phone": "+33 4 72 43 00 95",
+    "shop": "convenience",
+    "website": "http://www.lavieclaire.com/magasin-bio/villeurbanne.html"
+  }
+},
+{
+  "type": "node",
+  "id": 4405828228,
+  "lat": 45.7706337,
+  "lon": 4.9564668,
+  "tags": {
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire Décines Charpieu",
+    "opening_hours": "Mo-Sa 09:00-19:30; Su 09:00-13:00",
+    "organic": "only",
+    "phone": "+33 4 72 02 03 77",
+    "shop": "convenience",
+    "website": "http://www.lavieclaire.com/magasin-bio/decines-charpieu.html"
+  }
+},
+{
+  "type": "node",
+  "id": 4405858099,
+  "lat": 45.7742856,
+  "lon": 4.7802645,
+  "tags": {
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire Ecully",
+    "opening_hours": "Mo-Sa 09:00-19:30",
+    "organic": "only",
+    "phone": "+33 4 72 17 10 87",
+    "shop": "convenience",
+    "website": "http://www.lavieclaire.com/magasin-bio/ecully.html"
+  }
+},
+{
+  "type": "node",
+  "id": 4405865319,
+  "lat": 45.8055476,
+  "lon": 4.7818471,
+  "tags": {
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire Champagne au Mont d'Or",
+    "opening_hours": "Mo-Sa 09:00-19:30",
+    "organic": "only",
+    "phone": "+33 4 72 09 00 60",
+    "shop": "convenience",
+    "website": "http://www.lavieclaire.com/magasin-bio/champagne-au-mont-dor.html"
+  }
+},
+{
+  "type": "node",
+  "id": 4407160938,
+  "lat": 45.6801938,
+  "lon": 4.7746187,
+  "tags": {
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire Brignais",
+    "opening_hours": "Mo-Sa 09:00-19:30",
+    "organic": "only",
+    "phone": "+33 4 72 31 03 18",
+    "shop": "convenience",
+    "website": "http://www.lavieclaire.com/magasin-bio/brignais.html"
+  }
+},
+{
+  "type": "node",
   "id": 4413930417,
   "lat": 45.7448728,
   "lon": 4.8667416,
@@ -4754,6 +5857,23 @@
     "phone": "+33 4 74 71 86 39",
     "shop": "supermarket",
     "website": "http://biocoopmontsdor.biocoop.net/"
+  }
+},
+{
+  "type": "node",
+  "id": 4414948846,
+  "lat": 43.5858134,
+  "lon": 3.9330532,
+  "tags": {
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "http://www.lavieclaire.com/magasin-bio/lattes-montpellier.html"
   }
 },
 {
@@ -4869,6 +5989,21 @@
 },
 {
   "type": "node",
+  "id": 4469925793,
+  "lat": 47.9792498,
+  "lon": 3.3947473,
+  "tags": {
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire",
+    "organic": "yes",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
   "id": 4470188430,
   "lat": 47.8550959,
   "lon": -4.2435909,
@@ -4939,6 +6074,19 @@
 },
 {
   "type": "node",
+  "id": 4485291636,
+  "lat": 43.6916934,
+  "lon": 1.4007488,
+  "tags": {
+    "brand": "Biocoop",
+    "bulk_purchase": "yes",
+    "name": "Biocoop",
+    "organic": "only",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
   "id": 4485472186,
   "lat": 48.1240322,
   "lon": -1.2094988,
@@ -4968,6 +6116,27 @@
     "organic": "only",
     "shop": "convenience",
     "website": "http://www.lavieclaire.com/magasin-bio/joinville-le-pont.html"
+  }
+},
+{
+  "type": "node",
+  "id": 4496633418,
+  "lat": 48.8006057,
+  "lon": 2.2866176,
+  "tags": {
+    "addr:city": "Châtillon",
+    "addr:housenumber": "31",
+    "addr:postcode": "92320",
+    "addr:street": "Rue de la Mairie",
+    "bulk_purchase": "yes",
+    "name": "Biocoop Au Gré des Saisons",
+    "opening_hours": "10:00-13:30,15:00-20:00",
+    "operator": "Biocoop",
+    "organic": "only",
+    "phone": "+331 46 15 44 46",
+    "shop": "convenience",
+    "survey:date": "2017-07-16",
+    "website": "https://www.facebook.com/biocoopaugredessaisons/"
   }
 },
 {
@@ -5029,6 +6198,23 @@
     "phone": "+33 4 74 34 63 51",
     "shop": "supermarket",
     "website": "http://www.le-vert-de-terre.fr/"
+  }
+},
+{
+  "type": "node",
+  "id": 4510281885,
+  "lat": 45.9820929,
+  "lon": 5.3473881,
+  "tags": {
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire",
+    "organic": "yes",
+    "shop": "convenience",
+    "website": "http://www.lavieclaire.com/magasin-bio/amberieu-en-bugey.html"
   }
 },
 {
@@ -5224,6 +6410,18 @@
 },
 {
   "type": "node",
+  "id": 4558743953,
+  "lat": 48.7816522,
+  "lon": 2.0428864,
+  "tags": {
+    "bulk_purchase": "yes",
+    "name": "Biocoop Pleinchamp dans la ville",
+    "organic": "only",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
   "id": 4559046864,
   "lat": 49.9051758,
   "lon": 1.0792792,
@@ -5239,6 +6437,26 @@
     "phone": "+33 2 35 83 50 86",
     "shop": "supermarket",
     "website": "http://www.biocoop.fr"
+  }
+},
+{
+  "type": "node",
+  "id": 4564223937,
+  "lat": 45.8572780,
+  "lon": 4.7079735,
+  "tags": {
+    "alt_name": "La Vie Claire Civrieux d'Azergues",
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire",
+    "opening_hours": "Mo 14:00-19:00, Tu-Sa 09:00-19:00",
+    "organic": "only",
+    "phone": "+33 4 78 64 63 83",
+    "shop": "supermarket",
+    "website": "http://www.lavieclaire.com/magasin-bio/civrieux-dazergues.html"
   }
 },
 {
@@ -5383,6 +6601,30 @@
     "start_date": "2017-02-01",
     "website": "http://www.scarabee-biocoop.fr",
     "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4639362909,
+  "lat": -22.2687789,
+  "lon": 166.4417220,
+  "tags": {
+    "addr:city": "Nouméa",
+    "addr:housenumber": "32",
+    "addr:postcode": "98800",
+    "addr:street": "Rue de la République",
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire",
+    "opening_hours": "Lundi 14h00 . 18h00 Mardi 8h00 . 18h00 Mercredi 8h00 . 18h00 Jeudi 8h00 . 18h00 Vendredi 8h00 . 18h00 Samedi 8h00 . 12h00 14h00 . 17h30",
+    "organic": "only",
+    "phone": "+687 282 001",
+    "shop": "supermarket",
+    "source": "http://www.lavieclaire.com/magasin-bio/noumea-nouvelle-caledonie.html",
+    "website": "http://www.lavieclaire.com/magasin-bio/noumea-nouvelle-caledonie.html"
   }
 },
 {
@@ -5558,6 +6800,32 @@
 },
 {
   "type": "node",
+  "id": 4720463081,
+  "lat": 43.6006620,
+  "lon": 1.4424587,
+  "tags": {
+    "addr:city": "Toulouse",
+    "addr:housenumber": "14",
+    "addr:postcode": "31000",
+    "addr:street": "Rue de la Bourse",
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "diet:gluten_free": "yes",
+    "email": "lavieclaire.toulouse@orange.fr",
+    "name": "La vie claire",
+    "opening_hours": "Mo 10:30-19:30; Tu-Sa 9:30-19:30",
+    "operator": "La vie claire",
+    "organic": "only",
+    "phone": "+33 5 61 29 72 03",
+    "shop": "convenience",
+    "website": "http://www.lavieclaire.com/magasin-bio/toulouse.html"
+  }
+},
+{
+  "type": "node",
   "id": 4732532947,
   "lat": 43.4728618,
   "lon": -1.5341098,
@@ -5678,6 +6946,20 @@
 },
 {
   "type": "node",
+  "id": 4769717427,
+  "lat": 50.5867870,
+  "lon": 3.0523787,
+  "tags": {
+    "bulk_purchase": "yes",
+    "name": "Biocoop Wattignies",
+    "opening_hours": "Mo 14:30-19:00; Tu-Th 09:30-12:30,14:30-19:00; Fr,Sa 09:30-19:00",
+    "organic": "only",
+    "phone": "+33320160274",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
   "id": 4769733116,
   "lat": 48.1064092,
   "lon": -1.6684960,
@@ -5722,6 +7004,23 @@
     "website": "http://www.biocoop-evreux.fr",
     "wheelchair": "yes",
     "wikipedia": "fr:Biocoop"
+  }
+},
+{
+  "type": "node",
+  "id": 4779278147,
+  "lat": 43.2749145,
+  "lon": 6.5750733,
+  "tags": {
+    "addr:city": "Grimaud",
+    "addr:postcode": "83310",
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "Bio Market La Vie Claire",
+    "shop": "supermarket"
   }
 },
 {
@@ -5794,6 +7093,46 @@
     "organic": "only",
     "shop": "supermarket",
     "website": "http://sisteron.biocoop.net/"
+  }
+},
+{
+  "type": "node",
+  "id": 4796889941,
+  "lat": -20.9855731,
+  "lon": 55.2970279,
+  "tags": {
+    "addr:city": "Saint-Paul",
+    "addr:housenumber": "4 Bis",
+    "addr:postcode": "97460",
+    "addr:street": "Allée des Palmiers",
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire",
+    "organic": "only",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 4796892348,
+  "lat": -20.8913175,
+  "lon": 55.4968186,
+  "tags": {
+    "addr:city": "Sainte-Clotilde",
+    "addr:housenumber": "20",
+    "addr:postcode": "97490",
+    "addr:street": "Rue Gabriel de Kerveguen",
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire",
+    "organic": "only",
+    "shop": "supermarket"
   }
 },
 {
@@ -5896,6 +7235,28 @@
     "phone": "+33298803891",
     "shop": "convenience",
     "website": "http://www.lavieclaire.com/magasin-bio/brest.html"
+  }
+},
+{
+  "type": "node",
+  "id": 4834808444,
+  "lat": 50.1760406,
+  "lon": 3.2353929,
+  "tags": {
+    "addr:city": "Cambrai",
+    "addr:housenumber": "4",
+    "addr:postcode": "59400",
+    "addr:street": "Rue d'Alger",
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire",
+    "opening_hours": "Tu-Sa 09:00-12:30, Tu-Fr 14:30-19:00, Sa 14:30-18:00",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "http://www.lavieclaire.com/magasin-bio/cambrai.html"
   }
 },
 {
@@ -6326,6 +7687,23 @@
 },
 {
   "type": "node",
+  "id": 4992332222,
+  "lat": 47.0922598,
+  "lon": 5.4839253,
+  "tags": {
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La vie claire",
+    "organic": "only",
+    "shop": "general",
+    "website": "http://www.lavieclaire.com/magasin-bio/dole.html"
+  }
+},
+{
+  "type": "node",
   "id": 4999139989,
   "lat": 47.8391013,
   "lon": -0.3055298,
@@ -6338,6 +7716,41 @@
     "organic": "only",
     "phone": "+33 2 43 62 95 22",
     "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 5002167144,
+  "lat": 45.2919821,
+  "lon": 3.3879053,
+  "tags": {
+    "addr:housenumber": "19",
+    "addr:street": "Place du Postel",
+    "bulk_purchase": "yes",
+    "description": "Magasin de produits issus de l'agriculture biologique",
+    "name": "Brivabio Biocoop",
+    "organic": "only",
+    "phone": "+33471749689",
+    "shop": "convenience",
+    "website": "http://www.biocoop.fr/magasins-bio/Trouver-mon-magasin-Biocoop/Auvergne-Rhone-Alpes/Haute-Loire/BRIVA-BIO"
+  }
+},
+{
+  "type": "node",
+  "id": 5007290750,
+  "lat": 43.8875464,
+  "lon": -0.4882705,
+  "tags": {
+    "addr:city": "Mont-de-Marsan",
+    "addr:housenumber": "337",
+    "addr:postcode": "40000",
+    "addr:street": "BOULEVARD JEAN LARRIEU",
+    "bulk_purchase": "yes",
+    "name": "Biocoop - Nature et santé",
+    "organic": "only",
+    "phone": "+335 58 46 24 25",
+    "website": "http://www.biocoop-natureetsante.com/",
+    "wheelchair": "yes"
   }
 },
 {
@@ -6653,6 +8066,40 @@
     "organic": "only",
     "shop": "supermarket",
     "website": "http://www.biocoop-fleurance.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 5077762272,
+  "lat": 45.5717278,
+  "lon": 5.9113929,
+  "tags": {
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire",
+    "organic": "only",
+    "shop": "convenience",
+    "website": "http://www.lavieclaire.com/magasin-bio/chambery-comte-vert.html"
+  }
+},
+{
+  "type": "node",
+  "id": 5081393046,
+  "lat": 47.3185822,
+  "lon": 5.0406050,
+  "tags": {
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La vie claire",
+    "organic": "only",
+    "shop": "convenience",
+    "website": "http://www.lavieclaire.com/magasin-bio/dijon.html"
   }
 },
 {
@@ -7019,6 +8466,17 @@
 },
 {
   "type": "node",
+  "id": 5230689306,
+  "lat": 45.8580219,
+  "lon": 5.9497768,
+  "tags": {
+    "bulk_purchase": "yes",
+    "name": "Biocoop",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
   "id": 5232116242,
   "lat": 46.4865742,
   "lon": 6.0557050,
@@ -7227,6 +8685,29 @@
 },
 {
   "type": "node",
+  "id": 5289814587,
+  "lat": 43.1459591,
+  "lon": 6.2407617,
+  "tags": {
+    "bulk_purchase": "yes",
+    "name": "Biocoop",
+    "organic": "only",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 5302301496,
+  "lat": 49.6240993,
+  "lon": 0.7835869,
+  "tags": {
+    "bulk_purchase": "yes",
+    "name": "Biocoop",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
   "id": 5310273096,
   "lat": 44.7950283,
   "lon": -0.5381013,
@@ -7420,6 +8901,24 @@
 },
 {
   "type": "node",
+  "id": 5411666118,
+  "lat": 45.7616815,
+  "lon": 4.8505530,
+  "tags": {
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire Lyon André Philippe",
+    "organic": "only",
+    "shop": "convenience",
+    "website": "http://www.lavieclaire.com/magasin-bio/lyon-andre-philip.html",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
   "id": 5412170284,
   "lat": 47.2315637,
   "lon": -1.5744980,
@@ -7507,6 +9006,17 @@
     "organic": "yes",
     "shop": "convenience",
     "website": "http://www.coteaux-nantais.com/fr/content/vente-directe"
+  }
+},
+{
+  "type": "node",
+  "id": 5437928821,
+  "lat": 43.9505947,
+  "lon": 4.8212894,
+  "tags": {
+    "bulk_purchase": "yes",
+    "name": "Biocoop",
+    "shop": "convenience"
   }
 },
 {
@@ -7780,6 +9290,22 @@
 },
 {
   "type": "node",
+  "id": 5469358930,
+  "lat": 45.5943874,
+  "lon": 5.8966524,
+  "tags": {
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire",
+    "organic": "only",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
   "id": 5471761515,
   "lat": 44.6329889,
   "lon": -1.1516666,
@@ -7933,6 +9459,23 @@
     "facebook": "https://www.facebook.com/petitbcafelibrairie/",
     "name": "Petit b",
     "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5531113877,
+  "lat": 45.9507529,
+  "lon": 6.6315065,
+  "tags": {
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "http://www.lavieclaire.com/magasin-bio/sallanches.html"
   }
 },
 {
@@ -8784,6 +10327,25 @@
     "organic": "only",
     "shop": "supermarket",
     "website": "http://www.biocoop-cholet.fr"
+  }
+},
+{
+  "type": "node",
+  "id": 5581233569,
+  "lat": 50.6289966,
+  "lon": 3.0532105,
+  "tags": {
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire",
+    "organic": "only",
+    "shop": "supermarket",
+    "source": "survey",
+    "survey:date": "2018-04",
+    "website": "http://www.lavieclaire.com/magasin-bio/lille-gambetta.html"
   }
 },
 {
@@ -9683,6 +11245,17 @@
 },
 {
   "type": "node",
+  "id": 5748997999,
+  "lat": 46.9799347,
+  "lon": -0.1966641,
+  "tags": {
+    "bulk_purchase": "yes",
+    "name": "Biocoop",
+    "organic": "only"
+  }
+},
+{
+  "type": "node",
   "id": 5759900079,
   "lat": 46.9769758,
   "lon": -1.3136313,
@@ -9762,11 +11335,33 @@
 },
 {
   "type": "node",
+  "id": 5782485269,
+  "lat": 48.5780232,
+  "lon": 7.7499962,
+  "tags": {
+    "addr:city": "Strasbourg",
+    "addr:country": "FR",
+    "addr:housenumber": "6-8",
+    "addr:postcode": "67000",
+    "addr:street": "rue de la première armée",
+    "bulk_purchase": "yes",
+    "contact:email": "contact@coquelicot.bio",
+    "name": "Biocoop Coquelicot",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 09:00-13:00",
+    "shop": "greengrocer"
+  }
+},
+{
+  "type": "node",
   "id": 5782834678,
   "lat": 44.1778578,
   "lon": 4.6145681,
   "tags": {
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
     "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
     "name": "La vie claire",
     "organic": "only",
     "shop": "supermarket",
@@ -10012,6 +11607,19 @@
     "name": "La Préserve",
     "organic": "yes",
     "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 5808527519,
+  "lat": 43.6691414,
+  "lon": -1.2784889,
+  "tags": {
+    "addr:housenumber": "32",
+    "addr:street": "Avenue de Terreblanque",
+    "bulk_purchase": "yes",
+    "name": "Biocoop",
+    "shop": "supermarket"
   }
 },
 {
@@ -10332,6 +11940,23 @@
     "organic": "only",
     "shop": "convenience",
     "website": "https://ungraindanslebocal.com"
+  }
+},
+{
+  "type": "node",
+  "id": 5825534303,
+  "lat": 45.7421180,
+  "lon": 4.8206865,
+  "tags": {
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "http://www.lavieclaire.com/magasin-bio/lyon-charlemagne.html"
   }
 },
 {
@@ -10892,6 +12517,21 @@
 },
 {
   "type": "node",
+  "id": 5840066611,
+  "lat": 44.5159645,
+  "lon": 3.4848486,
+  "tags": {
+    "addr:city": "Mende",
+    "addr:postcode": "48000",
+    "addr:street": "Avenue des Gorges du Tarn",
+    "bulk_purchase": "yes",
+    "name": "Biocoop la claire fontaine",
+    "shop": "supermarket",
+    "website": "http://laclairefontaine.biocoop.net/"
+  }
+},
+{
+  "type": "node",
   "id": 5842216362,
   "lat": 45.1768785,
   "lon": 1.5844305,
@@ -11372,6 +13012,21 @@
 },
 {
   "type": "node",
+  "id": 5851060201,
+  "lat": 47.2167539,
+  "lon": -1.5596471,
+  "tags": {
+    "addr:city": "Nantes",
+    "addr:housenumber": "14",
+    "addr:postcode": "44000",
+    "addr:street": "Rue de Budapest",
+    "bulk_purchase": "yes",
+    "name": "Biocoop place Bretagne",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
   "id": 5859163116,
   "lat": 50.9696254,
   "lon": 2.4324980,
@@ -11625,6 +13280,141 @@
     "organic": "yes",
     "shop": "convenience",
     "website": "https://monquartierdeshalles.wordpress.com/2015/10/30/la-corbeille/"
+  }
+},
+{
+  "type": "node",
+  "id": 5875917720,
+  "lat": 45.1800608,
+  "lon": 4.8151479,
+  "tags": {
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "http://www.lavieclaire.com/magasin-bio/saint-vallier.html"
+  }
+},
+{
+  "type": "node",
+  "id": 5875917721,
+  "lat": 45.7694366,
+  "lon": 4.8508959,
+  "tags": {
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "http://www.lavieclaire.com/magasin-bio/lyon-vitton.html"
+  }
+},
+{
+  "type": "node",
+  "id": 5875917722,
+  "lat": 44.3510918,
+  "lon": 2.5764972,
+  "tags": {
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "http://www.lavieclaire.com/magasin-bio/rodez.html"
+  }
+},
+{
+  "type": "node",
+  "id": 5875917723,
+  "lat": 43.6037587,
+  "lon": 1.3642644,
+  "tags": {
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "bulk_purchase": "yes",
+    "name": "La Vie Claire",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "http://www.lavieclaire.com/magasin-bio/saint-martin-du-touch.html"
+  }
+},
+{
+  "type": "node",
+  "id": 5876331736,
+  "lat": 43.5255658,
+  "lon": 5.4536527,
+  "tags": {
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "http://www.lavieclaire.com/magasin-bio/aix-en-provence.html"
+  }
+},
+{
+  "type": "node",
+  "id": 5876331737,
+  "lat": 47.8785719,
+  "lon": 6.7661897,
+  "tags": {
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "http://www.lavieclaire.com/magasin-bio/le-thillot.html"
+  }
+},
+{
+  "type": "node",
+  "id": 5876331738,
+  "lat": 46.2586395,
+  "lon": 6.0291085,
+  "tags": {
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "http://www.lavieclaire.com/magasin-bio/saint-genis-pouilly.html"
+  }
+},
+{
+  "type": "node",
+  "id": 5876331739,
+  "lat": 49.1645594,
+  "lon": 5.8437319,
+  "tags": {
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "http://www.lavieclaire.com/magasin-bio/conflans-en-jarnisy.html"
   }
 },
 {
@@ -11989,6 +13779,69 @@
 },
 {
   "type": "way",
+  "id": 59197300,
+  "center": {
+    "lat": 50.6274957,
+    "lon": 3.0576764
+  },
+  "nodes": [
+    734142184,
+    734142480,
+    734142379,
+    734142261,
+    734142154,
+    734142440,
+    734142324,
+    734142184
+  ],
+  "tags": {
+    "building": "yes",
+    "bulk_purchase": "yes",
+    "name": "Vert'Tige Biocoop",
+    "opening_hours": "Mo 14:00-19:30; Tu-Th 08:30-19:30; Fr,Sa 08:30-19:30",
+    "organic": "only",
+    "shop": "supermarket",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"
+  }
+},
+{
+  "type": "way",
+  "id": 61069884,
+  "center": {
+    "lat": 45.0505800,
+    "lon": 5.0813500
+  },
+  "nodes": [
+    4772639997,
+    764144551,
+    764315778,
+    4772676972,
+    4772639998,
+    4772639999,
+    764202162,
+    4772679624,
+    4772639997
+  ],
+  "tags": {
+    "addr:city": "Romans-sur-Isère",
+    "addr:housenumber": "6",
+    "addr:postcode": "26100",
+    "addr:street": "Avenue des Allobroges",
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "building": "yes",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire",
+    "organic": "only",
+    "shop": "supermarket",
+    "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2017",
+    "website": "http://www.lavieclaire.com/magasin-bio/romans-sur-isere.html"
+  }
+},
+{
+  "type": "way",
   "id": 62726177,
   "center": {
     "lat": 43.6820314,
@@ -12254,6 +14107,79 @@
 },
 {
   "type": "way",
+  "id": 64960134,
+  "center": {
+    "lat": 49.4749085,
+    "lon": 1.1092561
+  },
+  "nodes": [
+    795776442,
+    795776804,
+    795798426,
+    4486137265,
+    4486137264,
+    795798475,
+    4486137263,
+    4486137262,
+    795759032,
+    795736671,
+    795773497,
+    795750515,
+    795784036,
+    795759391,
+    795766115,
+    795797415,
+    795776442
+  ],
+  "tags": {
+    "addr:city": "Bois-Guillaume",
+    "addr:housenumber": "45",
+    "addr:postcode": "76230",
+    "addr:street": "Rue Georges de Buffon",
+    "brand": "Biocoop",
+    "brand:wikidata": "Q2904039",
+    "brand:wikipedia": "fr:Biocoop",
+    "building": "yes",
+    "bulk_purchase": "yes",
+    "name": "Biocoop",
+    "operator": "L'Asticot Bio",
+    "organic": "only",
+    "phone": "+33 2 32 80 35 12",
+    "shop": "supermarket",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+    "website": "www.planete-bio-rouen.com"
+  }
+},
+{
+  "type": "way",
+  "id": 65261725,
+  "center": {
+    "lat": 45.2546042,
+    "lon": 4.6856977
+  },
+  "nodes": [
+    797852655,
+    797854353,
+    797858604,
+    797847234,
+    797852655
+  ],
+  "tags": {
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "building": "yes",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire",
+    "organic": "only",
+    "shop": "supermarket",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+    "website": "http://www.lavieclaire.com/magasin-bio/davezieux.html"
+  }
+},
+{
+  "type": "way",
   "id": 65504482,
   "center": {
     "lat": 47.1886989,
@@ -12282,6 +14208,38 @@
     "shop": "supermarket",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
     "website": "https://www.biocoop.fr/magasins-bio/Trouver-mon-magasin-Biocoop/Pays-de-la-Loire/Loire-Atlantique/BIOCOOP-NANTES-SUD"
+  }
+},
+{
+  "type": "way",
+  "id": 65511568,
+  "center": {
+    "lat": 44.4035389,
+    "lon": 0.6856603
+  },
+  "nodes": [
+    799409824,
+    799364590,
+    799381614,
+    799427221,
+    799409824
+  ],
+  "tags": {
+    "addr:city": "Villeuneuve-sur-Lot",
+    "addr:postcode": "47110",
+    "addr:street": "Avenue de Bordeaux",
+    "building": "yes",
+    "bulk_purchase": "yes",
+    "contact:housenumber": "401",
+    "contact:phone": "+33553019576",
+    "contact:website": "http://biocoop.fr/magasins-bio/Trouver-mon-magasin-Biocoop/Nouvelle-Aquitaine2/Lot-et-Garonne/BIOCOOP-CHAMP-LIBRE",
+    "currency:XLT": "ABLL",
+    "name": "Biocoop Champ Libre",
+    "opening_hours": "Mo 15:00-19:00; Tu-Fr 09:30-13:00,15:00-19:00; Sa 09:30-19:00",
+    "organic": "only",
+    "payment:cash:XLT-ABLL": "yes",
+    "shop": "supermarket",
+    "source": "extraction vectorielle v1 cadastre-dgi-fr source : Direction Générale des Impôts - Cadas. Mise à jour : 2010"
   }
 },
 {
@@ -12319,6 +14277,38 @@
     "shop": "supermarket",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
     "website": "http://www.biocoop-cognac.com"
+  }
+},
+{
+  "type": "way",
+  "id": 65740989,
+  "center": {
+    "lat": 47.3502479,
+    "lon": 6.3589478
+  },
+  "nodes": [
+    800990674,
+    801132504,
+    801002726,
+    801029669,
+    801160163,
+    801159579,
+    801144350,
+    800990674
+  ],
+  "tags": {
+    "addr:housenumber": "5",
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "building": "yes",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire",
+    "organic": "only",
+    "shop": "supermarket",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+    "website": "http://www.lavieclaire.com/magasin-bio/baume-les-dames.html"
   }
 },
 {
@@ -12378,6 +14368,33 @@
 },
 {
   "type": "way",
+  "id": 66959013,
+  "center": {
+    "lat": 45.2715001,
+    "lon": 0.0379685
+  },
+  "nodes": [
+    808744091,
+    808735530,
+    808713984,
+    808713093,
+    808731764,
+    808710108,
+    808738231,
+    808744091
+  ],
+  "tags": {
+    "building": "yes",
+    "bulk_purchase": "yes",
+    "name": "Biocoop",
+    "operator": "Biocoop",
+    "organic": "only",
+    "shop": "supermarket",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"
+  }
+},
+{
+  "type": "way",
   "id": 66987944,
   "center": {
     "lat": 48.0898696,
@@ -12410,6 +14427,37 @@
     "shop": "supermarket",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
     "website": "http://biocoop.fr/magasins-bio/Trouver-mon-magasin-Biocoop/Grand-Est/Haut-Rhin/UNIS-VERS-BIO"
+  }
+},
+{
+  "type": "way",
+  "id": 67443481,
+  "center": {
+    "lat": 48.0044290,
+    "lon": 0.1951270
+  },
+  "nodes": [
+    814182914,
+    814025507,
+    4885423049,
+    4885423062,
+    4885423059,
+    4885423056,
+    813886760,
+    813866551,
+    1630670419,
+    5116743741,
+    814182914
+  ],
+  "tags": {
+    "building": "yes",
+    "bulk_purchase": "yes",
+    "name": "Le Fenouil - Biocoop",
+    "opening_hours": "Mo-Sa 09:30-19:30",
+    "organic": "only",
+    "shop": "supermarket",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+    "wheelchair": "yes"
   }
 },
 {
@@ -13010,6 +15058,34 @@
 },
 {
   "type": "way",
+  "id": 72511814,
+  "center": {
+    "lat": 44.5521427,
+    "lon": 6.4887708
+  },
+  "nodes": [
+    860848816,
+    860848528,
+    860824835,
+    860842721,
+    860830192,
+    860816838,
+    860825511,
+    860844918,
+    860823902,
+    860816986,
+    860848816
+  ],
+  "tags": {
+    "building": "yes",
+    "bulk_purchase": "yes",
+    "name": "Biocoop",
+    "shop": "supermarket",
+    "source": "extraction vectorielle v1 cadastre-dgi-fr source : Direction Générale des Impôts - Cadas. Mise à jour : 2010"
+  }
+},
+{
+  "type": "way",
   "id": 72688317,
   "center": {
     "lat": 43.4906996,
@@ -13048,6 +15124,38 @@
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
     "wall": "no",
     "website": "http://biocoop-bab.fr/"
+  }
+},
+{
+  "type": "way",
+  "id": 72735129,
+  "center": {
+    "lat": 44.7599357,
+    "lon": 5.3609039
+  },
+  "nodes": [
+    4858158418,
+    4858158419,
+    4858158420,
+    4858158421,
+    4858158422,
+    863510770,
+    863465799,
+    863543613,
+    4858158418
+  ],
+  "tags": {
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "building": "yes",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire",
+    "organic": "only",
+    "shop": "convenience",
+    "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2017",
+    "website": "http://www.lavieclaire.com/magasin-bio/die.html"
   }
 },
 {
@@ -13402,6 +15510,37 @@
 },
 {
   "type": "way",
+  "id": 79832807,
+  "center": {
+    "lat": 45.3657164,
+    "lon": 5.5933914
+  },
+  "nodes": [
+    931879035,
+    931878109,
+    931880860,
+    931880740,
+    931880734,
+    931878798,
+    931879035
+  ],
+  "tags": {
+    "addr:housenumber": "5",
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "building": "yes",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire",
+    "organic": "only",
+    "shop": "supermarket",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+    "website": "http://www.lavieclaire.com/magasin-bio/voiron-dode.html"
+  }
+},
+{
+  "type": "way",
   "id": 80166696,
   "center": {
     "lat": 47.1560021,
@@ -13587,6 +15726,33 @@
 },
 {
   "type": "way",
+  "id": 81402401,
+  "center": {
+    "lat": 43.4788312,
+    "lon": 1.3359721
+  },
+  "nodes": [
+    948493804,
+    948496953,
+    948496457,
+    948497225,
+    948499109,
+    948499230,
+    948497607,
+    948491443,
+    948493804
+  ],
+  "tags": {
+    "building": "yes",
+    "bulk_purchase": "yes",
+    "name": "Biocoop",
+    "organic": "only",
+    "shop": "supermarket",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"
+  }
+},
+{
+  "type": "way",
   "id": 81681275,
   "center": {
     "lat": 42.6990332,
@@ -13651,6 +15817,39 @@
     "shop": "convenience",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
     "website": "http://daybyday-shop.com/magasin/lyon"
+  }
+},
+{
+  "type": "way",
+  "id": 82256942,
+  "center": {
+    "lat": 45.7528294,
+    "lon": 4.8313999
+  },
+  "nodes": [
+    957900135,
+    957900089,
+    957899837,
+    957899757,
+    957899853,
+    957900066,
+    957899789,
+    1603479149,
+    957899598,
+    957900135
+  ],
+  "tags": {
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "building": "yes",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire",
+    "organic": "only",
+    "shop": "supermarket",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+    "website": "http://www.lavieclaire.com/magasin-bio/lyon-charite.html"
   }
 },
 {
@@ -13727,6 +15926,35 @@
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
     "website": "http://enviebio.biocoop.net/acces",
     "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 83040279,
+  "center": {
+    "lat": 43.5909109,
+    "lon": 2.1957064
+  },
+  "nodes": [
+    966110570,
+    966105916,
+    966110342,
+    966110743,
+    966109244,
+    966102938,
+    966107560,
+    966107811,
+    966105118,
+    966102922,
+    966110570
+  ],
+  "tags": {
+    "building": "retail",
+    "bulk_purchase": "yes",
+    "name": "Biocoop",
+    "organic": "only",
+    "shop": "supermarket",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"
   }
 },
 {
@@ -13869,6 +16097,37 @@
     "shop": "convenience",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
     "start_date": "2018"
+  }
+},
+{
+  "type": "way",
+  "id": 85106922,
+  "center": {
+    "lat": 43.8438553,
+    "lon": 5.0777008
+  },
+  "nodes": [
+    987266500,
+    987290916,
+    987345719,
+    987278824,
+    987272041,
+    987261099,
+    987341495,
+    987342294,
+    987266500
+  ],
+  "tags": {
+    "building": "yes",
+    "bulk_purchase": "yes",
+    "contact:phone": "+33 4 90 74 51 78",
+    "currency:XLT": "ROUE",
+    "name": "Biocoop",
+    "opening_hours": "Mo 14:30-19:00; Tu-Fr 09:00-13:00,14:30-19:00; Sa 09:00-19:00",
+    "organic": "yes",
+    "payment:cash:XLT-ROUE": "yes",
+    "shop": "supermarket",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"
   }
 },
 {
@@ -14045,6 +16304,37 @@
 },
 {
   "type": "way",
+  "id": 88545074,
+  "center": {
+    "lat": 44.2411632,
+    "lon": 5.0678946
+  },
+  "nodes": [
+    1028228536,
+    1028362616,
+    1028236975,
+    1028263429,
+    1028373506,
+    1028298356,
+    1028261875,
+    1028314119,
+    1028190224,
+    1028228536
+  ],
+  "tags": {
+    "brand": "Biocoop",
+    "building": "yes",
+    "bulk_purchase": "yes",
+    "contact:website": "http://nature-elements.biocoop.net/",
+    "name": "Biocoop Nature Elements",
+    "opening_hours": "Mo-Fr 08:30-19:00; Sa 08:30-18:30",
+    "organic": "only",
+    "shop": "supermarket",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"
+  }
+},
+{
+  "type": "way",
   "id": 88772101,
   "center": {
     "lat": 43.5108310,
@@ -14183,6 +16473,36 @@
 },
 {
   "type": "way",
+  "id": 92095858,
+  "center": {
+    "lat": 43.1804055,
+    "lon": 3.0177185
+  },
+  "nodes": [
+    1068939159,
+    1069062174,
+    1069210352,
+    1068408486,
+    1068997982,
+    1068157312,
+    1068939159
+  ],
+  "tags": {
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "building": "yes",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire",
+    "organic": "only",
+    "shop": "supermarket",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+    "website": "http://www.lavieclaire.com/magasin-bio/narbonne.html"
+  }
+},
+{
+  "type": "way",
   "id": 92581208,
   "center": {
     "lat": 48.3501825,
@@ -14259,6 +16579,33 @@
 },
 {
   "type": "way",
+  "id": 94004637,
+  "center": {
+    "lat": 47.5835335,
+    "lon": -3.0753285
+  },
+  "nodes": [
+    1092631453,
+    1092510648,
+    1092656076,
+    1092558802,
+    1092702311,
+    1092514674,
+    1092658334,
+    1092631453
+  ],
+  "tags": {
+    "building": "yes",
+    "building:use": "commercial",
+    "bulk_purchase": "yes",
+    "name": "Biocoop",
+    "organic": "yes",
+    "shop": "supermarket",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"
+  }
+},
+{
+  "type": "way",
   "id": 94293679,
   "center": {
     "lat": 48.0039250,
@@ -14295,6 +16642,38 @@
     "shop": "supermarket",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
     "website": "http://www.biocoop-quimper.fr"
+  }
+},
+{
+  "type": "way",
+  "id": 95057952,
+  "center": {
+    "lat": 46.0682207,
+    "lon": 4.0495069
+  },
+  "nodes": [
+    1102563718,
+    1102611544,
+    1102579608,
+    1102687127,
+    1102690900,
+    1102572452,
+    1102634825,
+    1102693658,
+    1102563718
+  ],
+  "tags": {
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "building": "yes",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire",
+    "organic": "only",
+    "shop": "supermarket",
+    "source": "extraction vectorielle v1 cadastre-dgi-fr source : Direction Générale des Impôts - Cadas. Mise à jour : 2010",
+    "website": "http://www.lavieclaire.com/magasin-bio/mably.html"
   }
 },
 {
@@ -14498,6 +16877,29 @@
     "shop": "supermarket",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011",
     "website": "http://www.biocoopaupanierbio-beauvais.com/"
+  }
+},
+{
+  "type": "way",
+  "id": 107343164,
+  "center": {
+    "lat": 45.5678900,
+    "lon": 5.9332690
+  },
+  "nodes": [
+    1233954039,
+    1233939734,
+    1233951112,
+    1233962563,
+    1233954039
+  ],
+  "tags": {
+    "building": "yes",
+    "bulk_purchase": "yes",
+    "name": "Biocoop - Casabio",
+    "organic": "only",
+    "shop": "supermarket",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"
   }
 },
 {
@@ -14927,6 +17329,60 @@
 },
 {
   "type": "way",
+  "id": 127858927,
+  "center": {
+    "lat": 44.0350770,
+    "lon": 1.3704925
+  },
+  "nodes": [
+    1414214764,
+    1414217410,
+    1414181597,
+    1414167784,
+    1414214764
+  ],
+  "tags": {
+    "addr:city": "Montauban",
+    "addr:housenumber": "1630",
+    "addr:postcode": "82000",
+    "addr:street": "Avenue de Fontneuve",
+    "bulk_purchase": "yes",
+    "contact:phone": "+33 5 63030742",
+    "name": "Biocoop",
+    "opening_hours": "Mo 14:30-19:30; Tu-Sa 09:30-19:30",
+    "organic": "only",
+    "shop": "supermarket",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"
+  }
+},
+{
+  "type": "way",
+  "id": 129741231,
+  "center": {
+    "lat": 45.1420495,
+    "lon": 5.3014495
+  },
+  "nodes": [
+    1430741995,
+    1430741928,
+    1430741866,
+    1430742021,
+    1430742067,
+    1430742128,
+    1430741995
+  ],
+  "tags": {
+    "building": "retail",
+    "bulk_purchase": "yes",
+    "name": "Biocoop",
+    "opening_hours": "Mo-Sa 09:00-19:00",
+    "organic": "only",
+    "shop": "supermarket",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"
+  }
+},
+{
+  "type": "way",
   "id": 130563221,
   "center": {
     "lat": 43.4770215,
@@ -15062,6 +17518,104 @@
 },
 {
   "type": "way",
+  "id": 133283242,
+  "center": {
+    "lat": 43.3405070,
+    "lon": 3.2162790
+  },
+  "nodes": [
+    1466796080,
+    1466796762,
+    1466796806,
+    1466796457,
+    1466796309,
+    1466796048,
+    1466795635,
+    1466795603,
+    1466796080
+  ],
+  "tags": {
+    "addr:city": "Béziers",
+    "addr:housenumber": "7",
+    "addr:postcode": "34500",
+    "addr:street": "Place Jean Jaurès",
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "building": "yes",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire",
+    "opening_hours": "Mo 14:00-19:30, Tu-Sa 09:00-19:30",
+    "organic": "only",
+    "shop": "supermarket",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011",
+    "website": "http://www.lavieclaire.com/magasin-bio/beziers.html"
+  }
+},
+{
+  "type": "way",
+  "id": 135415545,
+  "center": {
+    "lat": 43.9922004,
+    "lon": 4.8947970
+  },
+  "nodes": [
+    1128434765,
+    1128696205,
+    1487262207,
+    1128453551,
+    1128528322,
+    1128809762,
+    1128601431,
+    1128434765
+  ],
+  "tags": {
+    "building": "yes",
+    "bulk_purchase": "yes",
+    "name": "Biocoop",
+    "organic": "only",
+    "shop": "supermarket",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"
+  }
+},
+{
+  "type": "way",
+  "id": 136656556,
+  "center": {
+    "lat": 50.5236815,
+    "lon": 2.6407065
+  },
+  "nodes": [
+    1907340490,
+    1498908597,
+    1498908821,
+    1498908807,
+    1498908966,
+    1498908964,
+    1498908980,
+    1498908979,
+    1498909135,
+    1498909130,
+    1498908554,
+    1907340490
+  ],
+  "tags": {
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "building": "yes",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire",
+    "organic": "only",
+    "shop": "supermarket",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011",
+    "website": "http://www.lavieclaire.com/magasin-bio/bethune.html"
+  }
+},
+{
+  "type": "way",
   "id": 139669881,
   "center": {
     "lat": 43.7273935,
@@ -15128,6 +17682,68 @@
     "name": "Biocoop",
     "organic": "only",
     "shop": "supermarket",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"
+  }
+},
+{
+  "type": "way",
+  "id": 139686118,
+  "center": {
+    "lat": 49.6029145,
+    "lon": -1.6621005
+  },
+  "nodes": [
+    1531019204,
+    1531019217,
+    1531019253,
+    1531019238,
+    1531019204
+  ],
+  "tags": {
+    "addr:city": "Martinvast",
+    "addr:housenumber": "15",
+    "addr:postcode": "50690",
+    "addr:street": "Rue Charles Delauney",
+    "brand:wikidata": "Q2904039",
+    "brand:wikipedia": "fr:Biocoop",
+    "building": "yes",
+    "bulk_purchase": "yes",
+    "level": "0",
+    "name": "Biocoop Le Rabio",
+    "operator": "Le Rabio",
+    "organic": "only",
+    "phone": "+33 2 33 93 93 03",
+    "shop": "supermarket",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011",
+    "website": "http://lerabio.free.fr"
+  }
+},
+{
+  "type": "way",
+  "id": 142062583,
+  "center": {
+    "lat": 43.6978165,
+    "lon": 7.2653545
+  },
+  "nodes": [
+    1554855747,
+    1554855746,
+    1554855751,
+    1554855722,
+    1554855719,
+    1554855674,
+    1554855695,
+    1554855712,
+    1554855747
+  ],
+  "tags": {
+    "addr:city": "Nice",
+    "addr:housenumber": "2",
+    "addr:postcode": "06000",
+    "addr:street": "Place Grimaldi",
+    "bulk_purchase": "yes",
+    "name": "Biocoop Grimaldi",
+    "organic": "only",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"
   }
 },
@@ -15960,6 +18576,56 @@
 },
 {
   "type": "way",
+  "id": 181017901,
+  "center": {
+    "lat": 49.4156235,
+    "lon": 1.1193635
+  },
+  "nodes": [
+    3340451285,
+    1914618660,
+    1914618610,
+    1914618601,
+    1914618603,
+    1914618645,
+    1914618664,
+    1914618696,
+    3340451289,
+    4471975317,
+    4471975316,
+    4471975315,
+    4471975314,
+    4471975313,
+    4471975312,
+    4471975311,
+    4471975310,
+    1914618731,
+    4471975304,
+    3340451285
+  ],
+  "tags": {
+    "addr:city": "Amfreville-la-Mi-Voie",
+    "addr:housenumber": "161",
+    "addr:postcode": "76920",
+    "addr:street": "Route de Paris",
+    "brand:wikipedia": "fr:Biocoop",
+    "building": "retail",
+    "bulk_purchase": "yes",
+    "delivery": "no",
+    "drive_through": "yes",
+    "email": "contact@biocoop-rouen.fr",
+    "name": "Biocoop",
+    "operator": "Biocoop du Rouennais",
+    "organic": "only",
+    "phone": "+33 2 32 10 05 31",
+    "shop": "supermarket",
+    "source": "survey",
+    "website": "http://biocoop-rouen.fr",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
   "id": 182713092,
   "center": {
     "lat": 47.2037051,
@@ -16447,6 +19113,36 @@
 },
 {
   "type": "way",
+  "id": 230703926,
+  "center": {
+    "lat": 48.1868950,
+    "lon": 0.6513210
+  },
+  "nodes": [
+    2391667511,
+    2391667424,
+    2391667469,
+    2391667394,
+    2391667351,
+    2391667544,
+    2391667595,
+    2391667599,
+    2391667710,
+    2391667815,
+    2391667511
+  ],
+  "tags": {
+    "building": "yes",
+    "bulk_purchase": "yes",
+    "name": "Biocoop",
+    "operator": "Biocoop",
+    "organic": "only",
+    "shop": "supermarket",
+    "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2013"
+  }
+},
+{
+  "type": "way",
   "id": 233870192,
   "center": {
     "lat": 44.9045444,
@@ -16784,6 +19480,37 @@
 },
 {
   "type": "way",
+  "id": 286719869,
+  "center": {
+    "lat": 44.1787927,
+    "lon": 0.6318339
+  },
+  "nodes": [
+    2903963151,
+    2903962849,
+    2903962818,
+    2903962619,
+    2903962478,
+    2903963121,
+    2903963151
+  ],
+  "tags": {
+    "building": "yes",
+    "bulk_purchase": "yes",
+    "contact:housenumber": "22",
+    "contact:phone": "+33 5 53 47 57 02",
+    "currency:XLT": "ABLL",
+    "name": "Biocoop Pré Vert Boé et Agen",
+    "opening_hours": "Mo 14:00-20:00; Tu-Sa 10:00-20:00",
+    "organic": "only",
+    "payment:cash:XLT-ABLL": "yes",
+    "shop": "supermarket",
+    "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2014",
+    "website": "http://www.biocoop-lot-et-garonne.fr/"
+  }
+},
+{
+  "type": "way",
   "id": 287711231,
   "center": {
     "lat": 48.0178585,
@@ -16818,6 +19545,35 @@
     "shop": "supermarket",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2014",
     "website": "http://lefenouil-biocoop.fr"
+  }
+},
+{
+  "type": "way",
+  "id": 289497093,
+  "center": {
+    "lat": 45.7471278,
+    "lon": 4.7432726
+  },
+  "nodes": [
+    2930577360,
+    2930577361,
+    5064218818,
+    2930577362,
+    2930577363,
+    2930577360
+  ],
+  "tags": {
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "building": "yes",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire",
+    "organic": "only",
+    "phone": "+33 4 78 73 06 96",
+    "shop": "supermarket",
+    "website": "http://www.lavieclaire.com/magasin-bio/craponne.html"
   }
 },
 {
@@ -16888,6 +19644,83 @@
     "shop": "supermarket",
     "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2014",
     "website": "http://callune.biocoop.net"
+  }
+},
+{
+  "type": "way",
+  "id": 313218551,
+  "center": {
+    "lat": 45.2107169,
+    "lon": 5.7636378
+  },
+  "nodes": [
+    3191273258,
+    3191273260,
+    3191273259,
+    3191273261,
+    3191273257,
+    3191273256,
+    3191273253,
+    3191273252,
+    3191273255,
+    3191273254,
+    3191273258
+  ],
+  "tags": {
+    "addr:city": "Meylan",
+    "addr:housenumber": "21",
+    "addr:postcode": "38240",
+    "addr:street": "Avenue du Grésivaudan",
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "building": "retail",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire",
+    "opening_hours": "Mo-Sa 09:00-19:30",
+    "operator": "La Vie Claire",
+    "organic": "only",
+    "phone": "+33476540908",
+    "shop": "supermarket",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre;mise à jour :2012",
+    "website": "http://www.lavieclaire.com/magasin-bio/meylan.html",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 322654266,
+  "center": {
+    "lat": 44.7218178,
+    "lon": 5.0375417
+  },
+  "nodes": [
+    3294275462,
+    3294275461,
+    3294275463,
+    4974298506,
+    4974298507,
+    4974298508,
+    4974298509,
+    3294275464,
+    4974298510,
+    4974298511,
+    4974298512,
+    4974298513,
+    3294275462
+  ],
+  "tags": {
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "building": "retail",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire",
+    "organic": "only",
+    "shop": "supermarket",
+    "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2017"
   }
 },
 {
@@ -17066,6 +19899,94 @@
 },
 {
   "type": "way",
+  "id": 458251270,
+  "center": {
+    "lat": 45.8996945,
+    "lon": 0.9208749
+  },
+  "nodes": [
+    4542888744,
+    4542888745,
+    4542888749,
+    4542888756,
+    4542888764,
+    4542888757,
+    4542888747,
+    4542888748,
+    4542888744
+  ],
+  "tags": {
+    "brand": "Biocoop",
+    "building": "yes",
+    "bulk_purchase": "yes",
+    "change:XLT-PELU": "yes",
+    "contact:phone": "+33 5 55 01 35 09",
+    "currency:XLT": "PELU",
+    "name": "Biocoop Au p’tit épeautre",
+    "opening_hours": "Tu-Fr 09:30-13:00,14:30-19:00; Sa 09:30-19:00",
+    "organic": "only",
+    "payment:cash:XLT-PELU": "yes",
+    "ref:FR:NAF": "4729Z",
+    "ref:FR:SIRET": "53478673600015",
+    "shop": "convenience",
+    "website": "http://saintjunien.biocoop.net"
+  }
+},
+{
+  "type": "way",
+  "id": 474112028,
+  "center": {
+    "lat": 44.1201959,
+    "lon": 1.1188475
+  },
+  "nodes": [
+    4681294945,
+    4396634129,
+    4396634135,
+    4681294944,
+    4681294945
+  ],
+  "tags": {
+    "addr:housenumber": "715",
+    "addr:street": "Route de La Mégère",
+    "building": "commercial",
+    "bulk_purchase": "yes",
+    "name": "Biocoop",
+    "opening_hours": "Tu-Fr 09:30-13:00; Tu-Fr 15:00-19:00; Sa 09:30-19:00",
+    "operator": "JOLUTOMFR",
+    "organic": "only",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "way",
+  "id": 480222685,
+  "center": {
+    "lat": 45.8894462,
+    "lon": 4.8282320
+  },
+  "nodes": [
+    4732302493,
+    4732302052,
+    4732302490,
+    4732302491,
+    4732302492,
+    4732302493
+  ],
+  "tags": {
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "http://www.lavieclaire.com/magasin-bio/genay.html"
+  }
+},
+{
+  "type": "way",
   "id": 501258680,
   "center": {
     "lat": 43.3014429,
@@ -17157,6 +20078,35 @@
 },
 {
   "type": "way",
+  "id": 529474837,
+  "center": {
+    "lat": 43.7043705,
+    "lon": 1.7991868
+  },
+  "nodes": [
+    5143202876,
+    5143202877,
+    5143202878,
+    5143202879,
+    5143202881,
+    5143202880,
+    5143202876
+  ],
+  "tags": {
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "building": "yes",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "http://www.lavieclaire.com/magasin-bio/lavaur.html"
+  }
+},
+{
+  "type": "way",
   "id": 536095581,
   "center": {
     "lat": 46.4611023,
@@ -17238,6 +20188,68 @@
 },
 {
   "type": "way",
+  "id": 563049708,
+  "center": {
+    "lat": 47.9861204,
+    "lon": 0.2244387
+  },
+  "nodes": [
+    5426781748,
+    797011010,
+    796846021,
+    5426781747,
+    5426781746,
+    5426781744,
+    5426781749,
+    5426781742,
+    5426781739,
+    5426781748
+  ],
+  "tags": {
+    "addr:city": "Le Mans",
+    "addr:housenumber": "4",
+    "addr:postcode": "72000",
+    "addr:street": "Avenue d'Haouza",
+    "building": "yes",
+    "bulk_purchase": "yes",
+    "name": "Le fenouil - Biocoop",
+    "organic": "only",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "way",
+  "id": 565474608,
+  "center": {
+    "lat": 45.4359427,
+    "lon": 6.0079740
+  },
+  "nodes": [
+    794486192,
+    5445877694,
+    5445877695,
+    5445877696,
+    5445877697,
+    5445877698,
+    5445877699,
+    794483801,
+    794486192
+  ],
+  "tags": {
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "building": "yes",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "http://www.lavieclaire.com/magasin-bio/pontcharra.html"
+  }
+},
+{
+  "type": "way",
   "id": 576056640,
   "center": {
     "lat": 48.7715506,
@@ -17266,6 +20278,41 @@
     "phone": "+33 2 96 20 86 94",
     "shop": "supermarket",
     "website": "http://www.biocooplunesol.com/"
+  }
+},
+{
+  "type": "way",
+  "id": 601137380,
+  "center": {
+    "lat": 47.2882059,
+    "lon": 5.9932948
+  },
+  "nodes": [
+    5714131858,
+    5714131857,
+    5714131856,
+    5714131855,
+    5714131854,
+    5714131853,
+    5714131852,
+    5714131851,
+    5714131850,
+    5714131849,
+    5714131848,
+    5714131847,
+    5714131846,
+    5714131845,
+    5714131858
+  ],
+  "tags": {
+    "addr:city": "Châtillon-le-Duc",
+    "addr:postcode": "25870",
+    "addr:street": "Rue des Maurapans",
+    "building": "yes",
+    "bulk_purchase": "yes",
+    "name": "Biocoop",
+    "shop": "supermarket",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"
   }
 }
 
