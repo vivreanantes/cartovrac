@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.55.4 3079d8ea",
   "osm3s": {
-    "timestamp_osm_base": "2018-08-31T06:18:02Z",
-    "timestamp_areas_base": "2018-08-31T05:18:02Z",
+    "timestamp_osm_base": "2018-09-02T12:03:02Z",
+    "timestamp_areas_base": "2018-09-02T11:28:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -2139,6 +2139,7 @@
     "contact:street": "Place du Pilori",
     "cuisine": "sandwich",
     "name": "La Tartinerie",
+    "opening_hours:signed": "no",
     "takeaway": "yes",
     "wheelchair": "yes"
   }
@@ -2243,7 +2244,8 @@
     "cuisine": "bistro",
     "name": "La Grande Barge",
     "outdoor_seating": "yes",
-    "takeaway": "yes"
+    "takeaway": "yes",
+    "website": "https://ledebutdesharicots.fr/"
   }
 },
 {
@@ -3009,7 +3011,7 @@
     "description": "Boutique sans emballage. Produits alimentaires (farine,céréales,pâtes...), produits du quotidien (lessive…)",
     "name": "Dose - Epicerie sans emballage",
     "office": "accountant",
-    "opening_hours": "Tu-Sa 10:00-13:00,15:00-19:00; Su 10:00-13:00",
+    "opening_hours": "[Tu] [Fr] 10:00-19:00; [We] [Th] [Sa] 10:00-13:00,15:00-19:00; [Su] 10:00-13:00",
     "organic": "only",
     "shop": "convenience",
     "source": "Association Mieux trier à Nantes, 08/2018",
@@ -10521,14 +10523,16 @@
 {
   "type": "node",
   "id": 5839057435,
-  "lat": 45.4446478,
-  "lon": -0.4373275,
+  "lat": 45.4446426,
+  "lon": -0.4373007,
   "tags": {
     "brand": "La Vie Claire",
     "brand:wikidata": "Q3213589",
     "brand:wikipedia": "fr:La Vie claire",
     "bulk_purchase": "yes",
+    "contact:phone": "+33 5 46860688",
     "name": "La Vie Claire",
+    "opening_hours": "Tu-Sa 10:00-19:00",
     "organic": "only",
     "shop": "supermarket",
     "website": "http://www.lavieclaire.com/magasin-bio/jonzac.html"
@@ -11577,6 +11581,50 @@
     "name": "Au gramme près",
     "opening_hours": "Mo 14:00-19:00; Tu-Sa 10:00-19:00",
     "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 5870272919,
+  "lat": 47.2768934,
+  "lon": -2.2110129,
+  "tags": {
+    "addr:housenumber": "38",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/secretdelanature/",
+    "name": "Les Secrets de la Nature",
+    "organic": "yes",
+    "shop": "cosmetics",
+    "website": "https://www.lessecretsdelanature.net"
+  }
+},
+{
+  "type": "node",
+  "id": 5870778380,
+  "lat": 50.4751425,
+  "lon": 3.2444321,
+  "tags": {
+    "addr:housenumber": "2",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/unautremonde59310/",
+    "name": "Un Autre Monde",
+    "organic": "yes",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 5870778381,
+  "lat": 47.2798300,
+  "lon": -2.2149130,
+  "tags": {
+    "addr:housenumber": "46",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/lacorbeille44600/",
+    "name": "Epicerie La Corbeille",
+    "organic": "yes",
+    "shop": "convenience",
+    "website": "https://monquartierdeshalles.wordpress.com/2015/10/30/la-corbeille/"
   }
 },
 {
@@ -14178,9 +14226,9 @@
   "nodes": [
     2534779991,
     1079183393,
-    2510783162,
     1079298252,
     1079175353,
+    2510783162,
     1079260866,
     1079197288,
     1079299447,
@@ -16229,10 +16277,10 @@
   "tags": {
     "building": "yes",
     "bulk_purchase": "only",
+    "disused:shop": "convenience",
     "facebook": "https://www.facebook.com/Sainbios-137427169737634/",
     "name": "Sainbio's",
     "organic": "only",
-    "shop": "convenience",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013"
   }
 },

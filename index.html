@@ -55,8 +55,13 @@
 
 
 
+
 		<a class="anchor" id="jumptomap"></a>
-		<div id="map" style="width: 100%;  height: 90%; z-index: 1;"></div>
+
+		<div id="map-container">
+			<a id="cartovrac_link" href="https://cartovrac.fr" target="_blank"><img src="img/cartovrac_link.png"></a>
+			<div id="map"></div>
+		</div>
 
 	<div id="content">
 
@@ -159,8 +164,8 @@
             return found;
         };
 		if (getQueryParam("mode")=="embedded") {
-		    document.getElementById('map').style.top = "0px";
-		    document.getElementById('map').style.height = "100%";
+		    document.getElementById('map').style.top = "0";
+		    document.getElementById('cartovrac_link').style.display = "block";
 			document.getElementById('menuToggle').style.display = 'none';
 			document.getElementById('content').style.display = 'none';
 		}
