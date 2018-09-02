@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.55.4 3079d8ea",
   "osm3s": {
-    "timestamp_osm_base": "2018-08-27T12:52:02Z",
-    "timestamp_areas_base": "2018-08-27T12:37:02Z",
+    "timestamp_osm_base": "2018-09-02T13:00:02Z",
+    "timestamp_areas_base": "2018-09-02T12:24:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -275,6 +275,32 @@
     "service:computer:repair": "yes",
     "service:small_electronics_device:repair": "yes",
     "source": "Association Mieux trier à Nantes, 08/2018"
+  }
+},
+{
+  "type": "node",
+  "id": 5875613961,
+  "lat": 47.1966028,
+  "lon": -1.5653749,
+  "tags": {
+    "addr:city": "Rezé",
+    "addr:housenumber": "90",
+    "addr:postcode": "44400",
+    "addr:street": "Rue de la Basse Île",
+    "amenity": "workshop",
+    "contact:email": "contact@laressourceriedelile.com",
+    "contact:website": "http://www.laressourceriedelile.com",
+    "description": " atelier collaboratif de réparation d’appareil électrique et de retouche de vêtements et textile",
+    "name": "Repair Café de la Ressourcerie de l'ïle",
+    "office": "association",
+    "repair": "assisted_self_service",
+    "service:bicycle:repair": "yes",
+    "service:camera:repair": "yes",
+    "service:computer:repair": "yes",
+    "service:fabrik:repair": "yes",
+    "service:furniture:repair": "yes",
+    "service:small_electronics_device": "yes",
+    "source": "Mieux trier à Nantes, 09/2018"
   }
 }
 

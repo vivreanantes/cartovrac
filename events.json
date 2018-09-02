@@ -1,9 +1,336 @@
 {
 	"readme": "Results are paginated. See: https://openagenda.zendesk.com/hc/fr/articles/203034982-L-export-JSON-d-un-agenda",
-	"total": 3,
+	"total": 4,
 	"offset": 0,
 	"limit": 20,
 	"events": [{
+			"uid": 78797909,
+			"slug": "repair-cafe-de-helix-le-mans",
+			"canonicalUrl": "https://openagenda.com/ateliers-de-co-reparation/events/repair-cafe-de-helix-le-mans",
+			"title": {
+				"fr": "Repair Café de Hélix (Le Mans)"
+			},
+			"description": {
+				"fr": "Ateliers collaboratifs en faveur de l'économie circulaire et la réduction des déchets. "
+			},
+			"longDescription": {
+				"fr": "Notre association propose au grand public des actions en faveur de l'économie circulaire et de la réduction des déchets : Repair Café, Install parties / Logiciels libres, Gratiferias sous la forme d'atelier collaboratifs."
+			},
+			"keywords": {
+				"fr": ["petit_électronique", "ordinateur"]
+			},
+			"html": {
+				"fr": "<p>Notre association propose au grand public des actions en faveur de l&#39;économie circulaire et de la réduction des déchets : Repair Café, Install parties / Logiciels libres, Gratiferias sous la forme d&#39;atelier collaboratifs.</p>"
+			},
+			"image": "https://cibul.s3.amazonaws.com/event_repair-cafe-de-helix-le-mans_589498.jpg",
+			"thumbnail": "https://cibul.s3.amazonaws.com/evtbevent_repair-cafe-de-helix-le-mans_589498.jpg",
+			"originalImage": "https://cibul.s3.amazonaws.com/evfevent_repair-cafe-de-helix-le-mans_589498.jpg",
+			"age": {
+				"min": 0,
+				"max": 99
+			},
+			"accessibility": [],
+			"updatedAt": "2018-09-02T09:28:41.000Z",
+			"range": {
+				"fr": "1 septembre 2018 - 28 décembre 2019, les samedis",
+				"en": "1 September 2018 - 28 December 2019, on saturdays"
+			},
+			"imageCredits": null,
+			"origin": {
+				"uid": 17121232,
+				"title": "Ateliers de co-réparation",
+				"url": null,
+				"slug": "ateliers-de-co-reparation",
+				"oaUrl": "https://openagenda.com/agendas/17121232"
+			},
+			"conditions": {
+				"fr": "ouvert au grand public, gratuit"
+			},
+			"registrationUrl": "centrehelix@free.fr, http://repaircafe-lemans.org/, https://www.facebook.com/RepairCafe.LeMans, https://twitter.com/repair_LeMans",
+			"locationName": "Le Mans (le lieu varie)",
+			"locationUid": 71891251,
+			"address": "le mans",
+			"postalCode": null,
+			"city": "Le Mans",
+			"district": null,
+			"department": "Sarthe",
+			"region": "Pays de la Loire",
+			"latitude": 48.006787,
+			"longitude": 0.199533,
+			"timings": [{
+					"start": "2018-09-01T12:00:00.000Z",
+					"end": "2018-09-01T16:00:00.000Z"
+				}, {
+					"start": "2018-09-08T12:00:00.000Z",
+					"end": "2018-09-08T16:00:00.000Z"
+				}, {
+					"start": "2018-09-15T12:00:00.000Z",
+					"end": "2018-09-15T16:00:00.000Z"
+				}, {
+					"start": "2018-09-22T12:00:00.000Z",
+					"end": "2018-09-22T16:00:00.000Z"
+				}, {
+					"start": "2018-09-29T12:00:00.000Z",
+					"end": "2018-09-29T16:00:00.000Z"
+				}, {
+					"start": "2018-10-06T12:00:00.000Z",
+					"end": "2018-10-06T16:00:00.000Z"
+				}, {
+					"start": "2018-10-13T12:00:00.000Z",
+					"end": "2018-10-13T16:00:00.000Z"
+				}, {
+					"start": "2018-10-20T12:00:00.000Z",
+					"end": "2018-10-20T16:00:00.000Z"
+				}, {
+					"start": "2018-10-27T12:00:00.000Z",
+					"end": "2018-10-27T16:00:00.000Z"
+				}, {
+					"start": "2018-11-03T13:00:00.000Z",
+					"end": "2018-11-03T17:00:00.000Z"
+				}, {
+					"start": "2018-11-10T13:00:00.000Z",
+					"end": "2018-11-10T17:00:00.000Z"
+				}, {
+					"start": "2018-11-17T13:00:00.000Z",
+					"end": "2018-11-17T17:00:00.000Z"
+				}, {
+					"start": "2018-11-24T13:00:00.000Z",
+					"end": "2018-11-24T17:00:00.000Z"
+				}, {
+					"start": "2018-12-01T13:00:00.000Z",
+					"end": "2018-12-01T17:00:00.000Z"
+				}, {
+					"start": "2018-12-08T13:00:00.000Z",
+					"end": "2018-12-08T17:00:00.000Z"
+				}, {
+					"start": "2018-12-15T13:00:00.000Z",
+					"end": "2018-12-15T17:00:00.000Z"
+				}, {
+					"start": "2018-12-22T13:00:00.000Z",
+					"end": "2018-12-22T17:00:00.000Z"
+				}, {
+					"start": "2018-12-29T13:00:00.000Z",
+					"end": "2018-12-29T17:00:00.000Z"
+				}, {
+					"start": "2019-01-05T13:00:00.000Z",
+					"end": "2019-01-05T17:00:00.000Z"
+				}, {
+					"start": "2019-01-12T13:00:00.000Z",
+					"end": "2019-01-12T17:00:00.000Z"
+				}, {
+					"start": "2019-01-19T13:00:00.000Z",
+					"end": "2019-01-19T17:00:00.000Z"
+				}, {
+					"start": "2019-01-26T13:00:00.000Z",
+					"end": "2019-01-26T17:00:00.000Z"
+				}, {
+					"start": "2019-02-02T13:00:00.000Z",
+					"end": "2019-02-02T17:00:00.000Z"
+				}, {
+					"start": "2019-02-09T13:00:00.000Z",
+					"end": "2019-02-09T17:00:00.000Z"
+				}, {
+					"start": "2019-02-16T13:00:00.000Z",
+					"end": "2019-02-16T17:00:00.000Z"
+				}, {
+					"start": "2019-02-23T13:00:00.000Z",
+					"end": "2019-02-23T17:00:00.000Z"
+				}, {
+					"start": "2019-03-02T13:00:00.000Z",
+					"end": "2019-03-02T17:00:00.000Z"
+				}, {
+					"start": "2019-03-09T13:00:00.000Z",
+					"end": "2019-03-09T17:00:00.000Z"
+				}, {
+					"start": "2019-03-16T13:00:00.000Z",
+					"end": "2019-03-16T17:00:00.000Z"
+				}, {
+					"start": "2019-03-23T13:00:00.000Z",
+					"end": "2019-03-23T17:00:00.000Z"
+				}, {
+					"start": "2019-03-30T13:00:00.000Z",
+					"end": "2019-03-30T17:00:00.000Z"
+				}, {
+					"start": "2019-04-06T12:00:00.000Z",
+					"end": "2019-04-06T16:00:00.000Z"
+				}, {
+					"start": "2019-04-13T12:00:00.000Z",
+					"end": "2019-04-13T16:00:00.000Z"
+				}, {
+					"start": "2019-04-20T12:00:00.000Z",
+					"end": "2019-04-20T16:00:00.000Z"
+				}, {
+					"start": "2019-04-27T12:00:00.000Z",
+					"end": "2019-04-27T16:00:00.000Z"
+				}, {
+					"start": "2019-05-04T12:00:00.000Z",
+					"end": "2019-05-04T16:00:00.000Z"
+				}, {
+					"start": "2019-05-11T12:00:00.000Z",
+					"end": "2019-05-11T16:00:00.000Z"
+				}, {
+					"start": "2019-05-18T12:00:00.000Z",
+					"end": "2019-05-18T16:00:00.000Z"
+				}, {
+					"start": "2019-05-25T12:00:00.000Z",
+					"end": "2019-05-25T16:00:00.000Z"
+				}, {
+					"start": "2019-06-01T12:00:00.000Z",
+					"end": "2019-06-01T16:00:00.000Z"
+				}, {
+					"start": "2019-06-08T12:00:00.000Z",
+					"end": "2019-06-08T16:00:00.000Z"
+				}, {
+					"start": "2019-06-15T12:00:00.000Z",
+					"end": "2019-06-15T16:00:00.000Z"
+				}, {
+					"start": "2019-06-22T12:00:00.000Z",
+					"end": "2019-06-22T16:00:00.000Z"
+				}, {
+					"start": "2019-06-29T12:00:00.000Z",
+					"end": "2019-06-29T16:00:00.000Z"
+				}, {
+					"start": "2019-07-06T12:00:00.000Z",
+					"end": "2019-07-06T16:00:00.000Z"
+				}, {
+					"start": "2019-07-13T12:00:00.000Z",
+					"end": "2019-07-13T16:00:00.000Z"
+				}, {
+					"start": "2019-07-20T12:00:00.000Z",
+					"end": "2019-07-20T16:00:00.000Z"
+				}, {
+					"start": "2019-07-27T12:00:00.000Z",
+					"end": "2019-07-27T16:00:00.000Z"
+				}, {
+					"start": "2019-08-03T12:00:00.000Z",
+					"end": "2019-08-03T16:00:00.000Z"
+				}, {
+					"start": "2019-08-10T12:00:00.000Z",
+					"end": "2019-08-10T16:00:00.000Z"
+				}, {
+					"start": "2019-08-17T12:00:00.000Z",
+					"end": "2019-08-17T16:00:00.000Z"
+				}, {
+					"start": "2019-08-24T12:00:00.000Z",
+					"end": "2019-08-24T16:00:00.000Z"
+				}, {
+					"start": "2019-08-31T12:00:00.000Z",
+					"end": "2019-08-31T16:00:00.000Z"
+				}, {
+					"start": "2019-09-07T12:00:00.000Z",
+					"end": "2019-09-07T16:00:00.000Z"
+				}, {
+					"start": "2019-09-14T12:00:00.000Z",
+					"end": "2019-09-14T16:00:00.000Z"
+				}, {
+					"start": "2019-09-21T12:00:00.000Z",
+					"end": "2019-09-21T16:00:00.000Z"
+				}, {
+					"start": "2019-09-28T12:00:00.000Z",
+					"end": "2019-09-28T16:00:00.000Z"
+				}, {
+					"start": "2019-10-05T12:00:00.000Z",
+					"end": "2019-10-05T16:00:00.000Z"
+				}, {
+					"start": "2019-10-12T12:00:00.000Z",
+					"end": "2019-10-12T16:00:00.000Z"
+				}, {
+					"start": "2019-10-19T12:00:00.000Z",
+					"end": "2019-10-19T16:00:00.000Z"
+				}, {
+					"start": "2019-10-26T12:00:00.000Z",
+					"end": "2019-10-26T16:00:00.000Z"
+				}, {
+					"start": "2019-11-02T13:00:00.000Z",
+					"end": "2019-11-02T17:00:00.000Z"
+				}, {
+					"start": "2019-11-09T13:00:00.000Z",
+					"end": "2019-11-09T17:00:00.000Z"
+				}, {
+					"start": "2019-11-16T13:00:00.000Z",
+					"end": "2019-11-16T17:00:00.000Z"
+				}, {
+					"start": "2019-11-23T13:00:00.000Z",
+					"end": "2019-11-23T17:00:00.000Z"
+				}, {
+					"start": "2019-11-30T13:00:00.000Z",
+					"end": "2019-11-30T17:00:00.000Z"
+				}, {
+					"start": "2019-12-07T13:00:00.000Z",
+					"end": "2019-12-07T17:00:00.000Z"
+				}, {
+					"start": "2019-12-14T13:00:00.000Z",
+					"end": "2019-12-14T17:00:00.000Z"
+				}, {
+					"start": "2019-12-21T13:00:00.000Z",
+					"end": "2019-12-21T17:00:00.000Z"
+				}, {
+					"start": "2019-12-28T13:00:00.000Z",
+					"end": "2019-12-28T17:00:00.000Z"
+				}
+			],
+			"location": {
+				"uid": 71891251,
+				"name": "Le Mans (le lieu varie)",
+				"slug": "le-mans-le-lieu-varie",
+				"address": "le mans",
+				"image": null,
+				"imageCredits": null,
+				"postalCode": null,
+				"city": "Le Mans",
+				"district": null,
+				"department": "Sarthe",
+				"region": "Pays de la Loire",
+				"latitude": 48.006787,
+				"longitude": 0.199533,
+				"description": {},
+				"access": {},
+				"countryCode": "fr",
+				"website": null,
+				"links": [],
+				"insee": "72181",
+				"phone": null,
+				"tags": null,
+				"timezone": "Europe/Paris",
+				"updatedAt": "2018-09-02T08:56:02.000Z",
+				"country": {
+					"en": "France (Metropolitan)",
+					"fr": "France (Métropole)",
+					"code": "FR"
+				}
+			},
+			"registration": [{
+					"value": "centrehelix@free.fr",
+					"type": "email",
+					"prefix": "mailto:"
+				}, {
+					"value": "http://repaircafe-lemans.org/",
+					"type": "link",
+					"prefix": ""
+				}, {
+					"value": "https://www.facebook.com/RepairCafe.LeMans",
+					"type": "link",
+					"prefix": ""
+				}, {
+					"value": "https://twitter.com/repair_LeMans",
+					"type": "link",
+					"prefix": ""
+				}
+			],
+			"firstDate": "2018-09-01",
+			"firstTimeStart": "14:00",
+			"firstTimeEnd": "18:00",
+			"lastDate": "2019-12-28",
+			"lastTimeStart": "14:00",
+			"lastTimeEnd": "18:00",
+			"featured": 0,
+			"hasPrivateCustomFields": false,
+			"custom": {},
+			"contributor": null,
+			"category": null,
+			"tags": [],
+			"tagGroups": []
+		}, {
 			"uid": 22361184,
 			"slug": "repair-cafe-sainte-luce-septembre",
 			"canonicalUrl": "https://openagenda.com/ateliers-de-co-reparation/events/repair-cafe-sainte-luce-septembre",
