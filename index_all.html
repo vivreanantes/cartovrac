@@ -1,0 +1,183 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+
+		<title>Ateliers de co_réparation</title>
+		<meta name=”description”
+		content="Carte des ateliers de co-réparation." />
+		<meta name=”keywords” content="repai café" />
+		<meta property="og:title" content="Réparation" />
+		<meta property="og:site_name" content="Ateliers de co-réparation" />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="http://www.coreparation.fr" />
+		<meta property="og:image" content="logo-carte-all.png" />
+		<meta property="og:description" content="Carte des ateliers de co-réparation."  />
+		<meta property="og:locale" content="fr_FR" />
+
+		<link rel="icon" type="image/png" href="logo.png" />
+
+		<link rel="stylesheet" href="css/styles.css">
+		<link rel="stylesheet" href="lib/leaflet-1.3.1/leaflet.css"/>
+		<link rel="stylesheet" href="lib/mastercluster/MarkerCluster.css" />
+		<link rel="stylesheet" href="lib/mastercluster/MarkerCluster.Default.css" />
+
+		<script src="lib/leaflet-1.3.1/leaflet.js"></script>
+		<script src="lib/mastercluster/leaflet.markercluster.js"></script>
+		<script src="lib/subgroup/subgroup.js"></script>
+		<script src="lib/shopmarker/marker_icons.js"></script>
+		<script src="lib/shopmarker/shopmarker.js"></script>
+		<!--[if IE]> <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+		<!-- Matomo -->
+		<script type="text/javascript">
+		  var _paq = _paq || [];
+		  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+		  _paq.push(['trackPageView']);
+		  _paq.push(['enableLinkTracking']);
+		  (function() {
+			var u="//coreparation44.fr/analytics/piwik/";
+			_paq.push(['setTrackerUrl', u+'piwik.php']);
+			_paq.push(['setSiteId', '1']);
+			var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+			g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+		  })();
+		</script>
+		<!-- End Matomo Code -->
+
+	</head>
+	<body>
+
+		<header>
+			<nav role="navigation">
+				<div id="menuToggle" class="box-shadow">
+				    <div id="burger" onclick="menuToggle()">
+					    <span></span>
+					    <span></span>
+					    <span></span>
+					</div>
+
+					<a href="#jumptomap"><h1 style='font-size:12px'>Ateliers de co-réparation</h1></a>
+
+					<ul id="menu" class="menu">
+						<a href="#jumptomap" onclick="closeMenu()" title="Carte des repairs café"><li>Carte</li></a>
+						<a href="#calendrier" onclick="closeMenu()"><li>Calendrier</li></a>
+						<a href="#projet" onclick="closeMenu()"><li>Projet</li></a>
+						<a href="#vert" onclick="closeMenu()"><li>Site vert et libre</li></a>
+						<a href="#contribuer" onclick="closeMenu()"><li>Contribuer</li></a>
+						<a href="#contact" onclick="closeMenu()"><li>Contact</li></a>
+					</ul>
+				</div>
+			</nav>
+		</header>
+
+	<div id="header_embedded">
+      Ce contenu provient du site "http://www.coreparation44.fr" réalisé par l'association "Mieux trier à Nantes".<br/>
+	</div>
+
+		<a class="anchor" id="jumptomap"></a>
+		<div id="map" style="width: 100%;  height: 90%; z-index: 1;"></div>
+
+
+	<div id="content">
+
+		<a class="anchor" id="calendrier"></a>
+		<h2>Le calendrier</h2>
+		<p>Rencontre des 2 prochains mois</p>
+
+		<p>
+		<iframe style="width:100%;height:500px" frameborder="0" scrolling="yes" allowtransparency="allowtransparency" class="cibulFrame cbpgbdy" data-oabdy src="calendrier.html?department=all"></iframe>
+		</p>
+
+		<a class="anchor" id="projet"></a>
+		<h2>Le projet</h2>
+		<p>
+			Il existe de nombreux ateliers de réparation collaboratifs. Il arrive parfois que des particuliers se rendent à un atelier de réparation distant, car il ne connaissait pas l'existence d'un lieu plus proche.<br/><br/>
+			Si vous connaissez des structures qui ne sont pas dans la liste des structures listées ci-dessous, dites-le nous.<br/><br/>
+			Merci.<br/><br/>
+			Christian Renoulin, Association Mieux trier à Nantes<br/><br/>
+		</p>
+		<a class="anchor" id="vert"></a>
+		<h2>Un site vert et libre</h2>
+		<p>
+			Ce site a plusieurs particularités :<br/>
+			- la carte n'est pas stockée chez Google mais chez OpenStreetMap qui est une carte libre et qui n'appartient pas à un géant d'internet.<br/>
+			- le calendrier n'est pas stocké chez Facebook mais dans l'agenda libre Open-Agenda.<br/>
+			- afin de diminuer la consommation électrique des requêtes, on ne récupère pas en temps réel les données de l'agenda et de la carte, mais uniquement 1 fois toutes les
+			24 heures et à la demande.<br/>
+			- les statistiques ne sont pas réalisées par "Google Analytics" mais la solution libre Matomo et hébergées sur ce site.<br/>
+			- le code source de ce site est libre, et <a href='https://github.com/vivreanantes/vracanantes/tree/feature/AteliersReparationCollaboratifLoireAtlantique' target=_ne>disponible sur github</a>.
+		</p>
+
+		<a class="anchor" id="contribuer"></a>
+		<h2>Contribuer</h2>
+		<p>Pour la carte, au choix : <br>
+			- remplir le <a href='https://docs.google.com/forms/d/e/1FAIpQLSd95D0AvY4B7biFf7tQz5TNDDg5_4wZXP4U3IOlxkS4McCrxw/viewform' target=_new>formulaire</a><br/>
+			- inscrire les données directement dans OpenStreetMap <a href='http://www.coreparation44.fr/RecetteAjoutAtelierCoReparationSurCarte.pdf' target=_new>en suivant la recette</a>
+		</p>
+		<p>Pour le calendrier : <br>
+			- ajouter l'évènement sur Open-Agenda <a href='http://www.coreparation44.fr/RecetteAjoutEvenementCoReparationDansCalendrier.pdf' target=_new>en suivant la recette</a>
+		</p>
+
+		<a class="anchor" id="contact"></a>
+	  	<h2>Contact</h2>
+	  	<p>Si vous souhaitez participer au projet, nous faire part de données erronées ou nous donner votre avis, vous pouvez nous contacter par email en écrivant à l'adresse : <img src="email.png" style="height: 18px; vertical-align: middle; padding-bottom: 3px;"/></p>
+	  	</div>
+
+	</body>
+
+	<script src="lib/jquery-3.3.1.min.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		function menuToggle() {
+		    document.getElementById("menu").classList.toggle("show");
+		}
+
+		function closeMenu() {
+		    document.getElementById("menu").classList.remove("show");
+		}
+
+		window.onclick = function(event) {
+		  if (!event.target.matches('.dropbtn')) {
+		    var dropdowns = document.getElementsByClassName("dropdown-content");
+		    var i;
+		    for (i = 0; i < dropdowns.length; i++) {
+		      var openDropdown = dropdowns[i];
+		      if (openDropdown.classList.contains('show')) {
+		        openDropdown.classList.remove('show');
+		      }
+		    }
+		  }
+		}
+
+		$(document).on('click', 'a[href^="#"]', function (event) {
+			event.preventDefault();
+	   		$('html, body').animate({
+	       		scrollTop: $($.attr(this, 'href')).offset().top
+	   		}, 500);
+		});
+	</script>
+        <!-- Embedded mod -->
+        <script type="text/javascript">
+          var getQueryParam = function(param) {
+            var found;
+            window.location.search.substr(1).split("&").forEach(function(item) {
+              if (param == item.split("=")[0]) {
+                found = item.split("=")[1];
+              }
+            });
+            return found;
+          };
+		  if (getQueryParam("mode")=="embedded") {
+		    document.getElementById('map').style.top = "10px";
+			  document.getElementById('menuToggle').style.display = 'none';
+			  document.getElementById('content').style.display = 'none';
+			  document.getElementById('header_embedded').style.display = 'block'; //Will show
+		  } else {
+  			document.getElementById('menuToggle').style.display = 'block'; //Will show
+			  document.getElementById('content').style.display = 'block'; //Will show
+			  document.getElementById('header_embedded').style.display = 'none';
+		  }
+      </script>
+        <!-- End Piwik Code -->
+	<script src="vracanantes.js" type="text/javascript"></script>
+</html>
