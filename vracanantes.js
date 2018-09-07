@@ -21,7 +21,7 @@ var map = L.map('map', {
 
 // Add branding and license links
 L.tileLayer(
-	'https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', 
+	'https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}',
 	{
 		attribution: 'Map data &copy; '+
 			'<a href="http://openstreetmap.org">OpenStreetMap</a> contributors, '+
@@ -39,7 +39,7 @@ L.tileLayer(
 var shopsJson, jtbPartners;
 $(document).ready(function(){
 	initSubGroups(map);
-	
+
 	$.when(
 	    $.getJSON('cache_data.json', function(response) {
 	        shopsJson = response.elements
@@ -55,7 +55,7 @@ $(document).ready(function(){
 /**
  * Take a list of shops as JSON and display them in a cluster on the map
  **/
-function addListOfShops() {	
+function addListOfShops() {
 	for (var shopIndex in shopsJson) {
 		var shop = shopsJson[shopIndex]
 		//var shopTags = shop['tags'];
@@ -69,7 +69,7 @@ function addListOfShops() {
 			if (shopCenter) {
 				lat = shopCenter['lat'];
 				lon = shopCenter['lon'];
-			}	
+			}
 		} else {
 			lat = shop['lat'];
 			lon = shop['lon'];
@@ -81,8 +81,14 @@ function addListOfShops() {
 		}
 
 		// Get the type of shop/amenity to manage
-		var type = getTypeRepair(repairTags['service:fabrik:repair'], repairTags['service:bicycle:repair'], repairTags['service:camera:repair'], repairTags['service:computer:repair'], repairTags['service:fabrik:repair'], repairTags['service:furniture:repair'], repairTags['service:small_electronics_device:repair']);
-				
+		var type = getTypeRepair(repairTags['service:fabrik:repair'],
+			repairTags['service:bicycle:repair'],
+			repairTags['service:camera:repair'],
+			repairTags['service:computer:repair'],
+			repairTags['service:fabrik:repair'],
+			repairTags['service:furniture:repair'],
+			repairTags['service:small_electronics_device:repair']);
+
 		if (!type) {
 			continue;
 		}
@@ -101,6 +107,7 @@ function addListOfShops() {
 				repairTags['contact:facebook'],
 				repairTags['contact:phone'],
 				repairTags['contact:website'],
+				repairTags['website'],
 				repairTags['description:fr'],
 				type
 		);
@@ -128,6 +135,7 @@ function getPopupContent(
 		facebook,
 		phone,
 		website,
+		website2,
 		description,
 		type
 ){
@@ -142,18 +150,16 @@ function getPopupContent(
 	if (description) {
 		popup += '<i>'+description+'</i><br />';
 	}
-	popup += getHtmlFormattedAddress(housenumber, street, postcode, city);	
+	popup += getHtmlFormattedAddress(housenumber, street, postcode, city);
 	popup += getHtmlFormattedHours(service_times);
 	if (phone) {
-		popup += phone+'<br />';
+		popup += "Tél : " + phone+'<br />';
 	}
 	if (facebook) {
-		popup += getHtmlFormattedWebsite(facebook);
+		popup += getHtmlFormattedWebsite("Facebook", facebook);
 	}
-	if (phone) {
-		popup += phone+'<br />';
-	}
-	popup += getHtmlFormattedWebsite(website);
+	popup += getHtmlFormattedWebsite("Site web", website);
+	popup += getHtmlFormattedWebsite("Site web", website2);
 	popup += getHtmlFormattedPartnerships(nodeId);
 	return popup;
 }
