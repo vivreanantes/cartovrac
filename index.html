@@ -45,6 +45,22 @@
 		</script>
 		<!-- End Matomo Code -->
 
+		<script src="lib/jquery-3.3.1.min.js" type="text/javascript"></script>
+		<style>
+			.wrap{ border:1px dotted brown;}
+			.wrap>div{float:left;}
+			.wrap>:first-child {width:15%;}
+			.wrap>:nth-child(2n){width:30%;}
+			.wrap>:nth-child(3n){width:35%;}
+			.wrap>:nth-child(4n){width:20%;}
+			@media (max-width: 40em)
+			{
+				.wrap>div.truc { float:none;width:auto; }
+			}
+			.clear{clear:both;}
+
+		</style>
+
 	</head>
 	<body>
 
@@ -79,15 +95,23 @@
 		<div id="map" style="width: 100%;  height: 90%; z-index: 1;"></div>
 
 
-	<div id="content">
+		<div id="content">
 
 		<a class="anchor" id="calendrier"></a>
 		<h2>Le calendrier</h2>
-		<p>Rencontre des 2 prochains mois</p>
+		<div>
+			Filtres actifs :
+			<span style='border-radius:4px; padding: 5px 10px; background-color:#4CAF50; color:white; text-align: center;text-decoration: none; display:inline-block; font-size:16px;'>2 prochains mois</span>
+			<span style='border-radius:4px; padding: 5px 10px; background-color:#4CAF50; color:white; text-align: center;text-decoration: none; display:inline-block; font-size:16px;'>Loire-Atlantique</span>
+		</div>
+		<br/>
+		<script type="text/javascript" src="calendar.js">
+		</script>
+		<div id="textDiv"></div>
 
-		<p>
+		<!--<p>
 		<iframe style="width:100%;height:500px" frameborder="0" scrolling="yes" allowtransparency="allowtransparency" class="cibulFrame cbpgbdy" data-oabdy src="calendrier.html"></iframe>
-		</p>
+	</p>-->
 
 		<a class="anchor" id="projet"></a>
 		<h2>Le projet</h2>
@@ -129,7 +153,6 @@
 	</body>
 
 
-	<script src="lib/jquery-3.3.1.min.js" type="text/javascript"></script>
 	<script type="text/javascript">
 		function menuToggle() {
 		    document.getElementById("menu").classList.toggle("show");
