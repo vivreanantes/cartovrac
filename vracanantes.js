@@ -77,9 +77,12 @@ function addListOfShops() {
 		var shop = shopsJson[shopIndex]
 		var shopTags = shop['tags'];
 		var lat, lon;
+		var isANode = true;
 
 		// Get coordinates
 		if (shop['type'] == "way") {
+			isANode = false;
+
 			// As ways are a list of nodes, we have to get the center node
 			var shopCenter = shop['center'];
 			if (shopCenter) {
@@ -119,7 +122,8 @@ function addListOfShops() {
 				shopTags['contact:website'],
 				shopTags['facebook'],
 				shopTags['contact:facebook'],
-				type
+				type,
+				isANode
 		);
 
 		// Check that popup has been correctly created
@@ -136,7 +140,7 @@ function addListOfShops() {
  * Format shop information into an html style string for the popup
  **/
 function getPopupContent(
-		nodeId,
+		elementId,
 		name,
 		organic,
 		bulk_purchase,
@@ -149,7 +153,8 @@ function getPopupContent(
 		contactWebsite,
 		facebookUrl,
 		contactFacebookUrl,
-		type
+		type,
+		isANode
 ){
 
 	// Check that name exists
@@ -173,17 +178,37 @@ function getPopupContent(
 	popup += getHtmlFormattedAddress(housenumber, street, postcode, city);	
 	popup += getHtmlFormattedHours(opening_hours);
 	popup += getHtmlFormattedWebsite(website, contactWebsite, facebookUrl, contactFacebookUrl);
-	popup += getHtmlFormattedPartnerships(nodeId);
+	popup += getHtmlFormattedPartnerships(elementId);
+	popup += getHtmlFormattedContribution(elementId, isANode);
 	return popup;
+}
+
+/**
+ * @param elementId the OpenStreetMap id of the element
+ * @param isANode true if the element is a node, false if it's a way
+ * @return an HTML formatted that adds a link for contributions
+ */
+function getHtmlFormattedContribution(elementId, isANode) {
+	var baseUrl; 
+	
+	if (isANode) {
+		baseUrl = "https://openstreetmap.org/node/";
+	} else { 
+		baseUrl = "https://openstreetmap.org/way/";
+	}
+
+	var contributionHtml =  '<hr style="padding-bottom: ;padding-bottom: 0px;" size="1">';
+	contributionHtml += '<a href="'+baseUrl+elementId+'" target="_blank" title="Modifier les informations sur OpenStreetMap. Elles seront mises à jour sur CartoVrac dans les 24h suivant la modification.">Modifier ces informations</a>';
+	return contributionHtml;
 }
 
 /**
  * @return an HTML formatted list of partners
  */
-function getHtmlFormattedPartnerships(nodeId) {
+function getHtmlFormattedPartnerships(elementId) {
 	var partners = "";
 
-	if (isJaimeTesBocauxPartner(nodeId)){
+	if (isJaimeTesBocauxPartner(elementId)){
 	    partners += '<hr style="padding-bottom: ;padding-bottom: 0px;" size="1">';
 	    partners += '<div style="display: flex;"><img style="height: 50px;" src="img/jtb.png"/><div style="margin: auto; font-weight: bold;">Partenaire <br />J\'aime tes bocaux</div></div>';
     }
@@ -193,16 +218,16 @@ function getHtmlFormattedPartnerships(nodeId) {
 
 /**
  * Check if the shop is a partner of the organization "J'aime tes bocaux"
- * @param nodeId the id of the element
+ * @param elementId the id of the element
  * @return true if it's a "J'aime tes bocaux" partner, false otherwise
  */
-function isJaimeTesBocauxPartner(nodeId) {
+function isJaimeTesBocauxPartner(elementId) {
 
     for (var groupIndex in jtbPartners) {
     	var group = jtbPartners[groupIndex];
 		for (var idIndex in group.ids) {
 			var id = group.ids[idIndex];
-			if (id == nodeId) {
+			if (id == elementId) {
 	       		return true;
 	       	}
 		}
