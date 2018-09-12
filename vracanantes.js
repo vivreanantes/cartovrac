@@ -81,7 +81,7 @@ function addListOfShops() {
 		}
 
 		// Get the type of shop/amenity to manage
-		var type = getTypeRepair(repairTags['service:fabrik:repair'],
+		var typeArray = getTypeRepair(repairTags['service:fabrik:repair'],
 			repairTags['service:bicycle:repair'],
 			repairTags['service:camera:repair'],
 			repairTags['service:computer:repair'],
@@ -89,7 +89,8 @@ function addListOfShops() {
 			repairTags['service:furniture:repair'],
 			repairTags['service:small_electronics_device:repair']);
 
-		if (!type) {
+		// Check if there is at least one type matching
+		if (typeArray == 0) {
 			continue;
 		}
 
@@ -109,12 +110,12 @@ function addListOfShops() {
 				repairTags['contact:website'],
 				repairTags['website'],
 				repairTags['description:fr'],
-				type
+				typeArray
 		);
 
 		// Check that popup has been correctly created
 		if (popup && lat && lon) {
-			addMarkerToMap(type, popup, lat, lon);
+			addMarkerToMap(typeArray, popup, lat, lon);
 		}
 	}
 }
@@ -137,7 +138,7 @@ function getPopupContent(
 		website,
 		website2,
 		description,
-		type
+		typeArray
 ){
 	// Check that name exists
 	if (!name) {
@@ -146,7 +147,7 @@ function getPopupContent(
 	var popup = '<b>'+name+'</b><br />';
 
 	// Set the shop type
-	var shopTitle = getShopTitle(type, collaborative_repair_shop);
+	var shopTitle = getShopTitle(typeArray, collaborative_repair_shop);
 	if (description) {
 		popup += '<i>'+description+'</i><br />';
 	}
