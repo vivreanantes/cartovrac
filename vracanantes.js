@@ -110,6 +110,7 @@ function addListOfShops() {
 				repairTags['contact:website'],
 				repairTags['website'],
 				repairTags['description:fr'],
+				repairTags['addr:neighbourhood'],
 				typeArray
 		);
 
@@ -138,6 +139,7 @@ function getPopupContent(
 		website,
 		website2,
 		description,
+		neighbourhood,
 		typeArray
 ){
 	// Check that name exists
@@ -147,7 +149,7 @@ function getPopupContent(
 	var popup = '<b>'+name+'</b><br />';
 
 	// Set the shop type
-	var shopTitle = getShopTitle(typeArray, collaborative_repair_shop);
+	var shopTitle = getShopTitle(typeArray, collaborative_repair_shop, neighbourhood);
 	if (description) {
 		popup += '<i>'+description+'</i><br />';
 	}

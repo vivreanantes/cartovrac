@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.55.4 3079d8ea",
   "osm3s": {
-    "timestamp_osm_base": "2018-09-06T23:09:02Z",
-    "timestamp_areas_base": "2018-09-06T23:03:02Z",
+    "timestamp_osm_base": "2018-09-14T12:46:02Z",
+    "timestamp_areas_base": "2018-09-14T12:23:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -113,6 +113,7 @@
   "tags": {
     "addr:city": "Nantes",
     "addr:housenumber": "3",
+    "addr:neighbourhood": "Breil - Barberie",
     "addr:postcode": "44100",
     "addr:street": "Rue du Breil",
     "amenity": "workshop",
@@ -190,6 +191,7 @@
   "tags": {
     "addr:city": "Nantes",
     "addr:housenumber": "13",
+    "addr:neighbourhood": "Île de Nantes",
     "addr:postcode": "44200",
     "addr:street": "Boulevard des Martyrs Nantais de la Résistance",
     "contact:email": "lepignon@spationautes.fr",
@@ -212,11 +214,12 @@
   "tags": {
     "addr:city": "Nantes",
     "addr:housenumber": "1",
+    "addr:neighbourhood": "Hauts-Pavés - Saint-Félix",
     "addr:postcode": "44000",
     "addr:street": "Rue d'Auvours",
     "contact:email": "nantes@fubicy.org",
     "contact:facebook": "https://www.facebook.com/placeauvelonantes",
-    "contact:phone": "0240200400",
+    "contact:phone": "+33 2 40 20 04 00",
     "contact:website": "http://placeauvelo-nantes.fr/controles-techniques/",
     "cost": "gratuit (mais adhésion nécessaire)",
     "description:fr": "Apprendre à entretenir et réparer son vélo dans un atelier participatif place Viarme à Nantes.",
@@ -259,22 +262,23 @@
   "tags": {
     "addr:city": "Nantes",
     "addr:housenumber": "30",
+    "addr:neighbourhood": "Bellevue - Chantenay - Sainte-Anne",
     "addr:postcode": "44100",
     "addr:street": "Boulevard de Chantenay",
     "contact:email": "ateliercoopchantenay@gmail.com",
     "contact:facebook": "https://facebook.com/profile.php?id=1443275402395039",
-    "contact:website": "https://ateliercoopchantenay.wordpress.com/",
     "cost": "Cotisation à l'année 10 à 60€ selon âge et revenus.",
     "description:fr": "Service de réparation de vélos et de dépannage d’appareils électroménagers.",
     "name": "Service de réparation de vélos. Service de dépannage d’appareils électroménagers",
     "office": "association",
-    "opening_hours": "Permanences : lundis 9h30-12h30, 1er et 3ème mardis du mois 20h30-22h30, jeudis 16h30-20h30, vendredis 12h15-14h15",
+    "opening_hours": "Permanences : lundis 10h-12h30, 1er et 3ème mardis du mois 20h30-22h30, jeudis 12h30-15h, vendredis 16h-20h",
     "repair": "assisted_self_service",
     "service:bicycle:repair": "yes",
     "service:camera:repair": "yes",
     "service:computer:repair": "yes",
     "service:small_electronics_device:repair": "yes",
-    "source": "Association Mieux trier à Nantes, 08/2018"
+    "source": "Association Mieux trier à Nantes, 08/2018",
+    "website": "https://ateliercoopchantenay.wordpress.com/"
   }
 },
 {
@@ -290,7 +294,7 @@
     "amenity": "workshop",
     "contact:email": "contact@laressourceriedelile.com",
     "contact:website": "http://www.laressourceriedelile.com",
-    "description": " atelier collaboratif de réparation d’appareil électrique et de retouche de vêtements et textile",
+    "description": "atelier collaboratif de réparation d’appareil électrique et de retouche de vêtements et textile",
     "name": "Repair Café de la Ressourcerie de l'ïle",
     "office": "association",
     "repair": "assisted_self_service",
@@ -299,7 +303,7 @@
     "service:computer:repair": "yes",
     "service:fabrik:repair": "yes",
     "service:furniture:repair": "yes",
-    "service:small_electronics_device": "yes",
+    "service:small_electronics_device:repair": "yes",
     "source": "Mieux trier à Nantes, 09/2018"
   }
 },
@@ -319,7 +323,7 @@
     "office": "association",
     "repair": "assisted_self_service",
     "service:bicycle:repair": "yes",
-    "service_times": "Tu 14:00-18:00",
+    "service_times": "Th 14:00-18:00",
     "source": "Mieux trier à Nantes 09/2018,La Troisième Main",
     "website": "https://latroisiememain.wixsite.com/velo"
   }

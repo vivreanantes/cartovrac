@@ -77,6 +77,7 @@ var today = new Date();
                        textDiv += type_event[i].address;
                        textDiv += "</address><br/>";
                        textDiv += "<b>Conditions</b> : " + type_event[i].conditions.fr;
+                       textDiv += "<br/><br/><a href='" + type_event[i].canonicalUrl + "' target=_new><i>Plus d'infos</i></a>";
                        textDiv += "</div></div>";
                        textDiv += "<div class='clear'></div>";
                      }
@@ -90,3 +91,7 @@ $.getJSON("events.json", function (data) {
               load_json(value);
     });
 });
+
+if (typeof getQueryParam("department") == "undefined") {
+    document.getElementById("filterCalendar44").style.display = 'inline-block';
+}
