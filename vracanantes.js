@@ -111,6 +111,7 @@ function addListOfShops() {
 				repairTags['website'],
 				repairTags['description:fr'],
 				repairTags['addr:neighbourhood'],
+				repairTags['contact:calendar'],
 				typeArray
 		);
 
@@ -140,6 +141,7 @@ function getPopupContent(
 		website2,
 		description,
 		neighbourhood,
+		calendar,
 		typeArray
 ){
 	// Check that name exists
@@ -163,6 +165,7 @@ function getPopupContent(
 	}
 	popup += getHtmlFormattedWebsite("Site web", website);
 	popup += getHtmlFormattedWebsite("Site web", website2);
+	popup += getHtmlFormattedCalendar(calendar);
 	popup += getHtmlFormattedPartnerships(nodeId);
 	return popup;
 }

@@ -34,13 +34,14 @@ var today = new Date();
                      if (show==true) {
                        textDiv += "<div class='wrap'><div class='truc'>";
 
+                        textDiv += "<a id='calendar_" + type_event[i].slug + "'>";
                        if (type_event[i].thumbnail == false) {
                          textDiv += "&nbsp;";
                        }
                        else {
                          textDiv += "<img src='"+type_event[i].thumbnail+"' width='100px' style='max-width:100px;height:auto' />";
                        }
-
+                       textDiv += "</a>";
                        textDiv += "</div><div class='truc'>";
                        textDiv += "<b>"+type_event[i].title.fr+"</b>";
                        textDiv += "<br/>"+type_event[i].description.fr;
@@ -70,13 +71,15 @@ var today = new Date();
                          }
                          nbEvent++;
                        }
-                       textDiv += "</div><div class='truc'>";
+                       textDiv += "&nbsp;</div><div class='truc'>";
                        textDiv += "<address>";
                        textDiv += type_event[i].locationName;
                        textDiv += " : ";
                        textDiv += type_event[i].address;
                        textDiv += "</address><br/>";
-                       textDiv += "<b>Conditions</b> : " + type_event[i].conditions.fr;
+                       if (type_event[i].conditions != null) {
+                         textDiv += "<b>Conditions</b> : " + type_event[i].conditions.fr;
+                       }
                        textDiv += "<br/><br/><a href='" + type_event[i].canonicalUrl + "' target=_new><i>Plus d'infos</i></a>";
                        textDiv += "</div></div>";
                        textDiv += "<div class='clear'></div>";

@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.55.4 3079d8ea",
   "osm3s": {
-    "timestamp_osm_base": "2018-09-14T12:46:02Z",
-    "timestamp_areas_base": "2018-09-14T12:23:02Z",
+    "timestamp_osm_base": "2018-09-18T03:56:03Z",
+    "timestamp_areas_base": "2018-09-18T02:46:03Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -18,8 +18,8 @@
     "addr:housenumber": "14",
     "addr:postcode": "44310",
     "addr:street": "Rue de l'Industrie",
+    "contact:calendar": "https://openagenda.com/ateliers-de-co-reparation/events/repair-bistrot-par-la-recyclerie-le-grenier",
     "contact:facebook": "https://www.facebook.com/recyclerielegrenier/",
-    "contact:website": "http://recyclerielegrenier.org/",
     "description:fr": "L'association le Grenier organise des repair bistrots (petit électro-ménagers, hi-fi, tv, informatique, machine à coudre, vêtements) au bar le B'Mousse.",
     "name": "Atelier réparation - association le Grenier",
     "office": "association",
@@ -28,7 +28,8 @@
     "service:electronics:repair": "yes",
     "service:fabrik:repair": "yes",
     "service_times": "We 18:00-20:30",
-    "source": "Association Mieux trier à Nantes, 08/2018"
+    "source": "Association Mieux trier à Nantes, 08/2018",
+    "website": "http://recyclerielegrenier.org/"
   }
 },
 {
@@ -61,8 +62,8 @@
     "addr:postcode": "44470",
     "addr:street": "place Saint-Pierre",
     "amenity": "workshop",
+    "contact:calendar": "https://openagenda.com/ateliers-de-co-reparation/events/repair-cafe-carquefou",
     "contact:email": "repair.cafe.carquefou@gmail.com",
-    "contact:website": "https://repaircafe.org/fr",
     "description:fr": "Des bricoleurs bénévoles réparent petit électroménager, ordinateurs, vêtements... que tout le monde peut apporter.",
     "leisure": "Repair Café",
     "name": "Repair café de Carquefou",
@@ -74,7 +75,8 @@
     "service:fabrik:repair": "yes",
     "service:small_electronics_device:repair": "yes",
     "service_times": "Mo[3] 18:30-20:30",
-    "source": "Association Mieux trier à Nantes, 08/2018"
+    "source": "Association Mieux trier à Nantes, 08/2018",
+    "website": "https://repaircafe.org/fr"
   }
 },
 {
@@ -88,9 +90,9 @@
     "addr:postcode": "44330",
     "addr:street": "Aiguillette",
     "amenity": "workshop",
+    "contact:calendar": "https://openagenda.com/ateliers-de-co-reparation/events/aterlier-repair-cafe-du-vignoble-nantais",
     "contact:email": "repaircafe.vignoble@gmail.com",
     "contact:facebook": "https://www.facebook.com/Repair-Cafe-Vignoble-nantais-1014359055252339/",
-    "contact:website": "http://www.repaircafevignoblenantais.fr",
     "description:fr": "Réparation et diagnostic de petit électro-ménager, informatique, vêtements et vélos.",
     "leisure": "Repair Café",
     "name": "Repair Café du vignoble nantais (siège social)",
@@ -102,7 +104,8 @@
     "service:fabrik:repair": "yes",
     "service:small_electronics_device:repair": "yes",
     "service_times": "Pas de permanence, pas de lieu fixe. En général un samedi matin par mois dans les communes du vignoble (9h30 - 12h30)",
-    "source": "Association Mieux trier à Nantes, 08/2018"
+    "source": "Association Mieux trier à Nantes, 08/2018",
+    "website": "http://www.repaircafevignoblenantais.fr"
   }
 },
 {
@@ -117,9 +120,9 @@
     "addr:postcode": "44100",
     "addr:street": "Rue du Breil",
     "amenity": "workshop",
+    "contact:calendar": "https://openagenda.com/ateliers-de-co-reparation/events/atelier-partage-du-breil-association-ping",
     "contact:email": "info@pingbase.net",
     "contact:phone": "+33 240168678",
-    "contact:website": "http://www.pingbase.net",
     "description:fr": "Amenez vos objets cassés et donnez leur une seconde vie ! Des bricoleurs chevronnés sont présents sur place pour vous aider à diagnostiquer les problèmes et vous accompagner dans vos réparations.",
     "name": "Atelier Slowtech (association PiNG)",
     "repair": "assisted_self_service",
@@ -129,7 +132,8 @@
     "service:fabrik:repair": "yes",
     "service:small_electronics_device:repair": "yes",
     "service_times": "Tu 14:00-20:00",
-    "source": "Association Mieux trier à Nantes, 08/2018"
+    "source": "Association Mieux trier à Nantes, 08/2018",
+    "website": "http://www.pingbase.net"
   }
 },
 {
@@ -143,10 +147,10 @@
     "addr:postcode": "44600",
     "addr:street": "Rue des Ajoncs",
     "amenity": "community_centre",
+    "contact:calendar": "https://openagenda.com/ateliers-de-co-reparation/events/repair-cafe-chesnaie-saint-nazaire",
     "contact:email": "mqchesnaie@gmail.com",
     "contact:facebook": "https://www.facebook.com/Maison-de-quartier-Chesnaie-Tr%C3%A9bale-522806491109490/",
     "contact:phone": "+33 2 28 55 99 90",
-    "contact:website": "http://www.fmq-saintnazaire.fr/bienvenue/index.php",
     "name": "Atelier de co-réparation de la Maison de Quartier Chesnaie-Trébale",
     "repair": "assisted_self_service",
     "service:bicycle:repair": "yes",
@@ -155,7 +159,8 @@
     "service:fabrik:repair": "yes",
     "service:small_electronics_device:repair": "yes",
     "service_times": "We 14:00-17:00",
-    "source": "Association Mieux trier à Nantes, 08/2018"
+    "source": "Association Mieux trier à Nantes, 08/2018",
+    "website": "http://www.fmq-saintnazaire.fr/bienvenue/index.php"
   }
 },
 {
@@ -168,9 +173,9 @@
     "addr:housenumber": "5",
     "addr:postcode": "44800",
     "addr:street": "Place des Thébaudières",
+    "contact:calendar": "https://openagenda.com/ateliers-de-co-reparation/events/repair-cafe-saint-herblain-sillon",
     "contact:email": "rc_saint_herblain_sillon@orange.fr",
     "contact:phone": "+33 682097424",
-    "contact:website": "http://alisee.org/lassociation/nos-adherents-sement-des-graines/",
     "description:fr": "Ateliers de réparation ouvert au public le dernier jeudi du mois (sauf vacances scolaires et jours fériés) de 18h30 à 20h30 à la Brasserie Saveur et Sillon.",
     "leisure": "Repair Café",
     "name": "Repair Café Saint Herblain Sillon",
@@ -180,7 +185,8 @@
     "service:computer:repair": "yes",
     "service:small_electronics_device:repair": "yes",
     "service_times": "[Th] 18h30-20h30; SH PH Off",
-    "source": "Association Mieux trier à Nantes, 08/2018"
+    "source": "Association Mieux trier à Nantes, 08/2018",
+    "website": "http://alisee.org/lassociation/nos-adherents-sement-des-graines/"
   }
 },
 {
@@ -194,16 +200,17 @@
     "addr:neighbourhood": "Île de Nantes",
     "addr:postcode": "44200",
     "addr:street": "Boulevard des Martyrs Nantais de la Résistance",
+    "contact:calendar": "https://openagenda.com/ateliers-de-co-reparation/events/atelier-du-pignon",
     "contact:email": "lepignon@spationautes.fr",
     "contact:facebook": "https://www.facebook.com/atelierdupignon/",
-    "contact:website": "https://www.spationautes.fr/atelier-du-pignon.html",
     "cost": "e 10 euros ou 20 euros (adhésion de soutien) pour 1 an",
     "description:fr": "L'Atelier du Pignon est un atelier d'auto-réparation de vélo ouvert tous les mercredis de 16h à 20h au Wattignies Social Club sur l'île de Nantes.",
     "name": "Atelier de co-réparation du Pignon",
     "repair": "assisted_self_service",
     "service:bicycle:repair": "yes",
     "service_times": "Me 16:00-20:00",
-    "source": "Association Mieux trier à Nantes, 08/2018"
+    "source": "Association Mieux trier à Nantes, 08/2018",
+    "website": "https://www.spationautes.fr/atelier-du-pignon.html"
   }
 },
 {
@@ -326,6 +333,56 @@
     "service_times": "Th 14:00-18:00",
     "source": "Mieux trier à Nantes 09/2018,La Troisième Main",
     "website": "https://latroisiememain.wixsite.com/velo"
+  }
+},
+{
+  "type": "node",
+  "id": 5908054189,
+  "lat": 47.2552505,
+  "lon": -0.0814656,
+  "tags": {
+    "addr:city": "Saumur",
+    "addr:postcode": "49400",
+    "addr:street": "Place Verdun",
+    "amenity": "workshop",
+    "contact:calendar": "https://openagenda.com/ateliers-de-co-reparation/events/ateliers-de-co-reparation-a-la-mjc-de-saumur",
+    "contact:email": "animation@mjcsaumur.com",
+    "contact:facebook": "https://www.facebook.com/mjc.saumur/",
+    "contact:phone": "02 41 40 25 62",
+    "cost": "Adhésion MJC obligatoire 1€",
+    "description:fr": "Atelier dans une ambiance conviviale de lutte contre l obsolescence, la consommation irraisonnée et le tout jetable !",
+    "image": "http://mjcsaumur.com/wp-content/uploads/2016/11/AtelierCo-r_paration-v_los.jpg_300x0.jpg",
+    "logo": "http://mjcsaumur.com/wp-content/uploads/2018/08/logobleu.png",
+    "name": "Ateliers de co-réparation à la MJC de Saumur",
+    "office": "association",
+    "repair": "assisted_self_service",
+    "service:bicycle:repair": "yes",
+    "service:fabrik:repair": "yes",
+    "service:small_electronics_device:repair": "yes",
+    "service_times": "tous les derniers samedis des mois impairs ! de 9h à 11h30",
+    "source": "MJC Saumur, Mieux trier à Nantes 09/2018",
+    "website": "http://mjcsaumur.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 5912168150,
+  "lat": 47.2491227,
+  "lon": -1.4875566,
+  "tags": {
+    "addr:city": "Sainte-Luce-sur-Loire",
+    "addr:housenumber": "42",
+    "addr:postcode": "44980",
+    "addr:street": "Rue du Président Coty",
+    "amenity": "workshop",
+    "contact:calendar": "https://openagenda.com/ateliers-de-co-reparation/events/repair-cafe-sainte-luce-septembre",
+    "contact:email": "repaircafeluceen@laposte.net",
+    "description:fr": "Réparation toutes sortes de petits matériels électroniques, couture, etc",
+    "name": "Repair Café au Café Le Lucéen",
+    "repair": "assisted_self_service",
+    "service:fabrik:repair": "yes",
+    "service:small_electronics_device:repair": "yes",
+    "service_times": "Fr[2] 18:30-20:30; Aug off"
   }
 }
 
