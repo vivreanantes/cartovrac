@@ -29,14 +29,10 @@
 body {
   top: 0px;
   left: 0px;
-    margin: 0;
-    padding: 0;
-  
-    /* make it look decent enough */
-    background: #fffff7;
-
-
-    font-family: 'Roboto',Helvetica,Arial,sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fffff7;
+  font-family: 'Roboto',Helvetica,Arial,sans-serif;
 }
 
 a {
@@ -73,11 +69,9 @@ h2 {
 	height: 50px;
 }
 
-
-
-
 #menuToggle {
   position: fixed;
+  top: 0;
   width: 100%;
   padding-left: 15px;
   padding-top: 15px;
