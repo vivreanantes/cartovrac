@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.55.4 3079d8ea",
   "osm3s": {
-    "timestamp_osm_base": "2018-09-02T17:00:02Z",
-    "timestamp_areas_base": "2018-09-02T16:21:02Z",
+    "timestamp_osm_base": "2018-09-14T06:28:02Z",
+    "timestamp_areas_base": "2018-09-14T06:05:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -1028,11 +1028,12 @@
     "addr:postcode": "44300",
     "addr:street": "Rue Eugénie Cotton",
     "bulk_purchase": "yes",
-    "name": "Chlorophylle Beaujoire",
-    "note": "Epicerie Bio",
+    "name": "Chlorophylle Nantes BEAUJOIRE",
+    "note": "Coopérative de consommateurs de produits bios, ouverte à tous",
     "opening_hours": "Mo-Sa 09:00-19:30; Su off",
+    "operator": "Chlorophylle-coop",
     "organic": "only",
-    "shop": "convenience",
+    "shop": "supermarket",
     "website": "http://www.chlorophylle-coop.com/"
   }
 },
@@ -2534,6 +2535,7 @@
     "description": "Epicerie bio",
     "name": "L'Epicerie 2 Pauline",
     "opening_hours": "Mo 14:00-19:30; Tu-Sa 10:00-14:00,15:30-19:30",
+    "organic": "only",
     "shop": "supermarket"
   }
 },
@@ -2772,6 +2774,20 @@
     "organic": "only",
     "shop": "supermarket",
     "website": "http://www.biocoop-montredon.com"
+  }
+},
+{
+  "type": "node",
+  "id": 2622748551,
+  "lat": 47.0859792,
+  "lon": -1.2576188,
+  "tags": {
+    "addr:housenumber": "3",
+    "bulk_purchase": "yes",
+    "name": "Biocat",
+    "organic": "only",
+    "shop": "convenience",
+    "website": "http://biocat.fr/index.php?page=magasin"
   }
 },
 {
@@ -3354,9 +3370,11 @@
     "addr:housenumber": "7",
     "addr:postcode": "44000",
     "addr:street": "Place de la Bourse",
-    "amenity": "restaurant",
+    "amenity": "cafe",
     "cuisine": "french",
-    "name": "YOU!"
+    "food": "yes",
+    "name": "YOU!",
+    "organic": "yes"
   }
 },
 {
@@ -3773,6 +3791,19 @@
 },
 {
   "type": "node",
+  "id": 3417742031,
+  "lat": 47.3653569,
+  "lon": -1.1786782,
+  "tags": {
+    "addr:housenumber": "27",
+    "bulk_purchase": "yes",
+    "name": "Des Épices à ma Guise",
+    "shop": "deli",
+    "website": "http://www.desepicesamaguise.com/"
+  }
+},
+{
+  "type": "node",
   "id": 3423503251,
   "lat": 48.6823289,
   "lon": 6.2029034,
@@ -3955,8 +3986,8 @@
 {
   "type": "node",
   "id": 3543816536,
-  "lat": 46.8447385,
-  "lon": -0.5049289,
+  "lat": 46.8428470,
+  "lon": -0.5113930,
   "tags": {
     "bulk_purchase": "yes",
     "name": "Biocoop",
@@ -5887,8 +5918,9 @@
     "addr:postcode": "44800",
     "addr:street": "Rue des Plantes",
     "bulk_purchase": "yes",
-    "name": "Chlorophylle Beauséjour",
+    "name": "Chlorophylle Saint-Herblain BEAUSEJOUR",
     "opening_hours": "Mo-Sa 09:00-19:30; Su off",
+    "operator": "Chlorophylle-coop",
     "organic": "only",
     "shop": "supermarket",
     "website": "http://www.chlorophylle-coop.com/"
@@ -5905,8 +5937,9 @@
     "addr:postcode": "44400",
     "addr:street": "Rue Ordronneau",
     "bulk_purchase": "yes",
-    "name": "Chlorophylle Beausud",
+    "name": "Chlorophylle Rezé ATOUT SUD",
     "opening_hours": "Mo-Sa 09:00-19:30; Su off",
+    "operator": "Chlorophylle-coop",
     "organic": "only",
     "shop": "supermarket",
     "website": "http://www.chlorophylle-coop.com/"
@@ -6881,9 +6914,9 @@
     "addr:postcode": "44980",
     "addr:street": "Rue Denis Papin",
     "bulk_purchase": "yes",
-    "name": "Chlorophylle - Bio Luce",
+    "name": "Chlorophylle Sainte-Luce-sur-Loire",
     "opening_hours": "Mo-Sa 09:00-19:30",
-    "operator": "Chlorophylle",
+    "operator": "Chlorophylle-coop",
     "organic": "only",
     "shop": "supermarket",
     "website": "http://www.chlorophylle-coop.com"
@@ -6922,26 +6955,6 @@
     "organic": "yes",
     "shop": "convenience",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2017"
-  }
-},
-{
-  "type": "node",
-  "id": 4767931521,
-  "lat": 47.6730375,
-  "lon": -2.4511428,
-  "tags": {
-    "addr:city": "Questembert",
-    "addr:postcode": "56230",
-    "addr:street": "Rue du Maguéro",
-    "bulk_purchase": "yes",
-    "email": "halleterrenative@hotmail.fr",
-    "facebook": "https://www.facebook.com/halleterrenative/",
-    "name": "L'Halle Terre Native",
-    "name:fr": "L'Halle Terre Native",
-    "opening_hours": "Tu, Th-Fr 09:30-12:30, 14:00-19:00; Sa 09:30-13:00, 15:00-18:30",
-    "organic": "yes",
-    "phone": "+33297010957",
-    "shop": "convenience"
   }
 },
 {
@@ -8439,8 +8452,10 @@
     "addr:postcode": "44800",
     "addr:street": "Boulevard Marcel Paul",
     "bulk_purchase": "yes",
-    "name": "Chlorophylle",
+    "name": "Chlorophylle Saint-Herblain ATLANTIS",
     "opening_hours": "Mo-Sa 09:00-19:30; Su off",
+    "operator": "Chlorophylle-coop",
+    "organic": "only",
     "shop": "supermarket",
     "website": "http://www.chlorophylle-coop.com/"
   }
@@ -8560,11 +8575,11 @@
 {
   "type": "node",
   "id": 5252737243,
-  "lat": 46.8031941,
-  "lon": 4.4508793,
+  "lat": 46.8032395,
+  "lon": 4.4510936,
   "tags": {
     "addr:city": "Le Creusot",
-    "addr:housenumber": "183",
+    "addr:housenumber": "187",
     "addr:postcode": "71200",
     "addr:street": "Rue du Maréchal Foch",
     "bulk_purchase": "only",
@@ -8843,6 +8858,19 @@
     "organic": "only",
     "shop": "supermarket",
     "website": "http://biocoop.fr/magasins-bio/Trouver-mon-magasin-Biocoop/Ile-de-France/Paris/BIOCOOP-LANCRY"
+  }
+},
+{
+  "type": "node",
+  "id": 5383991143,
+  "lat": 47.5034373,
+  "lon": -0.5847985,
+  "tags": {
+    "bulk_purchase": "yes",
+    "name": "Biocoop CABA",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "http://biocoop-caba.fr/biocoop-avrille"
   }
 },
 {
@@ -9551,8 +9579,8 @@
 {
   "type": "node",
   "id": 5556315474,
-  "lat": 46.1283557,
-  "lon": 5.8130403,
+  "lat": 46.1285825,
+  "lon": 5.8127989,
   "tags": {
     "addr:city": "Bellegarde-sur-Valserine",
     "addr:housenumber": "106",
@@ -9724,8 +9752,8 @@
 {
   "type": "node",
   "id": 5557568487,
-  "lat": 44.2126463,
-  "lon": 5.6989730,
+  "lat": 44.2126671,
+  "lon": 5.6985273,
   "tags": {
     "addr:city": "Éourres",
     "addr:postcode": "05300",
@@ -13012,17 +13040,41 @@
 },
 {
   "type": "node",
+  "id": 5846643541,
+  "lat": 47.6854672,
+  "lon": -0.8634463,
+  "tags": {
+    "addr:city": "Segré",
+    "addr:housenumber": "54",
+    "addr:postcode": "49500",
+    "addr:street": "Rue David d'Angers",
+    "bulk_purchase": "yes",
+    "name": "L'Épicier Vert",
+    "opening_hours": "Mo-Th 09:00-12:45,14:30-19:30; Fr-Sa 09:00-19:30; Su 09:00-12:45",
+    "organic": "only",
+    "shop": "convenience",
+    "website": "https://www.biomonde.fr/l-epicier-vert,3,79"
+  }
+},
+{
+  "type": "node",
   "id": 5851060201,
-  "lat": 47.2167539,
-  "lon": -1.5596471,
+  "lat": 47.2167648,
+  "lon": -1.5596503,
   "tags": {
     "addr:city": "Nantes",
     "addr:housenumber": "14",
     "addr:postcode": "44000",
     "addr:street": "Rue de Budapest",
+    "brand": "Biocoop",
+    "brand:wikidata": "Q2904039",
+    "brand:wikipedia": "fr:Biocoop",
     "bulk_purchase": "yes",
-    "name": "Biocoop place Bretagne",
-    "shop": "supermarket"
+    "name": "Biocoop Place Bretagne",
+    "opening_hours": "Mo-Sa 09:00-19:30",
+    "shop": "supermarket",
+    "website": "http://www.biocoop.fr",
+    "wheelchair": "yes"
   }
 },
 {
@@ -13217,10 +13269,15 @@
   "lat": 50.6823918,
   "lon": 3.1587693,
   "tags": {
+    "addr:city": "Croix",
+    "addr:housenumber": "3",
+    "addr:postcode": "59170",
+    "addr:street": "Rue de l'Amiral Courbet",
     "bulk_purchase": "yes",
     "contact:facebook": "https://www.facebook.com/cecinestpasuneboulangerie/",
     "description": "Fournil, épicerie vrac et galerie à la fois.",
     "name": "Ceci n'est pas une Boulangerie",
+    "opening_hours": "Tu 15:30-19:30; We 10:30-13:00; 14:30-19:30; Th 15:30-19:30; Fr 11:00-13:00; 15:30-19:30; Sa 09:00-13:00; 15:30-19:00",
     "organic": "yes",
     "shop": "convenience",
     "website": "https://www.cecinestpasuneboulangerie.fr"
@@ -13415,6 +13472,19 @@
     "organic": "only",
     "shop": "supermarket",
     "website": "http://www.lavieclaire.com/magasin-bio/conflans-en-jarnisy.html"
+  }
+},
+{
+  "type": "node",
+  "id": 5902521406,
+  "lat": 43.7073137,
+  "lon": 7.2630408,
+  "tags": {
+    "bulk_purchase": "only",
+    "contact:facebook": "https://www.facebook.com/magasindaybyday",
+    "name": "Day by Day",
+    "organic": "yes",
+    "shop": "convenience"
   }
 },
 {
@@ -15258,8 +15328,9 @@
     "addr:street": "Rue de l’Atlantique",
     "building": "yes",
     "bulk_purchase": "yes",
-    "name": "Chlorophylle Bio Goulaine",
+    "name": "Chlorophylle Basse-Goulaine POLE SUD",
     "opening_hours": "Mo-Sa 09:00-19:30; Su off",
+    "operator": "Chlorophylle-coop",
     "organic": "only",
     "shop": "supermarket",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
@@ -16059,8 +16130,9 @@
     "addr:postcode": "44400",
     "addr:street": "Route des Sorinières",
     "bulk_purchase": "yes",
-    "name": "Chlorophylle Beaucéane",
+    "name": "Chlorophylle Rezé OCEANE",
     "opening_hours": "Mo-Sa 09:00-19:30; Su off",
+    "operator": "Chlorophylle-coop",
     "organic": "only",
     "shop": "supermarket",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
@@ -19566,7 +19638,7 @@
     "brand": "La Vie Claire",
     "brand:wikidata": "Q3213589",
     "brand:wikipedia": "fr:La Vie claire",
-    "building": "yes",
+    "building": "retail",
     "bulk_purchase": "yes",
     "contact:facebook": "https://www.facebook.com/Lavieclaire",
     "name": "La Vie Claire",
@@ -20038,6 +20110,7 @@
     "building": "yes",
     "bulk_purchase": "yes",
     "name": "Biocoop Sainbiose",
+    "opening_hours": "Tu-Th 09:30-13:00,14:30-19:00; Fr,Sa 09:30-19:00",
     "organic": "only",
     "shop": "supermarket",
     "website": "http://biocoop.fr/magasins-bio/Trouver-mon-magasin-Biocoop/Nouvelle-Aquitaine2/Charente-Maritime/BIOCOOP-SAINBIOSE"
