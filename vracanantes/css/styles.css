@@ -80,7 +80,7 @@ h2 {
   padding-left: 15px;
   padding-top: 15px;
   padding-bottom: 0;
-  height: 50px;
+  height: 54px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -142,7 +142,7 @@ h2 {
 }
 
 .box-shadow {
-    box-shadow: 0 0 0 0 #ccc;
+  box-shadow: 0 4px 2px -2px #ccc;
 }
 
 #content {
@@ -211,10 +211,6 @@ a.anchor {
 
   #content {
     margin-top: 160px;
-  }
-
-  .box-shadow {
-    box-shadow: 0 4px 2px -2px #ccc;
   }
 
   a.anchor {
