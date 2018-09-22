@@ -1,5 +1,3 @@
-import {elements as partners} from '../jtb_partners.json';
-
 /**
  * Format shop information into an html style string for the popup
  **/
@@ -19,7 +17,8 @@ export function getPopupContent(
         contact_facebook,
 		prefix,
 		suffix,
-        isANode
+        isANode,
+        jtbPartners
 ){
     // Check that name exists
     if (!name) {
@@ -32,7 +31,7 @@ export function getPopupContent(
     popup += getHtmlFormattedAddress(housenumber, street, postcode, city);   
     popup += getHtmlFormattedHours(opening_hours);
     popup += getHtmlFormattedWebsite(website, contact_website, facebook, contact_facebook);
-    popup += getHtmlFormattedPartnerships(elementId);
+    popup += getHtmlFormattedPartnerships(elementId, jtbPartners);
     popup += getHtmlFormattedContribution(elementId, isANode);
 	return popup;
 }
@@ -153,13 +152,13 @@ function getHtmlFormattedContribution(elementId, isANode) {
 /**
  * @return an HTML formatted list of partners
  */
-function getHtmlFormattedPartnerships(elementId) {
+function getHtmlFormattedPartnerships(elementId, jtbPartners) {
     var partners = "";
 
-    if (isJaimeTesBocauxPartner(elementId)){
+    if (isJaimeTesBocauxPartner(elementId, jtbPartners)){
         partners += '<hr style="padding-bottom: ;padding-bottom: 0px;" size="1">';
         partners += '<div style="display: flex;">';
-        partners += '<img style="height: 50px;" src="img/jtb.png"/>';
+        partners += '<img style="height: 50px;" src="'+require("../assets/img/jtb.png")+'"/>';
         partners += '<div style="margin: auto; font-weight: bold;">Partenaire <br />J\'aime tes bocaux</div></div>';
     }
 
@@ -171,10 +170,10 @@ function getHtmlFormattedPartnerships(elementId) {
  * @param elementId the id of the element
  * @return true if it's a "J'aime tes bocaux" partner, false otherwise
  */
-function isJaimeTesBocauxPartner(elementId) {
+function isJaimeTesBocauxPartner(elementId, jtbPartners) {
 
-    for (var groupIndex in partners) {
-        var group = partners[groupIndex];
+    for (var groupIndex in jtbPartners) {
+        var group = jtbPartners[groupIndex];
         for (var idIndex in group.ids) {
             var id = group.ids[idIndex];
             if (id == elementId) {

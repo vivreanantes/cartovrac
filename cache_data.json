@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.55.4 3079d8ea",
   "osm3s": {
-    "timestamp_osm_base": "2018-09-14T06:28:02Z",
-    "timestamp_areas_base": "2018-09-14T06:05:02Z",
+    "timestamp_osm_base": "2018-09-22T18:05:02Z",
+    "timestamp_areas_base": "2018-09-22T17:23:01Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -2096,6 +2096,25 @@
 },
 {
   "type": "node",
+  "id": 2266760981,
+  "lat": 48.8618322,
+  "lon": 2.4423844,
+  "tags": {
+    "brand": "Naturalia",
+    "brand:wikidata": "Q3337081",
+    "brand:wikipedia": "fr:Naturalia",
+    "bulk_purchase": "yes",
+    "name": "Naturalia",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 09:00-14:00",
+    "operator": "Groupe Casino",
+    "organic": "only",
+    "shop": "convenience",
+    "website": "http://www.naturalia.fr/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
   "id": 2267314182,
   "lat": 46.7834562,
   "lon": 4.8567286,
@@ -2132,13 +2151,17 @@
   "lat": 46.8368659,
   "lon": 0.5431636,
   "tags": {
+    "addr:city": "Châtellerault",
+    "addr:housenumber": "4",
+    "addr:postcode": "86100",
+    "addr:street": "Rue de la Désirée",
     "bulk_purchase": "yes",
     "contact:email": "ptv2@wanadoo.fr",
     "contact:fax": "+33549863710",
     "contact:phone": "+33549027141",
     "contact:website": "http://www.lepoistoutvert.com",
     "name": "Biocoop",
-    "opening_hours": "Mo-Sa 09:30-19:00",
+    "opening_hours": "Mo-Fr 09:30-19:30; Sa 09:30-19:00",
     "operator": "Biocoop",
     "organic": "only",
     "shop": "supermarket"
@@ -6931,6 +6954,7 @@
     "addr:housenumber": "37",
     "bulk_purchase": "only",
     "currency:XLT": "FLOR",
+    "doggy_bag": "free",
     "email": "daybyday.nancy@gmail.com",
     "name": "day by day",
     "opening_hours": "Mo-Sa 09:30-13:00,14:30-19:00",
@@ -7017,6 +7041,25 @@
     "website": "http://www.biocoop-evreux.fr",
     "wheelchair": "yes",
     "wikipedia": "fr:Biocoop"
+  }
+},
+{
+  "type": "node",
+  "id": 4774480921,
+  "lat": 48.8586364,
+  "lon": 2.4356642,
+  "tags": {
+    "addr:city": "Montreuil",
+    "addr:housenumber": "8",
+    "addr:postcode": "93100",
+    "addr:street": "Boulevard Chanzy",
+    "bulk_purchase": "yes",
+    "level": "0",
+    "name": "BIO C'BON",
+    "opening_hours": "10h - 20h",
+    "operator": "BIO C'BON",
+    "shop": "greengrocer",
+    "website": "http://www.bio-c-bon.eu/fr/nos_magasins/bio-c-bon-montreuil-croix-de-chavaux"
   }
 },
 {
@@ -9265,6 +9308,7 @@
     "addr:housenumber": "3",
     "addr:postcode": "44720",
     "addr:street": "Rue Laënnec",
+    "facebook": "https://www.facebook.com/Les-potes-au-Roz-La-LocoMotive-1166445600147694/",
     "name": "La LocoMotive",
     "shop": "convenience"
   }
@@ -11233,8 +11277,8 @@
 {
   "type": "node",
   "id": 5736744045,
-  "lat": 46.4647043,
-  "lon": 4.1150917,
+  "lat": 46.4646625,
+  "lon": 4.1150684,
   "tags": {
     "brand": "La Vie Claire",
     "brand:wikidata": "Q3213589",
@@ -11616,10 +11660,14 @@
   "lat": 51.0361239,
   "lon": 2.3770646,
   "tags": {
-    "addr:street": "3",
+    "addr:housenumber": "3",
+    "addr:postcode": "59240",
+    "addr:street": "Rue des Chaudronniers",
     "bulk_purchase": "only",
     "name": "Day by Day",
+    "opening_hours": "Tu-Sa 09:30-19:30; Su 09:30-13:30",
     "organic": "yes",
+    "phone": "0962699305",
     "shop": "convenience",
     "website": "http://daybyday-shop.com/magasin/dunkerque"
   }
@@ -12065,12 +12113,16 @@
   "lat": 47.2734699,
   "lon": -2.4415593,
   "tags": {
+    "addr:city": "Le Pouliguen",
     "addr:housenumber": "18",
+    "addr:postcode": "44510",
+    "addr:street": "Rue du Cornen",
     "brand": "La Vie Claire",
     "brand:wikidata": "Q3213589",
     "brand:wikipedia": "fr:La Vie claire",
     "bulk_purchase": "yes",
     "name": "La Vie Claire",
+    "opening_hours": "Mo-Sa 09:00-19:30",
     "organic": "only",
     "shop": "supermarket",
     "website": "http://www.lavieclaire.com/magasin-bio/le-pouliguen.html"
@@ -13265,6 +13317,23 @@
 },
 {
   "type": "node",
+  "id": 5863925596,
+  "lat": 48.6584823,
+  "lon": 6.1851867,
+  "tags": {
+    "addr:housenumber": "3ter C",
+    "bulk_purchase": "only",
+    "construction:website": "http://element-r.fr",
+    "email": "contact@element-r.fr",
+    "name": "Elément’r",
+    "opening_hours": "Mo 13:00-19:00; Tu-Sa 10:00-19:00",
+    "organic": "yes",
+    "phone": "+33 3 83987809",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
   "id": 5864011854,
   "lat": 50.6823918,
   "lon": 3.1587693,
@@ -13488,6 +13557,82 @@
   }
 },
 {
+  "type": "node",
+  "id": 5913722068,
+  "lat": 48.8625983,
+  "lon": 2.4427007,
+  "tags": {
+    "bulk_purchase": "yes",
+    "name": "Biocoop",
+    "organic": "only",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 5919857168,
+  "lat": 43.6579815,
+  "lon": 7.1233523,
+  "tags": {
+    "addr:housenumber": "2bis",
+    "addr:postcode": "06270",
+    "addr:street": "Rue Saint-Bernardin",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/nicebear.fr/",
+    "name": "Nicebear",
+    "shop": "cosmetics",
+    "website": "https://nicebear.fr"
+  }
+},
+{
+  "type": "node",
+  "id": 5919857169,
+  "lat": 43.6976384,
+  "lon": 7.2763827,
+  "tags": {
+    "addr:housenumber": "9",
+    "addr:postcode": "06300",
+    "addr:street": "Rue Mascoïnat",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/nicebear.fr/",
+    "name": "Nicebear",
+    "shop": "cosmetics",
+    "website": "https://nicebear.fr"
+  }
+},
+{
+  "type": "node",
+  "id": 5919857170,
+  "lat": 43.6991291,
+  "lon": 7.2786621,
+  "tags": {
+    "addr:housenumber": "35",
+    "addr:postcode": "06300",
+    "addr:street": "Rue Pairolière",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/bereniceeteglantine/",
+    "name": "Bérénice&Eglantine",
+    "organic": "yes",
+    "shop": "cosmetics"
+  }
+},
+{
+  "type": "node",
+  "id": 5919857171,
+  "lat": 43.6995525,
+  "lon": 7.2789203,
+  "tags": {
+    "addr:housenumber": "24",
+    "addr:postcode": "06300",
+    "addr:street": "Rue Pairolière",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/niceorganic06/",
+    "name": "Nice Organic",
+    "shop": "cosmetics",
+    "website": "https://herboristeriebio.com/"
+  }
+},
+{
   "type": "way",
   "id": 35739853,
   "center": {
@@ -13657,7 +13802,6 @@
     4212645098,
     4212645099,
     942412074,
-    5109382401,
     5109382404,
     634647711,
     634647709,
@@ -13679,7 +13823,7 @@
     "operator": "Alize Bio",
     "organic": "only",
     "payment:cash": "yes",
-    "payment:checks": "yes",
+    "payment:cheque": "yes",
     "payment:credit_cards": "yes",
     "payment:debit_cards": "yes",
     "phone": "+33 2 99 31 25 25",
@@ -16738,7 +16882,7 @@
     "brand": "La Vie Claire",
     "brand:wikidata": "Q3213589",
     "brand:wikipedia": "fr:La Vie claire",
-    "building": "yes",
+    "building": "retail",
     "bulk_purchase": "yes",
     "contact:facebook": "https://www.facebook.com/Lavieclaire",
     "name": "La Vie Claire",

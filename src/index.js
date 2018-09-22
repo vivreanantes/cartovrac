@@ -12,10 +12,29 @@ import {newMap, addMarkerToMap} from './map.js';
 import {getPopupContent} from './popup.js';
 import {categories} from './data.js';
 import * as config from './config.js';
-import {elements as shops} from '../cache_data.json';
+
+/**
+ * Load data from cache first
+ */
+var cluster = createMap();
+var shopsJson, jtbPartners;
 
 checkEmbbededMode();
-populate();
+
+$(document).ready(function(){
+	$.when(
+	    $.getJSON('cache_data.json', function(response) {
+	        shopsJson = response.elements
+	    }),
+	    $.getJSON('jtb_partners.json', function(response) {
+	        jtbPartners = response.elements
+	    })
+	).then(function() {
+		populate();
+	});
+});
+
+
 
 /**
  * Activated embedded mode if asked in GET paramters
@@ -46,14 +65,11 @@ function isElementANode(shop) {
 }
 
 /**
- * Load the map and display the shops
+ * Display the shops
  **/
 function populate() {
-
-	var cluster = createMap();
-
-	for (var shopIndex in shops) {
-		var shop = shops[shopIndex]
+	for (var shopIndex in shopsJson) {
+		var shop = shopsJson[shopIndex]
 		var tags = shop['tags'];
 		var isANode = isElementANode(shop);
 		var position = getPosition(shop, isANode);
@@ -85,9 +101,13 @@ function populate() {
 			tags['addr:city'],
 			tags['opening_hours'],
 			tags['website'],
+			tags['contact:website'],
+			tags['facebook'],
+			tags['contact:facebook'],
 			category.prefix,
 			suffix,
-			isANode
+			isANode,
+			jtbPartners
 		);
 
 		// Check that popup has been correctly created
