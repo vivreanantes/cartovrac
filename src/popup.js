@@ -130,16 +130,16 @@ function getHtmlFormattedAddress(housenumber, street, postcode, city) {
 
 /**
  * @param elementId the OpenStreetMap id of the element
- * @param isANode true if the element is a node, false if it's a way
+ * @param isAWay true if the element is a way, false if it's a node
  * @return an HTML formatted that adds a link for contributions
  */
-function getHtmlFormattedContribution(elementId, isANode) {
+function getHtmlFormattedContribution(elementId, isAWay) {
     var baseUrl; 
     
-    if (isANode) {
-        baseUrl = "https://openstreetmap.org/node/";
-    } else { 
+    if (isAWay) {
         baseUrl = "https://openstreetmap.org/way/";
+    } else { 
+        baseUrl = "https://openstreetmap.org/node/";
     }
 
     var contributionHtml =  '<hr style="padding-bottom: ;padding-bottom: 0px;" size="1">';

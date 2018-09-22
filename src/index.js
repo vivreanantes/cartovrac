@@ -52,15 +52,15 @@ function checkEmbbededMode() {
  * Decide where the shop should be displayed, either on the spot or in the
  * center of a way
  */
-function getPosition(shop, isANode) {
-	var reference = isANode ? shop['center'] : shop;
+function getPosition(shop, isAWay) {
+	var reference = isAWay ? shop['center'] : shop;
 	return {lat: reference['lat'], lon: reference['lon']};
 }
 
 /**
  * Check if the shop json information is a node or a way
  */
-function isElementANode(shop) {
+function isElementAWay(shop) {
 	return (shop['type'] == 'way' && shop['center']);
 }
 
@@ -71,15 +71,15 @@ function populate() {
 	for (var shopIndex in shopsJson) {
 		var shop = shopsJson[shopIndex]
 		var tags = shop['tags'];
-		var isANode = isElementANode(shop);
-		var position = getPosition(shop, isANode);
+		var isAWay = isElementAWay(shop);
+		var position = getPosition(shop, isAWay);
     	var type = tags['shop'] || tags['amenity'] || tags['craft'];
 		var category = categories[type];
 		var suffix = null;
 
 		// Check shop validity
 		if (!type || !category || !tags['name']) {
-			console.log('Problem when displaying ' + (isANode ? 'node ' : 'way ') + 
+			console.log('Problem when displaying ' + (isAWay ? 'node ' : 'way ') + 
 				shop['id'] + ' of type ' + type + ' ; name ' + tags['name']);
 			continue;
 		}
@@ -106,7 +106,7 @@ function populate() {
 			tags['contact:facebook'],
 			category.prefix,
 			suffix,
-			isANode,
+			isAWay,
 			jtbPartners
 		);
 
