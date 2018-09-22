@@ -14,4 +14,5 @@ export const attribution = 'Map data &copy; '+
 			'<a href="http://openstreetmap.org">OpenStreetMap</a> contributors, '+
 			'<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, '+
 			'Imagery © <a href="http://mapbox.com">Mapbox</a>';
-export const mapboxKey = 'pk.eyJ1IjoidnJhY2FuYW50ZXMiLCJhIjoiY2prZ21vaWMxMDVxZTNwcm5wZ29vbmY2aCJ9.cBMOReBbeqSWQA3nWsGnuw';
+export const mapToken = 'pk.eyJ1IjoidnJhY2FuYW50ZXMiLCJhIjoiY2prZ21vaWMxMDVxZTNwcm5wZ29vbmY2aCJ9.cBMOReBbeqSWQA3nWsGnuw';
+export const mapUrl = 'https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}';

@@ -1,5 +1,3 @@
-var $ = require('jquery');
-
 function menuToggle() {
   document.getElementById("menu").classList.toggle("show");
 }
