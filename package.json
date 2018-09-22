@@ -1,0 +1,36 @@
+{
+  "name": "vracanantes",
+  "version": "1.0.0",
+  "description": "**Vrac à Nantes** is an open-source project that aims to ease people to buy products without packaging and therefore reduce the amount of generated wastes.",
+  "main": "vracanantes.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vivreanantes/vracanantes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vivreanantes/vracanantes/issues"
+  },
+  "homepage": "https://github.com/vivreanantes/vracanantes#readme",
+  "devDependencies": {
+    "css-loader": "^1.0.0",
+    "file-loader": "^1.1.11",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "jquery": "^3.3.1",
+    "leaflet": "^1.3.4",
+    "leaflet.featuregroup.subgroup": "^1.0.2",
+    "leaflet.markercluster": "^1.4.1",
+    "mini-css-extract-plugin": "^0.4.3",
+    "typeface-roboto": "0.0.54",
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.8"
+  }
+}

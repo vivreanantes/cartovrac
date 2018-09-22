@@ -1,3 +1,17 @@
+var $ = require('jquery');
+var L = require('leaflet');
+var Embedded = require('./embedded.js');
+var ShopMarker = require('./shopmarker.js');
+
+import 'leaflet.markercluster';
+import 'leaflet.featuregroup.subgroup';
+import * as shopmarker from './shopmarker.js';
+
+// Load the styles
+import 'leaflet/dist/leaflet.css';
+import 'leaflet.markercluster/dist/MarkerCluster.css';
+import 'leaflet.markercluster/dist/MarkerCluster.Default.css';
+
 // Bounds for display
 var minBoundS = 40;
 var minBoundW = -7;
@@ -5,10 +19,10 @@ var maxBoundN = 53;
 var maxBoundE = 11;
 
 // Get bounds from get parameters and validate them before using it.
-var boundS = Math.max(getQueryParam("boundS") || 0, minBoundS);
-var boundW = Math.max(getQueryParam("boundW") || -180, minBoundW);
-var boundN = Math.min(getQueryParam("boundN") || 90, maxBoundN);
-var boundE = Math.min(getQueryParam("boundE") || 180, maxBoundE);
+var boundS = Math.max(Embedded.getQueryParam("boundS") || 0, minBoundS);
+var boundW = Math.max(Embedded.getQueryParam("boundW") || -180, minBoundW);
+var boundN = Math.min(Embedded.getQueryParam("boundN") || 90, maxBoundN);
+var boundE = Math.min(Embedded.getQueryParam("boundE") || 180, maxBoundE);
 if (boundN < boundS || boundE < boundW) {
 	console.error("error - wrong coordinates parameters");
 	boundN = maxBoundN;
@@ -23,9 +37,9 @@ var bounds = new L.LatLngBounds(new L.LatLng(boundN, boundE), new L.LatLng(bound
 var maxZoom = 17;
 var minZoom = 5;
 var defaultZoom = 6;
-var zoom = getQueryParam("zoom") || 6;
-var centerLat = getQueryParam("lat") || 47;
-var centerLng = getQueryParam("lng") || 2;
+var zoom = Embedded.getQueryParam("zoom") || 6;
+var centerLat = Embedded.getQueryParam("lat") || 47;
+var centerLng = Embedded.getQueryParam("lng") || 2;
 var mapCenter = new L.latLng(centerLat, centerLng);
 var map = L.map('map', {
 		fullscreenControl: true,
@@ -55,7 +69,7 @@ L.tileLayer(
  */
 var shopsJson, jtbPartners;
 $(document).ready(function(){
-	initSubGroups(map);
+	ShopMarker.initSubGroups(map);
 	
 	$.when(
 	    $.getJSON('cache_data.json', function(response) {
@@ -101,7 +115,7 @@ function addListOfShops() {
 		}
 
 		// Get the type of shop/amenity to manage
-		var type = getType(shopTags['name'], shopTags['shop'], shopTags['amenity'], shopTags['craft']);
+		var type = ShopMarker.getType(shopTags['name'], shopTags['shop'], shopTags['amenity'], shopTags['craft']);
 		if (!type) {
 			console.log("No type found for shop: id="+shop['id']+" ; name="+name);
 			continue;
@@ -132,7 +146,7 @@ function addListOfShops() {
 			continue;
 		}
 		
-		addMarkerToMap(type, popup, lat, lon);
+		ShopMarker.addMarkerToMap(type, popup, lat, lon);
 	}
 }
 
@@ -164,7 +178,7 @@ function getPopupContent(
 	var popup = '<b>'+name+'</b><br />';
 
 	// Set the shop type
-	var shopTitle = getShopTitle(type, organic, bulk_purchase);
+	var shopTitle = ShopMarker.getShopTitle(type, organic, bulk_purchase);
 	if (shopTitle) {
 		popup += '<i>' + shopTitle ;
 
@@ -175,9 +189,9 @@ function getPopupContent(
 		popup += '</i><br />';
 	}
 		
-	popup += getHtmlFormattedAddress(housenumber, street, postcode, city);	
-	popup += getHtmlFormattedHours(opening_hours);
-	popup += getHtmlFormattedWebsite(website, contactWebsite, facebookUrl, contactFacebookUrl);
+	popup += ShopMarker.getHtmlFormattedAddress(housenumber, street, postcode, city);	
+	popup += ShopMarker.getHtmlFormattedHours(opening_hours);
+	popup += ShopMarker.getHtmlFormattedWebsite(website, contactWebsite, facebookUrl, contactFacebookUrl);
 	popup += getHtmlFormattedPartnerships(elementId);
 	popup += getHtmlFormattedContribution(elementId, isANode);
 	return popup;

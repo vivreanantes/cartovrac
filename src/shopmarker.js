@@ -1,3 +1,56 @@
+// Urls of the picture for the different icons
+var pathToIcons = '../assets/img/';
+var convenienceIconUrl = require('../assets/img/icons/icon_convenience.png');
+var supermarketIconUrl = require('../assets/img/icons/icon_supermarket.png');
+var butcherIconUrl = require('../assets/img/icons/icon_butcher.png');
+var dairyIconUrl = require('../assets/img/icons/icon_dairy.png');
+var greengrocerIconUrl = require('../assets/img/icons/icon_greengrocer.png');
+var chocolateIconUrl = require('../assets/img/icons/icon_chocolate.png');
+var bakeryIconUrl = require('../assets/img/icons/icon_bakery.png');
+var coffeeShopIconUrl = require('../assets/img/icons/icon_coffeeShop.png');
+var pastryIconUrl = require('../assets/img/icons/icon_pastry.png');
+var deliIconUrl = require('../assets/img/icons/icon_deli.png');
+var teaIconUrl = require('../assets/img/icons/icon_tea.png');
+var confectioneryIconUrl = require('../assets/img/icons/icon_confectionery.png');
+var seafoodIconUrl = require('../assets/img/icons/icon_seafood.png');
+var agrarianIconUrl = require('../assets/img/icons/icon_agrarian.png');
+var fastFoodIconUrl = require('../assets/img/icons/icon_fast_food.png');
+var restaurantIconUrl = require('../assets/img/icons/icon_restaurant.png');
+var cafeAmenityIconUrl = require('../assets/img/icons/icon_cafeAmenity.png');
+var spicesIconUrl = require('../assets/img/icons/icon_spices.png');
+var cosmeticsIconUrl = require('../assets/img/icons/icon_cosmetics.png');
+
+// Leaflet icons for the different types of shop
+var ShopIcon = L.Icon.extend({
+    options: {
+      shadowUrl: '../assets/img/marker-shadow.png',
+      iconSize: [35, 57],
+      iconAnchor: [15, 57],
+      popupAnchor: [3, -58],
+      shadowSize: [50, 50]
+  }
+});
+
+var convenienceIcon = new ShopIcon({iconUrl: convenienceIconUrl});
+var supermarketIcon = new ShopIcon({iconUrl: supermarketIconUrl});
+var butcherIcon = new ShopIcon({iconUrl: butcherIconUrl});
+var dairyIcon = new ShopIcon({iconUrl: dairyIconUrl});
+var greengrocerIcon = new ShopIcon({iconUrl: greengrocerIconUrl});
+var chocolateIcon = new ShopIcon({iconUrl: chocolateIconUrl});
+var bakeryIcon = new ShopIcon({iconUrl: bakeryIconUrl});
+var coffeeShopIcon = new ShopIcon({iconUrl: coffeeShopIconUrl});
+var pastryIcon = new ShopIcon({iconUrl: pastryIconUrl});
+var deliIcon = new ShopIcon({iconUrl: deliIconUrl});
+var teaIcon = new ShopIcon({iconUrl: teaIconUrl});
+var confectioneryIcon = new ShopIcon({iconUrl: confectioneryIconUrl});
+var seafoodIcon = new ShopIcon({iconUrl: seafoodIconUrl});
+var agrarianIcon = new ShopIcon({iconUrl: agrarianIconUrl});
+var fastFoodIcon = new ShopIcon({iconUrl: fastFoodIconUrl});
+var restaurantIcon = new ShopIcon({iconUrl: restaurantIconUrl});
+var cafeAmenityIcon = new ShopIcon({iconUrl: cafeAmenityIconUrl});
+var spicesIcon = new ShopIcon({iconUrl: spicesIconUrl});
+var cosmeticsIcon = new ShopIcon({iconUrl: cosmeticsIconUrl});
+
 // Sub-groups
 var bulkSectionSubGroup;
 var butcherShopSubGroup;
@@ -43,7 +96,7 @@ var ShopEnum = {
 /**
  * Initialize the sub-groups to add them to the given map
  */
-function initSubGroups(map) {
+export function initSubGroups(map) {
     // Add the cluster
     var cluster = new L.MarkerClusterGroup({maxClusterRadius: 50}).addTo(map);
 
@@ -122,7 +175,7 @@ function getIconForControlLayer(url){
  * @param lat the latitude of the marker
  * @param lon the longitude of the marker
  **/
-function addMarkerToMap(type, popup, lat, lon) {
+export function addMarkerToMap(type, popup, lat, lon) {
     // Create icon depending on the shop type
     var icon = {icon: ShopEnum.properties[type].icon};
 
@@ -135,7 +188,7 @@ function addMarkerToMap(type, popup, lat, lon) {
 /**
  * Get a title describing the shop type
  */
-function getShopTitle(type, organicTag, bulk_purchaseTag) {
+export function getShopTitle(type, organicTag, bulk_purchaseTag) {
     // Start text with italic style and add prefix depending on type
     var title = ShopEnum.properties[type].titlePrefix;
 
@@ -174,7 +227,7 @@ function getReadableHours(opening_hours){
 /**
  * Get the type of shop/amenity
  */
- function getType(name, shopTag, amenityTag, craftTag) {
+export function getType(name, shopTag, amenityTag, craftTag) {
     var type = null;
 
     if (shopTag) {
@@ -283,7 +336,7 @@ function getTypeForCraft(craftTag) {
 /**
  * @return an HTML formatted website link
  */
-function getHtmlFormattedWebsite(website, contactWebsite, facebookUrl, contactFacebookUrl) {
+export function getHtmlFormattedWebsite(website, contactWebsite, facebookUrl, contactFacebookUrl) {
     var url;
 
     if (website) {
@@ -304,7 +357,7 @@ function getHtmlFormattedWebsite(website, contactWebsite, facebookUrl, contactFa
 /**
  * @return an HTML formatted opening hours text
  */
-function getHtmlFormattedHours(opening_hours) {
+export function getHtmlFormattedHours(opening_hours) {
     var hours = "";
 
     if (!opening_hours) {
@@ -324,7 +377,7 @@ function getHtmlFormattedHours(opening_hours) {
 /**
  * @return an HTML formatted address
  */
-function getHtmlFormattedAddress(housenumber, street, postcode, city) {
+export function getHtmlFormattedAddress(housenumber, street, postcode, city) {
     var address = "";
 
     if (street && housenumber) {
