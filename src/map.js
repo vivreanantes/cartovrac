@@ -2,6 +2,7 @@ var $ = require('jquery');
 var L = require('leaflet');
 var Embedded = require('./embedded.js');
 var ShopMarker = require('./shopmarker.js');
+var Config = require('./config.js');
 
 import 'leaflet.markercluster';
 import 'leaflet.featuregroup.subgroup';
@@ -12,41 +13,33 @@ import 'leaflet/dist/leaflet.css';
 import 'leaflet.markercluster/dist/MarkerCluster.css';
 import 'leaflet.markercluster/dist/MarkerCluster.Default.css';
 
-// Bounds for display
-var minBoundS = 40;
-var minBoundW = -7;
-var maxBoundN = 53;
-var maxBoundE = 11;
-
 // Get bounds from get parameters and validate them before using it.
-var boundS = Math.max(Embedded.getQueryParam("boundS") || 0, minBoundS);
-var boundW = Math.max(Embedded.getQueryParam("boundW") || -180, minBoundW);
-var boundN = Math.min(Embedded.getQueryParam("boundN") || 90, maxBoundN);
-var boundE = Math.min(Embedded.getQueryParam("boundE") || 180, maxBoundE);
+var zoom = Embedded.getQueryParam("zoom") || Config.defaultZoom;
+var centerLat = Embedded.getQueryParam("lat") || Config.defaultCenterLat;
+var centerLng = Embedded.getQueryParam("lng") || Config.defaultCenterLng;
+var boundS = Math.max(Embedded.getQueryParam("boundS") || 0, Config.minBoundS);
+var boundW = Math.max(Embedded.getQueryParam("boundW") || -180, Config.minBoundW);
+var boundN = Math.min(Embedded.getQueryParam("boundN") || 90, Config.maxBoundN);
+var boundE = Math.min(Embedded.getQueryParam("boundE") || 180, Config.maxBoundE);
+
+// Validate bounds
 if (boundN < boundS || boundE < boundW) {
 	console.error("error - wrong coordinates parameters");
-	boundN = maxBoundN;
-	boundS = minBoundS;
-	boundW = minBoundW;
-	boundE = maxBoundE;
+	boundN = Config.maxBoundN;
+	boundS = Config.minBoundS;
+	boundW = Config.minBoundW;
+	boundE = Config.maxBoundE;
 }
 
-var bounds = new L.LatLngBounds(new L.LatLng(boundN, boundE), new L.LatLng(boundS, boundW));
-
 // Map definition
-var maxZoom = 17;
-var minZoom = 5;
-var defaultZoom = 6;
-var zoom = Embedded.getQueryParam("zoom") || 6;
-var centerLat = Embedded.getQueryParam("lat") || 47;
-var centerLng = Embedded.getQueryParam("lng") || 2;
+var bounds = new L.LatLngBounds(new L.LatLng(boundN, boundE), new L.LatLng(boundS, boundW));
 var mapCenter = new L.latLng(centerLat, centerLng);
 var map = L.map('map', {
 		fullscreenControl: true,
 		center: mapCenter,
 		zoom: zoom,
-		minZoom: minZoom,
-		maxZoom: maxZoom,
+		minZoom: Config.minZoom,
+		maxZoom: Config.maxZoom,
 		maxBounds: bounds
 	});
 
@@ -54,13 +47,10 @@ var map = L.map('map', {
 L.tileLayer(
 	'https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', 
 	{
-		attribution: 'Map data &copy; '+
-			'<a href="http://openstreetmap.org">OpenStreetMap</a> contributors, '+
-			'<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, '+
-			'Imagery © <a href="http://mapbox.com">Mapbox</a>',
-		maxZoom: maxZoom,
+		attribution: Config.attribution,
+		maxZoom: Config.maxZoom,
 		id: 'mapbox.streets',
-		accessToken: 'pk.eyJ1IjoidnJhY2FuYW50ZXMiLCJhIjoiY2prZ21vaWMxMDVxZTNwcm5wZ29vbmY2aCJ9.cBMOReBbeqSWQA3nWsGnuw'
+		accessToken: Config.mapboxKey
 	}
 ).addTo(map);
 
