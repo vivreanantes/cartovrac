@@ -8,10 +8,11 @@ import 'leaflet.markercluster/dist/MarkerCluster.Default.css';
 
 /**
  * Initialize map and return instance of the cluster added to the map.
+ * @param divId the id of the div into which the map will be injected
  */
-export function newMap(mapConfig, config, categories) {
+export function newMap(divId, mapConfig, categories) {
 	// Create the map
-	var map = L.map('map', {
+	var map = L.map(divId, {
 		fullscreenControl: true,
 		center: new L.latLng(mapConfig.centerLat, mapConfig.centerLng),
 		zoom: mapConfig.zoom,
@@ -23,7 +24,7 @@ export function newMap(mapConfig, config, categories) {
 		)
 	});
 
-	brandingLayer(config).addTo(map);
+	brandingLayer(mapConfig).addTo(map);
 	
 	var cluster = new L.MarkerClusterGroup({maxClusterRadius: 50});
     var layers = L.control.layers(null, null, {collapsed: true});
@@ -35,14 +36,14 @@ export function newMap(mapConfig, config, categories) {
 /** 
  * Create branding and license links
  */
-function brandingLayer(config) {
+function brandingLayer(mapConfig) {
 	var layer = L.tileLayer(
-		config.mapUrl,
+		mapConfig.mapUrl,
 		{
-			attribution: config.mapAttribution,
-			maxZoom: config.maxZoom,
+			attribution: mapConfig.mapAttribution,
+			maxZoom: mapConfig.maxZoom,
 			id: 'mapbox.streets',
-			accessToken: config.mapToken
+			accessToken: mapConfig.mapToken
 		}
 	)
 	return layer;

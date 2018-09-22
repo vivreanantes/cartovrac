@@ -32,3 +32,7 @@ export var categories = {
   spices: {prefix: "Magasin d'épices", icon: new ShopIcon({iconUrl: require('../assets/img/icons/icon_spices.png')})},
   cosmetics: {prefix: 'Magasin de cosmétiques', icon: new ShopIcon({iconUrl: require('../assets/img/icons/icon_cosmetics.png')})}
 };
+
+export var shopDataFiles = {
+  fr: {fileName: 'cache_data.json'}
+};

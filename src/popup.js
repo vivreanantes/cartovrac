@@ -1,3 +1,5 @@
+import {elements as jtbPartners} from '../jtb_partners.json';
+
 /**
  * Format shop information into an html style string for the popup
  **/
@@ -17,8 +19,7 @@ export function getPopupContent(
         contact_facebook,
 		prefix,
 		suffix,
-        isANode,
-        jtbPartners
+        isANode
 ){
     // Check that name exists
     if (!name) {
@@ -31,7 +32,7 @@ export function getPopupContent(
     popup += getHtmlFormattedAddress(housenumber, street, postcode, city);   
     popup += getHtmlFormattedHours(opening_hours);
     popup += getHtmlFormattedWebsite(website, contact_website, facebook, contact_facebook);
-    popup += getHtmlFormattedPartnerships(elementId, jtbPartners);
+    popup += getHtmlFormattedPartnerships(elementId);
     popup += getHtmlFormattedContribution(elementId, isANode);
 	return popup;
 }
@@ -152,10 +153,10 @@ function getHtmlFormattedContribution(elementId, isAWay) {
 /**
  * @return an HTML formatted list of partners
  */
-function getHtmlFormattedPartnerships(elementId, jtbPartners) {
+function getHtmlFormattedPartnerships(elementId) {
     var partners = "";
 
-    if (isJaimeTesBocauxPartner(elementId, jtbPartners)){
+    if (isJaimeTesBocauxPartner(elementId)){
         partners += '<hr style="padding-bottom: ;padding-bottom: 0px;" size="1">';
         partners += '<div style="display: flex;">';
         partners += '<img style="height: 50px;" src="'+require("../assets/img/jtb.png")+'"/>';
@@ -170,7 +171,7 @@ function getHtmlFormattedPartnerships(elementId, jtbPartners) {
  * @param elementId the id of the element
  * @return true if it's a "J'aime tes bocaux" partner, false otherwise
  */
-function isJaimeTesBocauxPartner(elementId, jtbPartners) {
+function isJaimeTesBocauxPartner(elementId) {
 
     for (var groupIndex in jtbPartners) {
         var group = jtbPartners[groupIndex];
