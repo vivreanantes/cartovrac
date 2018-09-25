@@ -148,10 +148,13 @@ function getPopupContent(
 	if (!name) {
 		return null;
 	}
-	var popup = '<b>'+name+'</b><br />';
-
+	var popup = '<b>'+name+'</b>';
+	if (neighbourhood) {
+		popup += '<i> - '+neighbourhood+'</i>';
+	}
+	popup += "<br/>";
 	// Set the shop type
-	var shopTitle = getShopTitle(typeArray, collaborative_repair_shop, neighbourhood);
+	// var shopTitle = getShopTitle(typeArray, collaborative_repair_shop, neighbourhood);
 	if (description) {
 		popup += '<i>'+description+'</i><br />';
 	}
