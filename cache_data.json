@@ -2,6 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.55.4 3079d8ea",
   "osm3s": {
+    "timestamp_osm_base": "2018-09-26T15:06:02Z",
+    "timestamp_areas_base": "2018-09-26T14:52:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -380,6 +382,48 @@
         "service:fabrik:repair": "yes",
         "service:small_electronics_device:repair": "yes",
         "service_times": "Fr[2] 18:30-20:30; Aug off"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5931513699,
+      "lat": 47.2432291,
+      "lon": -1.5544495,
+      "tags": {
+        "addr:city": "Nantes",
+        "addr:housenumber": "3",
+        "addr:postcode": "44300",
+        "addr:street": "Chemin de la Censive du Tertre",
+        "contact:calendar": "https://openagenda.com/ateliers-de-co-reparation/events/atelier-d-auto-reparation-par-velocampus",
+        "contact:email": "contact@velocampus.net",
+        "description:fr": "Les bénévoles et les salariés de vélocampus vous accueillent à l'Atelier d'auto-réparation - Vous pourrez aussi croiser son atelier mobile \"La Charrette\" dans les quartiers au gré des animations.",
+        "name": "Atelier d'auto-réparation par VéloCampus",
+        "office": "association",
+        "repair": "assisted_self_service",
+        "service:bicycle:repair": "yes",
+        "service_times": "Mardi et jeudi de 13h30 à 17h30 et de 19h30 à 22h - Mercredi de 16h à 20h - Samedi de 14h à 18h",
+        "source": "Vélocampus 09/2018, Mieux trier à Nantes 09/2018",
+        "website": "http://www.velocampus.net/?lang=fr"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5931519955,
+      "lat": 47.2170252,
+      "lon": -1.5542815,
+      "tags": {
+        "addr:street": "Place Dulcie September",
+        "amenity": "workshop",
+        "description:fr": "Retrouvez sur une carte les 20 lieux où se déroulent régulièrement des ateliers (triés par catégories) avec un calendrier des futures rencontres. Site collaboratif et Open-Data. À partir de mars 2019.",
+        "name": "Ateliers de co-réparation de Loire-Atlantique",
+        "office": "association",
+        "repair": "assisted_self_service",
+        "service:bicycle:repair": "yes",
+        "service:camera:repair": "yes",
+        "service:computer:repair": "yes",
+        "service:fabrik:repair": "yes",
+        "service:small_electronics_device:repair": "yes",
+        "source": "Mieux trier à Nantes, 09/2018"
       }
     }
   ]
