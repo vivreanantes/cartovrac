@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.55.4 3079d8ea",
   "osm3s": {
-    "timestamp_osm_base": "2018-09-26T15:06:02Z",
-    "timestamp_areas_base": "2018-09-26T14:52:02Z",
+    "timestamp_osm_base": "2018-09-27T02:21:06Z",
+    "timestamp_areas_base": "2018-09-27T01:40:05Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -271,11 +271,12 @@
         "addr:neighbourhood": "Bellevue - Chantenay - Sainte-Anne",
         "addr:postcode": "44100",
         "addr:street": "Boulevard de Chantenay",
+        "contact:calendar": "https://openagenda.com/ateliers-de-co-reparation/events/permanence-de-l-atelier-de-reparation-de-chantenay",
         "contact:email": "ateliercoopchantenay@gmail.com",
         "contact:facebook": "https://facebook.com/profile.php?id=1443275402395039",
         "cost": "Cotisation à l'année 10 à 60€ selon âge et revenus.",
         "description:fr": "Service de réparation de vélos et de dépannage d’appareils électroménagers.",
-        "name": "Service de réparation de vélos. Service de dépannage d’appareils électroménagers",
+        "name": "Atelier de réparation coopérative de Chantenay",
         "office": "association",
         "opening_hours": "Permanences : lundis 10h-12h30, 1er et 3ème mardis du mois 20h30-22h30, jeudis 12h30-15h, vendredis 16h-20h",
         "repair": "assisted_self_service",
@@ -414,7 +415,7 @@
       "tags": {
         "addr:street": "Place Dulcie September",
         "amenity": "workshop",
-        "description:fr": "Retrouvez sur une carte les 20 lieux où se déroulent régulièrement des ateliers (triés par catégories) avec un calendrier des futures rencontres. Site collaboratif et Open-Data. À partir de mars 2019.",
+        "description:fr": "Retrouvez sur une carte les 20 lieux où se déroulent régulièrement des ateliers (triés par catégories) avec un calendrier des futures rencontres. Site collaboratif et Open-Data. Ateliers de co-réparation à partir de mars 2019.",
         "name": "Ateliers de co-réparation de Loire-Atlantique",
         "office": "association",
         "repair": "assisted_self_service",
