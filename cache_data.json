@@ -2,11 +2,12 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.55.4 3079d8ea",
   "osm3s": {
-    "timestamp_osm_base": "2018-09-27T02:21:06Z",
-    "timestamp_areas_base": "2018-09-27T01:40:05Z",
+    "timestamp_osm_base": "2018-10-02T20:39:02Z",
+    "timestamp_areas_base": "2018-10-02T20:32:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
+
     {
       "type": "node",
       "id": 5811734321,
@@ -54,7 +55,7 @@
       "type": "node",
       "id": 5822638258,
       "lat": 47.2971409,
-      "lon": -1.491955,
+      "lon": -1.4919550,
       "tags": {
         "addr:city": "CARQUEFOU",
         "addr:housenumber": "1",
@@ -82,7 +83,7 @@
       "type": "node",
       "id": 5825448768,
       "lat": 47.1261721,
-      "lon": -1.296007,
+      "lon": -1.2960070,
       "tags": {
         "addr:city": "MOUZILLON",
         "addr:housenumber": "19 bis",
@@ -139,7 +140,7 @@
       "type": "node",
       "id": 5825537480,
       "lat": 47.2675449,
-      "lon": -2.249944,
+      "lon": -2.2499440,
       "tags": {
         "addr:city": "Saint-Nazaire",
         "addr:housenumber": "1 bis",
@@ -165,8 +166,8 @@
     {
       "type": "node",
       "id": 5825553402,
-      "lat": 47.243738,
-      "lon": -1.606065,
+      "lat": 47.2437380,
+      "lon": -1.6060650,
       "tags": {
         "addr:city": "Saint-Herblain",
         "addr:housenumber": "5",
@@ -263,7 +264,7 @@
     {
       "type": "node",
       "id": 5827136611,
-      "lat": 47.19626,
+      "lat": 47.1962600,
       "lon": -1.5907357,
       "tags": {
         "addr:city": "Nantes",
@@ -426,6 +427,33 @@
         "service:small_electronics_device:repair": "yes",
         "source": "Mieux trier à Nantes, 09/2018"
       }
+    },
+    {
+      "type": "node",
+      "id": 5949741534,
+      "lat": 47.2075502,
+      "lon": -1.5576485,
+      "tags": {
+        "addr:city": "Nantes",
+        "addr:housenumber": "6",
+        "addr:postcode": "44200",
+        "addr:street": "Quai François Mitterrand",
+        "amenity": "workshop",
+        "contact:calendar": "https://openagenda.com/ateliers-de-co-reparation/events/ensavelo-nantes",
+        "contact:email": "ensavelo@gmail.com",
+        "contact:facebook": "https://www.facebook.com/pg/ensavelo.nantes/about/?ref=page_internal",
+        "description:fr": "Atelier d'autoréparation et de conseil sur le vélo basé au sein de l'école d'architecture de Nantes",
+        "image_1": "http://mieuxtrieranantes.fr/docs/medias/AteliersReparationCollaboratifsLoireAtlantique/Ensavelo/Ensavelo_01.jpg",
+        "image_3": "http://mieuxtrieranantes.fr/docs/medias/AteliersReparationCollaboratifsLoireAtlantique/Ensavelo/Ensavelo_03.jpg",
+        "logo": "http://mieuxtrieranantes.fr/docs/medias/AteliersReparationCollaboratifsLoireAtlantique/Ensavelo/logo.png",
+        "name": "Ensavelo Nantes",
+        "office": "association",
+        "repair": "assisted_self_service",
+        "service:bicycle:repair": "yes",
+        "service_times": "Fr 14:00-18:00",
+        "source": "Ensavelo 09/2018"
+      }
     }
+
   ]
 }
