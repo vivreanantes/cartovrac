@@ -21,6 +21,7 @@ $(document).ready(function(){
 function checkEmbbededMode() {
 	if (Embedded.getQueryParam("mode")=="embedded") {
 	  document.getElementById('map').style.top = "0";
+	  document.getElementById('contribute_form').style.top = "20px";
 	  document.getElementById('cartovrac_link').style.display = "block";
 	  document.getElementById('menuToggle').style.display = 'none';
 	  document.getElementById('content').style.display = 'none';
