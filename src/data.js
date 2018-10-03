@@ -30,7 +30,8 @@ export var categories = {
   caterer: {prefix: 'Traiteur', icon: new ShopIcon({iconUrl: require('../assets/img/icons/icon_restaurant.png')})},
   chocolate: {prefix: 'Chocolatier', icon: new ShopIcon({iconUrl: require('../assets/img/icons/icon_chocolate.png')})},
   spices: {prefix: "Magasin d'épices", icon: new ShopIcon({iconUrl: require('../assets/img/icons/icon_spices.png')})},
-  cosmetics: {prefix: 'Magasin de cosmétiques', icon: new ShopIcon({iconUrl: require('../assets/img/icons/icon_cosmetics.png')})}
+  cosmetics: {prefix: 'Magasin de cosmétiques', icon: new ShopIcon({iconUrl: require('../assets/img/icons/icon_cosmetics.png')})},
+  herbalist: {prefix: 'Herboriste', icon: new ShopIcon({iconUrl: require('../assets/img/icons/icon_herbalist.png')})}
 };
 
 export var shopDataFiles = {
