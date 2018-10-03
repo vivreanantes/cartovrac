@@ -40,7 +40,7 @@ function brandingLayer(mapConfig) {
 	var layer = L.tileLayer(
 		mapConfig.mapUrl,
 		{
-			attribution: mapConfig.mapAttribution,
+			attribution: mapConfig.attribution,
 			maxZoom: mapConfig.maxZoom,
 			id: 'mapbox.streets',
 			accessToken: mapConfig.mapToken
