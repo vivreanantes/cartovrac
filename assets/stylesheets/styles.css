@@ -150,6 +150,25 @@ h2 {
   height: 10%;
 }
 
+
+#contribute_form {
+  position: absolute; 
+  z-index: 2; 
+  top: 90px; 
+  right: 10px; 
+  height: 20px;
+  padding: 10px;
+  border-radius: 16px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+  background-color: #32CD32;
+  color: #ffffff;
+  background-image: url("../img/add.png");
+  background-size: 45px;
+  background-repeat: no-repeat;
+  background-position: left;
+  padding-left: 40px;
+}
+
 #map-container {
   width: 100%;  
   height:100%;
@@ -211,10 +230,18 @@ a.anchor {
 
   a.anchor {
       top: -120px;
-    }
+  }
+
+  #contribute_form {
+    top: 140px;
+  }
 }
 
 @media screen and (min-width: 700px) {
+
+  #contribute_form {
+    top: 100px;
+  }
    
   #map {
     top: 75px;
