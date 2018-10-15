@@ -1,10 +1,10 @@
-function menuToggle() {
-  document.getElementById("menu").classList.toggle("show");
-}
-
-function closeMenu() {
+$("#menu a").on("click", function() { 
   document.getElementById("menu").classList.remove("show");
-}
+});
+
+$("#burger").on("click", function() { 
+  document.getElementById("menu").classList.toggle("show");
+});
 
 window.onclick = function(event) {
   if (!event.target.matches('.dropbtn')) {

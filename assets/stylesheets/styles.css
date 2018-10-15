@@ -53,8 +53,7 @@ h2 {
   width: 100%;
   padding-left: 15px;
   padding-top: 15px;
-  padding-bottom: 0;
-  height: 54px;
+  padding-bottom: 12px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -117,7 +116,7 @@ h2 {
 
 .box-shadow {
     box-shadow: 0 4px 2px -2px #ccc;
-  }
+}
 
 #content {
   margin-top: 90px;
