@@ -32,16 +32,14 @@ var today = new Date();
                        }
                      }
                      if (show==true) {
+                       textDiv += "<a id='calendar_" + type_event[i].slug + "'>&nbsp</a>";
                        textDiv += "<div class='wrap'><div class='truc'>";
-
-                        textDiv += "<a id='calendar_" + type_event[i].slug + "'>";
                        if (type_event[i].thumbnail == false) {
                          textDiv += "&nbsp;";
                        }
                        else {
                          textDiv += "<img src='"+type_event[i].thumbnail+"' width='100px' style='max-width:100px;height:auto' />";
                        }
-                       textDiv += "</a>";
                        textDiv += "</div><div class='truc'>";
                        textDiv += "<b>"+type_event[i].title.fr+"</b>";
                        textDiv += "<br/>"+type_event[i].description.fr;
@@ -54,7 +52,7 @@ var today = new Date();
                          var eventStartDate = new Date(type_event[i].timings[j].start);
                          var timeDiff = eventStartDate.getTime() - today.getTime();
                          var diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24));
-                         if (diffDays>=0 && diffDays<=60 && nbEvent<3) {
+                         if (diffDays>=0 && diffDays<=120 && nbEvent<6) {
                            textDiv += "- " + weekday[eventStartDate.getDay()];
                            textDiv += " " + type_event[i].timings[j].start.substring(8,10) + " ";
                            var mois = type_event[i].timings[j].start.substring(5,7).replace("01", "janv.")
@@ -66,7 +64,7 @@ var today = new Date();
                            textDiv += " à " + type_event[i].timings[j].end.substring(11,16);
                            textDiv += "<br/>";
                          }
-                         if (nbEvent==3) {
+                         if (nbEvent==6) {
                            textDiv += "...";
                          }
                          nbEvent++;

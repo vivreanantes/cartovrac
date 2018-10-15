@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.55.4 3079d8ea",
   "osm3s": {
-    "timestamp_osm_base": "2018-10-02T20:39:02Z",
-    "timestamp_areas_base": "2018-10-02T20:32:02Z",
+    "timestamp_osm_base": "2018-10-15T14:51:02Z",
+    "timestamp_areas_base": "2018-10-15T14:14:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -378,7 +378,8 @@
         "amenity": "workshop",
         "contact:calendar": "https://openagenda.com/ateliers-de-co-reparation/events/repair-cafe-sainte-luce-septembre",
         "contact:email": "repaircafeluceen@laposte.net",
-        "description:fr": "Réparation toutes sortes de petits matériels électroniques, couture, etc",
+        "contact:facebook": "https://www.facebook.com/repaircafesteluce44/",
+        "description:fr": "Réparation toutes sortes de petits matériels électroniques, couture, etc.",
         "name": "Repair Café au Café Le Lucéen",
         "repair": "assisted_self_service",
         "service:fabrik:repair": "yes",
