@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.55.4 3079d8ea",
   "osm3s": {
-    "timestamp_osm_base": "2018-09-22T18:05:02Z",
-    "timestamp_areas_base": "2018-09-22T17:23:01Z",
+    "timestamp_osm_base": "2018-10-16T01:59:03Z",
+    "timestamp_areas_base": "2018-10-16T01:04:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -389,6 +389,27 @@
 },
 {
   "type": "node",
+  "id": 703610286,
+  "lat": 45.3797389,
+  "lon": 5.5817011,
+  "tags": {
+    "addr:city": "Voiron",
+    "addr:postcode": "38500",
+    "brand": "Satoriz",
+    "brand:wikidata": "Q3473968",
+    "brand:wikipedia": "fr:Satoriz",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/SatorizMagasinsBio",
+    "contact:phone": "+33 4 76 93 07 94",
+    "name": "Satoriz",
+    "opening_hours": "Mo-Sa 09:00-19:00",
+    "organic": "only",
+    "shop": "convenience",
+    "website": "http://www.satoriz.fr"
+  }
+},
+{
+  "type": "node",
   "id": 721107315,
   "lat": 48.8468100,
   "lon": 2.3418230,
@@ -427,6 +448,28 @@
     "shop": "supermarket",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
     "website": "http://www.biocoop-royan.com"
+  }
+},
+{
+  "type": "node",
+  "id": 765313205,
+  "lat": 43.8243604,
+  "lon": 4.3266275,
+  "tags": {
+    "addr:housenumber": "115",
+    "addr:postcode": "30900",
+    "addr:street": "Boulevard des Français Libres",
+    "brand": "Satoriz",
+    "brand:wikidata": "Q3473968",
+    "brand:wikipedia": "fr:Satoriz",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/SatorizMagasinsBio",
+    "contact:phone": "+33 4 66 62 36 10",
+    "name": "Satoriz",
+    "opening_hours": "Mo-Sa 08:30-19:30",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "http://www.satoriz.fr"
   }
 },
 {
@@ -558,6 +601,19 @@
     "organic": "only",
     "shop": "supermarket",
     "website": "http://www.lavieclaire.com/magasin-bio/saint-etienne.html"
+  }
+},
+{
+  "type": "node",
+  "id": 968480907,
+  "lat": 48.8186653,
+  "lon": 2.3239982,
+  "tags": {
+    "bulk_purchase": "yes",
+    "name": "Les Nouveaux Robinson",
+    "opening_hours": "Mo-Sa 09:00-20:00; Su 09:00-12:30",
+    "shop": "supermarket",
+    "source": "survey"
   }
 },
 {
@@ -874,6 +930,29 @@
 },
 {
   "type": "node",
+  "id": 1374830299,
+  "lat": 43.6008838,
+  "lon": 7.0594756,
+  "tags": {
+    "addr:housenumber": "2791",
+    "addr:postcode": "06220",
+    "addr:street": "Chemin Saint-Bernard",
+    "brand": "Satoriz",
+    "brand:wikidata": "Q3473968",
+    "brand:wikipedia": "fr:Satoriz",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/SatorizMagasinsBio",
+    "contact:phone": "+33 4 50 94 20 49",
+    "name": "Satoriz",
+    "opening_hours": "Mo-Sa 08:30-19:30",
+    "organic": "only",
+    "phone": "+33 4 97 21 31 18",
+    "shop": "convenience",
+    "website": "http://www.satoriz.fr/satoriz/magasin-satoriz-antibes/"
+  }
+},
+{
+  "type": "node",
   "id": 1385779909,
   "lat": 43.2103922,
   "lon": 2.3103900,
@@ -888,6 +967,28 @@
     "organic": "only",
     "shop": "convenience",
     "website": "http://www.tourne-sol-biocoop.fr"
+  }
+},
+{
+  "type": "node",
+  "id": 1392117416,
+  "lat": 45.1804273,
+  "lon": 5.7250044,
+  "tags": {
+    "addr:city": "Grenoble",
+    "addr:housenumber": "13",
+    "addr:postcode": "38100",
+    "addr:street": "Chemin de la Capuche",
+    "bulk_purchase": "yes",
+    "change:XLT-CARN": "yes",
+    "currency:XLT": "CARN",
+    "name": "L'Eléfàn",
+    "opening_hours": "We-Th 12:00-20:00, Fr-Sa 09:00-20:00",
+    "payment:cash:XLT-CARN": "yes",
+    "phone": "+33 7 83 66 34 03",
+    "shop": "convenience",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011",
+    "website": "https://lelefan.org/"
   }
 },
 {
@@ -1028,7 +1129,7 @@
     "addr:postcode": "44300",
     "addr:street": "Rue Eugénie Cotton",
     "bulk_purchase": "yes",
-    "name": "Chlorophylle Nantes BEAUJOIRE",
+    "name": "Chlorophylle Nantes Beaujoire",
     "note": "Coopérative de consommateurs de produits bios, ouverte à tous",
     "opening_hours": "Mo-Sa 09:00-19:30; Su off",
     "operator": "Chlorophylle-coop",
@@ -1123,7 +1224,10 @@
     "addr:housenumber": "150",
     "addr:postcode": "44000",
     "addr:street": "Rue du Général Buat",
-    "name": "Matthieu Delacroix",
+    "contact:phone": "+33 2 40 74 27 95",
+    "name": "Un grain gourmand",
+    "opening_hours": "Tu-Sa 07:00-13:30,16:00-20:00; Su 07:00-13:00,16:00-19:00; May-Aug Su 07:00-13:00",
+    "pastry_shop": "yes",
     "shop": "bakery"
   }
 },
@@ -1137,9 +1241,12 @@
     "addr:housenumber": "144",
     "addr:postcode": "44000",
     "addr:street": "Rue Général Buat",
-    "contact:website": "www.leporcbonheur.com",
+    "contact:phone": "+33 2 40 74 39 42",
     "name": "Le Porc Bonheur",
-    "shop": "butcher"
+    "opening_hours": "Tu-Sa 09:00-13:30,15:00-19:30; Su 09:00-13:00",
+    "shop": "butcher",
+    "survey:date": "2018-10-14",
+    "website": "https://www.leporcbonheur.fr/"
   }
 },
 {
@@ -1181,6 +1288,29 @@
     "wheelchair": "yes",
     "wikidata": "Q3213589",
     "wikipedia": "fr:La Vie claire"
+  }
+},
+{
+  "type": "node",
+  "id": 1666878252,
+  "lat": 43.9720609,
+  "lon": 4.8672189,
+  "tags": {
+    "addr:city": "Le Pontet",
+    "addr:postcode": "84135",
+    "addr:street": "Ruelle du Périgord",
+    "brand": "Satoriz",
+    "brand:wikidata": "Q3473968",
+    "brand:wikipedia": "fr:Satoriz",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/SatorizMagasinsBio",
+    "contact:phone": "+33 4 32 71 19 21",
+    "name": "Satoriz",
+    "opening_hours": "Mo-Sa 08:30-19:30",
+    "operator": "Satoriz",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "http://www.satoriz.fr"
   }
 },
 {
@@ -1776,6 +1906,48 @@
 },
 {
   "type": "node",
+  "id": 2006070605,
+  "lat": 46.2574137,
+  "lon": 6.1105221,
+  "tags": {
+    "addr:housenumber": "31",
+    "addr:postcode": "01210",
+    "addr:street": "Avenue Voltaire",
+    "brand": "Satoriz",
+    "brand:wikidata": "Q3473968",
+    "brand:wikipedia": "fr:Satoriz",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/SatorizMagasinsBio",
+    "contact:phone": "+33 4 50 40 78 62",
+    "name": "Satoriz",
+    "opening_hours": "Mo-Sa 08:30-19:30",
+    "organic": "only",
+    "shop": "convenience",
+    "website": "http://www.satoriz.fr/satoriz/magasin-satoriz-ferney-voltaire/"
+  }
+},
+{
+  "type": "node",
+  "id": 2006072298,
+  "lat": 46.2253039,
+  "lon": 5.9895731,
+  "tags": {
+    "addr:city": "Thoiry",
+    "addr:postcode": "01710",
+    "brand": "Satoriz",
+    "brand:wikidata": "Q3473968",
+    "brand:wikipedia": "fr:Satoriz",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/SatorizMagasinsBio",
+    "name": "Satoriz",
+    "opening_hours": "Mo-Sa 08:30-19:30",
+    "organic": "only",
+    "shop": "convenience",
+    "website": "http://www.satoriz.fr/satoriz/magasin-satoriz-thoiry/"
+  }
+},
+{
+  "type": "node",
   "id": 2007934427,
   "lat": 45.9390818,
   "lon": 6.1224948,
@@ -1804,6 +1976,28 @@
     "phone": "+33 4 72 19 78 68",
     "shop": "convenience",
     "website": "http://www.lavieclaire.com/magasin-bio/lyon-vaise.html"
+  }
+},
+{
+  "type": "node",
+  "id": 2065295441,
+  "lat": 45.2764529,
+  "lon": 5.8885900,
+  "tags": {
+    "addr:housenumber": "441",
+    "addr:postcode": "38920",
+    "addr:street": "Rue Charles de Gaulle",
+    "brand": "Satoriz",
+    "brand:wikidata": "Q3473968",
+    "brand:wikipedia": "fr:Satoriz",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/SatorizMagasinsBio",
+    "contact:phone": "+33 4 76 72 45 16",
+    "name": "Satoriz",
+    "opening_hours": "Mo-Sa 08:30-19:30",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "http://www.satoriz.fr"
   }
 },
 {
@@ -2069,9 +2263,9 @@
     "contact:housenumber": "22",
     "contact:postcode": "44000",
     "contact:street": "Rue des Carmes",
+    "disused:shop": "deli",
     "name": "Sources",
-    "opening_hours": "mon off; tue-sat 10:00-19:30; sun off",
-    "shop": "deli"
+    "opening_hours": "Mo,Su off; Tu-Sa 10:00-19:30; "
   }
 },
 {
@@ -2183,6 +2377,8 @@
     "contact:postcode": "44000",
     "contact:street": "Rue du Bouffay",
     "name": "Boucherie du Bouffay",
+    "opening_hours": "Mo-Sa 08:00-19:30; Su 08:30-12:30",
+    "phone": "+33 2 40 48 54 08",
     "shop": "butcher"
   }
 },
@@ -2423,7 +2619,8 @@
     "opening_hours": "Mo-Sa 09:30-19:15; Su off",
     "organic": "only",
     "shop": "supermarket",
-    "website": "http://www.leshameauxbio.fr/magasins/o%C3%B9-sommes-nous/pornic/"
+    "website": "http://www.leshameauxbio.fr/magasins/o%C3%B9-sommes-nous/pornic/",
+    "wheelchair": "yes"
   }
 },
 {
@@ -2760,7 +2957,6 @@
     "contact:phone": "+33 2 40 89 06 71",
     "contact:postcode": "44000",
     "contact:street": "Rue de Verdun",
-    "contact:website": "http://www.songcomptoir.fr",
     "name": "Olibaba",
     "shop": "convenience"
   }
@@ -3118,6 +3314,17 @@
 },
 {
   "type": "node",
+  "id": 2844603283,
+  "lat": 47.2216497,
+  "lon": -1.5623620,
+  "tags": {
+    "bulk_purchase": "yes",
+    "name": "Voyages du Thé",
+    "shop": "tea"
+  }
+},
+{
+  "type": "node",
   "id": 2874181456,
   "lat": 43.8991998,
   "lon": -0.4854783,
@@ -3381,6 +3588,21 @@
     "payment:visa": "yes",
     "shop": "supermarket",
     "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3105975532,
+  "lat": 48.8170361,
+  "lon": 2.3190873,
+  "tags": {
+    "addr:housenumber": "47",
+    "addr:street": "Rue Louis Rolland",
+    "bulk_purchase": "yes",
+    "name": "Bio c' Bon",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-13:00",
+    "shop": "supermarket",
+    "source": "local Knowledge"
   }
 },
 {
@@ -3651,6 +3873,28 @@
 },
 {
   "type": "node",
+  "id": 3299319763,
+  "lat": 45.6034930,
+  "lon": 5.8922534,
+  "tags": {
+    "addr:housenumber": "2577",
+    "addr:postcode": "73000",
+    "addr:street": "Avenue des Landiers",
+    "brand": "Satoriz",
+    "brand:wikidata": "Q3473968",
+    "brand:wikipedia": "fr:Satoriz",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/SatorizMagasinsBio",
+    "contact:phone": "+33 4 79 68 63 86",
+    "contact:website": "http://www.satoriz.fr/satoriz/magasin-satoriz-chambery/",
+    "name": "Satoriz",
+    "opening_hours": "Mo-Sa 08:30-19:30",
+    "organic": "only",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
   "id": 3319604902,
   "lat": 49.8955512,
   "lon": 2.2964643,
@@ -3702,8 +3946,7 @@
     "opening_hours": "[Tu] [Fr] 10:00-19:00; [We] [Th] [Sa] 10:00-13:00,15:00-19:00; [Su] 10:00-13:00",
     "organic": "only",
     "shop": "convenience",
-    "source": "Association Mieux trier à Nantes, 08/2018",
-    "website": "https://fr.ulule.com/epiceriedose/"
+    "source": "Association Mieux trier à Nantes, 08/2018"
   }
 },
 {
@@ -3887,6 +4130,29 @@
     "ref:FR:SIRET": "44297626200042",
     "shop": "convenience",
     "website": "http://biocoop.fr/magasins-bio/Trouver-mon-magasin-Biocoop/Auvergne-Rhone-Alpes/Loire/BIOCOOP-LES-ARCADES"
+  }
+},
+{
+  "type": "node",
+  "id": 3461489327,
+  "lat": 45.4431420,
+  "lon": 4.4241536,
+  "tags": {
+    "addr:city": "Saint-Étienne",
+    "addr:housenumber": "5",
+    "addr:postcode": "42100",
+    "addr:street": "Rue Marc Charras",
+    "brand": "Satoriz",
+    "brand:wikidata": "Q3473968",
+    "brand:wikipedia": "fr:Satoriz",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/SatorizMagasinsBio",
+    "name": "Satoriz",
+    "opening_hours": "Mo-Sa 08:30-19:30",
+    "organic": "only",
+    "phone": "+33 4 77 49 03 85",
+    "shop": "supermarket",
+    "website": "http://www.satoriz.fr/satoriz/magasin-satoriz-saint-etienne"
   }
 },
 {
@@ -4454,6 +4720,30 @@
     "opening_hours": "Mo 15:00-19:00, Tu-Sa 09:00-12:30,15:00-19:00",
     "organic": "only",
     "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 3861078450,
+  "lat": 45.8066489,
+  "lon": 4.8684054,
+  "tags": {
+    "addr:housenumber": "100",
+    "addr:postcode": "69300",
+    "addr:street": "Avenue Général Leclerc",
+    "brand": "Satoriz",
+    "brand:wikidata": "Q3473968",
+    "brand:wikipedia": "fr:Satoriz",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/SatorizMagasinsBio",
+    "contact:phone": "+33 4 37 40 13 88",
+    "name": "Satoriz",
+    "official_name": "Satoriz le bio pour tous !",
+    "opening_hours": "Mo-Sa 08:30-19:30",
+    "organic": "only",
+    "phone": "+33437401388",
+    "shop": "supermarket",
+    "website": "http://www.satoriz.fr/?satoriz=magasin-satoriz-lyon-caluire"
   }
 },
 {
@@ -5029,9 +5319,6 @@
   "lat": 47.2211715,
   "lon": -1.5578118,
   "tags": {
-    "addr:city": "Nantes",
-    "addr:postcode": "44000",
-    "addr:street": "Rue Basse Porte",
     "name": "Talensac Marée",
     "shop": "seafood"
   }
@@ -5066,9 +5353,6 @@
   "lat": 47.2211701,
   "lon": -1.5580034,
   "tags": {
-    "addr:city": "Nantes",
-    "addr:postcode": "44000",
-    "addr:street": "Rue Basse Porte",
     "name": "Boucherie Biologique Nantaise",
     "organic": "yes",
     "shop": "butcher"
@@ -5080,9 +5364,6 @@
   "lat": 47.2212685,
   "lon": -1.5582387,
   "tags": {
-    "addr:city": "Nantes",
-    "addr:postcode": "44000",
-    "addr:street": "Rue Basse Porte",
     "name": "Les Délices de Provence",
     "origin": "mediterranean",
     "shop": "deli"
@@ -5565,6 +5846,28 @@
 },
 {
   "type": "node",
+  "id": 4369382974,
+  "lat": 44.9447819,
+  "lon": 4.8543417,
+  "tags": {
+    "addr:city": "Saint-Péray",
+    "addr:postcode": "07130",
+    "addr:street": "Avenue de Gross Umstadt",
+    "brand": "Satoriz",
+    "brand:wikidata": "Q3473968",
+    "brand:wikipedia": "fr:Satoriz",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/SatorizMagasinsBio",
+    "contact:phone": "+33 4 75 78 31 10",
+    "name": "Satoriz",
+    "opening_hours": "Mo-Sa 08:30-19:30",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "http://www.satoriz.fr"
+  }
+},
+{
+  "type": "node",
   "id": 4369829567,
   "lat": 48.8087035,
   "lon": 2.1883609,
@@ -5966,6 +6269,30 @@
     "organic": "only",
     "shop": "supermarket",
     "website": "http://www.chlorophylle-coop.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 4432986011,
+  "lat": 45.8046364,
+  "lon": 4.7811614,
+  "tags": {
+    "addr:city": "Champagne-au-Mont-d'Or",
+    "addr:housenumber": "11",
+    "addr:postcode": "69410",
+    "addr:street": "Rue des Rosiéristes",
+    "brand": "Satoriz",
+    "brand:wikidata": "Q3473968",
+    "brand:wikipedia": "fr:Satoriz",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/SatorizMagasinsBio",
+    "contact:phone": "+33 4 78 35 66 69",
+    "name": "Satoriz",
+    "opening_hours": "Mo-Sa 09:30-19:30",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "http://www.satoriz-montdor.fr/",
+    "wheelchair": "yes"
   }
 },
 {
@@ -6685,6 +7012,28 @@
 },
 {
   "type": "node",
+  "id": 4640792130,
+  "lat": 45.6160118,
+  "lon": 5.2337058,
+  "tags": {
+    "addr:housenumber": "6 bis",
+    "addr:postcode": "38080",
+    "addr:street": "Rue des Sayes",
+    "brand": "Satoriz",
+    "brand:wikidata": "Q3473968",
+    "brand:wikipedia": "fr:Satoriz",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/SatorizMagasinsBio",
+    "contact:phone": "+33 4 37 06 49 01",
+    "name": "Satoriz",
+    "opening_hours": "Mo-Sa 08:30-19:30",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "http://www.satoriz.fr"
+  }
+},
+{
+  "type": "node",
   "id": 4645154445,
   "lat": 48.3866586,
   "lon": -4.5321039,
@@ -6751,6 +7100,30 @@
     "organic": "only",
     "shop": "supermarket",
     "website": "http://www.lavieclaire.com/magasin-bio/soyaux-angouleme.html"
+  }
+},
+{
+  "type": "node",
+  "id": 4677149598,
+  "lat": 45.7551489,
+  "lon": 3.1308254,
+  "tags": {
+    "addr:city": "Aubière",
+    "addr:housenumber": "15",
+    "addr:postcode": "63170",
+    "addr:street": "Avenue du Roussillon",
+    "brand": "Satoriz",
+    "brand:wikidata": "Q3473968",
+    "brand:wikipedia": "fr:Satoriz",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/SatorizMagasinsBio",
+    "contact:phone": "+33 4 73 15 08 60",
+    "name": "Satoriz",
+    "opening_hours": "Mo-Sa 08:30-19:30",
+    "organic": "only",
+    "payment:cash:XLT-DUME": "yes",
+    "shop": "supermarket",
+    "website": "http://www.satoriz.fr"
   }
 },
 {
@@ -6954,7 +7327,6 @@
     "addr:housenumber": "37",
     "bulk_purchase": "only",
     "currency:XLT": "FLOR",
-    "doggy_bag": "free",
     "email": "daybyday.nancy@gmail.com",
     "name": "day by day",
     "opening_hours": "Mo-Sa 09:30-13:00,14:30-19:00",
@@ -7325,6 +7697,7 @@
     "contact:website": "http://www.vracenvert.fr",
     "description": "Épicerie sans emballage",
     "name": "Vrac en Vert",
+    "opening_hours": "Tu-Sa 09:30-19:30; Mo 14:30-19:30",
     "shop": "deli"
   }
 },
@@ -7811,6 +8184,33 @@
 },
 {
   "type": "node",
+  "id": 5007422350,
+  "lat": 45.9530515,
+  "lon": 6.6305808,
+  "tags": {
+    "addr:city": "Sallanches",
+    "addr:country": "FR",
+    "addr:housenumber": "1894",
+    "addr:postcode": "74700",
+    "addr:street": "Avenue de Genève",
+    "brand": "Satoriz",
+    "brand:wikidata": "Q3473968",
+    "brand:wikipedia": "fr:Satoriz",
+    "building": "yes",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/SatorizMagasinsBio",
+    "contact:phone": "+33 4 50 58 48 29",
+    "name": "Satoriz",
+    "opening_hours": "Mo-Sa 08:30-19:30",
+    "operator": "Satoriz",
+    "organic": "only",
+    "shop": "supermarket",
+    "smoking": "outside",
+    "website": "http://www.satoriz.fr"
+  }
+},
+{
+  "type": "node",
   "id": 5010220778,
   "lat": 49.1175192,
   "lon": 6.1781779,
@@ -8254,7 +8654,7 @@
     "organic": "yes",
     "phone": "+33 6 47 99 76 03",
     "shop": "convenience",
-    "start_date": "25 Novembre 2017",
+    "start_date": "2017-11-25",
     "wheelchair": "yes"
   }
 },
@@ -8281,23 +8681,19 @@
 },
 {
   "type": "node",
-  "id": 5167581550,
-  "lat": 48.5677208,
-  "lon": -3.8541278,
+  "id": 5172971184,
+  "lat": 43.9509978,
+  "lon": 5.7702974,
   "tags": {
-    "addr:city": "Saint Martin des Champs",
-    "addr:postcode": "29600",
-    "addr:street": "Route de Sainte-Sève",
+    "addr:city": "Forcalquier",
+    "addr:postcode": "04300",
     "bulk_purchase": "yes",
-    "contact:facebook": ".frhttps://www.facebook.com/LeSiloMorlaix/",
-    "description": "Le Silô, c'est un magasin d'alimentation bio et de produits locaux (bio), sélectionnés avec soins, dans un magasin à taille humaine.",
-    "name": "Le Silô",
-    "opening_hours": "Tu-Su 09:00-19:00",
+    "currency:XLT": "ROUE",
+    "name": "La Halle Paysanne",
+    "operator": "Propafor",
     "organic": "only",
-    "phone": "+33 2 56 45 50 27",
-    "ref:FR:NAF": "4711B",
-    "shop": "convenience",
-    "website": "http://www.lesilo-morlaix.fr"
+    "shop": "supermarket",
+    "website": "https://www.biomonde.fr/la-halle-paysanne,3,8"
   }
 },
 {
@@ -8487,8 +8883,8 @@
 {
   "type": "node",
   "id": 5226961589,
-  "lat": 47.2286219,
-  "lon": -1.6343382,
+  "lat": 47.2286209,
+  "lon": -1.6342750,
   "tags": {
     "addr:city": "Saint-Herblain",
     "addr:housenumber": "279",
@@ -9170,15 +9566,16 @@
 {
   "type": "node",
   "id": 5460269733,
-  "lat": 47.2175599,
-  "lon": -1.5516156,
+  "lat": 47.2175497,
+  "lon": -1.5516198,
   "tags": {
     "addr:city": "Nantes",
     "addr:housenumber": "13",
     "addr:postcode": "44000",
     "addr:street": "Rue Saint-Pierre",
-    "name": "Albert & Léontine",
-    "shop": "confectionery"
+    "shop": "vacant",
+    "survey:date": "2018-10-12",
+    "wheelchair": "no"
   }
 },
 {
@@ -9416,6 +9813,28 @@
 },
 {
   "type": "node",
+  "id": 5483023019,
+  "lat": 43.9601311,
+  "lon": 4.7515946,
+  "tags": {
+    "addr:city": "Les Angles",
+    "addr:postcode": "30133",
+    "addr:street": "Rue de la Tramontane",
+    "brand": "Satoriz",
+    "brand:wikidata": "Q3473968",
+    "brand:wikipedia": "fr:Satoriz",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/SatorizMagasinsBio",
+    "contact:phone": "+33 4 90 16 95 61",
+    "name": "Satoriz",
+    "opening_hours": "Mo-Sa 08:30-19:30",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "http://www.satoriz.fr"
+  }
+},
+{
+  "type": "node",
   "id": 5498682157,
   "lat": 45.8711827,
   "lon": 1.2686594,
@@ -9501,8 +9920,8 @@
 {
   "type": "node",
   "id": 5527532034,
-  "lat": 47.4544266,
-  "lon": -0.2677625,
+  "lat": 47.4543571,
+  "lon": -0.2678045,
   "tags": {
     "addr:city": "Mazé",
     "addr:housenumber": "37",
@@ -9527,7 +9946,9 @@
     "addr:postcode": "44200",
     "addr:street": "Rue Louis Blanc",
     "amenity": "restaurant",
-    "cuisine": "vegan;french;local",
+    "cuisine": "french;local",
+    "diet:vegan": "yes",
+    "diet:vegetarian": "yes",
     "facebook": "https://www.facebook.com/petitbcafelibrairie/",
     "name": "Petit b",
     "takeaway": "yes"
@@ -9553,8 +9974,8 @@
 {
   "type": "node",
   "id": 5536163901,
-  "lat": 47.2760082,
-  "lon": -2.2133227,
+  "lat": 47.2760058,
+  "lon": -2.2133591,
   "tags": {
     "addr:city": "Saint-Nazaire",
     "addr:housenumber": "17",
@@ -10743,6 +11164,7 @@
     "bulk_purchase": "only",
     "email": "daybyday.valenciennes@gmail.com",
     "name": "day by day Valenciennes",
+    "opening_hours": "Tu-Fr 10:00-13:00,15:00-19:00; Sa 09:30-13:00,14:30-19:00",
     "operator": "Day by Day",
     "organic": "yes",
     "phone": "+33 9 84 52 51 99",
@@ -11539,6 +11961,10 @@
   "lat": 43.2917334,
   "lon": 5.3591310,
   "tags": {
+    "addr:city": "Marseille",
+    "addr:housenumber": "3",
+    "addr:postcode": "13007",
+    "addr:street": "Avenue Pasteur",
     "bulk_purchase": "only",
     "name": "Au grain près",
     "organic": "only",
@@ -12020,6 +12446,32 @@
 },
 {
   "type": "node",
+  "id": 5825140051,
+  "lat": 48.5182139,
+  "lon": 7.7032444,
+  "tags": {
+    "addr:city": "Geispolsheim",
+    "addr:housenumber": "3",
+    "addr:postcode": "67118",
+    "addr:street": "Route de Lyon",
+    "brand": "Satoriz",
+    "brand:wikidata": "Q3473968",
+    "brand:wikipedia": "fr:Satoriz",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/SatorizMagasinsBio",
+    "name": "Satoriz",
+    "opening_hours": "Mo-Sa 08:30-19:30",
+    "organic": "only",
+    "payment:cash": "yes",
+    "payment:coins": "yes",
+    "payment:credit_cards": "yes",
+    "phone": "+33 3 88 44 64 91",
+    "shop": "supermarket",
+    "website": "http://www.satoriz.fr"
+  }
+},
+{
+  "type": "node",
   "id": 5825534303,
   "lat": 45.7421180,
   "lon": 4.8206865,
@@ -12454,14 +12906,20 @@
 {
   "type": "node",
   "id": 5839622132,
-  "lat": 44.8526990,
-  "lon": -0.6151671,
+  "lat": 44.8525187,
+  "lon": -0.6154083,
   "tags": {
+    "addr:city": "Bordeaux",
+    "addr:country": "FR",
+    "addr:housenumber": "163",
+    "addr:postcode": "33200",
+    "addr:street": "Avenue Louis Barthou",
     "brand": "La Vie Claire",
     "brand:wikidata": "Q3213589",
     "brand:wikipedia": "fr:La Vie claire",
     "bulk_purchase": "yes",
     "name": "La Vie Claire",
+    "opening_hours": "Mo 09:00-12:30,15:15-19:00; Tu-Sa 09:00-13:15,15:15-19:00",
     "organic": "only",
     "shop": "supermarket",
     "website": "http://www.lavieclaire.com/magasin-bio/bordeaux.html"
@@ -12901,8 +13359,8 @@
 {
   "type": "node",
   "id": 5842449645,
-  "lat": 48.9185756,
-  "lon": 2.3181367,
+  "lat": 48.9187439,
+  "lon": 2.3178081,
   "tags": {
     "brand": "La Vie Claire",
     "brand:wikidata": "Q3213589",
@@ -13114,17 +13572,19 @@
   "lat": 47.2167648,
   "lon": -1.5596503,
   "tags": {
-    "addr:city": "Nantes",
-    "addr:housenumber": "14",
-    "addr:postcode": "44000",
-    "addr:street": "Rue de Budapest",
     "brand": "Biocoop",
     "brand:wikidata": "Q2904039",
     "brand:wikipedia": "fr:Biocoop",
     "bulk_purchase": "yes",
+    "contact:city": "Nantes",
+    "contact:housenumber": "14",
+    "contact:postcode": "44000",
+    "contact:street": "Rue de Budapest",
     "name": "Biocoop Place Bretagne",
-    "opening_hours": "Mo-Sa 09:00-19:30",
+    "opening_hours": "Mo-Sa 09:30-19:30",
+    "organic": "only",
     "shop": "supermarket",
+    "survey:date": "2018-09-26",
     "website": "http://www.biocoop.fr",
     "wheelchair": "yes"
   }
@@ -13633,6 +14093,439 @@
   }
 },
 {
+  "type": "node",
+  "id": 5924337282,
+  "lat": 46.2078656,
+  "lon": 5.2164013,
+  "tags": {
+    "addr:city": "Bourg-en-Bresse",
+    "addr:housenumber": "24",
+    "addr:postcode": "01000",
+    "addr:street": "Rue du 23e R.I.",
+    "bulk_purchase": "yes",
+    "name": "Biophare",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://www.biomonde.fr/biophare,3,3"
+  }
+},
+{
+  "type": "node",
+  "id": 5924484309,
+  "lat": 49.0334393,
+  "lon": 3.3795640,
+  "tags": {
+    "addr:city": "Essômes-sur-Marne",
+    "addr:housenumber": "64",
+    "addr:postcode": "02400",
+    "addr:street": "Avenue du Général de Gaulle",
+    "bulk_purchase": "yes",
+    "name": "La Fontaine Bio",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://www.biomonde.fr/la-fontaine-bio,3,4"
+  }
+},
+{
+  "type": "node",
+  "id": 5924527593,
+  "lat": 46.5874461,
+  "lon": 3.0602703,
+  "tags": {
+    "addr:city": "Bourbon-l'Archambault",
+    "addr:postcode": "03160",
+    "addr:street": "Rue du Lieutenant-Colonel Dubost",
+    "bulk_purchase": "yes",
+    "name": "L'Archamb'bio",
+    "organic": "only",
+    "shop": "convenience",
+    "website": "https://www.biomonde.fr/l-archamb-bio,3,207"
+  }
+},
+{
+  "type": "node",
+  "id": 5924552603,
+  "lat": 46.3627511,
+  "lon": 2.5814622,
+  "tags": {
+    "addr:city": "Domérat",
+    "addr:housenumber": "1",
+    "addr:postcode": "03410",
+    "addr:street": "Rue de Maupertuis",
+    "bulk_purchase": "yes",
+    "name": "Bio Conviv'",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "http://www.bioconviv.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 5924609665,
+  "lat": 46.5257331,
+  "lon": 3.6739254,
+  "tags": {
+    "addr:city": "Dompierre-sur-Besbre",
+    "addr:housenumber": "361",
+    "addr:postcode": "03290",
+    "addr:street": "Avenue de la Gare",
+    "bulk_purchase": "yes",
+    "name": "Terre de Ma'lice",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://www.biomonde.fr/terre-de-ma-lice,3,265"
+  }
+},
+{
+  "type": "node",
+  "id": 5924627228,
+  "lat": 46.5353505,
+  "lon": 3.3481839,
+  "tags": {
+    "addr:city": "Yzeure",
+    "addr:housenumber": "190",
+    "addr:postcode": "03400",
+    "addr:street": "Route de Lyon",
+    "bulk_purchase": "yes",
+    "name": "L'Esperluette",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://www.esperluette-yzeure.fr/"
+  }
+},
+{
+  "type": "node",
+  "id": 5930775170,
+  "lat": 43.7003198,
+  "lon": 7.2791082,
+  "tags": {
+    "addr:city": "Nice",
+    "addr:housenumber": "4",
+    "addr:postcode": "06300",
+    "addr:street": "Rue Pairolière",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/girofleetcannelle/",
+    "name": "Girofle & Cannelle",
+    "shop": "spices",
+    "website": "https://www.girofle-et-cannelle.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 5930775171,
+  "lat": 43.7008700,
+  "lon": 7.2828235,
+  "tags": {
+    "addr:city": "Nice",
+    "addr:housenumber": "17",
+    "addr:postcode": "06300",
+    "addr:street": "Rue Bonaparte",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/MagasintrianglezenNice",
+    "name": "Triangle Zen",
+    "organic": "yes",
+    "shop": "herbalist",
+    "website": "https://triangle-zen.fr/"
+  }
+},
+{
+  "type": "node",
+  "id": 5951822151,
+  "lat": 44.0926344,
+  "lon": 6.2362038,
+  "tags": {
+    "addr:city": "Digne-les-Bains",
+    "addr:housenumber": "6",
+    "addr:postcode": "04000",
+    "addr:street": "Rue Jeu-de-Paume",
+    "bulk_purchase": "yes",
+    "name": "Marjolaine",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://www.biomonde.fr/marjolaine,3,238"
+  }
+},
+{
+  "type": "node",
+  "id": 5953124559,
+  "lat": 45.1531364,
+  "lon": 5.6973769,
+  "tags": {
+    "addr:housenumber": "12",
+    "addr:postcode": "38130",
+    "addr:street": "Rue des Montagnes de Lans",
+    "brand": "Satoriz",
+    "brand:wikidata": "Q3473968",
+    "brand:wikipedia": "fr:Satoriz",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/SatorizMagasinsBio",
+    "contact:phone": "+33 4 76 40 42 34",
+    "name": "Satoriz",
+    "opening_hours": "Mo-Sa 08:30-19:30",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "http://www.satoriz.fr"
+  }
+},
+{
+  "type": "node",
+  "id": 5956359776,
+  "lat": 45.7496483,
+  "lon": 4.9296348,
+  "tags": {
+    "addr:housenumber": "10",
+    "addr:postcode": "69120",
+    "addr:street": "Rue Auguste et Louis Lumière",
+    "brand": "Satoriz",
+    "brand:wikidata": "Q3473968",
+    "brand:wikipedia": "fr:Satoriz",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/SatorizMagasinsBio",
+    "contact:phone": "+33 4 78 26 68 72",
+    "name": "Satoriz",
+    "opening_hours": "Mo-Sa 08:30-19:30",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "http://www.satoriz.fr"
+  }
+},
+{
+  "type": "node",
+  "id": 5959040210,
+  "lat": 48.9914153,
+  "lon": 2.3638454,
+  "tags": {
+    "bulk_purchase": "yes",
+    "name": "Naturéo",
+    "opening_hours": "Mo-Sa 09:30-19:30, Su 9:30-12:00",
+    "organic": "only",
+    "phone": "01 34 04 16 20",
+    "shop": "supermarket",
+    "website": "https://www.natureo-bio.fr/"
+  }
+},
+{
+  "type": "node",
+  "id": 5959784681,
+  "lat": 49.2131980,
+  "lon": 4.0463195,
+  "tags": {
+    "addr:city": "Cormontreuil",
+    "addr:postcode": "51350",
+    "addr:street": "Rue des Laps",
+    "brand": "Satoriz",
+    "brand:wikidata": "Q3473968",
+    "brand:wikipedia": "fr:Satoriz",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/SatorizMagasinsBio",
+    "contact:phone": "+33 3 26 35 64 30",
+    "name": "Satoriz",
+    "opening_hours": "Mo-Sa 09:00-19:00",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "http://www.satoriz.fr"
+  }
+},
+{
+  "type": "node",
+  "id": 5959784682,
+  "lat": 43.4419991,
+  "lon": 6.7012163,
+  "tags": {
+    "addr:city": "Puget-sur-Argens",
+    "addr:postcode": "83480",
+    "brand": "Satoriz",
+    "brand:wikidata": "Q3473968",
+    "brand:wikipedia": "fr:Satoriz",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/SatorizMagasinsBio",
+    "contact:phone": "+33 4 94 43 87 35",
+    "name": "Satoriz",
+    "opening_hours": "Mo-Sa 08:30-19:30",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "http://www.satoriz.fr"
+  }
+},
+{
+  "type": "node",
+  "id": 5959784683,
+  "lat": 47.7990819,
+  "lon": 7.3124387,
+  "tags": {
+    "addr:postcode": "68270",
+    "brand": "Satoriz",
+    "brand:wikidata": "Q3473968",
+    "brand:wikipedia": "fr:Satoriz",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/SatorizMagasinsBio",
+    "contact:phone": "+33 3 89 62 50 77",
+    "name": "Satoriz",
+    "opening_hours": "Mo-Sa 08:30-19:30",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "http://www.satoriz.fr"
+  }
+},
+{
+  "type": "node",
+  "id": 5959789630,
+  "lat": 47.0870272,
+  "lon": -1.2827920,
+  "tags": {
+    "addr:city": "Clisson",
+    "addr:housenumber": "14",
+    "addr:postcode": "44190",
+    "addr:street": "Venelle de l'Escarpe",
+    "bulk_purchase": "only",
+    "name": "Casavrac",
+    "organic": "yes",
+    "shop": "convenience",
+    "website": "https://www.casavrac.fr/"
+  }
+},
+{
+  "type": "node",
+  "id": 5959809474,
+  "lat": 45.9402695,
+  "lon": 6.0771064,
+  "tags": {
+    "addr:city": "Épagny",
+    "addr:housenumber": "99",
+    "addr:postcode": "74330",
+    "addr:street": "Avenue des Alpes",
+    "brand": "Satoriz",
+    "brand:wikidata": "Q3473968",
+    "brand:wikipedia": "fr:Satoriz",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/SatorizMagasinsBio",
+    "contact:phone": "+33 4 50 24 20 02",
+    "name": "Satoriz",
+    "opening_hours": "Mo-Sa 08:30-19:30",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "http://www.satoriz.fr"
+  }
+},
+{
+  "type": "node",
+  "id": 5959809584,
+  "lat": 48.8785931,
+  "lon": 2.3710351,
+  "tags": {
+    "addr:city": "Paris",
+    "addr:housenumber": "10",
+    "addr:postcode": "75019",
+    "addr:street": "Rue de Meaux",
+    "bulk_purchase": "only",
+    "name": "Kilogramme",
+    "organic": "yes",
+    "shop": "convenience",
+    "website": "https://www.epiceriekilogramme.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 5959810428,
+  "lat": 50.2894926,
+  "lon": 2.7784850,
+  "tags": {
+    "addr:city": "Arras",
+    "addr:housenumber": "11",
+    "addr:postcode": "62000",
+    "addr:street": "Rue Émile Legrelle",
+    "bulk_purchase": "only",
+    "contact:facebook": "https://www.facebook.com/audetailpresarras/",
+    "name": "Au détail près",
+    "organic": "yes",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 5959824438,
+  "lat": 43.7104461,
+  "lon": 7.1913503,
+  "tags": {
+    "addr:city": "Nice",
+    "addr:housenumber": "37",
+    "addr:postcode": "06200",
+    "addr:street": "Avenue Auguste Vérola",
+    "brand": "Satoriz",
+    "brand:wikidata": "Q3473968",
+    "brand:wikipedia": "fr:Satoriz",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/SatorizMagasinsBio",
+    "contact:phone": "+33 4 93 17 59 83",
+    "name": "Satoriz",
+    "opening_hours": "Mo-Sa 08:30-19:30",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "http://www.satoriz.fr"
+  }
+},
+{
+  "type": "node",
+  "id": 5959877032,
+  "lat": 46.2647543,
+  "lon": 4.7935555,
+  "tags": {
+    "addr:city": "Vinzelles",
+    "addr:postcode": "71680",
+    "brand": "Satoriz",
+    "brand:wikidata": "Q3473968",
+    "brand:wikipedia": "fr:Satoriz",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/SatorizMagasinsBio",
+    "contact:phone": "+33 3 85 38 62 75",
+    "name": "Satoriz",
+    "opening_hours": "Mo-Sa 08:30-19:30",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "http://www.satoriz.fr"
+  }
+},
+{
+  "type": "node",
+  "id": 5979940209,
+  "lat": 47.1278542,
+  "lon": -2.1232932,
+  "tags": {
+    "addr:city": "Pornic",
+    "addr:housenumber": "1",
+    "addr:postcode": "44210",
+    "addr:street": "Rue du Traité de Lisbonne",
+    "bulk_purchase": "yes",
+    "diet:gluten_free": "yes",
+    "name": "La panetière des Hameaux",
+    "opening_hours": "Mo-Sa 07:30-19:00; PH off",
+    "organic": "yes",
+    "phone": "+33 2 40 64 64 44",
+    "shop": "bakery",
+    "website": "https://lapanetieredeshameaux.fr/trouver-votre-boulangerie/la-panetiere-des-hameaux-pornic",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5979940211,
+  "lat": 47.1244414,
+  "lon": -2.1185767,
+  "tags": {
+    "addr:city": "Pornic",
+    "addr:housenumber": "19-21",
+    "addr:postcode": "44210",
+    "addr:street": "Rue Jean Monnet",
+    "bulk_purchase": "yes",
+    "name": "Le Chemin Bio",
+    "opening_hours": "Mo-Th 9:30-12:30 14:30-19:00; Fr-Sa 9:30-19:00",
+    "organic": "only",
+    "phone": "+33 2 40 39 10 32",
+    "shop": "supermarket",
+    "website": "https://www.pornic.com/le-chemin-bio.html"
+  }
+},
+{
   "type": "way",
   "id": 35739853,
   "center": {
@@ -13688,6 +14581,40 @@
     "shop": "convenience",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre;mise à jour : 2008",
     "website": "http://daybyday-shop.com/magasin/annecy"
+  }
+},
+{
+  "type": "way",
+  "id": 39366293,
+  "center": {
+    "lat": 45.1858993,
+    "lon": 5.7124260
+  },
+  "nodes": [
+    471656296,
+    471656301,
+    471656304,
+    471656307,
+    471656311,
+    471656314,
+    471656318,
+    600695427,
+    471656319,
+    471656320,
+    600695430,
+    471656299,
+    471656296
+  ],
+  "tags": {
+    "building": "yes",
+    "building:levels": "5",
+    "bulk_purchase": "yes",
+    "name": "Casabio",
+    "organic": "only",
+    "roof:levels": "1",
+    "shop": "convenience",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2009",
+    "wheelchair": "no"
   }
 },
 {
@@ -13756,6 +14683,46 @@
 },
 {
   "type": "way",
+  "id": 43570574,
+  "center": {
+    "lat": 45.1876652,
+    "lon": 5.7484347
+  },
+  "nodes": [
+    550190916,
+    550190914,
+    2013782184,
+    550190923,
+    550190925,
+    550190915,
+    550190919,
+    550190916
+  ],
+  "tags": {
+    "addr:city": "Saint-Martin-d'Hères",
+    "addr:country": "FR",
+    "addr:housenumber": "2",
+    "addr:postcode": "38400",
+    "addr:street": "Avenue Gabriel Péri",
+    "brand": "Satoriz",
+    "brand:wikidata": "Q3473968",
+    "brand:wikipedia": "fr:Satoriz",
+    "building": "retail",
+    "building:levels": "1",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/SatorizMagasinsBio",
+    "contact:phone": "+33 4 76 63 18 99",
+    "name": "Satoriz",
+    "opening_hours": "Mo-Sa 08:30-19:30",
+    "organic": "only",
+    "roof:levels": "0",
+    "shop": "supermarket",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre;mise à jour : 2009",
+    "website": "http://www.satoriz.fr"
+  }
+},
+{
+  "type": "way",
   "id": 46991383,
   "center": {
     "lat": 43.8875472,
@@ -13787,6 +14754,41 @@
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2009",
     "website": "http://www.biocoop-natureetsante.com/",
     "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 47257037,
+  "center": {
+    "lat": 48.6600976,
+    "lon": 7.7257005
+  },
+  "nodes": [
+    602160762,
+    602160763,
+    602160764,
+    602160765,
+    602175256,
+    602160762
+  ],
+  "tags": {
+    "addr:city": "Vendenheim",
+    "addr:postcode": "67550",
+    "addr:street": "Rue Transversale B",
+    "brand": "Satoriz",
+    "brand:wikidata": "Q3473968",
+    "brand:wikipedia": "fr:Satoriz",
+    "building": "retail",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/SatorizMagasinsBio",
+    "contact:phone": "+33 3 90 20 38 82",
+    "name": "Satoriz",
+    "opening_hours": "Mo-Sa 08:30-19:30",
+    "organic": "only",
+    "roof:shape": "flat",
+    "shop": "convenience",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2009",
+    "website": "http://www.satoriz.fr"
   }
 },
 {
@@ -14944,6 +15946,48 @@
     "short_name": "Biocoop",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
     "website": "http://www.biocoop-lourdes.fr/"
+  }
+},
+{
+  "type": "way",
+  "id": 69006734,
+  "center": {
+    "lat": 46.3502252,
+    "lon": 6.4401496
+  },
+  "nodes": [
+    4477184254,
+    828256654,
+    828266077,
+    828240527,
+    828247576,
+    828255131,
+    828263141,
+    828257319,
+    828253478,
+    828260567,
+    4477184253,
+    4477184254
+  ],
+  "tags": {
+    "addr:city": "Anthy-le-Léman",
+    "addr:housenumber": "24 bis",
+    "addr:postcode": "74200",
+    "addr:street": "Boulevard du Pré Biollat",
+    "brand": "Satoriz",
+    "brand:wikidata": "Q3473968",
+    "brand:wikipedia": "fr:Satoriz",
+    "building": "retail",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/SatorizMagasinsBio",
+    "contact:phone": "+33 4 50 81 91 25",
+    "contact:website": "http://www.satoriz.fr/satoriz/magasin-satoriz-thonon-leman/",
+    "name": "Satoriz",
+    "opening_hours": "Mo-Sa 08:30-19:30",
+    "organic": "only",
+    "shop": "convenience",
+    "source": "extraction vectorielle v1 cadastre-dgi-fr source : Direction Générale des Impôts - Cadas. Mise à jour : 2010",
+    "website": "http://www.satoriz.fr"
   }
 },
 {
@@ -16719,6 +17763,43 @@
 },
 {
   "type": "way",
+  "id": 92556695,
+  "center": {
+    "lat": 43.2978455,
+    "lon": 5.5986145
+  },
+  "nodes": [
+    1074174969,
+    1074068791,
+    1073948923,
+    1074331667,
+    1074238628,
+    1073922659,
+    1074308490,
+    1074211724,
+    1074174969
+  ],
+  "tags": {
+    "addr:housenumber": "2136",
+    "addr:postcode": "13400",
+    "addr:street": "Route de Gémenos",
+    "brand": "Satoriz",
+    "brand:wikidata": "Q3473968",
+    "brand:wikipedia": "fr:Satoriz",
+    "building": "yes",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/SatorizMagasinsBio",
+    "contact:phone": "+33 4 42 84 19 52",
+    "name": "Satoriz",
+    "opening_hours": "Mo-Sa 08:30-19:30",
+    "organic": "only",
+    "shop": "supermarket",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+    "website": "http://www.satoriz.fr"
+  }
+},
+{
+  "type": "way",
   "id": 92581208,
   "center": {
     "lat": 48.3501825,
@@ -17028,6 +18109,68 @@
 },
 {
   "type": "way",
+  "id": 101283944,
+  "center": {
+    "lat": 43.4343757,
+    "lon": 5.2626292
+  },
+  "nodes": [
+    1168303557,
+    1168224891,
+    1168499192,
+    1168226689,
+    1168234955,
+    1168173919,
+    1168429874,
+    1168303557
+  ],
+  "tags": {
+    "addr:city": "Vitrolles",
+    "addr:postcode": "13127",
+    "addr:street": "Avenue Denis Padovani",
+    "brand": "Satoriz",
+    "brand:wikidata": "Q3473968",
+    "brand:wikipedia": "fr:Satoriz",
+    "building": "yes",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/SatorizMagasinsBio",
+    "contact:phone": "+33 4 42 77 55 31",
+    "name": "Satoriz",
+    "opening_hours": "Mo-Sa 08:30-19:30",
+    "organic": "only",
+    "shop": "supermarket",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011",
+    "website": "http://www.satoriz.fr"
+  }
+},
+{
+  "type": "way",
+  "id": 102936898,
+  "center": {
+    "lat": 45.2081960,
+    "lon": 5.8085620
+  },
+  "nodes": [
+    1188687659,
+    1188699591,
+    1188730800,
+    1188741868,
+    1188687659
+  ],
+  "tags": {
+    "addr:city": "Meylan",
+    "addr:postcode": "38240",
+    "addr:street": "Chemin des Cantines",
+    "building": "yes",
+    "bulk_purchase": "yes",
+    "description": "Vente de fruits & légumes à la ferme",
+    "name": "Monique et Jean-Paul",
+    "shop": "farm",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"
+  }
+},
+{
+  "type": "way",
   "id": 106241596,
   "center": {
     "lat": 49.4313520,
@@ -17143,6 +18286,68 @@
     "shop": "supermarket",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011",
     "website": "http://www.biocoop-le21.com"
+  }
+},
+{
+  "type": "way",
+  "id": 114442139,
+  "center": {
+    "lat": 43.5545995,
+    "lon": 6.9522555
+  },
+  "nodes": [
+    1296412132,
+    1296412289,
+    1296412229,
+    1296412018,
+    1296412132
+  ],
+  "tags": {
+    "addr:postcode": "06210",
+    "brand": "Satoriz",
+    "brand:wikidata": "Q3473968",
+    "brand:wikipedia": "fr:Satoriz",
+    "building": "yes",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/SatorizMagasinsBio",
+    "contact:phone": "+33 4 93 90 97 76",
+    "name": "Satoriz",
+    "opening_hours": "Mo-Sa 08:30-19:30",
+    "organic": "only",
+    "shop": "supermarket",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011",
+    "website": "http://www.satoriz.fr"
+  }
+},
+{
+  "type": "way",
+  "id": 116958224,
+  "center": {
+    "lat": 45.5542440,
+    "lon": 4.8280190
+  },
+  "nodes": [
+    1317392674,
+    1317411711,
+    1317388052,
+    1317404729,
+    1317409837,
+    1317392674
+  ],
+  "tags": {
+    "brand": "Satoriz",
+    "brand:wikidata": "Q3473968",
+    "brand:wikipedia": "fr:Satoriz",
+    "building": "yes",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/SatorizMagasinsBio",
+    "contact:phone": "+33 4 74 16 83 12",
+    "name": "Satoriz",
+    "opening_hours": "Mo-Sa 09:30-19:30",
+    "organic": "only",
+    "shop": "supermarket",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011",
+    "website": "http://www.satoriz.fr/"
   }
 },
 {
@@ -17481,6 +18686,44 @@
 },
 {
   "type": "way",
+  "id": 126557306,
+  "center": {
+    "lat": 46.3332265,
+    "lon": 4.8445920
+  },
+  "nodes": [
+    1402621776,
+    1402621790,
+    1402621761,
+    1402621724,
+    1402621718,
+    1402621766,
+    1402621764,
+    1402621773,
+    1402621771,
+    1402621776
+  ],
+  "tags": {
+    "addr:housenumber": "22",
+    "addr:postcode": "71000",
+    "addr:street": "Rue du 19 Mars 1962",
+    "brand": "Satoriz",
+    "brand:wikidata": "Q3473968",
+    "brand:wikipedia": "fr:Satoriz",
+    "building": "yes",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/SatorizMagasinsBio",
+    "contact:phone": "+33 3 85 39 90 87",
+    "name": "Satoriz",
+    "opening_hours": "Mo-Sa 08:30-19:30",
+    "organic": "only",
+    "shop": "supermarket",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011",
+    "website": "http://www.satoriz.fr"
+  }
+},
+{
+  "type": "way",
   "id": 126825317,
   "center": {
     "lat": 47.3577052,
@@ -17767,6 +19010,38 @@
     "shop": "supermarket",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011",
     "website": "http://www.lavieclaire.com/magasin-bio/beziers.html"
+  }
+},
+{
+  "type": "way",
+  "id": 135413842,
+  "center": {
+    "lat": 46.1559451,
+    "lon": 3.3917006
+  },
+  "nodes": [
+    1487241137,
+    1487241099,
+    639163184,
+    639163185,
+    1487241103,
+    1487241125,
+    1487241129,
+    1487241132,
+    719021317,
+    1487241137
+  ],
+  "tags": {
+    "addr:city": "Charmeil",
+    "addr:housenumber": "12",
+    "addr:postcode": "03110",
+    "addr:street": "Route de Saint-Pourçain",
+    "building": "retail",
+    "bulk_purchase": "yes",
+    "name": "Biomonde",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://www.biomonde.fr/biomonde,3,7"
   }
 },
 {
@@ -18198,6 +19473,40 @@
     "shop": "supermarket",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011",
     "website": "http://mayennebiosoleil.biocoop.net"
+  }
+},
+{
+  "type": "way",
+  "id": 152254841,
+  "center": {
+    "lat": 45.6564930,
+    "lon": 6.3707475
+  },
+  "nodes": [
+    1649386835,
+    1649386794,
+    1649386749,
+    1649386443,
+    1649386415,
+    1649386464,
+    1649386835
+  ],
+  "tags": {
+    "addr:housenumber": "1115",
+    "addr:postcode": "73200",
+    "addr:street": "Chemin de la Cassine",
+    "brand": "Satoriz",
+    "brand:wikidata": "Q3473968",
+    "brand:wikipedia": "fr:Satoriz",
+    "building": "yes",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/SatorizMagasinsBio",
+    "name": "Satoriz",
+    "opening_hours": "Mo-Sa 08:30-19:30",
+    "organic": "only",
+    "phone": "+33 4 79 32 35 71",
+    "shop": "convenience",
+    "website": "http://www.satoriz.fr"
   }
 },
 {
@@ -20055,6 +21364,51 @@
 },
 {
   "type": "way",
+  "id": 391890321,
+  "center": {
+    "lat": 46.1795690,
+    "lon": 6.2136030
+  },
+  "nodes": [
+    3951524317,
+    3951524318,
+    3951524314,
+    3951524313,
+    3951524310,
+    3951524294,
+    3951524290,
+    3951524291,
+    3951524292,
+    3951524307,
+    3951524316,
+    3951524315,
+    3951524319,
+    3951524320,
+    3951524322,
+    3951524321,
+    3951524317
+  ],
+  "tags": {
+    "addr:housenumber": "2",
+    "addr:postcode": "74240",
+    "addr:street": "Rue René Cassin",
+    "brand": "Satoriz",
+    "brand:wikidata": "Q3473968",
+    "brand:wikipedia": "fr:Satoriz",
+    "building": "yes",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/SatorizMagasinsBio",
+    "contact:phone": "+33 4 50 94 20 49",
+    "name": "Satoriz",
+    "opening_hours": "Mo-Sa 08:30-19:30",
+    "organic": "only",
+    "shop": "supermarket",
+    "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2016",
+    "website": "http://www.satoriz.fr"
+  }
+},
+{
+  "type": "way",
   "id": 394994633,
   "center": {
     "lat": 48.4716396,
@@ -20324,6 +21678,49 @@
 },
 {
   "type": "way",
+  "id": 533032846,
+  "center": {
+    "lat": 45.7740480,
+    "lon": 4.8594770
+  },
+  "nodes": [
+    2284152820,
+    986570294,
+    986572451,
+    986572908,
+    986574601,
+    986571380,
+    986569357,
+    986570389,
+    986574667,
+    986573768,
+    986571890,
+    986571476,
+    986575137,
+    986573444,
+    986572960,
+    986570877,
+    986574171,
+    986569760,
+    986569549,
+    986574607,
+    986572299,
+    986574085,
+    2284152826,
+    2284152820
+  ],
+  "tags": {
+    "brand": "Botanic",
+    "bulk_purchase": "yes",
+    "name": "Botanic Villeurbanne",
+    "opening_hours": "Mo-Sa 10:00-19:30; Su 10:00-19:00",
+    "organic": "yes",
+    "shop": "garden_centre; convenience",
+    "website": "https://www.botanic.com/nos-magasins/botanic-villeurbanne/VIB.html"
+  }
+},
+{
+  "type": "way",
   "id": 536095581,
   "center": {
     "lat": 46.4611023,
@@ -20401,6 +21798,42 @@
     "organic": "only",
     "shop": "supermarket",
     "website": "http://biocomminges.biocoop.net"
+  }
+},
+{
+  "type": "way",
+  "id": 562447791,
+  "center": {
+    "lat": 43.5732827,
+    "lon": 3.9392379
+  },
+  "nodes": [
+    1300617338,
+    1300768000,
+    1300656459,
+    5422217501,
+    5422217500,
+    1300742127,
+    1300617338
+  ],
+  "tags": {
+    "addr:housenumber": "801",
+    "addr:postcode": "34130",
+    "addr:street": "Rue Hélène Boucher",
+    "brand": "Satoriz",
+    "brand:wikidata": "Q3473968",
+    "brand:wikipedia": "fr:Satoriz",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/SatorizMagasinsBio",
+    "contact:phone": "+33 4 99 53 00 19",
+    "indoor": "room",
+    "level": "0",
+    "name": "Satoriz",
+    "opening_hours": "Mo-Sa 08:30-19:30",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "http://www.satoriz.fr",
+    "wheelchair": "yes"
   }
 },
 {
@@ -20530,6 +21963,32 @@
     "name": "Biocoop",
     "shop": "supermarket",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"
+  }
+},
+{
+  "type": "way",
+  "id": 627745653,
+  "center": {
+    "lat": 45.6715594,
+    "lon": 4.8997893
+  },
+  "nodes": [
+    898066531,
+    898101126,
+    5926176720,
+    5926176721,
+    898122454,
+    2407721641,
+    898066531
+  ],
+  "tags": {
+    "bulk_purchase": "yes",
+    "description": "Épicerie de village bio vrac & locavore",
+    "email": "contact@chezgaelle.fr",
+    "name": "Chez Gaëlle",
+    "opening_hours": "Tu-Sa 10:00-19:00",
+    "organic": "yes",
+    "shop": "convenience"
   }
 }
 
