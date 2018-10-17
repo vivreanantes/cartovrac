@@ -24,6 +24,7 @@ export var categories = {
   confectionery: {prefix: 'Confiserie', icon: new ShopIcon({iconUrl: require('../assets/img/icons/icon_confectionery.png')})},
   seafood: {prefix: 'Poissonerie', icon: new ShopIcon({iconUrl: require('../assets/img/icons/icon_seafood.png')})},
   agrarian: {prefix: 'Magasin de producteur(s)', icon: new ShopIcon({iconUrl: require('../assets/img/icons/icon_agrarian.png')})},
+  farm: {prefix: 'Magasin de producteur(s)', icon: new ShopIcon({iconUrl: require('../assets/img/icons/icon_agrarian.png')})},
   fast_food: {prefix: 'Fast-food', icon: new ShopIcon({iconUrl: require('../assets/img/icons/icon_fast_food.png')})},
   restaurant: {prefix: 'Restaurant', icon: new ShopIcon({iconUrl: require('../assets/img/icons/icon_restaurant.png')})},
   cafe: {prefix: 'Café', icon: new ShopIcon({iconUrl: require('../assets/img/icons/icon_cafeAmenity.png')})},
