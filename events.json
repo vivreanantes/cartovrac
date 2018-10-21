@@ -547,139 +547,6 @@
     "tags": [],
     "tagGroups": []
   }, {
-    "uid": 74605568,
-    "slug": "repair-cafe-carquefou",
-    "canonicalUrl": "https://openagenda.com/ateliers-de-co-reparation/events/repair-cafe-carquefou",
-    "title": {
-      "fr": "Repair café Carquefou"
-    },
-    "description": {
-      "fr": "Atelier de réparation gratuit"
-    },
-    "longDescription": {
-      "fr": "Vous avez un grille-pain en panne, un ourlet décousu, un ordinateur qui ne s'allume plus, un vélo dont les freins couinent ? Ne jetez plus... venez faire réparer gratuitement au Repair café de Carquefou (44) ! Une équipe de bricoleurs bénévoles vous attend de 18h30 à 20h30, le 3ème lundi de chaque mois !"
-    },
-    "keywords": {
-      "fr": ["vêtements", "ordinateur", "vélos", "réparation gratuite", "petit électroménager en panne"]
-    },
-    "html": {
-      "fr": "<p>Vous avez un grille-pain en panne, un ourlet décousu, un ordinateur qui ne s&#39;allume plus, un vélo dont les freins couinent ? Ne jetez plus... venez faire réparer gratuitement au Repair café de Carquefou (44) ! Une équipe de bricoleurs bénévoles vous attend de 18h30 à 20h30, le 3ème lundi de chaque mois !</p>"
-    },
-    "image": "https://cibul.s3.amazonaws.com/event_repair-cafe-carquefou_495093.jpg",
-    "thumbnail": "https://cibul.s3.amazonaws.com/evtbevent_repair-cafe-carquefou_495093.jpg",
-    "originalImage": "https://cibul.s3.amazonaws.com/evfevent_repair-cafe-carquefou_495093.jpg",
-    "age": {
-      "min": 18,
-      "max": 119
-    },
-    "accessibility": [],
-    "updatedAt": "2018-08-29T05:29:10.000Z",
-    "range": {
-      "fr": "17 septembre 2018 - 17 juin 2019, les lundis",
-      "en": "17 September 2018 - 17 June 2019, on mondays"
-    },
-    "imageCredits": null,
-    "origin": {
-      "uid": 17121232,
-      "title": "Ateliers de co-réparation",
-      "url": null,
-      "slug": "ateliers-de-co-reparation",
-      "oaUrl": "https://openagenda.com/agendas/17121232"
-    },
-    "conditions": {
-      "fr": "Entré libre, participation libre et facultative"
-    },
-    "registrationUrl": "repair.cafe.carquefou@gmail.com",
-    "locationName": "Espace Jules Verne",
-    "locationUid": 9095336,
-    "address": "8 rue Jules Verne, Carquefou",
-    "postalCode": "44470",
-    "city": "Carquefou",
-    "district": null,
-    "department": "Loire-Atlantique",
-    "region": "Pays de la Loire",
-    "latitude": 47.296775,
-    "longitude": -1.494962,
-    "timings": [{
-      "start": "2018-09-17T16:30:00.000Z",
-      "end": "2018-09-17T18:30:00.000Z"
-    }, {
-      "start": "2018-10-15T16:30:00.000Z",
-      "end": "2018-10-15T18:30:00.000Z"
-    }, {
-      "start": "2018-11-19T17:30:00.000Z",
-      "end": "2018-11-19T19:30:00.000Z"
-    }, {
-      "start": "2018-12-17T17:30:00.000Z",
-      "end": "2018-12-17T19:30:00.000Z"
-    }, {
-      "start": "2019-01-21T17:30:00.000Z",
-      "end": "2019-01-21T19:30:00.000Z"
-    }, {
-      "start": "2019-02-18T17:30:00.000Z",
-      "end": "2019-02-18T19:30:00.000Z"
-    }, {
-      "start": "2019-03-18T17:30:00.000Z",
-      "end": "2019-03-18T19:30:00.000Z"
-    }, {
-      "start": "2019-04-15T16:30:00.000Z",
-      "end": "2019-04-15T18:30:00.000Z"
-    }, {
-      "start": "2019-05-20T16:30:00.000Z",
-      "end": "2019-05-20T18:30:00.000Z"
-    }, {
-      "start": "2019-06-17T16:30:00.000Z",
-      "end": "2019-06-17T18:30:00.000Z"
-    }],
-    "location": {
-      "uid": 9095336,
-      "name": "Espace Jules Verne",
-      "slug": "espace-jules-verne362",
-      "address": "8 rue Jules Verne, Carquefou",
-      "image": null,
-      "imageCredits": null,
-      "postalCode": "44470",
-      "city": "Carquefou",
-      "district": null,
-      "department": "Loire-Atlantique",
-      "region": "Pays de la Loire",
-      "latitude": 47.296775,
-      "longitude": -1.494962,
-      "description": {},
-      "access": {},
-      "countryCode": "fr",
-      "website": null,
-      "links": [],
-      "insee": null,
-      "phone": null,
-      "tags": null,
-      "timezone": "Europe/Paris",
-      "updatedAt": "2018-08-29T05:29:09.000Z",
-      "country": {
-        "en": "France (Metropolitan)",
-        "fr": "France (Métropole)",
-        "code": "FR"
-      }
-    },
-    "registration": [{
-      "value": "repair.cafe.carquefou@gmail.com",
-      "type": "email",
-      "prefix": "mailto:"
-    }],
-    "firstDate": "2018-09-17",
-    "firstTimeStart": "18:30",
-    "firstTimeEnd": "20:30",
-    "lastDate": "2019-06-17",
-    "lastTimeStart": "18:30",
-    "lastTimeEnd": "20:30",
-    "featured": 0,
-    "hasPrivateCustomFields": false,
-    "custom": {},
-    "contributor": null,
-    "category": null,
-    "tags": [],
-    "tagGroups": []
-  }, {
     "uid": 98070068,
     "slug": "atelier-du-pignon",
     "canonicalUrl": "https://openagenda.com/ateliers-de-co-reparation/events/atelier-du-pignon",
@@ -984,6 +851,116 @@
     "lastDate": "2019-12-25",
     "lastTimeStart": "16:00",
     "lastTimeEnd": "20:00",
+    "featured": 0,
+    "hasPrivateCustomFields": false,
+    "custom": {},
+    "contributor": {},
+    "category": null,
+    "tags": [],
+    "tagGroups": []
+  }, {
+    "uid": 16701613,
+    "slug": "repair-cafe-saint-herblain-sillon",
+    "canonicalUrl": "https://openagenda.com/ateliers-de-co-reparation/events/repair-cafe-saint-herblain-sillon",
+    "title": {
+      "fr": "Repair Café Saint Herblain Sillon"
+    },
+    "description": {
+      "fr": "Ateliers de réparation ouvert au public le dernier jeudi du mois (sauf vacances scolaires et jours fériés) de 18h30 à 20h30 à la Brasserie Saveur et Sillon."
+    },
+    "longDescription": {
+      "fr": "Les Herblinois ont l’opportunité de faire réparer leurs objets en panne (appareils audio, électriques, jouets mécaniques ou électroniques, smartphones..), gratuitement chaque dernier jeudi du mois depuis le 30 mars 2017 :\n\nUne dizaine de personnes en moyenne vient faire réparer leurs objets auprès de 4 à 5 réparateurs. Près de la moitié des objets amenés sont réparés dont les plus fréquents : grille-pain, aspirateur, cafetière…\n\nAteliers de réparation ouvert au public le dernier jeudi du mois (sauf vacances scolaires et jours fériés) de 18h30 à 20h30 à la Brasserie Saveur et Sillon."
+    },
+    "keywords": {
+      "fr": ["petit_électronique", "ordinateur"]
+    },
+    "html": {
+      "fr": "<p>Les Herblinois ont l’opportunité de faire réparer leurs objets en panne (appareils audio, électriques, jouets mécaniques ou électroniques, smartphones..), gratuitement chaque dernier jeudi du mois depuis le 30 mars 2017 :</p>\n<p>Une dizaine de personnes en moyenne vient faire réparer leurs objets auprès de 4 à 5 réparateurs. Près de la moitié des objets amenés sont réparés dont les plus fréquents : grille-pain, aspirateur, cafetière…</p>\n<p>Ateliers de réparation ouvert au public le dernier jeudi du mois (sauf vacances scolaires et jours fériés) de 18h30 à 20h30 à la Brasserie Saveur et Sillon.</p>"
+    },
+    "image": "https://cibul.s3.amazonaws.com/event_repair-cafe-saint-herblain-sillon_339574.jpg",
+    "thumbnail": "https://cibul.s3.amazonaws.com/evtbevent_repair-cafe-saint-herblain-sillon_339574.jpg",
+    "originalImage": "https://cibul.s3.amazonaws.com/evfevent_repair-cafe-saint-herblain-sillon_339574.jpg",
+    "age": null,
+    "accessibility": [],
+    "updatedAt": "2018-09-10T21:15:52.000Z",
+    "range": {
+      "fr": "27 septembre et 25 octobre",
+      "en": "27 September and 25 October"
+    },
+    "imageCredits": null,
+    "origin": {
+      "uid": 17121232,
+      "title": "Ateliers de co-réparation",
+      "url": null,
+      "slug": "ateliers-de-co-reparation",
+      "oaUrl": "https://openagenda.com/agendas/17121232"
+    },
+    "conditions": {
+      "fr": "tarif libre"
+    },
+    "registrationUrl": "rc_saint_herblain_sillon@orange.fr, http://alisee.org/lassociation/nos-adherents-sement-des-graines/",
+    "locationName": "Bar Brasserie Saveurs & Sillon",
+    "locationUid": 85742055,
+    "address": "5 place des Thébaudières Saint Herblain",
+    "postalCode": "44800",
+    "city": "Saint-Herblain",
+    "district": null,
+    "department": "Loire-Atlantique",
+    "region": "Centre-Val de Loire",
+    "latitude": 47.243774,
+    "longitude": -1.606273,
+    "timings": [{
+      "start": "2018-09-27T16:30:00.000Z",
+      "end": "2018-09-27T18:30:00.000Z"
+    }, {
+      "start": "2018-10-25T17:00:00.000Z",
+      "end": "2018-10-25T18:30:00.000Z"
+    }],
+    "location": {
+      "uid": 85742055,
+      "name": "Bar Brasserie Saveurs & Sillon",
+      "slug": "bar-brasserie-saveurs-and-sillon",
+      "address": "5 place des Thébaudières Saint Herblain",
+      "image": null,
+      "imageCredits": null,
+      "postalCode": "44800",
+      "city": "Saint-Herblain",
+      "district": null,
+      "department": "Loire-Atlantique",
+      "region": "Centre-Val de Loire",
+      "latitude": 47.243774,
+      "longitude": -1.606273,
+      "description": {},
+      "access": {},
+      "countryCode": "fr",
+      "website": null,
+      "links": [],
+      "insee": "44162",
+      "phone": null,
+      "tags": null,
+      "timezone": "Europe/Paris",
+      "updatedAt": "2018-09-05T14:46:52.000Z",
+      "country": {
+        "en": "France (Metropolitan)",
+        "fr": "France (Métropole)",
+        "code": "FR"
+      }
+    },
+    "registration": [{
+      "value": "rc_saint_herblain_sillon@orange.fr",
+      "type": "email",
+      "prefix": "mailto:"
+    }, {
+      "value": "http://alisee.org/lassociation/nos-adherents-sement-des-graines/",
+      "type": "link",
+      "prefix": ""
+    }],
+    "firstDate": "2018-09-27",
+    "firstTimeStart": "18:30",
+    "firstTimeEnd": "20:30",
+    "lastDate": "2018-10-25",
+    "lastTimeStart": "19:00",
+    "lastTimeEnd": "20:30",
     "featured": 0,
     "hasPrivateCustomFields": false,
     "custom": {},
@@ -1317,116 +1294,6 @@
     "tags": [],
     "tagGroups": []
   }, {
-    "uid": 16701613,
-    "slug": "repair-cafe-saint-herblain-sillon",
-    "canonicalUrl": "https://openagenda.com/ateliers-de-co-reparation/events/repair-cafe-saint-herblain-sillon",
-    "title": {
-      "fr": "Repair Café Saint Herblain Sillon"
-    },
-    "description": {
-      "fr": "Ateliers de réparation ouvert au public le dernier jeudi du mois (sauf vacances scolaires et jours fériés) de 18h30 à 20h30 à la Brasserie Saveur et Sillon."
-    },
-    "longDescription": {
-      "fr": "Les Herblinois ont l’opportunité de faire réparer leurs objets en panne (appareils audio, électriques, jouets mécaniques ou électroniques, smartphones..), gratuitement chaque dernier jeudi du mois depuis le 30 mars 2017 :\n\nUne dizaine de personnes en moyenne vient faire réparer leurs objets auprès de 4 à 5 réparateurs. Près de la moitié des objets amenés sont réparés dont les plus fréquents : grille-pain, aspirateur, cafetière…\n\nAteliers de réparation ouvert au public le dernier jeudi du mois (sauf vacances scolaires et jours fériés) de 18h30 à 20h30 à la Brasserie Saveur et Sillon."
-    },
-    "keywords": {
-      "fr": ["petit_électronique", "ordinateur"]
-    },
-    "html": {
-      "fr": "<p>Les Herblinois ont l’opportunité de faire réparer leurs objets en panne (appareils audio, électriques, jouets mécaniques ou électroniques, smartphones..), gratuitement chaque dernier jeudi du mois depuis le 30 mars 2017 :</p>\n<p>Une dizaine de personnes en moyenne vient faire réparer leurs objets auprès de 4 à 5 réparateurs. Près de la moitié des objets amenés sont réparés dont les plus fréquents : grille-pain, aspirateur, cafetière…</p>\n<p>Ateliers de réparation ouvert au public le dernier jeudi du mois (sauf vacances scolaires et jours fériés) de 18h30 à 20h30 à la Brasserie Saveur et Sillon.</p>"
-    },
-    "image": "https://cibul.s3.amazonaws.com/event_repair-cafe-saint-herblain-sillon_339574.jpg",
-    "thumbnail": "https://cibul.s3.amazonaws.com/evtbevent_repair-cafe-saint-herblain-sillon_339574.jpg",
-    "originalImage": "https://cibul.s3.amazonaws.com/evfevent_repair-cafe-saint-herblain-sillon_339574.jpg",
-    "age": null,
-    "accessibility": [],
-    "updatedAt": "2018-09-10T21:15:52.000Z",
-    "range": {
-      "fr": "27 septembre et 25 octobre",
-      "en": "27 September and 25 October"
-    },
-    "imageCredits": null,
-    "origin": {
-      "uid": 17121232,
-      "title": "Ateliers de co-réparation",
-      "url": null,
-      "slug": "ateliers-de-co-reparation",
-      "oaUrl": "https://openagenda.com/agendas/17121232"
-    },
-    "conditions": {
-      "fr": "tarif libre"
-    },
-    "registrationUrl": "rc_saint_herblain_sillon@orange.fr, http://alisee.org/lassociation/nos-adherents-sement-des-graines/",
-    "locationName": "Bar Brasserie Saveurs & Sillon",
-    "locationUid": 85742055,
-    "address": "5 place des Thébaudières Saint Herblain",
-    "postalCode": "44800",
-    "city": "Saint-Herblain",
-    "district": null,
-    "department": "Loire-Atlantique",
-    "region": "Centre-Val de Loire",
-    "latitude": 47.243774,
-    "longitude": -1.606273,
-    "timings": [{
-      "start": "2018-09-27T16:30:00.000Z",
-      "end": "2018-09-27T18:30:00.000Z"
-    }, {
-      "start": "2018-10-25T17:00:00.000Z",
-      "end": "2018-10-25T18:30:00.000Z"
-    }],
-    "location": {
-      "uid": 85742055,
-      "name": "Bar Brasserie Saveurs & Sillon",
-      "slug": "bar-brasserie-saveurs-and-sillon",
-      "address": "5 place des Thébaudières Saint Herblain",
-      "image": null,
-      "imageCredits": null,
-      "postalCode": "44800",
-      "city": "Saint-Herblain",
-      "district": null,
-      "department": "Loire-Atlantique",
-      "region": "Centre-Val de Loire",
-      "latitude": 47.243774,
-      "longitude": -1.606273,
-      "description": {},
-      "access": {},
-      "countryCode": "fr",
-      "website": null,
-      "links": [],
-      "insee": "44162",
-      "phone": null,
-      "tags": null,
-      "timezone": "Europe/Paris",
-      "updatedAt": "2018-09-05T14:46:52.000Z",
-      "country": {
-        "en": "France (Metropolitan)",
-        "fr": "France (Métropole)",
-        "code": "FR"
-      }
-    },
-    "registration": [{
-      "value": "rc_saint_herblain_sillon@orange.fr",
-      "type": "email",
-      "prefix": "mailto:"
-    }, {
-      "value": "http://alisee.org/lassociation/nos-adherents-sement-des-graines/",
-      "type": "link",
-      "prefix": ""
-    }],
-    "firstDate": "2018-09-27",
-    "firstTimeStart": "18:30",
-    "firstTimeEnd": "20:30",
-    "lastDate": "2018-10-25",
-    "lastTimeStart": "19:00",
-    "lastTimeEnd": "20:30",
-    "featured": 0,
-    "hasPrivateCustomFields": false,
-    "custom": {},
-    "contributor": {},
-    "category": null,
-    "tags": [],
-    "tagGroups": []
-  }, {
     "uid": 36540990,
     "slug": "atelier-partage-du-breil-association-ping",
     "canonicalUrl": "https://openagenda.com/ateliers-de-co-reparation/events/atelier-partage-du-breil-association-ping",
@@ -1550,21 +1417,23 @@
       "fr": "Repairs Café Sainte-Luce"
     },
     "description": {
-      "fr": "Réparation toutes sortes de petits matériels électroniques, couture... Les 2èmes vendredi de chaque mois de 18h30 à 20h30, sauf août"
+      "fr": "Atelier de réparations de petits objets du quotidien"
     },
-    "longDescription": null,
+    "longDescription": {
+      "fr": "Repair café, assuré par des bénévoles : réparation gratuites de petits appareils électroménagers, vêtements, ordinateurs, petits mobiliers, vélos, jouets etc. Les bénévoles essaient de localiser la panne, tente la réparation en votre présence. ambiance, conviviale et partage.\n\nLes 2èmes vendredi de chaque mois de 18h30 à 20h30, sauf août"
+    },
     "keywords": {
       "fr": ["repair_cafe"]
     },
     "html": {
-      "fr": null
+      "fr": "<p>Repair café, assuré par des bénévoles : réparation gratuites de petits appareils électroménagers, vêtements, ordinateurs, petits mobiliers, vélos, jouets etc. Les bénévoles essaient de localiser la panne, tente la réparation en votre présence. ambiance, conviviale et partage.</p>\n<p>Les 2èmes vendredi de chaque mois de 18h30 à 20h30, sauf août</p>"
     },
     "image": "https://cibul.s3.amazonaws.com/event_repair-cafe-sainte-luce-septembre_353190.jpg",
     "thumbnail": "https://cibul.s3.amazonaws.com/evtbevent_repair-cafe-sainte-luce-septembre_353190.jpg",
     "originalImage": "https://cibul.s3.amazonaws.com/evfevent_repair-cafe-sainte-luce-septembre_353190.jpg",
     "age": null,
     "accessibility": [],
-    "updatedAt": "2018-08-29T05:27:54.000Z",
+    "updatedAt": "2018-10-21T17:11:33.000Z",
     "range": {
       "fr": "14 septembre - 14 décembre, les vendredis",
       "en": "14 September - 14 December, on fridays"
@@ -1623,7 +1492,7 @@
       "countryCode": "fr",
       "website": null,
       "links": [],
-      "insee": null,
+      "insee": "44172",
       "phone": null,
       "tags": null,
       "timezone": "Europe/Paris",
@@ -1645,6 +1514,139 @@
     "hasPrivateCustomFields": false,
     "custom": {},
     "contributor": {},
+    "category": null,
+    "tags": [],
+    "tagGroups": []
+  }, {
+    "uid": 74605568,
+    "slug": "repair-cafe-carquefou",
+    "canonicalUrl": "https://openagenda.com/ateliers-de-co-reparation/events/repair-cafe-carquefou",
+    "title": {
+      "fr": "Repair café Carquefou"
+    },
+    "description": {
+      "fr": "Atelier de réparation gratuit"
+    },
+    "longDescription": {
+      "fr": "Vous avez un grille-pain en panne, un ourlet décousu, un ordinateur qui ne s'allume plus, un vélo dont les freins couinent ? Ne jetez plus... venez faire réparer gratuitement au Repair café de Carquefou (44) ! Une équipe de bricoleurs bénévoles vous attend de 18h30 à 20h30, le 3ème lundi de chaque mois !"
+    },
+    "keywords": {
+      "fr": ["vêtements", "ordinateur", "vélos", "réparation gratuite", "petit électroménager en panne"]
+    },
+    "html": {
+      "fr": "<p>Vous avez un grille-pain en panne, un ourlet décousu, un ordinateur qui ne s&#39;allume plus, un vélo dont les freins couinent ? Ne jetez plus... venez faire réparer gratuitement au Repair café de Carquefou (44) ! Une équipe de bricoleurs bénévoles vous attend de 18h30 à 20h30, le 3ème lundi de chaque mois !</p>"
+    },
+    "image": "https://cibul.s3.amazonaws.com/event_repair-cafe-carquefou_495093.jpg",
+    "thumbnail": "https://cibul.s3.amazonaws.com/evtbevent_repair-cafe-carquefou_495093.jpg",
+    "originalImage": "https://cibul.s3.amazonaws.com/evfevent_repair-cafe-carquefou_495093.jpg",
+    "age": {
+      "min": 18,
+      "max": 119
+    },
+    "accessibility": [],
+    "updatedAt": "2018-08-29T05:29:10.000Z",
+    "range": {
+      "fr": "17 septembre 2018 - 17 juin 2019, les lundis",
+      "en": "17 September 2018 - 17 June 2019, on mondays"
+    },
+    "imageCredits": null,
+    "origin": {
+      "uid": 17121232,
+      "title": "Ateliers de co-réparation",
+      "url": null,
+      "slug": "ateliers-de-co-reparation",
+      "oaUrl": "https://openagenda.com/agendas/17121232"
+    },
+    "conditions": {
+      "fr": "Entré libre, participation libre et facultative"
+    },
+    "registrationUrl": "repair.cafe.carquefou@gmail.com",
+    "locationName": "Espace Jules Verne",
+    "locationUid": 9095336,
+    "address": "8 rue Jules Verne, Carquefou",
+    "postalCode": "44470",
+    "city": "Carquefou",
+    "district": null,
+    "department": "Loire-Atlantique",
+    "region": "Pays de la Loire",
+    "latitude": 47.296775,
+    "longitude": -1.494962,
+    "timings": [{
+      "start": "2018-09-17T16:30:00.000Z",
+      "end": "2018-09-17T18:30:00.000Z"
+    }, {
+      "start": "2018-10-15T16:30:00.000Z",
+      "end": "2018-10-15T18:30:00.000Z"
+    }, {
+      "start": "2018-11-19T17:30:00.000Z",
+      "end": "2018-11-19T19:30:00.000Z"
+    }, {
+      "start": "2018-12-17T17:30:00.000Z",
+      "end": "2018-12-17T19:30:00.000Z"
+    }, {
+      "start": "2019-01-21T17:30:00.000Z",
+      "end": "2019-01-21T19:30:00.000Z"
+    }, {
+      "start": "2019-02-18T17:30:00.000Z",
+      "end": "2019-02-18T19:30:00.000Z"
+    }, {
+      "start": "2019-03-18T17:30:00.000Z",
+      "end": "2019-03-18T19:30:00.000Z"
+    }, {
+      "start": "2019-04-15T16:30:00.000Z",
+      "end": "2019-04-15T18:30:00.000Z"
+    }, {
+      "start": "2019-05-20T16:30:00.000Z",
+      "end": "2019-05-20T18:30:00.000Z"
+    }, {
+      "start": "2019-06-17T16:30:00.000Z",
+      "end": "2019-06-17T18:30:00.000Z"
+    }],
+    "location": {
+      "uid": 9095336,
+      "name": "Espace Jules Verne",
+      "slug": "espace-jules-verne362",
+      "address": "8 rue Jules Verne, Carquefou",
+      "image": null,
+      "imageCredits": null,
+      "postalCode": "44470",
+      "city": "Carquefou",
+      "district": null,
+      "department": "Loire-Atlantique",
+      "region": "Pays de la Loire",
+      "latitude": 47.296775,
+      "longitude": -1.494962,
+      "description": {},
+      "access": {},
+      "countryCode": "fr",
+      "website": null,
+      "links": [],
+      "insee": null,
+      "phone": null,
+      "tags": null,
+      "timezone": "Europe/Paris",
+      "updatedAt": "2018-08-29T05:29:09.000Z",
+      "country": {
+        "en": "France (Metropolitan)",
+        "fr": "France (Métropole)",
+        "code": "FR"
+      }
+    },
+    "registration": [{
+      "value": "repair.cafe.carquefou@gmail.com",
+      "type": "email",
+      "prefix": "mailto:"
+    }],
+    "firstDate": "2018-09-17",
+    "firstTimeStart": "18:30",
+    "firstTimeEnd": "20:30",
+    "lastDate": "2019-06-17",
+    "lastTimeStart": "18:30",
+    "lastTimeEnd": "20:30",
+    "featured": 0,
+    "hasPrivateCustomFields": false,
+    "custom": {},
+    "contributor": null,
     "category": null,
     "tags": [],
     "tagGroups": []

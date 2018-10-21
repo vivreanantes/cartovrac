@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.55.4 3079d8ea",
   "osm3s": {
-    "timestamp_osm_base": "2018-10-15T14:51:02Z",
-    "timestamp_areas_base": "2018-10-15T14:14:02Z",
+    "timestamp_osm_base": "2018-10-21T17:20:02Z",
+    "timestamp_areas_base": "2018-10-21T16:51:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -349,7 +349,7 @@
         "contact:calendar": "https://openagenda.com/ateliers-de-co-reparation/events/ateliers-de-co-reparation-a-la-mjc-de-saumur",
         "contact:email": "animation@mjcsaumur.com",
         "contact:facebook": "https://www.facebook.com/mjc.saumur/",
-        "contact:phone": "02 41 40 25 62",
+        "contact:phone": "+33 2 41 40 25 62",
         "cost": "Adhésion MJC obligatoire 1€",
         "description:fr": "Atelier dans une ambiance conviviale de lutte contre l obsolescence, la consommation irraisonnée et le tout jetable !",
         "image": "http://mjcsaumur.com/wp-content/uploads/2016/11/AtelierCo-r_paration-v_los.jpg_300x0.jpg",
@@ -382,6 +382,9 @@
         "description:fr": "Réparation toutes sortes de petits matériels électroniques, couture, etc.",
         "name": "Repair Café au Café Le Lucéen",
         "repair": "assisted_self_service",
+        "service:bicycle:repair": "yes",
+        "service:camera:repair": "yes",
+        "service:computer:repair": "yes",
         "service:fabrik:repair": "yes",
         "service:small_electronics_device:repair": "yes",
         "service_times": "Fr[2] 18:30-20:30; Aug off"
