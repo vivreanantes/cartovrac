@@ -170,6 +170,7 @@ function getPopupContent(
 	popup += getHtmlFormattedWebsite("Site web", website2);
 	popup += getHtmlFormattedCalendar(calendar);
 	popup += getHtmlFormattedPartnerships(nodeId);
+	popup += getHtmlFormattedContribution(nodeId);
 	return popup;
 }
 
