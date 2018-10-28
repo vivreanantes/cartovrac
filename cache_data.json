@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.55.4 3079d8ea",
   "osm3s": {
-    "timestamp_osm_base": "2018-10-20T14:40:02Z",
-    "timestamp_areas_base": "2018-10-20T13:55:02Z",
+    "timestamp_osm_base": "2018-10-22T20:27:02Z",
+    "timestamp_areas_base": "2018-10-22T19:42:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -742,10 +742,15 @@
   "lon": -0.6676128,
   "tags": {
     "addr:housenumber": "317",
+    "addr:postcode": "33320",
+    "addr:street": "Avenue du Médoc",
+    "brand": "Le Marché de Léopold",
     "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/lemarchedeleopold",
     "name": "Le Marché de Léopold",
     "organic": "only",
-    "shop": "supermarket"
+    "shop": "supermarket",
+    "website": "http://www.lemarchedeleopold.com"
   }
 },
 {
@@ -938,10 +943,6 @@
   "lat": 48.5861734,
   "lon": 7.7433796,
   "tags": {
-    "addr:city": "Strasbourg",
-    "addr:housenumber": "7",
-    "addr:postcode": "67000",
-    "addr:street": "Rue de Sébastopol",
     "brand": "Biocoop",
     "bulk_purchase": "yes",
     "contact:city": "Strasbourg",
@@ -949,14 +950,14 @@
     "contact:phone": "+33 3 88 36 52 68",
     "contact:postcode": "67000",
     "contact:street": "Rue de Sébastopol",
+    "contact:website": "http://biocoop.fr/magasins-bio/Trouver-mon-magasin-Biocoop/Grand-Est/Bas-Rhin/LE-QUAI-DES-HALLES",
     "currency:XLT": "STUK",
     "name": "Le Quai des Halles",
     "operator": "Biocoop",
     "organic": "only",
     "payment:cash:XLT-STUK": "yes",
     "ref:FR:SIRET": "79000938500010",
-    "shop": "supermarket",
-    "website": "http://biocoop.fr/magasins-bio/Trouver-mon-magasin-Biocoop/Grand-Est/Bas-Rhin/LE-QUAI-DES-HALLES"
+    "shop": "supermarket"
   }
 },
 {
@@ -1037,6 +1038,21 @@
     "organic": "only",
     "shop": "supermarket",
     "website": "http://www.bdxpasteur.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 1352879787,
+  "lat": 48.8439086,
+  "lon": 2.2930753,
+  "tags": {
+    "addr:city": "Paris",
+    "addr:housenumber": "94",
+    "addr:postcode": "75015",
+    "addr:street": "Rue du Commerce",
+    "bulk_purchase": "yes",
+    "name": "La Fromagerie",
+    "shop": "cheese"
   }
 },
 {
@@ -1788,6 +1804,25 @@
     "phone": "+33 1 69 21 40 73",
     "shop": "convenience",
     "website": "http://www.lavieclaire.com/magasin-bio/juvisy-sur-orge.html"
+  }
+},
+{
+  "type": "node",
+  "id": 1813069306,
+  "lat": 46.5791009,
+  "lon": 0.3397982,
+  "tags": {
+    "addr:housenumber": "20",
+    "addr:postcode": "86000",
+    "addr:street": "Rue Magenta",
+    "brand": "Le Marché de Léopold",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/lemarchedeleopold",
+    "name": "Le Marché de Léopold",
+    "organic": "only",
+    "shop": "convenience",
+    "source": "Observations locales et GPS",
+    "website": "http://www.lemarchedeleopold.com"
   }
 },
 {
@@ -4132,6 +4167,22 @@
 },
 {
   "type": "node",
+  "id": 3253931986,
+  "lat": 48.8741225,
+  "lon": 2.3878289,
+  "tags": {
+    "addr:housenumber": "5",
+    "addr:postcode": "75020",
+    "addr:street": "Rue Jean-Baptiste Dumay",
+    "bulk_purchase": "yes",
+    "name": "Vino Sfuso",
+    "shop": "alcohol",
+    "source": "survey",
+    "website": "http://sfuso.fr/"
+  }
+},
+{
+  "type": "node",
   "id": 3264475140,
   "lat": 43.2598669,
   "lon": 5.3938814,
@@ -5663,6 +5714,25 @@
 },
 {
   "type": "node",
+  "id": 4085183957,
+  "lat": 48.8951889,
+  "lon": 2.3404176,
+  "tags": {
+    "addr:city": "Paris",
+    "addr:housenumber": "60",
+    "addr:postcode": "75018",
+    "addr:street": "Rue du Poteau",
+    "bulk_purchase": "yes",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-13:00",
+    "organic": "only",
+    "phone": "+33 1 42 51 12 63",
+    "shop": "supermarket",
+    "website": "www.bio-c-bon.eu/fr/nos_magasins/bio-c-bon-paris-poteau"
+  }
+},
+{
+  "type": "node",
   "id": 4087781224,
   "lat": 48.7335311,
   "lon": -3.4375928,
@@ -5836,11 +5906,17 @@
   "lat": 43.8699278,
   "lon": -0.4904540,
   "tags": {
+    "addr:housenumber": "1950",
+    "addr:postcode": "40280",
+    "addr:street": "Avenue du Président John F. Kennedy",
+    "brand": "Le Marché de Léopold",
     "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/lemarchedeleopold",
     "name": "Le Marché de Léopold",
     "organic": "only",
     "shop": "supermarket",
-    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2016"
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2016",
+    "website": "http://www.lemarchedeleopold.com"
   }
 },
 {
@@ -7144,7 +7220,7 @@
     "bulk_purchase": "yes",
     "name": "NaturéO",
     "organic": "only",
-    "shop": "boutique"
+    "shop": "supermarket"
   }
 },
 {
@@ -7924,6 +8000,7 @@
   "lon": 6.6522453,
   "tags": {
     "bulk_purchase": "yes",
+    "name": "Biomonde",
     "operator": "Biomonde",
     "organic": "only",
     "shop": "convenience"
@@ -8782,6 +8859,20 @@
     "organic": "yes",
     "shop": "convenience",
     "website": "http://daybyday-shop.com/magasin/toulouse"
+  }
+},
+{
+  "type": "node",
+  "id": 4983671896,
+  "lat": 44.8983274,
+  "lon": 6.6335281,
+  "tags": {
+    "bulk_purchase": "yes",
+    "name": "L'Épine Vinette",
+    "operator": "Biocoop",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://www.biocoop-epinevinette.com/"
   }
 },
 {
@@ -9645,6 +9736,26 @@
     "name": "Le local",
     "shop": "convenience",
     "website": "http://lelocal-epicerie.fr/"
+  }
+},
+{
+  "type": "node",
+  "id": 5239787879,
+  "lat": 48.8662076,
+  "lon": 2.3846192,
+  "tags": {
+    "addr:city": "Paris",
+    "addr:housenumber": "4bis",
+    "addr:postcode": "75020",
+    "addr:street": "Rue des Panoyaux",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/OPotagerdeMenil/",
+    "description": "Une boutique bio qui valorise la production locale et qui forme ses salariés en insertion au métier de vendeur.",
+    "name": "O’Potager de Ménil",
+    "opening_hours": "Mo-Su 10:00-20:00",
+    "organic": "only",
+    "phone": "+33 1 43 15 70 08",
+    "shop": "supermarket"
   }
 },
 {
@@ -10600,6 +10711,27 @@
     "organic": "only",
     "shop": "supermarket",
     "website": "http://www.biocoop-gaia.fr/"
+  }
+},
+{
+  "type": "node",
+  "id": 5500012147,
+  "lat": 46.6877524,
+  "lon": -1.4303818,
+  "tags": {
+    "addr:housenumber": "85",
+    "addr:postcode": "85000",
+    "addr:street": "Avenue Aliénor d'Aquitaine",
+    "brand": "Le Marché de Léopold",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/lemarchedeleopold",
+    "contact:phone": "+33 2 51 37 69 46",
+    "currency:XLT": "VNDO",
+    "name": "Le Marché de Léopold",
+    "organic": "only",
+    "payment:cash:XLT-VNDO": "yes",
+    "shop": "supermarket",
+    "website": "http://www.lemarchedeleopold.com/"
   }
 },
 {
@@ -12092,10 +12224,16 @@
   "lat": 47.4238720,
   "lon": 0.6594120,
   "tags": {
+    "addr:housenumber": "243",
+    "addr:postcode": "37540",
+    "addr:street": "Boulevard Charles de Gaulle",
+    "brand": "Le Marché de Léopold",
     "bulk_purchase": "yes",
-    "name": "Marché de Léopold",
+    "contact:facebook": "https://www.facebook.com/lemarchedeleopold",
+    "name": "Le Marché de Léopold",
     "organic": "only",
-    "shop": "supermarket"
+    "shop": "supermarket",
+    "website": "http://www.lemarchedeleopold.com"
   }
 },
 {
@@ -12255,10 +12393,6 @@
   "lat": 47.9006827,
   "lon": 1.9059444,
   "tags": {
-    "addr:city": "Orléans",
-    "addr:housenumber": "2",
-    "addr:postcode": "45000",
-    "addr:street": "Place Louis XI",
     "bulk_purchase": "only",
     "name": "day by day",
     "organic": "yes",
@@ -12453,12 +12587,13 @@
   "lat": 48.5927762,
   "lon": 7.7236298,
   "tags": {
-    "addr:city": "strasbourg",
-    "addr:housenumber": "36",
-    "addr:postcode": "67200",
-    "addr:street": "Route de Mittelhausbergen",
     "bulk_purchase": "only",
-    "description": "Epicerie 100% Vrac, Zéro Déchets, Bio.\nAlimentaire, Cosmétique, Entretien\n",
+    "contact:city": "Strasbourg",
+    "contact:housenumber": "36",
+    "contact:postcode": "67200",
+    "contact:website": "https://Beevrac.fr",
+    "contactdr:street": "Route de Mittelhausbergen",
+    "description": "Epicerie 100% Vrac, Zéro Déchets, Bio. Alimentaire, Cosmétique, Entretien",
     "name": "BeeVrac",
     "opening_hours": "Tu-Fr 10:00-13:00, Tu-Fr 14:30-19:30, Sa 10:00-17:00",
     "organic": "only",
@@ -12466,8 +12601,7 @@
     "payment:credit_cards": "yes",
     "payment:mastercard": "yes",
     "payment:visa": "yes",
-    "shop": "supermarket",
-    "website": "https://Beevrac.fr"
+    "shop": "supermarket"
   }
 },
 {
@@ -12483,6 +12617,25 @@
     "name": "Épicerie Hüeck",
     "organic": "yes",
     "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 5714602140,
+  "lat": 44.8352028,
+  "lon": 0.4513569,
+  "tags": {
+    "addr:city": "Bergerac",
+    "addr:postcode": "24100",
+    "addr:street": "Route de Bordeaux",
+    "brand": "Le Marché de Léopold",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/lemarchedeleopold",
+    "name": "Le Marché de Léopold",
+    "opening_hours": "Mo-Sa 09:30-19:15",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "http://www.lemarchedeleopold.com"
   }
 },
 {
@@ -12654,13 +12807,15 @@
   "lat": 48.5780232,
   "lon": 7.7499962,
   "tags": {
-    "addr:city": "Strasbourg",
-    "addr:country": "FR",
-    "addr:housenumber": "6-8",
-    "addr:postcode": "67000",
-    "addr:street": "rue de la première armée",
     "bulk_purchase": "yes",
+    "contact:city": "Strasbourg",
+    "contact:country": "FR",
     "contact:email": "contact@coquelicot.bio",
+    "contact:housenumber": "6-8",
+    "contact:phone": "+33 3 67 31 13 11",
+    "contact:postcode": "67000",
+    "contact:street": "Rue de la Première Armée",
+    "contact:website": "https://www.biocoop.fr/magasins-bio/Trouver-mon-magasin-Biocoop/Grand-Est/Bas-Rhin/BIOCOOP-COQUELICOT",
     "name": "Biocoop Coquelicot",
     "opening_hours": "Mo-Sa 10:00-20:00; Su 09:00-13:00",
     "shop": "greengrocer"
@@ -14406,13 +14561,19 @@
 {
   "type": "node",
   "id": 5849371922,
-  "lat": 45.1565027,
-  "lon": 1.5196653,
+  "lat": 45.1561608,
+  "lon": 1.5198725,
   "tags": {
+    "addr:housenumber": "43",
+    "addr:postcode": "19100",
+    "addr:street": "Avenue Pierre Semard",
+    "brand": "Le Marché de Léopold",
     "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/lemarchedeleopold",
     "name": "Le Marché de Léopold",
     "organic": "only",
     "shop": "supermarket",
+    "website": "http://www.lemarchedeleopold.com",
     "wheelchair": "yes"
   }
 },
@@ -15516,6 +15677,382 @@
     "organic": "only",
     "shop": "supermarket",
     "website": "http://biocoop.fr/"
+  }
+},
+{
+  "type": "node",
+  "id": 6002758635,
+  "lat": 44.0926434,
+  "lon": 6.2361626,
+  "tags": {
+    "addr:city": "Digne-les-Bains",
+    "addr:housenumber": "6",
+    "addr:postcode": "04000",
+    "addr:street": "Rue Jeu-de-Paume",
+    "bulk_purchase": "yes",
+    "name": "Marjolaine",
+    "organic": "only",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 6002805111,
+  "lat": 49.1035483,
+  "lon": 2.7558436,
+  "tags": {
+    "addr:postcode": "60330",
+    "addr:street": "Route de Paris",
+    "bulk_purchase": "yes",
+    "name": "Ma Vie en Bio",
+    "organic": "only",
+    "shop": "convenience",
+    "website": "http://www.mavieenbio.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 6002805112,
+  "lat": 47.4672489,
+  "lon": -0.5943731,
+  "tags": {
+    "addr:housenumber": "1",
+    "addr:postcode": "49000",
+    "addr:street": "Rue du Grand Launay",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/natur%C3%A9O-225503187857448/",
+    "name": "Naturéo",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://www.natureo-bio.fr/magasin-bio/angers/"
+  }
+},
+{
+  "type": "node",
+  "id": 6002805113,
+  "lat": 44.9155102,
+  "lon": -0.4193928,
+  "tags": {
+    "bulk_purchase": "only",
+    "contact:facebook": "https://www.facebook.com/lecabasvrac.fr/",
+    "name": "Le Cabas Vrac",
+    "organic": "yes",
+    "shop": "convenience",
+    "website": "https://www.cabasvrac.fr"
+  }
+},
+{
+  "type": "node",
+  "id": 6002805114,
+  "lat": 46.2675902,
+  "lon": 5.6562542,
+  "tags": {
+    "addr:housenumber": "25",
+    "addr:postcode": "01100",
+    "addr:street": "Cours de Verdun",
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://magasins.lavieclaire.com/lavieclaire/fr/boutique/france/auvergne-rhone-alpes/ain/oyonnax/oyonnax/132"
+  }
+},
+{
+  "type": "node",
+  "id": 6002805115,
+  "lat": 46.2572588,
+  "lon": 5.6559188,
+  "tags": {
+    "addr:housenumber": "113",
+    "addr:postcode": "01100",
+    "addr:street": "Rue Anatole France",
+    "bulk_purchase": "yes",
+    "name": "Le Pêcher Gourmand",
+    "organic": "yes",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 6002805116,
+  "lat": 49.2912848,
+  "lon": 2.1997349,
+  "tags": {
+    "addr:housenumber": "121",
+    "addr:postcode": "60730",
+    "addr:street": "Route Nationale 1",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/EpicerieVracSainteGenevieve/",
+    "name": "La Ligne de Vie",
+    "organic": "yes",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 6002805117,
+  "lat": 49.6393505,
+  "lon": -1.6161268,
+  "tags": {
+    "addr:housenumber": "6",
+    "addr:postcode": "50100",
+    "addr:street": "Avenue Aristide Briand",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/pages/Biolavie/",
+    "name": "Bio La Vie",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://www.biomonde.fr/biolavie,3,81"
+  }
+},
+{
+  "type": "node",
+  "id": 6002805118,
+  "lat": 47.6129232,
+  "lon": -0.7054956,
+  "tags": {
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Lavieclaire",
+    "name": "La Vie Claire",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://magasins.lavieclaire.com/lavieclaire/fr/boutique/france/pays-de-la-loire/maine-et-loire/grez-neuville/grez-neuville/la0014?"
+  }
+},
+{
+  "type": "node",
+  "id": 6002997632,
+  "lat": 44.5638740,
+  "lon": 6.0893412,
+  "tags": {
+    "addr:city": "Gap",
+    "addr:housenumber": "16",
+    "addr:postcode": "05000",
+    "addr:street": "Avenue Émile Didier",
+    "bulk_purchase": "yes",
+    "name": "L'Eau Vive",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "http://www.eau-vive.com/pa371/magasin?lieuID=10"
+  }
+},
+{
+  "type": "node",
+  "id": 6003114611,
+  "lat": 45.7119475,
+  "lon": 4.8202467,
+  "tags": {
+    "addr:housenumber": "105",
+    "addr:postcode": "69600",
+    "addr:street": "Avenue Jean Jaurès",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://facebook.com/superhalle/",
+    "name": "La Super Halle",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://www.lasuperhalle.fr/"
+  }
+},
+{
+  "type": "node",
+  "id": 6003337760,
+  "lat": 49.6446703,
+  "lon": -1.6410192,
+  "tags": {
+    "addr:housenumber": "4",
+    "addr:postcode": "50100",
+    "addr:street": "Rue Basse",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/cotenvie/",
+    "name": "Cotenvie",
+    "organic": "yes",
+    "shop": "convenience",
+    "website": "http://cotenvie.fr/"
+  }
+},
+{
+  "type": "node",
+  "id": 6004647796,
+  "lat": 49.6336424,
+  "lon": -1.5870402,
+  "tags": {
+    "addr:city": "Tourlaville",
+    "addr:housenumber": "45",
+    "addr:postcode": "50110",
+    "addr:street": "Rue des Industries",
+    "bulk_purchase": "yes",
+    "name": "Biocoop Tourlaville",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://www.biocoop.fr/magasins-bio/Trouver-mon-magasin-Biocoop/Normandie/Manche/BIOCOOP-TOURLAVILLE"
+  }
+},
+{
+  "type": "node",
+  "id": 6004675325,
+  "lat": 49.7725305,
+  "lon": 4.7196447,
+  "tags": {
+    "addr:city": "Charleville-Mézières",
+    "addr:housenumber": "7",
+    "addr:postcode": "08000",
+    "addr:street": "Rue Irénée Carré",
+    "bulk_purchase": "only",
+    "contact:facebook": "https://www.facebook.com/epiceriegram/?__tn__=K-R&eid=ARDyd3jer5jiRpT0BR58YtOT1fYFj3UdcziLDDMDJWiQ4EXxB_a6X4piN6EJw9xkvyadE9L6wmWFhakL&fref=mentions",
+    "name": "Epicerie Gram",
+    "organic": "yes",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 6004706427,
+  "lat": 49.4124633,
+  "lon": 1.1380216,
+  "tags": {
+    "addr:city": "Le Mesnil-Esnard",
+    "addr:housenumber": "7",
+    "addr:postcode": "76240",
+    "addr:street": "Place du Général de Gaulle",
+    "bulk_purchase": "only",
+    "name": "Comptoir du vrac",
+    "organic": "yes",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 6004706679,
+  "lat": 48.8674197,
+  "lon": 2.3579979,
+  "tags": {
+    "addr:city": "Paris",
+    "addr:housenumber": "37",
+    "addr:postcode": "75003",
+    "addr:street": "Rue Notre-Dame de Nazareth",
+    "bulk_purchase": "only",
+    "name": "Negozio Leggero",
+    "shop": "convenience",
+    "website": "http://www.negozioleggero.it/fr/"
+  }
+},
+{
+  "type": "node",
+  "id": 6004722633,
+  "lat": 48.8342163,
+  "lon": 2.3216338,
+  "tags": {
+    "addr:city": "Paris",
+    "addr:housenumber": "2",
+    "addr:postcode": "75014",
+    "addr:street": "Place de Moro-Giafferi",
+    "bulk_purchase": "only",
+    "contact:facebook": "https://www.facebook.com/despotsetduvrac/",
+    "name": "Entre Pots",
+    "organic": "yes",
+    "shop": "convenience",
+    "website": "http://entrepots.strikingly.com"
+  }
+},
+{
+  "type": "node",
+  "id": 6005791797,
+  "lat": 45.7804133,
+  "lon": 1.3075084,
+  "tags": {
+    "addr:postcode": "87110",
+    "brand": "Le Marché de Léopold",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/lemarchedeleopold",
+    "name": "Le Marché de Léopold",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "http://www.lemarchedeleopold.com"
+  }
+},
+{
+  "type": "node",
+  "id": 6005791798,
+  "lat": 46.5832397,
+  "lon": 0.3676297,
+  "tags": {
+    "addr:housenumber": "3",
+    "addr:postcode": "86000",
+    "addr:street": "Rue de Chalons",
+    "brand": "Le Marché de Léopold",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/lemarchedeleopold",
+    "name": "Le Marché de Léopold",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "http://www.lemarchedeleopold.com"
+  }
+},
+{
+  "type": "node",
+  "id": 6005791799,
+  "lat": 44.4096460,
+  "lon": 0.7361976,
+  "tags": {
+    "addr:postcode": "47300",
+    "brand": "Le Marché de Léopold",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/lemarchedeleopold",
+    "name": "Le Marché de Léopold",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "http://www.lemarchedeleopold.com"
+  }
+},
+{
+  "type": "node",
+  "id": 6005791800,
+  "lat": 44.6157049,
+  "lon": -1.0760495,
+  "tags": {
+    "addr:postcode": "33470",
+    "addr:street": "Avenue de Césarée",
+    "brand": "Le Marché de Léopold",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/lemarchedeleopold",
+    "name": "Le Marché de Léopold",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "http://www.lemarchedeleopold.com"
+  }
+},
+{
+  "type": "node",
+  "id": 6005791801,
+  "lat": 46.5645870,
+  "lon": 0.3580112,
+  "tags": {
+    "addr:housenumber": "50",
+    "addr:postcode": "86280",
+    "addr:street": "Avenue du 11 Novembre",
+    "brand": "Le Marché de Léopold",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/lemarchedeleopold",
+    "name": "Le Marché de Léopold",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "http://www.lemarchedeleopold.com"
+  }
+},
+{
+  "type": "node",
+  "id": 6005834446,
+  "lat": 47.4705170,
+  "lon": -1.4918318,
+  "tags": {
+    "name": "Ferme de l'Arcade",
+    "shop": "agrarian"
   }
 },
 {
@@ -19021,6 +19558,51 @@
 },
 {
   "type": "way",
+  "id": 90918022,
+  "center": {
+    "lat": 44.0593107,
+    "lon": 5.0483275
+  },
+  "nodes": [
+    1055257073,
+    1055131892,
+    1055242804,
+    1054971991,
+    1055401609,
+    1055042755,
+    1055010328,
+    1055025148,
+    1055420657,
+    1054971187,
+    1055160870,
+    1054929036,
+    1055436008,
+    1055043871,
+    1055198850,
+    1054953679,
+    1055045944,
+    1055208715,
+    1055031852,
+    1055100602,
+    1055290863,
+    1055086250,
+    1055257073
+  ],
+  "tags": {
+    "addr:housenumber": "283",
+    "addr:postcode": "84200",
+    "addr:street": "Avenue Notre-Dame de Santé",
+    "building": "retail",
+    "bulk_purchase": "yes",
+    "name": "Biocoop",
+    "organic": "only",
+    "shop": "supermarket",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+    "website": "http://www.biocoopcarpentras.com"
+  }
+},
+{
+  "type": "way",
   "id": 92095858,
   "center": {
     "lat": 43.1804055,
@@ -19771,12 +20353,18 @@
     917672062
   ],
   "tags": {
+    "addr:housenumber": "112",
+    "addr:postcode": "33210",
+    "addr:street": "Cours du Maréchal de Lattre de Tassigny",
+    "brand": "Le Marché de Léopold",
     "bulk_purchase": "yes",
-    "name": "Le marché de Léopold",
+    "contact:facebook": "https://www.facebook.com/lemarchedeleopold",
+    "name": "Le Marché de Léopold",
     "opening_hours": "Mo-Sa 09:30-19:15",
     "opening_hours:fr": "lu-sa 09:30-19:15",
     "organic": "only",
-    "shop": "convenience"
+    "shop": "convenience",
+    "website": "http://www.lemarchedeleopold.com"
   }
 },
 {
@@ -23625,6 +24213,34 @@
 },
 {
   "type": "way",
+  "id": 550412778,
+  "center": {
+    "lat": 45.6675314,
+    "lon": 0.1714284
+  },
+  "nodes": [
+    5316253236,
+    5316253237,
+    5316253238,
+    5316253239,
+    5316253236
+  ],
+  "tags": {
+    "addr:housenumber": "120",
+    "addr:postcode": "16160",
+    "addr:street": "Route de Paris",
+    "brand": "Le Marché de Léopold",
+    "building": "commercial",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/lemarchedeleopold",
+    "name": "Le Marché de Léopold",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "http://www.lemarchedeleopold.com"
+  }
+},
+{
+  "type": "way",
   "id": 555448402,
   "center": {
     "lat": 43.0608550,
@@ -23744,6 +24360,35 @@
     "organic": "only",
     "shop": "supermarket",
     "website": "http://www.lavieclaire.com/magasin-bio/pontcharra.html"
+  }
+},
+{
+  "type": "way",
+  "id": 569677410,
+  "center": {
+    "lat": 48.9537390,
+    "lon": 2.1951330
+  },
+  "nodes": [
+    5478200878,
+    5478200881,
+    5478200882,
+    5966768641,
+    5966768646,
+    5478200879,
+    5966768647,
+    5966768642,
+    5478200878
+  ],
+  "tags": {
+    "building": "yes",
+    "bulk_purchase": "yes",
+    "name": "naturéO",
+    "operator": "naturéO",
+    "organic": "only",
+    "shop": "supermarket",
+    "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2017",
+    "website": "https://www.natureo-bio.fr/"
   }
 },
 {
