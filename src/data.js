@@ -34,9 +34,12 @@ export var categories = {
   cosmetics: {prefix: 'Magasin de cosmétiques', icon: new ShopIcon({iconUrl: require('../assets/img/icons/icon_cosmetics.png')})},
   herbalist: {prefix: 'Herboriste', icon: new ShopIcon({iconUrl: require('../assets/img/icons/icon_herbalist.png')})},
   alcohol: {prefix: 'Magasin de vente d\'alcool à emporter', icon: new ShopIcon({iconUrl: require('../assets/img/icons/icon_alcohol.png')})},
-  chemist: {prefix: 'Droguerie', icon: new ShopIcon({iconUrl: require('../assets/img/icons/icon_chemist.png')})}
+  chemist: {prefix: 'Droguerie', icon: new ShopIcon({iconUrl: require('../assets/img/icons/icon_chemist.png')})},
+  itinerant: {prefix: 'Épicerie itinérante', icon: new ShopIcon({iconUrl: require('../assets/img/icons/icon_marketplace.png')})}
 };
 
 export var shopDataFiles = {
   fr: {fileName: 'cache_data.json'}
 };
+
+export var itinerantFileName = "itinerant.json";

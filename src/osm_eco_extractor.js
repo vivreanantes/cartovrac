@@ -1,5 +1,5 @@
 import {newMap, addMarkerToMap} from './map.js';
-import {categories, shopDataFiles} from './data.js';
+import {categories, shopDataFiles, itinerantFileName} from './data.js';
 import {getPopupContent} from './popup.js';
 
 
@@ -20,6 +20,16 @@ export function createMapAndPopulate(divId, countries, mapConfig) {
 			populate(shopsJson, cluster);
 		});
 	});
+
+	var itinerantShopsJson;
+	$.when(
+	    $.getJSON(itinerantFileName, function(response) {
+	        itinerantShopsJson = response.elements
+	        console.log("iti");
+	    })
+	).then(function() {
+		populate(itinerantShopsJson, cluster);
+	});
 }
 
 /**
@@ -37,7 +47,7 @@ function populate(shopsJson, cluster) {
 
 		// Check shop validity
 		if (!type || !category || !tags['name']) {
-			console.log('Problem when displaying ' + (isAWay ? 'node ' : 'way ') + 
+			console.log('Problem when displaying ' + (isAWay ? 'way ' : 'node ') + 
 				shop['id'] + ' of type ' + type + ' ; name ' + tags['name']);
 			continue;
 		}

@@ -135,6 +135,10 @@ function getHtmlFormattedAddress(housenumber, street, postcode, city) {
  * @return an HTML formatted that adds a link for contributions
  */
 function getHtmlFormattedContribution(elementId, isAWay) {
+    if (!elementId) {
+        return "";
+    }
+    
     var baseUrl; 
     
     if (isAWay) {
