@@ -63,6 +63,7 @@
 
 	</head>
 	<body>
+
 		<header>
 			<nav role="navigation">
 				<div id="menuToggle" class="box-shadow">
@@ -72,10 +73,10 @@
 					    <span></span>
 					</div>
 
-					<img src="logo-header.png" class="logoCoreparation"><a href="#jumptomap"><h1 style='font-size:12px'>Ateliers de co-réparation </br>de Loire-Atlantique</h1></a>
+					<a href="#jumptomap"><h1 style='font-size:12px'>Ateliers de co-réparation de Loire-Atlantique</h1></a>
 
 					<ul id="menu" class="menu">
-						<a href="#jumptomap" onclick="closeMenu()"><li>Carte</li></a>
+						<a href="#jumptomap" onclick="closeMenu()" title="Carte magasins vrac"><li>Carte</li></a>
 						<a href="#calendrier" onclick="closeMenu()"><li>Calendrier</li></a>
 						<a href="#projet" onclick="closeMenu()"><li>Projet</li></a>
 						<a href="#vert" onclick="closeMenu()"><li>Site vert et libre</li></a>
@@ -86,16 +87,13 @@
 			</nav>
 		</header>
 
-		<div id="header_embedded">
-	      Ce contenu provient du site "http://www.coreparation44.fr" réalisé par l'association "Mieux trier à Nantes".<br/>
-		</div>
+	<div id="header_embedded">
+      Ce contenu provient du site "http://www.coreparation44.fr" réalisé par l'association "Mieux trier à Nantes".<br/>
+	</div>
 
 		<a class="anchor" id="jumptomap"></a>
-		<div class="test2">
-			<div id="map" style="width: 100%;  height: 90%; z-index: 1;">
-  			 <a href="#calendrier" class="arrowScroll"><img src="img_src/arrow-icon.png" class="arrowScroll_Icon"></a>
-			</div>
-		</div>
+		<div id="map" style="width: 100%;  height: 90%; z-index: 1;"></div>
+
 
 		<div id="content">
 
@@ -124,7 +122,7 @@
 			Merci.<br/><br/>
 			Anne Dessen, Repair Café du Vignoble nantais, ​www.repaircafevignoblenantais.fr<br/>
 			Christian Renoulin, Association Mieux trier à Nantes<br/><br/>
-			La liste est téléchargeable ici : <p class="mieuxTrierLinkText"><a href="http://mieuxtrieranantes.fr/opendata/#ateliers_reparation_collaboratifs_loireatlantique_liste">http://mieuxtrieranantes.fr/opendata/#ateliers_reparation_collaboratifs_loireatlantique_liste</a></p>
+			La liste est téléchargeable ici : <a href="http://mieuxtrieranantes.fr/opendata/#ateliers_reparation_collaboratifs_loireatlantique_liste">http://mieuxtrieranantes.fr/opendata/#ateliers_reparation_collaboratifs_loireatlantique_liste</a>
 		</p>
 		<a class="anchor" id="vert"></a>
 		<h2>Un site vert et libre</h2>
@@ -200,23 +198,13 @@
 		    document.getElementById('map').style.top = "10px";
 			  document.getElementById('menuToggle').style.display = 'none';
 			  document.getElementById('content').style.display = 'none';
-			  document.getElementById('header_embedded').style.display = 'flex'; //Will show
+			  document.getElementById('header_embedded').style.display = 'block'; //Will show
 		  } else {
-  			document.getElementById('menuToggle').style.display = 'flex'; //Will show
-			  document.getElementById('content').style.display = 'flex'; //Will show
+  			document.getElementById('menuToggle').style.display = 'block'; //Will show
+			  document.getElementById('content').style.display = 'block'; //Will show
 			  document.getElementById('header_embedded').style.display = 'none';
 		  }
       </script>
-      <!-- flèche scroll down map -->
-      <script type="text/javascript">
-      	$(function() {
-		  $('a[href*=\\#]').on('click', function(e) {
-		    e.preventDefault();
-		    $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
-		  });
-		});
-      </script>
-
         <!-- End Piwik Code -->
 	<script src="vracanantes.js" type="text/javascript"></script>
 </html>

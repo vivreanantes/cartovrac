@@ -34,6 +34,8 @@ body {
 
     /* make it look decent enough */
     background: #fffff7;
+
+
     font-family: 'Roboto',Helvetica,Arial,sans-serif;
 }
 
@@ -41,7 +43,6 @@ a {
   text-decoration: none;
   color: #232323;
   transition: color 0.3s ease;
-  word-break: break-all;
 }
 
 a:hover {
@@ -62,23 +63,6 @@ h2 {
   margin-top: 60px;
 }
 
-p{
-
-}
-
-header{
-  height: 100px;
-}
-
-.logoCoreparation{
-  height: 80px;
-  width: auto;
-}
-
-.mieuxTrierLinkText{
-  word-break: break-all;
-}
-
 #scroll {
 	position: absolute;
 	display: inline-block;
@@ -93,84 +77,73 @@ header{
 	height: 50px;
 }
 
+
+
+
 #menuToggle {
   position: fixed;
   width: 100%;
   padding-left: 15px;
+  padding-top: 15px;
   padding-bottom: 0;
+  height: 54px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   align-items: center;
   z-index: 3;
   margin-bottom: 0px;
-  background-color: #fffff7;
-  height: 100px;
 }
 
-  #menuToggle h1{
-    margin: 0px;
-    font-size: 2em;
-  }
+#menuToggle h1{
+  margin: 0px;
+  font-size: 2em;
+  margin-bottom: 6px;
+}
 
-  #burger {
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-    margin-right: 25px;
-    float: left;
-    z-index: 1;
-    -webkit-user-select: none;
-    user-select: none;
-    cursor: pointer;
-    min-height: 70px;
-  }
+#burger {
+ display: block;
+  margin-right: 25px;
+  float: left;
+  z-index: 1;
+  -webkit-user-select: none;
+  user-select: none;
+}
 
-    #burger span {
-      display: flex;
-      width: 30px;
-      height: 4px;
-      margin-bottom: 5px;
-      position: relative;
-      background: #888;
-      border-radius: 3px;
-      z-index: 1;
-      transform-origin: 4px 0px;
-      transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-                  background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-                  opacity 0.55s ease;
-    }
+#burger span {
+  display: block;
+  width: 30px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  background: #888;
+  border-radius: 3px;
+  z-index: 1;
+  transform-origin: 4px 0px;
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
 
-  .menu {
-    list-style-type: none;
-    -webkit-font-smoothing: antialiased;
-    display: none;
-    align-items: center;
-    width: 100%;
-    background: #fffff7;
-    z-index: 1;
-    margin-left: -15px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-right: 0px;
-    padding: 0;
-    padding-left: 15px;
-    box-shadow: 0 2px 4px 0 #ccc;
-  }
+.menu {
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  display: none;
+  width: 100%;
+  background: #fff;
+  z-index: 1;
+  margin-left: -15px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  padding: 0;
+  padding-left: 15px;
+}
 
 #menu li {
   float: none;
-  margin: 15px 18px 15px 18px;
+  margin: 15px;
   font-size: 22px;
-  color: #3a3a3a;
-}
-
-#menu li:hover {
-  color: #e0ad4d;
-  -webkit-transition: color 0.4s ease;
-  -moz-transition: color 0.4s ease;
-  -o-transition: color 0.4s ease;
-  transition: color 0.4s ease;
+  margin-left: 0px;
 }
 
 .box-shadow {
@@ -178,9 +151,7 @@ header{
 }
 
 #content {
-  display: flex;
-  flex-direction: column;
-  padding-top: 20px;
+  margin-top: 90px;
   margin-left: auto;
   margin-right: auto;
   width: 80%;
@@ -199,68 +170,12 @@ header{
 }
 
 #map {
+  top: 70px;
   position: relative;
 }
 
-  #jumptomap{
-    position: absolute;
-    bottom: 50px;
-  }
-
-.arrowScroll{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  bottom: 40px;
-  left: 50%;
-  margin: auto;
-  z-index: 999;
-  display: inline-block;
-  color: #3a3a3a !important;
-  font : normal 400 20px/1 'Josefin Sans', sans-serif;
-  text-decoration: none;
-  transition: opacity .3s;
-  padding: 20px 15px 20px 15px;
-  /* animation au chargement flèche */
-  animation-duration: 1.5s;
-  animation-name: slidedown;
-  animation-iteration-count: 1;  
-
-  /* transition opacité fleche*/
-  -webkit-transition: opacity 1s, bottom 1s;
-  -moz-transition: opacity 1s, bottom 1s;
-  -o-transition: opacity 1s, bottom 1s;
-  transition: opacity 1s, bottom 1s;  
-  background-color: #fffff7;
-  opacity: .8;
-  border-radius: 80px;
-  width: 25px;
-}
-  .arrowScroll_Icon{
-  width: 100%;
-  height: auto;
-
-
-}
-
-@keyframes slidedown {
-  from {
-    position: absolute;
-    bottom: 40px;
-    opacity: .5;
-  }
-
-  to {
-     position: absolute;
-    bottom: 40px;
-    opacity: 0.8;
-  }
-}
-
 .show{
-    display: flex;
-    flex-direction: column;
+    display: block;
 }
 
 a.anchor {
@@ -272,28 +187,35 @@ a.anchor {
 
 @media screen and (min-width: 450px) {
   #map {
-    top: 0px;
+    top: 115px;
   }
 
   #burger {
-   display: flex;
+   display: none;
   }
 
   #menuToggle {
-      display: flex;
+      display: block;
+      height: 75px;
+      padding-bottom: 25px;
+      margin-bottom: 3px;
   }
 
   .menu{
-    display: none;
+    display: block;
+    width: 100%;
+    background: none;
+    margin-left: -15px;
   }
 
   #menu li{
     float: left;
-    margin: 15px 18px 15px 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 
   #content {
-    margin-top: 0px;
+    margin-top: 160px;
   }
 
   .box-shadow {
@@ -301,23 +223,18 @@ a.anchor {
   }
 
   a.anchor {
-      top: -70px;
+      top: -120px;
     }
 
   h1 {
     font-size:8px;
   }
-
-  .show{
-    display: flex;
-    flex-direction: column;
-}
 }
 
-@media screen and (min-width: 1080px) {
+@media screen and (min-width: 700px) {
 
   #map {
-    top: 0px;
+    top: 75px;
   }
 
   #burger {
@@ -326,7 +243,8 @@ a.anchor {
 
   #menuToggle {
       display: flex;
-      padding-bottom: 0px;
+      height: 35px;
+      padding-bottom: 25px;
     }
 
   .menu{
@@ -334,16 +252,10 @@ a.anchor {
     width: auto;
     background: none;
     margin-left: 15px;
-    box-shadow: none;
-  }
-
-    #menuToggle h1{
-    margin-right: 30px;
   }
 
     #menu li{
       float: left;
-      margin: 15px 20px 15px 20px;
     }
 
     .show{
@@ -351,11 +263,11 @@ a.anchor {
     }
 
     #content {
-
+     margin-top: 140px;
     }
 
     a.anchor {
-      top: -50px;
+      top: -90px;
     }
 
     h1 {
