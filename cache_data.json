@@ -1,9 +1,9 @@
 {
   "version": 0.6,
-  "generator": "Overpass API 0.7.55.4 3079d8ea",
+  "generator": "Overpass API 0.7.55.5 2ca3f387",
   "osm3s": {
-    "timestamp_osm_base": "2018-11-14T06:27:03Z",
-    "timestamp_areas_base": "2018-11-14T05:41:03Z",
+    "timestamp_osm_base": "2018-12-01T11:47:02Z",
+    "timestamp_areas_base": "2018-12-01T10:35:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -29,6 +29,26 @@
     "phone": "+33 2 47 51 95 76",
     "shop": "supermarket",
     "website": "http://www.biocoop37.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 260284695,
+  "lat": 48.8259746,
+  "lon": 2.2732673,
+  "tags": {
+    "addr:housenumber": "17",
+    "addr:postcode": "92130",
+    "addr:street": "Rue Kléber",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-12:45",
+    "organic": "yes",
+    "phone": "+33 1 46 38 90 21",
+    "shop": "convenience",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-issy-les-moulineaux"
   }
 },
 {
@@ -310,6 +330,8 @@
     "name": "Croc'bio",
     "organic": "only",
     "shop": "convenience",
+    "source": "survey",
+    "survey:date": "2018-11-22",
     "website": "http://www.crocbio.sitew.com"
   }
 },
@@ -743,6 +765,28 @@
 },
 {
   "type": "node",
+  "id": 929970157,
+  "lat": 48.8385482,
+  "lon": 2.2902657,
+  "tags": {
+    "addr:city": "Paris",
+    "addr:country": "FR",
+    "addr:housenumber": "2",
+    "addr:postcode": "75015",
+    "addr:street": "Rue Saint-Lambert",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-13:00",
+    "operator": "Bio C' Bon",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-paris-jaures"
+  }
+},
+{
+  "type": "node",
   "id": 968439603,
   "lat": 45.7680578,
   "lon": 3.0824727,
@@ -803,6 +847,26 @@
     "organic": "only",
     "shop": "convenience",
     "source": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 1029804556,
+  "lat": 43.8890815,
+  "lon": -0.5010199,
+  "tags": {
+    "addr:housenumber": "60",
+    "addr:postcode": "40000",
+    "addr:street": "Rue Gambetta",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Fr 09:30-19:30; Sa 09:00-19:30",
+    "organic": "only",
+    "shop": "convenience",
+    "website": "https://bio-c-bon.eu/",
+    "wheelchair": "yes"
   }
 },
 {
@@ -1055,6 +1119,25 @@
 },
 {
   "type": "node",
+  "id": 1197653459,
+  "lat": 48.8510250,
+  "lon": 2.3756065,
+  "tags": {
+    "addr:housenumber": "85",
+    "addr:postcode": "75012",
+    "addr:street": "Avenue Ledru-Rollin",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-13:00",
+    "organic": "yes",
+    "shop": "convenience",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-paris-ledru-rollin"
+  }
+},
+{
+  "type": "node",
   "id": 1284221992,
   "lat": 43.6062416,
   "lon": 1.4500441,
@@ -1125,9 +1208,10 @@
     "bulk_purchase": "yes",
     "contact:facebook": "https://www.facebook.com/biocbonfrance/",
     "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-13:00",
     "organic": "only",
     "shop": "convenience",
-    "website": "https://www.bio-c-bon.eu"
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-paris-parmentier"
   }
 },
 {
@@ -1323,6 +1407,27 @@
 },
 {
   "type": "node",
+  "id": 1490090155,
+  "lat": 48.8678917,
+  "lon": 2.3455591,
+  "tags": {
+    "addr:housenumber": "114",
+    "addr:postcode": "75002",
+    "addr:street": "Rue Réaumur",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Fr 10:00-21:00; Sa 10:00-20:00; Su 10:00-13:00",
+    "operator": "Bio C' Bon",
+    "organic": "only",
+    "shop": "supermarket",
+    "source": "survey",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-paris-reaumur"
+  }
+},
+{
+  "type": "node",
   "id": 1498519235,
   "lat": 49.3289627,
   "lon": 2.4650724,
@@ -1412,6 +1517,7 @@
     "opening_hours": "Mo-Sa 09:00-19:30; Su off",
     "operator": "Chlorophylle-coop",
     "organic": "only",
+    "phone": "+332 40 25 11 11",
     "shop": "supermarket",
     "survey:date": "2018-11-01",
     "website": "http://www.chlorophylle-coop.com/"
@@ -1553,6 +1659,19 @@
     "name": "Naturéo",
     "organic": "only",
     "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 1658136584,
+  "lat": 47.1951620,
+  "lon": -1.5682342,
+  "tags": {
+    "addr:housenumber": "20",
+    "addr:postcode": "44400",
+    "bulk_purchase": "yes",
+    "name": "Scopéli",
+    "source": "Nantes Métropole 11/2011"
   }
 },
 {
@@ -1884,6 +2003,26 @@
 },
 {
   "type": "node",
+  "id": 1789405050,
+  "lat": 48.8818036,
+  "lon": 2.3371365,
+  "tags": {
+    "addr:housenumber": "9",
+    "addr:postcode": "75009",
+    "addr:street": "Place Pigalle",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-14:00",
+    "operator": "Bio C' Bon",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-paris-pigalle"
+  }
+},
+{
+  "type": "node",
   "id": 1797889998,
   "lat": 46.6931852,
   "lon": -1.4331852,
@@ -1946,6 +2085,25 @@
     "shop": "convenience",
     "source": "Observations locales et GPS",
     "website": "http://www.lemarchedeleopold.com"
+  }
+},
+{
+  "type": "node",
+  "id": 1813995047,
+  "lat": 43.2858431,
+  "lon": 5.3844127,
+  "tags": {
+    "addr:housenumber": "19",
+    "addr:postcode": "13006",
+    "addr:street": "Place Castellane",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 09:00-20:00; Su 10:00-13:00",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-marseille-castellane"
   }
 },
 {
@@ -2198,10 +2356,11 @@
     "bulk_purchase": "yes",
     "contact:facebook": "https://www.facebook.com/biocbonfrance/",
     "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-13:00",
     "operator": "Bio C' Bon",
     "organic": "only",
     "shop": "supermarket",
-    "website": "https://www.bio-c-bon.eu",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-paris-championnet",
     "wheelchair": "yes"
   }
 },
@@ -2295,6 +2454,25 @@
 },
 {
   "type": "node",
+  "id": 1987166800,
+  "lat": 48.8638238,
+  "lon": 2.2875210,
+  "tags": {
+    "addr:housenumber": "112",
+    "addr:postcode": "75016",
+    "addr:street": "Avenue Kléber",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Fr 10:00-20:00; Sa 09:00-20:00; Su 10:00-13:00",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-paris-kleber"
+  }
+},
+{
+  "type": "node",
   "id": 1998615471,
   "lat": 45.7527098,
   "lon": 4.8465168,
@@ -2344,6 +2522,25 @@
     "organic": "only",
     "shop": "supermarket",
     "website": "http://www.lavieclaire.com/magasin-bio/paris-grenier-saint-lazare.html"
+  }
+},
+{
+  "type": "node",
+  "id": 2003145881,
+  "lat": 48.8602099,
+  "lon": 2.3530998,
+  "tags": {
+    "addr:housenumber": "26",
+    "addr:postcode": "75004",
+    "addr:street": "Rue du Renard",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-13:00",
+    "organic": "only",
+    "shop": "convenience",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-paris-renard"
   }
 },
 {
@@ -2567,6 +2764,25 @@
 },
 {
   "type": "node",
+  "id": 2141068669,
+  "lat": 46.2209678,
+  "lon": -0.1440928,
+  "tags": {
+    "addr:city": "Melle",
+    "addr:housenumber": "10",
+    "addr:postcode": "79500",
+    "addr:street": "Avenue du Commandant Bernier",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/pages/LEpicerie-Fermi%C3%A8re/444519772557780",
+    "name": "Épicerie Fermière",
+    "organic": "only",
+    "shop": "convenience",
+    "website": "http://epicerie-fermiere.com/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
   "id": 2142687722,
   "lat": 46.5491585,
   "lon": 0.2962873,
@@ -2582,6 +2798,26 @@
     "name": "Biocoop",
     "organic": "only",
     "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 2144646154,
+  "lat": 48.8426702,
+  "lon": 2.3856753,
+  "tags": {
+    "addr:city": "Paris",
+    "addr:housenumber": "149",
+    "addr:postcode": "75012",
+    "addr:street": "Avenue Daumesnil",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-13:00",
+    "organic": "only",
+    "shop": "convenience",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-paris-daumesnil"
   }
 },
 {
@@ -2623,6 +2859,28 @@
 },
 {
   "type": "node",
+  "id": 2255892170,
+  "lat": 48.8395423,
+  "lon": 2.2779531,
+  "tags": {
+    "addr:city": "Paris",
+    "addr:country": "FR",
+    "addr:housenumber": "76",
+    "addr:postcode": "75015",
+    "addr:street": "Rue Balard",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-13:00",
+    "operator": "Bio C' Bon",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-paris-balard"
+  }
+},
+{
+  "type": "node",
   "id": 2255955928,
   "lat": 47.2175592,
   "lon": -1.5520688,
@@ -2638,7 +2896,9 @@
     "contact:street": "Rue Saint-Denis",
     "contact:website": "http://bionant.net/",
     "name": "bio-Nant'",
+    "opening_hours": "Mo-Sa 09:30-19:15; Su off",
     "organic": "only",
+    "phone": "+33 2 40481237",
     "shop": "greengrocer"
   }
 },
@@ -2915,6 +3175,27 @@
 },
 {
   "type": "node",
+  "id": 2321297309,
+  "lat": 48.8522672,
+  "lon": 2.3651848,
+  "tags": {
+    "addr:housenumber": "16",
+    "addr:postcode": "75004",
+    "addr:street": "Rue de la Cerisaie",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-13:00",
+    "operator": "Bio C' Bon",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-paris-cerisaie",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
   "id": 2322131706,
   "lat": 42.5001428,
   "lon": 2.7595882,
@@ -3019,8 +3300,10 @@
     "addr:housenumber": "17-19",
     "addr:postcode": "38000",
     "addr:street": "Grande Rue",
+    "brand": "Bio C' Bon",
     "bulk_purchase": "yes",
-    "name": "Bio c' Bon",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
     "opening_hours": "Mo-Fr 10:00-20:00; Sa 09:00-20:00; Su 09:00-13:00",
     "organic": "only",
     "phone": "+33 4 76 54 10 55",
@@ -3108,6 +3391,26 @@
 },
 {
   "type": "node",
+  "id": 2414845377,
+  "lat": 48.8081489,
+  "lon": 2.2402781,
+  "tags": {
+    "addr:housenumber": "8 ter",
+    "addr:postcode": "92190",
+    "addr:street": "Rue Banes",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-13:00",
+    "operator": "Bio C' Bon",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-meudon"
+  }
+},
+{
+  "type": "node",
   "id": 2415879881,
   "lat": 45.1880104,
   "lon": 5.7253841,
@@ -3180,6 +3483,26 @@
     "organic": "only",
     "shop": "supermarket",
     "source": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 2456030128,
+  "lat": 43.2926530,
+  "lon": 5.3840999,
+  "tags": {
+    "addr:housenumber": "85",
+    "addr:postcode": "13006",
+    "addr:street": "Cours Julien",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 09:30-20:00; Su 09:30-13:30",
+    "operator": "Bio C' Bon",
+    "organic": "yes",
+    "shop": "supermarket",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-marseille-cours-julien"
   }
 },
 {
@@ -3400,6 +3723,45 @@
 },
 {
   "type": "node",
+  "id": 2515581329,
+  "lat": 48.8688115,
+  "lon": 2.3351558,
+  "tags": {
+    "addr:housenumber": "29",
+    "addr:postcode": "75002",
+    "addr:street": "Rue Saint-Augustin",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Fr 10:00-20:00; Sa 09:00-20:00; Su 10:00-13:00",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-paris-saint-augustin",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2517201889,
+  "lat": 48.8535954,
+  "lon": 2.3876700,
+  "tags": {
+    "addr:city": "Paris",
+    "addr:housenumber": "189",
+    "addr:postcode": "75011",
+    "addr:street": "Boulevard Voltaire",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-13:00",
+    "shop": "supermarket",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-paris-voltaire"
+  }
+},
+{
+  "type": "node",
   "id": 2522905250,
   "lat": 43.6128531,
   "lon": 1.3056633,
@@ -3462,20 +3824,23 @@
 {
   "type": "node",
   "id": 2583958955,
-  "lat": 47.2066461,
-  "lon": -1.5491679,
+  "lat": 47.2066520,
+  "lon": -1.5491605,
   "tags": {
-    "addr:city": "Nantes",
-    "addr:housenumber": "8",
-    "addr:postcode": "44200",
-    "addr:street": "Rue Grande Biesse",
     "amenity": "restaurant",
-    "capacity": "30",
-    "cuisine": "bistro",
+    "contact:facebook": "https://www.facebook.com/lagrdebarge",
+    "contact:instagram": "https://www.instagram.com/lagrandebarge/",
+    "contact:phone": "+33 2 53976540",
+    "contact:website": "https://ledebutdesharicots.fr/restaurant-bio-local-ile-de-nantes/",
+    "cuisine": "brasserie",
+    "diet:vegetarian": "yes",
+    "mapillary": "GeVz-O-y9kAON2fDfRr98w",
     "name": "La Grande Barge",
+    "opening_hours": "Mo-Fr 12:00-14:00",
+    "organic": "yes",
     "outdoor_seating": "yes",
-    "takeaway": "yes",
-    "website": "https://ledebutdesharicots.fr/"
+    "survey:date": "2018-11-24",
+    "takeaway": "yes"
   }
 },
 {
@@ -3732,6 +4097,25 @@
 },
 {
   "type": "node",
+  "id": 2753780759,
+  "lat": 48.8483485,
+  "lon": 2.4335067,
+  "tags": {
+    "addr:housenumber": "127",
+    "addr:postcode": "94300",
+    "addr:street": "Rue de Fontenay",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-13:00",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-vincennes"
+  }
+},
+{
+  "type": "node",
   "id": 2759353718,
   "lat": 47.2122712,
   "lon": -1.5560079,
@@ -3795,7 +4179,8 @@
     "operator": "Biocoop",
     "organic": "only",
     "shop": "supermarket",
-    "website": "http://www.biocoop-narbonne.com/"
+    "website": "http://www.biocoop-narbonne.com/",
+    "wheelchair": "yes"
   }
 },
 {
@@ -3894,6 +4279,26 @@
 },
 {
   "type": "node",
+  "id": 2835263014,
+  "lat": 50.6367346,
+  "lon": 3.0673666,
+  "tags": {
+    "addr:city": "Lille",
+    "addr:housenumber": "36",
+    "addr:postcode": "59000",
+    "addr:street": "Rue Faidherbe",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-13:00",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-lille-faidherbe"
+  }
+},
+{
+  "type": "node",
   "id": 2838080355,
   "lat": 50.6447219,
   "lon": 2.9738821,
@@ -3929,6 +4334,26 @@
     "opening_hours": "Mo 15:00-19:00; Tu-Sa 10:00-13:00,14:30-19:00; Su 10:30-13:00",
     "shop": "tea",
     "survey:date": "2018-10-27"
+  }
+},
+{
+  "type": "node",
+  "id": 2845049533,
+  "lat": 48.8796085,
+  "lon": 2.3717349,
+  "tags": {
+    "addr:housenumber": "27",
+    "addr:postcode": "75019",
+    "addr:street": "Rue de Meaux",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-13:00",
+    "operator": "Bio C' Bon",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-paris-rue-de-meaux"
   }
 },
 {
@@ -4220,12 +4645,37 @@
   "lon": 2.3190873,
   "tags": {
     "addr:housenumber": "47",
+    "addr:postcode": "92120",
     "addr:street": "Rue Louis Rolland",
+    "brand": "Bio C' Bon",
     "bulk_purchase": "yes",
-    "name": "Bio c' Bon",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
     "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-13:00",
+    "organic": "only",
     "shop": "supermarket",
-    "source": "local Knowledge"
+    "source": "local Knowledge",
+    "website": "https://bio-c-bon.eu/"
+  }
+},
+{
+  "type": "node",
+  "id": 3109778329,
+  "lat": 48.8795810,
+  "lon": 2.2892630,
+  "tags": {
+    "addr:housenumber": "79",
+    "addr:postcode": "75019",
+    "addr:street": "Avenue des Ternes",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-13:00",
+    "organic": "only",
+    "shop": "convenience",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-paris-ternes",
+    "wheelchair": "yes"
   }
 },
 {
@@ -4258,11 +4708,11 @@
     "bulk_purchase": "yes",
     "contact:facebook": "https://www.facebook.com/biocbonfrance/",
     "name": "Bio C' Bon",
-    "opening_hours": "Mo-Sa 10:00-20:00, Su 10:00-13:00",
-    "operator": "Bio c'Bon",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-13:00",
+    "operator": "Bio C' Bon",
     "organic": "only",
     "shop": "supermarket",
-    "website": "https://www.bio-c-bon.eu"
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-paris-bagnolet"
   }
 },
 {
@@ -4280,6 +4730,25 @@
     "name": "Biocoop - Magasin Bio",
     "organic": "only",
     "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 3148737907,
+  "lat": 48.8617906,
+  "lon": 2.3644522,
+  "tags": {
+    "addr:housenumber": "103",
+    "addr:postcode": "75003",
+    "addr:street": "Rue de Turenne",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-14:00",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-paris-turenne"
   }
 },
 {
@@ -4632,6 +5101,26 @@
 },
 {
   "type": "node",
+  "id": 3348458945,
+  "lat": 48.8786198,
+  "lon": 2.4124715,
+  "tags": {
+    "addr:housenumber": "56",
+    "addr:postcode": "93260",
+    "addr:street": "Rue de Paris",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 09:30-20:00; Su 09:30-13:00",
+    "organic": "only",
+    "shop": "supermarket",
+    "source": "survey",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-les-lilas"
+  }
+},
+{
+  "type": "node",
   "id": 3353574603,
   "lat": 47.4404095,
   "lon": -1.4978503,
@@ -4729,10 +5218,11 @@
     "bulk_purchase": "yes",
     "contact:facebook": "https://www.facebook.com/biocbonfrance/",
     "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-13:00",
     "organic": "only",
     "shop": "supermarket",
     "source": "survey",
-    "website": "https://www.bio-c-bon.eu"
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-paris-acacias"
   }
 },
 {
@@ -4795,12 +5285,30 @@
 {
   "type": "node",
   "id": 3417742031,
-  "lat": 47.3653569,
-  "lon": -1.1786782,
+  "lat": 47.3653533,
+  "lon": -1.1787694,
   "tags": {
+    "addr:city": "Ancenis",
     "addr:housenumber": "27",
+    "addr:postcode": "44150",
+    "addr:street": "Rue Saint-Michel",
     "bulk_purchase": "yes",
     "name": "Des Épices à ma Guise",
+    "opening_hours": "Tu-Sa 09:30-19:00",
+    "payment:american_express": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "yes",
+    "payment:coins": "yes",
+    "payment:contactless": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:maestro": "yes",
+    "payment:mastercard": "yes",
+    "payment:notes": "yes",
+    "payment:visa": "yes",
+    "payment:visa_debit": "yes",
+    "payment:visa_electron": "yes",
+    "phone": "02 40 09 61 89",
     "shop": "deli",
     "website": "http://www.desepicesamaguise.com/"
   }
@@ -4841,6 +5349,26 @@
     "organic": "only",
     "shop": "supermarket",
     "website": "http://aixlesbains.biocoop.net/"
+  }
+},
+{
+  "type": "node",
+  "id": 3452853965,
+  "lat": 43.4283308,
+  "lon": 6.7802618,
+  "tags": {
+    "addr:city": "Saint-Raphaël",
+    "addr:housenumber": "281",
+    "addr:postcode": "83700",
+    "addr:street": "Traverse Jean Moulin",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 09:30-19:30; Su 09:30-13:00",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-saint-raphael"
   }
 },
 {
@@ -4996,6 +5524,74 @@
 },
 {
   "type": "node",
+  "id": 3500599085,
+  "lat": 48.8339736,
+  "lon": 2.3449922,
+  "tags": {
+    "addr:city": "Paris",
+    "addr:housenumber": "25ter",
+    "addr:postcode": "75013",
+    "addr:street": "Rue de la Glacière",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-13:00",
+    "organic": "only",
+    "shop": "supermarket",
+    "source": "survey",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-paris-glaciere",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3501719703,
+  "lat": 48.8754265,
+  "lon": 2.3508345,
+  "tags": {
+    "addr:housenumber": "63",
+    "addr:postcode": "75010",
+    "addr:street": "Rue d'Hauteville",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 10:00-20:30; Su 10:00-13:00",
+    "operator": "Chouraqui Thierry",
+    "operator:website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-paris-hauteville",
+    "organic": "only",
+    "phone": "+33 1 48 01 07 04",
+    "shop": "supermarket",
+    "source": "local_knowledge",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-paris-hauteville",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 3517263237,
+  "lat": 48.8846243,
+  "lon": 2.2385521,
+  "tags": {
+    "addr:city": "Puteaux",
+    "addr:housenumber": "110",
+    "addr:postcode": "92800",
+    "addr:street": "Rue de la République",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-13:00",
+    "organic": "only",
+    "phone": "+33 1 43 38 39 43",
+    "shop": "convenience",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2015",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-puteaux"
+  }
+},
+{
+  "type": "node",
   "id": 3533486610,
   "lat": 44.1256774,
   "lon": 0.3395415,
@@ -5067,6 +5663,64 @@
 },
 {
   "type": "node",
+  "id": 3561266493,
+  "lat": 48.8289297,
+  "lon": 2.3232934,
+  "tags": {
+    "addr:housenumber": "119",
+    "addr:postcode": "75014",
+    "addr:street": "Rue d'Alésia",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Fr 10:00-20:00; Sa 09:30-20:00; Su 09:30-13:30",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-paris-alesia"
+  }
+},
+{
+  "type": "node",
+  "id": 3571306993,
+  "lat": 47.2041599,
+  "lon": -1.5671423,
+  "tags": {
+    "contact:facebook": "https://fr-fr.facebook.com/pages/La-Boule-Carr%C3%A9e/543123109040038",
+    "contact:phone": "+33 2 28 08 99 76",
+    "name": "La Boule Carrée",
+    "opening_hours": "Tu-Su 07:00-20:00",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "shop": "bakery",
+    "wheelchair": "yes",
+    "wifi": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3576467893,
+  "lat": 48.8083171,
+  "lon": 2.1332706,
+  "tags": {
+    "addr:housenumber": "20",
+    "addr:postcode": "78000",
+    "addr:street": "Rue du Maréchal Foch",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 09:00-20:00; Su 09:00-14:00",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-versailles",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
   "id": 3577584197,
   "lat": 48.8251038,
   "lon": 2.2144374,
@@ -5091,11 +5745,13 @@
     "addr:housenumber": "95",
     "addr:postcode": "33000",
     "addr:street": "Cours Victor Hugo",
+    "brand": "Bio C' Bon",
     "bulk_purchase": "yes",
-    "name": "Bio c' Bon",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
     "opening_hours": "Mo-Sa 09:30-20:00; Su 09:30-13:00",
-    "operator": "Bio c' Bon",
-    "organic": "yes",
+    "operator": "Bio C' Bon",
+    "organic": "only",
     "phone": "+33 5 56 44 67 61",
     "shop": "supermarket",
     "website": "http://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-cours-victor-hugo"
@@ -5174,6 +5830,42 @@
     "phone": "+33 5 81 02 33 98",
     "shop": "supermarket",
     "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3660369530,
+  "lat": 48.8686664,
+  "lon": 2.3749669,
+  "tags": {
+    "addr:city": "Paris",
+    "addr:housenumber": "142",
+    "addr:postcode": "75011",
+    "addr:street": "Rue Saint-Maur",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "contact:housenumber": "142",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-13:00",
+    "organic": "only",
+    "phone": "+33 1 43 38 39 43",
+    "shop": "supermarket",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-paris-saint-maur"
+  }
+},
+{
+  "type": "node",
+  "id": 3670162562,
+  "lat": 43.6629136,
+  "lon": 7.0555019,
+  "tags": {
+    "addr:street": "Route de Grasse",
+    "bulk_purchase": "yes",
+    "name": "Le Marchand Bio",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://www.lemarchandbio.com/pages/37/roquefort-les-pins"
   }
 },
 {
@@ -5338,6 +6030,24 @@
     "phone": "+33 3 87 50 45 48",
     "shop": "supermarket",
     "website": "http://lavieclaire.com/magasin-bio/metz.html"
+  }
+},
+{
+  "type": "node",
+  "id": 3740119320,
+  "lat": 44.8359282,
+  "lon": -0.5810005,
+  "tags": {
+    "addr:housenumber": "59",
+    "addr:postcode": "76000",
+    "addr:street": "Cours d'Albret",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 09:30-20:00; Su 10:00-12:45",
+    "shop": "supermarket",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-bordeaux-albret"
   }
 },
 {
@@ -5691,6 +6401,31 @@
 },
 {
   "type": "node",
+  "id": 3936222237,
+  "lat": 48.8698551,
+  "lon": 2.3558828,
+  "tags": {
+    "addr:city": "Paris",
+    "addr:housenumber": "17",
+    "addr:postcode": "75010",
+    "addr:street": "Rue du Faubourg Saint-Martin",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "diet:vegan": "no",
+    "diet:vegetarian": "yes",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-13:00",
+    "operator": "Bio C' Bon",
+    "organic": "only",
+    "phone": "+33 1 42 82 05 37",
+    "shop": "supermarket",
+    "source": "survey",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-paris-saint-martin"
+  }
+},
+{
+  "type": "node",
   "id": 3961161857,
   "lat": 47.2664070,
   "lon": 6.0605709,
@@ -5910,7 +6645,7 @@
     "brand:wikipedia": "fr:La Vie claire",
     "bulk_purchase": "yes",
     "contact:facebook": "https://www.facebook.com/Lavieclaire",
-    "disued:shop": "convenience",
+    "disused:shop": "convenience",
     "name": "La Vie Claire",
     "organic": "only",
     "phone": "+33 9 79 73 30 81",
@@ -6064,7 +6799,9 @@
     "addr:housenumber": "60",
     "addr:postcode": "75018",
     "addr:street": "Rue du Poteau",
+    "brand": "Bio C' Bon",
     "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
     "name": "Bio C' Bon",
     "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-13:00",
     "organic": "only",
@@ -6149,6 +6886,26 @@
     "name": "L'eau Vive",
     "organic": "only",
     "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 4139106461,
+  "lat": 48.8716288,
+  "lon": 2.3919962,
+  "tags": {
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "contact:housenumber": "341",
+    "contact:street": "Rue des Pyrénées",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-13:00",
+    "organic": "only",
+    "shop": "supermarket",
+    "source": "survey",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-paris-pyrenees",
+    "wheelchair": "yes"
   }
 },
 {
@@ -6454,6 +7211,21 @@
 },
 {
   "type": "node",
+  "id": 4239235909,
+  "lat": 48.6082389,
+  "lon": 7.7514720,
+  "tags": {
+    "brand": "Naturalia",
+    "brand:wikidata": "Q3337081",
+    "brand:wikipedia": "fr:Naturalia",
+    "bulk_purchase": "yes",
+    "name": "Naturalia",
+    "organic": "yes",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
   "id": 4249275915,
   "lat": 48.6335302,
   "lon": -2.0543858,
@@ -6695,10 +7467,11 @@
     "addr:housenumber": "64",
     "addr:postcode": "92300",
     "addr:street": "Rue Rivay",
-    "brand": "Bio c' Bon",
+    "brand": "Bio C' Bon",
     "bulk_purchase": "yes",
-    "name": "Bio c' Bon Levallois",
-    "opening_hours": "Mo-Sa 10:00-20:00; Sun 10:00-13:00",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-13:00",
     "organic": "only",
     "payment:cash": "yes",
     "payment:credit_cards": "yes",
@@ -6764,6 +7537,27 @@
     "organic": "only",
     "shop": "supermarket",
     "website": "http://biocoop.fr/magasins-bio/Trouver-mon-magasin-Biocoop/Provence-Alpes-Cote-d-Azur/Bouches-du-Rhone/BIOCOOP-CHATEAU-GOMBERT"
+  }
+},
+{
+  "type": "node",
+  "id": 4328356961,
+  "lat": 48.8935801,
+  "lon": 2.4019149,
+  "tags": {
+    "addr:city": "Pantin",
+    "addr:housenumber": "30",
+    "addr:postcode": "93500",
+    "addr:street": "Rue Hoche",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 09:00-14:00",
+    "organic": "only",
+    "phone": "+33 1 48 44 26 89",
+    "shop": "supermarket",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-pantin"
   }
 },
 {
@@ -7082,6 +7876,27 @@
 },
 {
   "type": "node",
+  "id": 4405774383,
+  "lat": 43.6050920,
+  "lon": 1.4436985,
+  "tags": {
+    "addr:city": "Toulouse",
+    "addr:housenumber": "1",
+    "addr:postcode": "31000",
+    "addr:street": "Rue Charles de Rémusat",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-13:00",
+    "organic": "only",
+    "phone": "+33 5 34 33 74 71",
+    "shop": "convenience",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-toulouse-capitole"
+  }
+},
+{
+  "type": "node",
   "id": 4405828228,
   "lat": 45.7706337,
   "lon": 4.9564668,
@@ -7283,6 +8098,27 @@
 },
 {
   "type": "node",
+  "id": 4430969120,
+  "lat": 50.3583413,
+  "lon": 3.5251000,
+  "tags": {
+    "addr:city": "Valenciennes",
+    "addr:housenumber": "7",
+    "addr:postcode": "59300",
+    "addr:street": "Rue du Quesnoy",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-13:00",
+    "organic": "only",
+    "phone": "+33 3 27 09 06 34",
+    "shop": "supermarket",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-valenciennes"
+  }
+},
+{
+  "type": "node",
   "id": 4432986011,
   "lat": 45.8046364,
   "lon": 4.7811614,
@@ -7303,6 +8139,46 @@
     "shop": "supermarket",
     "website": "http://www.satoriz-montdor.fr/",
     "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4434075923,
+  "lat": 45.7706567,
+  "lon": 4.8498226,
+  "tags": {
+    "addr:housenumber": "46",
+    "addr:postcode": "69006",
+    "addr:street": "Rue Garibaldi",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Fr 10:00-20:00; Sa 09:00-20:00; Su 10:00-13:00",
+    "organic": "only",
+    "phone": "+33 4 37 51 16 97",
+    "shop": "supermarket",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-lyon-garibaldi"
+  }
+},
+{
+  "type": "node",
+  "id": 4434078950,
+  "lat": 45.7650821,
+  "lon": 4.8360876,
+  "tags": {
+    "addr:housenumber": "17",
+    "addr:postcode": "69002",
+    "addr:street": "Rue de la République",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 10:00-20:00",
+    "organic": "only",
+    "phone": "+33 4 78 72 62 83",
+    "shop": "supermarket",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-lyon-republique"
   }
 },
 {
@@ -7354,6 +8230,28 @@
     "organic": "only",
     "shop": "supermarket",
     "website": "http://www.lavieclaire.com/magasin-bio/montigny-le-bretonneux.html"
+  }
+},
+{
+  "type": "node",
+  "id": 4467479488,
+  "lat": 48.7995909,
+  "lon": 2.2646175,
+  "tags": {
+    "addr:city": "Clamart",
+    "addr:housenumber": "2",
+    "addr:postcode": "92140",
+    "addr:street": "rue de la Fontaine",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "contact:phone": "+33 1 40 93 33 35",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-12:45",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-clamart",
+    "wheelchair": "yes"
   }
 },
 {
@@ -7799,6 +8697,28 @@
 },
 {
   "type": "node",
+  "id": 4544665929,
+  "lat": 47.3228759,
+  "lon": 5.0360102,
+  "tags": {
+    "addr:city": "Dijon",
+    "addr:housenumber": "17",
+    "addr:postcode": "21000",
+    "addr:street": "Rue de la Liberté",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "diet:vegan": "yes",
+    "diet:vegetarian": "yes",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 11:30-18:00",
+    "organic": "only",
+    "shop": "convenience",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-dijon"
+  }
+},
+{
+  "type": "node",
   "id": 4557381117,
   "lat": 47.7455030,
   "lon": 7.3542967,
@@ -7880,13 +8800,15 @@
     "addr:housenumber": "10",
     "addr:postcode": "06000",
     "addr:street": "Boulevard Gambetta",
+    "brand": "Bio C' Bon",
     "bulk_purchase": "yes",
-    "name": "Bio c' Bon",
-    "opening_hours": "Mo-Sa 09:00-20:00; Su 09:00-13:00",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 09:30-20:00; Su 09:30-13:00",
     "organic": "yes",
     "phone": "+33 4 93 81 48 96",
     "shop": "supermarket",
-    "website": "http://www.bio-c-bon.eu/fr/nos_magasins/bio-c-bon-nice-gambetta"
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-nice-gambetta"
   }
 },
 {
@@ -7899,13 +8821,15 @@
     "addr:housenumber": "1",
     "addr:postcode": "06000",
     "addr:street": "Avenue Georges Clemenceau",
+    "brand": "Bio C' Bon",
     "bulk_purchase": "yes",
-    "name": "Bio c' Bon",
-    "opening_hours": "Mo-Sa 09:00-20:00; Su 10:00-13:00",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-13:00",
     "organic": "yes",
     "phone": "+33 4 93 81 05 06",
     "shop": "supermarket",
-    "website": "http://www.bio-c-bon.eu/fr/nos_magasins/bio-c-bon-nice-clemenceau"
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-nice-clemenceau"
   }
 },
 {
@@ -8069,7 +8993,8 @@
     "phone": "+687 282 001",
     "shop": "supermarket",
     "source": "http://www.lavieclaire.com/magasin-bio/noumea-nouvelle-caledonie.html",
-    "website": "http://www.lavieclaire.com/magasin-bio/noumea-nouvelle-caledonie.html"
+    "website": "http://www.lavieclaire.com/magasin-bio/noumea-nouvelle-caledonie.html",
+    "wheelchair": "no"
   }
 },
 {
@@ -8290,7 +9215,7 @@
     "phone": "+33146057288",
     "shop": "supermarket",
     "source": "survey",
-    "website": "http://www.bio-c-bon.eu/"
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-boulogne-kermen"
   }
 },
 {
@@ -8521,13 +9446,15 @@
     "addr:housenumber": "8",
     "addr:postcode": "93100",
     "addr:street": "Boulevard Chanzy",
+    "brand": "Bio C' Bon",
     "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
     "level": "0",
-    "name": "BIO C'BON",
-    "opening_hours": "10h - 20h",
-    "operator": "BIO C'BON",
-    "shop": "greengrocer",
-    "website": "http://www.bio-c-bon.eu/fr/nos_magasins/bio-c-bon-montreuil-croix-de-chavaux"
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-13:00",
+    "operator": "Bio C' Bon",
+    "shop": "supermarket",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-montreuil-croix-de-chavaux"
   }
 },
 {
@@ -8558,6 +9485,46 @@
     "organic": "only",
     "shop": "convenience",
     "website": "http://laressource.fr/"
+  }
+},
+{
+  "type": "node",
+  "id": 4781498321,
+  "lat": 49.8926120,
+  "lon": 2.2927421,
+  "tags": {
+    "addr:housenumber": "38",
+    "addr:postcode": "80000",
+    "addr:street": "Rue de Beauvais",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "name:en": "Organic's good",
+    "name:fr": "Bio C' Bon",
+    "opening_hours": "Mo-Fr 09:30-19:30; Sa 09:00-19:30; Su 10:00-13:00",
+    "phone": "+33352790081",
+    "shop": "convenience",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-amiens"
+  }
+},
+{
+  "type": "node",
+  "id": 4781892217,
+  "lat": 48.8452230,
+  "lon": 2.4016967,
+  "tags": {
+    "addr:housenumber": "43",
+    "addr:postcode": "75012",
+    "addr:street": "Avenue de Saint-Mandé",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-13:00",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-paris-picpus"
   }
 },
 {
@@ -8799,6 +9766,63 @@
 },
 {
   "type": "node",
+  "id": 4848933202,
+  "lat": 48.8594537,
+  "lon": 2.3059135,
+  "tags": {
+    "addr:housenumber": "90",
+    "addr:postcode": "75007",
+    "addr:street": "Rue Saint-Dominique",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-14:00",
+    "organic": "only",
+    "shop": "convenience",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-paris-saint-dominique"
+  }
+},
+{
+  "type": "node",
+  "id": 4852647281,
+  "lat": 48.8432024,
+  "lon": 2.3296123,
+  "tags": {
+    "addr:housenumber": "31",
+    "addr:postcode": "75006",
+    "addr:street": "Rue Vavin",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-13:00",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-paris-vavin"
+  }
+},
+{
+  "type": "node",
+  "id": 4858216122,
+  "lat": 48.8725721,
+  "lon": 2.3433422,
+  "tags": {
+    "addr:housenumber": "12",
+    "addr:postcode": "75009",
+    "addr:street": "Rue du Faubourg Montmartre",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "name:fr": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-13:00",
+    "shop": "convenience",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-paris-bergere"
+  }
+},
+{
+  "type": "node",
   "id": 4858382540,
   "lat": 43.1202496,
   "lon": 6.1276904,
@@ -8908,8 +9932,10 @@
     "addr:city": "Rouen",
     "addr:postcode": "76000",
     "addr:street": "Place Saint-Marc",
+    "brand": "Bio C' Bon",
     "bulk_purchase": "yes",
-    "name": "Bio c'Bon",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
     "opening_hours": "Mo-Sa 10:00-20:00; Su 09:00-13:00",
     "organic": "only",
     "shop": "supermarket",
@@ -9244,6 +10270,26 @@
 },
 {
   "type": "node",
+  "id": 4964203438,
+  "lat": 48.8243443,
+  "lon": 2.2108021,
+  "tags": {
+    "addr:city": "Sèvres",
+    "addr:housenumber": "76",
+    "addr:postcode": "92310",
+    "addr:street": "Grande Rue",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-13:00",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-sevres"
+  }
+},
+{
+  "type": "node",
   "id": 4969290356,
   "lat": 43.5284500,
   "lon": 5.4437194,
@@ -9288,6 +10334,24 @@
 },
 {
   "type": "node",
+  "id": 4986720701,
+  "lat": 48.8535987,
+  "lon": 2.3392427,
+  "tags": {
+    "addr:housenumber": "60",
+    "addr:postcode": "75006",
+    "addr:street": "Rue Saint-André des Arts",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 10:00-20:30; Su 10:00-13:00",
+    "shop": "supermarket",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-paris-saint-andre-des-arts"
+  }
+},
+{
+  "type": "node",
   "id": 4987972021,
   "lat": 48.5539431,
   "lon": -2.5449074,
@@ -9318,6 +10382,27 @@
     "organic": "only",
     "shop": "supermarket",
     "website": "http://www.lavieclaire.com/magasin-bio/dole.html"
+  }
+},
+{
+  "type": "node",
+  "id": 4993092205,
+  "lat": 43.6003840,
+  "lon": 1.4525051,
+  "tags": {
+    "addr:city": "Toulouse",
+    "addr:housenumber": "23",
+    "addr:postcode": "31000",
+    "addr:street": "Rue des Frères Lion",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-13:00",
+    "organic": "only",
+    "shop": "supermarket",
+    "source": "survey",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-toulouse-lion"
   }
 },
 {
@@ -9753,6 +10838,21 @@
 },
 {
   "type": "node",
+  "id": 5110699303,
+  "lat": 43.6445000,
+  "lon": 6.9495484,
+  "tags": {
+    "bulk_purchase": "yes",
+    "name": "Le Marchand Bio",
+    "opening_hours": "Mo-Sa 09:00-19:30",
+    "organic": "only",
+    "phone": "+33 4 92 42 48 47",
+    "shop": "convenience",
+    "website": "http://www.lemarchandbio.com/pages/20/le-marchand-bio-grasse"
+  }
+},
+{
+  "type": "node",
   "id": 5121644545,
   "lat": 47.6609706,
   "lon": -2.0778479,
@@ -9790,6 +10890,26 @@
     "organic": "only",
     "shop": "supermarket",
     "website": "https://www.natureo-bio.fr/magasin-bio/la-chapelle-sur-erdre/"
+  }
+},
+{
+  "type": "node",
+  "id": 5133147929,
+  "lat": 46.3241082,
+  "lon": -0.4617874,
+  "tags": {
+    "addr:city": "Niort",
+    "addr:housenumber": "50",
+    "addr:postcode": "79000",
+    "addr:street": "Rue Victor Hugo",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-12:45",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-niort"
   }
 },
 {
@@ -9870,6 +10990,41 @@
 },
 {
   "type": "node",
+  "id": 5167941327,
+  "lat": 43.6026309,
+  "lon": 7.0881824,
+  "tags": {
+    "addr:city": "Antibes",
+    "addr:housenumber": "2625",
+    "addr:postcode": "06600",
+    "addr:street": "Chemin de Saint-Claude",
+    "bulk_purchase": "yes",
+    "name": "Le Marchand Bio",
+    "opening_hours": "Mo-Sa 09:00-19:00",
+    "shop": "supermarket",
+    "website": "http://www.lemarchandbio.com/pages/21/le-marchand-bio-antibes"
+  }
+},
+{
+  "type": "node",
+  "id": 5170088701,
+  "lat": 48.7568802,
+  "lon": 2.3065474,
+  "tags": {
+    "addr:housenumber": "64",
+    "addr:postcode": "92160",
+    "addr:street": "Avenue Aristide Briand",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-12:45",
+    "shop": "convenience",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-antony-briand"
+  }
+},
+{
+  "type": "node",
   "id": 5172971184,
   "lat": 43.9509978,
   "lon": 5.7702974,
@@ -9941,11 +11096,17 @@
   "lat": 50.6312625,
   "lon": 3.0544663,
   "tags": {
+    "addr:housenumber": "154",
+    "addr:postcode": "59000",
+    "addr:street": "Rue Solferino",
     "branch": "Lille Solférino",
+    "brand": "Bio C' Bon",
     "bulk_purchase": "yes",
-    "contact:website": "http://www.bio-c-bon.eu/fr/nos_magasins/bio-c-bon-lille-solferino",
-    "name": "Bio c'Bon",
-    "organic": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "contact:website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-lille-solferino",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 09:00-13:00",
+    "organic": "only",
     "shop": "supermarket",
     "source": "survey",
     "survey:date": "2017-10"
@@ -9969,6 +11130,25 @@
     "organic": "only",
     "shop": "supermarket",
     "website": "http://www.lavieclaire.com/magasin-bio/boulogne-republique.html"
+  }
+},
+{
+  "type": "node",
+  "id": 5204401475,
+  "lat": 43.3418861,
+  "lon": 5.4721853,
+  "tags": {
+    "addr:housenumber": "670",
+    "addr:postcode": "13190",
+    "addr:street": "Avenue du Canton Vert",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 09:30-19:30; Su 09:30-13:00",
+    "organic": "yes",
+    "shop": "supermarket",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-allauch"
   }
 },
 {
@@ -10226,6 +11406,27 @@
 },
 {
   "type": "node",
+  "id": 5248694577,
+  "lat": 43.6114964,
+  "lon": 1.4476500,
+  "tags": {
+    "addr:city": "Toulouse",
+    "addr:housenumber": "35",
+    "addr:postcode": "31000",
+    "addr:street": "Rue Matabiau",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-13:00",
+    "organic": "only",
+    "shop": "convenience",
+    "source": "survey",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-toulouse-matabiau"
+  }
+},
+{
+  "type": "node",
   "id": 5252737243,
   "lat": 46.8032395,
   "lon": 4.4510936,
@@ -10403,6 +11604,27 @@
 },
 {
   "type": "node",
+  "id": 5316498469,
+  "lat": 48.8389899,
+  "lon": 2.1871146,
+  "tags": {
+    "addr:housenumber": "160",
+    "addr:postcode": "92380",
+    "addr:street": "Boulevard du Général de Gaulle",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "level": "0",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-13:00",
+    "organic": "yes",
+    "shop": "supermarket",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-garches",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
   "id": 5320023724,
   "lat": 45.1276840,
   "lon": 1.3037647,
@@ -10542,10 +11764,14 @@
     "addr:housenumber": "3",
     "addr:postcode": "13100",
     "addr:street": "Avenue des Belges",
+    "brand": "Bio C' Bon",
     "bulk_purchase": "yes",
-    "name": "Bio c' Bon",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-13:00",
     "organic": "only",
-    "shop": "supermarket"
+    "shop": "supermarket",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-aix-belges"
   }
 },
 {
@@ -10644,10 +11870,10 @@
     "addr:postcode": "44100",
     "addr:street": "Boulevard Jean XXIII",
     "bulk_purchase": "only",
+    "disused:shop": "convenience",
     "name": "Green Shopper",
     "opening_hours": "Mo 15:00-20:00; Tu-We 10:00-13:00, 17:00-19:00; Th 15:00-20:00; Fr 10:00-13:00, 17:00-19:00",
     "organic": "yes",
-    "shop": "convenience",
     "website": "https://greenshopper.fr/"
   }
 },
@@ -12582,6 +13808,25 @@
 },
 {
   "type": "node",
+  "id": 5602071389,
+  "lat": 48.8174431,
+  "lon": 2.1277920,
+  "tags": {
+    "addr:housenumber": "26",
+    "addr:postcode": "78150",
+    "addr:street": "Rue de Versailles",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Tu 10:00-20:00; We 09:30-20:00; Th-Fr 10:00-20:00; Sa 09:30-20:00; Su 10:00-13:00",
+    "organic": "only",
+    "shop": "convenience",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-le-chesnay"
+  }
+},
+{
+  "type": "node",
   "id": 5607897569,
   "lat": 47.7487430,
   "lon": 7.3398918,
@@ -12700,6 +13945,24 @@
     "source": "survey",
     "survey:date": "2018-05",
     "website": "http://www.bbgmarket.com"
+  }
+},
+{
+  "type": "node",
+  "id": 5614597791,
+  "lat": 43.6089853,
+  "lon": 3.8829611,
+  "tags": {
+    "addr:housenumber": "82",
+    "addr:postcode": "34000",
+    "addr:street": "Allée Jules Milhau",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-montpellier-comedie"
   }
 },
 {
@@ -12989,6 +14252,45 @@
 },
 {
   "type": "node",
+  "id": 5664262368,
+  "lat": 43.4918844,
+  "lon": -1.4748954,
+  "tags": {
+    "addr:housenumber": "10",
+    "addr:postcode": "64100",
+    "addr:street": "Rue Victor Hugo",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-12:45",
+    "organic": "only",
+    "shop": "convenience",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-bayonne-hugo"
+  }
+},
+{
+  "type": "node",
+  "id": 5667601183,
+  "lat": 48.8259947,
+  "lon": 2.3266034,
+  "tags": {
+    "addr:city": "Paris",
+    "addr:housenumber": "101",
+    "addr:postcode": "75014",
+    "addr:street": "Avenue du Général Leclerc",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-13:00",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-paris-general-leclerc"
+  }
+},
+{
+  "type": "node",
   "id": 5673332572,
   "lat": 45.2978987,
   "lon": 5.4833244,
@@ -13046,13 +14348,16 @@
     "addr:street": "Place du Palet",
     "amenity": "coworking_space",
     "bulk_purchase": "only",
-    "email": "hello@ladroledepicerie.fr",
+    "contact:email": "hello@ladroledepicerie.fr",
+    "contact:facebook": "https://www.facebook.com/ladroledepicerie/",
+    "contact:phone": "+33 5 16 09 87 21",
+    "description:soutien_region": "yes",
+    "description:typologie": "épicerie, petite restauration sucrée/salée, atelier des partages, coworking, foodlab",
     "leisure": "hackerspace",
     "name": "La Drôle d’Épicerie",
     "network": "fablab",
     "opening_hours": "Tu 14:00-19:00; We-Sa 10:00-19:00",
     "operator": "SCIC Les Drôles d'Oiseaux",
-    "phone": "+33 5 16 09 87 21",
     "shop": "convenience"
   }
 },
@@ -13208,6 +14513,26 @@
     "name": "D-Vrac",
     "organic": "only",
     "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 5760760505,
+  "lat": 42.7008883,
+  "lon": 2.8944006,
+  "tags": {
+    "addr:city": "Perpignan",
+    "addr:housenumber": "1",
+    "addr:postcode": "66000",
+    "addr:street": "Place de la Victoire",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 09:30-19:30; Su 10:00-13:00",
+    "operator": "BIO C'BON PERPIGNAN VICTOIRE",
+    "shop": "supermarket",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-perpignan-victoire"
   }
 },
 {
@@ -13426,15 +14751,18 @@
 {
   "type": "node",
   "id": 5796548674,
-  "lat": 45.2864447,
-  "lon": 4.1599563,
+  "lat": 45.2863970,
+  "lon": 4.1600179,
   "tags": {
+    "addr:city": "Monistrol-sur-Loire",
+    "addr:postcode": "43120",
+    "addr:street": "Rue des Pruniers",
     "bulk_purchase": "yes",
-    "name": "Biocoop Monistrol-sur-Loire",
+    "name": "Biocoop Velay Nature",
     "official_name": "Velay Nature Biocoop Monistrol-sur-Loire",
     "opening_hours": "Tu-Su 09:00-19:00",
     "organic": "only",
-    "phone": "+33 4 71 66 31 26",
+    "phone": "+33471663126",
     "shop": "supermarket"
   }
 },
@@ -14533,6 +15861,24 @@
 },
 {
   "type": "node",
+  "id": 5841674493,
+  "lat": 48.8395835,
+  "lon": 2.2837852,
+  "tags": {
+    "addr:housenumber": "88",
+    "addr:postcode": "75015",
+    "addr:street": "Avenue Felix Faure",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-13:00",
+    "shop": "supermarket",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-paris-felix-faure"
+  }
+},
+{
+  "type": "node",
   "id": 5842216362,
   "lat": 45.1768785,
   "lon": 1.5844305,
@@ -15009,6 +16355,27 @@
     "organic": "only",
     "shop": "supermarket",
     "website": "http://www.lavieclaire.com/magasin-bio/saint-jean-de-luz.html"
+  }
+},
+{
+  "type": "node",
+  "id": 5846617196,
+  "lat": 46.5823488,
+  "lon": 0.3419743,
+  "tags": {
+    "addr:housenumber": "18",
+    "addr:postcode": "86000",
+    "addr:street": "Rue des Cordeliers",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "level": "0",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-12:45",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-poitiers",
+    "wheelchair": "yes"
   }
 },
 {
@@ -15509,6 +16876,24 @@
 },
 {
   "type": "node",
+  "id": 5876712196,
+  "lat": 48.1977099,
+  "lon": 6.4676884,
+  "tags": {
+    "addr:city": "Épinal",
+    "addr:housenumber": "10",
+    "addr:postcode": "88000",
+    "addr:street": "Rue de la Bazaine",
+    "bulk_purchase": "yes",
+    "contact:facebook": "biomondeepinal",
+    "name": "Biomonde",
+    "organic": "yes",
+    "shop": "greengrocer",
+    "website": "https://www.biomonde.fr/planete-bio-biomonde,3,146"
+  }
+},
+{
+  "type": "node",
   "id": 5888532712,
   "lat": 50.6647125,
   "lon": 3.1812229,
@@ -15525,6 +16910,25 @@
     "organic": "only",
     "shop": "supermarket",
     "website": "http://www.labelvie.fr/"
+  }
+},
+{
+  "type": "node",
+  "id": 5888558512,
+  "lat": 43.6032445,
+  "lon": 1.4480477,
+  "tags": {
+    "addr:housenumber": "17",
+    "addr:postcode": "31000",
+    "addr:street": "Rue Paul Vidal",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Fr 10:00-20:00; Sa 09:00-20:00; Su 10:00-13:00",
+    "organic": "only",
+    "shop": "convenience",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-toulouse-vidal"
   }
 },
 {
@@ -16130,9 +17534,10 @@
     "bulk_purchase": "yes",
     "contact:facebook": "https://www.facebook.com/biocbonfrance/",
     "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 09:30-20:00; Su 10:00-13:00",
     "organic": "only",
     "shop": "convenience",
-    "website": "https://www.bio-c-bon.eu"
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-aix-briand"
   }
 },
 {
@@ -16141,10 +17546,17 @@
   "lat": 43.5245582,
   "lon": 5.4548669,
   "tags": {
+    "addr:housenumber": "11",
+    "addr:postcode": "13100",
+    "addr:street": "Cours Gambetta",
+    "brand": "Bio C' Bon",
     "bulk_purchase": "yes",
-    "name": "Bio c' bon",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-13:00",
     "organic": "only",
-    "shop": "supermarket"
+    "shop": "supermarket",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-aix-gambetta"
   }
 },
 {
@@ -16520,6 +17932,27 @@
     "organic": "yes",
     "shop": "convenience",
     "website": "http://entrepots.strikingly.com"
+  }
+},
+{
+  "type": "node",
+  "id": 6005262763,
+  "lat": 50.6426962,
+  "lon": 3.0119790,
+  "tags": {
+    "addr:housenumber": "217",
+    "addr:postcode": "59160",
+    "addr:street": "Rue Jean Jaurès",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "level": "0",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 09:30-19:30; Su 09:30-12:30",
+    "organic": "only",
+    "phone": "+33 3 52 79 53 70",
+    "shop": "supermarket",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-lille-lomme"
   }
 },
 {
@@ -16953,11 +18386,13 @@
   "lat": 43.3028037,
   "lon": 5.3978913,
   "tags": {
-    "brand": "Bio c'Bon",
+    "brand": "Bio C' Bon",
     "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
     "contact:housenumber": "17",
     "contact:street": "Boulevard de la Blancarde",
-    "name": "Bio c'Bon",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Fr 10:00-20:00; Sa 09:30-20:00; Su 10:00-13:00",
     "organic": "only",
     "shop": "convenience",
     "website": "https://www.bio-c-bon.eu/fr/nos_magasins/bio-c-bon-marseille-blancarde"
@@ -17021,7 +18456,7 @@
     "payment:contactless": "yes",
     "payment:mastercard": "yes",
     "payment:visa": "yes",
-    "phone": "0381621335",
+    "phone": "+33 381621335",
     "shop": "convenience",
     "start_date": "2018-10-23",
     "website": "http://daybyday-shop.com",
@@ -17253,6 +18688,29 @@
 },
 {
   "type": "node",
+  "id": 6026925675,
+  "lat": 46.9797389,
+  "lon": 5.6023592,
+  "tags": {
+    "addr:city": "Mont-sous-Vaudrey",
+    "addr:housenumber": "28",
+    "addr:postcode": "39380",
+    "addr:street": "Rue Jules Grévy",
+    "bakery": "yes",
+    "beverages": "yes",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/La-bonne-graine-2016481568417462/",
+    "name": "La Bonne Graine",
+    "opening_hours": "Mo-Fr 07:00-12:30,16:30-19:30; Sa 09:00-12:30,17:00-19:00; Su 09:00-12:30",
+    "operator": "Élisabeth Poirot",
+    "phone": "+33 3 84 80 05 21",
+    "produced_on_site": "no",
+    "ref:FR:SIRET": "84324501000015",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
   "id": 6027193265,
   "lat": 46.6420145,
   "lon": -1.4354204,
@@ -17376,6 +18834,22 @@
     "name": "Bénard",
     "shop": "kitchen",
     "website": "http://www.lavieclaire.com/magasin-bio/la-ville-aux-dames-tours.html"
+  }
+},
+{
+  "type": "node",
+  "id": 6030132703,
+  "lat": 43.2906383,
+  "lon": 5.3757958,
+  "tags": {
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:housenumber": "43",
+    "contact:street": "Rue Breteuil",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Fr 10:00-20:00; Sa 09:30-20:00; Su 10:00-13:00",
+    "shop": "convenience",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-marseille-breteuil"
   }
 },
 {
@@ -17514,6 +18988,25 @@
 },
 {
   "type": "node",
+  "id": 6040156162,
+  "lat": 48.9136370,
+  "lon": 2.2727832,
+  "tags": {
+    "addr:housenumber": "2 bis",
+    "addr:postcode": "92270",
+    "addr:street": "Place Gabriel Péri",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-13:00",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-bois-colombes"
+  }
+},
+{
+  "type": "node",
   "id": 6041007015,
   "lat": 48.1947614,
   "lon": 6.4471277,
@@ -17582,15 +19075,18 @@
 {
   "type": "node",
   "id": 6049196445,
-  "lat": 48.8503555,
-  "lon": 2.2931180,
+  "lat": 48.8503476,
+  "lon": 2.2931504,
   "tags": {
     "addr:city": "Paris",
     "addr:housenumber": "70",
     "addr:postcode": "75015",
     "addr:street": "Boulevard de Grenelle",
+    "brand": "Bio C' Bon",
     "bulk_purchase": "yes",
-    "name": "Bio C Bon",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-13:00",
     "organic": "only",
     "shop": "supermarket",
     "website": "https://www.bio-c-bon.eu/fr/nos_magasins/bio-c-bon-paris-grenelle"
@@ -17658,6 +19154,764 @@
     "phone": "+33233452244",
     "shop": "supermarket",
     "website": "http://biocoop.fr/magasins-bio/Trouver-mon-magasin-Biocoop/Normandie/Manche/BIOSAVEURS-COUTANCES"
+  }
+},
+{
+  "type": "node",
+  "id": 6061368443,
+  "lat": 43.2994046,
+  "lon": -0.3685555,
+  "tags": {
+    "addr:city": "Pau",
+    "addr:postcode": "64000",
+    "addr:street": "Place de la République",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/lepalois.bio/",
+    "name": "Le Palois Bio",
+    "organic": "only",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 6061392137,
+  "lat": 44.3502829,
+  "lon": 4.7674131,
+  "tags": {
+    "addr:city": "Saint-Paul-Trois-Châteaux",
+    "addr:housenumber": "21",
+    "addr:postcode": "26130",
+    "addr:street": "Cours des Platanes",
+    "bulk_purchase": "yes",
+    "name": "La Vie Claire",
+    "organic": "only",
+    "shop": "convenience",
+    "website": "https://magasins.lavieclaire.com/lavieclaire/fr/boutique/france/auvergne-rhone-alpes/drome/saint-paul-trois-chateaux/saint-paul-trois-chateaux/la0002"
+  }
+},
+{
+  "type": "node",
+  "id": 6061716571,
+  "lat": 44.8148829,
+  "lon": -0.5263646,
+  "tags": {
+    "addr:city": "Bouliac",
+    "addr:postcode": "33270",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Fr 10:00-20:00; Sa 09:00-20:00; Su 10:00-13:00",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-bouliac"
+  }
+},
+{
+  "type": "node",
+  "id": 6061716572,
+  "lat": 45.7454188,
+  "lon": 4.8647366,
+  "tags": {
+    "addr:housenumber": "58",
+    "addr:postcode": "69008",
+    "addr:street": "Avenue des Frères Lumière",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-lyon-lumiere"
+  }
+},
+{
+  "type": "node",
+  "id": 6062547903,
+  "lat": 49.1435698,
+  "lon": -0.3390973,
+  "tags": {
+    "addr:city": "Ifs",
+    "addr:housenumber": "6-8",
+    "addr:postcode": "14123",
+    "addr:street": "Rue Édouard Branly",
+    "bulk_purchase": "yes",
+    "name": "Biocoop Jonahtan",
+    "opening_hours": "Mo-Sa 09:30-19:00",
+    "operator": "Biocoop",
+    "organic": "only",
+    "phone": "+33261671850",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 6064729237,
+  "lat": 47.2586915,
+  "lon": -0.0762092,
+  "tags": {
+    "addr:city": "Saumur",
+    "addr:housenumber": "27",
+    "addr:postcode": "49400",
+    "addr:street": "Rue Dacier",
+    "bulk_purchase": "only",
+    "name": "L'Echo des Bocaux",
+    "organic": "only",
+    "shop": "convenience",
+    "website": "https://lecho-des-bocaux.business.site/"
+  }
+},
+{
+  "type": "node",
+  "id": 6064780759,
+  "lat": 48.7510977,
+  "lon": 2.3043036,
+  "tags": {
+    "addr:city": "Antony",
+    "addr:housenumber": "38",
+    "addr:postcode": "92160",
+    "addr:street": "Avenue de la Division Leclerc",
+    "bulk_purchase": "yes",
+    "name": "La Vie Claire",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://www.lavieclaire-antony.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 6066146325,
+  "lat": 48.1763691,
+  "lon": -2.7530549,
+  "tags": {
+    "addr:city": "Loudéac",
+    "addr:housenumber": "4",
+    "addr:postcode": "22600",
+    "addr:street": "Rue Notre-Dame",
+    "bulk_purchase": "only",
+    "description": "Épicerie sans emballage",
+    "name": "Bocal Attitude",
+    "organic": "yes",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 6070441038,
+  "lat": 49.4412148,
+  "lon": 1.0896423,
+  "tags": {
+    "addr:city": "Rouen",
+    "addr:housenumber": "74",
+    "addr:postcode": "76000",
+    "addr:street": "Rue aux Ours",
+    "brand:wikipedia": "fr:La Vie claire",
+    "bulk_purchase": "yes",
+    "delivery": "no",
+    "drive_through": "no",
+    "email": "rouen_ours@lavieclaire.com",
+    "name": "La Vie Claire",
+    "opening_hours": "Mo-Sa 10:30-19:30",
+    "organic": "only",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "phone": "+33 2 35 36 20 68",
+    "shop": "supermarket",
+    "website": "http://www.lavieclaire.com"
+  }
+},
+{
+  "type": "node",
+  "id": 6070507786,
+  "lat": 50.6381897,
+  "lon": 3.0607651,
+  "tags": {
+    "addr:housenumber": "57",
+    "addr:postcode": "59000",
+    "addr:street": "Rue Esquermoise",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-13:00",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-lille-esquermoise"
+  }
+},
+{
+  "type": "node",
+  "id": 6070507787,
+  "lat": 43.8192243,
+  "lon": 4.3506021,
+  "tags": {
+    "addr:housenumber": "313",
+    "addr:postcode": "30000",
+    "addr:street": "Rue de l'Archipel",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 09:00-19:30",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-nimes-allende"
+  }
+},
+{
+  "type": "node",
+  "id": 6070507788,
+  "lat": 48.8962594,
+  "lon": 2.0934097,
+  "tags": {
+    "addr:housenumber": "11",
+    "addr:postcode": "78100",
+    "addr:street": "Rue des Coches",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 09:30-20:00; Su 10:00-13:00",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-saint-germain-en-laye"
+  }
+},
+{
+  "type": "node",
+  "id": 6070507789,
+  "lat": 48.8772562,
+  "lon": 2.3007153,
+  "tags": {
+    "addr:housenumber": "2",
+    "addr:postcode": "75008",
+    "addr:street": "Rue Daru",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-14:00",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-paris-daru"
+  }
+},
+{
+  "type": "node",
+  "id": 6070507790,
+  "lat": 44.8519696,
+  "lon": -0.5711739,
+  "tags": {
+    "addr:housenumber": "73",
+    "addr:postcode": "33000",
+    "addr:street": "Rue Notre-Dame",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Fr 10:00-20:00; Sa 09:30-20:00; Su 10:00-12:45",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-bordeaux-les-chartrons"
+  }
+},
+{
+  "type": "node",
+  "id": 6070507791,
+  "lat": 43.5849855,
+  "lon": 1.4474421,
+  "tags": {
+    "addr:housenumber": "11",
+    "addr:postcode": "31000",
+    "addr:street": "Grande Rue Saint-Michel",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-13:00",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-toulouse-saint-michel"
+  }
+},
+{
+  "type": "node",
+  "id": 6070507792,
+  "lat": 48.9127433,
+  "lon": 2.2956747,
+  "tags": {
+    "addr:housenumber": "23",
+    "addr:postcode": "92600",
+    "addr:street": "Boulevard Voltaire",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Fr 10:00-20:00; Sa 09:30-20:00; Su 10:00-13:00",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://www.bio-c-bon.eu/fr/nos_magasins/bio-c-bon-asnieres"
+  }
+},
+{
+  "type": "node",
+  "id": 6070722870,
+  "lat": 48.8589331,
+  "lon": 2.2762119,
+  "tags": {
+    "addr:housenumber": "90",
+    "addr:postcode": "75016",
+    "addr:street": "Avenue Paul Doumer",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-13:00",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-paris-paul-doumer"
+  }
+},
+{
+  "type": "node",
+  "id": 6070722871,
+  "lat": 48.8568958,
+  "lon": 2.3173777,
+  "tags": {
+    "addr:housenumber": "43",
+    "addr:postcode": "75007",
+    "addr:street": "Rue de Bourgogne",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-13:00",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-paris-bourgogne"
+  }
+},
+{
+  "type": "node",
+  "id": 6070722872,
+  "lat": 43.2698109,
+  "lon": 5.3880689,
+  "tags": {
+    "addr:housenumber": "3",
+    "addr:postcode": "13008",
+    "addr:street": "Avenue de Mazargues",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Fr 09:30-19:30; Sa 09:00-19:30; Su 10:00-13:00",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-marseille-mazargues"
+  }
+},
+{
+  "type": "node",
+  "id": 6070722873,
+  "lat": 48.8916975,
+  "lon": 2.5122745,
+  "tags": {
+    "addr:housenumber": "13",
+    "addr:postcode": "93340",
+    "addr:street": "Avenue de la Résistance",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-13:00",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-le-raincy"
+  }
+},
+{
+  "type": "node",
+  "id": 6070722874,
+  "lat": 44.8326376,
+  "lon": -0.6590367,
+  "tags": {
+    "addr:housenumber": "5",
+    "addr:postcode": "33700",
+    "addr:street": "Avenue du Président John Fitzgerald Kennedy",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo 09:30-20:00; Tu 08:30-20:00; We-Sa 09:30-20:00; Su 09:30-20:00",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-merignac"
+  }
+},
+{
+  "type": "node",
+  "id": 6070722875,
+  "lat": 50.6409010,
+  "lon": 3.0630037,
+  "tags": {
+    "addr:housenumber": "35",
+    "addr:postcode": "59800",
+    "addr:street": "Rue de la Monnaie",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 09:30-13:30",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-lille-monnaie"
+  }
+},
+{
+  "type": "node",
+  "id": 6070722876,
+  "lat": 43.5550363,
+  "lon": 7.0166755,
+  "tags": {
+    "addr:housenumber": "9",
+    "addr:postcode": "06400",
+    "addr:street": "Place Vauban",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 09:30-20:00; Su 09:30-13:30",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-cannes-vauban"
+  }
+},
+{
+  "type": "node",
+  "id": 6070722877,
+  "lat": 46.1743537,
+  "lon": -1.1659776,
+  "tags": {
+    "addr:housenumber": "4",
+    "addr:postcode": "17140",
+    "addr:street": "Avenue du Fief Rose",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 09:30-19:30; Su 09:30-12:45",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-la-rochelle-lagord"
+  }
+},
+{
+  "type": "node",
+  "id": 6070722878,
+  "lat": 49.4423856,
+  "lon": 1.0956009,
+  "tags": {
+    "addr:housenumber": "46",
+    "addr:postcode": "76000",
+    "addr:street": "Place des Carmes",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-13:00",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-rouen-carmes"
+  }
+},
+{
+  "type": "node",
+  "id": 6070722879,
+  "lat": 43.3041238,
+  "lon": 5.4157935,
+  "tags": {
+    "addr:housenumber": "41",
+    "addr:postcode": "13012",
+    "addr:street": "Rue Montaigne",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Fr 09:30-19:30; Sa 09:00-19:30; Su 09:30-13:00",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-marseille-montaigne"
+  }
+},
+{
+  "type": "node",
+  "id": 6070722880,
+  "lat": 43.5840657,
+  "lon": 7.1201588,
+  "tags": {
+    "addr:housenumber": "42",
+    "addr:postcode": "06600",
+    "addr:street": "Avenue Robert Soleau",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-13:00",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-antibes"
+  }
+},
+{
+  "type": "node",
+  "id": 6070722881,
+  "lat": 48.8869738,
+  "lon": 2.3326649,
+  "tags": {
+    "addr:housenumber": "11",
+    "addr:postcode": "75018",
+    "addr:street": "Rue Caulaincourt",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-13:00",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-paris-caulaincourt"
+  }
+},
+{
+  "type": "node",
+  "id": 6070833831,
+  "lat": 48.0780862,
+  "lon": 7.3553387,
+  "tags": {
+    "addr:housenumber": "12",
+    "addr:postcode": "68000",
+    "addr:street": "Rue des Boulangers",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 09:30-19:30; Su 09:30-12:30",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-colmar"
+  }
+},
+{
+  "type": "node",
+  "id": 6070833832,
+  "lat": 48.6915319,
+  "lon": 6.1844641,
+  "tags": {
+    "addr:housenumber": "37",
+    "addr:postcode": "54000",
+    "addr:street": "Rue Saint-Georges",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Fr 10:00-20:00; Sa 09:00-20:00; Su 10:00-13:00",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-nancy"
+  }
+},
+{
+  "type": "node",
+  "id": 6070833833,
+  "lat": 45.6941201,
+  "lon": 5.9120673,
+  "tags": {
+    "addr:housenumber": "30",
+    "addr:postcode": "73100",
+    "addr:street": "Esplanade Léon Grosse",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 09:30-19:30; Su 09:30-12:30",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-aix-les-bains"
+  }
+},
+{
+  "type": "node",
+  "id": 6070833834,
+  "lat": 48.8207502,
+  "lon": 2.2858645,
+  "tags": {
+    "addr:housenumber": "20",
+    "addr:postcode": "92170",
+    "addr:street": "Rue de la République",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-13:00",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-vanves"
+  }
+},
+{
+  "type": "node",
+  "id": 6070833835,
+  "lat": 45.9240985,
+  "lon": -0.9610344,
+  "tags": {
+    "addr:housenumber": "105",
+    "addr:postcode": "17300",
+    "addr:street": "Avenue du 11 Novembre",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 09:30-19:30",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-rochefort"
+  }
+},
+{
+  "type": "node",
+  "id": 6070833836,
+  "lat": 48.8665733,
+  "lon": 2.2854699,
+  "tags": {
+    "addr:housenumber": "36",
+    "addr:postcode": "75016",
+    "addr:street": "Rue Saint-Didier",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 09:00-12:30",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-paris-st-didier"
+  }
+},
+{
+  "type": "node",
+  "id": 6070833837,
+  "lat": 48.8862256,
+  "lon": 2.3840029,
+  "tags": {
+    "addr:housenumber": "124",
+    "addr:postcode": "75019",
+    "addr:street": "Avenue Jean Jaurès",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-13:00",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-paris-jaures"
+  }
+},
+{
+  "type": "node",
+  "id": 6070833838,
+  "lat": 48.8240335,
+  "lon": 2.3576224,
+  "tags": {
+    "addr:housenumber": "116",
+    "addr:postcode": "75013",
+    "addr:street": "Avenue d'Italie",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-13:00",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-paris-avenue-ditalie"
+  }
+},
+{
+  "type": "node",
+  "id": 6084615638,
+  "lat": 48.4573537,
+  "lon": -5.0965935,
+  "tags": {
+    "addr:city": "Lampaul",
+    "addr:postcode": "29242",
+    "bulk_purchase": "only",
+    "name": "L'île en vrac",
+    "organic": "yes",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 6093834258,
+  "lat": 45.9336004,
+  "lon": 6.6322894,
+  "tags": {
+    "addr:city": "Sallanches",
+    "addr:housenumber": "143",
+    "addr:postcode": "74700",
+    "addr:street": "Rue du Mont-Blanc",
+    "bulk_purchase": "only",
+    "contact:facebook": "https://www.facebook.com/lereperedeszheros/",
+    "name": "Le repère des z'héros",
+    "organic": "yes",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 6093849501,
+  "lat": 47.7614952,
+  "lon": 7.3979257,
+  "tags": {
+    "addr:city": "Rixheim",
+    "addr:housenumber": "120",
+    "addr:postcode": "68170",
+    "addr:street": "Rue de l'Île Napoléon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/ChrysalideBioethic",
+    "name": "Biosphère",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "http://www.chrysalide-bioethic.fr/"
+  }
+},
+{
+  "type": "node",
+  "id": 6093875288,
+  "lat": 48.4958438,
+  "lon": 7.4673705,
+  "tags": {
+    "addr:city": "Rosheim",
+    "addr:housenumber": "68",
+    "addr:postcode": "67560",
+    "addr:street": "Rue du Général de Gaulle",
+    "bulk_purchase": "only",
+    "contact:facebook": "https://www.facebook.com/lacigogne.envrac/",
+    "name": "La Cigogne en Vrac",
+    "organic": "yes",
+    "shop": "convenience",
+    "website": "http://lacigogne-envrac.fr"
+  }
+},
+{
+  "type": "node",
+  "id": 6094770462,
+  "lat": 47.4757354,
+  "lon": -1.7630334,
+  "tags": {
+    "addr:housenumber": "7",
+    "addr:postcode": "44130",
+    "addr:street": "Rue de Nantes",
+    "contact:facebook": "https://www.facebook.com/O-Mille-Caprices-338041810299865/",
+    "name": "O Mille Caprices",
+    "shop": "bakery"
   }
 },
 {
@@ -17855,12 +20109,17 @@
   ],
   "tags": {
     "addr:housenumber": "83",
+    "addr:postcode": "16000",
     "addr:street": "Rue Hergé",
+    "brand": "Bio C' Bon",
     "building": "yes",
     "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
     "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-12:45",
     "shop": "supermarket",
-    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre;mise à jour : 2009"
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre;mise à jour : 2009",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-angouleme"
   }
 },
 {
@@ -18223,6 +20482,7 @@
   },
   "nodes": [
     734142184,
+    6109120375,
     734142480,
     734142379,
     734142261,
@@ -18394,37 +20654,6 @@
     "shop": "supermarket",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
     "website": "http://www.lavieclaire.com/magasin-bio/aubiere.html"
-  }
-},
-{
-  "type": "way",
-  "id": 63606236,
-  "center": {
-    "lat": 49.4412514,
-    "lon": 1.0896546
-  },
-  "nodes": [
-    787134662,
-    787135054,
-    787135048,
-    787133106,
-    787134337,
-    4553713555,
-    787134993,
-    787133683,
-    787134662
-  ],
-  "tags": {
-    "brand": "La Vie Claire",
-    "brand:wikidata": "Q3213589",
-    "brand:wikipedia": "fr:La Vie claire",
-    "building": "yes",
-    "bulk_purchase": "yes",
-    "name": "La Vie Claire",
-    "organic": "only",
-    "shop": "supermarket",
-    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
-    "website": "http://www.lavieclaire.com/magasin-bio/rouen-ours.html"
   }
 },
 {
@@ -19140,7 +21369,7 @@
     "addr:street": "Rue Charles Coulomb",
     "brand": "Biocoop",
     "brand:wikipedia": "https://fr.wikipedia.org/wiki/Biocoop",
-    "building": "yes",
+    "building": "retail",
     "bulk_purchase": "yes",
     "name": "Biocoop",
     "opening_hours": "Mo-Sa 09:30-19:00",
@@ -22069,41 +24298,6 @@
 },
 {
   "type": "way",
-  "id": 119235248,
-  "center": {
-    "lat": 49.1435900,
-    "lon": -0.3391065
-  },
-  "nodes": [
-    1340271466,
-    1340289524,
-    1340238471,
-    1340253475,
-    1340316772,
-    1340220516,
-    1340280569,
-    1340298351,
-    1340271466
-  ],
-  "tags": {
-    "addr:city": "Ifs",
-    "addr:housenumber": "6",
-    "addr:postcode": "14123",
-    "addr:street": "Rue Édouard Branly",
-    "building": "yes",
-    "bulk_purchase": "yes",
-    "contact:phone": "+33 2 61671850",
-    "contact:website": "http://www.jonathan.biocoop.net",
-    "name": "Biocoop Jonathan",
-    "opening_hours": "Mo-Sa 09:30-19:00",
-    "operator": "Biocoop",
-    "organic": "only",
-    "shop": "supermarket",
-    "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2014"
-  }
-},
-{
-  "type": "way",
   "id": 119804092,
   "center": {
     "lat": 46.1616695,
@@ -22940,6 +25134,38 @@
 },
 {
   "type": "way",
+  "id": 144288087,
+  "center": {
+    "lat": 50.2875260,
+    "lon": 2.7781680
+  },
+  "nodes": [
+    1578475695,
+    1578475818,
+    1578475705,
+    1578475596,
+    2130349375,
+    1578475695
+  ],
+  "tags": {
+    "addr:housenumber": "38",
+    "addr:postcode": "62000",
+    "addr:street": "Boulevard de Strasbourg",
+    "brand": "Bio C' Bon",
+    "building": "yes",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 09:30-19:30; Su 10:00-13:00",
+    "organic": "only",
+    "shop": "supermarket",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-arras",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
   "id": 144291006,
   "center": {
     "lat": 50.2978240,
@@ -23167,12 +25393,14 @@
     "building": "yes",
     "bulk_purchase": "yes",
     "name": "Biocoop Bio Soleil Mayenne",
+    "opening_hours": "Mo-Fr 09:30-13:00,14:30-19:00; Sa 09:30-19:00",
     "operator": "Mayenne Bio Soleil",
     "organic": "only",
     "phone": "+33 2 43 32 14 31",
     "shop": "supermarket",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011",
-    "website": "http://mayennebiosoleil.biocoop.net"
+    "website": "http://mayennebiosoleil.biocoop.net",
+    "wheelchair": "yes"
   }
 },
 {
@@ -24322,13 +26550,48 @@
     2262075539
   ],
   "tags": {
+    "addr:housenumber": "664",
+    "addr:street": "Rue de Malitorne",
     "building": "yes",
     "bulk_purchase": "yes",
     "name": "L'Univers Bio",
+    "opening_hours": "Mo-Sa 09:30-19:00",
     "organic": "only",
     "shop": "supermarket",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012",
     "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 218789415,
+  "center": {
+    "lat": 44.7856935,
+    "lon": -0.6407200
+  },
+  "nodes": [
+    2279915946,
+    2279915822,
+    2279915867,
+    2279915970,
+    2279915946
+  ],
+  "tags": {
+    "addr:city": "Pessac",
+    "addr:housenumber": "3",
+    "addr:postcode": "33600",
+    "addr:street": "Avenue Gustave Eiffel",
+    "brand": "Bio C' Bon",
+    "building": "yes",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-12:45",
+    "organic": "only",
+    "shop": "convenience",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013",
+    "wall": "no",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-pessac"
   }
 },
 {
@@ -25103,10 +27366,6 @@
     2930577360
   ],
   "tags": {
-    "addr:city": "Craponne",
-    "addr:housenumber": "11",
-    "addr:postcode": "69290",
-    "addr:street": "Avenue Édouard Millaud",
     "brand": "La Vie Claire",
     "brand:wikidata": "Q3213589",
     "brand:wikipedia": "fr:La Vie claire",
@@ -25384,6 +27643,40 @@
 },
 {
   "type": "way",
+  "id": 390705314,
+  "center": {
+    "lat": 48.8017538,
+    "lon": 2.4862107
+  },
+  "nodes": [
+    1860061493,
+    4384785617,
+    4426683363,
+    3938591960,
+    1860061490,
+    1860061515,
+    1860061514,
+    1860061501,
+    1860061503,
+    1860061493
+  ],
+  "tags": {
+    "addr:housenumber": "27",
+    "addr:postcode": "94100",
+    "addr:street": "Avenue de la République",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "opening_hours": "Mo-Sa 10:00-20:30; Su 10:00-13:00",
+    "organic": "only",
+    "shop": "convenience",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-saint-maur-des-fosses",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
   "id": 391890321,
   "center": {
     "lat": 46.1795690,
@@ -25552,6 +27845,36 @@
     "ref:FR:SIRET": "53478673600015",
     "shop": "convenience",
     "website": "http://saintjunien.biocoop.net"
+  }
+},
+{
+  "type": "way",
+  "id": 460068794,
+  "center": {
+    "lat": 44.5443859,
+    "lon": -0.2418216
+  },
+  "nodes": [
+    917639507,
+    917675185,
+    917660712,
+    917648654,
+    4557507363,
+    4557507364,
+    4557507365,
+    917639507
+  ],
+  "tags": {
+    "addr:housenumber": "112",
+    "addr:postcode": "33210",
+    "addr:street": "Cours du Maréchal de Lattre de Tassigny",
+    "brand": "Bio C' Bon",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "name": "Bio C' Bon",
+    "organic": "only",
+    "shop": "convenience",
+    "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-langon"
   }
 },
 {
