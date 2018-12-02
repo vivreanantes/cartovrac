@@ -5,9 +5,11 @@ var Embedded = require('./embedded.js');
 import 'typeface-roboto';
 
 import style from "../assets/stylesheets/styles.css";
+import styleLayerGroup from "../assets/stylesheets/leaflet.groupedlayercontrol.css";
 
 import {createMapAndPopulate} from './osm_eco_extractor.js';
 import * as config from './config.js';
+import * as LayerGroup from './leaflet.groupedlayercontrol.js';
 
 $(document).ready(function(){
 	checkEmbbededMode();

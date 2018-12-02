@@ -2,6 +2,16 @@ import {newMap, addMarkerToMap} from './map.js';
 import {categories, shopDataFiles, itinerantFileName} from './data.js';
 import {getPopupContent} from './popup.js';
 
+// Leaflet icons for the different types of shop
+var ShopIcon = L.Icon.extend({
+    options: {
+      shadowUrl: require('../assets/img/marker-shadow.png'),
+      iconSize: [35, 57],
+      iconAnchor: [15, 57],
+      popupAnchor: [3, -58],
+      shadowSize: [50, 50]
+  }
+});
 
 /**
  * Create a map in given div id and populate it for given countries
@@ -9,7 +19,10 @@ import {getPopupContent} from './popup.js';
  * @param divId the id of the div that will include the map
  */
 export function createMapAndPopulate(divId, countries, mapConfig) {
-	var cluster = newMap(divId, mapConfig, categories);
+	var map = newMap(divId, mapConfig, categories);
+
+	prepareCaterogiesSubgroupsAndIcons(map);
+
 	countries.forEach(function(country) {
 	 	var shopsJson;
 		$.when(
@@ -17,7 +30,7 @@ export function createMapAndPopulate(divId, countries, mapConfig) {
 		        shopsJson = response.elements
 		    })
 		).then(function() {
-			populate(shopsJson, cluster);
+			populate(shopsJson);
 		});
 	});
 
@@ -25,17 +38,41 @@ export function createMapAndPopulate(divId, countries, mapConfig) {
 	$.when(
 	    $.getJSON(itinerantFileName, function(response) {
 	        itinerantShopsJson = response.elements
-	        console.log("iti");
 	    })
 	).then(function() {
-		populate(itinerantShopsJson, cluster);
+		populate(itinerantShopsJson);
 	});
+}
+
+/**
+ * Prepare the Leaflet icon and subgroup for each category and add them on the map
+ **/
+function prepareCaterogiesSubgroupsAndIcons(map) {
+	// Create a cluster for all markers
+	var cluster = new L.MarkerClusterGroup({maxClusterRadius: 50}).addTo(map);
+
+	// add a subgroup per category
+	var overallGroupLabel = "Tous les commerces";
+	var groupedOverlays = {[overallGroupLabel]: {} };
+
+	for (var key in categories) {
+		var category = categories[key];
+
+		// Prepare icon and subgroup
+		category.icon = new ShopIcon({iconUrl: category.iconUrl});
+		category.subgroup = new L.featureGroup.subGroup(cluster, null).addTo(map);
+
+		var key = '<img src="'+category.iconUrl+'" height="25px" style="margin: 2px;"/>'+category.prefix;
+		groupedOverlays[overallGroupLabel][key] = category.subgroup;
+	}
+
+	L.control.groupedLayers(null, groupedOverlays).addTo(map);
 }
 
 /**
  * Display the shops
  **/
-function populate(shopsJson, cluster) {
+function populate(shopsJson) {
 	for (var shopIndex in shopsJson) {
 		var shop = shopsJson[shopIndex]
 		var tags = shop['tags'];
@@ -74,7 +111,7 @@ function populate(shopsJson, cluster) {
 
 		// Check that popup has been correctly created
 		if (popup) {
-			addMarkerToMap(category, cluster, popup, position);
+			addMarkerToMap(category, popup, position);
 		}
 	}
 }
