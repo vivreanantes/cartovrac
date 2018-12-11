@@ -207,20 +207,6 @@ L.Control.GroupedLayers = L.Control.extend({
     }
   },
 
-  // IE7 bugs out if you create a radio dynamically, so you have to do it this hacky way (see http://bit.ly/PqYLBe)
-  _createRadioElement: function (name, checked) {
-    var radioHtml = '<input type="radio" class="leaflet-control-layers-selector" name="' + name + '"';
-    if (checked) {
-      radioHtml += ' checked="checked"';
-    }
-    radioHtml += '/>';
-
-    var radioFragment = document.createElement('div');
-    radioFragment.innerHTML = radioHtml;
-
-    return radioFragment.firstChild;
-  },
-
   _addItem: function (obj) {
     var label = document.createElement('label'),
       input,
@@ -228,19 +214,10 @@ L.Control.GroupedLayers = L.Control.extend({
       container,
       groupRadioName;
 
-    if (obj.overlay) {
-      if (obj.group.exclusive) {
-        groupRadioName = 'leaflet-exclusive-group-layer-' + obj.group.id;
-        input = this._createRadioElement(groupRadioName, checked);
-      } else {
-        input = document.createElement('input');
-        input.type = 'checkbox';
-        input.className = 'leaflet-control-layers-selector';
-        input.defaultChecked = checked;
-      }
-    } else {
-      input = this._createRadioElement('leaflet-base-layers', checked);
-    }
+    input = document.createElement('input');
+    input.type = 'checkbox';
+    input.className = 'leaflet-control-layers-selector';
+    input.defaultChecked = checked;
 
     input.layerId = L.Util.stamp(obj.layer);
     input.groupID = obj.group.id;
