@@ -62,7 +62,7 @@ function prepareCaterogiesSubgroupsAndIcons(map) {
 		category.icon = new ShopIcon({iconUrl: category.iconUrl});
 		category.subgroup = new L.featureGroup.subGroup(cluster, null).addTo(map);
 
-		var key = '<img src="'+category.iconUrl+'" height="25px" style="margin: 2px;"/>'+category.prefix;
+		var key = '<img src="'+category.iconUrl+'" height="30px" style="margin-left: 2px; margin-right: 4px; margin-top: 8px; margin-bottom: -7px;"/>'+category.prefix;
 		groupedOverlays[overallGroupLabel][key] = category.subgroup;
 	}
 
@@ -79,6 +79,12 @@ function populate(shopsJson) {
 		var isAWay = isElementAWay(shop);
 		var position = getPosition(shop, isAWay);
     	var type = tags['shop'] || tags['amenity'] || tags['craft'];
+
+    	// Special type for bulk purchase only
+    	if (type == "convenience" && tags['bulk_purchase'] == "only") {
+    		type = "only_bulk_convenience";
+    	}
+
 		var category = categories[type];
 		var suffix = null;
 

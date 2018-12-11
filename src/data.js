@@ -1,4 +1,5 @@
 export var categories = {
+  only_bulk_convenience: {prefix: 'Épicerie 100% vrac', iconUrl: require('../assets/img/icons/icon_convenience.png')},
   convenience: {prefix: 'Épicerie avec rayon vrac', iconUrl: require('../assets/img/icons/icon_convenience.png')},
   supermarket: {prefix: 'Supermarché', iconUrl: require('../assets/img/icons/icon_supermarket.png')},
   itinerant: {prefix: 'Épicerie itinérante', iconUrl: require('../assets/img/icons/icon_marketplace.png')},
