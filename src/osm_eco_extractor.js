@@ -83,6 +83,8 @@ function populate(shopsJson) {
     	// Special type for bulk purchase only
     	if (type == "convenience" && tags['bulk_purchase'] == "only") {
     		type = "only_bulk_convenience";
+    	} else if (type == "supermarket" && tags['organic']) {
+    		type = "organic_supermarket"
     	}
 
 		var category = categories[type];
@@ -90,7 +92,7 @@ function populate(shopsJson) {
 
 		// Check shop validity
 		if (!type || !category || !tags['name']) {
-			console.log('Problem when displaying ' + (isAWay ? 'way ' : 'node ') + 
+			console.log('Problem when displaying https://osm.org/' + (isAWay ? 'way/' : 'node/') + 
 				shop['id'] + ' of type ' + type + ' ; name ' + tags['name']);
 			continue;
 		}
