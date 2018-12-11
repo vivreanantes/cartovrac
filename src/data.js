@@ -1,6 +1,8 @@
 export var categories = {
-  convenience: {prefix: 'Épicerie', iconUrl: require('../assets/img/icons/icon_convenience.png')},
+  convenience: {prefix: 'Épicerie avec rayon vrac', iconUrl: require('../assets/img/icons/icon_convenience.png')},
   supermarket: {prefix: 'Supermarché', iconUrl: require('../assets/img/icons/icon_supermarket.png')},
+  itinerant: {prefix: 'Épicerie itinérante', iconUrl: require('../assets/img/icons/icon_marketplace.png')},
+  farm: {prefix: 'Magasin de producteur(s)', iconUrl: require('../assets/img/icons/icon_agrarian.png')},
   butcher: {prefix: 'Boucherie', iconUrl: require('../assets/img/icons/icon_butcher.png')},
   dairy: {prefix: 'Crèmerie', iconUrl: require('../assets/img/icons/icon_dairy.png')},
   cheese: {prefix: 'Fromagerie', iconUrl: require('../assets/img/icons/icon_dairy.png')},
@@ -12,7 +14,6 @@ export var categories = {
   tea: {prefix: 'Magasin de thé', iconUrl: require('../assets/img/icons/icon_tea.png')},
   confectionery: {prefix: 'Confiserie', iconUrl: require('../assets/img/icons/icon_confectionery.png')},
   seafood: {prefix: 'Poissonerie', iconUrl: require('../assets/img/icons/icon_seafood.png')},
-  farm: {prefix: 'Magasin de producteur(s)', iconUrl: require('../assets/img/icons/icon_agrarian.png')},
   fast_food: {prefix: 'Fast-food', iconUrl: require('../assets/img/icons/icon_fast_food.png')},
   restaurant: {prefix: 'Restaurant', iconUrl: require('../assets/img/icons/icon_restaurant.png')},
   cafe: {prefix: 'Café', iconUrl: require('../assets/img/icons/icon_cafeAmenity.png')},
@@ -22,8 +23,7 @@ export var categories = {
   cosmetics: {prefix: 'Magasin de cosmétiques', iconUrl: require('../assets/img/icons/icon_cosmetics.png')},
   herbalist: {prefix: 'Herboriste', iconUrl: require('../assets/img/icons/icon_herbalist.png')},
   alcohol: {prefix: 'Magasin de vente d\'alcool à emporter', iconUrl: require('../assets/img/icons/icon_alcohol.png')},
-  chemist: {prefix: 'Droguerie', iconUrl: require('../assets/img/icons/icon_chemist.png')},
-  itinerant: {prefix: 'Épicerie itinérante', iconUrl: require('../assets/img/icons/icon_marketplace.png')}
+  chemist: {prefix: 'Droguerie', iconUrl: require('../assets/img/icons/icon_chemist.png')}
 };
 
 export var shopDataFiles = {
