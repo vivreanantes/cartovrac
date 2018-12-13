@@ -17,8 +17,7 @@ export function getPopupContent(
         contact_website,
         facebook,
         contact_facebook,
-		prefix,
-		suffix,
+		category,
         isANode
 ){
     // Check that name exists
@@ -28,7 +27,7 @@ export function getPopupContent(
 
 	var popup = '<b>'+name+'</b><br />';
 	// Set the shop type
-	popup += getHtmlFormattedShopTitle(prefix, suffix, organic, bulk_purchase);
+	popup += getHtmlFormattedShopTitle(category, organic, bulk_purchase);
     popup += getHtmlFormattedAddress(housenumber, street, postcode, city);   
     popup += getHtmlFormattedHours(opening_hours);
     popup += getHtmlFormattedWebsite(website, contact_website, facebook, contact_facebook);
@@ -40,25 +39,30 @@ export function getPopupContent(
 /**
  * Get a title describing the shop type
  */
-function getHtmlFormattedShopTitle(prefix, suffix, organicTag, bulk_purchaseTag) {
+function getHtmlFormattedShopTitle(category, organicTag, bulk_purchaseTag) {
     // Start text with italic style and add prefix depending on type
-    var title = prefix;
-    // Add annotation if products are organics
-    if (organicTag == "yes" || organicTag == "only") {
-        title += ' bio.';
-    }
+    var title = category.prefix;
+    
     // Add different suffix depending if it's a shop selling some bulk products or mainly bulk products
-    if (bulk_purchaseTag == "only") {
-        title += ' 100% vrac';
-    } else if (bulk_purchaseTag == "yes"){
-        title += ' avec rayon vrac';
-    } else {
-        title += ' acceptant vos contenants';
-    }
-		// Add the prefix if required
-		if(suffix) {
-			title += ' ' + suffix;
-		}
+    if (category.addBulkSuffix) {
+	    if (bulk_purchaseTag == "only") {
+	        title += ' 100% vrac';
+	    } else if (bulk_purchaseTag == "yes"){
+	        title += ' avec rayon vrac';
+	    } else {
+	        title += ' acceptant vos contenants';
+	    }
+	}
+
+    // Add annotation if products are organics
+    if (category .addOrganicSuffix) {
+	    if (organicTag == "yes") {
+	    	title += ', avec des produits bio.';
+	    } else if (organicTag == "only") {
+	        title += ', 100% bio.';
+	    }
+	}
+
     return '<i>' + title + '</i><br />';
 }
 /**

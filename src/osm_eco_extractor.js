@@ -88,7 +88,6 @@ function populate(shopsJson) {
     	}
 
 		var category = categories[type];
-		var suffix = null;
 
 		// Check shop validity
 		if (!type || !category || !tags['name']) {
@@ -112,8 +111,7 @@ function populate(shopsJson) {
 			tags['contact:website'],
 			tags['facebook'],
 			tags['contact:facebook'],
-			category.prefix,
-			suffix,
+			category,
 			isAWay
 		);
 
