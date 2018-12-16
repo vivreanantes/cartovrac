@@ -13,13 +13,16 @@ var ShopIcon = L.Icon.extend({
   }
 });
 
+var markerArray = [];
+var map;
+
 /**
  * Create a map in given div id and populate it for given countries
  * @param countries array of countries to populate with bulk purchase shops
  * @param divId the id of the div that will include the map
  */
 export function createMapAndPopulate(divId, countries, mapConfig) {
-	var map = newMap(divId, mapConfig, categories);
+	map = newMap(divId, mapConfig, categories);
 
 	prepareCaterogiesSubgroupsAndIcons(map);
 
@@ -31,6 +34,10 @@ export function createMapAndPopulate(divId, countries, mapConfig) {
 		    })
 		).then(function() {
 			populate(shopsJson);
+
+			if (mapConfig.osmType && mapConfig.osmId) {
+				zoomOnMarker(mapConfig.osmType, mapConfig.osmId);
+			}
 		});
 	});
 
@@ -42,6 +49,28 @@ export function createMapAndPopulate(divId, countries, mapConfig) {
 	).then(function() {
 		populate(itinerantShopsJson);
 	});
+}
+
+/**
+ * Zoom on given marker
+ */
+function zoomOnMarker(osmType, osmId) {
+	var markerToZoomOn;
+	for (var i in markerArray) {
+	  	var marker = markerArray[i];
+	  	if (marker.options.osmType == osmType && marker.options.osmId == osmId) {
+			markerToZoomOn = marker;
+			break;
+	  	}
+	}
+
+	if (markerToZoomOn) {
+		map.setView(markerToZoomOn.getLatLng(), 16);
+		markerToZoomOn.openPopup();
+	} else {
+		console.log("Couldn't find given marker (type="+osmType+" ; id="+osmId+"). Are you sure it's a correct bulk purchase shop?");
+		console.log(markerArray);
+	}
 }
 
 /**
@@ -117,7 +146,8 @@ function populate(shopsJson) {
 
 		// Check that popup has been correctly created
 		if (popup) {
-			addMarkerToMap(category, popup, position);
+			var marker = addMarkerToMap(category, popup, position, shop['type'], shop['id']);
+			markerArray.push(marker);
 		}
 	}
 }

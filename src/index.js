@@ -47,7 +47,9 @@ function getMapConfig() {
 		boundE: Math.min(Embedded.getQueryParam("boundE") || 180, config.maxBoundE),
 		attribution: config.attribution,
 		mapToken: config.mapToken,
-		mapUrl: config.mapUrl
+		mapUrl: config.mapUrl,
+		osmType: Embedded.getQueryParam("osmType"),
+		osmId: Embedded.getQueryParam("osmId")
 	}
 
 	// Validate bounds

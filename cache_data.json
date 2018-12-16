@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.55.5 2ca3f387",
   "osm3s": {
-    "timestamp_osm_base": "2018-12-15T13:23:02Z",
-    "timestamp_areas_base": "2018-12-15T12:31:02Z",
+    "timestamp_osm_base": "2018-12-15T20:49:03Z",
+    "timestamp_areas_base": "2018-12-15T19:32:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -5844,6 +5844,23 @@
 },
 {
   "type": "node",
+  "id": 3611085431,
+  "lat": 47.2012022,
+  "lon": -1.5455596,
+  "tags": {
+    "contact:phone": "+33 2 40 47 92 15",
+    "craft": "caterer",
+    "description": "Charcutier - Traiteur",
+    "mapillary": "Nud-7iMubTsNwF7N1h6I7g",
+    "name": "Le Douget",
+    "opening_hours": "Mo-Fr 09:30-13:30,16:15-19:00; Sa 09:30-13:30",
+    "shop": "butcher",
+    "survey:date": "2018-12-09",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
   "id": 3644826203,
   "lat": 43.9132014,
   "lon": 2.1429803,
@@ -11625,6 +11642,7 @@
     "bulk_purchase": "only",
     "contact:facebook": "https://www.facebook.com/bocalandco",
     "name": "Bocal & Co",
+    "opening_hours": "Tu-Sa 10:00-14:00,15:00-18:30",
     "organic": "only",
     "shop": "convenience",
     "website": "http://bocalandco.fr/"
@@ -14544,9 +14562,11 @@
 {
   "type": "node",
   "id": 5739779109,
-  "lat": 48.8156955,
+  "lat": 48.8156954,
   "lon": 2.3113579,
   "tags": {
+    "addr:housenumber": "99",
+    "addr:street": "Rue Maurice Arnoux",
     "bulk_purchase": "yes",
     "level": "0",
     "name": "Biocoop",
@@ -25222,7 +25242,7 @@
     "addr:housenumber": "31",
     "addr:postcode": "79200",
     "addr:street": "Rue Léonard de Vinci",
-    "building": "yes",
+    "building": "supermarket",
     "bulk_purchase": "yes",
     "name": "Biocoop",
     "organic": "only",

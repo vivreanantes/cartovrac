@@ -7,6 +7,13 @@ import 'leaflet/dist/leaflet.css';
 import 'leaflet.markercluster/dist/MarkerCluster.css';
 import 'leaflet.markercluster/dist/MarkerCluster.Default.css';
 
+var osmMarker = L.Marker.extend({
+   options: { 
+      osmType: 'node',
+      osmId: -1
+   }
+});
+
 /**
  * Initialize map and return instance of the cluster added to the map.
  * @param divId the id of the div into which the map will be injected
@@ -52,9 +59,16 @@ function brandingLayer(mapConfig) {
  * @param popup the text HTML formatted to display in the popup
  * @param position the position (as in lat, lon) of the shop
  **/
-export function addMarkerToMap(category, popup, position) {
+export function addMarkerToMap(category, popup, position, osmType, osmId) {
     // Add marker and popup to the cluser
-    var marker = L.marker(new L.latLng(position.lat, position.lon), {icon: category.icon})
+    return new osmMarker(
+    		new L.latLng(position.lat, position.lon), 
+    		{
+    			icon: category.icon,
+    			osmType: osmType,
+    			osmId: osmId
+    		}
+    	)
         .bindPopup(popup)
         .addTo(category.subgroup);
 }
