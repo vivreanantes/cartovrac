@@ -14,7 +14,7 @@ var ShopIcon = L.Icon.extend({
 });
 
 var markerArray = [];
-var map;
+var map, cluster;
 
 /**
  * Create a map in given div id and populate it for given countries
@@ -66,7 +66,9 @@ function zoomOnMarker(osmType, osmId) {
 
 	if (markerToZoomOn) {
 		map.setView(markerToZoomOn.getLatLng(), 16);
-		markerToZoomOn.openPopup();
+		cluster.zoomToShowLayer(markerToZoomOn, function () {
+			markerToZoomOn.openPopup();
+		});
 	} else {
 		console.log("Couldn't find given marker (type="+osmType+" ; id="+osmId+"). Are you sure it's a correct bulk purchase shop?");
 		console.log(markerArray);
@@ -78,7 +80,7 @@ function zoomOnMarker(osmType, osmId) {
  **/
 function prepareCaterogiesSubgroupsAndIcons(map) {
 	// Create a cluster for all markers
-	var cluster = new L.MarkerClusterGroup({maxClusterRadius: 50}).addTo(map);
+	cluster = new L.MarkerClusterGroup({maxClusterRadius: 50}).addTo(map);
 
 	// add a subgroup per category
 	var overallGroupLabel = "Tous les commerces";
