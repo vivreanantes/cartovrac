@@ -1,7 +1,5 @@
 import './menu.js';
 
-var Embedded = require('./embedded.js');
-
 import 'typeface-roboto';
 
 import style from "../assets/stylesheets/styles.css";
@@ -11,22 +9,21 @@ import {createMapAndPopulate} from './osm_eco_extractor.js';
 import * as config from './config.js';
 import * as LayerGroup from './leaflet.groupedlayercontrol.js';
 
+// Get query parameters
+var query = require('url').parse(window.location.search, true).query;
+
 $(document).ready(function(){
 	checkEmbbededMode();
-	createMapAndPopulate("map", ["fr"], getMapConfig());
+	createMapAndPopulate("map", getMapConfig());
 });
 
 
 /**
  * Activated embedded mode if asked in GET paramters
- */
+ */ 
 function checkEmbbededMode() {
-	if (Embedded.getQueryParam("mode")=="embedded") {
-	  document.getElementById('map').style.top = "0";
-	  document.getElementById('contribute_form').style.top = "20px";
-	  document.getElementById('cartovrac_link').style.display = "block";
-	  document.getElementById('menuToggle').style.display = 'none';
-	  document.getElementById('content').style.display = 'none';
+	if (query["mode"]=="embedded") {
+	  $('body').addClass("embedded");
 	}
 }
 
@@ -36,20 +33,20 @@ function checkEmbbededMode() {
 function getMapConfig() {
 	// Get bounds from get parameters and validate them before using it.
 	var mapConfig = {
-		centerLat: Embedded.getQueryParam("lat") || config.defaultCenterLat,
-		centerLng: Embedded.getQueryParam("lng") || config.defaultCenterLng,
-		zoom: Embedded.getQueryParam("zoom") || config.defaultZoom,
+		centerLat: query["lat"] || config.defaultCenterLat,
+		centerLng: query["lng"] || config.defaultCenterLng,
+		zoom: query["zoom"] || config.defaultZoom,
 		minZoom: config.minZoom,
 		maxZoom: config.maxZoom,
-		boundN: Math.min(Embedded.getQueryParam("boundN") || 90, config.maxBoundN),
-		boundS: Math.max(Embedded.getQueryParam("boundS") || 0, config.minBoundS),
-		boundW: Math.max(Embedded.getQueryParam("boundW") || -180, config.minBoundW),
-		boundE: Math.min(Embedded.getQueryParam("boundE") || 180, config.maxBoundE),
+		boundN: Math.min(query["boundN"] || 90, config.maxBoundN),
+		boundS: Math.max(query["boundS"] || 0, config.minBoundS),
+		boundW: Math.max(query["boundW"] || -180, config.minBoundW),
+		boundE: Math.min(query["boundE"] || 180, config.maxBoundE),
 		attribution: config.attribution,
 		mapToken: config.mapToken,
 		mapUrl: config.mapUrl,
-		osmType: Embedded.getQueryParam("osmType"),
-		osmId: Embedded.getQueryParam("osmId")
+		osmType: query["osmType"],
+		osmId: query["osmId"]
 	}
 
 	// Validate bounds

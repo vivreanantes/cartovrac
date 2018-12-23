@@ -198,6 +198,30 @@ a.anchor {
     visibility: hidden;
 }
 
+/**
+ * Mode embedded
+ */
+
+.embedded #map {
+  top: 0px;
+}
+
+.embedded #contribute_form {
+  top: 20px;
+}
+
+.embedded #cartovrac_link {
+  display: block;
+}
+
+.embedded #menuToggle {
+  display: none;
+}
+
+.embedded #content {
+  display: none;
+}
+
 @media screen and (min-width: 450px) {
   #map {
     top: 115px;

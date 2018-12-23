@@ -1,5 +1,5 @@
 import {newMap, addMarkerToMap} from './map.js';
-import {categories, shopDataFiles, itinerantFileName} from './data.js';
+import {categories, cacheFileName, itinerantFileName} from './data.js';
 import {getPopupContent} from './popup.js';
 
 // Leaflet icons for the different types of shop
@@ -17,31 +17,28 @@ var markerArray = [];
 var map, cluster;
 
 /**
- * Create a map in given div id and populate it for given countries
- * @param countries array of countries to populate with bulk purchase shops
+ * Create a map in given div id and populate it
  * @param divId the id of the div that will include the map
+ * @param mapConfig the configuration (zoom, default location ...) to apply to the map
  */
-export function createMapAndPopulate(divId, countries, mapConfig) {
+export function createMapAndPopulate(divId, mapConfig) {
 	map = newMap(divId, mapConfig, categories);
 
 	prepareCaterogiesSubgroupsAndIcons(map);
 
-	countries.forEach(function(country) {
-	 	var shopsJson;
-		$.when(
-		    $.getJSON(shopDataFiles[country].fileName, function(response) {
-		        shopsJson = response.elements
-		    })
-		).then(function() {
-			populate(shopsJson);
+ 	var bulkShopsJson, itinerantShopsJson;
+	$.when(
+	    $.getJSON(cacheFileName, function(response) {
+	        bulkShopsJson = response.elements
+	    })
+	).then(function() {
+		populate(bulkShopsJson);
 
-			if (mapConfig.osmType && mapConfig.osmId) {
-				zoomOnMarker(mapConfig.osmType, mapConfig.osmId);
-			}
-		});
+		if (mapConfig.osmType && mapConfig.osmId) {
+			zoomOnMarker(mapConfig.osmType, mapConfig.osmId);
+		}
 	});
 
-	var itinerantShopsJson;
 	$.when(
 	    $.getJSON(itinerantFileName, function(response) {
 	        itinerantShopsJson = response.elements
@@ -52,7 +49,7 @@ export function createMapAndPopulate(divId, countries, mapConfig) {
 }
 
 /**
- * Zoom on given marker
+ * Zoom on given marker, open container cluster and show marker's popup
  */
 function zoomOnMarker(osmType, osmId) {
 	var markerToZoomOn;

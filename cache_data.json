@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.55.5 2ca3f387",
   "osm3s": {
-    "timestamp_osm_base": "2018-12-22T15:33:02Z",
-    "timestamp_areas_base": "2018-12-22T14:38:02Z",
+    "timestamp_osm_base": "2018-12-23T14:22:02Z",
+    "timestamp_areas_base": "2018-12-23T13:17:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -10106,6 +10106,25 @@
 },
 {
   "type": "node",
+  "id": 4874073314,
+  "lat": 43.4083387,
+  "lon": 6.0486321,
+  "tags": {
+    "addr:housenumber": "60",
+    "addr:postcode": "83170",
+    "addr:street": "Avenue Yves Giustiniani",
+    "brand": "Biocoop",
+    "bulk_purchase": "yes",
+    "name": "Le Relais Bio",
+    "opening_hours": "Mo-Sa 09:00-13:00, 14:30-19:00",
+    "organic": "only",
+    "shop": "convenience",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+    "website": "http://www.biocoop.fr/magasins-bio/Trouver-mon-magasin-Biocoop/Provence-Alpes-Cote-d-Azur/Var/LE-RELAIS-BIO"
+  }
+},
+{
+  "type": "node",
   "id": 4876799495,
   "lat": 48.0712751,
   "lon": -0.7503965,
@@ -16613,8 +16632,8 @@
 {
   "type": "node",
   "id": 5846617196,
-  "lat": 46.5823488,
-  "lon": 0.3419743,
+  "lat": 46.5823525,
+  "lon": 0.3419823,
   "tags": {
     "addr:housenumber": "18",
     "addr:postcode": "86000",
@@ -20491,6 +20510,75 @@
     "contact:website": "http://daybyday-shop.com/magasin/rouen",
     "name": "Day by Day",
     "opening_hours": "Tu-Sa 10:00-13:30 & 15:00-19:00; Su 10:00-13:00",
+    "organic": "yes",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 6156005176,
+  "lat": 50.3679091,
+  "lon": 3.0841817,
+  "tags": {
+    "addr:city": "Douai",
+    "addr:housenumber": "5",
+    "addr:postcode": "59500",
+    "addr:street": "Place Charles de Gaulle",
+    "bulk_purchase": "only",
+    "contact:email": "leal.vasco@orange.fr",
+    "contact:facebook": "https://www.facebook.com/LaMaisonduVrac.EpicerieConfiserieDouai/",
+    "name": "La Maison du Vrac",
+    "organic": "yes",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 6156005177,
+  "lat": 50.3638875,
+  "lon": 3.0771946,
+  "tags": {
+    "addr:housenumber": "1",
+    "addr:postcode": "59500",
+    "addr:street": "Rue du Kiosque",
+    "bulk_purchase": "yes",
+    "contact:website": "http://unautrechemin.fr/",
+    "name": "Un Autre Chemin",
+    "opening_hours": "Mo-Sa 09:30-19:00",
+    "organic": "only",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 6156005178,
+  "lat": 43.4568730,
+  "lon": 5.8414676,
+  "tags": {
+    "addr:housenumber": "66",
+    "addr:postcode": "83470",
+    "addr:street": "Avenue des 5 Ponts",
+    "bulk_purchase": "yes",
+    "contact:phone": "+33 4 94 59 88 48",
+    "contact:website": "https://www.marcel-et-fils.com/magasin-83470_Saint%20Maximin.html",
+    "name": "Marcel et Fils",
+    "opening_hours": "Mo-Sa 09:00-19:30",
+    "organic": "only",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 6156005179,
+  "lat": 43.4279387,
+  "lon": 3.6062695,
+  "tags": {
+    "addr:housenumber": "1",
+    "addr:postcode": "34140",
+    "addr:street": "Rue Sadi Carnot",
+    "bulk_purchase": "only",
+    "contact:facebook": "https://www.facebook.com/lapetitebalancoire",
+    "name": "La Petite Balançoire",
     "organic": "yes",
     "shop": "convenience"
   }
@@ -27564,6 +27652,33 @@
 },
 {
   "type": "way",
+  "id": 222183518,
+  "center": {
+    "lat": 43.4593714,
+    "lon": 5.8603710
+  },
+  "nodes": [
+    2311654430,
+    2311654428,
+    2311654380,
+    2311654381,
+    2311654430
+  ],
+  "tags": {
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie claire",
+    "building": "yes",
+    "bulk_purchase": "yes",
+    "contact:website": "https://magasins.lavieclaire.com/lavieclaire/fr/boutique/france/provence-alpes-cote-d-azur/var/saint-maximin-la-sainte-baume/saint-maximin-la-sainte-baume/960?",
+    "name": "La Vie Claire",
+    "organic": "only",
+    "shop": "supermarket",
+    "source": "Contributions libres faites sur CartoVrac.fr;Mapillary"
+  }
+},
+{
+  "type": "way",
   "id": 224599086,
   "center": {
     "lat": 47.3603276,
@@ -28127,6 +28242,39 @@
     "shop": "supermarket",
     "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2013",
     "website": "http://www.biocoop.fr/magasins-bio/Trouver-mon-magasin-Biocoop/Bretagne/Morbihan/BIOCOOP-SEVE2"
+  }
+},
+{
+  "type": "way",
+  "id": 256962392,
+  "center": {
+    "lat": 49.1950455,
+    "lon": 1.8803745
+  },
+  "nodes": [
+    2625831957,
+    2625831950,
+    2625831948,
+    2625831938,
+    2625831932,
+    2625831931,
+    2625831933,
+    2625831928,
+    2625831934,
+    2625831963,
+    2625831953,
+    2625831957
+  ],
+  "tags": {
+    "building": "retail",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/branchulierville/",
+    "contact:phone": "+33 3 44 22 34 72",
+    "contact:website": "https://www.en-passant.net/",
+    "name": "Le Marché Bio",
+    "organic": "only",
+    "shop": "convenience",
+    "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2014"
   }
 },
 {
