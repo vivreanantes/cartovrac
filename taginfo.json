@@ -25,6 +25,18 @@
       "object_types": ["node", "way"],
       "description": "Used to display shops that have some bulk products.",
       "doc_url": "https://github.com/vivreanantes/cartovrac/wiki"
+     },
+     {
+      "key": "organic",
+      "value": "only",
+      "object_types": ["node", "way"],
+      "description": "Used to add useful information to shops that have bulk products."
+     },
+     {
+      "key": "organic",
+      "value": "yes",
+      "object_types": ["node", "way"],
+      "description": "Used to add useful information to shops that have bulk products.",
      }
   ]
 }
