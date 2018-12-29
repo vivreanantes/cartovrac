@@ -223,7 +223,7 @@ a.anchor {
 }
 
 .show-location-btn {
-  background: url("/assets/img/show_location.png");
+  background-image: url('../img/show_location.png');
   background-repeat: no-repeat;
   background-size: 30px 30px;
   height: 30px;

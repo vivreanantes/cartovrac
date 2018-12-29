@@ -65,7 +65,7 @@ function showUserLocationButton(map) {
 		},
 		strings: {
 			title: "Montrer ma position",
-			popup: "Votre position", 
+			popup: "Votre position",
 			outsideMapBoundsMsg: "Votre position se trouve en dehors de la zone gérée par CartoVrac pour le moment."
 		}
 	}).addTo(map);

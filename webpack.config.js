@@ -1,6 +1,6 @@
 const webpack = require("webpack");
 const HtmlWebPackPlugin = require("html-webpack-plugin");
-const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const ExtractTextPlugin = require("extract-text-webpack-plugin");
 
 module.exports = {
   module: {
@@ -15,12 +15,21 @@ module.exports = {
         ]
       },
       {
-        test: /\.css$/,
-        use: [MiniCssExtractPlugin.loader, "css-loader"]
+            test: /\.(png|jp(e*)g|svg|woff2?)$/,  
+            use: [{
+                loader: 'url-loader',
+                options: { 
+                    limit: 8000, // Convert images < 8kb to base64 strings
+                    name: 'images/[hash]-[name].[ext]'
+                } 
+            }]
       },
       {
-        test: /\.(jpe?g|png|woff2?)$/,
-        use: ['file-loader']
+            test:/\.(s*)css$/,
+            use: ExtractTextPlugin.extract({ 
+                fallback: 'style-loader',
+                use: ['css-loader']
+            })
       }
     ]
   },
@@ -34,9 +43,6 @@ module.exports = {
       filename: "./index.html",
       favicon: "./assets/img/logo.png"
     }),
-    new MiniCssExtractPlugin({
-      filename: "[name].css",
-      chunkFilename: "[id].css"
-    })
+    new ExtractTextPlugin("styles.css")
   ]
 };
