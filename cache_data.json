@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.55.5 2ca3f387",
   "osm3s": {
-    "timestamp_osm_base": "2018-12-23T14:22:02Z",
-    "timestamp_areas_base": "2018-12-23T13:17:02Z",
+    "timestamp_osm_base": "2018-12-24T10:12:02Z",
+    "timestamp_areas_base": "2018-12-24T10:03:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -3136,19 +3136,17 @@
   "lon": 2.5935965,
   "tags": {
     "addr:street": "Route d'Espalion",
-    "brand": "La Vie Claire",
-    "brand:wikidata": "Q3213589",
-    "brand:wikipedia": "fr:La Vie claire",
     "bulk_purchase": "yes",
     "contact:email": "lavieclaire.onet@orange.fr",
     "contact:phone": "+33565470849",
     "contact:website": "http://www.lavieclaire.com/ou-nous-trouver.php?q=ONET+LE+CHATEAU",
-    "name": "La Vie Claire",
+    "description": "changement de nom fin 2018",
+    "name": "On'é Bio",
+    "old_name": "La Vie Claire",
     "opening_hours": "Mo 14:00-19:00; Tu-Th 09:00-12:15,14:00-19:00; Fr,Sa 09:00-19:00; Su off",
-    "operator": "La Vie Claire",
     "organic": "only",
     "shop": "supermarket",
-    "source": "survey",
+    "source": "survey 2018",
     "website": "http://www.lavieclaire.com/magasin-bio/onet-le-chateau-rodez.html"
   }
 },
@@ -14492,6 +14490,22 @@
     "organic": "only",
     "shop": "convenience",
     "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-bayonne-hugo"
+  }
+},
+{
+  "type": "node",
+  "id": 5664346464,
+  "lat": 48.7544635,
+  "lon": 2.3277857,
+  "tags": {
+    "addr:housenumber": "7",
+    "addr:postcode": "94260",
+    "addr:street": "Allée des Fleurs",
+    "bulk_purchase": "yes",
+    "name": "Naturé'O",
+    "opening_hours": "Mo-Sa 09:30-19:30; Su 09:30-13:00",
+    "organic": "only",
+    "shop": "supermarket"
   }
 },
 {

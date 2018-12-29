@@ -1,11 +1,13 @@
 // Load the map library 
 import 'leaflet.markercluster';
 import 'leaflet.featuregroup.subgroup';
+import 'leaflet.locatecontrol/dist/L.Control.Locate.min.js';
 
 // Load the styles
 import 'leaflet/dist/leaflet.css';
 import 'leaflet.markercluster/dist/MarkerCluster.css';
 import 'leaflet.markercluster/dist/MarkerCluster.Default.css';
+import 'leaflet.locatecontrol/dist/L.Control.Locate.min.css';
 
 var osmMarker = L.Marker.extend({
    options: { 
@@ -33,6 +35,7 @@ export function newMap(divId, mapConfig, categories) {
 	});
 
 	brandingLayer(mapConfig).addTo(map);
+	showUserLocationButton(map);
 
 	return map;
 }
@@ -51,6 +54,21 @@ function brandingLayer(mapConfig) {
 		}
 	)
 	return layer;
+}
+
+function showUserLocationButton(map) {
+	L.control.locate({
+		flyTo: true,
+		icon: "show-location-btn",
+		onLocationError: function(){
+			alert("Vous devez activer la géolocalisation sur votre navigateur pour afficher votre position (généralement à gauche de la barre d'adresse).")
+		},
+		strings: {
+			title: "Montrer ma position",
+			popup: "Votre position", 
+			outsideMapBoundsMsg: "Votre position se trouve en dehors de la zone gérée par CartoVrac pour le moment."
+		}
+	}).addTo(map);
 }
 
 /**

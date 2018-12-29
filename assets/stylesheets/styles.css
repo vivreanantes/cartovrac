@@ -222,6 +222,15 @@ a.anchor {
   display: none;
 }
 
+.show-location-btn {
+  background: url("/assets/img/show_location.png");
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+  height: 30px;
+  width: 30px;
+  display: block;
+}
+
 @media screen and (min-width: 450px) {
   #map {
     top: 115px;
