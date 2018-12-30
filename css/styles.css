@@ -225,13 +225,13 @@ header{
   /* animation au chargement flèche */
   animation-duration: 1.5s;
   animation-name: slidedown;
-  animation-iteration-count: 1;  
+  animation-iteration-count: 1;
 
   /* transition opacité fleche*/
   -webkit-transition: opacity 1s, bottom 1s;
   -moz-transition: opacity 1s, bottom 1s;
   -o-transition: opacity 1s, bottom 1s;
-  transition: opacity 1s, bottom 1s;  
+  transition: opacity 1s, bottom 1s;
   background-color: #fffff7;
   opacity: .8;
   border-radius: 80px;
@@ -269,6 +269,19 @@ a.anchor {
     top: -70px;
     visibility: hidden;
 }
+
+.truc {
+  font-size: 0.7em;
+  margin: 1px
+}
+
+.ligne {
+}
+
+.description {
+  //color: blue;
+}
+
 
 @media screen and (min-width: 450px) {
   #map {
