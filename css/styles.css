@@ -375,3 +375,12 @@ a.anchor {
       font-size:16px;
     }
 }
+.plusdinfos {
+  font-weight:bold;
+text-decoration:underline;
+}
+.description {
+  display:none;
+  border-width: :1px;
+  border-style: solid;
+}

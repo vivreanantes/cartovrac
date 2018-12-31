@@ -27,7 +27,8 @@ var today = new Date();
                  for (var cptEventsNotFiltered = 0; cptEventsNotFiltered < type_event.length; cptEventsNotFiltered++) {
                      var show = true;
 
-                     if (typeof getQueryParam("department") == "undefined") {
+                     if (window.location.href.indexOf("coreparation44.fr") > -1) {
+                       // Url is coreparation44
                        if (type_event[cptEventsNotFiltered].department!="Loire-Atlantique") {
                          show = false;
                        }
@@ -104,6 +105,7 @@ $.getJSON("events.json", function (data) {
     });
 });
 
-if (typeof getQueryParam("department") == "undefined") {
+if (window.location.href.indexOf("coreparation44.fr") > -1) {
+    // Url is coreparation44
     document.getElementById("filterCalendar44").style.display = 'inline-block';
 }

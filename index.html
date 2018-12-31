@@ -63,7 +63,15 @@
 			.clear{clear:both;}
 
 		</style>
-
+		<script type="text/javascript">
+	  function show_hide_div(nomdiv){
+	    var lediv = document.getElementById(nomdiv);
+	  if(lediv.style.display=="block")
+	    lediv.style.display="none";
+	  else
+	    lediv.style.display="block";
+	  }
+	</script>
 	</head>
 	<body>
 		<header>
@@ -135,8 +143,7 @@
 			Ce site a plusieurs particularités :<br/>
 			- la carte n'est pas stockée chez Google mais chez OpenStreetMap qui est une carte libre et qui n'appartient pas à un géant d'internet.<br/>
 			- le calendrier n'est pas stocké chez Facebook mais dans l'agenda libre Open-Agenda.<br/>
-			- afin de diminuer la consommation électrique des requêtes, on ne récupère pas en temps réel les données de l'agenda et de la carte, mais uniquement 1 fois toutes les
-			24 heures et à la demande.<br/>
+			- afin de diminuer la consommation électrique des requêtes, on ne récupère pas en temps réel les données de l'agenda et de la carte, mais uniquement 1 fois par heure et à la demande.<br/>
 			- les statistiques ne sont pas réalisées par "Google Analytics" mais la solution libre Matomo et hébergées sur ce site.<br/>
 			- le code source de ce site est libre, et <a href='https://github.com/vivreanantes/vracanantes/tree/feature/AteliersReparationCollaboratifLoireAtlantique' target=_ne>disponible sur github</a>.
 		</p>
@@ -145,10 +152,16 @@
 		<h2>Contribuer</h2>
 		<p>Pour la carte, au choix : <br>
 			- remplir le <a href='https://framaforms.org/ateliers-de-reparation-collaboratifs-1539567458' target=_new>formulaire</a><br/>
-			- inscrire les données directement dans OpenStreetMap <a href='http://www.coreparation44.fr/RecetteAjoutAtelierCoReparationSurCarte.pdf' target=_new>en suivant la recette</a>
-		</p>
-		<p>Pour le calendrier : <br>
-			- ajouter l'évènement sur Open-Agenda <a href='http://www.coreparation44.fr/RecetteAjoutEvenementCoReparationDansCalendrier.pdf' target=_new>en suivant la recette</a>
+			- inscrire directement dans OpenStreetMap :
+			 	le manuel est <a href='https://wiki.openstreetmap.org/wiki/Tag:repair%3Dassisted_self_service' target=_new>ici</a> et
+				il est aussi sous forme de recette de cuisine <a href='http://www.coreparation44.fr/RecetteAjoutAtelierCoReparationSurCarte.pdf' target=_new>téléchargeable ici (PDF)</a>.
+		<!--	<span class='plusdinfos' onClick="show_hide_div('id1')">plus d'infos</span>
+			<div class='description' id="id1">
+
+			</div>-->
+		 <br> <br>
+		Pour le calendrier : <br>
+			- ajouter l'évènement sur Open-Agenda <a href='http://www.coreparation44.fr/RecetteAjoutEvenementCoReparationDansCalendrier.pdf' target=_new>en téléchargeant la recette</a>
 		</p>
 
 		<a class="anchor" id="contact"></a>
