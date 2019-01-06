@@ -1,0 +1,20 @@
+.event_title {
+  font-weight:bold;
+  font-size: 1.5em;
+}
+.event_conditions {
+  color:DarkGoldenRod;
+}
+.timeDate {
+  font-weight:bold;
+}
+.wrap>div{float:left;}
+.wrap>:first-child {width:15%;}
+.wrap>:nth-child(2n){width:33%;}
+.wrap>:nth-child(3n){width:15%;}
+.wrap>:nth-child(4n){width:33%;}
+@media (max-width: 40em)
+{
+  .wrap>div.truc { float:none;width:auto; }
+}
+.clear{clear:both;}

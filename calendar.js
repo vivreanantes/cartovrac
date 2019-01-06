@@ -46,15 +46,14 @@ var today = new Date();
                          textDiv += "&nbsp;";
                        }
                        else {
-                         textDiv += "<img src='"+type_event[cptEventsNotFiltered].thumbnail+"' width='100%' style='max-width:100%;height:auto' />";
+                         textDiv += "<img src='"+type_event[cptEventsNotFiltered].thumbnail+"' ' style='width='100%;max-width:100%;height:auto' />";
                        }
-                       textDiv += "</span></div><div class='truc'><span class='description'>";
-                       textDiv += "<b>"+type_event[cptEventsNotFiltered].title.fr+"</b>";
-                       textDiv += "<br/>"+type_event[cptEventsNotFiltered].description.fr;
+                       textDiv += "</span></div>";
+                       textDiv += "<div class='truc'><div class='event_title'>"+type_event[cptEventsNotFiltered].title.fr+"</div>"
                        /*if (typeof type_event[cptEventsNotFiltered].keywords !== "undefined") {
                          textDiv += "<br/><br/><i>"+type_event[cptEventsNotFiltered].keywords.fr+"</i>";
                        }*/
-                       textDiv += "</span></div><div class='truc'><span class='timeDate'>";
+                      textDiv +=  type_event[cptEventsNotFiltered].description.fr+"</br/><div class='timeDate'>";
                        var nbEvent = 0;
                        for(var cptDateOfTheEvent = 0; cptDateOfTheEvent < type_event[cptEventsNotFiltered].timings.length; cptDateOfTheEvent++) {
                          var eventStartDate = new Date(type_event[cptEventsNotFiltered].timings[[cptDateOfTheEvent]].start);
@@ -71,24 +70,28 @@ var today = new Date();
                            textDiv += ", "+type_event[cptEventsNotFiltered].timings[cptDateOfTheEvent].start.substring(11,16);
                            textDiv += " à " + type_event[cptEventsNotFiltered].timings[cptDateOfTheEvent].end.substring(11,16);
                            textDiv += "<br/>";
+                           nbEvent++;
                          }
                          if (nbEvent==6) {
-                           textDiv += "...";
+                           // textDiv += ". . .";
                          }
-                         nbEvent++;
+
                        }
-                       textDiv += "&nbsp;</span></div><div class='truc'><span class='readMore'>";
+                       if (nbEvent==0) {
+                          textDiv += "Pas de date à venir programmée.";
+                       }
+                       textDiv += "</div><br/><div class='event_conditions'>";
                        textDiv += "<address>";
                        textDiv += type_event[cptEventsNotFiltered].locationName;
                        textDiv += " : ";
                        textDiv += type_event[cptEventsNotFiltered].address;
-                       textDiv += "</address><br/>";
+                       textDiv += "</address></div>";
                        if (type_event[cptEventsNotFiltered].conditions != null) {
-                         textDiv += "<b>Conditions</b> : " + type_event[cptEventsNotFiltered].conditions.fr;
+                         textDiv += "<div class='event_conditions'>Conditions : " + type_event[cptEventsNotFiltered].conditions.fr+"</div>";
                        }
-                       textDiv += "<br/><br/><a href='" + type_event[cptEventsNotFiltered].canonicalUrl + "' target=_new><i>Plus d'infos</i></a>";
+                       textDiv += "<br/><a href='" + type_event[cptEventsNotFiltered].canonicalUrl + "' target=_new><b><i>Plus d'infos</i></b></a>";
                        textDiv += "</div></div>";
-                       textDiv += "</span></div>";
+                       textDiv += "</div>";
 
                        if(cptEventsFiltered%2 == 0){
                          textDiv += "<div class='clear'></div>";
@@ -106,6 +109,9 @@ $.getJSON("events.json", function (data) {
 });
 
 if (window.location.href.indexOf("coreparation44.fr") > -1) {
-    // Url is coreparation44
+  // OK !!!!!!!
+    // Url is coreparation44 : je montre
     document.getElementById("filterCalendar44").style.display = 'inline-block';
+} else {
+      document.getElementById("filterCalendar44").style.display = 'none';
 }
