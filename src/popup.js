@@ -1,5 +1,3 @@
-import {elements as jtbPartners} from '../jtb_partners.json';
-
 /**
  * Format shop information into an html style string for the popup
  **/
@@ -31,7 +29,6 @@ export function getPopupContent(
     popup += getHtmlFormattedAddress(housenumber, street, postcode, city);   
     popup += getHtmlFormattedHours(opening_hours);
     popup += getHtmlFormattedWebsite(website, contact_website, facebook, contact_facebook);
-    popup += getHtmlFormattedPartnerships(elementId);
     popup += getHtmlFormattedContribution(elementId, isANode);
 	return popup;
 }
@@ -156,40 +153,4 @@ function getHtmlFormattedContribution(elementId, isAWay) {
     ' les informations sur OpenStreetMap. Elles seront mises à jour sur CartoVrac dans ' +
     'les 24h suivant la modification.">Modifier ces informations</a>';
     return contributionHtml;
-}
-
-/**
- * @return an HTML formatted list of partners
- */
-function getHtmlFormattedPartnerships(elementId) {
-    var partners = "";
-
-    if (isJaimeTesBocauxPartner(elementId)){
-        partners += '<hr style="padding-bottom: ;padding-bottom: 0px;" size="1">';
-        partners += '<div style="display: flex;">';
-        partners += '<img style="height: 50px;" src="'+require("../assets/img/jtb.png")+'"/>';
-        partners += '<div style="margin: auto; font-weight: bold;">Partenaire <br />J\'aime tes bocaux</div></div>';
-    }
-
-    return partners;
-}
-
-/**
- * Check if the shop is a partner of the organization "J'aime tes bocaux"
- * @param elementId the id of the element
- * @return true if it's a "J'aime tes bocaux" partner, false otherwise
- */
-function isJaimeTesBocauxPartner(elementId) {
-
-    for (var groupIndex in jtbPartners) {
-        var group = jtbPartners[groupIndex];
-        for (var idIndex in group.ids) {
-            var id = group.ids[idIndex];
-            if (id == elementId) {
-                return true;
-            }
-        }
-    }
-
-    return false;
 }
