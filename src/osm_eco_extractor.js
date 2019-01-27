@@ -24,7 +24,7 @@ var map, cluster;
 export function createMapAndPopulate(divId, mapConfig) {
 	map = newMap(divId, mapConfig, categories);
 	prepareCaterogiesSubgroupsAndIcons(map);
-	// populateWithBulkPurchaseShops(mapConfig.osmType, mapConfig.osmId);
+	populateWithBulkPurchaseShops(mapConfig.osmType, mapConfig.osmId);
 	populateWithItinerantShops();
 }
 
