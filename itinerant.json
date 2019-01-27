@@ -1,4 +1,177 @@
 {
   "elements": [
+	{
+	  "name": "ArchiVrac",
+	  "website": "http://www.archivrac.com/",
+	  "bulk_purchase": "only",
+	  "organic": "yes",
+	  "validated_with_owner": false,
+	  "places": []
+	},
+	{
+	  "name": "Au Poids Chiche",
+	  "website": "https://www.facebook.com/aupoidschiche",
+	  "bulk_purchase": "only",
+	  "organic": "yes",
+	  "validated_with_owner": false,
+	  "places": []
+	},
+	{
+	  "name": "Aux Merveilles d’Alice",
+	  "website": "https://facebook.com/aliceetsesmerveilles/",
+	  "bulk_purchase": "only",
+	  "organic": "yes",
+	  "validated_with_owner": false,
+	  "places": []
+	},
+	{
+	  "name": "K Cho T",
+	  "website": "http://www.kchot35.com/",
+	  "bulk_purchase": "only",
+	  "organic": "yes",
+	  "validated_with_owner": false,
+	  "places": []
+	},
+	{
+	  "name": "La Main dans l'Sac",
+	  "website": "http://lamaindanslsac.fr/",
+	  "bulk_purchase": "only",
+	  "organic": "yes",
+	  "validated_with_owner": false,
+	  "places": []
+	},
+  	{
+	  "name": "La p'tite roulotte",
+	  "website": "http://www.laptiteroulotte.com/",
+	  "bulk_purchase": "only",
+	  "organic": "yes",
+	  "validated_with_owner": false,
+	  "places": [
+	  	{
+	  		"lat": 44.84111,
+	  		"lon": 0.21619,
+	    	"place_name": "Marché de Sainte-Foy-la-Grande, Place du marché"
+		},
+		{
+	  		"lat": 44.91485,
+	  		"lon": -0.24491,
+	    	"place_name": "Marché de Libourne, Place Abel Surchamp"
+		},
+		{
+	  		"lat": 44.8534,
+	  		"lon": -0.04352,
+	    	"place_name": "Marché de Castillon La Bataille, Place Boyer Andrivet"
+		},
+		{
+	  		"lat": 44.8404653, 
+	  		"lon": 0.1217308,
+	    	"place_name": "Marché de producteurs, Ferme des Gardes - Saint-Antoine-de-Breuilh"
+		}
+	  ]
+	},
+	{
+	  "name": "La Réserve Bio",
+	  "website": "https://reservebio.fr/",
+	  "bulk_purchase": "only",
+	  "organic": "yes",
+	  "validated_with_owner": false,
+	  "places": []
+	},
+	{
+	  "name": "La Vrac en Folie",
+	  "website": "https://www.facebook.com/lavracenfolie/",
+	  "bulk_purchase": "only",
+	  "organic": "yes",
+	  "validated_with_owner": false,
+	  "places": []
+	},
+	{
+	  "name": "La Vrac Mobile",
+	  "website": "https://www.vrac-mobile.com/",
+	  "bulk_purchase": "only",
+	  "organic": "yes",
+	  "validated_with_owner": false,
+	  "places": []
+	},
+	{
+	  "name": "Le BoCal'Mion",
+	  "website": "https://www.facebook.com/lebocalmion",
+	  "bulk_purchase": "only",
+	  "organic": "yes",
+	  "validated_with_owner": false,
+	  "places": []
+	},
+	{
+	  "name": "Le Miam Local",
+	  "website": "https://www.lemiamlocal.com/",
+	  "bulk_purchase": "only",
+	  "organic": "yes",
+	  "validated_with_owner": false,
+	  "places": []
+	},
+	{
+	  "name": "Mon Bio Camion",
+	  "website": "https://monbiocamion.fr/",
+	  "bulk_purchase": "only",
+	  "organic": "yes",
+	  "validated_with_owner": false,
+	  "places": []
+	},
+	{
+	  "name": "On Part en Vrac",
+	  "website": "https://www.onpartenvrac.com/",
+	  "bulk_purchase": "only",
+	  "organic": "yes",
+	  "validated_with_owner": false,
+	  "places": []
+	},
+	{
+	  "name": "Tootopoids",
+	  "website": "https://tootopoids.com/",
+	  "bulk_purchase": "only",
+	  "organic": "yes",
+	  "validated_with_owner": false,
+	  "places": []
+	},
+	{
+	  "name": "Tour'N Vrac",
+	  "website": "https://www.facebook.com/tournvrac",
+	  "bulk_purchase": "only",
+	  "organic": "yes",
+	  "validated_with_owner": false,
+	  "places": []
+	},
+  	{
+	  "name": "Un p'tit grain de...!",
+	  "website": "https://www.unptitgrainde.com/",
+	  "bulk_purchase": "only",
+	  "organic": "only",
+	  "validated_with_owner": false,
+	  "places": []
+	},
+	{
+	  "name": "V'la le Vrac",
+	  "website": "https://www.facebook.com/VLALEVRAC",
+	  "bulk_purchase": "only",
+	  "organic": "yes",
+	  "validated_with_owner": false,
+	  "places": []
+	},
+	{
+	  "name": "Vrac en Vadrouille",
+	  "website": "https://www.facebook.com/VracEnVadrouille",
+	  "bulk_purchase": "only",
+	  "organic": "yes",
+	  "validated_with_owner": false,
+	  "places": []
+	},
+	{
+	  "name": "Vrac'n Roule'",
+	  "website": "https://www.facebook.com/vracnroule/",
+	  "bulk_purchase": "only",
+	  "organic": "yes",
+	  "validated_with_owner": false,
+	  "places": []
+	}
   ]
 }

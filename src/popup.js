@@ -36,7 +36,7 @@ export function getPopupContent(
 /**
  * Get a title describing the shop type
  */
-function getHtmlFormattedShopTitle(category, organicTag, bulk_purchaseTag) {
+export function getHtmlFormattedShopTitle(category, organicTag, bulk_purchaseTag) {
     // Start text with italic style and add prefix depending on type
     var title = category.prefix;
     

@@ -1,6 +1,6 @@
 import {newMap, addMarkerToMap} from './map.js';
 import {categories, cacheBulkFileName, cacheJtbFileName, itinerantFileName} from './data.js';
-import {getPopupContent} from './popup.js';
+import {getPopupContent, getHtmlFormattedShopTitle} from './popup.js';
 
 // Leaflet icons for the different types of shop
 var ShopIcon = L.Icon.extend({
@@ -24,7 +24,7 @@ var map, cluster;
 export function createMapAndPopulate(divId, mapConfig) {
 	map = newMap(divId, mapConfig, categories);
 	prepareCaterogiesSubgroupsAndIcons(map);
-	populateWithBulkPurchaseShops(mapConfig.osmType, mapConfig.osmId);
+	// populateWithBulkPurchaseShops(mapConfig.osmType, mapConfig.osmId);
 	populateWithItinerantShops();
 }
 
@@ -58,7 +58,7 @@ function populateWithJaimeTesBocauxShops() {
 	var jtbShopsJson;
 	$.when(
 	    $.getJSON(cacheJtbFileName, function(response) {
-	        jtbShopsJson = response.elements
+	        jtbShopsJson = response.elements;
 	    })
 	).then(function() {
 		populateJtbShops(jtbShopsJson);
@@ -72,7 +72,7 @@ function populateWithItinerantShops() {
 	var itinerantShopsJson;
 	$.when(
 	    $.getJSON(itinerantFileName, function(response) {
-	        itinerantShopsJson = response.elements
+	        itinerantShopsJson = response.elements;
 	    })
 	).then(function() {
 		populateItinerantShops(itinerantShopsJson);
@@ -137,7 +137,37 @@ function prepareCaterogiesSubgroupsAndIcons(map) {
  * Display the itinerant shops
  **/
 function populateItinerantShops(itinerantShopsJson) {
+	for (var shopIndex in itinerantShopsJson) {
+		var itinerantElement = itinerantShopsJson[shopIndex]
+    	var category = categories['itinerant'];
+    	var name = itinerantElement['name'];
+    	var url = itinerantElement['website'];
+    	var organic = itinerantElement['organic'];
+    	var bulk_purchase = itinerantElement['bulk_purchase'];
 
+		for (var placeIndex in itinerantElement['places']) {
+			var placeElement = itinerantElement['places'][placeIndex];
+			var latitude = placeElement['lat'];
+			var longitude = placeElement['lon'];
+			var place_name = placeElement['place_name'];
+
+			// Check that element is valid
+			if (!name || !longitude || !latitude) {
+				console.log("Place with missing name or coordinates")
+				continue;
+			}
+
+			var popup = '<b>'+name+'</b><br />';
+			popup += getHtmlFormattedShopTitle(category, organic, bulk_purchase);
+			popup += '<hr style="padding-bottom: ;padding-bottom: 0px;" size="1">';
+			popup += place_name+'<br />';
+		    popup += '<a href="' + url + '" target="_blank">Site web avec les horaires de présence</a><br />';
+
+			// Check that popup has been correctly created
+			var position = {lat: latitude, lon: longitude};
+			addMarkerToMap(category, popup, position, null, null);
+		}
+	}
 }
 
 var JTB_HTML_BANNER = '<hr style="padding-bottom: ;padding-bottom: 0px;" size="1"><div style="display: flex;"><img style="height: 50px;" src="'+require("../assets/img/jtb.png")+'"/><div style="margin: auto; font-weight: bold;">Partenaire <br />J\'aime tes bocaux</div></div>';
