@@ -2,12 +2,15 @@
 import 'leaflet.markercluster';
 import 'leaflet.featuregroup.subgroup';
 import 'leaflet.locatecontrol/dist/L.Control.Locate.min.js';
+import 'leaflet-control-geocoder';
 
 // Load the styles
 import 'leaflet/dist/leaflet.css';
 import 'leaflet.markercluster/dist/MarkerCluster.css';
 import 'leaflet.markercluster/dist/MarkerCluster.Default.css';
 import 'leaflet.locatecontrol/dist/L.Control.Locate.min.css';
+import 'leaflet-control-geocoder/dist/Control.Geocoder.css';
+
 
 var osmMarker = L.Marker.extend({
    options: { 
@@ -36,6 +39,12 @@ export function newMap(divId, mapConfig, categories) {
 
 	brandingLayer(mapConfig).addTo(map);
 	showUserLocationButton(map);
+	var geocoder = L.Control.Geocoder.mapbox(mapConfig.mapToken, {geocodingQueryParams : {"country": "FR"}});
+	L.Control.geocoder({geocoder: geocoder, defaultMarkGeocode: false, position: "topleft", placeholder: "Recherche...", errorMessage: "Aucun résultat trouvé", showResultIcons: true})
+	.on('markgeocode', function(e) {
+        map.fitBounds(e.geocode.bbox);
+    })
+    .addTo(map);
 
 	return map;
 }

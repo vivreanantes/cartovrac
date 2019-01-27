@@ -37,6 +37,7 @@
     "webpack-dev-server": "^3.1.10"
   },
   "dependencies": {
+    "leaflet-control-geocoder": "^1.6.0",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1"
   }

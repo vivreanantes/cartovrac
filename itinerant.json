@@ -25,14 +25,6 @@
 	  "places": []
 	},
 	{
-	  "name": "K Cho T",
-	  "website": "http://www.kchot35.com/",
-	  "bulk_purchase": "only",
-	  "organic": "yes",
-	  "validated_with_owner": false,
-	  "places": []
-	},
-	{
 	  "name": "La Main dans l'Sac",
 	  "website": "http://lamaindanslsac.fr/",
 	  "bulk_purchase": "only",
@@ -91,27 +83,32 @@
 	  "bulk_purchase": "only",
 	  "organic": "yes",
 	  "validated_with_owner": false,
-	  "places": []
+	  "places": [
+	  	{
+	  		"lat": 43.4838, 
+	  		"lon": -1.51186,
+	  		"place_name": "Marché de Quintaou - Anglet"
+	  	},
+	  	{
+	  		"lat": 43.36816,
+	  		"lon": -1.78145, 
+	  		"place_name": "Water Sports Center - Quai de Floride, Hendaye"
+	  	},
+	  	{
+	  		"lat": 43.67087,
+	  		"lon": -1.39,
+	  		"place_name": "Parking Billabong - 100 av. Sabotiers, Soorts-Hossegor"
+	  	},
+	  	{
+	  		"lat": 43.66411,
+	  		"lon": -1.39487,
+	  		"place_name": "Marché de Pays de Soorts - 19 av. du centre, Soorts-Hossegor"
+	  	}
+	  ]
 	},
 	{
 	  "name": "Le BoCal'Mion",
 	  "website": "https://www.facebook.com/lebocalmion",
-	  "bulk_purchase": "only",
-	  "organic": "yes",
-	  "validated_with_owner": false,
-	  "places": []
-	},
-	{
-	  "name": "Le Miam Local",
-	  "website": "https://www.lemiamlocal.com/",
-	  "bulk_purchase": "only",
-	  "organic": "yes",
-	  "validated_with_owner": false,
-	  "places": []
-	},
-	{
-	  "name": "Mon Bio Camion",
-	  "website": "https://monbiocamion.fr/",
 	  "bulk_purchase": "only",
 	  "organic": "yes",
 	  "validated_with_owner": false,
