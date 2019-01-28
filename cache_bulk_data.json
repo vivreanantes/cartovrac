@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.55.5 2ca3f387",
   "osm3s": {
-    "timestamp_osm_base": "2019-01-24T20:22:02Z",
-    "timestamp_areas_base": "2019-01-24T19:24:02Z",
+    "timestamp_osm_base": "2019-01-28T19:26:02Z",
+    "timestamp_areas_base": "2019-01-28T18:22:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -810,6 +810,20 @@
     "organic": "only",
     "shop": "supermarket",
     "website": "http://www.lemarchedeleopold.com"
+  }
+},
+{
+  "type": "node",
+  "id": 1034064322,
+  "lat": 43.2944709,
+  "lon": 5.3852175,
+  "tags": {
+    "bulk_purchase": "only",
+    "contact:facebook": "https://www.facebook.com/OVRACMARSEILLE",
+    "contact:website": "https://www.epicerieovrac.com/",
+    "name": "O Vrac",
+    "organic": "yes",
+    "shop": "convenience"
   }
 },
 {
@@ -2376,6 +2390,23 @@
 },
 {
   "type": "node",
+  "id": 1986788086,
+  "lat": 48.6881593,
+  "lon": 6.1872295,
+  "tags": {
+    "addr:housenumber": "61",
+    "bulk_purchase": "yes",
+    "description": "Association pour l'ouverture d'un supermarché participatif et collaboratif",
+    "name": "Grande Épicerie Générale",
+    "opening_hours": "Mo,Fr 18:30-20:00; We 10:00-12:00,18:30-20:00; Sa 10:00-17:00",
+    "organic": "yes",
+    "shop": "convenience",
+    "source": "survey",
+    "website": "https://www.grandeepiceriegenerale.fr/"
+  }
+},
+{
+  "type": "node",
   "id": 1987166800,
   "lat": 48.8638238,
   "lon": 2.2875210,
@@ -3024,25 +3055,29 @@
 {
   "type": "node",
   "id": 2339921978,
-  "lat": 43.6183918,
-  "lon": 1.4369664,
+  "lat": 43.6183270,
+  "lon": 1.4369541,
   "tags": {
     "addr:city": "Toulouse",
+    "addr:housenumber": "4",
     "addr:postcode": "31200",
     "addr:street": "Avenue Frédéric Estèbe",
+    "brand": "Biocoop",
+    "brand:wikidata": "Q2904039",
+    "brand:wikipedia": "fr:Biocoop",
     "bulk_purchase": "yes",
     "change:XLT-SVLT": "yes",
     "contact:housenumber": "7",
     "contact:phone": "+33 5 34 42 01 56",
     "currency:XLT": "SVLT",
-    "name": "Biocoop Les Minimes",
+    "name": "Biocoop",
     "opening_hours": "Tu-Sa 09:30-20:00; Mo 14:00-20:00",
     "operator": "Biocoop",
-    "organic": "only",
     "payment:cash:XLT-SVLT": "yes",
+    "phone": "+33 5 34 42 01 56",
     "ref:FR:NAF": "4729Z",
     "shop": "supermarket",
-    "website": "http://www.biominimes.fr/"
+    "website": "https://www.biominimes.fr/"
   }
 },
 {
@@ -3151,6 +3186,7 @@
     "organic": "only",
     "shop": "convenience",
     "source": "survey",
+    "survey:date": "2019-01-26",
     "website": "http://grenoble-lafontaine.eau-vive.com/",
     "wheelchair": "yes"
   }
@@ -19897,8 +19933,6 @@
   "lat": 45.6951848,
   "lon": 4.7935316,
   "tags": {
-    "addr:housenumber": "103",
-    "addr:street": "Avenue Georges Clemenceau",
     "bulk_purchase": "only",
     "contact:facebook": "http://www.facebook.com/ToutpartenVrac",
     "name": "Tout part en vrac",
@@ -19979,6 +20013,40 @@
     "contact:website": "https://leptitdoc.eatbu.com",
     "name": "Le P'tit d'Oc",
     "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 6238267038,
+  "lat": 48.0048597,
+  "lon": 0.1942828,
+  "tags": {
+    "addr:housenumber": "17",
+    "addr:street": "Rue Gambetta",
+    "bulk_purchase": "only",
+    "contact:email": "daybyday.lemans@gmail.com",
+    "contact:phone": "+33 9 86 64 81 99",
+    "contact:website": "http://daybyday-shop.com/magasin/le-mans",
+    "name": "day by day",
+    "opening_hours": "We-Sa 09:45-12:45,14:30-19:00",
+    "operator": "day by day",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 6239504925,
+  "lat": 47.2335890,
+  "lon": -2.1550307,
+  "tags": {
+    "addr:housenumber": "8",
+    "addr:street": "Avenue des Frères Lumière",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/eauvivestbrevin/",
+    "contact:website": "https://www.eau-vive.com",
+    "name": "L'eau Vive",
+    "organic": "only",
+    "shop": "supermarket"
   }
 },
 {
@@ -28580,6 +28648,28 @@
     "shop": "convenience",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012",
     "website": "http://www.biocoopdescollines.com/"
+  }
+},
+{
+  "type": "way",
+  "id": 503349220,
+  "center": {
+    "lat": 44.1820849,
+    "lon": 0.6320654
+  },
+  "nodes": [
+    4936760352,
+    4936760353,
+    4936760354,
+    4936760355,
+    4936760352
+  ],
+  "tags": {
+    "building": "yes",
+    "bulk_purchase": "yes",
+    "name": "Les comptoirs de la Bio",
+    "organic": "only",
+    "shop": "supermarket"
   }
 },
 {
