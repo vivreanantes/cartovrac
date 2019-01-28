@@ -168,7 +168,48 @@
 	  "bulk_purchase": "only",
 	  "organic": "yes",
 	  "validated_with_owner": false,
-	  "places": []
+	  "places": [
+	  	{
+	  		"lat": 47.14476,
+	  		"lon": -1.69022,
+	  		"place_name": "Devant la salle Jacqueline Auriol - Bouaye"
+	  	},
+	  	{
+	  		"lat": 47.18811,
+	  		"lon": -1.68345,
+	  		"place_name": "Marché de la Montagne - place Similien Guérin"
+	  	},
+	  	{
+	  		"lat": 47.14189,
+	  		"lon": -1.68879,
+	  		"place_name": "Marché de Bouaye - place du Marché"
+	  	},
+	  	{
+	  		"lat": 47.19234,
+	  		"lon": -1.72550,
+	  		"place_name": "Devant la salle des Genets - Saint-Jean-de-Boiseau"
+	  	},
+	  	{
+	  		"lat": 47.21475,
+	  		"lon": -1.90364,
+	  		"place_name": "Ferme de Sergonne - Frossay"
+	  	},
+	  	{
+	  		"lat": 47.08060,
+	  		"lon": -2.03632,
+	  		"place_name": "Marché de La Bernerie - bd. Chaussé du Pays de Retz"
+	  	},
+	  	{
+	  		"lat": 47.06912,
+	  		"lon": -1.91057,
+	  		"place_name": "Ferme des Clos Mouillés - Bourgneuf"
+	  	},
+	  	{
+	  		"lat": 47.20170,
+	  		"lon": -1.75461,
+	  		"place_name": "Marché du Pellerin - rue du docteur Sourdille"
+	  	}
+	  ]
 	}
   ]
 }
