@@ -45,8 +45,8 @@ function populateWithBulkPurchaseShops(osmType, osmId) {
 		populateBulkShops(bulkShopsJson);
 		populateWithJaimeTesBocauxShops();
 
-		if (mapConfig.osmType && mapConfig.osmId) {
-			zoomOnBulkMarker(mapConfig.osmType, mapConfig.osmId);
+		if (osmType && osmId) {
+			zoomOnBulkMarker(osmType, osmId);
 		}
 	});
 }
