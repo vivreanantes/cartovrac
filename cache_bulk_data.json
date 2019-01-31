@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.55.5 2ca3f387",
   "osm3s": {
-    "timestamp_osm_base": "2019-01-28T19:26:02Z",
-    "timestamp_areas_base": "2019-01-28T18:22:02Z",
+    "timestamp_osm_base": "2019-01-31T07:23:02Z",
+    "timestamp_areas_base": "2019-01-31T07:04:03Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -17312,7 +17312,7 @@
     "contact:facebook": "https://www.facebook.com/EpicerieVracSainteGenevieve/",
     "name": "La Ligne de Vie",
     "organic": "yes",
-    "shop": "supermarket"
+    "shop": "convenience"
   }
 },
 {
@@ -17638,6 +17638,19 @@
     "name": "Le colibri fait son nid",
     "organic": "yes",
     "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 6014978285,
+  "lat": 48.0627159,
+  "lon": -1.6256907,
+  "tags": {
+    "bulk_purchase": "yes",
+    "contact:website": "https://www.biocoop.fr/magasins-bio/Trouver-mon-magasin-Biocoop/Bretagne/Ille-et-Vilaine/SCARABEE-VERN",
+    "name": "Biocoop",
+    "organic": "only",
+    "shop": "supermarket"
   }
 },
 {
@@ -20047,6 +20060,19 @@
     "name": "L'eau Vive",
     "organic": "only",
     "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 6242534202,
+  "lat": 44.3847997,
+  "lon": 4.9929930,
+  "tags": {
+    "bulk_purchase": "only",
+    "contact:facebook": "https://www.facebook.com/SAS-Hello-Vrac-262915764484373/",
+    "name": "Hello Vrac",
+    "organic": "yes",
+    "shop": "convenience"
   }
 },
 {
@@ -25832,7 +25858,8 @@
     "organic": "only",
     "phone": "+33 2 97 74 34 14",
     "shop": "supermarket",
-    "website": "http://biocoop.fr/magasins-bio/Trouver-mon-magasin-Biocoop/Bretagne/Morbihan/BIOCOOP-SEVE"
+    "website": "http://biocoop.fr/magasins-bio/Trouver-mon-magasin-Biocoop/Bretagne/Morbihan/BIOCOOP-SEVE",
+    "wheelchair": "yes"
   }
 },
 {

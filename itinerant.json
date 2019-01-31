@@ -82,7 +82,7 @@
 	  "website": "https://www.vrac-mobile.com/",
 	  "bulk_purchase": "only",
 	  "organic": "yes",
-	  "validated_with_owner": false,
+	  "validated_with_owner": true,
 	  "places": [
 	  	{
 	  		"lat": 43.4838, 
@@ -136,7 +136,43 @@
 	  "bulk_purchase": "only",
 	  "organic": "yes",
 	  "validated_with_owner": false,
-	  "places": []
+	  "places": [
+	  	{
+	  		"lat": 47.11272,
+	  		"lon": 0.62188,
+	  		"place_name": "Marché de Sainte-Maure-de-Touraine"
+	  	},
+	  	{
+	  		"lat": 47.12008,
+	  		"lon": 0.42450,
+	  		"place_name": "Marché de L'Ile Bouchard"
+	  	},
+	  	{
+	  		"lat": 46.97420,
+	  		"lon": 0.69966,
+	  		"place_name": "Marché de Descartes"
+	  	},
+	  	{
+	  		"lat": 47.04341,
+	  		"lon": 0.81833,
+	  		"place_name": "Marché et AMAP de Ligueil"
+	  	},
+	  	{
+	  		"lat": 47.01206,
+	  		"lon": 0.32641,
+	  		"place_name": "Marché et AMAP de Richelieu"
+	  	},
+	  	{
+	  		"lat": 47.05072,
+	  		"lon": 0.54752,
+	  		"place_name": "Marché de Nouâtre"
+	  	},
+	  	{
+	  		"lat": 46.94817,
+	  		"lon": 0.41468 ,
+	  		"place_name": "Boulangerie de Jaulnay"
+	  	}
+ 	  ]
 	},
   	{
 	  "name": "Un p'tit grain de...!",
