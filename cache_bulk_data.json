@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.55.5 2ca3f387",
   "osm3s": {
-    "timestamp_osm_base": "2019-01-31T07:23:02Z",
-    "timestamp_areas_base": "2019-01-31T07:04:03Z",
+    "timestamp_osm_base": "2019-02-03T19:25:02Z",
+    "timestamp_areas_base": "2019-02-03T19:03:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -1575,7 +1575,10 @@
   "lon": -0.3185504,
   "tags": {
     "bulk_purchase": "yes",
+    "contact:phone": "+33 2 31350306",
+    "contact:website": "https://www.natureo-bio.fr/magasin-bio/mondeville/",
     "name": "Naturéo",
+    "opening_hours": "Mo-Sa 09:30-19:30",
     "organic": "only",
     "shop": "supermarket"
   }
@@ -4070,6 +4073,21 @@
     "shop": "convenience",
     "source": "survey",
     "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2966142735,
+  "lat": 43.9197466,
+  "lon": 2.1660610,
+  "tags": {
+    "addr:street": "Avenue Pierre Mandès France",
+    "bulk_purchase": "yes",
+    "name": "Bio D'Lices",
+    "opening_hours": "Mo-Sa 09:00-19:00",
+    "organic": "only",
+    "phone": "+33 5 63 80 57 11",
+    "shop": "supermarket"
   }
 },
 {
@@ -17889,6 +17907,7 @@
     "contact:phone": "+33 4 91 02 08 08",
     "contact:street": "Rue du Camas",
     "name": "Biocoop Chave",
+    "opening_hours": "Tu-Sa 09:30-19:30; Th 09:30-13:00,15:00-19:30",
     "organic": "only",
     "shop": "convenience",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
@@ -20073,6 +20092,70 @@
     "name": "Hello Vrac",
     "organic": "yes",
     "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 6251072552,
+  "lat": 43.6453285,
+  "lon": 1.3844847,
+  "tags": {
+    "addr:housenumber": "223",
+    "addr:postcode": "31700",
+    "addr:street": "Route de Grenade",
+    "bulk_purchase": "yes",
+    "contact:website": "http://aubioarcadie.fr/",
+    "name": "Arcadie Bio",
+    "organic": "only",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 6251348345,
+  "lat": 43.6664912,
+  "lon": 1.3644668,
+  "tags": {
+    "bulk_purchase": "only",
+    "contact:housenumber": "208",
+    "contact:street": "Rue de la Sur",
+    "contact:website": "https://ledrivetoutnu.com/",
+    "name": "Le Drive tout nu",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 6252292422,
+  "lat": 44.8336522,
+  "lon": -0.5653672,
+  "tags": {
+    "addr:city": "Bordeaux",
+    "addr:housenumber": "9",
+    "addr:postcode": "33000",
+    "addr:street": "Rue Camille Sauvageau",
+    "bulk_purchase": "only",
+    "contact:facebook": "https://www.facebook.com/epicerietista/",
+    "name": "Tista",
+    "organic": "yes",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 6252313654,
+  "lat": 45.8125906,
+  "lon": 3.1285974,
+  "tags": {
+    "addr:city": "Clermont-Ferrand",
+    "addr:housenumber": "103",
+    "addr:postcode": "63100",
+    "addr:street": "Rue d'Aulteribe",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/CoopDesDomes/",
+    "name": "La Coop des Dômes",
+    "shop": "convenience",
+    "website": "http://www.coopdesdomes.fr/"
   }
 },
 {

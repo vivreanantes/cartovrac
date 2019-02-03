@@ -135,7 +135,7 @@
 	  "website": "https://www.facebook.com/tournvrac",
 	  "bulk_purchase": "only",
 	  "organic": "yes",
-	  "validated_with_owner": false,
+	  "validated_with_owner": true,
 	  "places": [
 	  	{
 	  		"lat": 47.11272,
@@ -180,7 +180,38 @@
 	  "bulk_purchase": "only",
 	  "organic": "only",
 	  "validated_with_owner": false,
-	  "places": []
+	  "places": [
+	  	{
+	  		"lat": 47.58494,
+	  		"lon": -3.07594,
+	  		"place_name": "Carnac"
+	  	},
+	  	{
+	  		"lat": 47.72031,
+	  		"lon": -2.99904,
+	  		"place_name": "Brec'h"
+	  	},
+	  	{
+	  		"lat": 47.61606,
+	  		"lon": -3.00139,
+	  		"place_name": "Crac'h"
+	  	},
+	  	{
+	  		"lat": 47.60645,
+	  		"lon": -2.99570,
+	  		"place_name": "Cap Ressourcerie - Crac'h"
+	  	},
+	  	{
+	  		"lat": 47.66215,
+	  		"lon": -3.00406,
+	  		"place_name": "Devant la boutique en bois - Auray (sur Commande)"
+	  	},
+	  	{
+	  		"lat": 47.63877,
+	  		"lon": -3.04876,
+	  		"place_name": "Devant le Bocal - Carnac"
+	  	}
+	  ]
 	},
 	{
 	  "name": "V'la le Vrac",
@@ -196,7 +227,38 @@
 	  "bulk_purchase": "only",
 	  "organic": "yes",
 	  "validated_with_owner": false,
-	  "places": []
+	  "places": [
+	  	{
+	  		"lat": 44.77667,
+	  		"lon": -1.11951,
+	  		"place_name": "A côté du Locavor, Arès"
+	  	},
+	  	{
+	  		"lat": 44.69043,
+	  		"lon": -0.85448,
+	  		"place_name": "Marché local, Marcheprime"
+	  	},
+	  	{
+	  		"lat": 44.66382,
+	  		"lon": -0.91196,
+	  		"place_name": "Petit Marché des Argentières, Biganos"
+	  	},
+	  	{
+	  		"lat": 44.55146,
+	  		"lon": -0.86891,
+	  		"place_name": "Marché de Salles, Salles"
+	  	},
+	  	{
+	  		"lat": 44.63976,
+	  		"lon": -1.07106,
+	  		"place_name": "Marché de Gujan-Mestras"
+	  	},
+	  	{
+	  		"lat": 44.86476,
+	  		"lon": -0.58749,
+	  		"place_name": "Marché du Bouscat, Bouscat"
+	  	}
+	  ]
 	},
 	{
 	  "name": "Vrac'n Roule'",
