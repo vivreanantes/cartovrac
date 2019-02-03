@@ -27,6 +27,6 @@ export var categories = {
   chemist: {prefix: 'Droguerie', iconUrl: require('../assets/img/icons/icon_chemist.png'), addOrganicSuffix: true, addBulkSuffix: true}
 };
 
-export var cacheJtbFileName = "cache_jtb_data.json";
-export var cacheBulkFileName = "cache_bulk_data.json";
-export var itinerantFileName = "itinerant.json";
+export var cacheJtbFileName = "cache_jtb_data.json?nocache=" + (new Date()).getTime();
+export var cacheBulkFileName = "cache_bulk_data.json?nocache=" + (new Date()).getTime();
+export var itinerantFileName = "itinerant.json?nocache=" + (new Date()).getTime();
