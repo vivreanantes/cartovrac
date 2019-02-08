@@ -5,8 +5,8 @@
   "main": "vracanantes.js",
   "scripts": {
     "start": "webpack-dev-server --mode development --open",
-    "build": "webpack --mode production; ./refreshCacheBulk.sh; ./refreshCacheJtb.sh",
-    "ftp-deploy": "node deploy.js",
+    "build": "webpack --mode production; ./refreshCacheBulk.sh; ./refreshCacheJTB.sh",
+    "ftp-deploy": "node deploy.js"
   },
   "repository": {
     "type": "git",
