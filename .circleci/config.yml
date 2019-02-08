@@ -30,6 +30,7 @@ jobs:
       - image: circleci/node:10.15.1
     working_directory: ~/project
     steps:
+      - checkout
       - run:
           name: deploy to ftp
           command: npm run ftp-deploy
