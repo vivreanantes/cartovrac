@@ -4,7 +4,7 @@ const FtpClient = require('ftp');
 const glob = require('glob');
 
 const basePath = './dist';
-const destinationPath = '/www/test';
+const destinationPath = '/www/';
 const config = {
   host: process.env.FTP_HOST,
   password: process.env.FTP_PASSWORD,
@@ -50,24 +50,13 @@ function sendFilesToFtp() {
 }
 
 ftpClient.on('ready', () => {
-  // Cleanup files older than the given amount of
-  // days. Keep in mind that this only makes sense
-  // if you've deployed at least once since the
-  // given amount of days.
-  ftpClient.rmdir(destinationPath, true, (error) => {
-      console.log(`Removed: ${destinationPath}`);
-      
-
-      // Get an array of all files and directories
-      // in the given base path and send them to the
-      // `handlePath()` function to decide if a
-      // directory is created on the server or the
-      // file is uploaded.
-      console.log(`Sending files`);
-      sendFilesToFtp();
-
-      ftpClient.end();
-  });
+  // Get an array of all files and directories
+  // in the given base path and send them to the
+  // `handlePath()` function to decide if a
+  // directory is created on the server or the
+  // file is uploaded.
+  console.log(`Sending files`);
+  sendFilesToFtp();
 });
 
 ftpClient.connect(config);
