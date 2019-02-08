@@ -25,11 +25,16 @@ jobs:
       - run:
           name: build
           command: npm run build
+      - persist_to_workspace:
+          root: ~/project
+          paths: .
   deploy:
     docker:
       - image: circleci/node:10.15.1
     working_directory: ~/project
     steps:
+      - attach_workspace:
+          at: ~/project
       - checkout
       - run:
           name: deploy to ftp
