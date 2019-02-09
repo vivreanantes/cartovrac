@@ -1,34 +1,21 @@
 #!/usr/bin/env node
 const fs = require('fs');
-const FtpClient = require('ftp');
+// const Client = require('ssh2').Client;
 const glob = require('glob');
 
 const basePath = './dist';
-const destinationPath = '/www/';
+const destinationPath = '/www/test';
 const config = {
   host: process.env.FTP_HOST,
   password: process.env.FTP_PASSWORD,
-  user: process.env.FTP_USER,
+  username: process.env.FTP_USER,
 };
 
-const ftpClient = new FtpClient();
+var numberOfOpLaunched = 0;
+var numberOfOpTerminated = 0;
 
-function createDirectory(destination) {
-  return ftpClient.mkdir(destination, true, (error) => {
-    if (error) throw error;
-
-    ftpClient.end();
-  });
-}
-
-function uploadFile(file, destination) {
-  ftpClient.put(file, destination, (error) => {
-    if (error) throw error;
-
-    console.log(`${file} => ${destination}`);
-    ftpClient.end();
-  });
-}
+let Client = require('ssh2-sftp-client');
+let sftp = new Client();
 
 // Check if the path is a directory and
 // either create the directory on the server
@@ -45,18 +32,38 @@ function handlePath(path) {
   return uploadFile(path, destination);
 }
 
-function sendFilesToFtp() {
-  glob.sync(`${basePath}/**/*`).forEach(handlePath);
+function createDirectory(destination) {
+  console.log(`createDirectory=${destination}`);
+  numberOfOpLaunched++;
+  return sftp.mkdir(destination).then(() => {
+    manageTerminatedOperation();
+  }).catch((err) => {
+    manageTerminatedOperation();
+  });
 }
 
-ftpClient.on('ready', () => {
-  // Get an array of all files and directories
-  // in the given base path and send them to the
-  // `handlePath()` function to decide if a
-  // directory is created on the server or the
-  // file is uploaded.
-  console.log(`Sending files`);
-  sendFilesToFtp();
-});
+function uploadFile(file, destination) {
+  console.log(`uploadFile ${file}`);
+  numberOfOpLaunched++;
+  return sftp.put(file, destination).then(() => {
+    manageTerminatedOperation();
+  }).catch((err) => {
+    manageTerminatedOperation();
+  });
+}
 
-ftpClient.connect(config);
+function manageTerminatedOperation() {
+  numberOfOpTerminated++;
+  if (numberOfOpTerminated >= numberOfOpLaunched) {
+    console.log(`Process terminated with ${numberOfOpTerminated}`);
+    sftp.end();
+  } else {
+    console.log(`Op terminated ; numberOfOpTerminated=${numberOfOpTerminated} ; numberOfOpLaunched=${numberOfOpLaunched}`);
+  }
+}
+
+sftp.connect(config).then(() => {
+    glob.sync(`${basePath}/**/*`).forEach(handlePath);
+}).catch((err) => {
+    console.log(err, 'catch error');
+});
