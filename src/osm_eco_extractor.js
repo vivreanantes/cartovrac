@@ -163,6 +163,10 @@ function populateItinerantShops(itinerantShopsJson) {
 			popup += place_name+'<br />';
 		    popup += '<a href="' + url + '" target="_blank">Site web avec les horaires de présence</a><br />';
 
+		    if (name == "Vrac'n Roule'") {
+		    	popup += JTB_HTML_BANNER;
+			}
+
 			// Check that popup has been correctly created
 			var position = {lat: latitude, lon: longitude};
 			addMarkerToMap(category, popup, position, null, null);

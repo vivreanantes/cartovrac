@@ -128,7 +128,9 @@
 	  "bulk_purchase": "only",
 	  "organic": "yes",
 	  "validated_with_owner": false,
-	  "places": []
+	  "places": [
+
+	  ]
 	},
 	{
 	  "name": "Tour'N Vrac",
@@ -179,7 +181,7 @@
 	  "website": "https://www.unptitgrainde.com/",
 	  "bulk_purchase": "only",
 	  "organic": "only",
-	  "validated_with_owner": false,
+	  "validated_with_owner": true,
 	  "places": [
 	  	{
 	  		"lat": 47.58494,
@@ -223,7 +225,7 @@
 	},
 	{
 	  "name": "Vrac en Vadrouille",
-	  "website": "https://www.facebook.com/VracEnVadrouille",
+	  "website": "http://www.vracenvadrouille.fr/",
 	  "bulk_purchase": "only",
 	  "organic": "yes",
 	  "validated_with_owner": false,

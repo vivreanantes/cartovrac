@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.55.5 2ca3f387",
   "osm3s": {
-    "timestamp_osm_base": "2019-01-26T14:02:03Z",
+    "timestamp_osm_base": "2019-02-04T07:32:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -759,6 +759,16 @@
 },
 {
   "type": "node",
+  "id": 4199637822,
+  "lat": 47.2212319,
+  "lon": -1.5578230,
+  "tags": {
+    "name": "Établissements Marchand",
+    "shop": "cheese"
+  }
+},
+{
+  "type": "node",
   "id": 4201236594,
   "lat": 47.2211701,
   "lon": -1.5580034,
@@ -1007,6 +1017,26 @@
     "organic": "only",
     "shop": "supermarket",
     "website": "http://www.leshameauxbio.fr/magasins/o%C3%B9-sommes-nous/pornichet/"
+  }
+},
+{
+  "type": "node",
+  "id": 5414276240,
+  "lat": 47.1037065,
+  "lon": -1.2322024,
+  "tags": {
+    "addr:city": "Sèvremoine",
+    "addr:housenumber": "14 bis",
+    "addr:postcode": "49230",
+    "addr:street": "Le Parveau",
+    "bulk_purchase": "only",
+    "contact:email": "casavrac@gmail.com",
+    "description": "Boutique de vente en ligne et sur place de produits vrac avec ivraison ou retrait en boutique",
+    "name": "CasaVrac",
+    "opening_hours:url": "https://www.casavrac.com/horaires",
+    "organic": "yes",
+    "shop": "convenience",
+    "website": "https://www.casavrac.com/"
   }
 },
 {
@@ -1442,6 +1472,23 @@
     "contact:facebook": "https://www.facebook.com/O-Mille-Caprices-338041810299865/",
     "name": "O Mille Caprices",
     "shop": "bakery"
+  }
+},
+{
+  "type": "node",
+  "id": 6133353987,
+  "lat": 47.2115790,
+  "lon": -1.6515906,
+  "tags": {
+    "addr:city": "Saint-Herblain",
+    "addr:housenumber": "7",
+    "addr:postcode": "44800",
+    "addr:street": "Rue Pierre Blard",
+    "bulk_purchase": "only",
+    "contact:facebook": "https://www.facebook.com/lecellierdheleneepicerievrac/",
+    "name": "Le Cellier d'Hélène",
+    "organic": "yes",
+    "shop": "convenience"
   }
 },
 {

@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.55.5 2ca3f387",
   "osm3s": {
-    "timestamp_osm_base": "2019-02-03T19:25:02Z",
-    "timestamp_areas_base": "2019-02-03T19:03:02Z",
+    "timestamp_osm_base": "2019-02-08T20:45:02Z",
+    "timestamp_areas_base": "2019-02-08T19:37:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -1272,6 +1272,24 @@
     "shop": "convenience",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011",
     "website": "https://lelefan.org/"
+  }
+},
+{
+  "type": "node",
+  "id": 1393417932,
+  "lat": 49.4230189,
+  "lon": 2.8233502,
+  "tags": {
+    "addr:housenumber": "208",
+    "addr:postcode": "60280",
+    "addr:street": "rue Molière",
+    "bulk_purchase": "yes",
+    "name": "Le Comptoir Bio",
+    "opening_hours": "Mo 15:30-19:00; Tu,Fr 09:30-13:00,14:30-19:30; We-Th,Sa 09:30-13:00,14:30-19:00",
+    "operator": "Biocoop",
+    "organic": "only",
+    "shop": "greengrocer",
+    "website": "http://www.comptoirbio.com"
   }
 },
 {
@@ -4432,9 +4450,12 @@
     "addr:postcode": "75007",
     "addr:street": "Rue de Sèvres",
     "bulk_purchase": "only",
+    "email": "daybyday.paris.sevres@gmail.com",
     "name": "Day by Day",
+    "opening_hours": "Tu-Fr 10:00-13:30, 15:30-19:30; Sa 10:00-19:30; Su 10:00-13:00",
     "operator": "Day by Day",
     "organic": "yes",
+    "phone": "0140242742",
     "shop": "convenience",
     "website": "http://daybyday-shop.com/magasin/paris-7"
   }
@@ -14722,13 +14743,19 @@
   "lat": 48.8696188,
   "lon": 2.3631444,
   "tags": {
+    "addr:housenumber": "30",
+    "addr:postcode": "75010",
+    "addr:street": "Rue Albert Thomas",
     "amenity": "restaurant",
     "bulk_purchase": "only",
     "contact:facebook": "https://www.facebook.com/opoaparis/",
     "description": "OPOA est à la fois une épicerie bio en vrac & une cantine saine et savoureuse, engagée dans la démarche zéro déchet.",
+    "email": "opoa.vrac@gmail.com",
     "name": "Opoa",
     "organic": "only",
-    "shop": "convenience"
+    "phone": "0788696972",
+    "shop": "convenience",
+    "website": "https://www.instagram.com/opoa.paris"
   }
 },
 {
@@ -19693,12 +19720,14 @@
   "lon": 2.8802458,
   "tags": {
     "addr:city": "Meaux",
+    "addr:housenumber": "20",
     "addr:postcode": "77100",
     "addr:street": "Rue du Grand Cerf",
     "brand": "day by day",
     "bulk_purchase": "only",
     "contact:email": "daybyday.meaux@gmail.com",
     "name": "day by day",
+    "opening_hours": "We-Sa 10:00-13:30, 15:00-19:30; Su 10:00-12:30; Tu 10:00-13:00, 15:00-19:30",
     "organic": "yes",
     "shop": "convenience",
     "website": "http://daybyday-shop.com/magasin/meaux"
@@ -20156,6 +20185,58 @@
     "name": "La Coop des Dômes",
     "shop": "convenience",
     "website": "http://www.coopdesdomes.fr/"
+  }
+},
+{
+  "type": "node",
+  "id": 6263881582,
+  "lat": 48.8849068,
+  "lon": 2.4038518,
+  "tags": {
+    "addr:city": "Le Pré-Saint-Gervais",
+    "addr:housenumber": "45",
+    "addr:postcode": "93310",
+    "addr:street": "Rue André Joineau",
+    "bulk_purchase": "yes",
+    "name": "Naturalia",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://magasins.naturalia.fr/produits-bio/pre-joineau/4013"
+  }
+},
+{
+  "type": "node",
+  "id": 6263891888,
+  "lat": 43.6597842,
+  "lon": 3.9320752,
+  "tags": {
+    "addr:city": "Le Crès",
+    "addr:housenumber": "1",
+    "addr:postcode": "34920",
+    "addr:street": "Rue du Pic Saint-Loup",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/placedumarchelecres/",
+    "name": "Place du Marché",
+    "organic": "yes",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 6263908254,
+  "lat": 47.2777127,
+  "lon": -2.2173745,
+  "tags": {
+    "addr:city": "Saint-Nazaire",
+    "addr:housenumber": "35",
+    "addr:postcode": "44600",
+    "addr:street": "Boulevard Léon Gambetta",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/lesamisdelacoopducoin/",
+    "name": "La Coop du Coin",
+    "organic": "yes",
+    "shop": "convenience",
+    "website": "https://lacoopducoin-epicerie-cooperative-participative.fr/"
   }
 },
 {
