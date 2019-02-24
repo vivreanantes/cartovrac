@@ -4,7 +4,7 @@ const fs = require('fs');
 const glob = require('glob');
 
 const basePath = './dist';
-const destinationPath = '/www/test';
+const destinationPath = '/www/';
 const config = {
   host: process.env.FTP_HOST,
   password: process.env.FTP_PASSWORD,

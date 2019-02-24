@@ -70,8 +70,6 @@ function populateWithJaimeTesBocauxShops() {
  * Parse the list of itinerant shops to display them on the map
  */
 function populateWithItinerantShops() {
-			console.log("populate itinerant");
-
 	var itinerantShopsJson;
 	$.when(
 	    $.getJSON(itinerantFileName, function(response) {
