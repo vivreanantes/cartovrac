@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.55.5 2ca3f387",
   "osm3s": {
-    "timestamp_osm_base": "2019-02-04T07:32:02Z",
+    "timestamp_osm_base": "2019-02-22T07:33:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -41,13 +41,17 @@
     "amenity": "restaurant",
     "contact:city": "Nantes",
     "contact:country": "FR",
+    "contact:facebook": "https://www.facebook.com/chacharestaurant",
     "contact:housenumber": "9",
     "contact:postcode": "44000",
     "contact:street": "Rue de la Bléterie",
     "contact:website": "http://www.chacharestaurant.fr/",
     "cuisine": "french",
+    "email": "restolechacha@gmail.com",
     "name": "Chacha",
+    "opening_hours": "We-Sa 12:00-15:30,19:00-23:30",
     "organic": "yes",
+    "phone": "+33 9 83 88 83 53",
     "takeaway": "yes"
   }
 },
@@ -543,6 +547,7 @@
     "addr:street": "Quai Turenne",
     "amenity": "restaurant",
     "contact:city": "Nantes",
+    "contact:email": "hello@totumcantine.bio",
     "contact:facebook": "https://www.facebook.com/totumcantinebio",
     "contact:housenumber": "11",
     "contact:instagram": "totum_cantine_bio",
@@ -554,8 +559,8 @@
     "diet:gluten_free": "only",
     "diet:vegan": "only",
     "diet:vegetarian": "yes",
-    "name": "Totum ― cantine bio",
-    "opening_hours": "Tu-Fr 10:00-19:00; Sa 10:00-21:30",
+    "name": "Totum Cantine Bio",
+    "opening_hours": "We,Th 12:00-14:30; Fr,Sa 12:00-14:30,19:00-21:30",
     "organic": "only",
     "outdoor_seating": "yes",
     "takeaway": "yes",
@@ -1021,26 +1026,6 @@
 },
 {
   "type": "node",
-  "id": 5414276240,
-  "lat": 47.1037065,
-  "lon": -1.2322024,
-  "tags": {
-    "addr:city": "Sèvremoine",
-    "addr:housenumber": "14 bis",
-    "addr:postcode": "49230",
-    "addr:street": "Le Parveau",
-    "bulk_purchase": "only",
-    "contact:email": "casavrac@gmail.com",
-    "description": "Boutique de vente en ligne et sur place de produits vrac avec ivraison ou retrait en boutique",
-    "name": "CasaVrac",
-    "opening_hours:url": "https://www.casavrac.com/horaires",
-    "organic": "yes",
-    "shop": "convenience",
-    "website": "https://www.casavrac.com/"
-  }
-},
-{
-  "type": "node",
   "id": 5418567639,
   "lat": 47.5211878,
   "lon": -2.2869608,
@@ -1431,6 +1416,23 @@
     "survey:date": "2018-09-26",
     "website": "http://www.biocoop.fr",
     "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5959789630,
+  "lat": 47.0870267,
+  "lon": -1.2828517,
+  "tags": {
+    "addr:city": "Clisson",
+    "addr:housenumber": "14",
+    "addr:postcode": "44190",
+    "addr:street": "Venelle de l'Escarpe",
+    "bulk_purchase": "only",
+    "name": "CasaVrac",
+    "organic": "yes",
+    "shop": "convenience",
+    "website": "https://www.casavrac.fr/"
   }
 },
 {

@@ -24,6 +24,20 @@
 	  "validated_with_owner": false,
 	  "places": []
 	},
+	// {
+	//   "name": "Du Vrac dans le Bocal",
+	//   "website": "https://www.facebook.com/duvracdanslebocal/",
+	//   "bulk_purchase": "only",
+	//   "organic": "yes",
+	//   "validated_with_owner": false,
+	//   "places": [
+	//   	{
+	//   		"lat": 50.25226,
+	//   		"lon": 1.88220,
+	//     	"place_name": "Marché de Crécy-en-Ponthieu"
+	// 	}
+	//   ]
+	// },
 	{
 	  "name": "La Main dans l'Sac",
 	  "website": "http://lamaindanslsac.fr/",
@@ -63,11 +77,67 @@
 	},
 	{
 	  "name": "La Réserve Bio",
-	  "website": "https://reservebio.fr/",
+	  "website": "https://reservebio.fr/emplacement/",
 	  "bulk_purchase": "only",
 	  "organic": "yes",
 	  "validated_with_owner": false,
-	  "places": []
+	  "places": [
+	  	{
+	  		"lat": 47.315953,
+	  		"lon": 5.02600,
+	    	"place_name": "Marché du Port du Canal"
+		},
+	  	{
+	  		"lat": 47.230157,
+	  		"lon": 5.19464,
+	    	"place_name": "Marché de Varanges"
+		},
+	  	{
+	  		"lat": 47.280558,
+	  		"lon": 5.002832,
+	    	"place_name": "Marché de Marsannay-la-Côte"
+		},
+	  	{
+	  		"lat": 47.297403,
+	  		"lon": 4.808365,
+	    	"place_name": "Marché de Pont-de-Pany"
+		},
+	  	{
+	  		"lat": 47.133509,
+	  		"lon": 5.215763,
+	    	"place_name": "Marché Brazey-en-Plaine"
+		},
+	  	{
+	  		"lat": 47.136503,
+	  		"lon": 4.949739,
+	    	"place_name": "Marché Nuits-Saint-Georges"
+		},
+	  	{
+	  		"lat": 47.242861,
+	  		"lon": 5.219892,
+	    	"place_name": "Marché Genlis"
+		},
+	  	{
+	  		"lat": 47.121478,
+	  		"lon": 5.399453,
+	    	"place_name": "Marché Bio Ferme de la Bussière"
+		},
+	  	{
+	  		"lat": 47.313230,
+	  		"lon": 5.110987,
+	    	"place_name": "Marché Bio de Quetigny"
+		},
+	  	{
+	  		"lat": 47.319045,
+	  		"lon": 5.040519,
+	    	"place_name": "Marché Place des Cordeliers - Dijon"
+		},
+	  	{
+	  		"lat": 47.521913,
+	  		"lon": 5.112264,
+	    	"place_name": "Marché Is-sur-Tille"
+		}
+	  ]
 	},
 	{
 	  "name": "La Vrac en Folie",

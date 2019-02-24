@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.55.5 2ca3f387",
   "osm3s": {
-    "timestamp_osm_base": "2019-02-08T20:45:02Z",
-    "timestamp_areas_base": "2019-02-08T19:37:02Z",
+    "timestamp_osm_base": "2019-02-22T07:33:02Z",
+    "timestamp_areas_base": "2019-02-22T06:56:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -155,10 +155,10 @@
     "addr:postcode": "25300",
     "addr:street": "Rue Arthur Bourdin",
     "bulk_purchase": "yes",
-    "name": "Biocoop des Hauts Doubs",
+    "name": "Biocoop du Haut-Doubs",
     "organic": "only",
     "shop": "supermarket",
-    "website": "http://pontarlier.biocoop.net/"
+    "website": "https://pontarlier.biocoop.net/"
   }
 },
 {
@@ -556,13 +556,20 @@
   "lat": 48.0234429,
   "lon": -1.7379734,
   "tags": {
+    "addr:city": "Bruz",
     "addr:housenumber": "41",
+    "addr:postcode": "35170",
+    "addr:street": "Avenue du Général de Gaulle",
     "bulk_purchase": "yes",
-    "contact:facebook": "https://www.facebook.com/CoqueliBio-BRUZ-1721063411487133/",
-    "name": "Coquelibio",
+    "email": "coqueli-bio@orange.fr",
+    "name": "Coqueli'Bio",
+    "opening_hours": "Mo-Sa 08:45-12:30, 15:00-19:15",
+    "operator": "MeriBreizh",
     "organic": "only",
-    "shop": "convenience",
-    "website": "http://www.coquelibio.fr/"
+    "payment:cash": "yes",
+    "phone": "+33 2 23 50 31 28",
+    "shop": "supermarket",
+    "website": "http://www.coquelibio.fr"
   }
 },
 {
@@ -721,6 +728,7 @@
     "addr:street": "Rue Marmontel",
     "bulk_purchase": "yes",
     "name": "Le Panier Bio",
+    "opening_hours": "Mo 14:30-19:00; Tu-Sa 09:00-19:00",
     "organic": "only",
     "shop": "supermarket",
     "website": "http://www.grandpanierbio.net/pages/clermontcentre.html"
@@ -1584,6 +1592,24 @@
     "organic": "only",
     "shop": "supermarket",
     "website": "http://www.biocoop.fr/magasins-bio/trouver-ma-biocoop/ile-de-france/yvelines/biocoop-epone"
+  }
+},
+{
+  "type": "node",
+  "id": 1631644114,
+  "lat": 48.8813155,
+  "lon": 2.1408677,
+  "tags": {
+    "brand": "Carrefour Market",
+    "brand:wikidata": "Q2689639",
+    "bulk_purchase": "yes",
+    "name": "Carrefour Market",
+    "opening_hours": "Mo-Sa 08:30-21:00",
+    "operator": "Carrefour",
+    "phone": "+33139765501",
+    "shop": "supermarket",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012",
+    "website": "http://www.carrefour.fr/magasin/market-croissy-sur-seine"
   }
 },
 {
@@ -3426,8 +3452,8 @@
 {
   "type": "node",
   "id": 2502904186,
-  "lat": 42.6722723,
-  "lon": 9.4432384,
+  "lat": 42.6722841,
+  "lon": 9.4432625,
   "tags": {
     "bulk_purchase": "yes",
     "name": "Au Panier Garni",
@@ -3516,6 +3542,23 @@
     "organic": "only",
     "shop": "supermarket",
     "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-paris-voltaire"
+  }
+},
+{
+  "type": "node",
+  "id": 2519754703,
+  "lat": 49.8604894,
+  "lon": 2.2766059,
+  "tags": {
+    "addr:city": "Dury",
+    "addr:housenumber": "84",
+    "addr:postcode": "80480",
+    "addr:street": "Route d'Amiens",
+    "bulk_purchase": "yes",
+    "name": "Biocoop",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://www.amiens-biocoop.fr/"
   }
 },
 {
@@ -4160,6 +4203,23 @@
 },
 {
   "type": "node",
+  "id": 3030220512,
+  "lat": 48.0627069,
+  "lon": -1.6259509,
+  "tags": {
+    "bulk_purchase": "yes",
+    "contact:website": "https://www.biocoop.fr/magasins-bio/Trouver-mon-magasin-Biocoop/Bretagne/Ille-et-Vilaine/SCARABEE-VERN",
+    "name": "Biocoop Scarabée Vern-Sur-Seiche",
+    "opening_hours": "Mo-Sa 08:45-20:30",
+    "operator": "Société coopérative d'alimentation rennaise biologique et écologique",
+    "organic": "only",
+    "shop": "supermarket",
+    "wikidata": "Q3058173",
+    "wikipedia": "fr:Biocoop"
+  }
+},
+{
+  "type": "node",
   "id": 3032946953,
   "lat": 43.5613104,
   "lon": 6.2325868,
@@ -4455,7 +4515,7 @@
     "opening_hours": "Tu-Fr 10:00-13:30, 15:30-19:30; Sa 10:00-19:30; Su 10:00-13:00",
     "operator": "Day by Day",
     "organic": "yes",
-    "phone": "0140242742",
+    "phone": "+33 140242742",
     "shop": "convenience",
     "website": "http://daybyday-shop.com/magasin/paris-7"
   }
@@ -5993,8 +6053,8 @@
 {
   "type": "node",
   "id": 3894006800,
-  "lat": 44.5317892,
-  "lon": 4.7406196,
+  "lat": 44.5315767,
+  "lon": 4.7405430,
   "tags": {
     "bulk_purchase": "yes",
     "name": "Le grand panier Bio",
@@ -9040,6 +9100,7 @@
     "opening_hours": "Mo-Fr 09:30-13:00,14:30-19:30; sa09:30-19:00, Dec 25 off",
     "operator": "Biocoop Panier du Béarn",
     "organic": "only",
+    "payment:Tinda": "yes",
     "phone": "+33 5 59 60 07 57",
     "shop": "supermarket",
     "website": "http://bearn.biocoop.net/"
@@ -11247,10 +11308,11 @@
     "addr:postcode": "59000",
     "addr:street": "Rue du Molinel",
     "brand": "Biocoop",
+    "brand:wikidata": "Q2904039",
+    "brand:wikipedia": "fr:Biocoop",
     "bulk_purchase": "yes",
     "name": "Biocoop",
     "opening_hours": "Tu-Sa 10:00-19:30, Mo 15:00-19:30",
-    "organic": "only",
     "shop": "supermarket",
     "website": "http://biocoop.fr/magasins-bio/Trouver-mon-magasin-Biocoop/Hauts-de-France/Nord/BIOCOOP-DU-MOLINEL"
   }
@@ -11708,10 +11770,10 @@
     "bulk_purchase": "only",
     "contact:email": "casavrac@gmail.com",
     "description": "Boutique de vente en ligne et sur place de produits vrac avec ivraison ou retrait en boutique",
+    "disused:shop": "convenience",
     "name": "CasaVrac",
     "opening_hours:url": "https://www.casavrac.com/horaires",
     "organic": "yes",
-    "shop": "convenience",
     "website": "https://www.casavrac.com/"
   }
 },
@@ -12057,8 +12119,8 @@
 {
   "type": "node",
   "id": 5556315474,
-  "lat": 46.1285825,
-  "lon": 5.8127989,
+  "lat": 46.1286054,
+  "lon": 5.8125838,
   "tags": {
     "addr:city": "Bellegarde-sur-Valserine",
     "addr:housenumber": "106",
@@ -12844,7 +12906,7 @@
     "addr:postcode": "49000",
     "addr:street": "Route de Cholet",
     "bulk_purchase": "yes",
-    "name": "Biocoop Caba Mûrs-Érigné",
+    "name": "Biocoop Caba Mûrs-Erigné",
     "organic": "only",
     "shop": "supermarket",
     "website": "http://biocoop-caba.fr/"
@@ -13406,8 +13468,8 @@
 {
   "type": "node",
   "id": 5613774869,
-  "lat": 47.4238720,
-  "lon": 0.6594120,
+  "lat": 47.4238121,
+  "lon": 0.6592363,
   "tags": {
     "addr:housenumber": "243",
     "addr:postcode": "37540",
@@ -13869,21 +13931,28 @@
   "lat": 48.5927762,
   "lon": 7.7236298,
   "tags": {
+    "addr:city": "Strasbourg",
+    "addr:housenumber": "36",
+    "addr:postcode": "67200",
+    "addr:street": "Route de Mittelhausbergen",
     "bulk_purchase": "only",
     "contact:city": "Strasbourg",
+    "contact:email": "contact@beevrac.fr",
     "contact:housenumber": "36",
+    "contact:phone": "09 81 36 26 24",
     "contact:postcode": "67200",
     "contact:street": "Route de Mittelhausbergen",
     "contact:website": "https://Beevrac.fr",
     "description": "Epicerie 100% Vrac, Zéro Déchets, Bio. Alimentaire, Cosmétique, Entretien",
     "name": "BeeVrac",
-    "opening_hours": "Tu-Fr 10:00-13:00, Tu-Fr 14:30-19:30, Sa 10:00-17:00",
+    "opening_hours": "Tu-Fr 10:00-13:00,14:30-19:30; Sa 10:00-17:00",
     "organic": "only",
     "payment:cash": "yes",
     "payment:credit_cards": "yes",
     "payment:mastercard": "yes",
     "payment:visa": "yes",
-    "shop": "convenience"
+    "shop": "convenience",
+    "website": "https://beevrac.fr/"
   }
 },
 {
@@ -13951,8 +14020,8 @@
 {
   "type": "node",
   "id": 5729585125,
-  "lat": 47.2391362,
-  "lon": 6.0218676,
+  "lat": 47.2391443,
+  "lon": 6.0218359,
   "tags": {
     "addr:city": "Besançon",
     "addr:housenumber": "15",
@@ -13963,7 +14032,7 @@
     "diet:vegetarian": "yes",
     "name": "Naturalia",
     "organic": "only",
-    "shop": "supermarket",
+    "shop": "convenience",
     "website": "http://www.naturalia.fr"
   }
 },
@@ -13988,12 +14057,13 @@
 {
   "type": "node",
   "id": 5739779109,
-  "lat": 48.8156954,
-  "lon": 2.3113579,
+  "lat": 48.8157091,
+  "lon": 2.3113760,
   "tags": {
-    "addr:housenumber": "99",
-    "addr:street": "Rue Maurice Arnoux",
     "bulk_purchase": "yes",
+    "contact:housenumber": "99",
+    "contact:postcode": "92120",
+    "contact:street": "Rue Maurice Arnoux",
     "level": "0",
     "name": "Biocoop",
     "opening_hours": "Mo-Sa 10:00-20:00",
@@ -14753,7 +14823,7 @@
     "email": "opoa.vrac@gmail.com",
     "name": "Opoa",
     "organic": "only",
-    "phone": "0788696972",
+    "phone": "+33 788696972",
     "shop": "convenience",
     "website": "https://www.instagram.com/opoa.paris"
   }
@@ -17687,19 +17757,6 @@
 },
 {
   "type": "node",
-  "id": 6014978285,
-  "lat": 48.0627159,
-  "lon": -1.6256907,
-  "tags": {
-    "bulk_purchase": "yes",
-    "contact:website": "https://www.biocoop.fr/magasins-bio/Trouver-mon-magasin-Biocoop/Bretagne/Ille-et-Vilaine/SCARABEE-VERN",
-    "name": "Biocoop",
-    "organic": "only",
-    "shop": "supermarket"
-  }
-},
-{
-  "type": "node",
   "id": 6019534754,
   "lat": 45.8750199,
   "lon": 1.2702942,
@@ -19958,6 +20015,24 @@
 },
 {
   "type": "node",
+  "id": 6198136694,
+  "lat": 48.1085159,
+  "lon": -1.6798262,
+  "tags": {
+    "addr:city": "Rennes",
+    "addr:housenumber": "1 bis",
+    "addr:postcode": "35000",
+    "addr:street": "Rue Poullain Duparc",
+    "bulk_purchase": "only",
+    "facebook": "https://www.facebook.com/mamiemesure/",
+    "name": "Mamie Mesure",
+    "opening_hours": "Tu-Fr 10:00-13:30,14:30-19:00; Sa 10:00-19:00",
+    "shop": "convenience",
+    "website": "https://mamiemesure.fr/"
+  }
+},
+{
+  "type": "node",
   "id": 6218009302,
   "lat": 50.9379479,
   "lon": 1.8624608,
@@ -20237,6 +20312,102 @@
     "organic": "yes",
     "shop": "convenience",
     "website": "https://lacoopducoin-epicerie-cooperative-participative.fr/"
+  }
+},
+{
+  "type": "node",
+  "id": 6276118927,
+  "lat": 48.9077781,
+  "lon": 2.1506584,
+  "tags": {
+    "addr:city": "Montesson",
+    "addr:housenumber": "11",
+    "addr:postcode": "78360",
+    "addr:street": "rue du président René Coty",
+    "brand": "Biocoop",
+    "brand:wikidata": "Q2904039",
+    "brand:wikipedia": "fr:Biocoop",
+    "bulk_purchase": "yes",
+    "description": "Il se situe sous le magasin Franprix",
+    "name": "Biocoop",
+    "opening_hours": "Lundi : Fermé Mardi : 10h00 / 20h00 Mercredi : 10h00 / 20h00 Jeudi : 10h00 / 20h00 Vendredi : 10h00 / 20h00 Samedi : 09h30 / 19h30 Dimanche : 09h30 / 12h30",
+    "operator": "Biocoop La Chouette",
+    "organic": "only",
+    "phone": "09 63 59 94 84",
+    "shop": "supermarket",
+    "website": "https://www.biocoop-lachouette.fr"
+  }
+},
+{
+  "type": "node",
+  "id": 6278710581,
+  "lat": 48.8711188,
+  "lon": 2.1125621,
+  "tags": {
+    "addr:city": "Louveciennes",
+    "addr:housenumber": "8",
+    "addr:postcode": "78430",
+    "addr:street": "Route de Saint Germain",
+    "bulk_purchase": "yes",
+    "name": "Natureo",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://www.natureo-bio.fr/magasin-bio/louveciennes/"
+  }
+},
+{
+  "type": "node",
+  "id": 6278765004,
+  "lat": 48.2961466,
+  "lon": -1.4306613,
+  "tags": {
+    "addr:city": "Mézières-sur-Couesnon",
+    "addr:housenumber": "4bis",
+    "addr:postcode": "35140",
+    "addr:street": "Rue Saint-Jean",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/epicerie.saveurslocales/",
+    "name": "Saveurs Locales",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 6278810555,
+  "lat": 48.8650087,
+  "lon": 2.3740253,
+  "tags": {
+    "addr:city": "Paris",
+    "addr:housenumber": "75",
+    "addr:postcode": "75011",
+    "addr:street": "Rue Oberkampf",
+    "bulk_purchase": "only",
+    "name": "The Naked Shop",
+    "shop": "chemist",
+    "website": "http://thenakedshop.fr/"
+  }
+},
+{
+  "type": "node",
+  "id": 6293365932,
+  "lat": 48.0789095,
+  "lon": 7.3659729,
+  "tags": {
+    "addr:city": "Colmar",
+    "addr:housenumber": "7",
+    "addr:postcode": "68000",
+    "addr:street": "Rue du Grillenbreit",
+    "brand": "Biocoop",
+    "brand:wikidata": "Q2904039",
+    "brand:wikipedia": "fr:Biocoop",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/BiocoopSonnebluem/",
+    "name": "Biocoop Sonneblüem",
+    "opening_hours": "Mo 14:30-19:00; Tu-Th 09:00-12:30,14:30-19:00; Fr 09:00-19:00; Sa 09:00-18:15",
+    "operator": "Coopérative Sonneblüem",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://www.biocoop.fr/magasins-bio/Trouver-mon-magasin-Biocoop/Grand-Est/Haut-Rhin/SONNEBLUEM"
   }
 },
 {
@@ -21279,6 +21450,7 @@
     793059170,
     792988388,
     793064046,
+    6269213792,
     792952428,
     793008947,
     793008642,
@@ -21653,6 +21825,7 @@
     824670325,
     825091237,
     825189515,
+    6280211705,
     824355396,
     824670325
   ],
@@ -23610,16 +23783,12 @@
   "type": "way",
   "id": 85106922,
   "center": {
-    "lat": 43.8438553,
-    "lon": 5.0777008
+    "lat": 43.8438455,
+    "lon": 5.0777130
   },
   "nodes": [
     987266500,
     987290916,
-    987345719,
-    987278824,
-    987272041,
-    987261099,
     987341495,
     987342294,
     987266500
@@ -23935,6 +24104,7 @@
     "brand": "Day by Day",
     "bulk_purchase": "only",
     "name": "Day by Day",
+    "opening_hours": "Tu-Sa 10:00-13:30,15:00-19:00; Su 10:00-13:00",
     "operator": "Analya",
     "organic": "yes",
     "ref:FR:SIRET": "83868937000016",
@@ -24288,6 +24458,7 @@
     5127056227,
     1098970218,
     5127056226,
+    6288942339,
     1098952736,
     5127056225,
     1099142483,
@@ -25812,7 +25983,7 @@
     "bulk_purchase": "yes",
     "fax": "+33 2 97 47 55 26",
     "name": "Intermarché Super",
-    "opening_hours": "Mo-Sa 08:30-20:00, Sun 09:30-12:30",
+    "opening_hours": "Mo-Sa 08:30-20:00; Su 09:30-12:30",
     "operator": "SA Samur",
     "organic": "yes",
     "payment:cash": "yes",
@@ -26572,6 +26743,7 @@
     "building": "yes",
     "bulk_purchase": "yes",
     "name": "Biocoop",
+    "opening_hours": "Mo 14:30-19:30; Tu-Fr 09:30-13:30,15:00-19:30; Sa 09:30-19:30",
     "organic": "only",
     "shop": "supermarket",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012",
