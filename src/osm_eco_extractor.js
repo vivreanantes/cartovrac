@@ -60,23 +60,29 @@ function populateWithJaimeTesBocauxShops() {
 	    $.getJSON(cacheJtbFileName, function(response) {
 	        jtbShopsJson = response.elements;
 	    })
-	).then(function() {
-		populateJtbShops(jtbShopsJson);
-	});
+		.then(function() {
+			populateJtbShops(jtbShopsJson);
+		})
+	);
 }
 
 /**
  * Parse the list of itinerant shops to display them on the map
  */
 function populateWithItinerantShops() {
+			console.log("populate itinerant");
+
 	var itinerantShopsJson;
 	$.when(
 	    $.getJSON(itinerantFileName, function(response) {
 	        itinerantShopsJson = response.elements;
-	    })
-	).then(function() {
-		populateItinerantShops(itinerantShopsJson);
-	});
+	    }).then(function() {
+			populateItinerantShops(itinerantShopsJson);
+	  	}).fail(function( jqxhr, textStatus, error ) {
+    		var err = textStatus + ", " + error;
+    		console.log( "Request Failed: " + err );
+		})
+  	);
 }
 
 /**

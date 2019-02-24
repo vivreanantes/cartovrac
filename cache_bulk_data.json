@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.55.5 2ca3f387",
   "osm3s": {
-    "timestamp_osm_base": "2019-02-22T07:33:02Z",
-    "timestamp_areas_base": "2019-02-22T06:56:02Z",
+    "timestamp_osm_base": "2019-02-24T21:06:02Z",
+    "timestamp_areas_base": "2019-02-24T20:54:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -3555,8 +3555,11 @@
     "addr:postcode": "80480",
     "addr:street": "Route d'Amiens",
     "bulk_purchase": "yes",
-    "name": "Biocoop",
+    "name": "Biocoop Berche du Bio",
+    "opening_hours": "Mo-Sa 09:00-19:30",
+    "operator": "Biocoop",
     "organic": "only",
+    "phone": "+33 3 22 41 52 30",
     "shop": "supermarket",
     "website": "https://www.amiens-biocoop.fr/"
   }
@@ -9327,6 +9330,7 @@
     "name:en": "Organic's good",
     "name:fr": "Bio C' Bon",
     "opening_hours": "Mo-Fr 09:30-19:30; Sa 09:00-19:30; Su 10:00-13:00",
+    "organic": "only",
     "phone": "+33352790081",
     "shop": "convenience",
     "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-amiens"
@@ -20408,6 +20412,27 @@
     "organic": "only",
     "shop": "supermarket",
     "website": "https://www.biocoop.fr/magasins-bio/Trouver-mon-magasin-Biocoop/Grand-Est/Haut-Rhin/SONNEBLUEM"
+  }
+},
+{
+  "type": "node",
+  "id": 6295320107,
+  "lat": 47.8871321,
+  "lon": 7.2347210,
+  "tags": {
+    "addr:city": "Soultz-Haut-Rhin",
+    "addr:housenumber": "14",
+    "addr:postcode": "68360",
+    "addr:street": "Rue des Prés",
+    "bulk_purchase": "only",
+    "contact:email": "lesbocauxdeclo@gmail.com",
+    "contact:phone": "06 49 62 32 66",
+    "facebook": "https://www.facebook.com/envracenligneendrive/",
+    "name": "Les Bocaux de Clo",
+    "opening_hours": "Mo 15:00-19:00; Tu-Fr 10:00-13:00,15:00-19:30; We,Sa 10:00-13:00",
+    "parking_space": "yes",
+    "shop": "convenience",
+    "website": "https://www.lesbocauxdeclo.com/"
   }
 },
 {

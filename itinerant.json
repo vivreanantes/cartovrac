@@ -24,20 +24,6 @@
 	  "validated_with_owner": false,
 	  "places": []
 	},
-	// {
-	//   "name": "Du Vrac dans le Bocal",
-	//   "website": "https://www.facebook.com/duvracdanslebocal/",
-	//   "bulk_purchase": "only",
-	//   "organic": "yes",
-	//   "validated_with_owner": false,
-	//   "places": [
-	//   	{
-	//   		"lat": 50.25226,
-	//   		"lon": 1.88220,
-	//     	"place_name": "Marché de Crécy-en-Ponthieu"
-	// 	}
-	//   ]
-	// },
 	{
 	  "name": "La Main dans l'Sac",
 	  "website": "http://lamaindanslsac.fr/",
