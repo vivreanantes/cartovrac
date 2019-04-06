@@ -1,3 +1,8 @@
+---
+layout: post
+title: Blogging Like a Hacker
+---
+
 # Ajouter des commerces acceptant les contenants
 
 ## Fonctionnement de CartoVrac
