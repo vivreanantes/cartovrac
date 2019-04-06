@@ -1,6 +1,6 @@
 ---
-layout: post
-title: Blogging Like a Hacker
+layout: none
+title: CartoVrac
 ---
 
 # Ajouter des commerces acceptant les contenants
