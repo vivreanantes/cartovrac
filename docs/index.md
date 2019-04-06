@@ -38,7 +38,7 @@ Ces avantages définissent l'identité de CartoVrac et le différencie des autre
 Afin de récupérer le plus de données possible CartoVrac encourage et accompagne ses utilisateurs à contribuer à OpenStreetMap. Nous avons également ajouté un bouton "Ajouter un commerce" sur la carte, renvoyant vers un formulaire nous permettant de récupérer facilement des données concernant les commerces de vente en vrac. Nous ajoutons ensuite manuellement ces données sur OpenStreetMap.
 
 Sur la carte les commerces avec rayons vrac sont affichés une fois extrait d'OpenStreetMap suivant trois catégories :
-- les épiceries dédiées au vrac ![](../assets/img/icons/icon_bulk_only.png){: height="35px" }
+- les épiceries dédiées au vrac ![](assets/img/icons/icon_bulk_only.png){: height="35px" }
 - les épiceries comportant un rayon vrac mais dont l'activité commerciale n'est pas dédiée au vrac <img src=https://raw.githubusercontent.com/vivreanantes/cartovrac/master/assets/img/icons/icon_convenience.png height="35px">
 - les supermarchés bio. comportant un rayon vrac mais dont l'activité commerciale n'est pas dédiée au vrac <img src=https://raw.githubusercontent.com/vivreanantes/cartovrac/master/assets/img/icons/icon_supermarket.png height="35px">
 
