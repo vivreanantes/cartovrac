@@ -23,7 +23,7 @@ Les données concernant ces commerces sont récupérées automatiquement depuis 
 
 La base de données OpenStreetMap est utilisée et complétée par des milliers d'utilisateurs et contributeurs. Les données ajoutées par ses contributeurs sont libres de droits et faciles à extraire du fait de sa structures et des outils qui sont associés à OpenStreetMap.
 
-Il est possible de consulter les données OpenStreetMap sur https://openstreetmap.org ou encore http://osm.org
+Il est possible de consulter les données OpenStreetMap sur [https://openstreetmap.org](https://openstreetmap.org) ou encore [http://osm.org](http://osm.org)
 
 Pour les épiceries et supermarchés bio. avec rayon vrac, nous avons fait le choix d'utiliser OpenStreetMap comme base de données cartographiques pour de multiple raisons :
 - il est facile d'extraire les commerces comportant un rayon vrac grâce à un champs de données dédié au vrac (permettant de différencier les commerces sans rayon vrac, les commerces ayant un rayon vrac et les commerces dédiés au vrac)
@@ -73,16 +73,16 @@ Pour devenir partenaire et voir affiché sur CartoVrac la liste des commerçants
 1. Nous contacter par email et nous expliquer votre démarche : contact@cartovrac.fr
 2. Nous conviendrons ensuite d'un entretien téléphonique pour mettre en place le partenariat
 3. A la suite de l'entretien téléphonique nous vous enverrons un document partagé sur lequel vous pourrez nous transmettre la liste de vos commerçants
-4. Pour chacun de vos commerçants, nous vous demandons de les ajouter sur https://openstreetmap.org et de copier les liens OpenStreetMap des commerces dans le document partagé que nous vous avons fourni
+4. Pour chacun de vos commerçants, nous vous demandons de les ajouter sur [https://openstreetmap.org](https://openstreetmap.org) et de copier les liens OpenStreetMap des commerces dans le document partagé que nous vous avons fourni
 5. Nous nous chargeons d'ajouter vos commerces sur CartoVrac avec les liens OpenStreetMap fournis
 6. Nous vous partageons le code HTML qui vous permettra à votre souhait d'intégrer CartoVrac zoomé sur votre région pour votre site internet 
 
 ### Référencer un commerce sur OpenStreetMap
 
-Voici un tutoriel qui explique comment contribuer à OpenStreetMap : https://learnosm.org/fr/beginner/start-osm/
+Voici un tutoriel qui explique comment contribuer à OpenStreetMap : [https://learnosm.org/fr/beginner/start-osm/](https://learnosm.org/fr/beginner/start-osm/)
 
 En résumé, voici les étapes que vous devrez suivre pour ajouter vos commerces :
-1. Rendez vous sur https://osm.org
+1. Rendez vous sur [https://osm.org](https://osm.org)
 
 ![](https://raw.githubusercontent.com/vivreanantes/cartovrac/master/communication/1.jpg){: width="800px" }
 
@@ -140,13 +140,13 @@ Les ajouts sont immédiats sur OpenStreetMap.
 
 ### Ajouter le lien OpenStreetMap sur le document partagé
 
-Une fois que vous avez fait vos ajouts, rendez vous sur https://osm.org de nouveau. Ensuite, recherchez vos commerces un par un, sélectionnez le commerce une fois trouvé et copiez l'adresse web du site.
+Une fois que vous avez fait vos ajouts, rendez vous sur [https://osm.org](https://osm.org) de nouveau. Ensuite, recherchez vos commerces un par un, sélectionnez le commerce une fois trouvé et copiez l'adresse web du site.
 
 
 ![](https://raw.githubusercontent.com/vivreanantes/cartovrac/master/communication/16.jpg){: width="800px" }
 
 ![](https://raw.githubusercontent.com/vivreanantes/cartovrac/master/communication/17.jpg){: width="800px" }
 
-L'adresse devrait ressembler à quelque chose comme : https://www.openstreetmap.org/node/5594452333
+L'adresse devrait ressembler à quelque chose comme : [https://www.openstreetmap.org/node/5594452333](https://www.openstreetmap.org/node/5594452333)
 
 Copiez alors ce lien dans la colonne "Lien OpenStreetMap" du document partagé, en face du commerce que vous avez recherché.
