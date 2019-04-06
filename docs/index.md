@@ -39,8 +39,8 @@ Afin de récupérer le plus de données possible CartoVrac encourage et accompag
 
 Sur la carte les commerces avec rayons vrac sont affichés une fois extrait d'OpenStreetMap suivant trois catégories :
 - les épiceries dédiées au vrac ![](https://raw.githubusercontent.com/vivreanantes/cartovrac/master/assets/img/icons/icon_bulk_only.png){: height="35px" }
-- les épiceries comportant un rayon vrac mais dont l'activité commerciale n'est pas dédiée au vrac <img src=https://raw.githubusercontent.com/vivreanantes/cartovrac/master/assets/img/icons/icon_convenience.png height="35px">
-- les supermarchés bio. comportant un rayon vrac mais dont l'activité commerciale n'est pas dédiée au vrac <img src=https://raw.githubusercontent.com/vivreanantes/cartovrac/master/assets/img/icons/icon_supermarket.png height="35px">
+- les épiceries comportant un rayon vrac mais dont l'activité commerciale n'est pas dédiée au vrac ![](https://raw.githubusercontent.com/vivreanantes/cartovrac/master/assets/img/icons/icon_convenience.png){: height="35px" }
+- les supermarchés bio. comportant un rayon vrac mais dont l'activité commerciale n'est pas dédiée au vrac ![](https://raw.githubusercontent.com/vivreanantes/cartovrac/master/assets/img/icons/icon_supermarket.png){: height="35px" }
 
 ### Épiceries itinérantes dédiées au vrac
 
@@ -52,7 +52,7 @@ Nous avons donc fait le choix de créer notre propre jeu de données pour ce typ
 
 Dans ce jeu de données chaque commerce est identifié par son nom et un lien décrivant ses horaires de présence ainsi que la liste de ses positions géographiques.
 
-Les commerces vrac itinérants sont ensuite affichés sur CartoVrac et identifiés par le biais de ce logo : <img src=https://raw.githubusercontent.com/vivreanantes/cartovrac/master/assets/img/icons/icon_marketplace.png height="35px">
+Les commerces vrac itinérants sont ensuite affichés sur CartoVrac et identifiés par le biais de ce logo : ![](https://raw.githubusercontent.com/vivreanantes/cartovrac/master/assets/img/icons/icon_marketplace.png){: height="35px" }
 
 ### Commerces acceptant les contenants
 
@@ -84,57 +84,57 @@ Voici un tutoriel qui explique comment contribuer à OpenStreetMap : https://lea
 En résumé, voici les étapes que vous devrez suivre pour ajouter vos commerces :
 1. Rendez vous sur https://osm.org
 
-<img src=https://raw.githubusercontent.com/vivreanantes/cartovrac/master/communication/1.jpg width="700px">
+![](https://raw.githubusercontent.com/vivreanantes/cartovrac/master/communication/1.jpg){: width="700px" }
 
 2. Connectez-vous à votre compte OpenStreetMap ou créez en un si vous n'en possédez pas déjà
 
-<img src=https://raw.githubusercontent.com/vivreanantes/cartovrac/master/communication/2.jpg width="700px">
+![](https://raw.githubusercontent.com/vivreanantes/cartovrac/master/communication/2.jpg){: width="700px" }
 
 3. Vous êtes connecté.
 
 4. Faites une recherche pour vérifier que le commerce que vous souhaitez ajouter n’est pas déjà référencé. Ici, nous allons prendre pour exemple l’épicerie « la Consigne » à Cherbourg. Comme le montre la
 copie d’écran suivante, la recherche n’a rien donné.
 
-<img src=https://raw.githubusercontent.com/vivreanantes/cartovrac/master/communication/5.jpg width="700px">
+![](https://raw.githubusercontent.com/vivreanantes/cartovrac/master/communication/5.jpg){: width="700px" }
 
 Si la recherche est fructueuse et que le commerce est déjà référencé, vérifiez si les attributs suivants sont renseignés et corrects : nom, adresse, type de magasin, site web. (ces attributs sont détaillés plus loin). 
 
 Si ce n’est pas le cas, recherchez le commerce à l'aide de son adresse postale : 
 
-<img src=https://raw.githubusercontent.com/vivreanantes/cartovrac/master/communication/5bis.jpg width="700px">
+![](https://raw.githubusercontent.com/vivreanantes/cartovrac/master/communication/5bis.jpg){: width="700px" }
 
 5. Cliquez sur modifier, ce qui va vous permettre de faire un référencement. 
 
-<img src=https://raw.githubusercontent.com/vivreanantes/cartovrac/master/communication/6.jpg width="700px">
+![](https://raw.githubusercontent.com/vivreanantes/cartovrac/master/communication/6.jpg){: width="700px" }
 
 Si c’est la première fois que vous vous connectez et que vous contribuez à OSM en cliquant sur « modifier », un tutoriel d’utilisation de mode d’édition vous est proposé. Nous vous conseillons vivement de le suivre afin de vous familiariser avec la contribution sur OSM, ce qui va vous permettre de suivre la suite du présent tutoriel, qui ne reprend pas les éléments explicatifs du tutoriel d’OSM.
 
 6. cliquez sur "point" en haut de la carte
 
-<img src=https://raw.githubusercontent.com/vivreanantes/cartovrac/master/communication/9.jpg width="700px">
+![](https://raw.githubusercontent.com/vivreanantes/cartovrac/master/communication/9.jpg){: width="700px" }
 
 7. Positionnez le curseur de la souris sur le bâtiment où se trouve votre commerce et cliquez.
 
 La barre « que souhaitez-vous ajouter » s’affiche. Dans « rechercher » entrez le type de commerce à référencer : épicerie/supérette, magasin biologique, boulangerie, boucherie ... puis sélectionnez le.
 
-<img src=https://raw.githubusercontent.com/vivreanantes/cartovrac/master/communication/10.jpg width="700px">
+![](https://raw.githubusercontent.com/vivreanantes/cartovrac/master/communication/10.jpg){: width="700px" }
 
 8. Remplissez à minima les champs suivants :
     - Nom
     - Adresse complète
     - Site web si possible (sur « ajouter un champ » entrez « Site Web »)
 
-<img src=https://raw.githubusercontent.com/vivreanantes/cartovrac/master/communication/11.jpg width="700px">
+![](https://raw.githubusercontent.com/vivreanantes/cartovrac/master/communication/11.jpg){: width="700px" }
 
 9. Renouvelez l'opération pour l'ensemble des commerces que vous souhaitez ajouter
 
 10. Une fois terminé, cliquez sur "sauvegarder" sur le dessus de la carte 
 
-<img src=https://raw.githubusercontent.com/vivreanantes/cartovrac/master/communication/14.jpg width="700px">
+![](https://raw.githubusercontent.com/vivreanantes/cartovrac/master/communication/14.jpg){: width="700px" }
 
 11. Remplissez les motivations de votre ajout (Exemple : "Ajout de commerces acceptant les contenants") puis validez votre enregistrement
 
-<img src=https://raw.githubusercontent.com/vivreanantes/cartovrac/master/communication/15.jpg width="700px">
+![](https://raw.githubusercontent.com/vivreanantes/cartovrac/master/communication/15.jpg){: width="700px" }
 
 Les ajouts sont immédiats sur OpenStreetMap.
 
@@ -143,9 +143,9 @@ Les ajouts sont immédiats sur OpenStreetMap.
 Une fois que vous avez fait vos ajouts, rendez vous sur https://osm.org de nouveau. Ensuite, recherchez vos commerces un par un, sélectionnez le commerce une fois trouvé et copiez l'adresse web du site.
 
 
-<img src=https://raw.githubusercontent.com/vivreanantes/cartovrac/master/communication/16.jpg width="700px">
+![](https://raw.githubusercontent.com/vivreanantes/cartovrac/master/communication/16.jpg){: width="700px" }
 
-<img src=https://raw.githubusercontent.com/vivreanantes/cartovrac/master/communication/17.jpg width="700px">
+![](https://raw.githubusercontent.com/vivreanantes/cartovrac/master/communication/17.jpg){: width="700px" }
 
 L'adresse devrait ressembler à quelque chose comme : https://www.openstreetmap.org/node/5594452333
 
