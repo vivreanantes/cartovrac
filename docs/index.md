@@ -82,17 +82,18 @@ Pour devenir partenaire et voir affiché sur CartoVrac la liste des commerçants
 Voici un tutoriel qui explique comment contribuer à OpenStreetMap : [https://learnosm.org/fr/beginner/start-osm/](https://learnosm.org/fr/beginner/start-osm/)
 
 En résumé, voici les étapes que vous devrez suivre pour ajouter vos commerces :
-1. Rendez vous sur [https://osm.org](https://osm.org)
+
+1) Rendez vous sur [https://osm.org](https://osm.org)
 
 ![](https://raw.githubusercontent.com/vivreanantes/cartovrac/master/communication/1.jpg){: width="800px" }
 
-2. Connectez-vous à votre compte OpenStreetMap ou créez en un si vous n'en possédez pas déjà
+2) Connectez-vous à votre compte OpenStreetMap ou créez en un si vous n'en possédez pas déjà
 
 ![](https://raw.githubusercontent.com/vivreanantes/cartovrac/master/communication/2.jpg){: width="800px" }
 
-3. Vous êtes connecté.
+3) Vous êtes connecté.
 
-4. Faites une recherche pour vérifier que le commerce que vous souhaitez ajouter n’est pas déjà référencé. Ici, nous allons prendre pour exemple l’épicerie « la Consigne » à Cherbourg. Comme le montre la
+4) Faites une recherche pour vérifier que le commerce que vous souhaitez ajouter n’est pas déjà référencé. Ici, nous allons prendre pour exemple l’épicerie « la Consigne » à Cherbourg. Comme le montre la
 copie d’écran suivante, la recherche n’a rien donné.
 
 ![](https://raw.githubusercontent.com/vivreanantes/cartovrac/master/communication/5.jpg){: width="800px" }
@@ -103,36 +104,36 @@ Si ce n’est pas le cas, recherchez le commerce à l'aide de son adresse postal
 
 ![](https://raw.githubusercontent.com/vivreanantes/cartovrac/master/communication/5bis.jpg){: width="800px" }
 
-5. Cliquez sur modifier, ce qui va vous permettre de faire un référencement. 
+5) Cliquez sur modifier, ce qui va vous permettre de faire un référencement. 
 
 ![](https://raw.githubusercontent.com/vivreanantes/cartovrac/master/communication/6.jpg){: width="800px" }
 
 Si c’est la première fois que vous vous connectez et que vous contribuez à OSM en cliquant sur « modifier », un tutoriel d’utilisation de mode d’édition vous est proposé. Nous vous conseillons vivement de le suivre afin de vous familiariser avec la contribution sur OSM, ce qui va vous permettre de suivre la suite du présent tutoriel, qui ne reprend pas les éléments explicatifs du tutoriel d’OSM.
 
-6. cliquez sur "point" en haut de la carte
+6) cliquez sur "point" en haut de la carte
 
 ![](https://raw.githubusercontent.com/vivreanantes/cartovrac/master/communication/9.jpg){: width="800px" }
 
-7. Positionnez le curseur de la souris sur le bâtiment où se trouve votre commerce et cliquez.
+7) Positionnez le curseur de la souris sur le bâtiment où se trouve votre commerce et cliquez.
 
 La barre « que souhaitez-vous ajouter » s’affiche. Dans « rechercher » entrez le type de commerce à référencer : épicerie/supérette, magasin biologique, boulangerie, boucherie ... puis sélectionnez le.
 
 ![](https://raw.githubusercontent.com/vivreanantes/cartovrac/master/communication/10.jpg){: width="800px" }
 
-8. Remplissez à minima les champs suivants :
+8) Remplissez à minima les champs suivants :
     - Nom
     - Adresse complète
     - Site web si possible (sur « ajouter un champ » entrez « Site Web »)
 
 ![](https://raw.githubusercontent.com/vivreanantes/cartovrac/master/communication/11.jpg){: width="800px" }
 
-9. Renouvelez l'opération pour l'ensemble des commerces que vous souhaitez ajouter
+9) Renouvelez l'opération pour l'ensemble des commerces que vous souhaitez ajouter
 
-10. Une fois terminé, cliquez sur "sauvegarder" sur le dessus de la carte 
+10) Une fois terminé, cliquez sur "sauvegarder" sur le dessus de la carte 
 
 ![](https://raw.githubusercontent.com/vivreanantes/cartovrac/master/communication/14.jpg){: width="800px" }
 
-11. Remplissez les motivations de votre ajout (Exemple : "Ajout de commerces acceptant les contenants") puis validez votre enregistrement
+11) Remplissez les motivations de votre ajout (Exemple : "Ajout de commerces acceptant les contenants") puis validez votre enregistrement
 
 ![](https://raw.githubusercontent.com/vivreanantes/cartovrac/master/communication/15.jpg){: width="800px" }
 
