@@ -1,5 +1,5 @@
 #!/bin/bash
-cp ./data/cache_jtb_data.json ./dist/
-cp ./data/cache_bulk_data.json ./dist/
-cp ./data/itinerant.json ./dist/
-cp ./data/jtb_partners.json ./dist/
+cp ./data/partners/jtb/cache_jtb_data.json ./dist/
+cp ./data/partners/jtb/jtb_partners.json ./dist/
+cp ./data/bulk/cache_bulk_data.json ./dist/
+cp ./data/bulk/itinerant.json ./dist/
