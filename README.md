@@ -6,7 +6,7 @@
 
 This project is focused on the France map but can be used anywhere just changing the coordinates of the bounding box we want to display and fetching right data from Overpass-API.
 
-The result of this project is visible on [https://cartovrac.fr](https://cartovrac.fr)
+The result of this project is visible on [https://cartovrac.fr](https://cartovrac.fr) 
 
 ## Data source
 Almost no data is hosted by this project. The shops are registered on the Open Data map [OpenStreetMap](https://openstreetmap.org) and identified with the tag `bulk_purchase`. This tag describes if the shop is selling products without packaging. See [https://wiki.openstreetmap.org/wiki/Key:bulk_purchase](https://wiki.openstreetmap.org/wiki/Key:bulk_purchase) for details.
