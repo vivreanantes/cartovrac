@@ -5,7 +5,7 @@
   "main": "./src/index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development --open",
-    "build": "webpack --mode production; ./data/bulk/refreshCacheBulk.sh; ./data/partners/jtb/refreshCacheJTB.sh; ./data/copy_files_to_dist.sh",
+    "build": "webpack --mode production; ./data/bulk/refreshCacheBulk.sh; ./data/partners/jtb/refreshCacheJTB.sh; ./data/partners/cyclad/refreshCacheCyclad.sh; ./data/copy_files_to_dist.sh",
     "ftp-deploy": "node ./src/deploy.js"
   },
   "repository": {
