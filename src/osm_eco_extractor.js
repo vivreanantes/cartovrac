@@ -1,5 +1,5 @@
 import {newMap, addMarkerToMap} from './map.js';
-import {categories, cacheBulkFileName, cacheJtbFileName, itinerantFileName} from './data.js';
+import {categories, cacheBulkFileName, cacheJtbFileName, cacheCycladFileName, itinerantFileName} from './data.js';
 import {getPopupContent, getHtmlFormattedShopTitle} from './popup.js';
 
 // Leaflet icons for the different types of shop
@@ -43,7 +43,7 @@ function populateWithBulkPurchaseShops(osmType, osmId) {
 	    })
 	).then(function() {
 		populateBulkShops(bulkShopsJson);
-		populateWithJaimeTesBocauxShops();
+		fetchAndPopulateJaimeTesBocauxShops();
 
 		if (osmType && osmId) {
 			zoomOnBulkMarker(osmType, osmId);
@@ -54,7 +54,7 @@ function populateWithBulkPurchaseShops(osmType, osmId) {
 /**
  * Parse the list of J'aime tes Bocaux partners to display them on the map
  */
-function populateWithJaimeTesBocauxShops() {
+function fetchAndPopulateJaimeTesBocauxShops() {
 	var jtbShopsJson;
 	$.when(
 	    $.getJSON(cacheJtbFileName, function(response) {
@@ -62,6 +62,22 @@ function populateWithJaimeTesBocauxShops() {
 	    })
 		.then(function() {
 			populateJtbShops(jtbShopsJson);
+			fetchAndPopulateCycladShops();
+		})
+	);
+}
+
+/**
+ * Parse the list of Cyclad partners to display them on the map
+ */
+function fetchAndPopulateCycladShops() {
+	var cycladShopsJson;
+	$.when(
+	    $.getJSON(cacheCycladFileName, function(response) {
+	        cycladShopsJson = response.elements;
+	    })
+		.then(function() {
+			populateCycladShops(cycladShopsJson);
 		})
 	);
 }
@@ -199,6 +215,41 @@ export function populateJtbShops(osmJson) {
 
 		// Add partner banner
 		popup += JTB_HTML_BANNER;
+
+		// If the partner is a bulk purchase shop, check that it's not already on map and replace it
+		var relatedBulkMarker = getOsmMarker(bulkMarkerArray, osmElement['type'], osmElement['id']);
+		if (relatedBulkMarker) {
+			category.subgroup.removeLayer(relatedBulkMarker);
+		}
+
+		// Check that popup has been correctly created
+		var position = getOsmPosition(osmElement, isAWay);
+		var marker = addMarkerToMap(category, popup, position, osmElement['type'], osmElement['id']);
+		bulkMarkerArray.push(marker);
+	}
+}
+
+var CYCLAD_HTML_BANNER = '<hr style="padding-bottom: ;padding-bottom: 0px;" size="1"><div style="display: flex;"><img style="height: 50px;" src="'+require("../assets/img/cyclad.png")+'"/><div style="margin: auto; font-weight: bold;">Partenaire <br />Syndicat Mixte Cyclad</div></div>';
+
+/**
+ * Display the bulk shops
+ **/
+export function populateCycladShops(osmJson) {
+	for (var shopIndex in osmJson) {
+		var osmElement = osmJson[shopIndex]
+		var osmElementTags = osmElement['tags'];
+		var isAWay = isElementAWay(osmElement);
+    	var type = getType(osmElementTags);
+    	var category = getCategory(type);
+
+		// Create popup content depending on element's tags
+		var popup = getBasePopupFromOsmElement(osmElement, osmElementTags, type, category, isAWay);
+		if (!popup) {
+			continue;
+		}
+
+		// Add partner banner
+		popup += CYCLAD_HTML_BANNER;
 
 		// If the partner is a bulk purchase shop, check that it's not already on map and replace it
 		var relatedBulkMarker = getOsmMarker(bulkMarkerArray, osmElement['type'], osmElement['id']);

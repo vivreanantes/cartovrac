@@ -28,5 +28,6 @@ export var categories = {
 };
 
 export var cacheJtbFileName = "cache_jtb_data.json?nocache=" + (new Date()).getTime();
+export var cacheCycladFileName = "cache_cyclad_data.json?nocache=" + (new Date()).getTime();
 export var cacheBulkFileName = "cache_bulk_data.json?nocache=" + (new Date()).getTime();
 export var itinerantFileName = "itinerant.json?nocache=" + (new Date()).getTime();
