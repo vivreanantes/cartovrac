@@ -21,3 +21,4 @@ As many points could be in the same area, the project uses the MasterCluster plu
 To filter quickly the shop type, the project uses the plugin SubGroup. The source of the plugin is available here: https://github.com/ghybs/Leaflet.FeatureGroup.SubGroup
 
 We created also our own plugin to display shops with a nice marker and popup using the [Overpass API](https://wiki.openstreetmap.org/wiki/Overpass_API) returned JSON. Don't hesitate to reuse this plugin.
+ 
