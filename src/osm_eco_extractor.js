@@ -24,12 +24,14 @@ var map, cluster;
 export function createMapAndPopulate(divId, mapConfig) {
 	map = newMap(divId, mapConfig, categories);
 	prepareCaterogiesSubgroupsAndIcons(map);
+
+	// populate
 	populateBulkShops(cacheBulkJson.elements);
 	populateJtbShops(cacheJtbJson.elements);
 	populateCycladShops(cacheCycladJson.elements);
 	populateItinerantShops(itinerantJson.elements);
 
-	if (osmType && osmId) {
+	if (mapConfig.osmType && mapConfig.osmId) {
 		zoomOnBulkMarker(mapConfig.osmType, mapConfig.osmId);
 	}
 }
