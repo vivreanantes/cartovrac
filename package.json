@@ -1,24 +1,24 @@
 {
-  "name": "vracanantes",
+  "name": "cartovrac",
   "version": "1.0.0",
-  "description": "**Vrac à Nantes** is an open-source project that aims to ease people to buy products without packaging and therefore reduce the amount of generated wastes.",
-  "main": "vracanantes.js",
+  "description": "**CartoVrac** is an open-source project that aims to ease people to buy products without packaging and therefore reduce the amount of generated wastes.",
+  "main": "./src/index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development --open",
-    "build": "webpack --mode production; ./refreshCacheBulk.sh; ./refreshCacheJTB.sh; ./copy_files_to_dist.sh",
-    "ftp-deploy": "node deploy.js"
+    "build": "webpack --mode production; ./data/refreshCacheBulk.sh; ./data/refreshCacheJTB.sh; ./data/copy_files_to_dist.sh",
+    "ftp-deploy": "node ./src/deploy.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vivreanantes/vracanantes.git"
+    "url": "git+https://github.com/vivreanantes/cartovrac.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/vivreanantes/vracanantes/issues"
+    "url": "https://github.com/vivreanantes/cartovrac/issues"
   },
-  "homepage": "https://github.com/vivreanantes/vracanantes#readme",
+  "homepage": "https://github.com/vivreanantes/cartovrac#readme",
   "devDependencies": {
     "css-loader": "^1.0.1",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",

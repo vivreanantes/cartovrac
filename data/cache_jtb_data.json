@@ -1,8 +1,8 @@
 {
   "version": 0.6,
-  "generator": "Overpass API 0.7.55.6 486819c8",
+  "generator": "Overpass API 0.7.55.5 2ca3f387",
   "osm3s": {
-    "timestamp_osm_base": "2019-04-13T09:31:02Z",
+    "timestamp_osm_base": "2019-02-24T21:07:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -105,7 +105,7 @@
     "opening_hours": "Tu-Th 09:00-12:30, 14:30-19:00; Fr 09:00-12:30, 15:30-19:00; Sa 09:30-12:30, 15:00-19:00",
     "organic": "yes",
     "shop": "convenience",
-    "website": "https://epicerie-leptitpoids.fr/"
+    "website": "http://epicerie-leptitpoids.fr/"
   }
 },
 {
@@ -306,13 +306,18 @@
   "lat": 47.2164559,
   "lon": -1.5552468,
   "tags": {
+    "addr:city": "Nantes",
+    "addr:housenumber": "22",
+    "addr:postcode": "44000",
+    "addr:street": "Rue des Carmes",
     "contact:city": "Nantes",
     "contact:country": "FR",
     "contact:housenumber": "22",
     "contact:postcode": "44000",
     "contact:street": "Rue des Carmes",
-    "name": "Ping Pong",
-    "shop": "boutique"
+    "disused:shop": "deli",
+    "name": "Sources",
+    "opening_hours": "Mo,Su off; Tu-Sa 10:00-19:30; "
   }
 },
 {
@@ -423,7 +428,7 @@
     "opening_hours": "Mo-Sa 09:30-19:15; Su off",
     "organic": "only",
     "shop": "supermarket",
-    "website": "https://www.leshameauxbio.fr/magasins/o%C3%B9-sommes-nous/pornic/",
+    "website": "http://www.leshameauxbio.fr/magasins/o%C3%B9-sommes-nous/pornic/",
     "wheelchair": "yes"
   }
 },
@@ -527,7 +532,7 @@
     "operator": "Le Sillon Bio",
     "organic": "only",
     "shop": "supermarket",
-    "website": "https://www.lesillonbio.com/"
+    "website": "http://www.lesillonbio.com/"
   }
 },
 {
@@ -693,13 +698,13 @@
 {
   "type": "node",
   "id": 3571306993,
-  "lat": 47.2041730,
-  "lon": -1.5671559,
+  "lat": 47.2041599,
+  "lon": -1.5671423,
   "tags": {
     "contact:facebook": "https://fr-fr.facebook.com/pages/La-Boule-Carr%C3%A9e/543123109040038",
     "contact:phone": "+33 2 28 08 99 76",
     "name": "La Boule Carrée",
-    "opening_hours": "07:00-20:00; Sa off",
+    "opening_hours": "Tu-Su 07:00-20:00",
     "payment:cash": "yes",
     "payment:credit_cards": "yes",
     "payment:mastercard": "yes",
@@ -754,10 +759,7 @@
   "lon": -1.5578118,
   "tags": {
     "name": "Talensac Marée",
-    "opening_hours": "Th-Su 07:00-13:00",
-    "phone": "+33 2 40 47 45 66",
-    "shop": "seafood",
-    "survey:date": "2019-03-20"
+    "shop": "seafood"
   }
 },
 {
@@ -767,24 +769,18 @@
   "lon": -1.5578230,
   "tags": {
     "name": "Établissements Marchand",
-    "opening_hours": "Tu-Su 07:00-13:00",
-    "phone": "+33 6 62 38 38 67",
-    "shop": "cheese",
-    "survey:date": "2019-03-20"
+    "shop": "cheese"
   }
 },
 {
   "type": "node",
   "id": 4201236594,
-  "lat": 47.2211696,
-  "lon": -1.5580037,
+  "lat": 47.2211701,
+  "lon": -1.5580034,
   "tags": {
     "name": "Boucherie Biologique Nantaise",
-    "opening_hours": "Tu-Su 07:00-13:00",
     "organic": "yes",
-    "phone": "+33 2 40 20 22 85",
-    "shop": "butcher",
-    "survey:date": "2019-03-20"
+    "shop": "butcher"
   }
 },
 {
@@ -793,17 +789,9 @@
   "lat": 47.2212685,
   "lon": -1.5582387,
   "tags": {
-    "brand": "Les Délices de Provence",
-    "email": "pascal.2as@wanadoo.fr",
-    "fax": "+33 2 40 47 61 10",
     "name": "Les Délices de Provence",
-    "opening_hours": "Tu-Su 07:00-13:00",
-    "operator": "Carol & Fils",
     "origin": "mediterranean",
-    "phone": "+33 2 40 20 25 31",
-    "shop": "deli",
-    "survey:date": "2019-03-20",
-    "website": "http://www.carol-fils.com"
+    "shop": "deli"
   }
 },
 {
@@ -821,28 +809,22 @@
     "operator": "Biocoop",
     "organic": "only",
     "shop": "supermarket",
-    "website": "https://www.leshameauxbio.fr/nos-magasins/gu%C3%A9rande/"
+    "website": "http://www.leshameauxbio.fr/nos-magasins/gu%C3%A9rande/"
   }
 },
 {
   "type": "node",
   "id": 4394780789,
-  "lat": 47.2151934,
-  "lon": -1.5532121,
+  "lat": 47.2152113,
+  "lon": -1.5532362,
   "tags": {
     "addr:city": "Nantes",
     "addr:housenumber": "6",
     "addr:postcode": "44000",
     "addr:street": "Rue de la Bâclerie",
-    "contact:facebook": "https://www.facebook.com/Sophie-Bakery-453082698170945/",
-    "contact:instagram": "https://www.instagram.com/sophie_bakery_cakeshop/",
-    "contact:phone": "+33 2 40 84 30 36",
-    "contact:website": "http://www.sophiebakery.fr",
     "name": "Sophie Backery",
     "name:fr": "Sophie Backery",
-    "opening_hours": "Tu-Sa 12:00-18:30",
-    "shop": "pastry",
-    "survey:date": "2019-02-24"
+    "shop": "pastry"
   }
 },
 {
@@ -915,7 +897,7 @@
     "opening_hours": "Mo-Sa 08:30-19:45; Su off",
     "phone": "+33 2 40 48 51 39",
     "survey:date": "2018-10-30",
-    "website": "https://www.brisontraiteur.com/",
+    "website": "http://www.brisontraiteur.com",
     "wheelchair": "yes"
   }
 },
@@ -954,7 +936,7 @@
     "operator": "Biocoop",
     "organic": "only",
     "shop": "supermarket",
-    "website": "https://www.leshameauxbio.fr/magasins/o%C3%B9-sommes-nous/nantes/"
+    "website": "http://www.leshameauxbio.fr/magasins/o%C3%B9-sommes-nous/nantes/"
   }
 },
 {
@@ -1039,7 +1021,7 @@
     "name": "Les Hameaux Bio Biocoop Pornichet",
     "organic": "only",
     "shop": "supermarket",
-    "website": "https://www.leshameauxbio.fr/magasins/o%C3%B9-sommes-nous/pornichet/"
+    "website": "http://www.leshameauxbio.fr/magasins/o%C3%B9-sommes-nous/pornichet/"
   }
 },
 {
@@ -1243,8 +1225,8 @@
 {
   "type": "node",
   "id": 5460433357,
-  "lat": 47.2145564,
-  "lon": -1.5551554,
+  "lat": 47.2145602,
+  "lon": -1.5551948,
   "tags": {
     "addr:city": "Nantes",
     "addr:housenumber": "9",
@@ -1432,7 +1414,7 @@
     "organic": "only",
     "shop": "supermarket",
     "survey:date": "2018-09-26",
-    "website": "https://www.biocoop.fr/",
+    "website": "http://www.biocoop.fr",
     "wheelchair": "yes"
   }
 },
@@ -1469,14 +1451,13 @@
   "lat": 47.2048074,
   "lon": -1.5678523,
   "tags": {
+    "addr:city": "Nantes",
+    "addr:housenumber": "16",
+    "addr:postcode": "44200",
+    "addr:street": "Mail des Chantiers",
     "bulk_purchase": "only",
-    "contact:city": "Nantes",
     "contact:facebook": "https://www.facebook.com/dosedesens/",
-    "contact:housenumber": "16",
-    "contact:postcode": "44200",
-    "contact:street": "Mail des Chantiers",
     "name": "Dose de Sens",
-    "opening_hours": "Mo-Fr 10:00-19:00",
     "organic": "only",
     "shop": "convenience"
   }
@@ -1515,21 +1496,16 @@
 {
   "type": "node",
   "id": 6237965656,
-  "lat": 47.2149709,
-  "lon": -1.5645059,
+  "lat": 47.2149719,
+  "lon": -1.5644718,
   "tags": {
     "addr:housenumber": "4",
     "addr:street": "Rue Copernic",
     "amenity": "cafe",
-    "contact:facebook": "https://www.facebook.com/GouttedOrNantes",
-    "contact:website": "https://gouttedornantes.fr",
-    "email": "gouttedornantes@gmail.com",
+    "contact:facebook": "https://www.facebook.com/GouttedOrNantes/",
+    "contact:website": "https://gouttedornantes.fr/",
     "name": "Goutte d'Or",
-    "opening_hours": "Tu-Fr 11:30-18:30; Sa 11:30-19:00; Su[1,3] 11:00-15:00",
-    "organic": "yes",
-    "phone": "+33 9 86 26 80 89",
-    "survey:date": "2019-02-20",
-    "takeaway": "yes"
+    "organic": "yes"
   }
 },
 {
