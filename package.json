@@ -5,7 +5,7 @@
   "main": "./src/index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development --open",
-    "build": "webpack --mode production; ./data/bulk/refreshCacheBulk.sh; ./data/partners/jtb/refreshCacheJTB.sh; ./data/partners/cyclad/refreshCacheCyclad.sh; ./data/copy_files_to_dist.sh",
+    "build": "webpack --mode production;",
     "ftp-deploy": "node ./src/deploy.js"
   },
   "repository": {
@@ -33,9 +33,10 @@
     "mini-css-extract-plugin": "^0.4.5",
     "typeface-roboto": "0.0.54",
     "url-loader": "^1.1.2",
-    "webpack": "^4.29.3",
-    "webpack-cli": "^3.2.3",
-    "webpack-dev-server": "^3.1.14"
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.3.1",
+    "webpack-shell-plugin": "^0.5.0"
   },
   "dependencies": {
     "ftp": "^0.3.10",
