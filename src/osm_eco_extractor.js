@@ -1,5 +1,5 @@
 import {newMap, addMarkerToMap} from './map.js';
-import {categories, cacheBulkFileName, cacheJtbFileName, cacheCycladFileName, itinerantFileName} from './data.js';
+import {categories, cacheBulkJson, cacheJtbJson, cacheCycladJson, itinerantJson} from './data.js';
 import {getPopupContent, getHtmlFormattedShopTitle} from './popup.js';
 
 // Leaflet icons for the different types of shop
@@ -24,79 +24,14 @@ var map, cluster;
 export function createMapAndPopulate(divId, mapConfig) {
 	map = newMap(divId, mapConfig, categories);
 	prepareCaterogiesSubgroupsAndIcons(map);
-	populateWithBulkPurchaseShops(mapConfig.osmType, mapConfig.osmId);
-	populateWithItinerantShops();
-}
+	populateBulkShops(cacheBulkJson.elements);
+	populateJtbShops(cacheJtbJson.elements);
+	populateCycladShops(cacheCycladJson.elements);
+	populateItinerantShops(itinerantJson.elements);
 
-/**
- * Parse the list of bulk purchase shops to display them on the map
- *
- * Once all shops are displayed on the map:
- * - zoom on shop described by parameters if set.
- * - populate with J'aime tes bocaux shops making sure of no duplication
- */
-function populateWithBulkPurchaseShops(osmType, osmId) {
-	var bulkShopsJson;
-	$.when(
-	    $.getJSON(cacheBulkFileName, function(response) {
-	        bulkShopsJson = response.elements
-	    })
-	).then(function() {
-		populateBulkShops(bulkShopsJson);
-		fetchAndPopulateJaimeTesBocauxShops();
-
-		if (osmType && osmId) {
-			zoomOnBulkMarker(osmType, osmId);
-		}
-	});
-}
-
-/**
- * Parse the list of J'aime tes Bocaux partners to display them on the map
- */
-function fetchAndPopulateJaimeTesBocauxShops() {
-	var jtbShopsJson;
-	$.when(
-	    $.getJSON(cacheJtbFileName, function(response) {
-	        jtbShopsJson = response.elements;
-	    })
-		.then(function() {
-			populateJtbShops(jtbShopsJson);
-			fetchAndPopulateCycladShops();
-		})
-	);
-}
-
-/**
- * Parse the list of Cyclad partners to display them on the map
- */
-function fetchAndPopulateCycladShops() {
-	var cycladShopsJson;
-	$.when(
-	    $.getJSON(cacheCycladFileName, function(response) {
-	        cycladShopsJson = response.elements;
-	    })
-		.then(function() {
-			populateCycladShops(cycladShopsJson);
-		})
-	);
-}
-
-/**
- * Parse the list of itinerant shops to display them on the map
- */
-function populateWithItinerantShops() {
-	var itinerantShopsJson;
-	$.when(
-	    $.getJSON(itinerantFileName, function(response) {
-	        itinerantShopsJson = response.elements;
-	    }).then(function() {
-			populateItinerantShops(itinerantShopsJson);
-	  	}).fail(function( jqxhr, textStatus, error ) {
-    		var err = textStatus + ", " + error;
-    		console.log( "Request Failed: " + err );
-		})
-  	);
+	if (osmType && osmId) {
+		zoomOnBulkMarker(mapConfig.osmType, mapConfig.osmId);
+	}
 }
 
 /**

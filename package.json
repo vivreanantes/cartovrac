@@ -36,7 +36,8 @@
     "webpack": "^4.30.0",
     "webpack-cli": "^3.3.0",
     "webpack-dev-server": "^3.3.1",
-    "webpack-shell-plugin": "^0.5.0"
+    "webpack-shell-plugin": "^0.5.0",
+    "webpack-synchronizable-shell-plugin": "0.0.7"
   },
   "dependencies": {
     "ftp": "^0.3.10",
