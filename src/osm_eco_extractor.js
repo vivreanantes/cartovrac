@@ -272,7 +272,7 @@ function getType(osmElementTags) {
 	// Special type for bulk purchase only
 	if (type == "convenience" && osmElementTags['bulk_purchase'] == "only") {
 		type = "only_bulk_convenience";
-	} else if (type == "supermarket" && osmElementTags['organic']) {
+	} else if (type == "supermarket" && osmElementTags['organic'] == "only") {
 		type = "organic_supermarket"
 	}
 
