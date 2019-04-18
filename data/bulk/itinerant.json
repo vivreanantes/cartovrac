@@ -24,6 +24,25 @@
 	  "validated_with_owner": false,
 	  "places": []
 	},
+  	{
+	  "name": "Épicerie Bigre",
+	  "website": "https://www.epiceriebigre.com/",
+	  "bulk_purchase": "only",
+	  "organic": "yes",
+	  "validated_with_owner": false,
+	  "places": [
+	  	{
+	  		"lat": 48.80620,
+	  		"lon": 2.13205,
+	    	"place_name": "Marche Notre Dame, Versailles"
+		},
+		{
+	  		"lat": 48.79844,
+	  		"lon": 2.12471,
+	    	"place_name": "Marche Saint Louis, Versailles"
+		}
+	  ]
+	},
 	{
 	  "name": "La Main dans l'Sac",
 	  "website": "http://lamaindanslsac.fr/",
