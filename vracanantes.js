@@ -99,18 +99,18 @@ function addListOfShops() {
 				shop['id'],
 				repairTags['name'],
 				repairTags['collaborative_repair_shop'],
-				repairTags['addr:housenumber'],
-				repairTags['addr:street'],
-				repairTags['addr:postcode'],
-				repairTags['addr:city'],
-				repairTags['service_times'],
+				repairTags['contact:housenumber'],
+				repairTags['contact:street'],
+				repairTags['contact:postcode'],
+				repairTags['contact:city'],
+				repairTags['opening_hours'],
 				repairTags['contact:email'],
 				repairTags['contact:facebook'],
 				repairTags['contact:phone'],
 				repairTags['contact:website'],
 				repairTags['website'],
 				repairTags['description:fr'],
-				repairTags['addr:neighbourhood'],
+				repairTags['contact:neighbourhood'],
 				repairTags['contact:calendar'],
 				typeArray
 		);
@@ -133,7 +133,7 @@ function getPopupContent(
 		street,
 		postcode,
 		city,
-		service_times,
+		opening_hours,
 		email,
 		facebook,
 		phone,
@@ -159,7 +159,7 @@ function getPopupContent(
 		popup += '<i>'+description+'</i><br />';
 	}
 	popup += getHtmlFormattedAddress(housenumber, street, postcode, city);
-	popup += getHtmlFormattedHours(service_times);
+	popup += getHtmlFormattedHours(opening_hours);
 	if (phone) {
 		popup += "Tél : " + phone+'<br />';
 	}
