@@ -3,6 +3,7 @@ import 'leaflet.markercluster';
 import 'leaflet.featuregroup.subgroup';
 import 'leaflet.locatecontrol/dist/L.Control.Locate.min.js';
 import 'leaflet-control-geocoder';
+import 'mapbox-gl-leaflet';
 
 // Load the styles
 import 'leaflet/dist/leaflet.css';
@@ -26,6 +27,7 @@ var osmMarker = L.Marker.extend({
 export function newMap(divId, mapConfig, categories) {
 	// Create the map
 	var map = L.map(divId, {
+		attributionControl: false,
 		fullscreenControl: true,
 		center: new L.latLng(mapConfig.centerLat, mapConfig.centerLng),
 		zoom: mapConfig.zoom,
@@ -37,7 +39,8 @@ export function newMap(divId, mapConfig, categories) {
 		)
 	});
 
-	brandingLayer(mapConfig).addTo(map);
+	// Configure vector tiles
+	L.mapboxGL({accessToken: 'no-token', style: mapConfig.mapUrl, attributionControl: false}).addTo(map);
 	showUserLocationButton(map);
 	var geocoder = L.Control.Geocoder.mapbox(mapConfig.mapToken, {geocodingQueryParams : {"country": "FR"}});
 	L.Control.geocoder({geocoder: geocoder, defaultMarkGeocode: false, position: "topleft", placeholder: "Recherche...", errorMessage: "Aucun résultat trouvé", showResultIcons: true})
@@ -46,23 +49,10 @@ export function newMap(divId, mapConfig, categories) {
     })
     .addTo(map);
 
-	return map;
-}
+    // Add attributions
+    L.control.attribution().addAttribution(mapConfig.attribution).addTo(map);
 
-/** 
- * Create branding and license links
- */
-function brandingLayer(mapConfig) {
-	var layer = L.tileLayer(
-		mapConfig.mapUrl,
-		{
-			attribution: mapConfig.attribution,
-			maxZoom: mapConfig.maxZoom,
-			id: 'mapbox.streets',
-			accessToken: mapConfig.mapToken
-		}
-	)
-	return layer;
+	return map;
 }
 
 function showUserLocationButton(map) {
