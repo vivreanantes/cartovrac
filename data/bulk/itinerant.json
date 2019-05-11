@@ -190,6 +190,20 @@
 	  "places": []
 	},
 	{
+	  "name": "Les Z’écolonomiks",
+	  "website": "https://www.facebook.com/LesZecolonomiks/",
+	  "bulk_purchase": "only",
+	  "organic": "yes",
+	  "validated_with_owner": false,
+	  "places": [
+	  	{
+	  		"lat": 43.95445, 
+	  		"lon": 5.02669,
+	  		"place_name": "Marché de Velleron"
+	  	}
+	  ]
+	},
+	{
 	  "name": "On Part en Vrac",
 	  "website": "https://www.onpartenvrac.com/",
 	  "bulk_purchase": "only",
