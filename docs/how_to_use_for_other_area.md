@@ -1,3 +1,7 @@
+---
+title: Documentation - How to use CartoVrac for your own country
+---
+
 ## How to use CartoVrac for your own country
 
 CartoVrac is an HTML project that presents data extracted from [OpenStreetMap](https://openstreetmap.org){:target="_blank"} and completed with some specific data stored as JSON files.
