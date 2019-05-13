@@ -1,5 +1,5 @@
 ---
-title: CartoVrac
+title: Documentation
 ---
 
 # Welcome to the CartoVrac documentation!
