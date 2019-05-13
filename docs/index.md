@@ -9,7 +9,7 @@ In this page you'll find all the documentation written to help you understand ho
 ## Documentation in English
 
 Here are the different documents describing how does the project works, how to add data on the map and how to re-use this project:
-- [How does the project work](how_does_it_work.md)
+- [How does the project work](how_does_it_work.md){:target="_blank"}
 
 ## Documentation in French
 
