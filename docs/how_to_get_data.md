@@ -27,6 +27,7 @@ For more information about how to apply an area to your requests, see: [https://
 ### Examples
 
 Here are two examples of requests that allow you to get bulk purchase shops from OpenStreetMap:
+
 - getting bulk purchase only shops: [https://www.overpass-api.de/api/interpreter?data=\[out:json\];\(area\[\"ISO3166-1\"=\"FR\"\];\)->.fr;\(node\[\"bulk_purchase\"=\"only\"\]\(area.fr\);way\[\"bulk_purchase\"=\"only\"\]\(area.fr\);\);out center;](https://www.overpass-api.de/api/interpreter?data=[out:json];(area[%22ISO3166-1%22=%22FR%22];)-%3E.fr;(node[%22bulk_purchase%22=%22only%22](area.fr);way[%22bulk_purchase%22=%22only%22](area.fr););out%20center;){:target="_blank"}
 
 - getting all bulk purchase shops: [https://www.overpass-api.de/api/interpreter?data=\[out:json\];\(area\[\"ISO3166-1\"=\"FR\"\];\)->.fr;\(node\[\"bulk_purchase\"\~\"only|yes\"\]\(area.fr\);way\[\"bulk_purchase\"\~\"only|yes\"\]\(area.fr\);\);out center;](https://www.overpass-api.de/api/interpreter?data=[out:json];(area[%22ISO3166-1%22=%22FR%22];)-%3E.fr;(node[%22bulk_purchase%22~%22only|yes%22](area.fr);way[%22bulk_purchase%22~%22only|yes%22](area.fr););out%20center;){:target="_blank"}
