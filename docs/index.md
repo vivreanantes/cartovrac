@@ -4,7 +4,7 @@ title: Documentation
 
 # Welcome to the CartoVrac documentation!
 
-In this page you'll find all the documentation written to help you understand how the CartoVrac project works, how to use it and how to adapt it for your needs. If you need any information and don't find it in this wiki, please fill free to open an issue to ask for it :) 
+In this page you'll find all the documentation written to help you understand how the CartoVrac project works, how to use it and how to adapt it for your needs. If you need any information and don't find it in this wiki, please fill free to open an issue in our GitHub to ask for it :) 
 
 ## Documentation in french
 
