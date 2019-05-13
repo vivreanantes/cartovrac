@@ -8,7 +8,7 @@ L'ajout de commerces acceptant les contenants se fait exclusivement par le biai 
 
 ## Fonctionnement de CartoVrac
 
-Avant de suivre la démarche qui vous permettra de devenir partenaire sur le référencement des commerçants, nous vous encourageons à lire ce document qui explique le fonctionnement de CartoVrac et quelles données y sont présentes : [Fonctionnement de CartoVrac](fonctionnement.md)
+Avant de suivre la démarche qui vous permettra de devenir partenaire sur le référencement des commerçants, nous vous encourageons à lire ce document qui explique le fonctionnement de CartoVrac et quelles données y sont présentes : [Fonctionnement de CartoVrac](fonctionnement.md){:target="_blank"}
 
 ## Devenir structure partenaire sur le référencement de commerçants acceptant les contenants
 
@@ -17,17 +17,17 @@ Pour devenir partenaire et voir affiché sur CartoVrac la liste des commerçants
 1. Nous contacter par email et nous expliquer votre démarche : contact@cartovrac.fr
 2. Nous conviendrons ensuite d'un entretien téléphonique pour mettre en place le partenariat
 3. A la suite de l'entretien téléphonique nous vous enverrons un document partagé sur lequel vous pourrez nous transmettre la liste de vos commerçants
-4. Pour chacun de vos commerçants, nous vous demandons de les ajouter sur [https://openstreetmap.org](https://openstreetmap.org) et de copier les liens OpenStreetMap des commerces dans le document partagé que nous vous avons fourni
+4. Pour chacun de vos commerçants, nous vous demandons de les ajouter sur [https://openstreetmap.org](https://openstreetmap.org){:target="_blank"} et de copier les liens OpenStreetMap des commerces dans le document partagé que nous vous avons fourni
 5. Nous nous chargeons d'ajouter vos commerces sur CartoVrac avec les liens OpenStreetMap fournis
 6. Nous vous partageons le code HTML qui vous permettra à votre souhait d'intégrer CartoVrac zoomé sur votre région pour votre site internet 
 
 ### Référencer un commerce sur OpenStreetMap
 
-Voici un tutoriel qui explique comment contribuer à OpenStreetMap : [https://learnosm.org/fr/beginner/start-osm/](https://learnosm.org/fr/beginner/start-osm/)
+Voici un tutoriel qui explique comment contribuer à OpenStreetMap : [https://learnosm.org/fr/beginner/start-osm/](https://learnosm.org/fr/beginner/start-osm/){:target="_blank"}
 
 En résumé, voici les étapes que vous devrez suivre pour ajouter vos commerces :
 
-1) Rendez vous sur [https://osm.org](https://osm.org)
+1) Rendez vous sur [https://osm.org](https://osm.org){:target="_blank"}
 
 ![](https://raw.githubusercontent.com/vivreanantes/cartovrac/master/communication/1.jpg){: width="800px" }
 
@@ -85,13 +85,13 @@ Les ajouts sont immédiats sur OpenStreetMap.
 
 ### Ajouter le lien OpenStreetMap sur le document partagé
 
-Une fois que vous avez fait vos ajouts, rendez vous sur [https://osm.org](https://osm.org) de nouveau. Ensuite, recherchez vos commerces un par un, sélectionnez le commerce une fois trouvé et copiez l'adresse web du site.
+Une fois que vous avez fait vos ajouts, rendez vous sur [https://osm.org](https://osm.org){:target="_blank"} de nouveau. Ensuite, recherchez vos commerces un par un, sélectionnez le commerce une fois trouvé et copiez l'adresse web du site.
 
 
 ![](https://raw.githubusercontent.com/vivreanantes/cartovrac/master/communication/16.jpg){: width="800px" }
 
 ![](https://raw.githubusercontent.com/vivreanantes/cartovrac/master/communication/17.jpg){: width="800px" }
 
-L'adresse devrait ressembler à quelque chose comme : [https://www.openstreetmap.org/node/5594452333](https://www.openstreetmap.org/node/5594452333)
+L'adresse devrait ressembler à quelque chose comme : [https://www.openstreetmap.org/node/5594452333](https://www.openstreetmap.org/node/5594452333){:target="_blank"}
 
 Copiez alors ce lien dans la colonne "Lien OpenStreetMap" du document partagé, en face du commerce que vous avez recherché.
