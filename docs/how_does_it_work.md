@@ -1,3 +1,7 @@
+---
+title: Documentation - How does it work
+---
+
 ## How does it work
 
 ### Data source
