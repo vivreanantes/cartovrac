@@ -9,10 +9,10 @@ In this page you'll find all the documentation written to help you understand ho
 ## Documentation in french
 
 Vous trouverez ici différents documents rédigés en français afin de comprendre le fonctionnement de CartoVrac et comment y faire apparaître un commerce :
-- [Fonctionnement de CartoVrac](fonctionnement.md)
+- [Fonctionnement de CartoVrac](fonctionnement.md){:target="_blank"}
 - Ajout d'un commerce :
     - Comment ajouter un commerce ayant un rayon vrac (disponible prochainement)
     - Comment ajouter un commerce vrac itinérant (disponible prochainement)
-    - [Comment ajouter un commerce acceptant les contenants de leurs clients](devenir_partenaire_acceptation_contenants.md)
+    - [Comment ajouter un commerce acceptant les contenants de leurs clients](devenir_partenaire_acceptation_contenants.md){:target="_blank"}
 
 Les documents techniques afin de réutiliser le code source de CartoVrac sont uniquement disponibles en anglais.
