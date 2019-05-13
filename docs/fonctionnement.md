@@ -21,7 +21,7 @@ Les données concernant ces commerces sont récupérées automatiquement depuis 
 
 La base de données OpenStreetMap est utilisée et complétée par des milliers d'utilisateurs et contributeurs. Les données ajoutées par ses contributeurs sont libres de droits et faciles à extraire du fait de sa structures et des outils qui sont associés à OpenStreetMap.
 
-Il est possible de consulter les données OpenStreetMap sur [https://openstreetmap.org](https://openstreetmap.org) ou encore [http://osm.org](http://osm.org)
+Il est possible de consulter les données OpenStreetMap sur [https://openstreetmap.org](https://openstreetmap.org){:target="_blank"} ou encore [http://osm.org](http://osm.org){:target="_blank"}
 
 Pour les épiceries et supermarchés bio. avec rayon vrac, nous avons fait le choix d'utiliser OpenStreetMap comme base de données cartographiques pour de multiple raisons :
 - il est facile d'extraire les commerces comportant un rayon vrac grâce à un champs de données dédié au vrac (permettant de différencier les commerces sans rayon vrac, les commerces ayant un rayon vrac et les commerces dédiés au vrac)
