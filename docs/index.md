@@ -10,6 +10,7 @@ In this page you'll find all the documentation written to help you understand ho
 
 Here are the different documents describing how does the project works, how to add data on the map and how to re-use this project:
 - [How does the project work](how_does_it_work.md){:target="_blank"}
+- [How to build the project (technical document)](how_to_build_cartovrac.md){:target="_blank"}
 
 ## Documentation in French
 
