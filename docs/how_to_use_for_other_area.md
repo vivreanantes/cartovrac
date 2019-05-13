@@ -12,5 +12,5 @@ Here are the steps to follow to build it for your own country:
 1. Fork the project on your GitHub account
 2. Clone your fork projet on your own computer
 3. [Build the projet and configure it](how_to_build_cartovrac.md){:target="_blank"}
-4. [Configure the Circle CI](how_to_build_cartovrac.md#continuous-integration){:target="_blank"} if you need a continuous integration
+4. [Configure the Circle CI](how_to_build_cartovrac.md#use-the-continuous-integration){:target="_blank"} if you need a continuous integration
 5. Adapt the project to your needs
