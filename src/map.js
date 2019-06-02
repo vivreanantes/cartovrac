@@ -6,6 +6,7 @@ import 'leaflet-control-geocoder';
 import 'mapbox-gl-leaflet';
 
 // Load the styles
+import 'mapbox-gl/dist/mapbox-gl.css';
 import 'leaflet/dist/leaflet.css';
 import 'leaflet.markercluster/dist/MarkerCluster.css';
 import 'leaflet.markercluster/dist/MarkerCluster.Default.css';
@@ -40,7 +41,7 @@ export function newMap(divId, mapConfig, categories) {
 	});
 
 	// Configure vector tiles
-	L.mapboxGL({accessToken: mapConfig.mapToken, style: 'mapbox://styles/mapbox/streets-v10', attributionControl: false}).addTo(map);
+	L.mapboxGL({accessToken: mapConfig.mapToken, style: 'mapbox://styles/mapbox/streets-v11', attributionControl: false}).addTo(map);
 
 	// Add control
 	showUserLocationButton(map);
