@@ -5,7 +5,7 @@ export const maxBoundN = 53;
 export const maxBoundE = 11;
 
 // Map definition
-export const maxZoom = 17;
+export const maxZoom = 21;
 export const minZoom = 5;
 export const defaultZoom = 6;
 export const defaultCenterLat = 47;
