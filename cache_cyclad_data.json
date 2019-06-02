@@ -1,0 +1,296 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.55.7 8b86ff77",
+  "osm3s": {
+    "timestamp_osm_base": "2019-06-02T17:25:02Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 4282340895,
+  "lat": 46.1074144,
+  "lon": -0.7513793,
+  "tags": {
+    "addr:city": "Surgères",
+    "addr:housenumber": "86",
+    "addr:postcode": "17700",
+    "addr:street": "Rue Audry de Puyravault",
+    "name": "Joyet",
+    "shop": "butcher",
+    "website": "http://joyet-traiteur.com/artisan-boucher-charcutier-surgeres-charente-maritime.aspx"
+  }
+},
+{
+  "type": "node",
+  "id": 4959779531,
+  "lat": 46.1063101,
+  "lon": -0.7518011,
+  "tags": {
+    "addr:city": "Surgères",
+    "addr:housenumber": "26",
+    "addr:postcode": "17700",
+    "addr:street": "Place de l'Europe",
+    "name": "Mathé",
+    "shop": "bakery"
+  }
+},
+{
+  "type": "node",
+  "id": 5594452333,
+  "lat": 49.6425588,
+  "lon": -1.6262971,
+  "tags": {
+    "addr:city": "Cherbourg",
+    "addr:housenumber": "19",
+    "addr:postcode": "50100",
+    "addr:street": "Rue de la Paix",
+    "bulk_purchase": "only",
+    "facebook": "https://www.facebook.com/laconsigne.epicerie.durable/",
+    "name": "La Consigne",
+    "organic": "yes",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 5735767337,
+  "lat": 46.1070433,
+  "lon": -0.7513112,
+  "tags": {
+    "addr:city": "Surgères",
+    "addr:housenumber": "2",
+    "addr:postcode": "17700",
+    "addr:street": "Rue Bersot",
+    "contact:facebook": "https://www.facebook.com/Charcuterie-Jugel%C3%A9-898575950257843/",
+    "name": "Charcuterie JUGELÉ",
+    "opening_hours": "Tu-Su 07:30-12:45, 15:00-19:00",
+    "phone": "0546070101",
+    "shop": "butcher"
+  }
+},
+{
+  "type": "node",
+  "id": 6391113867,
+  "lat": 46.1068424,
+  "lon": -0.7514325,
+  "tags": {
+    "addr:city": "Surgères",
+    "addr:housenumber": "10",
+    "addr:postcode": "17700",
+    "addr:street": "Rue Bersot",
+    "name": "Pâtisserie PIDOUX",
+    "payment:cash": "yes",
+    "shop": "pastry"
+  }
+},
+{
+  "type": "node",
+  "id": 6396154439,
+  "lat": 46.1035395,
+  "lon": -0.7534799,
+  "tags": {
+    "addr:city": "Surgères",
+    "addr:housenumber": "14",
+    "addr:postcode": "17700",
+    "addr:street": "Avenue Saint-Pierre",
+    "contact:facebook": "https://www.facebook.com/patisseriebrissonromainetlaetitia/",
+    "name": "Brisson",
+    "opening_hours": "Mo-We, Fr-Su 06:00-20:30",
+    "shop": "bakery"
+  }
+},
+{
+  "type": "node",
+  "id": 6396162738,
+  "lat": 46.1158235,
+  "lon": -0.9347376,
+  "tags": {
+    "addr:city": "Aigrefeuille-d'Aunis",
+    "addr:housenumber": "5",
+    "addr:postcode": "17290",
+    "addr:street": "Rue de l'Aunis",
+    "contact:facebook": "https://www.facebook.com/patisseriebrissonromainetlaetitia/",
+    "name": "Brisson",
+    "shop": "bakery"
+  }
+},
+{
+  "type": "node",
+  "id": 6397851431,
+  "lat": 46.0990501,
+  "lon": -0.9410009,
+  "tags": {
+    "addr:city": "Le Thou",
+    "addr:housenumber": "3",
+    "addr:postcode": "17290",
+    "addr:street": "Rue du Petit Bois",
+    "name": "Méli Mélo",
+    "shop": "cheese"
+  }
+},
+{
+  "type": "node",
+  "id": 6397851432,
+  "lat": 46.0991520,
+  "lon": -0.9407227,
+  "tags": {
+    "addr:city": "Le Thou",
+    "addr:housenumber": "3",
+    "addr:postcode": "17290",
+    "addr:street": "Rue du Petit Bois",
+    "bulk_purchase": "yes",
+    "name": "Belle à croquer",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 6398093703,
+  "lat": 46.1091932,
+  "lon": -0.7555488,
+  "tags": {
+    "addr:city": "Surgères",
+    "addr:housenumber": "28",
+    "addr:postcode": "17700",
+    "addr:street": "Rue Audry de Puyravault",
+    "description": "Commerce acceptant les contenants réutilisables. ",
+    "name": "Le Palais des Gourmandises",
+    "shop": "bakery"
+  }
+},
+{
+  "type": "node",
+  "id": 6408521719,
+  "lat": 46.1082099,
+  "lon": -0.7834880,
+  "tags": {
+    "description": "Marché de producteurs Charcuterie - Boucherie - Fruits et légumes - Epicerie fine. \nCommerce acceptant les contenants réutilisables. ",
+    "name": "A la Ferme d'Aunis",
+    "shop": "farm"
+  }
+},
+{
+  "type": "node",
+  "id": 6408618341,
+  "lat": 46.1167290,
+  "lon": -0.9333349,
+  "tags": {
+    "addr:city": "Aigrefeuille-d'Aunis",
+    "addr:housenumber": "22",
+    "addr:postcode": "17290",
+    "addr:street": "Place de la République",
+    "description": "Commerce acceptant les contenants réutilisables. ",
+    "name": "Sabrina et Emmanuel DUBOUÉ",
+    "shop": "bakery"
+  }
+},
+{
+  "type": "node",
+  "id": 6487719633,
+  "lat": 46.1251018,
+  "lon": -0.6348614,
+  "tags": {
+    "addr:city": "Boisse, MARSAIS",
+    "addr:housenumber": "2",
+    "addr:postcode": "17700",
+    "addr:street": "Route du Stade",
+    "description": "Commerce acceptant les contenants réutilisables (sacs à pain). ",
+    "name": "Boulangerie les Délices",
+    "operator": "SARL les 4 B",
+    "shop": "bakery"
+  }
+},
+{
+  "type": "node",
+  "id": 6513228093,
+  "lat": 46.0553057,
+  "lon": -0.7648765,
+  "tags": {
+    "addr:city": "La Devise",
+    "addr:housenumber": "20 bis",
+    "addr:postcode": "17700",
+    "addr:street": "Rue Charles Henri Percheron",
+    "description": "Commerce acceptant les contenants réutilisables. ",
+    "name": "Epicerie Service Vandré",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 6513232222,
+  "lat": 46.1492750,
+  "lon": -0.8003172,
+  "tags": {
+    "addr:city": "Vouhé",
+    "addr:housenumber": "1",
+    "addr:postcode": "17700",
+    "addr:street": "Rue du Moulin Godard",
+    "description": "Commerce acceptant les contenants réutilisables. ",
+    "name": "Blanchard Sébastien",
+    "shop": "bakery"
+  }
+},
+{
+  "type": "node",
+  "id": 6513260714,
+  "lat": 46.0850027,
+  "lon": -0.9236615,
+  "tags": {
+    "addr:city": "Le Thou",
+    "addr:housenumber": "1 A",
+    "addr:postcode": "17290",
+    "addr:street": "Allée du Foirail",
+    "description": "Commerce acceptant les contenants réutilisables. ",
+    "name": "Boulangerie - Pâtisserie L.Gaudin",
+    "shop": "bakery"
+  }
+},
+{
+  "type": "node",
+  "id": 6513278938,
+  "lat": 46.0849540,
+  "lon": -0.9239738,
+  "tags": {
+    "addr:city": "Le Thou",
+    "addr:postcode": "17290",
+    "addr:street": "Rue du Château de Cigogne",
+    "description": "Commerce acceptant les contenants réutilisables. ",
+    "name": "Vival du Thou o tout",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "way",
+  "id": 72801802,
+  "center": {
+    "lat": 46.1073744,
+    "lon": -0.7516876
+  },
+  "nodes": [
+    864002783,
+    864091601,
+    864003229,
+    864030313,
+    864008082,
+    864095433,
+    864002783
+  ],
+  "tags": {
+    "addr:city": "Surgères",
+    "addr:housenumber": "73",
+    "addr:postcode": "17700",
+    "addr:street": "Rue Audry de Puyravault",
+    "building": "yes",
+    "bulk_purchase": "yes",
+    "name": "Unis Vert Bio",
+    "organic": "only",
+    "shop": "convenience",
+    "source": "extraction vectorielle v1 cadastre-dgi-fr source : Direction Générale des Impôts - Cadas. Mise à jour : 2010",
+    "website": "http://www.unisvertbio.com/"
+  }
+}
+
+  ]
+}

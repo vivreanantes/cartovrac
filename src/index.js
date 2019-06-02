@@ -39,7 +39,7 @@ function getMapConfig() {
 		minZoom: config.minZoom,
 		maxZoom: config.maxZoom,
 		boundN: Math.min(query["boundN"] || 90, config.maxBoundN),
-		boundS: Math.max(query["boundS"] || 0, config.minBoundS),
+		boundS: Math.max(query["boundS"] || -90, config.minBoundS),
 		boundW: Math.max(query["boundW"] || -180, config.minBoundW),
 		boundE: Math.min(query["boundE"] || 180, config.maxBoundE),
 		attribution: config.attribution,

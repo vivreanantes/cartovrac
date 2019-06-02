@@ -1,12 +1,12 @@
 // Bounds for display
-export const minBoundS = 40;
-export const minBoundW = -7;
-export const maxBoundN = 53;
-export const maxBoundE = 11;
+export const minBoundS = -90;
+export const minBoundW = -180;
+export const maxBoundN = 90;
+export const maxBoundE = 180;
 
 // Map definition
 export const maxZoom = 21;
-export const minZoom = 5;
+export const minZoom = 3;
 export const defaultZoom = 6;
 export const defaultCenterLat = 47;
 export const defaultCenterLng = 2;
