@@ -230,8 +230,6 @@ function populateBulkShops(osmJson) {
 function getBasePopupFromOsmElement(osmElement, osmElementTags, type, category, isAWay) {
 	// Check shop validity
 	if (!type || !category || !osmElementTags['name']) {
-		console.log('Problem when displaying https://osm.org/' + (isAWay ? 'way/' : 'node/') + 
-			osmElement['id'] + ' of type ' + type + ' ; name ' + osmElementTags['name']);
 		return null;
 	}
 
