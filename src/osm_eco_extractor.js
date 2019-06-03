@@ -247,6 +247,7 @@ function getBasePopupFromOsmElement(osmElement, osmElementTags, type, category, 
 		osmElementTags['contact:website'],
 		osmElementTags['facebook'],
 		osmElementTags['contact:facebook'],
+		osmElementTags['drive_through'],
 		category,
 		isAWay
 	);

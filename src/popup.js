@@ -15,6 +15,7 @@ export function getPopupContent(
         contact_website,
         facebook,
         contact_facebook,
+        drive,
 		category,
         isANode
 ){
@@ -25,7 +26,7 @@ export function getPopupContent(
 
 	var popup = '<b>'+name+'</b><br />';
 	// Set the shop type
-	popup += getHtmlFormattedShopTitle(category, organic, bulk_purchase);
+	popup += getHtmlFormattedShopTitle(category, organic, bulk_purchase, drive);
     popup += getHtmlFormattedAddress(housenumber, street, postcode, city);   
     popup += getHtmlFormattedHours(opening_hours);
     popup += getHtmlFormattedWebsite(website, contact_website, facebook, contact_facebook);
@@ -36,7 +37,7 @@ export function getPopupContent(
 /**
  * Get a title describing the shop type
  */
-export function getHtmlFormattedShopTitle(category, organicTag, bulk_purchaseTag) {
+export function getHtmlFormattedShopTitle(category, organicTag, bulk_purchaseTag, driveTag) {
     // Start text with italic style and add prefix depending on type
     var title = category.prefix;
     
@@ -52,13 +53,18 @@ export function getHtmlFormattedShopTitle(category, organicTag, bulk_purchaseTag
 	}
 
     // Add annotation if products are organics
-    if (category .addOrganicSuffix) {
+    if (category.addOrganicSuffix) {
 	    if (organicTag == "yes") {
 	    	title += ', avec des produits bio.';
 	    } else if (organicTag == "only") {
 	        title += ', 100% bio.';
 	    }
 	}
+
+    // Add drive annotation
+    if (driveTag == "yes") {
+        title += '<br />Propose un service en ligne avec retrait en magasin.<br />';
+    }
 
     return '<i>' + title + '</i><br />';
 }
