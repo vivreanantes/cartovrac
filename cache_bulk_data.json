@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.55.7 8b86ff77",
   "osm3s": {
-    "timestamp_osm_base": "2019-06-02T17:22:02Z",
-    "timestamp_areas_base": "2019-06-02T14:51:03Z",
+    "timestamp_osm_base": "2019-06-10T17:44:02Z",
+    "timestamp_areas_base": "2019-06-10T17:02:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -1237,6 +1237,19 @@
 },
 {
   "type": "node",
+  "id": 1240746153,
+  "lat": 48.8951432,
+  "lon": -0.2007032,
+  "tags": {
+    "bulk_purchase": "only",
+    "contact:facebook": "https://www.facebook.com/L%C3%A9picerie-Autrement-262137701204009/",
+    "name": "L'épicerie Autrement",
+    "organic": "yes",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
   "id": 1245829268,
   "lat": 48.0765996,
   "lon": 7.4025167,
@@ -2453,6 +2466,25 @@
     "shop": "supermarket",
     "source": "survey+bing",
     "website": "https://www.lavieclaire.com/magasin-bio/brie-comte-robert.html"
+  }
+},
+{
+  "type": "node",
+  "id": 1862386576,
+  "lat": 48.8787422,
+  "lon": 2.1816655,
+  "tags": {
+    "brand": "Naturalia",
+    "brand:wikidata": "Q3337081",
+    "brand:wikipedia": "fr:Naturalia",
+    "bulk_purchase": "yes",
+    "name": "Naturalia",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 09:30-13:30",
+    "operator": "Groupe Casino",
+    "organic": "only",
+    "shop": "convenience",
+    "source": "survey 2013",
+    "website": "https://naturalia.fr/"
   }
 },
 {
@@ -5528,6 +5560,20 @@
 },
 {
   "type": "node",
+  "id": 3448218023,
+  "lat": 47.2219779,
+  "lon": -1.5596070,
+  "tags": {
+    "bulk_purchase": "only",
+    "contact:facebook": "https://www.facebook.com/lesjolisbocaux/",
+    "name": "Les Jolis Bocaux",
+    "organic": "yes",
+    "shop": "convenience",
+    "website": "https://lesjolisbocaux.com/"
+  }
+},
+{
+  "type": "node",
   "id": 3452853965,
   "lat": 43.4283308,
   "lon": 6.7802618,
@@ -5951,6 +5997,23 @@
     "phone": "+33 1 43 38 39 43",
     "shop": "supermarket",
     "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-paris-saint-maur"
+  }
+},
+{
+  "type": "node",
+  "id": 3665709453,
+  "lat": 43.7325815,
+  "lon": 7.4201769,
+  "tags": {
+    "addr:housenumber": "7-9",
+    "addr:street": "Rue Terrazzani",
+    "brand": "Biocoop",
+    "bulk_purchase": "yes",
+    "name": "Solis Bio",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://www.biocoop.fr/magasins-bio/Trouver-mon-magasin-Biocoop/Outre-mer-et-etranger/Monaco/SOLIS-BIO",
+    "wheelchair": "yes"
   }
 },
 {
@@ -7685,6 +7748,7 @@
     "brand": "Biocoop",
     "bulk_purchase": "yes",
     "name": "Biocoop",
+    "opening_hours": "Mo-Sa 09:00-12:30,14:30-19:00",
     "organic": "only",
     "shop": "supermarket",
     "website": "https://www.biocoop.fr/magasins-bio/Trouver-mon-magasin-Biocoop/Bourgogne-Franche-Comte/Saone-et-Loire/BIOCOOP-LOU-EN-BIO"
@@ -7853,6 +7917,24 @@
     "organic": "only",
     "shop": "convenience",
     "website": "https://www.lavieclaire.com/magasin-bio/chaville.html"
+  }
+},
+{
+  "type": "node",
+  "id": 4378755308,
+  "lat": 48.8881603,
+  "lon": 2.3470747,
+  "tags": {
+    "addr:city": "Paris",
+    "addr:housenumber": "18",
+    "addr:postcode": "75018",
+    "addr:street": "Rue Ramey",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/lepiceriedesenvirons/",
+    "name": "Epicerie des environs",
+    "organic": "yes",
+    "shop": "convenience",
+    "website": "http://www.lepiceriedesenvirons.com/"
   }
 },
 {
@@ -10559,10 +10641,14 @@
   "lat": 46.5787429,
   "lon": 0.3203743,
   "tags": {
+    "addr:housenumber": "5",
+    "addr:street": "Rue Léopold Sedar Senghor",
     "bulk_purchase": "only",
+    "contact:facebook": "https://www.facebook.com/leffetbocal/",
     "contact:website": "http://leffetbocal.over-blog.com",
     "name": "L’effet bocal",
     "opening_hours": "Tu-Sa 09:30-19:30",
+    "organic": "yes",
     "shop": "convenience"
   }
 },
@@ -11480,6 +11566,23 @@
 },
 {
   "type": "node",
+  "id": 5178582735,
+  "lat": 48.1069806,
+  "lon": -1.6699636,
+  "tags": {
+    "brand": "Naturalia",
+    "brand:wikidata": "Q3337081",
+    "brand:wikipedia": "fr:Naturalia",
+    "bulk_purchase": "yes",
+    "name": "Naturalia",
+    "opening_hours": "Mo-Sa 09:00-20:00",
+    "organic": "only",
+    "shop": "convenience",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
   "id": 5188975157,
   "lat": 45.7793496,
   "lon": 3.0821410,
@@ -12040,6 +12143,27 @@
     "organic": "only",
     "shop": "supermarket",
     "website": "https://www.biocoop-rochefort.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 5314585368,
+  "lat": 46.1930007,
+  "lon": 6.2322337,
+  "tags": {
+    "addr:city": "Annemasse",
+    "addr:housenumber": "10",
+    "addr:postcode": "74100",
+    "addr:street": "Rue de Genève",
+    "bulk_purchase": "yes",
+    "contact:email": "eva@eau-vive.fr",
+    "contact:facebook": "www.facebook.com/leauvivebio",
+    "contact:phone": "+33 4 50 87 09 88",
+    "contact:website": "www.eau-vive.com",
+    "name": "L'Eau Vive",
+    "operator": "L'Eau Vive",
+    "organic": "only",
+    "shop": "convenience"
   }
 },
 {
@@ -15338,20 +15462,6 @@
 },
 {
   "type": "node",
-  "id": 5816324477,
-  "lat": 47.0872296,
-  "lon": 2.3960414,
-  "tags": {
-    "bulk_purchase": "only",
-    "contact:facebook": "https://www.facebook.com/LAMESUREQUIVOUSFAUT",
-    "name": "La Mesure",
-    "organic": "only",
-    "shop": "convenience",
-    "website": "http://www.lamesure-boutiques.fr/"
-  }
-},
-{
-  "type": "node",
   "id": 5816324478,
   "lat": 47.9055743,
   "lon": 2.0392238,
@@ -16741,6 +16851,22 @@
 },
 {
   "type": "node",
+  "id": 5849790136,
+  "lat": 45.7744158,
+  "lon": 4.8074181,
+  "tags": {
+    "addr:housenumber": "27",
+    "addr:street": "Grande Rue de Vaise",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Les-bons-plans-de-tonton-765587346820279/",
+    "name": "Les Bon Plans de Tonton",
+    "organic": "only",
+    "shop": "convenience",
+    "website": "http://boutique-lesbonsplansdetonton.fr"
+  }
+},
+{
+  "type": "node",
   "id": 5851060201,
   "lat": 47.2167623,
   "lon": -1.5596422,
@@ -17037,10 +17163,12 @@
 {
   "type": "node",
   "id": 5870778380,
-  "lat": 50.4751425,
-  "lon": 3.2444321,
+  "lat": 50.4749242,
+  "lon": 3.2436748,
   "tags": {
-    "addr:housenumber": "2",
+    "addr:city": "Orchies",
+    "addr:postcode": "59310",
+    "addr:street": "Rue de l'Église",
     "bulk_purchase": "only",
     "contact:facebook": "https://www.facebook.com/unautremonde59310/",
     "name": "Un Autre Monde",
@@ -18959,6 +19087,7 @@
     "contact:facebook": "https://www.facebook.com/lepiceriedeshalles/",
     "contact:website": "http://www.lepiceriedeshalles.coop",
     "name": "L'Épicerie des Halles",
+    "opening_hours": "Mo-Sa 10:00-20:00",
     "organic": "yes",
     "shop": "convenience"
   }
@@ -20481,6 +20610,27 @@
 },
 {
   "type": "node",
+  "id": 6143559178,
+  "lat": 46.1586604,
+  "lon": 4.1719374,
+  "tags": {
+    "bulk_purchase": "yes",
+    "check_date:opening_hours": "2019-06-03",
+    "contact:email": "laboutiquedanais@hotmail.fr",
+    "contact:facebook": "https://fr-fr.facebook.com/La-Boutique-dAna%C3%AFs-1443066679349294/",
+    "contact:housenumber": "8",
+    "contact:phone": "+33 4 77 69 64 03",
+    "contact:street": "Rue Charles de Gaulle (Rue Mercière)",
+    "name": "La Boutique Bio d'Anaïs",
+    "opening_hours": "Tu-Fr 10:00-12:15,14:30-18:30; Sa 09:00-12:30",
+    "organic": "only",
+    "shop": "convenience",
+    "source:opening_hours": "survey",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
   "id": 6146293619,
   "lat": 47.6469002,
   "lon": 6.9358920,
@@ -20547,14 +20697,14 @@
 {
   "type": "node",
   "id": 6153153139,
-  "lat": 49.4400300,
-  "lon": 1.1021727,
+  "lat": 49.4409085,
+  "lon": 1.1027086,
   "tags": {
     "addr:city": "Rouen",
     "addr:housenumber": "52",
     "addr:postcode": "76000",
     "addr:street": "Rue Armand Carrel",
-    "brand": "day by day",
+    "brand": "Day by Day",
     "bulk_purchase": "only",
     "contact:email": "daybyday.rouen76@gmail.com",
     "contact:phone": "+33 2 35 71 01 94",
@@ -20563,7 +20713,7 @@
     "dog": "no",
     "drive_through": "no",
     "name": "Day by Day",
-    "opening_hours": "Tu-Sa 10:00-13:30 & 15:00-19:00; Su 10:00-13:00",
+    "opening_hours": "Tu-Sa 10:00-13:30,15:00-19:00; Su 10:00-13:00",
     "organic": "yes",
     "payment:cash": "yes",
     "shop": "convenience"
@@ -21548,6 +21698,7 @@
     "bulk_purchase": "yes",
     "contact:facebook": "https://www.facebook.com/cocipro/",
     "name": "Cocipro",
+    "opening_hours": "Tu-Sa 10:30-14:00, 15:00-19:30; Su-Mo 15:00-19:30",
     "shop": "convenience",
     "website": "https://www.panier-des-producteurs.com/"
   }
@@ -22236,9 +22387,12 @@
   "lon": -1.5470441,
   "tags": {
     "bulk_purchase": "only",
+    "contact:facebook": "https://www.facebook.com/ColegramBio/",
     "name": "Colégram - Marché durable",
     "opening_hours": "Tu-Fr 11:00-20:00; Sa 10:00-19:00",
-    "shop": "convenience"
+    "organic": "yes",
+    "shop": "convenience",
+    "website": "https://colegram.bio/"
   }
 },
 {
@@ -22257,6 +22411,29 @@
     "shop": "supermarket",
     "source": "survey",
     "website": "http://lesnouveauxrobinson.coop/magasins/montrouge/"
+  }
+},
+{
+  "type": "node",
+  "id": 6499364149,
+  "lat": 47.3092068,
+  "lon": -1.4619476,
+  "tags": {
+    "addr:city": "Carquefou",
+    "addr:housenumber": "9",
+    "addr:postcode": "44470",
+    "addr:street": "Route des Pellerines",
+    "bulk_purchase": "only",
+    "description": "Légumes et petits fruits BIO, cueillette et vente directe, magasin de producteurs locaux.",
+    "email": "contact@lafermeacueillir.fr",
+    "name": "Le Ferme à Cueillir",
+    "opening_hours": "We 15:00-19:00; Sa 09:30-12:30",
+    "organic": "only",
+    "payment:cash": "yes",
+    "payment:check": "yes",
+    "payment:coins": "yes",
+    "shop": "greengrocer",
+    "website": "http://www.lafermeacueillir.fr"
   }
 },
 {
@@ -22343,6 +22520,170 @@
     "contact:facebook": "https://www.facebook.com/epicerie.retzaunee.7",
     "name": "Épicerie Retz'aunée",
     "organic": "only",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 6517620172,
+  "lat": 47.2376265,
+  "lon": -1.3463637,
+  "tags": {
+    "addr:housenumber": "14",
+    "addr:street": "Rue des Halles",
+    "bulk_purchase": "only",
+    "contact:facebook": "https://www.facebook.com/Latelier-du-bocal-392818371580363/",
+    "drive_through": "yes",
+    "name": "L'atelier du Bocal",
+    "organic": "yes",
+    "shop": "convenience",
+    "website": "https://www.latelierdubocal.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 6520454954,
+  "lat": 48.9174393,
+  "lon": 2.3314608,
+  "tags": {
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/les3poireaux/",
+    "name": "Les 3 poireaux",
+    "organic": "only",
+    "shop": "convenience",
+    "website": "http://www.les3poireaux.fr"
+  }
+},
+{
+  "type": "node",
+  "id": 6522587913,
+  "lat": 44.0448046,
+  "lon": 4.4406337,
+  "tags": {
+    "addr:housenumber": "7",
+    "addr:postcode": "30700",
+    "addr:street": "Place du Monument aux Morts",
+    "bulk_purchase": "only",
+    "contact:facebook": "https://www.facebook.com/Chez-Lucette-Epicerie-Bio-157067425005335/",
+    "name": "Chez Lucette",
+    "organic": "only",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 6535218454,
+  "lat": 45.8568315,
+  "lon": 4.7039802,
+  "tags": {
+    "brand": "Biocoop",
+    "brand:wikidata": "Q2904039",
+    "brand:wikipedia": "fr:Biocoop",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Biocoop.Civrieux/",
+    "name": "Biocoop",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://www.biocoop.fr/magasins-bio/Trouver-mon-magasin-Biocoop/Auvergne-Rhone-Alpes/Rhone/BIOCOOP-DU-VAL-D-AZERGUES"
+  }
+},
+{
+  "type": "node",
+  "id": 6535218455,
+  "lat": 48.8552939,
+  "lon": 2.3877784,
+  "tags": {
+    "addr:housenumber": "141",
+    "addr:street": "Rue de Charonne",
+    "bulk_purchase": "only",
+    "contact:facebook": "https://www.facebook.com/MoodEpicerie/",
+    "name": "Mood Epicerie",
+    "organic": "yes",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 6535218456,
+  "lat": 43.4226982,
+  "lon": 3.1603863,
+  "tags": {
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Mybioshop-Thezan-561968680963054/",
+    "name": "Mybioshop",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "http://www.magasinbiothezan.fr/"
+  }
+},
+{
+  "type": "node",
+  "id": 6535218457,
+  "lat": 45.6909008,
+  "lon": 4.9369218,
+  "tags": {
+    "addr:housenumber": "2",
+    "addr:street": "Rue Anatole France",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/youyouetedith/",
+    "name": "La Tribu des Saveurs",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 6535218458,
+  "lat": 49.1237803,
+  "lon": 2.2465998,
+  "tags": {
+    "brand": "Naturalia",
+    "brand:wikidata": "Q3337081",
+    "brand:wikipedia": "fr:Naturalia",
+    "bulk_purchase": "yes",
+    "name": "Naturalia",
+    "organic": "only",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 6535218459,
+  "lat": 49.3582188,
+  "lon": 6.1394903,
+  "tags": {
+    "addr:street": "Rue des Auriges",
+    "bulk_purchase": "only",
+    "name": "Les Bocaux de Camille",
+    "organic": "yes",
+    "shop": "convenience",
+    "website": "https://www.lesbocauxdecamille.fr/"
+  }
+},
+{
+  "type": "node",
+  "id": 6535218460,
+  "lat": 43.1253488,
+  "lon": 6.0104427,
+  "tags": {
+    "bulk_purchase": "only",
+    "contact:facebook": "https://www.facebook.com/LaReservedeChicoetLoca/",
+    "name": "La Réserve de Chico et Loca",
+    "organic": "yes",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 6535218461,
+  "lat": 50.7213869,
+  "lon": 3.1618611,
+  "tags": {
+    "addr:housenumber": "71",
+    "addr:street": "Rue de Tournai",
+    "bulk_purchase": "only",
+    "contact:facebook": "https://www.facebook.com/Epicerie-Chez-Lucille-973874579463053/",
+    "name": "Chez Lucille",
+    "organic": "yes",
     "shop": "convenience"
   }
 },
@@ -26200,6 +26541,7 @@
   },
   "nodes": [
     5078587130,
+    6534041556,
     1055199848,
     1054823766,
     1055285737,

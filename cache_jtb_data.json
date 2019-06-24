@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.55.7 8b86ff77",
   "osm3s": {
-    "timestamp_osm_base": "2019-06-02T17:25:02Z",
+    "timestamp_osm_base": "2019-06-10T17:45:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -175,6 +175,7 @@
     "addr:postcode": "44000",
     "addr:street": "Rue du Général Buat",
     "name": "Loïc Lusson",
+    "opening_hours": "Tu-Sa 09:00-13:00,15:30-19:30",
     "shop": "butcher"
   }
 },
@@ -375,7 +376,7 @@
   "lat": 47.2142717,
   "lon": -1.5549126,
   "tags": {
-    "amenity": "restaurant",
+    "amenity": "bar",
     "contact:city": "Nantes",
     "contact:facebook": "https://www.facebook.com/chezClairebarrestaurant/",
     "contact:housenumber": "4",
@@ -383,15 +384,14 @@
     "contact:postcode": "44000",
     "contact:street": "Allée Flesselles",
     "contact:website": "https://chez-claire.business.site/",
-    "cuisine": "french;salad",
     "description": "Café et restaurant : bar à salades, bar à croq', plat du jour, tapas",
     "drive_through": "no",
     "inscription": "Trinquer & Manger",
-    "name": "Chez Claire",
-    "opening_hours": "Mo,Tu 09:30-15:30; We 09:30-18:00; Th,Sa 09:30-19:00; Fr 09:30-20:30",
+    "name": "Le bar bleu",
     "outdoor_seating": "yes",
     "source": "survey",
-    "survey:date": "2018-11-13"
+    "survey:date": "2018-11-13",
+    "tobacco": "no"
   }
 },
 {
@@ -659,6 +659,7 @@
     "addr:postcode": "44000",
     "addr:street": "Rue Général Buat",
     "name": "Crèmerie Saint-Do",
+    "opening_hours": "Tu-Sa 08:30-13:00,15:30-19:30",
     "shop": "dairy"
   }
 },
@@ -673,6 +674,7 @@
     "addr:postcode": "44000",
     "addr:street": "Rue Général Buat",
     "name": "Couleur Chocolat",
+    "opening_hours": "Tu-Su 09:30-13:00, Tu-Sa 15:30-19:00",
     "shop": "chocolate",
     "source": "J'aime tes bocaux"
   }
@@ -688,6 +690,7 @@
     "addr:postcode": "44000",
     "addr:street": "Rue Général Buat",
     "name": "Le Verger de Saint-Do",
+    "opening_hours": "Tu-Sa 08:30-13:00,15:30-19:30",
     "shop": "greengrocer"
   }
 },
@@ -1170,7 +1173,8 @@
     "cuisine": "african",
     "name": "Domoro",
     "note": "Mo-Th, Sa 1200 1400 1900 2300 Fr, Su 1900 2300",
-    "survey:date": "2018-11-09",
+    "source": "survey",
+    "survey:date": "2019-06-10",
     "wheelchair": "no"
   }
 },
