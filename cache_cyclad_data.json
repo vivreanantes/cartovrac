@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.55.7 8b86ff77",
   "osm3s": {
-    "timestamp_osm_base": "2019-06-10T17:45:02Z",
+    "timestamp_osm_base": "2019-06-24T17:20:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -66,7 +66,7 @@
     "contact:facebook": "https://www.facebook.com/Charcuterie-Jugel%C3%A9-898575950257843/",
     "name": "Charcuterie JUGELÉ",
     "opening_hours": "Tu-Su 07:30-12:45, 15:00-19:00",
-    "phone": "0546070101",
+    "phone": "+33 5 46 07 01 01",
     "shop": "butcher"
   }
 },
@@ -259,6 +259,171 @@
     "description": "Commerce acceptant les contenants réutilisables. ",
     "name": "Vival du Thou o tout",
     "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 6513346250,
+  "lat": 46.1074623,
+  "lon": -0.7509067,
+  "tags": {
+    "addr:city": "Surgères",
+    "addr:postcode": "17700",
+    "addr:street": "Allée du Marché",
+    "description": "Boucherie - Charcuterie - Traiteur. Commerce acceptant les contenants réutilisables. ",
+    "name": "Sibileau",
+    "operator": "Marché couvert",
+    "shop": "butcher"
+  }
+},
+{
+  "type": "node",
+  "id": 6513346251,
+  "lat": 46.1074642,
+  "lon": -0.7508692,
+  "tags": {
+    "addr:city": "Surgères",
+    "addr:postcode": "17700",
+    "addr:street": "Allée du Marché",
+    "description": "Commerce acceptant les contenants réutilisables. ",
+    "name": "Poissonnerie Neraudeau",
+    "operator": "Marché couvert",
+    "shop": "seafood"
+  }
+},
+{
+  "type": "node",
+  "id": 6513346252,
+  "lat": 46.1074939,
+  "lon": -0.7509496,
+  "tags": {
+    "addr:city": "Surgères",
+    "addr:postcode": "17700",
+    "addr:street": "Allée du Marché",
+    "description": "Commerce de détail alimentaire. Commerce acceptant les contenants réutilisables. ",
+    "name": "LEFEBVRE Gilbert et Sylvie",
+    "operator": "Marché couvert",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 6513346253,
+  "lat": 46.1074828,
+  "lon": -0.7509604,
+  "tags": {
+    "addr:city": "Surgères",
+    "addr:postcode": "17700",
+    "addr:street": "Allée du Marché",
+    "description": "Commerce acceptant les contenants réutilisables. ",
+    "name": "REMBERT Thierry",
+    "operator": "Marché couvert",
+    "shop": "greengrocer"
+  }
+},
+{
+  "type": "node",
+  "id": 6513346254,
+  "lat": 46.1074530,
+  "lon": -0.7508799,
+  "tags": {
+    "addr:city": "Surgères",
+    "addr:postcode": "17700",
+    "addr:street": "Allée du Marché",
+    "description": "Commerce acceptant les contenants réutilisables. ",
+    "name": "La Marennine - JLG 17",
+    "operator": "Marché couvert",
+    "shop": "seafood"
+  }
+},
+{
+  "type": "node",
+  "id": 6513346255,
+  "lat": 46.1074679,
+  "lon": -0.7509845,
+  "tags": {
+    "addr:city": "Surgères",
+    "addr:postcode": "17700",
+    "addr:street": "Allée du Marché",
+    "description": "Ostréiculteur. Commerce acceptant les contenants réutilisables. ",
+    "name": "MOREAU Patrick",
+    "operator": "Marché couvert",
+    "shop": "seafood"
+  }
+},
+{
+  "type": "node",
+  "id": 6513346256,
+  "lat": 46.1074753,
+  "lon": -0.7509550,
+  "tags": {
+    "addr:city": "Surgères",
+    "addr:postcode": "17700",
+    "addr:street": "Allée du Marché",
+    "description": "Commerce acceptant les contenants réutilisables. ",
+    "name": "Couleur Marché - EURL VD",
+    "operator": "Marché couvert",
+    "shop": "greengrocer"
+  }
+},
+{
+  "type": "node",
+  "id": 6513346257,
+  "lat": 46.1074586,
+  "lon": -0.7509577,
+  "tags": {
+    "addr:city": "Surgères",
+    "addr:postcode": "17700",
+    "addr:street": "Allée du Marché",
+    "description": "Commerce acceptant les contenants réutilisables. ",
+    "name": "SARL du Bois du Pan",
+    "operator": "Marché couvert",
+    "shop": "butcher"
+  }
+},
+{
+  "type": "node",
+  "id": 6513346258,
+  "lat": 46.1074400,
+  "lon": -0.7509175,
+  "tags": {
+    "addr:city": "Surgères",
+    "addr:postcode": "17700",
+    "addr:street": "Allée du Marché",
+    "description": "Commerce acceptant les contenants réutilisables. ",
+    "name": "SARL Aux Portes du Marais",
+    "operator": "Marché couvert",
+    "shop": "greengrocer"
+  }
+},
+{
+  "type": "node",
+  "id": 6517960034,
+  "lat": 46.2248050,
+  "lon": -1.0356688,
+  "tags": {
+    "addr:city": "Saint Ouen d'Aunis",
+    "addr:housenumber": "5",
+    "addr:postcode": "17230",
+    "addr:street": "Place Libération",
+    "description": "Commerce acceptant les contenants réutilisables. ",
+    "name": "Au Fournil de Saint Ouen",
+    "shop": "bakery"
+  }
+},
+{
+  "type": "node",
+  "id": 6524314669,
+  "lat": 46.2254126,
+  "lon": -0.9317539,
+  "tags": {
+    "addr:city": "Nuaillé-d'Aunis",
+    "addr:housenumber": "1",
+    "addr:postcode": "17540",
+    "addr:street": "Place du Four",
+    "description": "Commerce acceptant les contenants réutilisables. ",
+    "name": "Boulangerie Martineau",
+    "shop": "bakery"
   }
 },
 {

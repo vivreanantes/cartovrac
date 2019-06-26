@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.55.7 8b86ff77",
   "osm3s": {
-    "timestamp_osm_base": "2019-06-10T17:45:02Z",
+    "timestamp_osm_base": "2019-06-24T17:20:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -293,13 +293,13 @@
     "addr:housenumber": "5",
     "addr:postcode": "44000",
     "addr:street": "Rue des Bons Français",
-    "amenity": "cafe",
     "contact:city": "Nantes",
     "contact:country": "FR",
     "contact:housenumber": "5",
     "contact:postcode": "44000",
     "contact:street": "Rue des Bons Français",
-    "name": "Mango"
+    "note": "ouverture prochaine de Vacarme Nantes",
+    "shop": "vacant"
   }
 },
 {
@@ -404,6 +404,9 @@
     "addr:housenumber": "1",
     "addr:postcode": "44210",
     "addr:street": "Rue du traité de Lisbonne",
+    "brand": "Biocoop",
+    "brand:wikidata": "Q2904039",
+    "brand:wikipedia": "fr:Biocoop",
     "bulk_purchase": "yes",
     "name": "Les Hameaux Bio Biocoop Pornic",
     "opening_hours": "Mo-Sa 09:30-19:15; Su off",
@@ -474,6 +477,7 @@
     "contact:postcode": "44000",
     "contact:street": "Rue de Verdun",
     "name": "La Crêmerie des Carmélites",
+    "opening_hours": "Tu-Th 09:30-13:30,15:30-20:00; Fr,Sa 09:30-20:00; Su 09:30-13:30,15:30-18:30",
     "shop": "cheese"
   }
 },
@@ -507,6 +511,8 @@
     "addr:postcode": "44260",
     "addr:street": "Les Fretauderies",
     "brand": "Biocoop",
+    "brand:wikidata": "Q2904039",
+    "brand:wikipedia": "fr:Biocoop",
     "bulk_purchase": "yes",
     "name": "Biocoop Le Sillon Bio",
     "opening_hours": "Mo-Th 09:00-13:00, 14:30-19:00; Fr-Sa 09:00-19:00; Su off",
@@ -582,6 +588,7 @@
     "contact:website": "http://www.cafeclavreul.com",
     "craft": "coffee_roaster",
     "name": "Au Bon Café Clavreul",
+    "opening_hours": "Tu-Sa 09:30-19:00; Mo 14:00-19:00",
     "shop": "coffee"
   }
 },
@@ -596,6 +603,9 @@
     "addr:housenumber": "17",
     "addr:postcode": "44200",
     "addr:street": "Boulevard Gustave Roch",
+    "brand": "Biocoop",
+    "brand:wikidata": "Q2904039",
+    "brand:wikipedia": "fr:Biocoop",
     "bulk_purchase": "yes",
     "contact:phone": "+33 2 40 48 55 67",
     "contact:website": "https://www.biocoop.fr/magasins-bio/Trouver-mon-magasin-Biocoop/Pays-de-la-Loire/Loire-Atlantique/BIOCOOP-NANTES-REPUBLIQUE",
@@ -642,10 +652,13 @@
     "addr:housenumber": "211",
     "addr:postcode": "44300",
     "addr:street": "Route de Sainte-Luce",
-    "name": "La boule carré",
+    "name": "La boule carrée",
     "note:payment:meal_voucher": "minimum 6 euros",
+    "opening_hours": "Mo-Fr 07:15-19:45; Su 07:30-13:30",
+    "pastry_shop": "yes",
     "payment:meal_voucher": "yes",
-    "shop": "bakery"
+    "shop": "bakery",
+    "source": "survey"
   }
 },
 {
@@ -832,6 +845,23 @@
 },
 {
   "type": "node",
+  "id": 4228670107,
+  "lat": 47.2060521,
+  "lon": -1.5051122,
+  "tags": {
+    "addr:city": "Saint-Sébastien-sur-Loire",
+    "addr:housenumber": "3",
+    "addr:postcode": "44230",
+    "addr:street": "Rue Jean Macé",
+    "contact:facebook": "https://www.facebook.com/epiceriemoscati/",
+    "name": "Moscati",
+    "operator": "Christophe Tréguier",
+    "shop": "deli",
+    "source_ref:url": "http://www.moscati.fr/"
+  }
+},
+{
+  "type": "node",
   "id": 4267907899,
   "lat": 47.3244071,
   "lon": -2.4109019,
@@ -839,6 +869,9 @@
     "addr:city": "Guérande",
     "addr:postcode": "44350",
     "addr:street": "Rue de la Briquerie",
+    "brand": "Biocoop",
+    "brand:wikidata": "Q2904039",
+    "brand:wikipedia": "fr:Biocoop",
     "bulk_purchase": "yes",
     "name": "Les Hameaux Bio Biocoop Guérande",
     "opening_hours": "Mo-Sa 09:30-19:15; Su off",
@@ -995,6 +1028,9 @@
     "addr:housenumber": "19",
     "addr:postcode": "44300",
     "addr:street": "Rue du Marché Commun",
+    "brand": "Biocoop",
+    "brand:wikidata": "Q2904039",
+    "brand:wikipedia": "fr:Biocoop",
     "bulk_purchase": "yes",
     "description": "Alimentation biologique et éco-produits",
     "name": "Les Hameaux Bio Biocoop Nantes",
@@ -1083,11 +1119,25 @@
     "addr:housenumber": "4",
     "addr:postcode": "44380",
     "addr:street": "Avenue du Courtil Riel",
+    "brand": "Biocoop",
+    "brand:wikidata": "Q2904039",
+    "brand:wikipedia": "fr:Biocoop",
     "bulk_purchase": "yes",
     "name": "Les Hameaux Bio Biocoop Pornichet",
     "organic": "only",
     "shop": "supermarket",
     "website": "https://www.leshameauxbio.fr/magasins/o%C3%B9-sommes-nous/pornichet/"
+  }
+},
+{
+  "type": "node",
+  "id": 5403811880,
+  "lat": 47.2526006,
+  "lon": -1.5945964,
+  "tags": {
+    "name": "La Boucherie",
+    "shop": "butcher",
+    "survey:date": "2019-01-06"
   }
 },
 {
@@ -1404,6 +1454,25 @@
 },
 {
   "type": "node",
+  "id": 5655365444,
+  "lat": 47.2064357,
+  "lon": -1.5547156,
+  "tags": {
+    "amenity": "restaurant",
+    "contact:facebook": "https://www.facebook.com/monrestobio",
+    "contact:website": "http://atable-naturellement.fr",
+    "diet:vegetarian": "yes",
+    "mapillary": "cojL-1Q3tb2KM3HixVqB_Q",
+    "name": "À table naturellement",
+    "opening_hours": "Mo-Th 11:30-18:30; Fr 11:30-17:30; Sa 11:00-15:00",
+    "organic": "only",
+    "outdoor_seating": "yes",
+    "survey:date": "2018-12-09",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
   "id": 5659509071,
   "lat": 47.2810384,
   "lon": -2.2149858,
@@ -1496,6 +1565,7 @@
     "contact:housenumber": "16",
     "contact:postcode": "44200",
     "contact:street": "Mail des Chantiers",
+    "mapillary": "LWZGtjzyh4T2uL9G3vcFNA",
     "name": "Dose de Sens",
     "opening_hours": "Mo-Fr 10:00-19:00",
     "organic": "only",
@@ -1644,6 +1714,21 @@
 },
 {
   "type": "node",
+  "id": 6416702272,
+  "lat": 47.2001689,
+  "lon": -1.5891099,
+  "tags": {
+    "addr:housenumber": "40",
+    "bulk_purchase": "only",
+    "contact:facebook": "https://www.facebook.com/chezlavoisineepicerie/",
+    "name": "Chez la Voisine",
+    "organic": "yes",
+    "shop": "convenience",
+    "website": "http://chezlavoisine.bio/"
+  }
+},
+{
+  "type": "node",
   "id": 6432379017,
   "lat": 47.2173736,
   "lon": -1.5562539,
@@ -1672,6 +1757,19 @@
     "contact:facebook": "https://www.facebook.com/Les-Gourmandises-de-Goulaine-812482498932257/",
     "name": "Les Gourmandises de Goulaine",
     "shop": "deli"
+  }
+},
+{
+  "type": "node",
+  "id": 6556837598,
+  "lat": 47.2497470,
+  "lon": -1.4873051,
+  "tags": {
+    "addr:housenumber": "2",
+    "addr:street": "Rue du Maréchal de Lattre de Tassigny",
+    "contact:facebook": "https://www.facebook.com/Boucherie-Esnault-Lelou-506018089907303/",
+    "name": "Boucherie Esnault Lelou",
+    "shop": "butcher"
   }
 },
 {
