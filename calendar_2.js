@@ -33,7 +33,7 @@
                      if (show==true) {
                        cptEventsFiltered++;
                        textDiv2 += "<div class='ligne'>"; // ligne
-					   textDiv2 += "<a id='calendar_repair-bistrot-par-la-recyclerie-le-grenier'>&nbsp;</a>";
+					   textDiv2 += "<a id='calendar_"+type_event[cptEventsNotFiltered].tags["id"]+"'>&nbsp;</a>";
 					   textDiv2 += "<div class='wrap'>"; // wrap
 					   // image
 			           textDiv2 += "<div class='truc'>"; // truc
@@ -103,24 +103,35 @@
 
 					   // Dates
 					   textDiv2 += "<div class='event_conditions'>"; // event_conditions
-					    textDiv2 +=  type_event[cptEventsNotFiltered].tags["description"]+"</br/>";
+					   if (typeof type_event[cptEventsNotFiltered].tags["description"] !== "undefined") {
+							textDiv2 +=  type_event[cptEventsNotFiltered].tags["description"]+"</br/>";
+					   }
 						textDiv2 += "<div class='timeDate'>"; // timeDate
+						if (typeof type_event[cptEventsNotFiltered].tags["opening_hours"] !== "undefined") {
+							textDiv2 += "(<i>"+type_event[cptEventsNotFiltered].tags["opening_hours"] + "</i>)<br/>";
+						}
 						var nbEvent = 0;
 						for(var cptDateOfTheEvent = 0; cptDateOfTheEvent < type_event[cptEventsNotFiltered].tags["opening_hours_detailled"].length; cptDateOfTheEvent++) {
 						 textDiv2 += type_event[cptEventsNotFiltered].tags["opening_hours_detailled"][cptDateOfTheEvent] + "<br/>";
 						 nbEvent++;
                        }
                        if (nbEvent==0) {
-                          textDiv2 += "Pas de date à venir programmée.";
+						   if (typeof type_event[cptEventsNotFiltered].tags["contact:calendar"] !== "undefined") {
+							   textDiv2 += "<a href='" + type_event[cptEventsNotFiltered].tags["contact:calendar"]+"' target=_new><b><i>Voir le calendrier</i></b></a> ";
+						   } else {
+							textDiv2 += "Pas de date à venir programmée.";
+						   }
                        }
 					   textDiv2 += "</div><br/>"; // end of timeDate
 					   if (typeof type_event[cptEventsNotFiltered].tags["website"] !== "undefined") {
                          textDiv2 += "<a href='" + type_event[cptEventsNotFiltered].tags["website"]+"' target=_new><b><i>Site internet</i></b></a> ";
                        }
 					   if (typeof type_event[cptEventsNotFiltered].tags["contact:website"] !== "undefined") {
-                         textDiv2 += "<a href='" + type_event[cptEventsNotFiltered].tags["contact:website"]+"' target=_new><b><i>Site internet</i></b></a> ";
+                         textDiv2 += "<a href='" + type_event[cptEventsNotFiltered].tags["contact:website"]+"' target=_new><b><i>Site internet</i></b></a><br/>";
                        }
-					   
+					   if (typeof type_event[cptEventsNotFiltered].tags["contact:facebook"] !== "undefined") {
+                         textDiv2 += "<a href='" + type_event[cptEventsNotFiltered].tags["contact:facebook"]+"' target=_new><b><i>Facebook</i></b></a><br/>";
+                       }
 					   textDiv2 += "</div>";   // end of event_conditions
 					   textDiv2 += "</div>"; // end of truc
 					   
