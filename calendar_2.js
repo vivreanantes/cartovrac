@@ -19,7 +19,8 @@
 		
                  for (var cptEventsNotFiltered = 0; cptEventsNotFiltered < type_event.length; cptEventsNotFiltered++) {
                      var show = true;
-					 if (type_event[cptEventsNotFiltered].tags["department"] !== "Loire-Atlantique") {
+					 if (type_event[cptEventsNotFiltered].tags["department"] !== "Loire-Atlantique" &&
+						type_event[cptEventsNotFiltered].tags["department"] !== "Maine-Et-Loire") {
                          show = false;
                        }
 	  /*

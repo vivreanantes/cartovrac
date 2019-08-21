@@ -31,6 +31,9 @@ foreach ($data["elements"] as $tag) {
 	if (substr($data["elements"][$id]["tags"]["contact:postcode"], 0, 2 )=="44") {
 		$data["elements"][$id]["tags"]["department"] = "Loire-Atlantique";
 	}
+	if (substr($data["elements"][$id]["tags"]["contact:postcode"], 0, 2 )=="49") {
+		$data["elements"][$id]["tags"]["department"] = "Maine-Et-Loire";
+	}
 	$id++;
 }
 
@@ -161,7 +164,7 @@ function add_specific_day_several_days_per_month($input, &$array_result) {
 	 echo "add_specific_day_several_days_per_month '$input'<br/>";
 	 
 	$array_result_temp = array();
-	$input=trim($input); // remove blank space
+	$input=trim($input); // remove blanl space
 
 	$day=substr($input, 0, 2);
 	$dayofmonth1=substr($input, 3, 1);
