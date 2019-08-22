@@ -20,7 +20,10 @@
                  for (var cptEventsNotFiltered = 0; cptEventsNotFiltered < type_event.length; cptEventsNotFiltered++) {
                      var show = true;
 					 if (type_event[cptEventsNotFiltered].tags["department"] !== "Loire-Atlantique" &&
-						type_event[cptEventsNotFiltered].tags["department"] !== "Maine-Et-Loire") {
+						type_event[cptEventsNotFiltered].tags["department"] !== "Maine-Et-Loire" &&
+						type_event[cptEventsNotFiltered].tags["department"] !== "Mayenne" &&
+						type_event[cptEventsNotFiltered].tags["department"] !== "Sarthe" &&
+						type_event[cptEventsNotFiltered].tags["department"] !== "Vend\u00e9e") {
                          show = false;
                        }
 	  /*

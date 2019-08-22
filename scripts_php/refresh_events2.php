@@ -31,8 +31,17 @@ foreach ($data["elements"] as $tag) {
 	if (substr($data["elements"][$id]["tags"]["contact:postcode"], 0, 2 )=="44") {
 		$data["elements"][$id]["tags"]["department"] = "Loire-Atlantique";
 	}
-	if (substr($data["elements"][$id]["tags"]["contact:postcode"], 0, 2 )=="49") {
+	else if (substr($data["elements"][$id]["tags"]["contact:postcode"], 0, 2 )=="49") {
 		$data["elements"][$id]["tags"]["department"] = "Maine-Et-Loire";
+	}
+	else if (substr($data["elements"][$id]["tags"]["contact:postcode"], 0, 2 )=="53") {
+		$data["elements"][$id]["tags"]["department"] = "Mayenne";
+	}
+	else if (substr($data["elements"][$id]["tags"]["contact:postcode"], 0, 2 )=="72") {
+		$data["elements"][$id]["tags"]["department"] = "Sarthe";
+	}
+	else if (substr($data["elements"][$id]["tags"]["contact:postcode"], 0, 2 )=="85") {
+		$data["elements"][$id]["tags"]["department"] = "Vendée";
 	}
 	$id++;
 }
