@@ -48,6 +48,13 @@
                        else {
                          textDiv2 += "<img src='"+type_event[cptEventsNotFiltered].tags["image"]+"' width='200px' style='width=100%;max-width:100%;height:auto' />";
                        }
+						if (typeof type_event[cptEventsNotFiltered].tags["mapillary"] == "undefined") {
+                         textDiv2 += "&nbsp;";
+                       }
+                       else {
+						   // https://d1cuyjsrcm0gby.cloudfront.net/{mapillary}/thumb-640.jpg
+                         textDiv2 += "<img src='https://d1cuyjsrcm0gby.cloudfront.net/"+type_event[cptEventsNotFiltered].tags["mapillary"]+"/thumb-640.jpg' width='200px' style='width=100%;max-width:100%;height:auto' />";
+                       }
                        textDiv2 += "</span>"; // end image
 					   textDiv2 += "</div>"; // end truc
 					   
