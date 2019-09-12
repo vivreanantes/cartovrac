@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.55.7 8b86ff77",
   "osm3s": {
-    "timestamp_osm_base": "2019-06-24T17:20:02Z",
+    "timestamp_osm_base": "2019-09-12T09:55:01Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -104,6 +104,7 @@
     "name": "Le P'tit Poids",
     "opening_hours": "Tu-Th 09:00-12:30, 14:30-19:00; Fr 09:00-12:30, 15:30-19:00; Sa 09:30-12:30, 15:00-19:00",
     "organic": "yes",
+    "phone": "09.83.02.87.22",
     "shop": "convenience",
     "website": "https://epicerie-leptitpoids.fr/"
   }
@@ -142,7 +143,8 @@
     "name": "Un grain gourmand",
     "opening_hours": "Tu-Sa 07:00-13:30,16:00-20:00; Su 07:00-13:00,16:00-19:00; May-Aug Su 07:00-13:00",
     "pastry_shop": "yes",
-    "shop": "bakery"
+    "shop": "bakery",
+    "wheelchair": "no"
   }
 },
 {
@@ -304,6 +306,23 @@
 },
 {
   "type": "node",
+  "id": 2272012231,
+  "lat": 47.2170919,
+  "lon": -1.5531720,
+  "tags": {
+    "amenity": "fast_food",
+    "contact:city": "Nantes",
+    "contact:country": "FR",
+    "contact:facebook": "https://www.facebook.com/MAMIE-PAT-548789705193887/",
+    "contact:housenumber": "18",
+    "contact:postcode": "44000",
+    "contact:street": "Rue de Briord",
+    "cuisine": "pasta",
+    "name": "Mamie Pât'"
+  }
+},
+{
+  "type": "node",
   "id": 2289128176,
   "lat": 47.2148493,
   "lon": -1.5538938,
@@ -432,11 +451,7 @@
     "contact:housenumber": "12",
     "contact:postcode": "44000",
     "contact:street": "Place du Pilori",
-    "cuisine": "sandwich",
-    "name": "La Tartinerie",
-    "opening_hours:signed": "no",
-    "takeaway": "yes",
-    "wheelchair": "yes"
+    "name": "Lulu & Félix"
   }
 },
 {
@@ -644,6 +659,38 @@
 },
 {
   "type": "node",
+  "id": 3305544579,
+  "lat": 47.1794276,
+  "lon": -1.6236473,
+  "tags": {
+    "addr:housenumber": "3",
+    "addr:postcode": "44340",
+    "addr:street": "Place de l'Église",
+    "contact:facebook": "https://www.facebook.com/LESOUT.Bouguenais/",
+    "name": "Boulangerie Pâtisserie Nicolas Lesout",
+    "shop": "bakery",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 3448218023,
+  "lat": 47.2219779,
+  "lon": -1.5596070,
+  "tags": {
+    "addr:housenumber": "2",
+    "addr:street": "Rue Yves Bodiguel",
+    "bulk_purchase": "only",
+    "contact:facebook": "https://www.facebook.com/lesjolisbocaux/",
+    "mapillary": "aiv5HO7zVGdagqujgtGCTg",
+    "name": "Les Jolis Bocaux",
+    "organic": "yes",
+    "shop": "convenience",
+    "website": "https://lesjolisbocaux.com/"
+  }
+},
+{
+  "type": "node",
   "id": 3470086335,
   "lat": 47.2395925,
   "lon": -1.5135479,
@@ -766,6 +813,21 @@
     "name": "Papill'",
     "opening_hours": "Mo-Fr 11:30-14:30",
     "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3874479888,
+  "lat": 47.2167531,
+  "lon": -1.5553276,
+  "tags": {
+    "addr:city": "Nantes",
+    "addr:housenumber": "2",
+    "addr:postcode": "44000",
+    "addr:street": "Rue Saint-Léonard",
+    "contact:facebook": "https://www.facebook.com/Les-Bottes-Boucherie-Paysanne-311067539588459/",
+    "name": "Les Bottes",
+    "shop": "butcher"
   }
 },
 {
@@ -907,6 +969,20 @@
 },
 {
   "type": "node",
+  "id": 4367931757,
+  "lat": 47.2580051,
+  "lon": -1.5132350,
+  "tags": {
+    "brand": "Carrefour",
+    "brand:wikidata": "Q217599",
+    "contact:facebook": "https://www.facebook.com/CarrefourNantesBeaujoire/",
+    "name": "Carrefour",
+    "opening_hours": "Mo-Fr 09:00-21:30; Sa 09:00-21:00",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
   "id": 4394780789,
   "lat": 47.2151934,
   "lon": -1.5532121,
@@ -937,7 +1013,7 @@
     "addr:postcode": "44800",
     "addr:street": "Rue des Plantes",
     "bulk_purchase": "yes",
-    "name": "Chlorophylle Saint-Herblain BEAUSEJOUR",
+    "name": "Chlorophylle Saint-Herblain Beauséjour",
     "opening_hours": "Mo-Sa 09:00-19:30; Su off",
     "operator": "Chlorophylle-coop",
     "organic": "only",
@@ -1010,12 +1086,9 @@
     "addr:housenumber": "66",
     "addr:postcode": "44000",
     "addr:street": "Rue Maréchal Joffre",
-    "amenity": "restaurant",
-    "cuisine": "asian",
-    "facebook": "https://www.facebook.com/thaigannantes/",
-    "name": "Thaigan",
-    "name:fr": "Thaigan",
-    "takeaway": "yes"
+    "name": "Bed & school",
+    "office": "estate_agent",
+    "source": "survey"
   }
 },
 {
@@ -1105,6 +1178,7 @@
     "name": "Épicerie Day by Day",
     "opening_hours": "Tu-Sa 10:30-13:00,15:00-19:00",
     "organic": "yes",
+    "phone": "09.73.15.80.74",
     "shop": "convenience",
     "website": "http://daybyday-shop.com/magasin/nantes"
   }
@@ -1142,23 +1216,6 @@
 },
 {
   "type": "node",
-  "id": 5418567639,
-  "lat": 47.5211878,
-  "lon": -2.2869608,
-  "tags": {
-    "addr:city": "Nivillac",
-    "addr:postcode": "56130",
-    "addr:street": "Route de Redon-Saint Dolay",
-    "bulk_purchase": "yes",
-    "name": "O'Val en Vert",
-    "opening_hours": "Mo 14:00-19:00; Tu-Sa 09:15-19:00; Su off",
-    "organic": "only",
-    "shop": "supermarket",
-    "website": "http://ovalenvert.fr/"
-  }
-},
-{
-  "type": "node",
   "id": 5456625523,
   "lat": 47.2285765,
   "lon": -1.5413056,
@@ -1186,7 +1243,8 @@
     "addr:street": "Rue Général Buat",
     "name": "Boulangerie Rullier Patrice",
     "shop": "bakery",
-    "source": "J'aime tes bocaux"
+    "source": "J'aime tes bocaux",
+    "wheelchair": "no"
   }
 },
 {
@@ -1505,6 +1563,22 @@
 },
 {
   "type": "node",
+  "id": 5769027832,
+  "lat": 47.2139971,
+  "lon": -1.5529087,
+  "tags": {
+    "name": "Borea",
+    "opening_hours": "06:00-20:30",
+    "pastry_shop": "yes",
+    "shop": "bakery",
+    "source": "survey",
+    "survey:date": "2018-10-24",
+    "website": "http://www.boulangerie-borea.com/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
   "id": 5851060201,
   "lat": 47.2167623,
   "lon": -1.5596422,
@@ -1524,6 +1598,19 @@
     "survey:date": "2018-09-26",
     "website": "https://www.biocoop.fr/",
     "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5884678702,
+  "lat": 47.2156348,
+  "lon": -1.5553602,
+  "tags": {
+    "addr:housenumber": "7",
+    "addr:street": "Rue des Halles",
+    "amenity": "cafe",
+    "contact:facebook": "https://www.facebook.com/combicafe.nantes/",
+    "name": "Combi"
   }
 },
 {
@@ -1555,6 +1642,48 @@
 },
 {
   "type": "node",
+  "id": 6015554486,
+  "lat": 47.2283798,
+  "lon": -1.5325506,
+  "tags": {
+    "name": "Aux Délices d'Ambre",
+    "note": "Tu-Fr 0630 1930 Sa 0700 1930 Su 0700 1330",
+    "pastry_shop": "yes",
+    "shop": "bakery",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 6017751256,
+  "lat": 47.2171611,
+  "lon": -1.5599198,
+  "tags": {
+    "contact:facebook": "https://www.facebook.com/esthete.nantes/",
+    "name": "Esthète",
+    "shop": "pastry"
+  }
+},
+{
+  "type": "node",
+  "id": 6023751304,
+  "lat": 47.2144572,
+  "lon": -1.5632425,
+  "tags": {
+    "addr:housenumber": "14",
+    "addr:street": "Rue Franklin",
+    "contact:facebook": "https://www.facebook.com/LESOUT.Nantes/",
+    "email": "boulangeriefranklin@orange.fr",
+    "name": "Lesout",
+    "phone": "+33 2 40 48 78 84",
+    "shop": "bakery",
+    "survey:date": "2018-10-28",
+    "website": "https://lesout.wixsite.com/lesout",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
   "id": 6026797392,
   "lat": 47.2048074,
   "lon": -1.5678523,
@@ -1563,6 +1692,7 @@
     "contact:city": "Nantes",
     "contact:facebook": "https://www.facebook.com/dosedesens/",
     "contact:housenumber": "16",
+    "contact:phone": "06.62.96.72.78",
     "contact:postcode": "44200",
     "contact:street": "Mail des Chantiers",
     "mapillary": "LWZGtjzyh4T2uL9G3vcFNA",
@@ -1620,7 +1750,9 @@
     "bulk_purchase": "only",
     "contact:facebook": "https://www.facebook.com/lecellierdheleneepicerievrac/",
     "name": "Le Cellier d'Hélène",
+    "opening_hours": "Tu-Fr 10:00-14:00, 15:30-19:30; Sa 10:00-19:00",
     "organic": "yes",
+    "phone": "06.75.07.32.83",
     "shop": "convenience"
   }
 },
@@ -1718,10 +1850,14 @@
   "lat": 47.2001689,
   "lon": -1.5891099,
   "tags": {
+    "addr:city": "Nantes",
     "addr:housenumber": "40",
+    "addr:postcode": "44100",
+    "addr:street": "place Jean Macé",
     "bulk_purchase": "only",
     "contact:facebook": "https://www.facebook.com/chezlavoisineepicerie/",
     "name": "Chez la Voisine",
+    "opening_hours": "Tu-Sa 10:00-1300, 15:00-19:30",
     "organic": "yes",
     "shop": "convenience",
     "website": "http://chezlavoisine.bio/"
