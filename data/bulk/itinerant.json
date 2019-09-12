@@ -43,6 +43,20 @@
 		}
 	  ]
 	},
+  	{
+	  "name": "Envie d'épices",
+	  "website": "https://www.facebook.com/enviedepices",
+	  "bulk_purchase": "only",
+	  "organic": "only",
+	  "validated_with_owner": false,
+	  "places": [
+	  	{
+	  		"lat": 47.27923,
+	  		"lon": -2.21563,
+	    	"place_name": "Marché des Halles, Saint-Nazaire"
+		}
+	  ]
+	},
 	{
 	  "name": "La Main dans l'Sac",
 	  "website": "http://lamaindanslsac.fr/",
@@ -200,6 +214,35 @@
 	  		"lat": 43.95445, 
 	  		"lon": 5.02669,
 	  		"place_name": "Marché de Velleron"
+	  	}
+	  ]
+	},
+	{
+	  "name": "Mik'a Vrak",
+	  "website": "https://www.facebook.com/mikavrak/",
+	  "bulk_purchase": "only",
+	  "organic": "yes",
+	  "validated_with_owner": false,
+	  "places": [
+	  	{
+	  		"lat": 45.93492, 
+	  		"lon": -0.52394,
+	  		"place_name": "Marché de Saint-Jean-d'Angély"
+	  	},
+	  	{
+	  		"lat": 45.86658, 
+	  		"lon": -0.25780,
+	  		"place_name": "Marché de Haimps"
+	  	},
+	  	{
+	  		"lat": 45.75692, 
+	  		"lon": -0.61729,
+	  		"place_name": "L'autre marché au silo, Saintes"
+	  	},
+	  	{
+	  		"lat": 45.79961, 
+	  		"lon": -0.43784,
+	  		"place_name": "Marché fermier, Villars-les-bois"
 	  	}
 	  ]
 	},
