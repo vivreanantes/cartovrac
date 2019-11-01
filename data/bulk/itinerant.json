@@ -66,6 +66,35 @@
 	  "places": []
 	},
   	{
+	  "name": "La Mesurette",
+	  "website": "http://www.lamesurette.fr/",
+	  "bulk_purchase": "only",
+	  "organic": "yes",
+	  "validated_with_owner": false,
+	  "places": [
+	  	{
+	  		"lat": 47.34158,
+	  		"lon": -1.52684,
+	    	"place_name": "Place du marché, Sucé-sur-Erdre"
+		},
+		{
+	  		"lat": 47.36529,
+	  		"lon": -1.60560,
+	    	"place_name": "Place de l'église, Grandchamp-des-Fontaines"
+		},
+		{
+	  		"lat": 47.50147,
+	  		"lon": -1.57965,
+	    	"place_name": "Place de la mairie, Saffré"
+		},
+		{
+	  		"lat": 47.55247, 
+	  		"lon": -1.53254,
+	    	"place_name": "Abbaretz"
+		}
+	  ]
+	},
+  	{
 	  "name": "La p'tite roulotte",
 	  "website": "http://www.laptiteroulotte.com/",
 	  "bulk_purchase": "only",
