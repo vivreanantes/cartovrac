@@ -261,6 +261,8 @@ function getType(osmElementTags) {
 		type = "only_bulk_convenience";
 	} else if (type == "supermarket" && osmElementTags['organic'] == "only") {
 		type = "organic_supermarket"
+	} else if (type == "supermarket" && osmElementTags['operator:type'] == "cooperative") {
+		type = "cooperative_supermarket"
 	}
 
 	return type;
