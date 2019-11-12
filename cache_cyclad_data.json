@@ -1,8 +1,8 @@
 {
   "version": 0.6,
-  "generator": "Overpass API 0.7.55.7 8b86ff77",
+  "generator": "Overpass API 0.7.55.1009 5e627b63",
   "osm3s": {
-    "timestamp_osm_base": "2019-09-12T09:55:01Z",
+    "timestamp_osm_base": "2019-11-10T18:03:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -21,6 +21,22 @@
     "name": "Boulangerie Barodon",
     "shop": "bakery",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre;mise à jour : 2010"
+  }
+},
+{
+  "type": "node",
+  "id": 1867172411,
+  "lat": 45.8287371,
+  "lon": -0.8748000,
+  "tags": {
+    "addr:city": "Pont-l'Abbé-d'Arnoult",
+    "addr:housenumber": "13",
+    "addr:postcode": "17250",
+    "addr:street": "Avenue André Malraux",
+    "description": "Commerçant acceptant les contenants réutilisables. ",
+    "name": "Boulangerie Faucon Michel",
+    "operator": "Faucon Michel",
+    "shop": "bakery"
   }
 },
 {
@@ -169,15 +185,15 @@
 {
   "type": "node",
   "id": 6396162738,
-  "lat": 46.1158235,
-  "lon": -0.9347376,
+  "lat": 46.1157389,
+  "lon": -0.9348047,
   "tags": {
     "addr:city": "Aigrefeuille-d'Aunis",
     "addr:housenumber": "5",
     "addr:postcode": "17290",
     "addr:street": "Rue de l'Aunis",
     "contact:facebook": "https://www.facebook.com/patisseriebrissonromainetlaetitia/",
-    "name": "Brisson",
+    "name": "Laëtitia et Romain Brisson",
     "shop": "bakery"
   }
 },
@@ -191,23 +207,7 @@
     "addr:housenumber": "3",
     "addr:postcode": "17290",
     "addr:street": "Rue du Petit Bois",
-    "name": "Méli Mélo",
     "shop": "cheese"
-  }
-},
-{
-  "type": "node",
-  "id": 6397851432,
-  "lat": 46.0991520,
-  "lon": -0.9407227,
-  "tags": {
-    "addr:city": "Le Thou",
-    "addr:housenumber": "3",
-    "addr:postcode": "17290",
-    "addr:street": "Rue du Petit Bois",
-    "bulk_purchase": "yes",
-    "name": "Belle à croquer",
-    "shop": "convenience"
   }
 },
 {
@@ -1035,6 +1035,82 @@
     "description": "Commerce acceptant les contenants réutilisables. ",
     "name": "Sodipral",
     "shop": "butcher"
+  }
+},
+{
+  "type": "node",
+  "id": 6905851887,
+  "lat": 46.0553036,
+  "lon": -0.7644348,
+  "tags": {
+    "addr:city": "Vandré",
+    "addr:housenumber": "2",
+    "addr:postcode": "17700",
+    "addr:street": "Rue du 26ème Régiment d'Infanterie",
+    "description": "Commerçant acceptant les contenants réutilisables. ",
+    "name": "Boucherie VINET",
+    "shop": "butcher"
+  }
+},
+{
+  "type": "node",
+  "id": 6905890630,
+  "lat": 46.1002775,
+  "lon": -0.6763361,
+  "tags": {
+    "addr:city": "Boisseul",
+    "addr:housenumber": "24",
+    "addr:postcode": "17700",
+    "addr:street": "Rue le Logis de Boisseuil",
+    "description": "Commerçant acceptant les contenants réutilisables. ",
+    "name": "La P'tite Epicerie",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 6905974603,
+  "lat": 45.7587762,
+  "lon": -0.7307741,
+  "tags": {
+    "addr:city": "Nieul-lès-Saintes",
+    "addr:housenumber": "37",
+    "addr:postcode": "17810",
+    "addr:street": "Rue Rouyer Guillet",
+    "description": "Commerçant acceptant les contenants réutilisables. ",
+    "name": "Boulangerie - Pâtisserie",
+    "operator": "Richer",
+    "shop": "bakery"
+  }
+},
+{
+  "type": "node",
+  "id": 6906001141,
+  "lat": 45.7717413,
+  "lon": -0.8887438,
+  "tags": {
+    "addr:city": "Sainte-Gemme",
+    "addr:housenumber": "2",
+    "addr:postcode": "17250",
+    "addr:street": "Rue du Prieuré",
+    "description": "Commerçant acceptant les contenants réutilisables. ",
+    "name": "Geffre Sébastien",
+    "shop": "bakery"
+  }
+},
+{
+  "type": "node",
+  "id": 6906008333,
+  "lat": 45.7421189,
+  "lon": -0.8369364,
+  "tags": {
+    "addr:city": "Balanzac",
+    "addr:housenumber": "72",
+    "addr:postcode": "17600",
+    "addr:street": "Route de l'Océan",
+    "description": "Commerçant acceptant les contenants réutilisables. ",
+    "name": "Boulangerie Balanzac",
+    "shop": "bakery"
   }
 },
 {

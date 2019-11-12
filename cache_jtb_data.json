@@ -1,8 +1,8 @@
 {
   "version": 0.6,
-  "generator": "Overpass API 0.7.55.7 8b86ff77",
+  "generator": "Overpass API 0.7.55.1009 5e627b63",
   "osm3s": {
-    "timestamp_osm_base": "2019-09-12T09:55:01Z",
+    "timestamp_osm_base": "2019-11-10T18:03:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -13,19 +13,20 @@
   "lat": 47.2172918,
   "lon": -1.5524959,
   "tags": {
-    "addr:city": "Nantes",
-    "addr:housenumber": "5",
-    "addr:postcode": "44000",
-    "addr:street": "Rue de Strasbourg",
     "amenity": "restaurant",
     "contact:city": "Nantes",
     "contact:country": "FR",
+    "contact:facebook": "https://www.facebook.com/AnneCuillere/",
     "contact:housenumber": "21",
+    "contact:phone": "+33 2 40 89 16 93",
     "contact:postcode": "44000",
     "contact:street": "Rue de Strasbourg",
     "cuisine": "french",
     "name": "La Cuillère en Coin",
-    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre;mise à jour : 2009"
+    "opening_hours": "Mo-Fr 12:00-15:00",
+    "survey:date": "2019-02-24",
+    "takeaway": "yes",
+    "wheelchair": "yes"
   }
 },
 {
@@ -34,10 +35,6 @@
   "lat": 47.2147524,
   "lon": -1.5548521,
   "tags": {
-    "addr:city": "Nantes",
-    "addr:housenumber": "9",
-    "addr:postcode": "44000",
-    "addr:street": "Rue de la Bléterie",
     "amenity": "restaurant",
     "contact:city": "Nantes",
     "contact:country": "FR",
@@ -52,6 +49,7 @@
     "opening_hours": "We-Sa 12:00-15:30,19:00-23:30",
     "organic": "yes",
     "phone": "+33 9 83 88 83 53",
+    "survey:date": "2019-02-24",
     "takeaway": "yes"
   }
 },
@@ -61,21 +59,16 @@
   "lat": 47.2148495,
   "lon": -1.5552388,
   "tags": {
-    "addr:city": "Nantes",
-    "addr:housenumber": "13",
-    "addr:postcode": "44000",
-    "addr:street": "Rue Beauregard",
-    "amenity": "restaurant",
     "contact:city": "Nantes",
     "contact:country": "FR",
     "contact:housenumber": "13",
     "contact:postcode": "44000",
     "contact:street": "Rue Beauregard",
-    "cuisine": "french",
-    "facebook": "http://www.facebook.com/Jargus/",
     "name": "Jargus",
-    "opening_hours": "Mo-We 12:00-20:00, Th-Sa 12:00-22:00",
-    "website": "http://jargus.fr/"
+    "note": "Etablissement fermé et déménagé à une autre adresse. Enseigne toujours présente",
+    "survey:date": "2019-10-23",
+    "was:amenity": "restaurant",
+    "wheelchair": "no"
   }
 },
 {
@@ -95,18 +88,34 @@
   "lat": 47.2102484,
   "lon": -1.7282223,
   "tags": {
-    "addr:city": "Couëron",
     "addr:housenumber": "8",
     "addr:postcode": "44220",
-    "addr:street": "Rue Alcide Charles d’ Orbigny",
+    "addr:street": "Rue Alcide et Charles d'Orbigny",
     "bulk_purchase": "only",
     "contact:email": "contact@epicerie-leptitpoids.fr",
     "name": "Le P'tit Poids",
     "opening_hours": "Tu-Th 09:00-12:30, 14:30-19:00; Fr 09:00-12:30, 15:30-19:00; Sa 09:30-12:30, 15:00-19:00",
     "organic": "yes",
-    "phone": "09.83.02.87.22",
+    "phone": "+33 983028722",
     "shop": "convenience",
     "website": "https://epicerie-leptitpoids.fr/"
+  }
+},
+{
+  "type": "node",
+  "id": 1208617740,
+  "lat": 47.2074744,
+  "lon": -1.5572505,
+  "tags": {
+    "amenity": "bar",
+    "contact:facebook": "https://www.facebook.com/absence.nantes",
+    "contact:phone": "+33 2 40 75 75 07",
+    "name": "L'Absence",
+    "outdoor_seating": "yes",
+    "start_date": "2009",
+    "survey:date": "2019-01-03",
+    "url": "https://www.nantes-tourisme.com/fr/art-contemporain/l-absence",
+    "wheelchair": "yes"
   }
 },
 {
@@ -207,19 +216,8 @@
   "lat": 47.2176945,
   "lon": -1.5552341,
   "tags": {
-    "addr:city": "Nantes",
     "addr:housenumber": "3",
-    "addr:postcode": "44000",
-    "addr:street": "Rue de l'Hôtel de Ville",
-    "bulk_purchase": "only",
-    "description": "Boutique sans emballage. Produits alimentaires (farine,céréales,pâtes...), produits du quotidien (lessive…)",
-    "email": "contact@obocal.com",
-    "name": "Boutique Ô Bocal",
-    "opening_hours": "Tu-Fr 10:00-19:30; Sa 10:00-19:00",
-    "organic": "only",
-    "shop": "convenience",
-    "source": "Association Mieux trier à Nantes, 07/2016",
-    "website": "http://www.obocal.com/"
+    "addr:postcode": "44000"
   }
 },
 {
@@ -228,10 +226,6 @@
   "lat": 47.2175592,
   "lon": -1.5520688,
   "tags": {
-    "addr:city": "Nantes",
-    "addr:housenumber": "18",
-    "addr:postcode": "44000",
-    "addr:street": "Rue de Verdun",
     "contact:city": "Nantes",
     "contact:country": "FR",
     "contact:housenumber": "1",
@@ -241,8 +235,9 @@
     "name": "bio-Nant'",
     "opening_hours": "Mo-Sa 09:30-19:15; Su off",
     "organic": "only",
-    "phone": "+33 2 40481237",
-    "shop": "greengrocer"
+    "phone": "+33 2 40 48 12 37",
+    "shop": "greengrocer",
+    "wheelchair": "limited"
   }
 },
 {
@@ -254,7 +249,8 @@
     "contact:city": "Nantes",
     "contact:country": "FR",
     "contact:housenumber": "24",
-    "contact:phone": "+33 2 40475968",
+    "contact:instagram": "https://www.instagram.com/labrulerienantes/",
+    "contact:phone": "+33 2 40 47 59 68",
     "contact:postcode": "44000",
     "contact:street": "Rue de la Marne",
     "contact:website": "http://labrulerienantes.free.fr",
@@ -262,6 +258,7 @@
     "name": "La BrûLeRie",
     "opening_hours": "Mo 14:00-19:00; Tu-Sa 10:00-19:00",
     "shop": "coffee",
+    "survey:date": "2019-02-24",
     "wheelchair": "yes"
   }
 },
@@ -271,18 +268,19 @@
   "lat": 47.2158933,
   "lon": -1.5549826,
   "tags": {
-    "addr:city": "Nantes",
-    "addr:housenumber": "4",
-    "addr:postcode": "44000",
-    "addr:street": "Rue des Carmes",
+    "amenity": "cafe",
     "contact:city": "Nantes",
     "contact:country": "FR",
-    "contact:housenumber": "8",
+    "contact:housenumber": "4",
+    "contact:instagram": "https://www.instagram.com/taiyakiandteanantes/",
     "contact:postcode": "44000",
     "contact:street": "Rue des Carmes",
-    "name": "Leonidas",
+    "cuisine": "taiyaki",
+    "description": "Bubble tea taïwanais et taiyaki",
+    "name": "Taiyaki and Tea",
     "opening_hours": "Tu-Sa 10:00-19:00",
-    "shop": "confectionery"
+    "survey:date": "2019-10-23",
+    "wheelchair": "yes"
   }
 },
 {
@@ -295,13 +293,18 @@
     "addr:housenumber": "5",
     "addr:postcode": "44000",
     "addr:street": "Rue des Bons Français",
+    "amenity": "restaurant",
     "contact:city": "Nantes",
     "contact:country": "FR",
     "contact:housenumber": "5",
+    "contact:instagram": "https://www.instagram.com/vacarme.nantes/",
     "contact:postcode": "44000",
     "contact:street": "Rue des Bons Français",
-    "note": "ouverture prochaine de Vacarme Nantes",
-    "shop": "vacant"
+    "name": "Vacarme",
+    "opening_hours": "We-Fr 09:00-23:00; Sa 10:00-23:00; Su 11:00-17:00",
+    "survey:date": "2019-09-27",
+    "website": "https://www.facebook.com/vacarme.nantes/",
+    "wheelchair": "yes"
   }
 },
 {
@@ -318,7 +321,11 @@
     "contact:postcode": "44000",
     "contact:street": "Rue de Briord",
     "cuisine": "pasta",
-    "name": "Mamie Pât'"
+    "name": "Mamie Pât",
+    "outdoor_seating": "yes",
+    "survey:date": "2019-02-24",
+    "takeaway": "yes",
+    "wheelchair": "no"
   }
 },
 {
@@ -339,7 +346,8 @@
     "name": "Boucherie du Bouffay",
     "opening_hours": "Mo-Sa 08:00-19:30; Su 08:30-12:30",
     "phone": "+33 2 40 48 54 08",
-    "shop": "butcher"
+    "shop": "butcher",
+    "survey:date": "2019-02-24"
   }
 },
 {
@@ -377,15 +385,17 @@
     "capacity": "45",
     "contact:city": "Nantes",
     "contact:country": "FR",
+    "contact:facebook": "https://www.facebook.com/dinettenantes/",
     "contact:housenumber": "12",
     "contact:postcode": "44000",
     "contact:street": "Rue du Château",
     "cuisine": "french",
-    "facebook": "https://www.facebook.com/dinettenantes/",
     "name": "Dînette",
     "opening_hours": "Mo-Su 12:00-19:00; Tu off",
+    "outdoor_seating": "yes",
     "phone": "+33 2 51 82 79 13",
     "smoking": "outside",
+    "survey:date": "2019-02-24",
     "wheelchair": "limited"
   }
 },
@@ -395,21 +405,18 @@
   "lat": 47.2142717,
   "lon": -1.5549126,
   "tags": {
-    "amenity": "bar",
+    "amenity": "cafe",
     "contact:city": "Nantes",
-    "contact:facebook": "https://www.facebook.com/chezClairebarrestaurant/",
+    "contact:facebook": "https://www.facebook.com/LeBarBleuNantes/",
     "contact:housenumber": "4",
-    "contact:phone": "+33 2 40758019",
+    "contact:phone": "+33 2 40 75 80 19",
     "contact:postcode": "44000",
     "contact:street": "Allée Flesselles",
-    "contact:website": "https://chez-claire.business.site/",
-    "description": "Café et restaurant : bar à salades, bar à croq', plat du jour, tapas",
     "drive_through": "no",
-    "inscription": "Trinquer & Manger",
     "name": "Le bar bleu",
     "outdoor_seating": "yes",
     "source": "survey",
-    "survey:date": "2018-11-13",
+    "survey:date": "2019-06-07",
     "tobacco": "no"
   }
 },
@@ -448,10 +455,15 @@
     "amenity": "fast_food",
     "contact:city": "Nantes",
     "contact:country": "FR",
+    "contact:facebook": "https://www.facebook.com/LEFSR/",
     "contact:housenumber": "12",
     "contact:postcode": "44000",
     "contact:street": "Place du Pilori",
-    "name": "Lulu & Félix"
+    "name": "Lulu & Félix",
+    "outdoor_seating": "yes",
+    "survey:date": "2019-09-04",
+    "takeaway": "yes",
+    "wheelchair": "yes"
   }
 },
 {
@@ -482,18 +494,19 @@
   "lat": 47.2174721,
   "lon": -1.5517781,
   "tags": {
-    "addr:city": "Nantes",
-    "addr:housenumber": "15",
-    "addr:postcode": "44000",
-    "addr:street": "Rue de Verdun",
     "contact:city": "Nantes",
     "contact:country": "FR",
+    "contact:facebook": "https://www.facebook.com/lacremeriedescarmelites/",
     "contact:housenumber": "15",
+    "contact:phone": "+33 2 40 47 19 24",
     "contact:postcode": "44000",
     "contact:street": "Rue de Verdun",
+    "contact:website": "https://lescarmeliteslacremerie.fr/",
     "name": "La Crêmerie des Carmélites",
     "opening_hours": "Tu-Th 09:30-13:30,15:30-20:00; Fr,Sa 09:30-20:00; Su 09:30-13:30,15:30-18:30",
-    "shop": "cheese"
+    "organic": "yes",
+    "shop": "cheese",
+    "survey:date": "2019-06-11"
   }
 },
 {
@@ -502,18 +515,20 @@
   "lat": 47.2173353,
   "lon": -1.5520038,
   "tags": {
-    "addr:city": "Nantes",
-    "addr:housenumber": "21",
-    "addr:postcode": "44000",
-    "addr:street": "Rue de Verdun",
     "contact:city": "Nantes",
     "contact:country": "FR",
+    "contact:facebook": "https://www.facebook.com/olibabanantes/",
     "contact:housenumber": "21",
-    "contact:phone": "+33 2 40 89 06 71",
+    "contact:phone": "+33 2 28 49 17 83",
     "contact:postcode": "44000",
     "contact:street": "Rue de Verdun",
+    "contact:website": "https://www.olibaba.fr/",
     "name": "Olibaba",
-    "shop": "convenience"
+    "opening_hours": "Tu-Fr 10:00-13:30,15:00-19:30; Sa 10:00-19:30",
+    "organic": "yes",
+    "shop": "deli",
+    "survey:date": "2018-07-23",
+    "wheelchair": "no"
   }
 },
 {
@@ -578,7 +593,7 @@
   "tags": {
     "bulk_purchase": "yes",
     "contact:phone": "+33 228081833",
-    "contact:website": "www.voyagesduthe.com",
+    "contact:website": "https://www.voyagesduthe.com",
     "name": "Voyages du Thé",
     "opening_hours": "Mo 15:00-19:00; Tu-Sa 10:00-13:00,14:30-19:00; Su 10:30-13:00",
     "shop": "tea",
@@ -591,20 +606,19 @@
   "lat": 47.2166901,
   "lon": -1.5554971,
   "tags": {
-    "addr:city": "Nantes",
-    "addr:housenumber": "1-3",
-    "addr:postcode": "44000",
-    "addr:street": "Rue Saint-Léonard",
     "contact:city": "Nantes",
     "contact:country": "FR",
+    "contact:facebook": "https://www.facebook.com/au.bon.cafe.clavreul/",
     "contact:housenumber": "3",
+    "contact:phone": "+33 2 40 47 16 55",
     "contact:postcode": "44000",
     "contact:street": "Rue Saint-Léonard",
     "contact:website": "http://www.cafeclavreul.com",
     "craft": "coffee_roaster",
-    "name": "Au Bon Café Clavreul",
+    "name": "Cafés Clavreul",
     "opening_hours": "Tu-Sa 09:30-19:00; Mo 14:00-19:00",
-    "shop": "coffee"
+    "shop": "coffee",
+    "survey:date": "2019-02-24"
   }
 },
 {
@@ -821,13 +835,16 @@
   "lat": 47.2167531,
   "lon": -1.5553276,
   "tags": {
-    "addr:city": "Nantes",
-    "addr:housenumber": "2",
-    "addr:postcode": "44000",
-    "addr:street": "Rue Saint-Léonard",
+    "contact:city": "Nantes",
     "contact:facebook": "https://www.facebook.com/Les-Bottes-Boucherie-Paysanne-311067539588459/",
+    "contact:housenumber": "2",
+    "contact:phone": "+33 2 52 20 13 86",
+    "contact:postcode": "44000",
+    "contact:street": "Rue Saint-Léonard",
     "name": "Les Bottes",
-    "shop": "butcher"
+    "opening_hours": "Tu-Sa 09:30-20:00; Su 09:30-13:00",
+    "shop": "butcher",
+    "survey:date": "2019-09-03"
   }
 },
 {
@@ -1038,6 +1055,22 @@
     "organic": "only",
     "shop": "supermarket",
     "website": "http://www.chlorophylle-coop.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 4750862439,
+  "lat": 47.2650699,
+  "lon": -1.4874542,
+  "tags": {
+    "addr:city": "Sainte-Luce-sur-Loire",
+    "addr:housenumber": "13",
+    "addr:postcode": "44980",
+    "addr:street": "Rue Denis Papin",
+    "name": "Le grenier à pain",
+    "opening_hours": "Mo-Fr 07:00-14:30,16:00-19:30; Su 08:00-13:00",
+    "shop": "bakery",
+    "website": "http://legrenierapain.com/magasins-province/#st-luce"
   }
 },
 {
@@ -1388,14 +1421,10 @@
   "lat": 47.2145564,
   "lon": -1.5551554,
   "tags": {
-    "addr:city": "Nantes",
-    "addr:housenumber": "9",
-    "addr:postcode": "44000",
-    "addr:street": "Rue du Vieil Hôpital",
-    "amenity": "restaurant",
-    "cuisine": "french",
-    "name": "Treat",
-    "takeaway": "yes"
+    "contact:facebook": "https://www.facebook.com/treat.nantes/",
+    "old_name": "Treat",
+    "survey:date": "2019-10-22",
+    "was:amenity": "restaurant"
   }
 },
 {
@@ -1610,7 +1639,11 @@
     "addr:street": "Rue des Halles",
     "amenity": "cafe",
     "contact:facebook": "https://www.facebook.com/combicafe.nantes/",
-    "name": "Combi"
+    "contact:instagram": "https://www.instagram.com/combicafe.nantes/",
+    "name": "Combi",
+    "outdoor_seating": "yes",
+    "survey:date": "2019-07-28",
+    "wheelchair": "yes"
   }
 },
 {
@@ -1692,7 +1725,7 @@
     "contact:city": "Nantes",
     "contact:facebook": "https://www.facebook.com/dosedesens/",
     "contact:housenumber": "16",
-    "contact:phone": "06.62.96.72.78",
+    "contact:phone": "+33 62967278",
     "contact:postcode": "44200",
     "contact:street": "Mail des Chantiers",
     "mapillary": "LWZGtjzyh4T2uL9G3vcFNA",
@@ -1725,6 +1758,34 @@
 },
 {
   "type": "node",
+  "id": 6088358201,
+  "lat": 47.2190497,
+  "lon": -1.5550578,
+  "tags": {
+    "amenity": "restaurant",
+    "contact:city": "Nantes",
+    "contact:country": "FR",
+    "contact:facebook": "https://www.facebook.com/greenaddict.bio/",
+    "contact:housenumber": "4",
+    "contact:instagram": "https://www.instagram.com/green_addict_nantes/",
+    "contact:phone": "+33 2 40 20 11 03",
+    "contact:postcode": "44000",
+    "contact:street": "Rue Léon Blum",
+    "diet:gluten_free": "only",
+    "diet:vegan": "only",
+    "diet:vegetarian": "yes",
+    "name": "Green addict",
+    "opening_hours": "Mo 12:15-14:30; Tu-Sa 10:30-17:30",
+    "organic": "yes",
+    "source": "survey",
+    "survey:date": "2019-02-24",
+    "takeaway": "yes",
+    "website": "https://greenaddict.bio",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
   "id": 6094770462,
   "lat": 47.4757354,
   "lon": -1.7630334,
@@ -1752,7 +1813,7 @@
     "name": "Le Cellier d'Hélène",
     "opening_hours": "Tu-Fr 10:00-14:00, 15:30-19:30; Sa 10:00-19:00",
     "organic": "yes",
-    "phone": "06.75.07.32.83",
+    "phone": "+33 675073283",
     "shop": "convenience"
   }
 },
@@ -1774,6 +1835,24 @@
     "phone": "+33 9 86 26 80 89",
     "survey:date": "2019-02-20",
     "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6285198282,
+  "lat": 47.2131924,
+  "lon": -1.5537363,
+  "tags": {
+    "amenity": "cafe",
+    "contact:email": "hello@kinfolk.fr",
+    "cuisine": "coffee_shop",
+    "email": "hello@kinfolk.fr",
+    "name": "Kinfolk",
+    "opening_hours": "Mo-Fr 09:30-19:00; Sa 11:00-15:00; Su off; ",
+    "phone": "+33 9 71471265",
+    "was:amenity": "cafe",
+    "was:name": "Kinfolk",
+    "website": "https://www.kinfolk.fr/"
   }
 },
 {
@@ -1820,19 +1899,6 @@
 },
 {
   "type": "node",
-  "id": 6415193174,
-  "lat": 47.2206304,
-  "lon": -1.5588500,
-  "tags": {
-    "addr:housenumber": "6",
-    "addr:street": "Rue de Bel Air",
-    "amenity": "cafe",
-    "name": "Sam & Jo",
-    "website": "https://sametjo.org/"
-  }
-},
-{
-  "type": "node",
   "id": 6415201298,
   "lat": 47.2142784,
   "lon": -1.5478123,
@@ -1857,7 +1923,7 @@
     "bulk_purchase": "only",
     "contact:facebook": "https://www.facebook.com/chezlavoisineepicerie/",
     "name": "Chez la Voisine",
-    "opening_hours": "Tu-Sa 10:00-1300, 15:00-19:30",
+    "opening_hours": "Tu-Sa 10:00-13:00,15:00-19:30",
     "organic": "yes",
     "shop": "convenience",
     "website": "http://chezlavoisine.bio/"
@@ -1866,19 +1932,24 @@
 {
   "type": "node",
   "id": 6432379017,
-  "lat": 47.2173736,
-  "lon": -1.5562539,
+  "lat": 47.2174654,
+  "lon": -1.5562355,
   "tags": {
-    "addr:city": "Nantes",
-    "addr:housenumber": "14",
-    "addr:postcode": "44000",
-    "addr:street": "Rue Armand Brossard",
     "amenity": "restaurant",
+    "contact:city": "Nantes",
+    "contact:facebook": "https://www.facebook.com/ethiquete/",
+    "contact:housenumber": "14",
+    "contact:instagram": "https://www.instagram.com/ethiquetev/",
+    "contact:phone": "+33 2 40 48 20 02",
+    "contact:postcode": "44000",
+    "contact:street": "Rue Armand Brossard",
+    "contact:website": "https://www.ethiquete.fr/",
     "diet:vegan": "only",
     "diet:vegetarian": "yes",
     "name": "L’Éthiquête",
     "opening_hours": "Mo-Fr 12:00-15:00; Sa 11:00-16:00",
-    "outdoor_seating": "yes"
+    "outdoor_seating": "yes",
+    "survey:date": "2019-06-11"
   }
 },
 {
@@ -1897,6 +1968,24 @@
 },
 {
   "type": "node",
+  "id": 6463762132,
+  "lat": 47.1042184,
+  "lon": -1.7965855,
+  "tags": {
+    "addr:city": "Sainte Pazanne",
+    "addr:housenumber": "10",
+    "addr:postcode": "44680",
+    "addr:street": "Rue des Frênes",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/magasinbiosaintepazanne/",
+    "name": "Bio'Zitive",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://www.biomonde.fr/bio-zitive,3,311"
+  }
+},
+{
+  "type": "node",
   "id": 6556837598,
   "lat": 47.2497470,
   "lon": -1.4873051,
@@ -1905,6 +1994,43 @@
     "addr:street": "Rue du Maréchal de Lattre de Tassigny",
     "contact:facebook": "https://www.facebook.com/Boucherie-Esnault-Lelou-506018089907303/",
     "name": "Boucherie Esnault Lelou",
+    "shop": "butcher"
+  }
+},
+{
+  "type": "node",
+  "id": 6685077189,
+  "lat": 47.2228873,
+  "lon": -1.5458052,
+  "tags": {
+    "name": "Miam",
+    "shop": "convenience",
+    "source": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 6780870872,
+  "lat": 47.2069138,
+  "lon": -1.5632728,
+  "tags": {
+    "name": "La maison",
+    "opening_hours": "Tu-Fr 08:30-19:30; Sa-Su 10:00-15:00",
+    "shop": "bakery"
+  }
+},
+{
+  "type": "node",
+  "id": 6868203947,
+  "lat": 47.3833918,
+  "lon": -2.2010103,
+  "tags": {
+    "addr:city": "Saint-Joachim",
+    "addr:housenumber": "104",
+    "addr:postcode": "44720",
+    "addr:street": "Rue Joliot Curie",
+    "contact:facebook": "https://www.facebook.com/nathaliebostffocher/",
+    "name": "Boucherie La Renommée",
     "shop": "butcher"
   }
 },
@@ -1937,10 +2063,9 @@
     870868750
   ],
   "tags": {
-    "addr:city": "Basse-Goulaine",
     "addr:housenumber": "5",
     "addr:postcode": "44115",
-    "addr:street": "Rue de l’Atlantique",
+    "addr:street": "Rue de l'Atlantique",
     "building": "yes",
     "bulk_purchase": "yes",
     "name": "Chlorophylle Basse-Goulaine POLE SUD",
