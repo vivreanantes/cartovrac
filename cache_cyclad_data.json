@@ -1,8 +1,8 @@
 {
   "version": 0.6,
-  "generator": "Overpass API 0.7.55.1009 5e627b63",
+  "generator": "Overpass API 0.7.55.7 8b86ff77",
   "osm3s": {
-    "timestamp_osm_base": "2019-11-10T18:03:02Z",
+    "timestamp_osm_base": "2019-11-24T21:17:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -643,7 +643,7 @@
     "addr:postcode": "17100",
     "addr:street": "Rue Saint-Pierre",
     "craft": "caterer",
-    "description": "Commerce acceptant les contenants réutilisables. ",
+    "description": "Commerce acceptant les contenants réutilisables.",
     "name": "Saveurs Orientales"
   }
 },
@@ -657,7 +657,7 @@
     "addr:housenumber": "23",
     "addr:postcode": "17100",
     "addr:street": "Rue Saint-Pierre",
-    "description": "Commerce acceptant les contenants réutilisables. ",
+    "description": "Commerce acceptant les contenants réutilisables.",
     "name": "Stand Fermier",
     "shop": "greengrocer"
   }
@@ -687,7 +687,7 @@
     "addr:housenumber": "23",
     "addr:postcode": "17100",
     "addr:street": "Rue Saint-Pierre",
-    "description": "Commerce acceptant les contenants réutilisables. ",
+    "description": "Commerce acceptant les contenants réutilisables.",
     "name": "Fromagerie David",
     "shop": "cheese"
   }
@@ -702,7 +702,7 @@
     "addr:housenumber": "23",
     "addr:postcode": "17100",
     "addr:street": "Rue Saint-Pierre",
-    "description": "Commerce acceptant les contenants réutilisables. ",
+    "description": "Commerce acceptant les contenants réutilisables.",
     "name": "Noëlle au Pays des Fromages",
     "shop": "cheese"
   }
@@ -717,7 +717,7 @@
     "addr:housenumber": "23",
     "addr:postcode": "17100",
     "addr:street": "Rue Saint-Pierre",
-    "description": "Commerce acceptant les contenants réutilisables. ",
+    "description": "Commerce acceptant les contenants réutilisables.",
     "name": "Boulangerie - l'Authentique",
     "shop": "bakery"
   }
@@ -732,7 +732,7 @@
     "addr:housenumber": "23",
     "addr:postcode": "17100",
     "addr:street": "Rue Saint-Pierre",
-    "description": "Commerce acceptant les contenants réutilisables. ",
+    "description": "Commerce acceptant les contenants réutilisables.",
     "name": "EARL Elevage Boyer",
     "shop": "butcher"
   }
@@ -747,7 +747,7 @@
     "addr:housenumber": "23",
     "addr:postcode": "17100",
     "addr:street": "Rue Saint-Pierre",
-    "description": "Commerce acceptant les contenants réutilisables. ",
+    "description": "Commerce acceptant les contenants réutilisables.",
     "name": "A. Ravelaud",
     "shop": "butcher"
   }
@@ -762,7 +762,7 @@
     "addr:housenumber": "23",
     "addr:postcode": "17100",
     "addr:street": "Rue Saint-Pierre",
-    "description": "Commerce acceptant les contenants réutilisables. ",
+    "description": "Commerce acceptant les contenants réutilisables.",
     "name": "Coeur de Laitue",
     "shop": "greengrocer"
   }
@@ -777,7 +777,7 @@
     "addr:housenumber": "23",
     "addr:postcode": "17100",
     "addr:street": "Rue Saint-Pierre",
-    "description": "Biscuiterie acceptant les contenants réutilisables. ",
+    "description": "Biscuiterie acceptant les contenants réutilisables.",
     "name": "Aux Macarons d'Antan",
     "shop": "pastry"
   }
@@ -792,7 +792,7 @@
     "addr:housenumber": "23",
     "addr:postcode": "17100",
     "addr:street": "Rue Saint-Pierre",
-    "description": "Commerce acceptant les contenants réutilisables. ",
+    "description": "Commerce acceptant les contenants réutilisables.",
     "name": "Primeur Vinet",
     "shop": "greengrocer"
   }
@@ -807,7 +807,7 @@
     "addr:housenumber": "23",
     "addr:postcode": "17100",
     "addr:street": "Rue Saint-Pierre",
-    "description": "Commerce acceptant les contenants réutilisables. ",
+    "description": "Commerce acceptant les contenants réutilisables.",
     "name": "Fromagerie Fine Moreau",
     "shop": "cheese"
   }

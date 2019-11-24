@@ -1,8 +1,8 @@
 {
   "version": 0.6,
-  "generator": "Overpass API 0.7.55.1009 5e627b63",
+  "generator": "Overpass API 0.7.55.7 8b86ff77",
   "osm3s": {
-    "timestamp_osm_base": "2019-11-10T18:03:02Z",
+    "timestamp_osm_base": "2019-11-24T21:17:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -116,6 +116,19 @@
     "survey:date": "2019-01-03",
     "url": "https://www.nantes-tourisme.com/fr/art-contemporain/l-absence",
     "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1354149269,
+  "lat": 47.2527611,
+  "lon": -1.5940555,
+  "tags": {
+    "contact:facebook": "https://www.facebook.com/boulangerie.laleczynski/",
+    "name": "Boulangerie Lalczynski",
+    "shop": "bakery",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011",
+    "survey:date": "2019-01-06"
   }
 },
 {
@@ -305,6 +318,25 @@
     "survey:date": "2019-09-27",
     "website": "https://www.facebook.com/vacarme.nantes/",
     "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2260735425,
+  "lat": 47.2162637,
+  "lon": -1.5553196,
+  "tags": {
+    "contact:city": "Nantes",
+    "contact:country": "FR",
+    "contact:facebook": "https://www.facebook.com/maisonfrometon/",
+    "contact:housenumber": "21",
+    "contact:postcode": "44000",
+    "contact:street": "Rue des Carmes",
+    "contact:website": "https://www.maisonfrometon.fr/",
+    "name": "Maison Frometon",
+    "shop": "cheese",
+    "survey:date": "2019-02-24",
+    "wheelchair": "no"
   }
 },
 {
@@ -619,6 +651,27 @@
     "opening_hours": "Tu-Sa 09:30-19:00; Mo 14:00-19:00",
     "shop": "coffee",
     "survey:date": "2019-02-24"
+  }
+},
+{
+  "type": "node",
+  "id": 3094180231,
+  "lat": 47.2163659,
+  "lon": -1.5552067,
+  "tags": {
+    "amenity": "ice_cream",
+    "contact:city": "Nantes",
+    "contact:country": "FR",
+    "contact:facebook": "https://www.facebook.com/lebonyogurt/",
+    "contact:housenumber": "20",
+    "contact:phone": "+33 9 53 95 15 01",
+    "contact:postcode": "44000",
+    "contact:street": "Rue des Carmes",
+    "contact:website": "http://www.laboiteameuh.fr/",
+    "name": "La Boite à Meuh",
+    "survey:date": "2019-10-23",
+    "takeaway": "yes",
+    "wheelchair": "yes"
   }
 },
 {
@@ -1163,6 +1216,26 @@
 },
 {
   "type": "node",
+  "id": 5164862621,
+  "lat": 47.2066975,
+  "lon": -1.5491908,
+  "tags": {
+    "amenity": "restaurant",
+    "contact:facebook": "https://www.facebook.com/SaladIle-874591492661849",
+    "contact:phone": "+33 6 81091230",
+    "cuisine": "salad;wrap",
+    "description": "Restaurant saladbar",
+    "mapillary": "_VB9-iFMWwsUQENYOMMt0w",
+    "name": "Salad'île",
+    "opening_hours": "Mo-Fr 11:30-14:30",
+    "outdoor_seating": "yes",
+    "survey:date": "2018-11-24",
+    "takeaway": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
   "id": 5165100105,
   "lat": 47.2197084,
   "lon": -1.5596311,
@@ -1312,10 +1385,14 @@
     "addr:street": "Boulevard de Stalingrad",
     "amenity": "restaurant",
     "cuisine": "african",
+    "email": "contact@domoro.fr",
     "name": "Domoro",
-    "note": "Mo-Th, Sa 1200 1400 1900 2300 Fr, Su 1900 2300",
+    "opening_hours": "Mo-Sa 12:00-14:00,19:00-23:00; Fr,Su 19:00-23:00",
+    "phone": "+ 33 2 85 37 05 94",
     "source": "survey",
     "survey:date": "2019-06-10",
+    "takeaway": "yes",
+    "website": "http://domoro.fr/",
     "wheelchair": "no"
   }
 },

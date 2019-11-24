@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.55.1009 5e627b63",
   "osm3s": {
-    "timestamp_osm_base": "2019-11-10T18:01:02Z",
-    "timestamp_areas_base": "2019-11-10T17:13:02Z",
+    "timestamp_osm_base": "2019-11-24T21:15:02Z",
+    "timestamp_areas_base": "2019-11-24T19:42:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -458,6 +458,7 @@
     "name": "La Cagette",
     "opening_hours": "Mo 14:00-21:00; Tu-Sa 08:00-21:00",
     "operator": "La Cagette de Montpellier",
+    "operator:type": "cooperative",
     "shop": "convenience",
     "start_date": "06/09/2017",
     "website": "https://lacagette-coop.fr/"
@@ -1131,7 +1132,7 @@
     "description": "Coopérative agriculture biologique et autres produits consommables éthiques",
     "fax": "+33145777094",
     "level": "0",
-    "name": "Toute la bio - Biocoop",
+    "name": "Toute la Bio - Biocoop",
     "opening_hours": "Mo-Fr 10:00-20:30; Sa 09:00-20:30",
     "operator": "Dominique Clairefond",
     "organic": "only",
@@ -1982,6 +1983,7 @@
     "description": "Supermarché coopératif et participatif (réservé aux coopérateurs) avec un (grand) rayon vrac. Produits majoritairement biologiques.",
     "name": "Scopéli",
     "opening_hours": "Tu-Th, Sa 09:00-19:00; Fr 09:00-20:00",
+    "operator:type": "cooperative",
     "phone": "02 85 52 92 07",
     "shop": "supermarket",
     "source": "Nantes Métropole 11/2011",
@@ -2609,8 +2611,8 @@
 {
   "type": "node",
   "id": 1883053256,
-  "lat": 46.7251238,
-  "lon": -2.3497839,
+  "lat": 46.7248735,
+  "lon": -2.3494347,
   "tags": {
     "bulk_purchase": "yes",
     "contact:phone": "+33 251587294",
@@ -3067,12 +3069,17 @@
   "lat": 48.8578607,
   "lon": 2.4038802,
   "tags": {
+    "addr:housenumber": "120",
+    "addr:postcode": "75020",
+    "addr:street": "Rue des Pyrénées",
     "bulk_purchase": "yes",
     "contact:city": "Paris",
     "contact:housenumber": "120",
     "contact:postcode": "75020",
     "contact:street": "Rue des Pyrénées",
-    "name": "Tout Bon",
+    "name": "Miniprix",
+    "name:en": "ToutBon vrac et bio",
+    "name:fr": "ToutBon vrac et bio",
     "organic": "only",
     "shop": "supermarket",
     "source": "local knowledge;survey",
@@ -3272,13 +3279,12 @@
     "addr:postcode": "75011",
     "addr:street": "Rue Boulle",
     "bulk_purchase": "yes",
-    "name": "Welcome Bio",
+    "name": "biocoop Bastille",
     "opening_hours": "Mo-Sa 10:00-20:00",
     "operator": "Biocoop",
     "organic": "only",
-    "phone": "+33 1 43 57 98 49",
     "shop": "supermarket",
-    "website": "http://welcomebio.fr/"
+    "source": "survey"
   }
 },
 {
@@ -3694,6 +3700,20 @@
     "organic": "only",
     "shop": "supermarket",
     "source": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 2450406563,
+  "lat": 43.6089777,
+  "lon": 1.4477800,
+  "tags": {
+    "bulk_purchase": "yes",
+    "name": "Mme Bio et M. Vrac",
+    "organic": "only",
+    "shop": "convenience",
+    "source": "survey",
+    "website": "https://mmebiomvrac.bio/"
   }
 },
 {
@@ -4587,18 +4607,19 @@
 {
   "type": "node",
   "id": 2909745301,
-  "lat": 42.9821566,
-  "lon": 1.1498869,
+  "lat": 42.9822537,
+  "lon": 1.1497930,
   "tags": {
     "addr:city": "Saint-Girons",
     "addr:housenumber": "15",
     "addr:postcode": "09200",
     "addr:street": "Avenue d Aulot",
+    "alt_name": "Biocoop Bio's Faire",
     "brand": "Biocoop",
     "brand:wikidata": "Q2904039",
     "brand:wikipedia": "fr:Biocoop",
     "bulk_purchase": "yes",
-    "name": "Biocoop Bio's Faire",
+    "name": "Biocoop Eau d'Ayes",
     "organic": "only",
     "shop": "supermarket",
     "website": "https://www.biocoop.fr/magasins-bio/Trouver-mon-magasin-Biocoop/Occitanie2/Ariege/BIO-S-FAIRE"
@@ -5929,6 +5950,7 @@
     "brand": "Bio C' Bon",
     "bulk_purchase": "yes",
     "contact:facebook": "https://www.facebook.com/biocbonfrance/",
+    "level": "0",
     "name": "Bio C' Bon",
     "opening_hours": "Mo-Sa 10:00-20:30; Su 10:00-13:00",
     "operator": "Chouraqui Thierry",
@@ -5938,6 +5960,7 @@
     "shop": "supermarket",
     "source": "local_knowledge",
     "survey:date": "2019-06-27",
+    "toilets": "no",
     "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-paris-hauteville",
     "wheelchair": "no"
   }
@@ -7786,7 +7809,7 @@
   "tags": {
     "brand": "La Vie Claire",
     "brand:wikidata": "Q3213589",
-    "brand:wikipedia": "en:La Vie Claire (company)",
+    "brand:wikipedia": "fr:La Vie Claire",
     "bulk_purchase": "yes",
     "name": "La Vie Claire",
     "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-13:00",
@@ -10007,8 +10030,8 @@
 {
   "type": "node",
   "id": 4716180054,
-  "lat": 48.8292917,
-  "lon": 2.2370786,
+  "lat": 48.8293378,
+  "lon": 2.2370754,
   "tags": {
     "addr:housenumber": "392",
     "addr:postcode": "92100",
@@ -10019,7 +10042,7 @@
     "name": "Bio C' Bon",
     "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-13:00",
     "organic": "only",
-    "phone": "+33146057288",
+    "phone": "+33 1 46 05 72 88",
     "shop": "supermarket",
     "source": "survey",
     "website": "https://bio-c-bon.eu/fr/nos_magasins/bio-c-bon-boulogne-kermen"
@@ -10677,6 +10700,31 @@
 },
 {
   "type": "node",
+  "id": 4857345661,
+  "lat": 49.8935479,
+  "lon": 2.2981523,
+  "tags": {
+    "addr:city": "Amiens",
+    "addr:housenumber": "12",
+    "addr:postcode": "80000",
+    "addr:street": "Place Gambetta",
+    "brand": "Biocoop",
+    "brand:wikidata": "Q2904039",
+    "brand:wikipedia": "fr:Biocoop",
+    "bulk_purchase": "yes",
+    "name": "Biocoop",
+    "opening_hours": "Mo-Sa 09:00-19:30",
+    "organic": "only",
+    "phone": "+33 3 22 41 52 30",
+    "shop": "supermarket",
+    "was:name": "Izac",
+    "was:shop": "clothes",
+    "website": "www.amiens-biocoop.fr",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
   "id": 4858216122,
   "lat": 48.8725721,
   "lon": 2.3433422,
@@ -10901,16 +10949,16 @@
 {
   "type": "node",
   "id": 4907687601,
-  "lat": 41.9991259,
-  "lon": 9.3996168,
+  "lat": 41.9991921,
+  "lon": 9.3996292,
   "tags": {
     "bulk_purchase": "only",
+    "contact:facebook": "https://www.facebook.com/Sous-Les-Glycines-112656768829426/",
     "name": "Sous Les Glycines",
     "opening_hours": "Th-Su",
     "organic": "only",
-    "phone": "+33495468741",
-    "shop": "convenience",
-    "website": "http://souslesglycines.com/"
+    "phone": "+33 4 95 46 87 41",
+    "shop": "convenience"
   }
 },
 {
@@ -11474,7 +11522,7 @@
   "tags": {
     "brand": "La Vie Claire",
     "brand:wikidata": "Q3213589",
-    "brand:wikipedia": "en:La Vie Claire (company)",
+    "brand:wikipedia": "fr:La Vie Claire",
     "bulk_purchase": "yes",
     "name": "La Vie Claire",
     "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-13:00",
@@ -11892,6 +11940,24 @@
     "organic": "only",
     "shop": "supermarket",
     "website": "http://lesnouveauxrobinson.coop"
+  }
+},
+{
+  "type": "node",
+  "id": 5156035085,
+  "lat": 50.6401094,
+  "lon": 3.0189214,
+  "tags": {
+    "addr:city": "Lomme",
+    "addr:housenumber": "333",
+    "addr:postcode": "59160",
+    "addr:street": "Avenue de Dunkerque",
+    "bulk_purchase": "yes",
+    "level": "0",
+    "name": "Méo",
+    "phone": "+33320925281",
+    "shop": "coffee",
+    "website": "https://www.meo.fr/default/boutiques/nosboutiques"
   }
 },
 {
@@ -13426,7 +13492,7 @@
     "addr:postcode": "02200",
     "addr:street": "Rue Marcel Paul",
     "bulk_purchase": "yes",
-    "name": "Au panier naturel",
+    "name": "Au Panier Naturel",
     "operator": "Biocoop",
     "organic": "only",
     "shop": "supermarket",
@@ -13678,6 +13744,7 @@
     "brand:wikipedia": "fr:Biocoop",
     "bulk_purchase": "yes",
     "name": "Biocoop Jardin d'Eden",
+    "opening_hours": "Mo-Sa 09:30-19:30",
     "organic": "only",
     "shop": "supermarket",
     "website": "https://www.biocoop.fr/magasins-bio/Trouver-mon-magasin-Biocoop/Provence-Alpes-Cote-d-Azur/Alpes-Maritimes/BIOCOOP-JARDIN-D-EDEN"
@@ -17673,7 +17740,7 @@
   "tags": {
     "brand": "La Vie Claire",
     "brand:wikidata": "Q3213589",
-    "brand:wikipedia": "fr:La Vie claire",
+    "brand:wikipedia": "fr:La Vie Claire",
     "bulk_purchase": "yes",
     "name": "La Vie Claire",
     "organic": "only",
@@ -19072,9 +19139,13 @@
     "addr:postcode": "75003",
     "addr:street": "Rue Notre-Dame de Nazareth",
     "bulk_purchase": "only",
+    "level": "0",
     "name": "Negozio Leggero",
+    "opening_hours": "Tu-Sa 10:00-20:00",
     "shop": "convenience",
-    "website": "http://www.negozioleggero.it/fr/"
+    "toilets": "yes",
+    "website": "http://www.negozioleggero.it/fr/",
+    "wheelchair": "no"
   }
 },
 {
@@ -20161,23 +20232,6 @@
 },
 {
   "type": "node",
-  "id": 6041007015,
-  "lat": 48.1947614,
-  "lon": 6.4471277,
-  "tags": {
-    "addr:housenumber": "1",
-    "addr:postcode": "88190",
-    "addr:street": "Rue des Tisserands",
-    "bulk_purchase": "yes",
-    "contact:facebook": "https://www.facebook.com/UniversBioSarlcooperative/",
-    "name": "Uni'vers Bio",
-    "organic": "only",
-    "shop": "supermarket",
-    "website": "http://www.universbio.fr/"
-  }
-},
-{
-  "type": "node",
   "id": 6042434804,
   "lat": 48.0793870,
   "lon": 7.3619305,
@@ -21009,6 +21063,7 @@
     "name": "Super Cafoutch",
     "opening_hours": "We 16:30-20:00; Fr 18:00-20:00; Sa 10:00-14:00",
     "operator": "Association Le Super Cafoutch",
+    "operator:type": "cooperative",
     "organic": "yes",
     "shop": "supermarket",
     "website": "https://supercafoutch.fr/"
@@ -21089,6 +21144,7 @@
     "name": "Supercoop",
     "note": "Supermarché coopératif et participatif",
     "opening_hours": "Mo-Fr 09:00-20:00; Sa 09:00-18:30",
+    "operator:type": "cooperative",
     "payment:cash": "yes",
     "payment:contactless": "yes",
     "payment:credit_cards": "yes",
@@ -21313,7 +21369,7 @@
     "organic": "yes",
     "phone": "+33384542331",
     "shop": "convenience",
-    "website": "https://www.lemonde-en-vrac.com"
+    "website": "http://lemonde-en-vrac.com"
   }
 },
 {
@@ -21347,6 +21403,26 @@
     "name": "La Bonne Mesure",
     "shop": "convenience",
     "website": "https://www.labonnemesure.fr/"
+  }
+},
+{
+  "type": "node",
+  "id": 6147311789,
+  "lat": 48.6088213,
+  "lon": 1.6777655,
+  "tags": {
+    "addr:city": "Épernon",
+    "addr:housenumber": "3",
+    "addr:postcode": "28230",
+    "addr:street": "Rue Paul Painlevé",
+    "bulk_purchase": "yes",
+    "name": "L'inflorescence",
+    "opening_hours": "Tu-Fr 09:15-12:30,15:00-19:00; Sa 09:15-12:30",
+    "operator": "Benedicte LESAGE",
+    "organic": "only",
+    "phone": "+33237218095",
+    "shop": "convenience",
+    "website": "https://linflorescence-bio28.com/zerodechets.html"
   }
 },
 {
@@ -21671,7 +21747,7 @@
     "contact:email": "daybyday.lemans@gmail.com",
     "contact:phone": "+33 9 86 64 81 99",
     "contact:website": "http://daybyday-shop.com/magasin/le-mans",
-    "name": "day by day",
+    "name": "Day by Day",
     "opening_hours": "Tu-Sa 09:45-12:45, 14:30-19:00",
     "operator": "day by day",
     "shop": "convenience"
@@ -22118,19 +22194,6 @@
     "contact:facebook": "https://www.facebook.com/maddievrac/",
     "name": "Maddie, Le Comptoir du Vrac",
     "shop": "convenience"
-  }
-},
-{
-  "type": "node",
-  "id": 6343292085,
-  "lat": 44.8389626,
-  "lon": -0.5758490,
-  "tags": {
-    "bulk_purchase": "yes",
-    "name": "Un Jour Vert",
-    "organic": "yes",
-    "shop": "convenience",
-    "website": "https://www.unjourvert.fr/"
   }
 },
 {
@@ -23100,8 +23163,8 @@
 {
   "type": "node",
   "id": 6463790285,
-  "lat": 46.1736094,
-  "lon": -1.1174502,
+  "lat": 46.1731906,
+  "lon": -1.1179786,
   "tags": {
     "addr:city": "Puilboreau",
     "addr:housenumber": "13",
@@ -23939,12 +24002,11 @@
     "brand": "Biocoop",
     "brand:wikipedia": "fr:Biocoop",
     "bulk_purchase": "yes",
-    "construction": "supermarket",
     "name": "Biocoop Caba Imbach",
     "opening_hours": "09:30-19:30; Su off",
     "operator": "CABA",
     "organic": "only",
-    "shop": "construction",
+    "shop": "supermarket",
     "website": "http://biocoop-caba.fr/"
   }
 },
@@ -24340,6 +24402,7 @@
     "contact:email": "lavieclaire-metz@orange.fr",
     "contact:facebook": "https://www.facebook.com/Lavieclaire",
     "description": "Produits biologiques alimentaires, de bien-être et de beauté.",
+    "dog": "no",
     "name": "La Vie Claire",
     "opening_hours": "Mo 14:00-19:00; Tu-Sa 09:30-19:00",
     "organic": "only",
@@ -24374,6 +24437,7 @@
   "tags": {
     "bulk_purchase": "yes",
     "name": "Violette et Berlingot",
+    "opening_hours": "Tu-Sa 10:00-19:00; Mo 14:00-19:00",
     "shop": "confectionery",
     "website": "http://www.violette-berlingot.com/"
   }
@@ -24503,6 +24567,110 @@
     "stroller": "yes",
     "website": "https://naturalia.fr/",
     "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6965986342,
+  "lat": 44.8011443,
+  "lon": -0.5566896,
+  "tags": {
+    "addr:city": "Bègles",
+    "addr:housenumber": "13-43",
+    "addr:postcode": "33130",
+    "addr:street": "Rue Du Dix Neuf Mars 1962",
+    "bulk_purchase": "yes",
+    "name": "Dr Knock",
+    "opening_hours": "Tu-Fr 09:30-13:00, 15:30-19:30; Sa 09:30-13:00, 14:30-19:30",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "http://docteur-knock.fr/"
+  }
+},
+{
+  "type": "node",
+  "id": 6976289125,
+  "lat": 48.7931892,
+  "lon": 2.4623732,
+  "tags": {
+    "addr:city": "Créteil",
+    "addr:housenumber": "17",
+    "addr:postcode": "94000",
+    "addr:street": "Rue du Général Leclerc",
+    "bulk_purchase": "only",
+    "contact:facebook": "https://m.facebook.com/Couleur-vrac-2057855044260094/",
+    "name": "Couleur Vrac",
+    "organic": "yes",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 6977724414,
+  "lat": 44.8329025,
+  "lon": -0.5708137,
+  "tags": {
+    "addr:city": "Bordeaux",
+    "addr:housenumber": "52",
+    "addr:postcode": "33000",
+    "addr:street": "Rue du Mirail",
+    "bulk_purchase": "yes",
+    "diet:vegan": "only",
+    "name": "Un Jour Vert",
+    "opening_hours": "Tu-Sa 11:00-19:00",
+    "organic": "only",
+    "shop": "convenience",
+    "website": "https://www.unjourvert.fr/"
+  }
+},
+{
+  "type": "node",
+  "id": 6996341905,
+  "lat": 43.4726270,
+  "lon": 6.7402025,
+  "tags": {
+    "addr:city": "Fréjus",
+    "addr:housenumber": "1944",
+    "addr:postcode": "83600",
+    "addr:street": "Avenue Jean Lachenaud",
+    "bulk_purchase": "yes",
+    "name": "Les comptoirs de la Bio",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://lescomptoirsdelabio.fr/magasins/les-comptoirs-de-la-bio-frejus/"
+  }
+},
+{
+  "type": "node",
+  "id": 6996355427,
+  "lat": 43.4369581,
+  "lon": 6.7857905,
+  "tags": {
+    "addr:city": "Saint Raphaël",
+    "addr:postcode": "83700",
+    "addr:street": "Boulevard du Cerceron",
+    "bulk_purchase": "yes",
+    "name": "Les Comptoirs de la Bio",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://lescomptoirsdelabio.fr/magasins/les-comptoirs-de-la-bio-saint-raphael/"
+  }
+},
+{
+  "type": "node",
+  "id": 6996421825,
+  "lat": 48.1974490,
+  "lon": 3.2815162,
+  "tags": {
+    "addr:city": "Sens",
+    "addr:housenumber": "8",
+    "addr:postcode": "89100",
+    "addr:street": "Rue du Plat d'Étain",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/epiceriedumarchesens/",
+    "name": "Epicerie du marché",
+    "organic": "only",
+    "shop": "convenience"
   }
 },
 {
@@ -27373,6 +27541,7 @@
     925914949,
     925939129,
     925927611,
+    7004397203,
     925886168,
     6573323183,
     925912210,
@@ -30692,6 +30861,41 @@
 },
 {
   "type": "way",
+  "id": 142955780,
+  "center": {
+    "lat": 48.1948252,
+    "lon": 6.4471445
+  },
+  "nodes": [
+    1564106722,
+    1581210466,
+    1581210568,
+    1564105844,
+    1581210626,
+    1564105829,
+    1564105826,
+    1564106727,
+    1564106722
+  ],
+  "tags": {
+    "addr:housenumber": "1",
+    "addr:postcode": "88190",
+    "addr:street": "Rue des Tisserands",
+    "building": "commercial",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/UniversBioSarlcooperative/",
+    "fax": "+33 3 29 31 32 02",
+    "name": "Uni’vers Bio",
+    "opening_hours": "Mo 14:00-19:00; Tu-Th 09:00-12:30,14:30-19:00; Fr 09:00-19:00; Sa 09:30-18:00",
+    "organic": "only",
+    "phone": "+33 3 29 31 03 85",
+    "shop": "convenience",
+    "source": "extraction vectorielle v1 cadastre-dgi-fr source : Direction Générale des Impôts - Cadas. Mise à jour : 2010",
+    "website": "http://www.universbio.fr/"
+  }
+},
+{
+  "type": "way",
   "id": 144152760,
   "center": {
     "lat": 47.6642368,
@@ -32317,38 +32521,6 @@
     "shop": "supermarket",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013",
     "website": "https://www.lavieclaire.com/magasin-bio/baud.html"
-  }
-},
-{
-  "type": "way",
-  "id": 216888006,
-  "center": {
-    "lat": 47.1064206,
-    "lon": 2.3882129
-  },
-  "nodes": [
-    2262075539,
-    2262075437,
-    4703408981,
-    2262075470,
-    2262075545,
-    2262075556,
-    2262075591,
-    2262075586,
-    2262075543,
-    2262075539
-  ],
-  "tags": {
-    "addr:housenumber": "664",
-    "addr:street": "Rue de Malitorne",
-    "building": "yes",
-    "bulk_purchase": "yes",
-    "name": "L'Univers Bio",
-    "opening_hours": "Mo-Sa 09:30-19:00",
-    "organic": "only",
-    "shop": "supermarket",
-    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012",
-    "wheelchair": "yes"
   }
 },
 {
@@ -34034,6 +34206,41 @@
 },
 {
   "type": "way",
+  "id": 463260002,
+  "center": {
+    "lat": 43.6799214,
+    "lon": 5.4985305
+  },
+  "nodes": [
+    4585458196,
+    984354620,
+    6311002094,
+    4585458195,
+    4585458194,
+    4585458193,
+    4585458192,
+    2401699006,
+    4585458196
+  ],
+  "tags": {
+    "addr:city": "Pertuis",
+    "addr:housenumber": "624",
+    "addr:postcode": "84120",
+    "addr:street": "Route d'Aix",
+    "brand": "Bio & Sens",
+    "building": "retail",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/BetS.Pertuis/",
+    "contact:phone": "+33 4 90 79 51 74",
+    "contact:website": "https://www.bioetsens.net/etablissements/paca/pertuis/",
+    "name": "Bio & Sens Pertuis",
+    "opening_hours": "Mo-Sa 08:30-19:30",
+    "organic": "only",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "way",
   "id": 470054950,
   "center": {
     "lat": 46.2827165,
@@ -34325,8 +34532,8 @@
   "type": "way",
   "id": 512239628,
   "center": {
-    "lat": 43.6479627,
-    "lon": 3.9536786
+    "lat": 43.6479892,
+    "lon": 3.9536720
   },
   "nodes": [
     5008992444,
@@ -34336,12 +34543,19 @@
     5008992444
   ],
   "tags": {
+    "addr:city": "Vendargues",
+    "addr:housenumber": "702",
+    "addr:postcode": "34740",
+    "addr:street": "Avenue de Saint-Aunès",
+    "building": "retail",
     "bulk_purchase": "yes",
     "indoor": "room",
-    "name": "Le Grand Panier Bio",
+    "name": "Marcel & Fils",
     "opening_hours": "Mo-Sa 09:00-19:30",
     "organic": "only",
-    "shop": "supermarket"
+    "phone": "+33 4 67 04 80 02",
+    "shop": "supermarket",
+    "website": "https://www.marcel-et-fils.com"
   }
 },
 {
@@ -34929,38 +35143,6 @@
 },
 {
   "type": "way",
-  "id": 673898477,
-  "center": {
-    "lat": 43.6799066,
-    "lon": 5.4985251
-  },
-  "nodes": [
-    4585458190,
-    4585458192,
-    2401699006,
-    4585458196,
-    6311002094,
-    4585458195,
-    984385761,
-    4585458191,
-    4585458190
-  ],
-  "tags": {
-    "addr:city": "Pertuis",
-    "addr:housenumber": "976",
-    "addr:postcode": "84120",
-    "addr:street": "Route d'Aix",
-    "bulk_purchase": "yes",
-    "name": "Bio et Sens",
-    "operator": "Bio et Sens",
-    "organic": "only",
-    "phone": "+33490075608",
-    "shop": "supermarket",
-    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"
-  }
-},
-{
-  "type": "way",
   "id": 689085819,
   "center": {
     "lat": 45.8231220,
@@ -35068,6 +35250,31 @@
     "organic": "only",
     "shop": "supermarket",
     "website": "https://www.biocoopdesolonnes.fr/"
+  }
+},
+{
+  "type": "way",
+  "id": 747525048,
+  "center": {
+    "lat": 49.1966575,
+    "lon": -0.4013895
+  },
+  "nodes": [
+    6994644328,
+    6994644327,
+    6994644326,
+    6994644325,
+    6994644328
+  ],
+  "tags": {
+    "bulk_purchase": "only",
+    "contact:email": "contact@drivelafourmiliere.com",
+    "contact:phone": "+33 7 86477447",
+    "contact:website": "https://www.drivelafourmiliere.com",
+    "name": "La Fourmillière",
+    "opening_hours": "Mo, Tu, Th, Fr 08:00-21:00 ; We 08:00-18:00; Sa 09:00-13:00",
+    "organic": "yes",
+    "shop": "convenience"
   }
 }
 
