@@ -41,7 +41,8 @@ module.exports = {
           scripts: [
              './data/bulk/refreshCacheBulk.sh',  
              './data/partners/jtb/refreshCacheJTB.sh', 
-             './data/partners/cyclad/refreshCacheCyclad.sh'
+             './data/partners/cyclad/refreshCacheCyclad.sh',
+             'node src/prepare.js'
           ],
           blocking: true,
           parallel: false

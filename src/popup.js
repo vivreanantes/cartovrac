@@ -6,18 +6,11 @@ export function getPopupContent(
 		name,
 		organic,
 		bulk_purchase,
-		housenumber,
-		street,
-		postcode,
-		city,
+		address,
 		opening_hours,
-		website,
-        contact_website,
-        facebook,
-        contact_facebook,
+		url,
         drive,
-		category,
-        isANode
+		category
 ){
     // Check that name exists
     if (!name) {
@@ -27,10 +20,10 @@ export function getPopupContent(
 	var popup = '<b>'+name+'</b><br />';
 	// Set the shop type
 	popup += getHtmlFormattedShopTitle(category, organic, bulk_purchase, drive);
-    popup += getHtmlFormattedAddress(housenumber, street, postcode, city);   
+    popup += address;   
     popup += getHtmlFormattedHours(opening_hours);
-    popup += getHtmlFormattedWebsite(website, contact_website, facebook, contact_facebook);
-    popup += getHtmlFormattedContribution(elementId, isANode);
+    popup += getHtmlFormattedWebsite(url);
+    popup += getHtmlFormattedContribution(elementId);
 	return popup;
 }
 
@@ -82,24 +75,11 @@ function getReadableHours(opening_hours){
         .replace("off", "fermé")
         .replace(",", " & ");
 }
+
 /**
  * @return an HTML formatted website link
  */
-function getHtmlFormattedWebsite(website, contact_website, facebook, contact_facebook) {
-    var url;
-
-    if (website) {
-        url = website;
-    } else if (contact_website) {
-        url = contact_website;
-    } else if (facebook) {
-        url = facebook;
-    } else if (contact_facebook) {
-        url = contact_facebook;
-    } else {
-        return "";
-    }
-
+function getHtmlFormattedWebsite(url) {
     return '<a href="' + url + '" target="_blank">Site web</a><br />';
 }
 
@@ -118,44 +98,19 @@ function getHtmlFormattedHours(opening_hours) {
     }
     return hours;
 }
-/**
- * @return an HTML formatted address
- */
-function getHtmlFormattedAddress(housenumber, street, postcode, city) {
-    var address = "";
-    if (street && housenumber) {
-        address += housenumber+' '+street+'<br />';
-    } else if (street) {
-        address += street+'<br />';
-    }
-    if (city && postcode) {
-        address += postcode+' '+city+'<br />';
-    } else if (city) {
-        address += city+'<br />';
-    }
-    return address;
-}
 
 /**
- * @param elementId the OpenStreetMap id of the element
- * @param isAWay true if the element is a way, false if it's a node
+ * @param elementId the OpenStreetMap type and id of the element (example "node/12989482")
  * @return an HTML formatted that adds a link for contributions
  */
-function getHtmlFormattedContribution(elementId, isAWay) {
+function getHtmlFormattedContribution(elementId) {
     if (!elementId) {
         return "";
     }
     
-    var baseUrl; 
-    
-    if (isAWay) {
-        baseUrl = "https://openstreetmap.org/way/";
-    } else { 
-        baseUrl = "https://openstreetmap.org/node/";
-    }
-
+    var url = "https://openstreetmap.org/"+elementId;
     var contributionHtml =  '<hr style="padding-bottom: ;padding-bottom: 0px;" size="1">';
-    contributionHtml += '<a href="'+baseUrl+elementId+'" target="_blank" title="Modifier' +
+    contributionHtml += '<a href="'+url+'" target="_blank" title="Modifier' +
     ' les informations sur OpenStreetMap. Elles seront mises à jour sur CartoVrac dans ' +
     'les 24h suivant la modification.">Modifier ces informations</a>';
     return contributionHtml;

@@ -26,21 +26,21 @@ export function createMapAndPopulate(divId, mapConfig) {
 	prepareCaterogiesSubgroupsAndIcons(map);
 
 	// populate
-	populateBulkShops(cacheBulkJson.elements);
-	populateJtbShops(cacheJtbJson.elements);
-	populateCycladShops(cacheCycladJson.elements);
+	populateBulkShops(cacheBulkJson);
+	populateJtbShops(cacheJtbJson);
+	populateCycladShops(cacheCycladJson);
 	populateItinerantShops(itinerantJson.elements);
 
-	if (mapConfig.osmType && mapConfig.osmId) {
-		zoomOnBulkMarker(mapConfig.osmType, mapConfig.osmId);
+	if (mapConfig.osmId != null && mapConfig.osmType != null) {
+		zoomOnBulkMarker(mapConfig.osmType+'/'+mapConfig.osmId);
 	}
 }
 
 /**
  * Zoom on given marker, open container cluster and show marker's popup
  */
-function zoomOnBulkMarker(osmType, osmId) {
-	var markerToZoomOn = getOsmMarker(bulkMarkerArray, osmType, osmId)
+function zoomOnBulkMarker(id) {
+	var markerToZoomOn = getMarker(bulkMarkerArray, id)
 
 	if (markerToZoomOn) {
 		map.setView(markerToZoomOn.getLatLng(), 16);
@@ -48,16 +48,16 @@ function zoomOnBulkMarker(osmType, osmId) {
 			markerToZoomOn.openPopup();
 		});
 	} else {
-		console.log("Couldn't find given marker (type="+osmType+" ; id="+osmId+"). Are you sure it's a correct bulk purchase shop?");
+		console.log("Couldn't find given marker ("+id+"). Are you sure it's a correct bulk purchase shop?");
 		console.log(bulkMarkerArray);
 	}
 }
 
-function getOsmMarker(markerArray, osmType, osmId) {
+function getMarker(markerArray, id) {
 	var markerToZoomOn = null;
 	for (var i in bulkMarkerArray) {
 	  	var marker = bulkMarkerArray[i];
-	  	if (marker.options.osmType == osmType && marker.options.osmId == osmId) {
+	  	if (marker.options.id == id) {
 			markerToZoomOn = marker;
 			break;
 	  	}
@@ -125,8 +125,7 @@ function populateItinerantShops(itinerantShopsJson) {
 			}
 
 			// Check that popup has been correctly created
-			var position = {lat: latitude, lon: longitude};
-			addMarkerToMap(category, popup, position, null, null);
+			addMarkerToMap(category, popup, latitude, longitude, null);
 		}
 	}
 }
@@ -136,16 +135,14 @@ var JTB_HTML_BANNER = '<hr style="padding-bottom: ;padding-bottom: 0px;" size="1
 /**
  * Display the bulk shops
  **/
-export function populateJtbShops(osmJson) {
-	for (var shopIndex in osmJson) {
-		var osmElement = osmJson[shopIndex]
-		var osmElementTags = osmElement['tags'];
-		var isAWay = isElementAWay(osmElement);
-    	var type = getType(osmElementTags);
-    	var category = getCategory(type);
+export function populateJtbShops(json) {
+	for (var shopIndex in json) {
+		var element = json[shopIndex]
+    	var type = getType(element);
+    	var category = categories[type];
 
 		// Create popup content depending on element's tags
-		var popup = getBasePopupFromOsmElement(osmElement, osmElementTags, type, category, isAWay);
+		var popup = getBasePopupFromElement(element, type, category);
 		if (!popup) {
 			continue;
 		}
@@ -154,14 +151,13 @@ export function populateJtbShops(osmJson) {
 		popup += JTB_HTML_BANNER;
 
 		// If the partner is a bulk purchase shop, check that it's not already on map and replace it
-		var relatedBulkMarker = getOsmMarker(bulkMarkerArray, osmElement['type'], osmElement['id']);
+		var relatedBulkMarker = getMarker(bulkMarkerArray, element.id);
 		if (relatedBulkMarker) {
 			category.subgroup.removeLayer(relatedBulkMarker);
 		}
 
 		// Check that popup has been correctly created
-		var position = getOsmPosition(osmElement, isAWay);
-		var marker = addMarkerToMap(category, popup, position, osmElement['type'], osmElement['id']);
+		var marker = addMarkerToMap(category, popup, element.lat, element.lon, element.id);
 		bulkMarkerArray.push(marker);
 	}
 }
@@ -171,16 +167,14 @@ var CYCLAD_HTML_BANNER = '<hr style="padding-bottom: ;padding-bottom: 0px;" size
 /**
  * Display the bulk shops
  **/
-export function populateCycladShops(osmJson) {
-	for (var shopIndex in osmJson) {
-		var osmElement = osmJson[shopIndex]
-		var osmElementTags = osmElement['tags'];
-		var isAWay = isElementAWay(osmElement);
-    	var type = getType(osmElementTags);
-    	var category = getCategory(type);
+export function populateCycladShops(json) {
+	for (var shopIndex in json) {
+		var element = json[shopIndex]
+    	var type = getType(element);
+    	var category = categories[type];
 
 		// Create popup content depending on element's tags
-		var popup = getBasePopupFromOsmElement(osmElement, osmElementTags, type, category, isAWay);
+		var popup = getBasePopupFromElement(element, type, category);
 		if (!popup) {
 			continue;
 		}
@@ -189,14 +183,13 @@ export function populateCycladShops(osmJson) {
 		popup += CYCLAD_HTML_BANNER;
 
 		// If the partner is a bulk purchase shop, check that it's not already on map and replace it
-		var relatedBulkMarker = getOsmMarker(bulkMarkerArray, osmElement['type'], osmElement['id']);
+		var relatedBulkMarker = getMarker(bulkMarkerArray, element.id);
 		if (relatedBulkMarker) {
 			category.subgroup.removeLayer(relatedBulkMarker);
 		}
 
 		// Check that popup has been correctly created
-		var position = getOsmPosition(osmElement, isAWay);
-		var marker = addMarkerToMap(category, popup, position, osmElement['type'], osmElement['id']);
+		var marker = addMarkerToMap(category, popup, element.lat, element.lon, element.id);
 		bulkMarkerArray.push(marker);
 	}
 }
@@ -204,86 +197,56 @@ export function populateCycladShops(osmJson) {
 /**
  * Display the bulk shops
  **/
-function populateBulkShops(osmJson) {
-	for (var shopIndex in osmJson) {
-		var osmElement = osmJson[shopIndex];
-		var osmElementTags = osmElement['tags'];
-		var isAWay = isElementAWay(osmElement);
-    	var type = getType(osmElementTags);
-    	var category = getCategory(type);
+function populateBulkShops(json) {
+	for (var shopIndex in json) {
+		var element = json[shopIndex];
+    	var type = getType(element);
+    	var category = categories[type];
 
 		// Create popup content depending on element's tags
-		var popup = getBasePopupFromOsmElement(osmElement, osmElementTags, type, category, isAWay);
+		var popup = getBasePopupFromElement(element, type, category);
 
 		// Check that popup has been correctly created
 		if (popup) {
-			var position = getOsmPosition(osmElement, isAWay);
-			var marker = addMarkerToMap(category, popup, position, osmElement['type'], osmElement['id']);
+			var marker = addMarkerToMap(category, popup, element.lat, element.lon, element.id);
 			bulkMarkerArray.push(marker);
 		}
 	}
 }
 
 /**
- * Generate HTML popup with OSM element content if valid, otherwise return a null object.
+ * Generate HTML popup with element content if valid, otherwise return a null object.
  **/
-function getBasePopupFromOsmElement(osmElement, osmElementTags, type, category, isAWay) {
+function getBasePopupFromElement(element, type, category) {
 	// Check shop validity
-	if (!type || !category || !osmElementTags['name']) {
+	if (!type || !category || !element.name) {
 		return null;
 	}
 
 	return getPopupContent(
-		osmElement['id'],
-		osmElementTags['name'],
-		osmElementTags['organic'],
-		osmElementTags['bulk_purchase'],
-		osmElementTags['addr:housenumber'],
-		osmElementTags['addr:street'],
-		osmElementTags['addr:postcode'],
-		osmElementTags['addr:city'],
-		osmElementTags['opening_hours'],
-		osmElementTags['website'],
-		osmElementTags['contact:website'],
-		osmElementTags['facebook'],
-		osmElementTags['contact:facebook'],
-		osmElementTags['drive_through'],
-		category,
-		isAWay
+		element.id,
+		element.name,
+		element.bio,
+		element.bulk,
+		element.addr,
+		element.opening_hours,
+		element.url,
+		element.drive_through,
+		category
 	);
 }
 
-function getType(osmElementTags) {
-	var type = osmElementTags['shop'] || osmElementTags['amenity'] || osmElementTags['craft'];
+function getType(element) {
+	var type = element.shop || element.amenity || element.craft;
 
 	// Special type for bulk purchase only
-	if (type == "convenience" && osmElementTags['bulk_purchase'] == "only") {
+	if (type == "convenience" && element.bulk == "only") {
 		type = "only_bulk_convenience";
-	} else if (type == "supermarket" && osmElementTags['organic'] == "only") {
+	} else if (type == "supermarket" && element.bio == "only") {
 		type = "organic_supermarket"
-	} else if (type == "supermarket" && osmElementTags['operator:type'] == "cooperative") {
+	} else if (type == "supermarket" && element.operator_type == "cooperative") {
 		type = "cooperative_supermarket"
 	}
 
 	return type;
-}
-
-function getCategory(type) {
-	return categories[type];
-}
-
-/**
- * Decide where the shop should be displayed, either on the spot or in the
- * center of a way
- */
-function getOsmPosition(shop, isAWay) {
-	var reference = isAWay ? shop['center'] : shop;
-	return {lat: reference['lat'], lon: reference['lon']};
-}
-
-/**
- * Check if the shop json information is a node or a way
- */
-function isElementAWay(shop) {
-	return (shop['type'] == 'way' && shop['center']);
 }

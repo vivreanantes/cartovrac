@@ -79,16 +79,16 @@ function showUserLocationButton(map) {
  * Add a marker on the map with the style matching the type
  * @param category the category object of the shop
  * @param popup the text HTML formatted to display in the popup
- * @param position the position (as in lat, lon) of the shop
+ * @param lat latitude of the shop
+ * @param lon longiutude of the shop
  **/
-export function addMarkerToMap(category, popup, position, osmType, osmId) {
+export function addMarkerToMap(category, popup, lat, lon, id) {
     // Add marker and popup to the cluser
     return new osmMarker(
-    		new L.latLng(position.lat, position.lon), 
+    		new L.latLng(lat, lon), 
     		{
     			icon: category.icon,
-    			osmType: osmType,
-    			osmId: osmId
+    			id: id
     		}
     	)
         .bindPopup(popup)
