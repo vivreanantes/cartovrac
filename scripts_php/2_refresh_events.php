@@ -1,8 +1,9 @@
 ﻿<?php
 // Coming
-$eventsData = file_get_contents("http://coreparation44.fr/cache_data.json");
+$eventsData = file_get_contents("http://coreparation.fr/cache_data.json");
 
-echo "export refresh_events2.php<br/>";
+echo "2_refresh_events.php : modify http://coreparation.fr/scripts_php/cache_data_2.json depending from http://coreparation.fr/cache_data.json <br/>";
+echo "-------<br/>";
 $data = json_decode($eventsData, true);
 $id = 0;
 foreach ($data["elements"] as $tag) {
@@ -31,6 +32,18 @@ foreach ($data["elements"] as $tag) {
 	if (substr($data["elements"][$id]["tags"]["contact:postcode"], 0, 2 )=="44") {
 		$data["elements"][$id]["tags"]["department"] = "Loire-Atlantique";
 	}
+	else if (substr($data["elements"][$id]["tags"]["contact:postcode"], 0, 2 )=="49") {
+		$data["elements"][$id]["tags"]["department"] = "Maine-Et-Loire";
+	}
+	else if (substr($data["elements"][$id]["tags"]["contact:postcode"], 0, 2 )=="53") {
+		$data["elements"][$id]["tags"]["department"] = "Mayenne";
+	}
+	else if (substr($data["elements"][$id]["tags"]["contact:postcode"], 0, 2 )=="72") {
+		$data["elements"][$id]["tags"]["department"] = "Sarthe";
+	}
+	else if (substr($data["elements"][$id]["tags"]["contact:postcode"], 0, 2 )=="85") {
+		$data["elements"][$id]["tags"]["department"] = "Vendée";
+	}
 	$id++;
 }
 
@@ -57,14 +70,14 @@ function get_opening_hours_date($input) {
 }
 
 function remove_filter_opening_hours($input, &$array_result) {
-	
+
 	echo "remove_filter_opening_hours ".count($array_result)."<br/>";
-	
+
 	$array_of_input = explode(";", $input);
 	foreach($array_of_input as $item_of_input) {
-		
+
 		echo "remove_filter_opening_hours item_of_input $item_of_input<br/>";
-		
+
 		if (strpos($item_of_input, " off")) {
 			//remove month
 			if (strpos($item_of_input, "Jan")) { remove_one("Jan", $array_result); };
@@ -82,13 +95,13 @@ function remove_filter_opening_hours($input, &$array_result) {
 }
 
 function remove_one($input, &$array_result) {
-	
+
 	echo "remove_one begin ".count($array_result)." <br/>";
 	$array_result_temp = array();
-		
+
 	foreach($array_result as $item_of_input) {
 		if (strpos($item_of_input, $input)===false) {
-			
+
 			array_push($array_result_temp, $item_of_input);
 		} else {
 			echo "remove_one item_of_input $item_of_input <br/>";
@@ -99,9 +112,9 @@ function remove_one($input, &$array_result) {
 }
 
 function remove_public_hodidays(&$array_result) {
-	
+
 	// echo "remove_public_hodidays begin ".count ($array_result)."<br/>";
-	
+
 	$array_result_temp = array();
 	$array_holidays = getHolidays();
 	foreach($array_result as $item_of_input) {
@@ -116,7 +129,7 @@ function remove_public_hodidays(&$array_result) {
 }
 
 function remove_school_holidays(&$array_result) {
-	
+
 	$array_result_temp = array();
 	/*
 	foreach($array_result as $item_of_input) {
@@ -133,19 +146,19 @@ function remove_school_holidays(&$array_result) {
 function add_opening_hours($input, &$array_result) {
 
    echo "add_opening_hours '$input'<br/>";
-	
+
 	// $array_of_input = explode(" ", $input);
 
 	// foreach($array_of_input as $item_of_input) {
 
 	// echo "add_opening_hours item $item_of_input<br/>";
-		
+
 		if (strpos($input, "[0]") || strpos($input, "[1]") ||
-			strpos($input, "[2]") || strpos($input, "[3]") || 
-			strpos($input, "[4]") || strpos($input, "[5]") || 
+			strpos($input, "[2]") || strpos($input, "[3]") ||
+			strpos($input, "[4]") || strpos($input, "[5]") ||
 			strpos($input, "[6]") || strpos($input, "[-1]") ) {
 			add_specific_day_1_day_per_month($input, $array_result);
-		} else if (strpos($input, "[")!==false && 
+		} else if (strpos($input, "[")!==false &&
 					(strpos($input, "[")+3)<(strpos($input, "]"))) {
 			add_specific_day_several_days_per_month($input, $array_result);
 		}
@@ -157,22 +170,22 @@ function add_opening_hours($input, &$array_result) {
 
 // Th[1,3]
 function add_specific_day_several_days_per_month($input, &$array_result) {
-	
+
 	 echo "add_specific_day_several_days_per_month '$input'<br/>";
-	 
+
 	$array_result_temp = array();
-	$input=trim($input); // remove blank space
+	$input=trim($input); // remove blanl space
 
 	$day=substr($input, 0, 2);
 	$dayofmonth1=substr($input, 3, 1);
 	$dayofmonth2=substr($input, 5, 1);
 	$time=substr($input, 9);
-	
+
 	 echo "add_specific_day_several_days_per_month '$day' '$dayofmonth1' '$dayofmonth2'<br/>";
-	 
+
 	add_specific_day($day."[".$dayofmonth1."]"." ".$time, $array_result_temp);
 	add_specific_day($day."[".$dayofmonth2."]"." ".$time, $array_result_temp);
-	
+
 	ksort($array_result_temp);
 	foreach($array_result_temp  as $key => $value) {
 		echo "array_push $value <br/";
@@ -182,12 +195,12 @@ function add_specific_day_several_days_per_month($input, &$array_result) {
 
 // Th[1]
 function add_specific_day_1_day_per_month($input, &$array_result) {
-	
+
 	 echo "add_specific_day_1_day_per_month '$input'<br/>";
-	
+
 	$array_result_temp = array();
 	add_specific_day($input, $array_result_temp);
-	
+
 	ksort($array_result_temp);
 	foreach($array_result_temp  as $key => $value) {
 		echo "array_push $value <br/";
@@ -205,7 +218,7 @@ function add_specific_day($input, &$array_result_temp) {
 	}
 	$input = str_replace("[", " [", $input);
 	$input = str_replace("]", "] ", $input);
-	
+
 	// [0] by first, [1] by second, [3] by third, [4] by fourth, [-1] by last
 	$healthy = array("[1]", "[2]", "[3]", "[4]", "[-1]");
 	$yummy   = array("first", "second", "third", "fourth", "last");
@@ -216,7 +229,7 @@ function add_specific_day($input, &$array_result_temp) {
 			$counter_part = str_replace($healthy, $yummy, $item_of_input);
 		}
 	}
-	
+
 	// Mo by monday...
 	$DayOfTheWeek2 = array("Mo", "Tu", "We", "Th", "Fr", "Sa", "Su");
 	$DayOfTheWeekFull   = array("monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday");
@@ -226,7 +239,7 @@ function add_specific_day($input, &$array_result_temp) {
 			$day_part = str_replace($DayOfTheWeek2, $DayOfTheWeekFull, $item_of_input);
 		}
 	}
-	
+
 	$temp = $counter_part." ".$day_part." ";
 	echo "temp $temp<br/>";
 
@@ -247,7 +260,7 @@ function add_specific_day($input, &$array_result_temp) {
 	$aDate = $aDate.$hour_part;
 	// array_push($array_result, $aDate);
 	$array_result_temp[$key] = $aDate;
-	
+
 	// month 1
 	$date1 = new DateTime();
 	$date1->add(new DateInterval('P1M'));
@@ -264,9 +277,9 @@ function add_specific_day($input, &$array_result_temp) {
 function add_specific_day_a_day_per_week($input, &$array_result) {
 
 	$array_result_temp = array();
-	
+
 	echo "add_specific_day_a_day_per_week $input<br/>";
-	
+
 	if (strpos($input, "[")>0) {
 		return;
 	}
@@ -282,7 +295,7 @@ function add_specific_day_a_day_per_week($input, &$array_result) {
 	}
 
 	$array_of_input = explode(" ", $input);
-	
+
 	// Mo by monday...
 	$DayOfTheWeek2 = array("Mo", "Tu", "We", "Th", "Fr", "Sa", "Su");
 	$DayOfTheWeekFull   = array("monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday");
@@ -309,7 +322,7 @@ function add_specific_day_a_day_per_week($input, &$array_result) {
 	push_a_day($array_result_temp, "second $day_part of next month", $hour_part);
 	push_a_day($array_result_temp, "third $day_part of next month", $hour_part);
 	push_a_day($array_result_temp, "fourth $day_part of next month", $hour_part);
-	
+
 	ksort($array_result_temp);
 	foreach($array_result_temp  as $key => $value) {
 		echo "array_push $value <br/";
@@ -332,7 +345,7 @@ function format_days(&$json) {
 	// $DayOfTheWeek2 = array("Mo", "Tu", "We", "Th", "Fr", "Sa", "Su");
 	// $DayOfTheWeekFull   = array("monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday");
 	// $yummy   = array("Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche");
-	
+
 	$months3 = array ('-Jan-','-Feb-','-Mar-','-Apr-','-May-','-Jun-','-Jul-','-Aug-','-Sep-','-Oct-','-Nov-','-Dec-');
     $monthsFull = array(' Janvier ',' Février ',' Mars ',' Avril ',' Mai ',' Juin ',' Juillet  ',' Août ',' Septembre ',' Octobre ',' Novembre ',' Décembre ');
 
@@ -345,10 +358,10 @@ function getDay($OpeningDay, $Month, $Year) {
 	$AValuePerDay   = array(7, 6, 5, 4, 3, 2, 1);
 	$DayOfTheWeek2 = array("Mo", "Tu", "We", "Th", "Fr", "Sa", "Su");
 	$NumDayOfWeek   = array(1, 2, 3, 4, 5, 6, 7);
-	
+
 	$DayOfOpeningDay=substr($OpeningDay, 0, 2);
 	$NumWeekOfOpeningDay=substr($OpeningDay, 3, 1);
-	
+
 	$Day="01"; // no matter
 
 	$date = $Day."-".$Month."-".$Year;
@@ -356,17 +369,17 @@ function getDay($OpeningDay, $Month, $Year) {
 	// echo "nameOfDay : ".$nameOfDay." --- ";
 	$NumOfFirstDayOfMonth = str_replace($DayOfTheWeek, $AValuePerDay, $nameOfDay); // output is "4" if day is "Fr"
 	// echo "ValueOfFirstDayOfMonth (".$date.") : ".$NumOfFirstDayOfMonth." --- ";
-	
+
 	$NumOfWantedDay = str_replace($DayOfTheWeek2, $NumDayOfWeek, $DayOfOpeningDay);
 	// echo "ValueOfWantedDay for ".$OpeningDay." : ".$NumOfWantedDay." --- ";
-	
+
 	$temp = $NumOfWantedDay+$NumOfFirstDayOfMonth;
 	// echo "result before : ".$temp." --- ";
 	if ($temp>7) { $temp = $temp-7; }
 	// echo "result middle : ".$temp." --- ";
 	// echo "NumWeekOfOpeningDay : ".$NumWeekOfOpeningDay." --- ";
 
-	$temp = $temp + $NumWeekOfOpeningDay*7;	
+	$temp = $temp + $NumWeekOfOpeningDay*7;
 	echo "result after : ".$temp."-".$Month."-".$Year." ------ ";
 }
 */
