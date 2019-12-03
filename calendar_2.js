@@ -19,7 +19,11 @@
 		
                  for (var cptEventsNotFiltered = 0; cptEventsNotFiltered < type_event.length; cptEventsNotFiltered++) {
                      var show = true;
-					 if (type_event[cptEventsNotFiltered].tags["department"] !== "Loire-Atlantique") {
+					 if (type_event[cptEventsNotFiltered].tags["department"] !== "Loire-Atlantique" &&
+						type_event[cptEventsNotFiltered].tags["department"] !== "Maine-Et-Loire" &&
+						type_event[cptEventsNotFiltered].tags["department"] !== "Mayenne" &&
+						type_event[cptEventsNotFiltered].tags["department"] !== "Sarthe" &&
+						type_event[cptEventsNotFiltered].tags["department"] !== "Vend\u00e9e") {
                          show = false;
                        }
 	  /*
@@ -43,6 +47,13 @@
                        }
                        else {
                          textDiv2 += "<img src='"+type_event[cptEventsNotFiltered].tags["image"]+"' width='200px' style='width=100%;max-width:100%;height:auto' />";
+                       }
+						if (typeof type_event[cptEventsNotFiltered].tags["mapillary"] == "undefined") {
+                         textDiv2 += "&nbsp;";
+                       }
+                       else {
+						   // https://d1cuyjsrcm0gby.cloudfront.net/{mapillary}/thumb-640.jpg
+                         textDiv2 += "<img src='https://d1cuyjsrcm0gby.cloudfront.net/"+type_event[cptEventsNotFiltered].tags["mapillary"]+"/thumb-640.jpg' width='200px' style='width=100%;max-width:100%;height:auto' />";
                        }
                        textDiv2 += "</span>"; // end image
 					   textDiv2 += "</div>"; // end truc
