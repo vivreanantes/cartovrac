@@ -49,7 +49,15 @@ export function newMap(divId, mapConfig, categories) {
 	// Add search bar
 	var geocoder = L.Control.Geocoder.mapbox(mapConfig.mapToken, {geocodingQueryParams : {"country": "FR"}});
 	L.Control.geocoder(
-		{geocoder: geocoder, defaultMarkGeocode: false, position: "topleft", placeholder: "Recherche...", errorMessage: "Aucun résultat trouvé", showResultIcons: true}
+		{
+			geocoder: geocoder, 
+			defaultMarkGeocode: false, 
+			position: "topleft", 
+			placeholder: "Recherche...", 
+			errorMessage: "Aucun résultat trouvé", 
+			showResultIcons: true, 
+			iconLabel: "Commencer une recherche"
+		}
 	).on('markgeocode', function(e) {
         map.fitBounds(e.geocode.bbox);
     }).addTo(map);
