@@ -83,7 +83,7 @@ function prepareCaterogiesSubgroupsAndIcons(map) {
 		category.icon = new ShopIcon({iconUrl: category.iconUrl});
 		category.subgroup = new L.featureGroup.subGroup(cluster, null).addTo(map);
 
-		var key = '<img src="'+category.iconUrl+'" height="30px" style="margin-left: 2px; margin-right: 4px; margin-top: 8px; margin-bottom: -7px;"/>'+category.prefix;
+		var key = '<img src="'+category.iconUrl+'" height="30px" width="19px" style="margin-left: 2px; margin-right: 4px; margin-top: 8px; margin-bottom: -7px;"/>'+category.prefix;
 		groupedOverlays[overallGroupLabel][key] = category.subgroup;
 	}
 
