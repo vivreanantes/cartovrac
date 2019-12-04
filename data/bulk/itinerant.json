@@ -17,6 +17,79 @@
 	  "places": []
 	},
 	{
+	  "name": "Au pti vrac",
+	  "website": "https://auptivrac.fr",
+	  "bulk_purchase": "only",
+	  "organic": "only",
+	  "validated_with_owner": false,
+	  "places": [
+	  	{
+	  		"lat": 50.41715,
+	  		"lon": 1.64319,
+	    	"place_name": "Boulangerie Yannick Berly, Rang du Fliers"
+		},
+		{
+	  		"lat": 50.40414,
+	  		"lon": 1.56388,
+	    	"place_name": "Marché de Berck plage"
+		},
+		{
+	  		"lat": 50.21416,
+	  		"lon": 1.62798,
+	    	"place_name": "Marché Le crotoy"
+		},
+		{
+	  		"lat": 50.38432,
+	  		"lon": 1.59041,
+	    	"place_name": "Ferme des hauts près, Groffliers"
+		},
+		{
+	  		"lat": 50.46135,
+	  		"lon": 1.75978,
+	    	"place_name": "Marché de Montreuil sur mer"
+		},
+		{
+	  		"lat": 50.63912,
+	  		"lon": 2.38425,
+	    	"place_name": "Le comptoir laitier, Aire sur la Lys"
+		}
+	  ]
+	},
+	{
+	  "name": "Le Vrac Ambulant",
+	  "website": "https://www.facebook.com/levracambulant/",
+	  "bulk_purchase": "only",
+	  "organic": "yes",
+	  "validated_with_owner": false,
+	  "places": [
+		{
+	  		"lat": 46.06027,
+	  		"lon": 6.57986,
+	    	"place_name": "Marché de Cluses"
+		},
+		{
+	  		"lat": 46.07758,
+	  		"lon": 6.40804,
+	    	"place_name": "Marché de Bonneville"
+		},
+		{
+	  		"lat": 46.06697,
+	  		"lon": 6.31139,
+	    	"place_name": "Marché de La-Roche-sur-Foron"
+		},
+		{
+	  		"lat": 46.09060,
+	  		"lon": 6.50118,
+	    	"place_name": "Marché de Marignier"
+		},
+		{
+	  		"lat": 46.05688,
+	  		"lon": 6.55022,
+	    	"place_name": "Marché de Scionzier"
+		}
+	  ]
+	},
+	{
 	  "name": "Aux Merveilles d’Alice",
 	  "website": "https://facebook.com/aliceetsesmerveilles/",
 	  "bulk_purchase": "only",
@@ -420,6 +493,45 @@
 	  		"lat": 44.86476,
 	  		"lon": -0.58749,
 	  		"place_name": "Marché du Bouscat, Bouscat"
+	  	}
+	  ]
+	},
+	{
+	  "name": "Vrac facile",
+	  "website": "https://www.facebook.com/Vracfacile/",
+	  "bulk_purchase": "only",
+	  "organic": "yes",
+	  "validated_with_owner": false,
+	  "places": [
+	  	{
+	  		"lat": 47.3589026,
+	  		"lon": -1.9434343,
+	  		"place_name": "Marché de Savenay"
+	  	},
+	  	{
+	  		"lat": 47.2137314,
+	  		"lon": -1.5873538,
+	  		"place_name": "Marché de Zola - Nantes"
+	  	},
+	  	{
+	  		"lat": 47.2341667,
+	  		"lon": -1.5324899,
+	  		"place_name": "Marché de la Marrière - Nantes"
+	  	},
+	  	{
+	  		"lat": 47.18081,
+	  		"lon": -1.58674,
+	  		"place_name": "Marché des Bouguenais les Couets"
+	  	},
+	  	{
+	  		"lat": 47.2498,
+	  		"lon": -1.48393,
+	  		"place_name": "Marché de Sainte-Luce-sur-Loire"
+	  	},
+	  	{
+	  		"lat": 47.19858,
+	  		"lon": -1.67446,
+	  		"place_name": "Marché de Basse-Indre"
 	  	}
 	  ]
 	},
