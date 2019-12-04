@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.55.1009 5e627b63",
   "osm3s": {
-    "timestamp_osm_base": "2019-11-24T21:15:02Z",
-    "timestamp_areas_base": "2019-11-24T19:42:02Z",
+    "timestamp_osm_base": "2019-12-04T20:49:02Z",
+    "timestamp_areas_base": "2019-12-04T19:44:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -324,24 +324,6 @@
     "payment:mastercard": "yes",
     "payment:visa": "yes",
     "shop": "convenience"
-  }
-},
-{
-  "type": "node",
-  "id": 617296780,
-  "lat": 46.1428053,
-  "lon": 3.4303770,
-  "tags": {
-    "addr:city": "Cusset",
-    "addr:postcode": "03300",
-    "addr:street": "Rue de Romainville",
-    "bulk_purchase": "yes",
-    "name": "Croc'bio",
-    "organic": "only",
-    "shop": "convenience",
-    "source": "survey",
-    "survey:date": "2018-11-22",
-    "website": "http://www.crocbio.sitew.com"
   }
 },
 {
@@ -910,8 +892,8 @@
 {
   "type": "node",
   "id": 1005289804,
-  "lat": 45.3635466,
-  "lon": 5.5900178,
+  "lat": 45.3636502,
+  "lon": 5.5894733,
   "tags": {
     "addr:city": "Voiron",
     "addr:housenumber": "39",
@@ -1967,27 +1949,6 @@
     "opening_hours": "Mo-Sa 09:30-19:30",
     "organic": "only",
     "shop": "supermarket"
-  }
-},
-{
-  "type": "node",
-  "id": 1658136584,
-  "lat": 47.1952859,
-  "lon": -1.5682610,
-  "tags": {
-    "addr:city": "Rezé",
-    "addr:postcode": "44000",
-    "addr:street": "Abbé Grégoire",
-    "bulk_purchase": "yes",
-    "contact:facebook": "https://www.facebook.com/Scopeli/",
-    "description": "Supermarché coopératif et participatif (réservé aux coopérateurs) avec un (grand) rayon vrac. Produits majoritairement biologiques.",
-    "name": "Scopéli",
-    "opening_hours": "Tu-Th, Sa 09:00-19:00; Fr 09:00-20:00",
-    "operator:type": "cooperative",
-    "phone": "02 85 52 92 07",
-    "shop": "supermarket",
-    "source": "Nantes Métropole 11/2011",
-    "website": "http://www.scopeli.fr/"
   }
 },
 {
@@ -5349,7 +5310,7 @@
   "tags": {
     "brand": "La Vie Claire",
     "brand:wikidata": "Q3213589",
-    "brand:wikipedia": "en:La Vie Claire (company)",
+    "brand:wikipedia": "fr:La Vie Claire",
     "bulk_purchase": "yes",
     "name": "La Vie Claire",
     "opening_hours": "Mo-Sa 10:00-20:00; Su 09:30-12:30",
@@ -6429,6 +6390,7 @@
     "brand:wikipedia": "fr:La Vie claire",
     "bulk_purchase": "yes",
     "name": "La Vie Claire",
+    "opening_hours": "Mo-Sa 10:00-20:00",
     "organic": "only",
     "shop": "supermarket",
     "website": "https://www.lavieclaire.com/magasin-bio/sartrouville.html"
@@ -7497,10 +7459,12 @@
     "addr:street": "Place Saint-Marc",
     "brand": "La Vie Claire",
     "brand:wikidata": "Q3213589",
-    "brand:wikipedia": "en:La Vie Claire (company)",
+    "brand:wikipedia": "fr:La Vie Claire",
     "bulk_purchase": "yes",
+    "currency:EUR": "yes",
     "delivery": "no",
     "drive_through": "no",
+    "email": "rouen@lavieclaire.com",
     "name": "La Vie Claire",
     "opening_hours": "Mo-Sa 09:30-19:30; Su 09:30-13:00",
     "organic": "only",
@@ -7828,11 +7792,13 @@
     "brand:wikidata": "Q3337081",
     "brand:wikipedia": "fr:Naturalia",
     "bulk_purchase": "yes",
+    "level": "0",
     "name": "Naturalia",
     "opening_hours": "Mo-Sa 9:00-20:00",
     "organic": "only",
     "shop": "convenience",
     "source": "survey",
+    "toilets": "no",
     "wheelchair": "yes"
   }
 },
@@ -10700,6 +10666,18 @@
 },
 {
   "type": "node",
+  "id": 4857316852,
+  "lat": 49.8929369,
+  "lon": 2.2936862,
+  "tags": {
+    "bulk_purchase": "yes",
+    "name": "Dasi Frères",
+    "shop": "tea",
+    "website": "https://www.dasifreres.com/"
+  }
+},
+{
+  "type": "node",
   "id": 4857345661,
   "lat": 49.8935479,
   "lon": 2.2981523,
@@ -13279,7 +13257,7 @@
     "addr:postcode": "92160",
     "addr:street": "Avenue Aristide Briand",
     "bulk_purchase": "only",
-    "name": "day by day",
+    "name": "Day by Day",
     "opening_hours": "Tu-Fr 09:30-13:30, 15:30-19:30; Sa 09:30-13:30, 14:30-19:30; Su 10:00-12:45",
     "organic": "yes",
     "shop": "convenience",
@@ -14667,8 +14645,8 @@
 {
   "type": "node",
   "id": 5596686294,
-  "lat": 50.3575830,
-  "lon": 3.5259904,
+  "lat": 50.3576367,
+  "lon": 3.5259910,
   "tags": {
     "addr:city": "Valenciennes",
     "addr:housenumber": "2",
@@ -15696,15 +15674,15 @@
 {
   "type": "node",
   "id": 5782834678,
-  "lat": 44.1778578,
-  "lon": 4.6145681,
+  "lat": 44.1778309,
+  "lon": 4.6147693,
   "tags": {
     "brand": "La Vie Claire",
     "brand:wikidata": "Q3213589",
     "brand:wikipedia": "fr:La Vie claire",
     "bulk_purchase": "yes",
     "contact:facebook": "https://www.facebook.com/Lavieclaire",
-    "name": "La vie claire",
+    "name": "La Vie Claire",
     "organic": "only",
     "shop": "supermarket",
     "website": "https://www.lavieclaire.com/magasin-bio/bagnols-sur-ceze.html"
@@ -17060,7 +17038,7 @@
   "tags": {
     "brand": "La Vie Claire",
     "brand:wikidata": "Q3213589",
-    "brand:wikipedia": "en:La Vie Claire (company)",
+    "brand:wikipedia": "fr:La Vie Claire",
     "bulk_purchase": "yes",
     "name": "La Vie Claire",
     "organic": "only",
@@ -17762,20 +17740,6 @@
     "organic": "only",
     "shop": "supermarket",
     "website": "https://www.lavieclaire.com/magasin-bio/villers-bocage.html"
-  }
-},
-{
-  "type": "node",
-  "id": 5863923657,
-  "lat": 50.7377864,
-  "lon": 2.5501680,
-  "tags": {
-    "bulk_purchase": "yes",
-    "contact:facebook": "https://www.facebook.com/BBGbiobongourmand/",
-    "name": "Bio Bon Gourmand",
-    "organic": "only",
-    "shop": "supermarket",
-    "website": "http://www.bbgmarket.com"
   }
 },
 {
@@ -19047,8 +19011,8 @@
 {
   "type": "node",
   "id": 6003114611,
-  "lat": 45.7119475,
-  "lon": 4.8202467,
+  "lat": 45.7129832,
+  "lon": 4.8200938,
   "tags": {
     "bulk_purchase": "yes",
     "contact:facebook": "https://facebook.com/superhalle/",
@@ -21154,8 +21118,8 @@
 {
   "type": "node",
   "id": 6130841799,
-  "lat": 49.4186845,
-  "lon": 1.0446027,
+  "lat": 49.4187683,
+  "lon": 1.0446805,
   "tags": {
     "addr:city": "Le Grand-Quevilly",
     "addr:postcode": "76120",
@@ -21164,12 +21128,14 @@
     "brand:wikidata": "Q2904039",
     "brand:wikipedia": "fr:Biocoop",
     "bulk_purchase": "yes",
+    "currency:EUR": "yes",
     "delivery": "no",
+    "drive_through": "no",
     "name": "Biocoop",
-    "opening_hours": "Mo-Th 09:30-19:00 ; Fr-Sa 09:30-19:30",
+    "opening_hours": "Mo-Th 09:30-19:00; Fr-Sa 09:30-19:30",
     "organic": "only",
     "payment:cash": "yes",
-    "payment:debit_cards": "yes",
+    "payment:credit_cards": "yes",
     "phone": "+33 2 78 77 57 10",
     "shop": "supermarket",
     "start_date": "2018-11-22",
@@ -21416,7 +21382,7 @@
     "addr:postcode": "28230",
     "addr:street": "Rue Paul Painlevé",
     "bulk_purchase": "yes",
-    "name": "L'inflorescence",
+    "name": "L'Inflorescence",
     "opening_hours": "Tu-Fr 09:15-12:30,15:00-19:00; Sa 09:15-12:30",
     "operator": "Benedicte LESAGE",
     "organic": "only",
@@ -21897,7 +21863,7 @@
     "bulk_purchase": "yes",
     "contact:facebook": "https://www.facebook.com/lesamisdelacoopducoin/",
     "name": "La Coop du Coin",
-    "opening_hours": "Tu 10:00-14:00; Th 16:00-20:00; Fr 10:00-12:00, 16:00-20:00; Sa 10:00-14:00",
+    "opening_hours": "Mo 17:00-19h00; Tu 10:00-14:00; Th 16:00-20:00; Fr 10:00-12:00, 16:00-20:00; Sa 10:00-13:00",
     "organic": "yes",
     "shop": "convenience",
     "website": "https://lacoopducoin-epicerie-cooperative-participative.fr/"
@@ -22534,8 +22500,8 @@
 {
   "type": "node",
   "id": 6387785021,
-  "lat": 43.5556882,
-  "lon": 1.4227920,
+  "lat": 43.5551867,
+  "lon": 1.4226740,
   "tags": {
     "addr:housenumber": "1",
     "addr:street": "Chemin des Silos",
@@ -22544,7 +22510,7 @@
     "opening_hours": "Mo-Sa 09:30-19:30",
     "organic": "only",
     "shop": "supermarket",
-    "website": "https://www.sobio.fr/magasin/toulouse"
+    "website": "https://www.sobio.fr/magasin/magasin-so-bio-toulouse/"
   }
 },
 {
@@ -23754,13 +23720,13 @@
   "lat": 48.5788559,
   "lon": 7.7519173,
   "tags": {
-    "addr:housenumber": "3",
-    "addr:street": "Rue d'Austerlitz",
     "branch": "Strasbourg Austerlitz",
     "brand": "Naturalia",
     "brand:wikidata": "Q3337081",
     "brand:wikipedia": "fr:Naturalia",
     "bulk_purchase": "yes",
+    "contact:housenumber": "3",
+    "contact:street": "Rue d'Austerlitz",
     "contact:website": "https://magasins.naturalia.fr/produits-bio/strasbourg-austerlitz/39000",
     "name": "Naturalia",
     "opening_hours": "Mo-Sa 09:00-20:00",
@@ -24425,6 +24391,7 @@
     "email": "contact@aquiu.fr",
     "name": "Aquiu",
     "opening_hours": "Mo 16:00-20:00; Tu-Sa 10:00-20:00",
+    "outdoor_seating": "yes",
     "shop": "convenience",
     "website": "http://aquiu.fr/"
   }
@@ -28422,7 +28389,7 @@
     "lon": -1.5682759
   },
   "nodes": [
-    983793991,
+    1658136584,
     983830642,
     983718788,
     983715029,
@@ -28448,23 +28415,28 @@
     983775215,
     983834607,
     983839266,
-    983793991
+    1658136584
   ],
   "tags": {
     "addr:city": "Rezé",
     "addr:housenumber": "20",
-    "addr:postcode": "44400",
-    "addr:street": "Rue Abbé Grégoire",
+    "addr:postcode": "44400;44000",
+    "addr:street": "Rue Abbé Grégoire;Abbé Grégoire",
     "building": "retail",
     "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/Scopeli/",
+    "description": "Supermarché coopératif et participatif (réservé aux coopérateurs) avec un (grand) rayon vrac. Produits majoritairement biologiques.",
     "name": "Scopéli",
+    "opening_hours": "Tu-Th, Sa 09:00-19:00; Fr 09:00-20:00",
+    "operator:type": "cooperative",
     "organic": "only",
     "payment:cash": "yes",
     "payment:credit_cards": "yes",
     "payment:mastercard": "yes",
     "payment:visa": "yes",
+    "phone": "02 85 52 92 07",
     "shop": "supermarket",
-    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010;Nantes Métropole 11/2011",
     "website": "http://www.scopeli.fr/"
   }
 },
@@ -28985,7 +28957,7 @@
   "id": 90887750,
   "center": {
     "lat": 44.5678470,
-    "lon": 6.1033412
+    "lon": 6.1033416
   },
   "nodes": [
     5078587130,
@@ -28994,6 +28966,7 @@
     1054823766,
     1055285737,
     1055277524,
+    7030985889,
     5078547006,
     1055066883,
     1054844970,
@@ -32511,14 +32484,8 @@
     "addr:housenumber": "4",
     "addr:postcode": "56150",
     "addr:street": "Rue d'Auray",
-    "brand": "La Vie Claire",
-    "brand:wikidata": "Q3213589",
-    "brand:wikipedia": "fr:La Vie claire",
     "building": "yes",
     "bulk_purchase": "yes",
-    "name": "La Vie Claire",
-    "organic": "only",
-    "shop": "supermarket",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013",
     "website": "https://www.lavieclaire.com/magasin-bio/baud.html"
   }
@@ -32676,41 +32643,6 @@
     "organic": "only",
     "shop": "supermarket",
     "source": "Contributions libres faites sur CartoVrac.fr;Mapillary"
-  }
-},
-{
-  "type": "way",
-  "id": 224599086,
-  "center": {
-    "lat": 47.3603276,
-    "lon": -1.9439195
-  },
-  "nodes": [
-    2333495447,
-    2333496040,
-    2333501842,
-    2333509251,
-    2333508738,
-    2333502364,
-    2333502556,
-    2333501244,
-    2333500580,
-    2333500324,
-    2333495447
-  ],
-  "tags": {
-    "addr:city": "Savenay",
-    "addr:housenumber": "16",
-    "addr:postcode": "44260",
-    "addr:street": "Rue de l'Église",
-    "building": "yes",
-    "bulk_purchase": "yes",
-    "facebook": "https://www.facebook.com/pg/ahletallocal",
-    "name": "Ah ! L'étal Local",
-    "opening_hours": "Tu 09:00-13:00, 15:30-19:00; We-Fr 09:00-13:00, 15:00-19:00; Sa 09:00-19:00; Su 09:00-13:00",
-    "organic": "yes",
-    "shop": "convenience",
-    "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2012"
   }
 },
 {
@@ -35016,6 +34948,38 @@
     "organic": "only",
     "shop": "supermarket",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"
+  }
+},
+{
+  "type": "way",
+  "id": 611675374,
+  "center": {
+    "lat": 48.9139768,
+    "lon": 2.2304440
+  },
+  "nodes": [
+    924063529,
+    924060144,
+    924061155,
+    924074625,
+    924076460,
+    924071235,
+    924066546,
+    924077472,
+    924060513,
+    924068518,
+    924063529
+  ],
+  "tags": {
+    "brand": "E. Leclerc",
+    "brand:wikidata": "Q1273376",
+    "brand:wikipedia": "fr:E.Leclerc",
+    "building": "retail",
+    "bulk_purchase": "yes",
+    "name": "E. Leclerc",
+    "shop": "supermarket",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+    "wheelchair": "yes"
   }
 },
 {

@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.55.7 8b86ff77",
   "osm3s": {
-    "timestamp_osm_base": "2019-11-24T21:17:02Z",
+    "timestamp_osm_base": "2019-12-04T20:50:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -161,7 +161,7 @@
     "name": "Pâtisserie Alain Pidoux",
     "opening_hours": "Tu-Sa 08:00-13:00,15:00-19:30; Su 08:00-13:00",
     "payment:cash": "yes",
-    "phone": "+33 5 46 07 01 59 ",
+    "phone": "+33 5 46 07 01 59",
     "shop": "pastry",
     "website": "http://www.fred-dubois.info/commercants_surgeres/page_com/pidoux.htm"
   }
