@@ -16,16 +16,16 @@
 
       if (Array.isArray(type_event)) {
         var cptEventsFiltered = 0;
-		
+
                  for (var cptEventsNotFiltered = 0; cptEventsNotFiltered < type_event.length; cptEventsNotFiltered++) {
                      var show = true;
-					 if (type_event[cptEventsNotFiltered].tags["department"] !== "Loire-Atlantique" &&
+					 /*if (type_event[cptEventsNotFiltered].tags["department"] !== "Loire-Atlantique" &&
 						type_event[cptEventsNotFiltered].tags["department"] !== "Maine-Et-Loire" &&
 						type_event[cptEventsNotFiltered].tags["department"] !== "Mayenne" &&
 						type_event[cptEventsNotFiltered].tags["department"] !== "Sarthe" &&
 						type_event[cptEventsNotFiltered].tags["department"] !== "Vend\u00e9e") {
                          show = false;
-                       }
+                       }*/
 	  /*
                      if (window.location.href.indexOf("coreparation44.fr") > -1) {
                        // Url is coreparation44
@@ -33,7 +33,7 @@
                          show = false;
                        }
                      }*/
-					 
+
                      if (show==true) {
                        cptEventsFiltered++;
                        textDiv2 += "<div class='ligne'>"; // ligne
@@ -57,16 +57,16 @@
                        }
                        textDiv2 += "</span>"; // end image
 					   textDiv2 += "</div>"; // end truc
-					   
-					   // 
+
+					   //
 					   textDiv2 += "<div class='truc'>"; // truc
-					   
+
 					   textDiv2 += "<div class='event_title'>"; // event_title
                        textDiv2 += type_event[cptEventsNotFiltered].tags["name"];
 					   textDiv2 += "</div>"; // end event_title
-					   
+
 					   textDiv2 += "<div class='event_conditions'>"; // event_conditions
-					   
+
                        textDiv2 += "<address>"; // address
 
 					   if (typeof type_event[cptEventsNotFiltered].tags["contact:housenumber"] !== "undefined") {
@@ -94,7 +94,7 @@
                          textDiv2 += type_event[cptEventsNotFiltered].tags["addr:city"]+" ";
                        }
                        textDiv2 += "</address>";  // end address
-					   
+
 
 					   if (typeof type_event[cptEventsNotFiltered].tags["contact:phone"] !== "undefined") {
                          textDiv2 += type_event[cptEventsNotFiltered].tags["contact:phone"]+" ";
@@ -108,9 +108,9 @@
 					   if (typeof type_event[cptEventsNotFiltered].tags["email"] !== "undefined") {
                          textDiv2 += type_event[cptEventsNotFiltered].tags["email"]+" ";
                        }
- 
+
 					   textDiv2 += "</div>"; // event_conditions
-					   
+
 
 					   // Dates
 					   textDiv2 += "<div class='event_conditions'>"; // event_conditions
@@ -145,10 +145,10 @@
                        }
 					   textDiv2 += "</div>";   // end of event_conditions
 					   textDiv2 += "</div>"; // end of truc
-					   
+
 					   textDiv2 += "</div>";   // end of wrap
 					   textDiv2 += "</div>"; // end of ligne
-					   
+
 					   if(cptEventsFiltered%2 == 0){
                          textDiv2 += "<div class='clear'></div>";
                        }
@@ -169,7 +169,7 @@
 					   */
                       /* textDiv2 += "<div class='truc'><div class='event_title'>"+type_event[cptEventsNotFiltered].tags["name"]+"</div>"
                       textDiv2 +=  type_event[cptEventsNotFiltered].tags["description"]+"</br/><div class='timeDate'>";
-                       
+
                        for(var cptDateOfTheEvent = 0; cptDateOfTheEvent < type_event[cptEventsNotFiltered].tags["opening_hours_detailled"].length; cptDateOfTheEvent++) {
 						 textDiv2 += type_event[cptEventsNotFiltered].tags["opening_hours_detailled"][cptDateOfTheEvent] + "<br/>";
                        }
@@ -177,26 +177,26 @@
                           textDiv2 += "Pas de date à venir programmée.";
                        }
 					   textDiv2 += "</div><br/>";
-                      
+
                        if (type_event[cptEventsNotFiltered].conditions != null) {
                          textDiv2 += "<div class='event_conditions'>Conditions : " + type_event[cptEventsNotFiltered].tags["conditions"]+"</div>";
-                       
+
                        textDiv2 += "<br/><a href='" + type_event[cptEventsNotFiltered].tags["contact:website"]+ "' target=_new><b><i>Plus d'infos</i></b></a>";
                        textDiv2 += "</div></div>";
                        textDiv2 += "</div>";
 
 
-					   
+
                      }*/
 					 }
       }
 
     }
     document.getElementById("textDiv2").innerHTML = textDiv2;
-	  
+
     }
 
-$.getJSON("scripts_php/cache_data_2.json", function (data) {
+$.getJSON("cache_data.json", function (data) {
     $.each(data, function (index, value) {
               load_json_2(value);
     });

@@ -1,8 +1,8 @@
 ﻿<?php
 // Coming
-$eventsData = file_get_contents("http://coreparation.fr/cache_data.json");
+$eventsData = file_get_contents("http://coreparation.fr/cache_data_temp.json");
 
-echo "2_refresh_events.php : modify http://coreparation.fr/scripts_php/cache_data_2.json depending from http://coreparation.fr/cache_data.json <br/>";
+echo "2_refresh_events.php : modify http://coreparation.fr/scripts_php/cache_data.json depending from http://coreparation.fr/cache_data_temp.json <br/>";
 echo "-------<br/>";
 $data = json_decode($eventsData, true);
 $id = 0;
@@ -50,7 +50,7 @@ foreach ($data["elements"] as $tag) {
 $json_data = json_encode($data);
 
 format_days($json_data);
-file_put_contents('cache_data_2.json', $json_data);
+file_put_contents('../cache_data.json', $json_data);
 var_dump($json_data);
 
 function get_opening_hours_date($input) {

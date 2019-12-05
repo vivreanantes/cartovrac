@@ -1,16 +1,14 @@
 <?php
 
-echo "1_refresh_markers.php : modify http://coreparation.fr/cache_data.json from overpass<br/>";
+echo "1_refresh_markers.php : modify http://coreparation.fr/cache_data_temp.json from overpass<br/>";
 echo "-------<br/>";
 // overpass query
-$overpass = 'http://overpass-api.de/api/interpreter?data=[out:json];area(3600046663)->.searchArea;(node["amenity"="drinking_water"](area.searchArea););out;';
 $overpass = 'http://overpass-api.de/api/interpreter?data=[out:json];(area["ISO3166-1"="FR"];)->.searchArea;(node["repair"="assisted_self_service"](area.searchArea););out;';
-// $overpass = 'http://overpass-api.de/api/interpreter?data=[out:json];(area["ISO3166-1"="FR"];)->.fr;((node["repair"~"assisted_self_service"](area.fr);way["repair"~"assisted_self_service"](area.fr);););out center;';
 
 // collecting results in JSON format
 $html = file_get_contents($overpass);
 $jsonout = json_decode($html);
-$fp = fopen('../cache_data.json', 'w');
+$fp = fopen('../cache_data_temp.json', 'w');
 fwrite($fp, $html);
 fclose($fp);
 // this line just checks what the query would give as output
