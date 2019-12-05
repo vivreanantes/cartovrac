@@ -15,6 +15,9 @@ var query = require('url').parse(window.location.search, true).query;
 $(document).ready(function(){
 	checkEmbbededMode();
 	createMapAndPopulate("map", getMapConfig());
+
+	// Fix waiting for library update
+	$(".leaflet-control-geocoder-icon").attr("aria-label", "Zoomer sur ma position");
 });
 
 
