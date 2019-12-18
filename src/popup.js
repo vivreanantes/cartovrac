@@ -20,7 +20,7 @@ export function getPopupContent(
 	var popup = '<b>'+name+'</b><br />';
 	// Set the shop type
 	popup += getHtmlFormattedShopTitle(category, organic, bulk_purchase, drive);
-    popup += address;   
+    if (address) popup += address;   
     popup += getHtmlFormattedHours(opening_hours);
     popup += getHtmlFormattedWebsite(url);
     popup += getHtmlFormattedContribution(elementId);
