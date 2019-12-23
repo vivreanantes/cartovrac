@@ -112,7 +112,7 @@ function addListOfShops() {
 				repairTags['description:fr'],
 				repairTags['contact:neighbourhood'],
 				repairTags['contact:calendar'],
-				repairTags['brand'],
+      	repairTags['brand'],
 				typeArray
 		);
 
@@ -143,7 +143,6 @@ function getPopupContent(
 		description,
 		neighbourhood,
 		calendar,
-		brand,
 		typeArray
 ){
 	// Check that name exists
@@ -155,9 +154,6 @@ function getPopupContent(
 		popup += '<i> - '+neighbourhood+'</i>';
 	}
 	popup += "<br/>";
-	if (brand==="Repair Café") {
-		popup += '<i>Signataire Charte des Repair Cafés</i><br />';
-	}
 	// Set the shop type
 	// var shopTitle = getShopTitle(typeArray, collaborative_repair_shop, neighbourhood);
 	if (description) {
@@ -173,7 +169,7 @@ function getPopupContent(
 	}
 	popup += getHtmlFormattedWebsite("Site web", website);
 	popup += getHtmlFormattedWebsite("Site web", website2);
-	popup += getHtmlFormattedCalendar_2(nodeId);
+	popup += getHtmlFormattedCalendar(calendar);
 	popup += getHtmlFormattedPartnerships(nodeId);
 	popup += getHtmlFormattedContribution(nodeId);
 	return popup;

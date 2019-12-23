@@ -130,7 +130,7 @@
 						   if (typeof type_event[cptEventsNotFiltered].tags["contact:calendar"] !== "undefined") {
 							   textDiv2 += "<a href='" + type_event[cptEventsNotFiltered].tags["contact:calendar"]+"' target=_new><b><i>Voir le calendrier</i></b></a> ";
 						   } else {
-							textDiv2 += "Pas de date à venir programmée.";
+							textDiv2 += "Consulter le site pour avoir les dates.";
 						   }
                        }
 					   textDiv2 += "</div><br/>"; // end of timeDate
@@ -202,10 +202,10 @@ $.getJSON("cache_data.json", function (data) {
     });
 });
 
-if (window.location.href.indexOf("coreparation44.fr") > -1) {
+/*if (window.location.href.indexOf("coreparation44.fr") > -1) {
   // OK !!!!!!!
     // Url is coreparation44 : je montre
     document.getElementById("filterCalendar44").style.display = 'inline-block';
 } else {
       document.getElementById("filterCalendar44").style.display = 'none';
-}
+}*/

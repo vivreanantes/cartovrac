@@ -78,7 +78,7 @@ var today = new Date();
 
                        }
                        if (nbEvent==0) {
-                          textDiv += "Pas de date à venir programmée.";
+                          textDiv += "Consulter le site pour les horaires.";
                        }
                        textDiv += "</div><br/><div class='event_conditions'>";
                        textDiv += "<address>";
@@ -108,10 +108,10 @@ $.getJSON("events.json", function (data) {
     });
 });
 
-if (window.location.href.indexOf("coreparation44.fr") > -1) {
+/*if (window.location.href.indexOf("coreparation44.fr") > -1) {
   // OK !!!!!!!
     // Url is coreparation44 : je montre
     document.getElementById("filterCalendar44").style.display = 'inline-block';
 } else {
       document.getElementById("filterCalendar44").style.display = 'none';
-}
+}*/
