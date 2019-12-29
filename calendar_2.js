@@ -128,7 +128,7 @@
                        }
                        if (nbEvent==0) {
 						   if (typeof type_event[cptEventsNotFiltered].tags["contact:calendar"] !== "undefined") {
-							   textDiv2 += "<a href='" + type_event[cptEventsNotFiltered].tags["contact:calendar"]+"' target=_new><b><i>Voir le calendrier</i></b></a> ";
+							   textDiv2 += "<a href='" + type_event[cptEventsNotFiltered].tags["contact:calendar"]+"' target=_new><b><i>Voir les détails sur le calendrier</i></b></a> ";
 						   } else {
 							textDiv2 += "Consulter le site pour avoir les dates.";
 						   }
