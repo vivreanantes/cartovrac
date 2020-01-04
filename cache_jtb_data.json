@@ -1,8 +1,8 @@
 {
   "version": 0.6,
-  "generator": "Overpass API 0.7.55.7 8b86ff77",
+  "generator": "Overpass API 0.7.55.1009 5e627b63",
   "osm3s": {
-    "timestamp_osm_base": "2019-12-04T20:50:02Z",
+    "timestamp_osm_base": "2020-01-04T14:29:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -14,6 +14,7 @@
   "lon": -1.5524959,
   "tags": {
     "amenity": "restaurant",
+    "bulk_purchase": "yes",
     "contact:city": "Nantes",
     "contact:country": "FR",
     "contact:facebook": "https://www.facebook.com/AnneCuillere/",
@@ -24,6 +25,7 @@
     "cuisine": "french",
     "name": "La Cuillère en Coin",
     "opening_hours": "Mo-Fr 12:00-15:00",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "survey:date": "2019-02-24",
     "takeaway": "yes",
     "wheelchair": "yes"
@@ -36,6 +38,7 @@
   "lon": -1.5548521,
   "tags": {
     "amenity": "restaurant",
+    "bulk_purchase": "yes",
     "contact:city": "Nantes",
     "contact:country": "FR",
     "contact:facebook": "https://www.facebook.com/chacharestaurant",
@@ -49,6 +52,7 @@
     "opening_hours": "We-Sa 12:00-15:30,19:00-23:30",
     "organic": "yes",
     "phone": "+33 9 83 88 83 53",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "survey:date": "2019-02-24",
     "takeaway": "yes"
   }
@@ -59,6 +63,7 @@
   "lat": 47.2148495,
   "lon": -1.5552388,
   "tags": {
+    "bulk_purchase": "yes",
     "contact:city": "Nantes",
     "contact:country": "FR",
     "contact:housenumber": "13",
@@ -66,6 +71,7 @@
     "contact:street": "Rue Beauregard",
     "name": "Jargus",
     "note": "Etablissement fermé et déménagé à une autre adresse. Enseigne toujours présente",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "survey:date": "2019-10-23",
     "was:amenity": "restaurant",
     "wheelchair": "no"
@@ -77,9 +83,11 @@
   "lat": 47.1863374,
   "lon": -1.5274938,
   "tags": {
+    "bulk_purchase": "yes",
     "facebook": "https://www.facebook.com/boulangeriedesevres/",
     "name": "Boulangerie de Sèvre",
-    "shop": "bakery"
+    "shop": "bakery",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux"
   }
 },
 {
@@ -98,6 +106,7 @@
     "organic": "yes",
     "phone": "+33 983028722",
     "shop": "convenience",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "website": "https://epicerie-leptitpoids.fr/"
   }
 },
@@ -108,10 +117,12 @@
   "lon": -1.5572505,
   "tags": {
     "amenity": "bar",
+    "bulk_purchase": "yes",
     "contact:facebook": "https://www.facebook.com/absence.nantes",
     "contact:phone": "+33 2 40 75 75 07",
     "name": "L'Absence",
     "outdoor_seating": "yes",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "start_date": "2009",
     "survey:date": "2019-01-03",
     "url": "https://www.nantes-tourisme.com/fr/art-contemporain/l-absence",
@@ -124,10 +135,12 @@
   "lat": 47.2527611,
   "lon": -1.5940555,
   "tags": {
+    "bulk_purchase": "yes",
     "contact:facebook": "https://www.facebook.com/boulangerie.laleczynski/",
     "name": "Boulangerie Lalczynski",
     "shop": "bakery",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "survey:date": "2019-01-06"
   }
 },
@@ -145,6 +158,7 @@
     "organic": "only",
     "phone": "+332 40 25 11 11",
     "shop": "supermarket",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "survey:date": "2018-11-01",
     "website": "http://www.chlorophylle-coop.com/",
     "wheelchair": "yes"
@@ -161,11 +175,13 @@
     "addr:housenumber": "150",
     "addr:postcode": "44000",
     "addr:street": "Rue du Général Buat",
+    "bulk_purchase": "yes",
     "contact:phone": "+33 2 40 74 27 95",
     "name": "Un grain gourmand",
     "opening_hours": "Tu-Sa 07:00-13:30,16:00-20:00; Su 07:00-13:00,16:00-19:00; May-Aug Su 07:00-13:00",
     "pastry_shop": "yes",
     "shop": "bakery",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "wheelchair": "no"
   }
 },
@@ -179,10 +195,12 @@
     "addr:housenumber": "144",
     "addr:postcode": "44000",
     "addr:street": "Rue Général Buat",
+    "bulk_purchase": "yes",
     "contact:phone": "+33 2 40 74 39 42",
     "name": "Le Porc Bonheur",
     "opening_hours": "Tu-Sa 09:00-13:30,15:00-19:30; Su 09:00-13:00",
     "shop": "butcher",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "survey:date": "2018-10-14",
     "website": "https://www.leporcbonheur.fr/"
   }
@@ -198,9 +216,11 @@
     "addr:housenumber": "101",
     "addr:postcode": "44000",
     "addr:street": "Rue du Général Buat",
+    "bulk_purchase": "yes",
     "name": "Loïc Lusson",
     "opening_hours": "Tu-Sa 09:00-13:00,15:30-19:30",
-    "shop": "butcher"
+    "shop": "butcher",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux"
   }
 },
 {
@@ -220,6 +240,7 @@
     "organic": "only",
     "shop": "convenience",
     "source": "Nantes Métropole 11/2011",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "website": "https://www.fleuronbio44.com/"
   }
 },
@@ -239,6 +260,7 @@
   "lat": 47.2175592,
   "lon": -1.5520688,
   "tags": {
+    "bulk_purchase": "yes",
     "contact:city": "Nantes",
     "contact:country": "FR",
     "contact:housenumber": "1",
@@ -250,6 +272,7 @@
     "organic": "only",
     "phone": "+33 2 40 48 12 37",
     "shop": "greengrocer",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "wheelchair": "limited"
   }
 },
@@ -259,6 +282,7 @@
   "lat": 47.2156747,
   "lon": -1.5545283,
   "tags": {
+    "bulk_purchase": "yes",
     "contact:city": "Nantes",
     "contact:country": "FR",
     "contact:housenumber": "24",
@@ -271,6 +295,7 @@
     "name": "La BrûLeRie",
     "opening_hours": "Mo 14:00-19:00; Tu-Sa 10:00-19:00",
     "shop": "coffee",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "survey:date": "2019-02-24",
     "wheelchair": "yes"
   }
@@ -326,16 +351,21 @@
   "lat": 47.2162637,
   "lon": -1.5553196,
   "tags": {
+    "bulk_purchase": "yes",
     "contact:city": "Nantes",
     "contact:country": "FR",
+    "contact:email": "cheese@maisonfrometon.fr",
     "contact:facebook": "https://www.facebook.com/maisonfrometon/",
     "contact:housenumber": "21",
     "contact:postcode": "44000",
     "contact:street": "Rue des Carmes",
     "contact:website": "https://www.maisonfrometon.fr/",
     "name": "Maison Frometon",
+    "opening_hours": "Tu-Fr 09:30-14:00, 15:30-20:00; Sa 09:30-20:00; Su 10:00-13:30",
+    "phone": "+33 2 28 29 62 73",
     "shop": "cheese",
-    "survey:date": "2019-02-24",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
+    "survey:date": "2019-12-15",
     "wheelchair": "no"
   }
 },
@@ -346,6 +376,7 @@
   "lon": -1.5531720,
   "tags": {
     "amenity": "fast_food",
+    "bulk_purchase": "yes",
     "contact:city": "Nantes",
     "contact:country": "FR",
     "contact:facebook": "https://www.facebook.com/MAMIE-PAT-548789705193887/",
@@ -355,6 +386,7 @@
     "cuisine": "pasta",
     "name": "Mamie Pât",
     "outdoor_seating": "yes",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "survey:date": "2019-02-24",
     "takeaway": "yes",
     "wheelchair": "no"
@@ -370,6 +402,7 @@
     "addr:housenumber": "3",
     "addr:postcode": "44000",
     "addr:street": "Rue du Bouffay",
+    "bulk_purchase": "yes",
     "contact:city": "Nantes",
     "contact:country": "FR",
     "contact:housenumber": "3",
@@ -379,6 +412,7 @@
     "opening_hours": "Mo-Sa 08:00-19:30; Su 08:30-12:30",
     "phone": "+33 2 40 48 54 08",
     "shop": "butcher",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "survey:date": "2019-02-24"
   }
 },
@@ -392,6 +426,7 @@
     "addr:housenumber": "6",
     "addr:postcode": "44000",
     "addr:street": "Rue des Échevins",
+    "bulk_purchase": "yes",
     "contact:city": "Nantes",
     "contact:country": "FR",
     "contact:housenumber": "6",
@@ -400,7 +435,8 @@
     "contact:website": "http://www.lebouffay-spagnol.fr/",
     "name": "Le Bouffay Spanol",
     "origin": "spanish",
-    "shop": "deli"
+    "shop": "deli",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux"
   }
 },
 {
@@ -414,6 +450,7 @@
     "addr:postcode": "44000",
     "addr:street": "Rue du Château",
     "amenity": "restaurant",
+    "bulk_purchase": "yes",
     "capacity": "45",
     "contact:city": "Nantes",
     "contact:country": "FR",
@@ -427,6 +464,7 @@
     "outdoor_seating": "yes",
     "phone": "+33 2 51 82 79 13",
     "smoking": "outside",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "survey:date": "2019-02-24",
     "wheelchair": "limited"
   }
@@ -470,6 +508,7 @@
     "opening_hours": "Mo-Sa 09:30-19:15; Su off",
     "organic": "only",
     "shop": "supermarket",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "website": "https://www.leshameauxbio.fr/magasins/o%C3%B9-sommes-nous/pornic/",
     "wheelchair": "yes"
   }
@@ -485,6 +524,7 @@
     "addr:postcode": "44000",
     "addr:street": "Place du Pilori",
     "amenity": "fast_food",
+    "bulk_purchase": "yes",
     "contact:city": "Nantes",
     "contact:country": "FR",
     "contact:facebook": "https://www.facebook.com/LEFSR/",
@@ -493,6 +533,7 @@
     "contact:street": "Place du Pilori",
     "name": "Lulu & Félix",
     "outdoor_seating": "yes",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "survey:date": "2019-09-04",
     "takeaway": "yes",
     "wheelchair": "yes"
@@ -505,6 +546,7 @@
   "lon": -1.5491605,
   "tags": {
     "amenity": "restaurant",
+    "bulk_purchase": "yes",
     "contact:facebook": "https://www.facebook.com/lagrdebarge",
     "contact:instagram": "https://www.instagram.com/lagrandebarge/",
     "contact:phone": "+33 2 53976540",
@@ -516,6 +558,7 @@
     "opening_hours": "Mo-Fr 12:00-14:00",
     "organic": "yes",
     "outdoor_seating": "yes",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "survey:date": "2018-11-24",
     "takeaway": "yes"
   }
@@ -526,6 +569,7 @@
   "lat": 47.2174721,
   "lon": -1.5517781,
   "tags": {
+    "bulk_purchase": "yes",
     "contact:city": "Nantes",
     "contact:country": "FR",
     "contact:facebook": "https://www.facebook.com/lacremeriedescarmelites/",
@@ -538,6 +582,7 @@
     "opening_hours": "Tu-Th 09:30-13:30,15:30-20:00; Fr,Sa 09:30-20:00; Su 09:30-13:30,15:30-18:30",
     "organic": "yes",
     "shop": "cheese",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "survey:date": "2019-06-11"
   }
 },
@@ -547,6 +592,7 @@
   "lat": 47.2173353,
   "lon": -1.5520038,
   "tags": {
+    "bulk_purchase": "yes",
     "contact:city": "Nantes",
     "contact:country": "FR",
     "contact:facebook": "https://www.facebook.com/olibabanantes/",
@@ -559,6 +605,7 @@
     "opening_hours": "Tu-Fr 10:00-13:30,15:00-19:30; Sa 10:00-19:30",
     "organic": "yes",
     "shop": "deli",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "survey:date": "2018-07-23",
     "wheelchair": "no"
   }
@@ -581,6 +628,7 @@
     "operator": "Le Sillon Bio",
     "organic": "only",
     "shop": "supermarket",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "website": "https://www.lesillonbio.com/"
   }
 },
@@ -595,6 +643,7 @@
     "addr:postcode": "44000",
     "addr:street": "Quai Turenne",
     "amenity": "restaurant",
+    "bulk_purchase": "yes",
     "contact:city": "Nantes",
     "contact:email": "hello@totumcantine.bio",
     "contact:facebook": "https://www.facebook.com/totumcantinebio",
@@ -612,6 +661,7 @@
     "opening_hours": "We,Th 12:00-14:30; Fr,Sa 12:00-14:30,19:00-21:30",
     "organic": "only",
     "outdoor_seating": "yes",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "takeaway": "yes",
     "toilets:wheelchair": "no",
     "wheelchair": "no"
@@ -629,6 +679,7 @@
     "name": "Voyages du Thé",
     "opening_hours": "Mo 15:00-19:00; Tu-Sa 10:00-13:00,14:30-19:00; Su 10:30-13:00",
     "shop": "tea",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "survey:date": "2018-10-27"
   }
 },
@@ -638,6 +689,7 @@
   "lat": 47.2166901,
   "lon": -1.5554971,
   "tags": {
+    "bulk_purchase": "yes",
     "contact:city": "Nantes",
     "contact:country": "FR",
     "contact:facebook": "https://www.facebook.com/au.bon.cafe.clavreul/",
@@ -650,6 +702,7 @@
     "name": "Cafés Clavreul",
     "opening_hours": "Tu-Sa 09:30-19:00; Mo 14:00-19:00",
     "shop": "coffee",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "survey:date": "2019-02-24"
   }
 },
@@ -660,6 +713,7 @@
   "lon": -1.5552067,
   "tags": {
     "amenity": "ice_cream",
+    "bulk_purchase": "yes",
     "contact:city": "Nantes",
     "contact:country": "FR",
     "contact:facebook": "https://www.facebook.com/lebonyogurt/",
@@ -669,6 +723,8 @@
     "contact:street": "Rue des Carmes",
     "contact:website": "http://www.laboiteameuh.fr/",
     "name": "La Boite à Meuh",
+    "opening_hours": "Mo-Fr 12:00-19:00; Sa 12:00-20:00; Su 12:00-19:00",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "survey:date": "2019-10-23",
     "takeaway": "yes",
     "wheelchair": "yes"
@@ -700,6 +756,7 @@
     "payment:mastercard": "yes",
     "payment:visa": "yes",
     "shop": "supermarket",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "wheelchair": "yes"
   }
 },
@@ -714,12 +771,14 @@
     "addr:postcode": "44000",
     "addr:street": "Place de la Bourse",
     "amenity": "cafe",
+    "bulk_purchase": "yes",
     "cuisine": "french",
     "food": "yes",
     "name": "You!",
     "opening_hours": "Tu-Sa 10:00-21:00",
     "organic": "yes",
     "outdoor_seating": "yes",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "survey:date": "2018-11-15",
     "website": "https://youbiofoodrink.fr"
   }
@@ -733,9 +792,11 @@
     "addr:housenumber": "3",
     "addr:postcode": "44340",
     "addr:street": "Place de l'Église",
+    "bulk_purchase": "yes",
     "contact:facebook": "https://www.facebook.com/LESOUT.Bouguenais/",
     "name": "Boulangerie Pâtisserie Nicolas Lesout",
     "shop": "bakery",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "wheelchair": "no"
   }
 },
@@ -753,6 +814,7 @@
     "name": "Les Jolis Bocaux",
     "organic": "yes",
     "shop": "convenience",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "website": "https://lesjolisbocaux.com/"
   }
 },
@@ -766,13 +828,15 @@
     "addr:housenumber": "211",
     "addr:postcode": "44300",
     "addr:street": "Route de Sainte-Luce",
+    "bulk_purchase": "yes",
     "name": "La boule carrée",
     "note:payment:meal_voucher": "minimum 6 euros",
     "opening_hours": "Mo-Fr 07:15-19:45; Su 07:30-13:30",
     "pastry_shop": "yes",
     "payment:meal_voucher": "yes",
     "shop": "bakery",
-    "source": "survey"
+    "source": "survey",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux"
   }
 },
 {
@@ -782,12 +846,15 @@
   "lon": -1.5417474,
   "tags": {
     "addr:city": "Nantes",
-    "addr:housenumber": "120",
+    "addr:housenumber": "122",
     "addr:postcode": "44000",
     "addr:street": "Rue Général Buat",
+    "bulk_purchase": "yes",
     "name": "Crèmerie Saint-Do",
     "opening_hours": "Tu-Sa 08:30-13:00,15:30-19:30",
-    "shop": "dairy"
+    "phone": "+33 28 24 54 46",
+    "shop": "dairy",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux"
   }
 },
 {
@@ -800,10 +867,11 @@
     "addr:housenumber": "128",
     "addr:postcode": "44000",
     "addr:street": "Rue Général Buat",
+    "bulk_purchase": "yes",
     "name": "Couleur Chocolat",
     "opening_hours": "Tu-Su 09:30-13:00, Tu-Sa 15:30-19:00",
     "shop": "chocolate",
-    "source": "J'aime tes bocaux"
+    "source:bulk_purchase": "Collectif J'aime tes bocaux"
   }
 },
 {
@@ -816,9 +884,12 @@
     "addr:housenumber": "130",
     "addr:postcode": "44000",
     "addr:street": "Rue Général Buat",
+    "bulk_purchase": "yes",
     "name": "Le Verger de Saint-Do",
     "opening_hours": "Tu-Sa 08:30-13:00,15:30-19:30",
-    "shop": "greengrocer"
+    "phone": "+33 2 40 93 31 69",
+    "shop": "greengrocer",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux"
   }
 },
 {
@@ -827,6 +898,7 @@
   "lat": 47.2041730,
   "lon": -1.5671559,
   "tags": {
+    "bulk_purchase": "yes",
     "contact:facebook": "https://fr-fr.facebook.com/pages/La-Boule-Carr%C3%A9e/543123109040038",
     "contact:phone": "+33 2 28 08 99 76",
     "name": "La Boule Carrée",
@@ -836,6 +908,7 @@
     "payment:mastercard": "yes",
     "payment:visa": "yes",
     "shop": "bakery",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "wheelchair": "yes",
     "wifi": "yes"
   }
@@ -846,6 +919,7 @@
   "lat": 47.2012022,
   "lon": -1.5455596,
   "tags": {
+    "bulk_purchase": "yes",
     "contact:phone": "+33 2 40 47 92 15",
     "craft": "caterer",
     "description": "Charcutier - Traiteur",
@@ -853,6 +927,7 @@
     "name": "Le Douget",
     "opening_hours": "Mo-Fr 09:30-13:30,16:15-19:00; Sa 09:30-13:30",
     "shop": "butcher",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "survey:date": "2018-12-09",
     "wheelchair": "limited"
   }
@@ -864,6 +939,7 @@
   "lon": -1.5462896,
   "tags": {
     "amenity": "restaurant",
+    "bulk_purchase": "yes",
     "contact:city": "Nantes",
     "contact:country": "FR",
     "contact:facebook": "https://www.facebook.com/restaurantPapill",
@@ -879,6 +955,7 @@
     "cuisine": "french",
     "name": "Papill'",
     "opening_hours": "Mo-Fr 11:30-14:30",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "takeaway": "yes"
   }
 },
@@ -888,6 +965,7 @@
   "lat": 47.2167531,
   "lon": -1.5553276,
   "tags": {
+    "bulk_purchase": "yes",
     "contact:city": "Nantes",
     "contact:facebook": "https://www.facebook.com/Les-Bottes-Boucherie-Paysanne-311067539588459/",
     "contact:housenumber": "2",
@@ -897,6 +975,7 @@
     "name": "Les Bottes",
     "opening_hours": "Tu-Sa 09:30-20:00; Su 09:30-13:00",
     "shop": "butcher",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "survey:date": "2019-09-03"
   }
 },
@@ -906,10 +985,12 @@
   "lat": 47.2211715,
   "lon": -1.5578118,
   "tags": {
+    "bulk_purchase": "yes",
     "name": "Talensac Marée",
     "opening_hours": "Th-Su 07:00-13:00",
     "phone": "+33 2 40 47 45 66",
     "shop": "seafood",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "survey:date": "2019-03-20"
   }
 },
@@ -919,10 +1000,12 @@
   "lat": 47.2212319,
   "lon": -1.5578230,
   "tags": {
+    "bulk_purchase": "yes",
     "name": "Établissements Marchand",
     "opening_hours": "Tu-Su 07:00-13:00",
     "phone": "+33 6 62 38 38 67",
     "shop": "cheese",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "survey:date": "2019-03-20"
   }
 },
@@ -932,11 +1015,13 @@
   "lat": 47.2211696,
   "lon": -1.5580037,
   "tags": {
+    "bulk_purchase": "yes",
     "name": "Boucherie Biologique Nantaise",
     "opening_hours": "Tu-Su 07:00-13:00",
     "organic": "yes",
     "phone": "+33 2 40 20 22 85",
     "shop": "butcher",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "survey:date": "2019-03-20"
   }
 },
@@ -947,11 +1032,13 @@
   "lon": -1.5579465,
   "tags": {
     "brand": "Beillevaire",
+    "bulk_purchase": "yes",
     "email": "beillevairetalensac@free.fr",
     "name": "Fromagerie Beillevaire",
     "opening_hours": "Tu-Su 07:00-13:00",
     "phone": "+33 2 40 20 43 51",
     "shop": "cheese",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "survey:date": "2019-03-20",
     "website": "http://www.beillevaire.com"
   }
@@ -963,6 +1050,7 @@
   "lon": -1.5582387,
   "tags": {
     "brand": "Les Délices de Provence",
+    "bulk_purchase": "yes",
     "email": "pascal.2as@wanadoo.fr",
     "fax": "+33 2 40 47 61 10",
     "name": "Les Délices de Provence",
@@ -971,6 +1059,7 @@
     "origin": "mediterranean",
     "phone": "+33 2 40 20 25 31",
     "shop": "deli",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "survey:date": "2019-03-20",
     "website": "http://www.carol-fils.com"
   }
@@ -985,10 +1074,12 @@
     "addr:housenumber": "3",
     "addr:postcode": "44230",
     "addr:street": "Rue Jean Macé",
+    "bulk_purchase": "yes",
     "contact:facebook": "https://www.facebook.com/epiceriemoscati/",
     "name": "Moscati",
     "operator": "Christophe Tréguier",
     "shop": "deli",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "source_ref:url": "http://www.moscati.fr/"
   }
 },
@@ -1010,6 +1101,7 @@
     "operator": "Biocoop",
     "organic": "only",
     "shop": "supermarket",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "website": "https://www.leshameauxbio.fr/nos-magasins/gu%C3%A9rande/"
   }
 },
@@ -1020,6 +1112,7 @@
   "lon": -1.5582630,
   "tags": {
     "amenity": "cafe",
+    "bulk_purchase": "yes",
     "contact:city": "Nantes",
     "contact:country": "FR",
     "contact:housenumber": "4",
@@ -1031,6 +1124,7 @@
     "opening_hours": "Tu-Fr 08:00-18:00; Sa 09:00-19:00",
     "outdoor_seating": "yes",
     "phone": "+33 9 83 24 19 24",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "survey:date": "2018-12-09",
     "takeaway": "yes",
     "website": "http://sugarbluecafe.fr",
@@ -1088,6 +1182,7 @@
     "operator": "Chlorophylle-coop",
     "organic": "only",
     "shop": "supermarket",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "website": "http://www.chlorophylle-coop.com/"
   }
 },
@@ -1107,6 +1202,7 @@
     "operator": "Chlorophylle-coop",
     "organic": "only",
     "shop": "supermarket",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "website": "http://www.chlorophylle-coop.com/"
   }
 },
@@ -1120,9 +1216,11 @@
     "addr:housenumber": "13",
     "addr:postcode": "44980",
     "addr:street": "Rue Denis Papin",
+    "bulk_purchase": "yes",
     "name": "Le grenier à pain",
     "opening_hours": "Mo-Fr 07:00-14:30,16:00-19:30; Su 08:00-13:00",
     "shop": "bakery",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "website": "http://legrenierapain.com/magasins-province/#st-luce"
   }
 },
@@ -1142,6 +1240,7 @@
     "operator": "Chlorophylle-coop",
     "organic": "only",
     "shop": "supermarket",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "website": "http://www.chlorophylle-coop.com"
   }
 },
@@ -1152,11 +1251,13 @@
   "lon": -1.5634091,
   "tags": {
     "brand": "Brison",
+    "bulk_purchase": "yes",
     "craft": "caterer",
     "email": "contact@brisontraiteur.com",
     "name": "Brison",
     "opening_hours": "Mo-Sa 08:30-19:45; Su off",
     "phone": "+33 2 40 48 51 39",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "survey:date": "2018-10-30",
     "website": "https://www.brisontraiteur.com/",
     "wheelchair": "yes"
@@ -1197,6 +1298,7 @@
     "operator": "Biocoop",
     "organic": "only",
     "shop": "supermarket",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "website": "https://www.leshameauxbio.fr/magasins/o%C3%B9-sommes-nous/nantes/"
   }
 },
@@ -1210,8 +1312,10 @@
     "addr:housenumber": "13",
     "addr:postcode": "44800",
     "addr:street": "Place de la Paix",
+    "bulk_purchase": "yes",
     "name": "Boucheries 44",
-    "shop": "butcher"
+    "shop": "butcher",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux"
   }
 },
 {
@@ -1221,6 +1325,7 @@
   "lon": -1.5491908,
   "tags": {
     "amenity": "restaurant",
+    "bulk_purchase": "yes",
     "contact:facebook": "https://www.facebook.com/SaladIle-874591492661849",
     "contact:phone": "+33 6 81091230",
     "cuisine": "salad;wrap",
@@ -1229,6 +1334,7 @@
     "name": "Salad'île",
     "opening_hours": "Mo-Fr 11:30-14:30",
     "outdoor_seating": "yes",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "survey:date": "2018-11-24",
     "takeaway": "yes",
     "wheelchair": "yes"
@@ -1241,12 +1347,14 @@
   "lon": -1.5596311,
   "tags": {
     "amenity": "restaurant",
+    "bulk_purchase": "yes",
     "contact:phone": "+33 2 53976027",
     "contact:website": "https://www.lemondedansunbol.fr",
     "cuisine": "international",
     "diet:vegetarian": "yes",
     "name": "Le monde dans un bol",
     "opening_hours": "Mo-Fr 12:00-14:15",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "survey:date": "2018-10-27",
     "takeaway": "yes"
   }
@@ -1267,6 +1375,7 @@
     "operator": "Chlorophylle-coop",
     "organic": "only",
     "shop": "supermarket",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "website": "http://www.chlorophylle-coop.com/"
   }
 },
@@ -1286,6 +1395,7 @@
     "organic": "yes",
     "phone": "09.73.15.80.74",
     "shop": "convenience",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "website": "http://daybyday-shop.com/magasin/nantes"
   }
 },
@@ -1306,6 +1416,7 @@
     "name": "Les Hameaux Bio Biocoop Pornichet",
     "organic": "only",
     "shop": "supermarket",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "website": "https://www.leshameauxbio.fr/magasins/o%C3%B9-sommes-nous/pornichet/"
   }
 },
@@ -1315,8 +1426,10 @@
   "lat": 47.2526006,
   "lon": -1.5945964,
   "tags": {
+    "bulk_purchase": "yes",
     "name": "La Boucherie",
     "shop": "butcher",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "survey:date": "2019-01-06"
   }
 },
@@ -1331,10 +1444,11 @@
     "addr:postcode": "44000",
     "addr:street": "Rue Général Buat",
     "amenity": "fast_food",
+    "bulk_purchase": "yes",
     "cuisine": "kebab",
     "name": "Oudaîa",
     "opening_hours:signed": "no",
-    "source": "J'aime tes bocaux",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "takeaway": "yes"
   }
 },
@@ -1348,9 +1462,10 @@
     "addr:housenumber": "118",
     "addr:postcode": "44000",
     "addr:street": "Rue Général Buat",
+    "bulk_purchase": "yes",
     "name": "Boulangerie Rullier Patrice",
     "shop": "bakery",
-    "source": "J'aime tes bocaux",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "wheelchair": "no"
   }
 },
@@ -1364,12 +1479,14 @@
     "addr:housenumber": "21",
     "addr:postcode": "44000",
     "addr:street": "Rue Racine",
+    "bulk_purchase": "yes",
     "name": "Du Vert en Ville",
     "opening_hours": "Tu-Sa 10:00-19:00",
     "organic": "only",
     "phone": "+33 2 40 75 24 42",
     "shop": "convenience",
     "source": "J'aime tes bocaux",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "survey:date": "2018-10-30",
     "wheelchair": "yes"
   }
@@ -1385,12 +1502,14 @@
     "addr:postcode": "44000",
     "addr:street": "Boulevard de Stalingrad",
     "amenity": "restaurant",
+    "bulk_purchase": "yes",
     "cuisine": "african",
     "email": "contact@domoro.fr",
     "name": "Domoro",
     "opening_hours": "Mo-Sa 12:00-14:00,19:00-23:00; Fr,Su 19:00-23:00",
     "phone": "+ 33 2 85 37 05 94",
     "source": "survey",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "survey:date": "2019-06-10",
     "takeaway": "yes",
     "website": "http://domoro.fr/",
@@ -1407,11 +1526,13 @@
     "addr:housenumber": "4",
     "addr:postcode": "44000",
     "addr:street": "Rue de l'Arche Sèche",
+    "bulk_purchase": "yes",
     "email": "delavallee@live.com",
     "name": "Théine",
     "opening_hours": "Mo 14:00-19:00; Tu-Sa 10:30-19:00",
     "phone": "+33 6 47 43 92 42",
     "shop": "tea",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "survey:date": "2018-12-09",
     "website": "https://ilovetheine.fr",
     "wheelchair": "limited"
@@ -1427,9 +1548,11 @@
     "addr:housenumber": "6",
     "addr:postcode": "44000",
     "addr:street": "Rue Guépin",
+    "bulk_purchase": "yes",
     "name": "Le Comptoir NanTHE du CAFE",
     "opening_hours": "We-Fr 10:30-14:00,15:00-19:00; Mo 12:00-17:00; Tu 12:00-19:00; Sa 10:00-19:00",
-    "shop": "coffee"
+    "shop": "coffee",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux"
   }
 },
 {
@@ -1442,10 +1565,12 @@
     "addr:housenumber": "2",
     "addr:postcode": "44000",
     "addr:street": "Rue Franklin",
+    "bulk_purchase": "yes",
     "name": "ThéÔphil",
     "opening_hours": "Tu-Sa 10:00-13:00,14:00-19:00",
     "phone": "+33 2 40 73 97 93",
     "shop": "tea",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "survey:date": "2018-10-30",
     "wheelchair": "limited"
   }
@@ -1460,8 +1585,10 @@
     "addr:housenumber": "24",
     "addr:postcode": "44800",
     "addr:street": "Rue Pierre Blard",
+    "bulk_purchase": "yes",
     "name": "L'Épi d'Ange",
-    "shop": "bakery"
+    "shop": "bakery",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux"
   }
 },
 {
@@ -1474,8 +1601,10 @@
     "addr:housenumber": "21",
     "addr:postcode": "44800",
     "addr:street": "Place de la Paix",
+    "bulk_purchase": "yes",
     "name": "Poissonnerie des Arcades",
-    "shop": "seafood"
+    "shop": "seafood",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux"
   }
 },
 {
@@ -1489,8 +1618,10 @@
     "addr:postcode": "44610",
     "addr:street": "Rue Albert Thomas",
     "amenity": "restaurant",
+    "bulk_purchase": "yes",
     "cuisine": "french",
-    "name": "Le Ver Luisant"
+    "name": "Le Ver Luisant",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux"
   }
 },
 {
@@ -1516,8 +1647,10 @@
     "addr:postcode": "44000",
     "addr:street": "Allée des Tanneurs",
     "amenity": "restaurant",
+    "bulk_purchase": "yes",
     "name": "Mon Bento",
-    "opening_hours:signed": "no"
+    "opening_hours:signed": "no",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux"
   }
 },
 {
@@ -1531,9 +1664,11 @@
     "addr:postcode": "44000",
     "addr:street": "Allée des Tanneurs",
     "amenity": "fast_food",
+    "bulk_purchase": "yes",
     "diet:vegan": "yes",
     "diet:vegetarian": "yes",
-    "name": "Restaurant VF"
+    "name": "Restaurant VF",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux"
   }
 },
 {
@@ -1546,9 +1681,11 @@
     "addr:housenumber": "3",
     "addr:postcode": "44720",
     "addr:street": "Rue Laënnec",
+    "bulk_purchase": "yes",
     "facebook": "https://www.facebook.com/Les-potes-au-Roz-La-LocoMotive-1166445600147694/",
     "name": "La LocoMotive",
-    "shop": "convenience"
+    "shop": "convenience",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux"
   }
 },
 {
@@ -1560,8 +1697,10 @@
     "addr:city": "Couëron",
     "addr:postcode": "44220",
     "addr:street": "L'Angle",
+    "bulk_purchase": "yes",
     "name": "Ferme des Oeufs au Lait",
-    "shop": "farm"
+    "shop": "farm",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux"
   }
 },
 {
@@ -1584,6 +1723,7 @@
   "lon": -1.5551702,
   "tags": {
     "amenity": "cafe",
+    "bulk_purchase": "yes",
     "contact:instagram": "https://www.instagram.com/petit_b_cafe_librairie/",
     "contact:phone": "+33 9 52 13 85 30",
     "cuisine": "french;local",
@@ -1595,6 +1735,7 @@
     "fixme": "Horaires à vérifier sur place",
     "name": "petit b.",
     "opening_hours": "Tu-Sa 12:00-18:30",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "survey:date": "2019-01-03",
     "takeaway": "yes",
     "url": "https://www.petitscommerces.fr/page/petitb/"
@@ -1614,6 +1755,7 @@
     "name": "Le Verre Doseur",
     "organic": "yes",
     "shop": "convenience",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "website": "https://leverredoseur.fr/"
   }
 },
@@ -1624,6 +1766,7 @@
   "lon": -1.5547156,
   "tags": {
     "amenity": "restaurant",
+    "bulk_purchase": "yes",
     "contact:facebook": "https://www.facebook.com/monrestobio",
     "contact:website": "http://atable-naturellement.fr",
     "diet:vegetarian": "yes",
@@ -1632,6 +1775,7 @@
     "opening_hours": "Mo-Th 11:30-18:30; Fr 11:30-17:30; Sa 11:00-15:00",
     "organic": "only",
     "outdoor_seating": "yes",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "survey:date": "2018-12-09",
     "takeaway": "yes"
   }
@@ -1642,8 +1786,10 @@
   "lat": 47.2810384,
   "lon": -2.2149858,
   "tags": {
+    "bulk_purchase": "yes",
     "name": "Les Halles Paysannes",
     "shop": "farm",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "website": "http://www.terroirs44.org/les-halles-paysannes/"
   }
 },
@@ -1653,9 +1799,11 @@
   "lat": 47.1846442,
   "lon": -1.5469085,
   "tags": {
+    "bulk_purchase": "yes",
     "facebook": "https://www.facebook.com/La-Fromagerie-SAINT-PAUL-442537955887586/",
     "name": "La Fromagerie Saint Paul",
-    "shop": "cheese"
+    "shop": "cheese",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux"
   }
 },
 {
@@ -1664,8 +1812,10 @@
   "lat": 47.2507966,
   "lon": -1.4834407,
   "tags": {
+    "bulk_purchase": "yes",
     "name": "Co'Thé Gourmand",
-    "shop": "tea"
+    "shop": "tea",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux"
   }
 },
 {
@@ -1674,11 +1824,13 @@
   "lat": 47.2139971,
   "lon": -1.5529087,
   "tags": {
+    "bulk_purchase": "yes",
     "name": "Borea",
     "opening_hours": "06:00-20:30",
     "pastry_shop": "yes",
     "shop": "bakery",
     "source": "survey",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "survey:date": "2018-10-24",
     "website": "http://www.boulangerie-borea.com/",
     "wheelchair": "yes"
@@ -1702,6 +1854,7 @@
     "opening_hours": "Mo-Sa 09:30-19:30",
     "organic": "only",
     "shop": "supermarket",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "survey:date": "2018-09-26",
     "website": "https://www.biocoop.fr/",
     "wheelchair": "yes"
@@ -1716,10 +1869,12 @@
     "addr:housenumber": "7",
     "addr:street": "Rue des Halles",
     "amenity": "cafe",
+    "bulk_purchase": "yes",
     "contact:facebook": "https://www.facebook.com/combicafe.nantes/",
     "contact:instagram": "https://www.instagram.com/combicafe.nantes/",
     "name": "Combi",
     "outdoor_seating": "yes",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "survey:date": "2019-07-28",
     "wheelchair": "yes"
   }
@@ -1738,6 +1893,7 @@
     "name": "CasaVrac",
     "organic": "yes",
     "shop": "convenience",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "website": "https://www.casavrac.fr/"
   }
 },
@@ -1747,8 +1903,10 @@
   "lat": 47.4705170,
   "lon": -1.4918318,
   "tags": {
+    "bulk_purchase": "yes",
     "name": "Ferme de l'Arcade",
-    "shop": "farm"
+    "shop": "farm",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux"
   }
 },
 {
@@ -1757,10 +1915,12 @@
   "lat": 47.2283798,
   "lon": -1.5325506,
   "tags": {
+    "bulk_purchase": "yes",
     "name": "Aux Délices d'Ambre",
     "note": "Tu-Fr 0630 1930 Sa 0700 1930 Su 0700 1330",
     "pastry_shop": "yes",
     "shop": "bakery",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "wheelchair": "no"
   }
 },
@@ -1770,9 +1930,11 @@
   "lat": 47.2171611,
   "lon": -1.5599198,
   "tags": {
+    "bulk_purchase": "yes",
     "contact:facebook": "https://www.facebook.com/esthete.nantes/",
     "name": "Esthète",
-    "shop": "pastry"
+    "shop": "pastry",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux"
   }
 },
 {
@@ -1783,11 +1945,13 @@
   "tags": {
     "addr:housenumber": "14",
     "addr:street": "Rue Franklin",
+    "bulk_purchase": "yes",
     "contact:facebook": "https://www.facebook.com/LESOUT.Nantes/",
     "email": "boulangeriefranklin@orange.fr",
     "name": "Lesout",
     "phone": "+33 2 40 48 78 84",
     "shop": "bakery",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "survey:date": "2018-10-28",
     "website": "https://lesout.wixsite.com/lesout",
     "wheelchair": "yes"
@@ -1810,7 +1974,8 @@
     "name": "Dose de Sens",
     "opening_hours": "Mo-Fr 10:00-19:00",
     "organic": "only",
-    "shop": "convenience"
+    "shop": "convenience",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux"
   }
 },
 {
@@ -1820,6 +1985,7 @@
   "lon": -1.5632783,
   "tags": {
     "amenity": "restaurant",
+    "bulk_purchase": "yes",
     "cuisine": "teahouse",
     "diaper": "yes",
     "drink:wine": "yes",
@@ -1829,6 +1995,7 @@
     "opening_hours": "Mo-Sa 10:30-19:30",
     "phone": "+33 9 61 69 50 17",
     "shop": "deli",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "survey:date": "2018-10-31",
     "website": "https://mangi.business.site",
     "wheelchair": "no"
@@ -1841,6 +2008,7 @@
   "lon": -1.5550578,
   "tags": {
     "amenity": "restaurant",
+    "bulk_purchase": "yes",
     "contact:city": "Nantes",
     "contact:country": "FR",
     "contact:facebook": "https://www.facebook.com/greenaddict.bio/",
@@ -1856,6 +2024,7 @@
     "opening_hours": "Mo 12:15-14:30; Tu-Sa 10:30-17:30",
     "organic": "yes",
     "source": "survey",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "survey:date": "2019-02-24",
     "takeaway": "yes",
     "website": "https://greenaddict.bio",
@@ -1871,9 +2040,11 @@
     "addr:housenumber": "7",
     "addr:postcode": "44130",
     "addr:street": "Rue de Nantes",
+    "bulk_purchase": "yes",
     "contact:facebook": "https://www.facebook.com/O-Mille-Caprices-338041810299865/",
     "name": "O Mille Caprices",
-    "shop": "bakery"
+    "shop": "bakery",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux"
   }
 },
 {
@@ -1892,7 +2063,8 @@
     "opening_hours": "Tu-Fr 10:00-14:00, 15:30-19:30; Sa 10:00-19:00",
     "organic": "yes",
     "phone": "+33 675073283",
-    "shop": "convenience"
+    "shop": "convenience",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux"
   }
 },
 {
@@ -1904,6 +2076,7 @@
     "addr:housenumber": "4",
     "addr:street": "Rue Copernic",
     "amenity": "cafe",
+    "bulk_purchase": "yes",
     "contact:facebook": "https://www.facebook.com/GouttedOrNantes",
     "contact:website": "https://gouttedornantes.fr",
     "email": "gouttedornantes@gmail.com",
@@ -1911,6 +2084,7 @@
     "opening_hours": "Tu-Fr 11:30-18:30; Sa 11:30-19:00; Su[1,3] 11:00-15:00",
     "organic": "yes",
     "phone": "+33 9 86 26 80 89",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "survey:date": "2019-02-20",
     "takeaway": "yes"
   }
@@ -1922,12 +2096,14 @@
   "lon": -1.5537363,
   "tags": {
     "amenity": "cafe",
+    "bulk_purchase": "yes",
     "contact:email": "hello@kinfolk.fr",
     "cuisine": "coffee_shop",
     "email": "hello@kinfolk.fr",
     "name": "Kinfolk",
-    "opening_hours": "Mo-Fr 09:30-19:00; Sa 11:00-15:00; Su off; ",
+    "opening_hours": "Mo-Fr 09:30-19:00; Sa 11:00-15:00; Su off;",
     "phone": "+33 9 71471265",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "was:amenity": "cafe",
     "was:name": "Kinfolk",
     "website": "https://www.kinfolk.fr/"
@@ -1941,9 +2117,11 @@
   "tags": {
     "addr:housenumber": "2",
     "addr:street": "Rue Copernic",
+    "bulk_purchase": "yes",
     "contact:facebook": "https://www.facebook.com/OpsonNantes",
     "name": "Opson",
     "shop": "convenience",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "survey:date": "2019-02-20",
     "website": "https://www.opson.fr",
     "wheelchair": "yes"
@@ -1957,8 +2135,10 @@
   "tags": {
     "addr:housenumber": "4",
     "amenity": "cafe",
+    "bulk_purchase": "yes",
     "contact:facebook": "https://www.facebook.com/MelbourneCoffeeNantes/",
     "name": "Melbourne Coffee",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "website": "https://melbournecoffee.fr"
   }
 },
@@ -1970,9 +2150,11 @@
   "tags": {
     "addr:housenumber": "2",
     "addr:street": "Rue du Maréchal de Lattre de Tassigny",
+    "bulk_purchase": "yes",
     "contact:facebook": "https://www.facebook.com/mesboucheesdouces/",
     "craft": "caterer",
-    "name": "Bouchées Douces"
+    "name": "Bouchées Douces",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux"
   }
 },
 {
@@ -1984,8 +2166,10 @@
     "addr:housenumber": "10",
     "addr:street": "Rue Crucy",
     "amenity": "restaurant",
+    "bulk_purchase": "yes",
     "contact:facebook": "https://www.facebook.com/La-Cuill%C3%A8re-en-Coin-rue-Crucy-2011946099019304/",
-    "name": "La Cuillère en Coin"
+    "name": "La Cuillère en Coin",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux"
   }
 },
 {
@@ -2004,6 +2188,7 @@
     "opening_hours": "Tu-Sa 10:00-13:00,15:00-19:30",
     "organic": "yes",
     "shop": "convenience",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "website": "http://chezlavoisine.bio/"
   }
 },
@@ -2014,6 +2199,7 @@
   "lon": -1.5562355,
   "tags": {
     "amenity": "restaurant",
+    "bulk_purchase": "yes",
     "contact:city": "Nantes",
     "contact:facebook": "https://www.facebook.com/ethiquete/",
     "contact:housenumber": "14",
@@ -2027,6 +2213,7 @@
     "name": "L’Éthiquête",
     "opening_hours": "Mo-Fr 12:00-15:00; Sa 11:00-16:00",
     "outdoor_seating": "yes",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "survey:date": "2019-06-11"
   }
 },
@@ -2039,9 +2226,11 @@
     "addr:housenumber": "10",
     "addr:postcode": "44115",
     "addr:street": "Rue Pasteur",
+    "bulk_purchase": "yes",
     "contact:facebook": "https://www.facebook.com/Les-Gourmandises-de-Goulaine-812482498932257/",
     "name": "Les Gourmandises de Goulaine",
-    "shop": "deli"
+    "shop": "deli",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux"
   }
 },
 {
@@ -2059,6 +2248,7 @@
     "name": "Bio'Zitive",
     "organic": "only",
     "shop": "supermarket",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "website": "https://www.biomonde.fr/bio-zitive,3,311"
   }
 },
@@ -2070,9 +2260,11 @@
   "tags": {
     "addr:housenumber": "2",
     "addr:street": "Rue du Maréchal de Lattre de Tassigny",
+    "bulk_purchase": "yes",
     "contact:facebook": "https://www.facebook.com/Boucherie-Esnault-Lelou-506018089907303/",
     "name": "Boucherie Esnault Lelou",
-    "shop": "butcher"
+    "shop": "butcher",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux"
   }
 },
 {
@@ -2081,9 +2273,11 @@
   "lat": 47.2228873,
   "lon": -1.5458052,
   "tags": {
+    "bulk_purchase": "yes",
     "name": "Miam",
     "shop": "convenience",
-    "source": "survey"
+    "source": "survey",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux"
   }
 },
 {
@@ -2092,9 +2286,11 @@
   "lat": 47.2069138,
   "lon": -1.5632728,
   "tags": {
+    "bulk_purchase": "yes",
     "name": "La maison",
     "opening_hours": "Tu-Fr 08:30-19:30; Sa-Su 10:00-15:00",
-    "shop": "bakery"
+    "shop": "bakery",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux"
   }
 },
 {
@@ -2107,9 +2303,11 @@
     "addr:housenumber": "104",
     "addr:postcode": "44720",
     "addr:street": "Rue Joliot Curie",
+    "bulk_purchase": "yes",
     "contact:facebook": "https://www.facebook.com/nathaliebostffocher/",
     "name": "Boucherie La Renommée",
-    "shop": "butcher"
+    "shop": "butcher",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux"
   }
 },
 {
@@ -2152,6 +2350,7 @@
     "organic": "only",
     "shop": "supermarket",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+    "source:bulk_purchase": "Collectif J'aime tes bocaux",
     "website": "http://www.chlorophylle-coop.com/"
   }
 },
