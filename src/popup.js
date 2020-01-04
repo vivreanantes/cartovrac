@@ -37,10 +37,8 @@ export function getHtmlFormattedShopTitle(category, organicTag, bulk_purchaseTag
     // Add different suffix depending if it's a shop selling some bulk products or mainly bulk products
     if (category.addBulkSuffix) {
 	    if (bulk_purchaseTag == "only") {
-	        title += ' 100% vrac';
-	    } else if (bulk_purchaseTag == "yes"){
-	        title += ' avec rayon vrac';
-	    } else {
+	        title += ' utilisant uniquement des contenants réutilisables';
+	    } else if (bulk_purchaseTag == "yes") {
 	        title += ' acceptant vos contenants';
 	    }
 	}
