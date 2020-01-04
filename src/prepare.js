@@ -1,8 +1,6 @@
 const fs = require('fs');
 
 simplifyDataStructure('cache_bulk_data');
-simplifyDataStructure('cache_cyclad_data');
-simplifyDataStructure('cache_jtb_data');
 
 function simplifyDataStructure(fileName) {
 	fs.readFile(fileName+'.json', 'utf8', (err, jsonString) => {
@@ -61,6 +59,9 @@ function simplifyDataStructure(fileName) {
 			addIfNotNull(simplifiedElement, 'operator_type', elementTags['operator:type'])
 			addIfNotNull(simplifiedElement, 'name', elementTags['name'])
 			addIfNotNull(simplifiedElement, 'drive_through', elementTags['drive_through'])
+
+			// Add partners information
+			addIfNotNull(simplifiedElement, 'source:bulk_purchase', elementTags['source:bulk_purchase'])
 			
 			// Add simplified element to new JSON
 			simplifiedJson.push(simplifiedElement);

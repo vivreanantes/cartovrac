@@ -1,5 +1,5 @@
 import {newMap, addMarkerToMap} from './map.js';
-import {categories, cacheBulkJson, cacheJtbJson, cacheCycladJson, itinerantJson} from './data.js';
+import {categories, partners, cacheBulkJson, cacheJtbJson, cacheCycladJson, itinerantJson} from './data.js';
 import {getPopupContent, getHtmlFormattedShopTitle} from './popup.js';
 
 // Leaflet icons for the different types of shop
@@ -27,8 +27,6 @@ export function createMapAndPopulate(divId, mapConfig) {
 
 	// populate
 	populateBulkShops(cacheBulkJson);
-	populateJtbShops(cacheJtbJson);
-	populateCycladShops(cacheCycladJson);
 	populateItinerantShops(itinerantJson.elements);
 
 	if (mapConfig.osmId != null && mapConfig.osmType != null) {
@@ -120,77 +118,9 @@ function populateItinerantShops(itinerantShopsJson) {
 			popup += place_name+'<br />';
 		    popup += '<a href="' + url + '" target="_blank" rel="noopener">Site web avec les horaires de présence</a><br />';
 
-		    if (name == "Vrac'n Roule'") {
-		    	popup += JTB_HTML_BANNER;
-			}
-
 			// Check that popup has been correctly created
 			addMarkerToMap(category, popup, latitude, longitude, null);
 		}
-	}
-}
-
-var JTB_HTML_BANNER = '<hr style="padding-bottom: ;padding-bottom: 0px;" size="1"><a href="https://www.facebook.com/jaimetesbocaux/" target="_blank" rel="noopener"><div style="display: flex;"><img style="height: 50px;" src="'+require("../assets/img/jtb.webp")+'"/><div style="margin: auto; font-weight: bold;">Partenaire <br />J\'aime tes bocaux</div></div></a>';
-
-/**
- * Display the bulk shops
- **/
-export function populateJtbShops(json) {
-	for (var shopIndex in json) {
-		var element = json[shopIndex]
-    	var type = getType(element);
-    	var category = categories[type];
-
-		// Create popup content depending on element's tags
-		var popup = getBasePopupFromElement(element, type, category);
-		if (!popup) {
-			continue;
-		}
-
-		// Add partner banner
-		popup += JTB_HTML_BANNER;
-
-		// If the partner is a bulk purchase shop, check that it's not already on map and replace it
-		var relatedBulkMarker = getMarker(bulkMarkerArray, element.id);
-		if (relatedBulkMarker) {
-			category.subgroup.removeLayer(relatedBulkMarker);
-		}
-
-		// Check that popup has been correctly created
-		var marker = addMarkerToMap(category, popup, element.lat, element.lon, element.id);
-		bulkMarkerArray.push(marker);
-	}
-}
-
-var CYCLAD_HTML_BANNER = '<hr style="padding-bottom: ;padding-bottom: 0px;" size="1"><a href="http://www.cyclad.org/page.php?P=147#" target="_blank" rel="noopener"><div style="display: flex;"><img style="height: 50px; margin-right: 5px;" src="'+require("../assets/img/cyclad.webp")+'"/><div style="margin: auto; font-weight: bold;">Partenaire <br />Syndicat Mixte Cyclad</div></div></a>';
-
-/**
- * Display the bulk shops
- **/
-export function populateCycladShops(json) {
-	for (var shopIndex in json) {
-		var element = json[shopIndex]
-    	var type = getType(element);
-    	var category = categories[type];
-
-		// Create popup content depending on element's tags
-		var popup = getBasePopupFromElement(element, type, category);
-		if (!popup) {
-			continue;
-		}
-
-		// Add partner banner
-		popup += CYCLAD_HTML_BANNER;
-
-		// If the partner is a bulk purchase shop, check that it's not already on map and replace it
-		var relatedBulkMarker = getMarker(bulkMarkerArray, element.id);
-		if (relatedBulkMarker) {
-			category.subgroup.removeLayer(relatedBulkMarker);
-		}
-
-		// Check that popup has been correctly created
-		var marker = addMarkerToMap(category, popup, element.lat, element.lon, element.id);
-		bulkMarkerArray.push(marker);
 	}
 }
 
@@ -205,12 +135,19 @@ function populateBulkShops(json) {
 
 		// Create popup content depending on element's tags
 		var popup = getBasePopupFromElement(element, type, category);
-
-		// Check that popup has been correctly created
-		if (popup) {
-			var marker = addMarkerToMap(category, popup, element.lat, element.lon, element.id);
-			bulkMarkerArray.push(marker);
+		if (!popup) {
+			continue;
 		}
+
+		// Add partner banner
+		var partner = partners[element["source:bulk_purchase"]];
+		if (partner) {
+			popup += '<hr style="padding-bottom: ;padding-bottom: 0px;" size="1"><a href="'+partner.link+'" target="_blank" rel="noopener"><div style="display: flex;"><img style="height: 50px; margin-right: 5px;" src="'+partner.icon+'"/><div style="margin: auto; font-weight: bold;">Partenaire <br />'+partner.name+'</div></div></a>';
+		}
+
+		// Add popup on a marker
+		var marker = addMarkerToMap(category, popup, element.lat, element.lon, element.id);
+		bulkMarkerArray.push(marker);
 	}
 }
 

@@ -39,9 +39,7 @@ module.exports = {
       {
         onBuildStart: {
           scripts: [
-             './data/bulk/refreshCacheBulk.sh',  
-             './data/partners/jtb/refreshCacheJTB.sh', 
-             './data/partners/cyclad/refreshCacheCyclad.sh',
+             './data/refreshCacheBulk.sh',  
              'node src/prepare.js'
           ],
           blocking: true,
