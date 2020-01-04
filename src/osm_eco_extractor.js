@@ -130,7 +130,7 @@ function populateItinerantShops(itinerantShopsJson) {
 	}
 }
 
-var JTB_HTML_BANNER = '<hr style="padding-bottom: ;padding-bottom: 0px;" size="1"><div style="display: flex;"><img style="height: 50px;" src="'+require("../assets/img/jtb.png")+'"/><div style="margin: auto; font-weight: bold;">Partenaire <br />J\'aime tes bocaux</div></div>';
+var JTB_HTML_BANNER = '<hr style="padding-bottom: ;padding-bottom: 0px;" size="1"><div style="display: flex;"><img style="height: 50px;" src="'+require("../assets/img/jtb.webp")+'"/><div style="margin: auto; font-weight: bold;">Partenaire <br />J\'aime tes bocaux</div></div>';
 
 /**
  * Display the bulk shops
@@ -162,7 +162,7 @@ export function populateJtbShops(json) {
 	}
 }
 
-var CYCLAD_HTML_BANNER = '<hr style="padding-bottom: ;padding-bottom: 0px;" size="1"><div style="display: flex;"><img style="height: 50px;" src="'+require("../assets/img/cyclad.png")+'"/><div style="margin: auto; font-weight: bold;">Partenaire <br />Syndicat Mixte Cyclad</div></div>';
+var CYCLAD_HTML_BANNER = '<hr style="padding-bottom: ;padding-bottom: 0px;" size="1"><div style="display: flex;"><img style="height: 50px;" src="'+require("../assets/img/cyclad.webp")+'"/><div style="margin: auto; font-weight: bold;">Partenaire <br />Syndicat Mixte Cyclad</div></div>';
 
 /**
  * Display the bulk shops
