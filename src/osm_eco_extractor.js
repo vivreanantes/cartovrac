@@ -118,7 +118,7 @@ function populateItinerantShops(itinerantShopsJson) {
 			popup += getHtmlFormattedShopTitle(category, organic, bulk_purchase);
 			popup += '<hr style="padding-bottom: ;padding-bottom: 0px;" size="1">';
 			popup += place_name+'<br />';
-		    popup += '<a href="' + url + '" target="_blank">Site web avec les horaires de présence</a><br />';
+		    popup += '<a href="' + url + '" target="_blank" rel="noopener">Site web avec les horaires de présence</a><br />';
 
 		    if (name == "Vrac'n Roule'") {
 		    	popup += JTB_HTML_BANNER;
@@ -130,7 +130,7 @@ function populateItinerantShops(itinerantShopsJson) {
 	}
 }
 
-var JTB_HTML_BANNER = '<hr style="padding-bottom: ;padding-bottom: 0px;" size="1"><div style="display: flex;"><img style="height: 50px;" src="'+require("../assets/img/jtb.webp")+'"/><div style="margin: auto; font-weight: bold;">Partenaire <br />J\'aime tes bocaux</div></div>';
+var JTB_HTML_BANNER = '<hr style="padding-bottom: ;padding-bottom: 0px;" size="1"><a href="https://www.facebook.com/jaimetesbocaux/" target="_blank" rel="noopener"><div style="display: flex;"><img style="height: 50px;" src="'+require("../assets/img/jtb.webp")+'"/><div style="margin: auto; font-weight: bold;">Partenaire <br />J\'aime tes bocaux</div></div></a>';
 
 /**
  * Display the bulk shops
@@ -162,7 +162,7 @@ export function populateJtbShops(json) {
 	}
 }
 
-var CYCLAD_HTML_BANNER = '<hr style="padding-bottom: ;padding-bottom: 0px;" size="1"><div style="display: flex;"><img style="height: 50px;" src="'+require("../assets/img/cyclad.webp")+'"/><div style="margin: auto; font-weight: bold;">Partenaire <br />Syndicat Mixte Cyclad</div></div>';
+var CYCLAD_HTML_BANNER = '<hr style="padding-bottom: ;padding-bottom: 0px;" size="1"><a href="http://www.cyclad.org/page.php?P=147#" target="_blank" rel="noopener"><div style="display: flex;"><img style="height: 50px; margin-right: 5px;" src="'+require("../assets/img/cyclad.webp")+'"/><div style="margin: auto; font-weight: bold;">Partenaire <br />Syndicat Mixte Cyclad</div></div></a>';
 
 /**
  * Display the bulk shops
