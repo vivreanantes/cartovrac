@@ -37,9 +37,9 @@ module.exports = {
       {
         onBuildStart: {
           scripts: [
-             // './data/refreshCacheBulk.sh',  
-             // 'node src/prepare.js',
-             // 'cp ./data/itinerant.json ./dist/itinerant.json'
+             './data/refreshCacheBulk.sh',  
+             'node src/prepare.js',
+             'cp ./data/itinerant.json ./dist/itinerant.json'
           ],
           blocking: true,
           parallel: false
