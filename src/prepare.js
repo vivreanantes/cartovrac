@@ -69,7 +69,7 @@ function simplifyDataStructure(fileName) {
 
 	  var newJsonString = JSON.stringify(simplifiedJson); 
 
-	    fs.writeFile(fileName+'_simplified.json', newJsonString, err => {
+	    fs.writeFile('dist/'+fileName+'_simplified.json', newJsonString, err => {
 	    if (err) {
 	        console.log('Error writing file', err)
 	    } else {

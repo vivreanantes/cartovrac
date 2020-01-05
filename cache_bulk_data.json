@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.55.1009 5e627b63",
   "osm3s": {
-    "timestamp_osm_base": "2020-01-04T16:18:02Z",
-    "timestamp_areas_base": "2020-01-04T14:57:01Z",
+    "timestamp_osm_base": "2020-01-05T18:17:02Z",
+    "timestamp_areas_base": "2020-01-05T17:46:03Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -321,20 +321,23 @@
   "lat": 48.8437369,
   "lon": 2.3894677,
   "tags": {
-    "addr:city": "Paris",
-    "addr:housenumber": "47",
-    "addr:postcode": "75012",
-    "addr:street": "Rue Jacques Hillairet",
     "brand": "Biocoop",
     "brand:wikidata": "Q2904039",
     "brand:wikipedia": "fr:Biocoop",
     "bulk_purchase": "yes",
+    "contact:city": "Paris",
+    "contact:housenumber": "47",
+    "contact:postcode": "75012",
+    "contact:street": "Rue Jacques Hillairet",
     "name": "Biocoop",
     "opening_hours": "Mo 15:30-20:00; Tu-Sa 10:00-20:00",
     "operator": "Biocoop",
     "organic": "only",
+    "phone": "+33 1 43 07 46 20",
+    "ref:FR:SIRET": "50241356000017",
     "shop": "supermarket",
-    "website": "https://www.biocoop.fr/magasins-bio/Trouver-mon-magasin-Biocoop/Ile-de-France/Paris/BIOCOOP-PARIS-12EME"
+    "source": "survey",
+    "website": "http://www.biocoopparis12.fr/"
   }
 },
 {
@@ -3907,6 +3910,32 @@
 },
 {
   "type": "node",
+  "id": 2378167430,
+  "lat": 49.4373522,
+  "lon": 1.1014119,
+  "tags": {
+    "addr:city": "Rouen",
+    "addr:postcode": "76000",
+    "addr:street": "Place Saint-Marc",
+    "brand:wikipedia": "fr:Intermarché",
+    "bulk_purchase": "yes",
+    "delivery": "yes",
+    "name": "Intermarché Hyper",
+    "opening_hours": "Mo-Fr 09:00-20:00; Sa 08:30-19:30",
+    "operator": "SA Saint-Marc Distribution",
+    "organic": "yes",
+    "payment:cash": "yes",
+    "payment:cheque": "yes",
+    "payment:credit_cards": "yes",
+    "phone": "+33 2 35 15 74 20",
+    "shop": "supermarket",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013",
+    "website": "https://www.intermarche.com/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
   "id": 2388638747,
   "lat": 45.1918388,
   "lon": 5.7285818,
@@ -7189,8 +7218,8 @@
 {
   "type": "node",
   "id": 3687472437,
-  "lat": 41.9129887,
-  "lon": 8.7247090,
+  "lat": 41.9130107,
+  "lon": 8.7247518,
   "tags": {
     "brand": "La Vie Claire",
     "brand:wikidata": "Q3213589",
@@ -7198,6 +7227,7 @@
     "bulk_purchase": "yes",
     "contact:facebook": "https://www.facebook.com/Lavieclaire",
     "name": "La Vie Claire",
+    "opening_hours": "Mo-Sa 08:30-19:30",
     "organic": "only",
     "shop": "convenience",
     "website": "https://www.lavieclaire.com/magasin-bio/albert.html"
@@ -12036,18 +12066,21 @@
 {
   "type": "node",
   "id": 4897473688,
-  "lat": 47.6478646,
-  "lon": -2.7068504,
+  "lat": 47.6478225,
+  "lon": -2.7068724,
   "tags": {
     "addr:city": "Theix-Noyalo",
     "addr:housenumber": "4",
     "addr:postcode": "56450",
     "addr:street": "Rue Jacques Cartier",
     "bulk_purchase": "yes",
-    "name": "Bio Golfe Theix",
+    "name": "Biocoop Bio Golfe",
+    "opening_hours": "Mo-Sa 09:30-19:00",
     "organic": "only",
+    "phone": "+33 2 97 47 09 44",
     "shop": "supermarket",
-    "website": "http://www.biogolfe.org/bio-golfe-theix/"
+    "website": "http://www.biogolfe.org/bio-golfe-theix/",
+    "wheelchair": "yes"
   }
 },
 {
@@ -13728,6 +13761,27 @@
     "shop": "supermarket",
     "start_date": "2017-11-29",
     "website": "https://www.les7epis.fr/"
+  }
+},
+{
+  "type": "node",
+  "id": 5256711097,
+  "lat": 48.8436546,
+  "lon": 2.2943978,
+  "tags": {
+    "addr:housenumber": "9-11",
+    "addr:street": "Rue Mademoiselle",
+    "brand": "Carrefour City",
+    "brand:wikidata": "Q2940187",
+    "brand:wikipedia": "fr:Carrefour City",
+    "bulk_purchase": "yes",
+    "name": "Carrefour City",
+    "opening_hours": "Mo-Sa 07:00-22:00; Su 09:00-13:00",
+    "operator": "Groupe Carrefour",
+    "operator:wikidata": "Q3117359",
+    "operator:wikipedia": "fr:Groupe Carrefour",
+    "organic": "only",
+    "shop": "supermarket"
   }
 },
 {
@@ -16012,8 +16066,8 @@
 {
   "type": "node",
   "id": 5594413334,
-  "lat": 48.3976453,
-  "lon": 2.4219522,
+  "lat": 48.3977193,
+  "lon": 2.4219410,
   "tags": {
     "brand": "Biocoop",
     "brand:wikidata": "Q2904039",
@@ -25297,6 +25351,25 @@
 },
 {
   "type": "node",
+  "id": 6485331850,
+  "lat": 43.1229887,
+  "lon": 5.9318186,
+  "tags": {
+    "addr:city": "Toulon",
+    "addr:housenumber": "36",
+    "addr:postcode": "83000",
+    "addr:street": "Rue de Pomet",
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/odysseeverteecoboutique/",
+    "name": "L'Odyssée Verte - Ecoboutique",
+    "organic": "only",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "shop": "chemist"
+  }
+},
+{
+  "type": "node",
   "id": 6487719633,
   "lat": 46.1251018,
   "lon": -0.6348614,
@@ -27976,6 +28049,106 @@
     "organic": "only",
     "shop": "convenience",
     "source:opening_hours": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 7107736592,
+  "lat": 48.7765617,
+  "lon": 2.1291267,
+  "tags": {
+    "bulk_purchase": "yes",
+    "contact:facebook": "https://www.facebook.com/locabio/",
+    "contact:website": "https://www.locabio.fr",
+    "name": "Locabio",
+    "organic": "only",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 7107736593,
+  "lat": 46.3724281,
+  "lon": 6.4804420,
+  "tags": {
+    "bulk_purchase": "only",
+    "contact:website": "https://www.mademoisellevrac.fr/",
+    "name": "Mademoiselle Vrac",
+    "organic": "yes",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 7108837833,
+  "lat": 48.8639215,
+  "lon": 1.4213815,
+  "tags": {
+    "addr:city": "Ezy-sur-Eure",
+    "addr:housenumber": "6",
+    "addr:postcode": "27530",
+    "addr:street": "Rue Isambard",
+    "bulk_purchase": "only",
+    "contact:facebook": "https://www.facebook.com/optitbocal27/",
+    "name": "O P'tit bocal",
+    "organic": "yes",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 7108915860,
+  "lat": 47.6805230,
+  "lon": -0.9680466,
+  "tags": {
+    "addr:city": "Segré-en-Anjou Bleu",
+    "addr:housenumber": "3",
+    "addr:postcode": "49520",
+    "addr:street": "Rue Paul Guienne",
+    "bulk_purchase": "yes",
+    "name": "Les toques de papa",
+    "organic": "yes",
+    "shop": "convenience",
+    "website": "https://www.lestoquesdepapa.fr/epicerie/segr%C3%A9"
+  }
+},
+{
+  "type": "node",
+  "id": 7108924916,
+  "lat": 47.4222618,
+  "lon": 6.0709734,
+  "tags": {
+    "addr:city": "Rioz",
+    "addr:housenumber": "86",
+    "addr:postcode": "70190",
+    "addr:street": "Rue Charles de Gaulle",
+    "bulk_purchase": "only",
+    "contact:facebook": "https://www.facebook.com/levracdeMelissa/",
+    "name": "Le vrac de Mélissa",
+    "organic": "only",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 7109551892,
+  "lat": 49.4453195,
+  "lon": 1.0870222,
+  "tags": {
+    "addr:city": "Rouen",
+    "addr:housenumber": "120",
+    "addr:postcode": "76000",
+    "addr:street": "Rue des Bons Enfants",
+    "bulk_purchase": "only",
+    "currency:EUR": "yes",
+    "name": "Contre-Poids",
+    "opening_hours": "Tu 10:00-19:30; We 10:00-19:00; Th 10:00-19:30; Sa 09:30-19:30; Su Tu 09:30-13:00",
+    "organic": "yes",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "shop": "deli",
+    "start_date": "2019-09",
+    "website": "https://epicerieozenne.wixsite.com/website"
   }
 },
 {
@@ -38483,6 +38656,42 @@
     "shop": "supermarket",
     "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2018",
     "website": "https://www.sobio.fr/magasin/pamiers"
+  }
+},
+{
+  "type": "way",
+  "id": 664168063,
+  "center": {
+    "lat": 46.6824737,
+    "lon": 5.5596285
+  },
+  "nodes": [
+    6216514584,
+    6216517285,
+    6216517286,
+    6216517287,
+    6216517288,
+    6216514584
+  ],
+  "tags": {
+    "addr:city": "Lons-le-Saunier",
+    "addr:housenumber": "450",
+    "addr:postcode": "39000",
+    "addr:street": "Route de Besançon",
+    "brand": "La Vie Claire",
+    "brand:wikidata": "Q3213589",
+    "brand:wikipedia": "fr:La Vie Claire",
+    "building": "yes",
+    "building:levels": "1",
+    "bulk_purchase": "yes",
+    "email": "lavieclairelons@gmail.com",
+    "fixme": "géométrie exacte à corriger au prochain import de cadastre",
+    "name": "La Vie Claire",
+    "operator": "SAS Christal (Christian Bossert)",
+    "organic": "only",
+    "phone": "+33 9 52 71 90 43",
+    "shop": "supermarket",
+    "website": "https://magasins.lavieclaire.com/lavieclaire/fr/boutique/france/bourgogne-franche-comte/jura/lons-le-saunier/magasin-bio-lons-le-saunier-ouverture-prochaine/la3779"
   }
 },
 {

@@ -20,7 +20,7 @@ module.exports = {
             use: [{
                 loader: 'url-loader',
                 options: { 
-                    limit: 8000, // Convert images < 8kb to base64 strings
+                    limit: 1000, // Convert images < 8kb to base64 strings
                     name: 'images/[hash]-[name].[ext]'
                 } 
             }]
@@ -40,7 +40,8 @@ module.exports = {
         onBuildStart: {
           scripts: [
              './data/refreshCacheBulk.sh',  
-             'node src/prepare.js'
+             'node src/prepare.js',
+             'cp ./data/itinerant.json ./dist/itinerant.json'
           ],
           blocking: true,
           parallel: false

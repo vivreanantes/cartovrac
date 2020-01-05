@@ -1,5 +1,5 @@
 import {newMap, addMarkerToMap} from './map.js';
-import {categories, partners, cacheBulkJson, cacheJtbJson, cacheCycladJson, itinerantJson} from './data.js';
+import {categories, partners, cacheBulkJsonPath, itinerantShopsJsonPath} from './data.js';
 import {getPopupContent, getHtmlFormattedShopTitle} from './popup.js';
 
 // Leaflet icons for the different types of shop
@@ -26,8 +26,13 @@ export function createMapAndPopulate(divId, mapConfig) {
 	prepareCaterogiesSubgroupsAndIcons(map);
 
 	// populate
-	populateBulkShops(cacheBulkJson);
-	populateItinerantShops(itinerantJson.elements);
+	$.getJSON(cacheBulkJsonPath, function(json) {
+    	populateBulkShops(json);
+	});
+
+	$.getJSON(itinerantShopsJsonPath, function(json) {
+    	populateItinerantShops(json.elements);
+	});
 
 	if (mapConfig.osmId != null && mapConfig.osmType != null) {
 		zoomOnBulkMarker(mapConfig.osmType+'/'+mapConfig.osmId);

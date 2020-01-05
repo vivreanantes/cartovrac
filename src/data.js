@@ -33,5 +33,5 @@ export var partners = {
   "Syndicat Mixte Cyclad": { link: "http://www.cyclad.org/page.php?P=147#", icon: require("../assets/img/cyclad.webp"), name: "Syndicat Mixte Cyclad"}
 }
 
-export var cacheBulkJson = require("../cache_bulk_data_simplified.json");
-export var itinerantJson = require("../data/itinerant.json");
+export var cacheBulkJsonPath = "cache_bulk_data_simplified.json";
+export var itinerantShopsJsonPath = "itinerant.json";
