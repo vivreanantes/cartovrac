@@ -4,15 +4,14 @@
 		<meta name="viewport" content="width=device-width,initial-scale=1">
 
 		<title>Ateliers de co_réparation de France</title>
-		<meta name=”description”
-		content="Carte des ateliers de co-réparation de Loire-Atlantique." />
-		<meta name=”keywords” content="nantes, vrac, emballages, zéro déchets, magasin vrac, magasin zéro déchet" />
-		<meta property="og:title" content="Réparation" />
-		<meta property="og:site_name" content="Ateliers de co-réparation de Loire-Atlantique" />
+		<meta name="description" content="Ateliers de co-réparation de France : carte et calendrier basés sur OpenStreetMap." />
+		<meta name="keywords" content="nantes, vrac, emballages, zéro déchets, magasin vrac, magasin zéro déchet" />
+		<meta property="og:title" content="CoReparation.fr" />
+		<meta property="og:site_name" content="Ateliers de co-réparation de France : carte et calendrier basés sur OpenStreetMap" />
 		<meta property="og:type" content="website" />
 		<meta property="og:url" content="http://www.coreparation.fr" />
 		<meta property="og:image" content="logo-carte.png" />
-		<meta property="og:description" content="Carte des ateliers de co-réparation de Loire-Atlantique."  />
+		<meta property="og:description" content="Ateliers de co-réparation de France : carte et calendrier basés sur OpenStreetMap"  />
 		<meta property="og:locale" content="fr_FR" />
 
 		<link rel="icon" type="image/png" href="logo.png" />
@@ -75,6 +74,9 @@
 						<a href="#projet" onclick="closeMenu()"><li>Projet</li></a>
 						<a href="#vert" onclick="closeMenu()"><li>Site vert et libre</li></a>
 						<a href="#contribuer" onclick="closeMenu()"><li>Contribuer</li></a>
+						<a href="#api" onclick="closeMenu()">
+							<li>API</li>
+						</a>
 						<a href="#contact" onclick="closeMenu()"><li>Contact</li></a>
 					</ul>
 				</div>
@@ -123,7 +125,8 @@
 		<p>
 			Il existe de nombreux ateliers de réparation collaboratifs. Il arrive parfois que des particuliers se rendent à un atelier de réparation distant, car il ne connaissait pas l'existence d'un lieu plus proche.<br/><br/>Les associations "Repair Café du Vignoble nantais" et "Mieux trier à Nantes" ont réalisés en 2017 pour Ecopole une liste des ateliers de réparation collaboratifs de Loire-Atlantique. Cette liste est open-data (réutilisable gratuitement et librement). Elle a été étendue ensuite pour la France entière.<br/><br/>
 			<b>Cette carte est la vôtre : vous pouvez la modifier par vous-même car les données sont stoquées sur OpenStreetMap</b> (le guide est <a href='https://mieuxtrieranantes.wordpress.com/2019/12/15/ajouter-modifier-ou-supprimer-un-atelier-sur-la-carte-coreparation-fr/' target=_new>ici</a>).<br/><br/>
-			Merci.</p>
+			Merci.<br/>
+		  L'équipe de Mieux trier à Nantes</p>
 		</p>
 		<a class="anchor" id="vert"></a>
 		<h2>Un site vert et libre</h2>
@@ -142,12 +145,21 @@
 			- <i>je ne suis pas très fort en informatique</i> : remplir le <a href='https://framaforms.org/ateliers-de-reparation-collaboratifs-1539567458' target=_new>formulaire</a><br/>
 			- <i>je suis moyen en informatique</i> : utiliser des formulaires pour saisir directement, via MapContrib. Le manuel est <a href='https://mieuxtrieranantes.wordpress.com/2019/12/16/avec-mapcontrib-ajouter-modifier-ou-supprimer-un-atelier-sur-la-carte-coreparation-fr/' target=_new>ici</a> .<br/>
 			- <i>je suis bon en informatique</i> : inscrire directement dans OpenStreetMap :
-			 	le manuel est <a href='https://mieuxtrieranantes.wordpress.com/2019/12/15/ajouter-modifier-ou-supprimer-un-atelier-sur-la-carte-coreparation-fr/' target=_new>ici</a>.
+			 	le manuel est <a href='https://mieuxtrieranantes.wordpress.com/2019/12/15/ajouter-modifier-ou-supprimer-un-atelier-sur-la-carte-coreparation-fr/' target=_new>ici</a>
+		 </p>.
 		</p>
 		<h3>Ils ont contibué en donnant leurs données :</h3>
-		<p>- Carte des <a href='https://rc-29.gogocarto.fr/annuaire#/carte/@48.07,-4.19,9z?cat=all' target=_new>Repair Café du Finistère</a>
+		<p>- Carte des <a href='https://www.repair-cafe-iroise.fr/home/les-repair-cafe-du-finistere/' target=_new>Repair Café du Finistère</a><br/>
+			- Association des Repairs Café de Strasbourg
 		</p>
 
+						<a class="anchor" id="api"></a>
+						<h2>API</h2>
+							<p>
+						- La requête overpass pour récupérer les données <a href='http://overpass-api.de/api/interpreter?data=[out:json];(area[%22ISO3166-1%22=%22FR%22];)-%3E.searchArea;(node[%22repair%22=%22assisted_self_service%22](area.searchArea););out;' target=_new>http://overpass-api.de/api/interpreter?data=[out:json];(area["ISO3166-1"="FR"];)->.searchArea;(node["repair"="assisted_self_service"](area.searchArea););out;</a>.<br />
+						- Les données actuellement utilisées : <a href="http://www.coreparation.fr/cache_data.json" target=_new>cache_data.json</a><br/><br/>
+						Les tags OpenStreetMap utilisés : 'name', 'charity', 'contact:housenumber', 'housenumber', 'contact:street', 'street', 'contact:postcode', 'postcode', 'contact:city', 'city', 'opening_hours',  'contact:email', 'email', 'contact:facebook', 'facebook', 'contact:phone', 'phone', 'contact:website', 'website', 'description', 'image', 'mapillary', 'brand', 'operator', <b>'service:fabrik:repair', 'service:bicycle:repair', 'service:camera:repair', 'service:computer:repair', 'service:fabrik:repair', 'service:furniture:repair', 'service:small_electronics_device:repair'.</b>.
+							</p>
 		<a class="anchor" id="contact"></a>
 	  	<h2>Contact</h2>
 	  	<p>Si vous souhaitez participer au projet, nous faire part de données erronées ou nous donner votre avis, vous pouvez nous contacter par email en écrivant à l'adresse : <img src="email.png" style="height: 18px; vertical-align: middle; padding-bottom: 3px;"/></p>

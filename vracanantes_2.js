@@ -16,7 +16,7 @@ var map = L.map('map', {
 		zoom: defaultZoom,
 		minZoom: minZoom,
 		maxZoom: maxZoom,
-		maxBounds: bounds
+	//	maxBounds: bounds
 	});
 
 // Add branding and license links
