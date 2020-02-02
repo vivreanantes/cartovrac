@@ -1,7 +1,7 @@
 const webpack = require("webpack");
 const HtmlWebPackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-const WebpackSynchronizableShellPlugin = require('webpack-synchronizable-shell-plugin');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = {
   module: {
@@ -16,14 +16,14 @@ module.exports = {
         ]
       },
       {
-        test: /\.(png|jp(e*)g|svg|gif|webp|woff2?)$/,  
+        test: /\.(png|jp(e*)g|svg|gif|webp|woff2?)$/,
         use: [{
             loader: 'url-loader',
-            options: { 
+            options: {
                 limit: 1000,
                 name: 'images/[hash]-[name].[ext]',
                 esModule: false
-            } 
+            }
         }]
       },
       {
@@ -33,20 +33,7 @@ module.exports = {
     ]
   },
   plugins: [
-    new WebpackSynchronizableShellPlugin(
-      {
-        onBuildStart: {
-          scripts: [
-             './data/refreshCacheBulk.sh',  
-             'node src/prepare.js',
-             'cp ./data/itinerant.json ./dist/itinerant.json'
-          ],
-          blocking: true,
-          parallel: false
-        }, 
-        onBuildEnd:[]
-      }
-    ),
+    new CleanWebpackPlugin(),
     new webpack.ProvidePlugin({
       $: 'jquery',
       L: 'leaflet'

@@ -32,6 +32,3 @@ export var partners = {
   "Collectif J'aime tes bocaux": { link: "https://www.facebook.com/jaimetesbocaux/", icon: require("../assets/img/jtb.webp"), name: "J\'aime tes bocaux"},
   "Syndicat Mixte Cyclad": { link: "http://www.cyclad.org/page.php?P=147#", icon: require("../assets/img/cyclad.webp"), name: "Syndicat Mixte Cyclad"}
 }
-
-export var cacheBulkJsonPath = "cache_bulk_data_simplified.json";
-export var itinerantShopsJsonPath = "itinerant.json";

@@ -1,5 +1,5 @@
 import {newMap, addMarkerToMap} from './map.js';
-import {categories, partners, cacheBulkJsonPath, itinerantShopsJsonPath} from './data.js';
+import {categories, partners} from './data.js';
 import {getPopupContent, getHtmlFormattedShopTitle} from './popup.js';
 
 // Leaflet icons for the different types of shop
@@ -17,7 +17,9 @@ var bulkMarkerArray = [];
 var map, cluster;
 
 /**
- * Create a map in given div id and populate it
+ * Create a map in given div id and export var itinerant = require("../data/itinerant.json");
+export var bulk = require("../data/bulk_simplified.json");
+populate it
  * @param divId the id of the div that will include the map
  * @param mapConfig the configuration (zoom, default location ...) to apply to the map
  */
@@ -25,14 +27,10 @@ export function createMapAndPopulate(divId, mapConfig) {
 	map = newMap(divId, mapConfig, categories);
 	prepareCaterogiesSubgroupsAndIcons(map);
 
-	// populate
-	$.getJSON(cacheBulkJsonPath, function(json) {
-    	populateBulkShops(json);
-	});
-
-	$.getJSON(itinerantShopsJsonPath, function(json) {
-    	populateItinerantShops(json.elements);
-	});
+  import(/* webpackChunkName: "data" */ './remote.js').then(({bulk, itinerant}) => {
+    populateBulkShops(bulk);
+    populateItinerantShops(itinerant.elements);
+  })
 
 	if (mapConfig.osmId != null && mapConfig.osmType != null) {
 		zoomOnBulkMarker(mapConfig.osmType+'/'+mapConfig.osmId);
