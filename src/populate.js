@@ -1,5 +1,5 @@
 import {newMap, addMarkerToMap} from './map.js';
-import {categories, partners} from './data.js';
+import {categories, partners} from './static.js';
 import {getPopupContent, getHtmlFormattedShopTitle} from './popup.js';
 
 // Leaflet icons for the different types of shop
@@ -27,7 +27,7 @@ export function createMapAndPopulate(divId, mapConfig) {
 	map = newMap(divId, mapConfig, categories);
 	prepareCaterogiesSubgroupsAndIcons(map);
 
-  import(/* webpackChunkName: "data" */ './remote.js').then(({bulk, itinerant}) => {
+  import(/* webpackChunkName: "data" */ './data.js').then(({bulk, itinerant}) => {
     populateBulkShops(bulk);
     populateItinerantShops(itinerant.elements);
   })

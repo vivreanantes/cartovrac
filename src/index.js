@@ -5,7 +5,7 @@ import 'typeface-roboto';
 import style from "../assets/stylesheets/styles.css";
 import styleLayerGroup from "../assets/stylesheets/leaflet.groupedlayercontrol.css";
 
-import {createMapAndPopulate} from './osm_eco_extractor.js';
+import {createMapAndPopulate} from './populate.js';
 import * as config from './config.js';
 import * as LayerGroup from './leaflet.groupedlayercontrol.js';
 
@@ -23,7 +23,7 @@ $(document).ready(function(){
 
 /**
  * Activated embedded mode if asked in GET paramters
- */ 
+ */
 function checkEmbbededMode() {
 	if (query["mode"]=="embedded") {
 	  $('body').addClass("embedded");
