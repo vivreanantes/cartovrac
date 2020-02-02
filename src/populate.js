@@ -4,12 +4,12 @@ import {getPopupContent, getHtmlFormattedShopTitle} from './popup.js';
 
 // Leaflet icons for the different types of shop
 var ShopIcon = L.Icon.extend({
-    options: {
-      shadowUrl: require('../assets/img/marker-shadow.png'),
-      iconSize: [35, 57],
-      iconAnchor: [15, 57],
-      popupAnchor: [3, -58],
-      shadowSize: [50, 50]
+  options: {
+    shadowUrl: require('../assets/img/marker-shadow.png'),
+    iconSize: [35, 57],
+    iconAnchor: [15, 57],
+    popupAnchor: [3, -58],
+    shadowSize: [50, 50]
   }
 });
 
@@ -57,11 +57,11 @@ function zoomOnBulkMarker(id) {
 function getMarker(markerArray, id) {
 	var markerToZoomOn = null;
 	for (var i in bulkMarkerArray) {
-	  	var marker = bulkMarkerArray[i];
-	  	if (marker.options.id == id) {
-			markerToZoomOn = marker;
-			break;
-	  	}
+  	var marker = bulkMarkerArray[i];
+  	if (marker.options.id == id) {
+  		markerToZoomOn = marker;
+  		break;
+  	}
 	}
 	return markerToZoomOn;
 }
@@ -119,7 +119,7 @@ function populateItinerantShops(itinerantShopsJson) {
 			popup += getHtmlFormattedShopTitle(category, organic, bulk_purchase);
 			popup += '<hr style="padding-bottom: ;padding-bottom: 0px;" size="1">';
 			popup += place_name+'<br />';
-		    popup += '<a href="' + url + '" target="_blank" rel="noopener">Site web avec les horaires de présence</a><br />';
+		  popup += '<a href="' + url + '" target="_blank" rel="noopener">Site web avec les horaires de présence</a><br />';
 
 			// Check that popup has been correctly created
 			addMarkerToMap(category, popup, latitude, longitude, null);
@@ -133,8 +133,8 @@ function populateItinerantShops(itinerantShopsJson) {
 function populateBulkShops(json) {
 	for (var shopIndex in json) {
 		var element = json[shopIndex];
-    	var type = getType(element);
-    	var category = categories[type];
+    var type = getType(element);
+    var category = categories[type];
 
 		// Create popup content depending on element's tags
 		var popup = getBasePopupFromElement(element, type, category);
@@ -187,6 +187,5 @@ function getType(element) {
 	} else if (type == "supermarket" && element.operator_type == "cooperative") {
 		type = "cooperative_supermarket"
 	}
-
 	return type;
 }

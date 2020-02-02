@@ -1,4 +1,4 @@
-// Load the map library 
+// Load the map library
 import 'leaflet.markercluster';
 import 'leaflet.featuregroup.subgroup';
 import 'leaflet.locatecontrol/dist/L.Control.Locate.min.js';
@@ -15,7 +15,7 @@ import 'leaflet-control-geocoder/dist/Control.Geocoder.css';
 
 
 var osmMarker = L.Marker.extend({
-   options: { 
+   options: {
       osmType: 'node',
       osmId: -1
    }
@@ -48,24 +48,39 @@ export function newMap(divId, mapConfig, categories) {
 
 	// Add search bar
 	var geocoder = L.Control.Geocoder.mapbox(mapConfig.mapToken, {geocodingQueryParams : {"country": "FR"}});
-	L.Control.geocoder(
-		{
-			geocoder: geocoder, 
-			defaultMarkGeocode: false, 
-			position: "topleft", 
-			placeholder: "Recherche...", 
-			errorMessage: "Aucun résultat trouvé", 
-			showResultIcons: true, 
-			iconLabel: "Commencer une recherche"
-		}
-	).on('markgeocode', function(e) {
-        map.fitBounds(e.geocode.bbox);
-    }).addTo(map);
+	L.Control.geocoder({
+	  geocoder: geocoder,
+		defaultMarkGeocode: false,
+		position: "topleft",
+		placeholder: "Recherche...",
+		errorMessage: "Aucun résultat trouvé",
+		showResultIcons: true,
+		iconLabel: "Commencer une recherche"
+	}).on('markgeocode', function(e) {
+    map.fitBounds(e.geocode.bbox);
+  }).addTo(map);
 
-    // Add attributions
-    L.control.attribution().addAttribution(mapConfig.attribution).addTo(map);
-
+  // Add attributions
+  L.control.attribution().addAttribution(mapConfig.attribution).addTo(map);
 	return map;
+}
+
+/**
+ * Add a marker on the map with the style matching the type
+ * @param category the category object of the shop
+ * @param popup the text HTML formatted to display in the popup
+ * @param lat latitude of the shop
+ * @param lon longiutude of the shop
+ **/
+export function addMarkerToMap(category, popup, lat, lon, id) {
+  // Add marker and popup to the cluser
+  return new osmMarker(
+  	new L.latLng(lat, lon),
+  	{
+  		icon: category.icon,
+  		id: id
+		}
+  ).bindPopup(popup).addTo(category.subgroup);
 }
 
 function showUserLocationButton(map) {
@@ -81,24 +96,4 @@ function showUserLocationButton(map) {
 			outsideMapBoundsMsg: "Votre position se trouve en dehors de la zone gérée par CartoVrac pour le moment."
 		}
 	}).addTo(map);
-}
-
-/**
- * Add a marker on the map with the style matching the type
- * @param category the category object of the shop
- * @param popup the text HTML formatted to display in the popup
- * @param lat latitude of the shop
- * @param lon longiutude of the shop
- **/
-export function addMarkerToMap(category, popup, lat, lon, id) {
-    // Add marker and popup to the cluser
-    return new osmMarker(
-    		new L.latLng(lat, lon), 
-    		{
-    			icon: category.icon,
-    			id: id
-    		}
-    	)
-        .bindPopup(popup)
-        .addTo(category.subgroup);
 }
