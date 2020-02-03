@@ -16,7 +16,7 @@ $(document).ready(function(){
 	if (query["mode"]=="embedded") {
 	  $('body').addClass("embedded");
 	}
-	createMapAndPopulate("map", getMapConfig());
+	createMapAndPopulate("map", getMapConfig(query));
 	// Fix waiting for library update
 	$(".leaflet-control-geocoder-icon").attr("aria-label", "Zoomer sur ma position");
 });
@@ -24,7 +24,7 @@ $(document).ready(function(){
 /**
  * Create a map configuration based on default configuration and GET parameters
  */
-function getMapConfig() {
+function getMapConfig(query) {
 	// Get bounds from get parameters and validate them before using it.
 	var mapConfig = {
 		centerLat: query["lat"] || config.defaultCenterLat,
