@@ -149,7 +149,7 @@ function populateBulkShops(json) {
 		}
 
 		// Add popup on a marker
-		var marker = addMarkerToMap(category, popup, element.lat, element.lon, element.id);
+		var marker = addMarkerToMap(category, popup, element.lat, element.lon, element.type+'/'+element.id);
 		bulkMarkerArray.push(marker);
 	}
 }
