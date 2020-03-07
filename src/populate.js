@@ -27,14 +27,15 @@ export function createMapAndPopulate(divId, mapConfig) {
 	map = newMap(divId, mapConfig, categories);
 	prepareCaterogiesSubgroupsAndIcons(map);
 
-  import(/* webpackChunkName: "data" */ './data.js').then(({bulk, itinerant}) => {
-    populateBulkShops(bulk);
-    populateItinerantShops(itinerant.elements);
-  })
+       import(/* webpackChunkName: "data" */ './data.js').then(({bulk, itinerant}) => {
+            populateBulkShops(bulk);
 
-	if (mapConfig.osmId != null && mapConfig.osmType != null) {
-		zoomOnBulkMarker(mapConfig.osmType+'/'+mapConfig.osmId);
-	}
+            if (mapConfig.osmId != null && mapConfig.osmType != null) {
+	        zoomOnBulkMarker(mapConfig.osmType+'/'+mapConfig.osmId);
+	    }
+
+            populateItinerantShops(itinerant.elements);
+        })
 }
 
 /**
@@ -149,7 +150,7 @@ function populateBulkShops(json) {
 		}
 
 		// Add popup on a marker
-		var marker = addMarkerToMap(category, popup, element.lat, element.lon, element.type+'/'+element.id);
+		var marker = addMarkerToMap(category, popup, element.lat, element.lon, element.id);
 		bulkMarkerArray.push(marker);
 	}
 }
