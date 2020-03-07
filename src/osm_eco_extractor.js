@@ -28,15 +28,15 @@ export function createMapAndPopulate(divId, mapConfig) {
 	// populate
 	$.getJSON(cacheBulkJsonPath, function(json) {
     	populateBulkShops(json);
+
+		if (mapConfig.osmId != null && mapConfig.osmType != null) {
+			zoomOnBulkMarker(mapConfig.osmType+'/'+mapConfig.osmId);
+		}
 	});
 
 	$.getJSON(itinerantShopsJsonPath, function(json) {
     	populateItinerantShops(json.elements);
 	});
-
-	if (mapConfig.osmId != null && mapConfig.osmType != null) {
-		zoomOnBulkMarker(mapConfig.osmType+'/'+mapConfig.osmId);
-	}
 }
 
 /**
@@ -151,7 +151,7 @@ function populateBulkShops(json) {
 		}
 
 		// Add popup on a marker
-		var marker = addMarkerToMap(category, popup, element.lat, element.lon, element.type+'/'+element.id);
+		var marker = addMarkerToMap(category, popup, element.lat, element.lon, element.id);
 		bulkMarkerArray.push(marker);
 	}
 }
