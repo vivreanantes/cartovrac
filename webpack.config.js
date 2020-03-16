@@ -35,16 +35,16 @@ module.exports = {
   plugins: [
     new WebpackSynchronizableShellPlugin(
       {
-        onBuildStart: {
-          scripts: [
+        onBuildStart: {}, 
+        onBuildEnd:{
+        	scripts: [
              './data/refreshCacheBulk.sh',  
              'node src/prepare.js',
              'cp ./data/itinerant.json ./dist/itinerant.json'
           ],
           blocking: true,
           parallel: false
-        }, 
-        onBuildEnd:[]
+      	}
       }
     ),
     new webpack.ProvidePlugin({
