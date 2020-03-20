@@ -1,5 +1,49 @@
 {
   "elements": [
+  	{
+	  "name": "Ang'en Vrac",
+	  "website": "https://angen-vrac.fr/",
+	  "bulk_purchase": "only",
+	  "organic": "yes",
+	  "validated_with_owner": false,
+	  "places": [
+	  	{
+	  		"lat": 47.20619,
+	  		"lon": -1.50587,
+	    	"place_name": "Marché de Saint-Sébastien-sur-Loire"
+		},
+		{
+	  		"lat": 47.20052,
+	  		"lon": -1.14701,
+	    	"place_name": "Marché de La Chaussaire"
+		},
+		{
+	  		"lat": 47.28669,
+	  		"lon": -1.19051,
+	    	"place_name": "Marché de Saint-Laurent-des-Autels"
+		},
+		{
+	  		"lat": 47.29957,
+	  		"lon": -1.54901,
+	    	"place_name": "Marché de La Chapelle-sur-Erdre"
+		},
+		{
+	  		"lat": 47.33922,
+	  		"lon": -1.52662,
+	    	"place_name": "Marché de Sucé-sur-Erdre"
+		},
+		{
+	  		"lat": 47.33739,
+	  		"lon": -1.26694,
+	    	"place_name": "Marché de Champtoceaux"
+		},
+		{
+	  		"lat": 47.16981,
+	  		"lon": -1.47010,
+	    	"place_name": "Marché de Vertou"
+		}
+	  ]
+	},
 	{
 	  "name": "ArchiVrac",
 	  "website": "http://www.archivrac.com/",
@@ -52,6 +96,40 @@
 	  		"lat": 50.63912,
 	  		"lon": 2.38425,
 	    	"place_name": "Le comptoir laitier, Aire sur la Lys"
+		}
+	  ]
+	},
+	{
+	  "name": "Epistream",
+	  "website": "https://epistream.fr",
+	  "bulk_purchase": "only",
+	  "organic": "yes",
+	  "validated_with_owner": false,
+	  "places": [
+	  	{
+	  		"lat": 46.77912,
+	  		"lon": -1.62151,
+	    	"place_name": "Chapelle Palluau"
+		},
+		{
+	  		"lat": 46.82516,
+	  		"lon": -1.76161,
+	    	"place_name": "Saint-Christophe du Ligneron"
+		},
+		{
+	  		"lat": 46.78328,
+	  		"lon": -1.43000,
+	    	"place_name": "Marché de Belleville-sur-Vie"
+		},
+		{
+	  		"lat": 46.82390,
+	  		"lon": -1.52988,
+	    	"place_name": "Beaufou"
+		},
+		{
+	  		"lat": 46.76860,
+	  		"lon": -1.50948,
+	    	"place_name": "Le Poiré-sur-Vie"
 		}
 	  ]
 	},
@@ -127,6 +205,35 @@
 	  		"lat": 47.27923,
 	  		"lon": -2.21563,
 	    	"place_name": "Marché des Halles, Saint-Nazaire"
+		}
+	  ]
+	},
+  	{
+	  "name": "EnVie de Vrac",
+	  "website": "https://www.facebook.com/enViedeVrac/",
+	  "bulk_purchase": "only",
+	  "organic": "only",
+	  "validated_with_owner": false,
+	  "places": [
+	  	{
+	  		"lat": 44.85392,
+	  		"lon": 3.33082,
+	    	"place_name": "Marché du Malzieu"
+		},
+	  	{
+	  		"lat": 44.79987,
+	  		"lon": 3.27622,
+	    	"place_name": "Marché de St Chély d'Apcher"
+		},
+	  	{
+	  		"lat": 44.72259,
+	  		"lon": 3.28103,
+	    	"place_name": "Mraché d'Aumont-Aubrac"
+		},
+	  	{
+	  		"lat": 44.55207,
+	  		"lon": 3.29139,
+	    	"place_name": "Marché de Marvejols"
 		}
 	  ]
 	},
@@ -294,6 +401,45 @@
 	  		"lat": 43.66411,
 	  		"lon": -1.39487,
 	  		"place_name": "Marché de Pays de Soorts - 19 av. du centre, Soorts-Hossegor"
+	  	}
+	  ]
+	},
+	{
+	  "name": "Les courses en vrac",
+	  "website": "https://www.facebook.com/lescoursesensac/",
+	  "bulk_purchase": "only",
+	  "organic": "only",
+	  "validated_with_owner": true,
+	  "places": [
+	  	{
+	  		"lat": 47.43758, 
+	  		"lon": -2.09227,
+	  		"place_name": "Marché de Pontchateau"
+	  	},
+	  	{
+	  		"lat": 47.42933,
+	  		"lon": -2.39101, 
+	  		"place_name": "Marché d'Assérac"
+	  	},
+	  	{
+	  		"lat": 47.4896262,
+	  		"lon": -2.2412034,
+	  		"place_name": "Les Vergers de Briére - Missillac"
+	  	},
+	  	{
+	  		"lat": 47.3479520,
+	  		"lon": -2.3631991,
+	  		"place_name": "La Ferme de Lévera - La Madeleine de Guérande"
+	  	},
+	  	{
+	  		"lat": 47.32826,
+	  		"lon": -2.42954,
+	  		"place_name": "Marché de Guérande"
+	  	},
+	  	{
+	  		"lat": 47.32826,
+	  		"lon": -2.42954,
+	  		"place_name": "Marché de Saint-Nazaire"
 	  	}
 	  ]
 	},
@@ -532,6 +678,80 @@
 	  		"lat": 47.19858,
 	  		"lon": -1.67446,
 	  		"place_name": "Marché de Basse-Indre"
+	  	}
+	  ]
+	},
+	{
+	  "name": "Vrac & Go",
+	  "website": "http://www.vracngo.com",
+	  "bulk_purchase": "only",
+	  "organic": "only",
+	  "validated_with_owner": false,
+	  "places": [
+	  	{
+	  		"lat": 43.31977,
+	  		"lon": -0.58014,
+	  		"place_name": "Marché de la Place Henri LACABANNE, Monein"
+	  	},
+	  	{
+	  		"lat": 43.28325,
+	  		"lon": -0.37214,
+	  		"place_name": "Marché de Gelos"
+	  	},
+	  	{
+	  		"lat": 43.22936,
+	  		"lon": -0.38704,
+	  		"place_name": "Marché de la place de la Mairie, Gan"
+	  	},
+	  	{
+	  		"lat": 43.39741,
+	  		"lon": -0.57224,
+	  		"place_name": "Marché de Place Général de Gaulle, Artix"
+	  	},
+	  	{
+	  		"lat": 43.33122,
+	  		"lon": -0.43541,
+	  		"place_name": "Marché de Lescar"
+	  	},
+	  	{
+	  		"lat": 43.30242,
+	  		"lon": -0.39965,
+	  		"place_name": "Locavor de Billère, au Bel ordinaire"
+	  	},
+	  	{
+	  		"lat": 43.32031,
+	  		"lon": -0.36694,
+	  		"place_name": "Technopôle Hélioparc, Pau"
+	  	},
+	  	{
+	  		"lat": 43.30974,
+	  		"lon": -0.36545,
+	  		"place_name": "Parvis de la Pépinière, Pau"
+	  	},
+	  	{
+	  		"lat": 43.35415,
+	  		"lon": -0.48318,
+	  		"place_name": "La Ruche qui dit oui, d’Aussevielle"
+	  	},
+	  	{
+	  		"lat": 43.34092,
+	  		"lon": -0.26482,
+	  		"place_name": "Marché place de la Hourquie, Morlaàs"
+	  	},
+	  	{
+	  		"lat": 43.28694,
+	  		"lon": -0.38897,
+	  		"place_name": "Marché de la Place du Junqué, Jurançon"
+	  	},
+	  	{
+	  		"lat": 43.30013,
+	  		"lon": -0.30645,
+	  		"place_name": "Marché d’Idron, avenue du Stade"
+	  	},
+	  	{
+	  		"lat": 43.37160,
+	  		"lon": -0.62929,
+	  		"place_name": "Marché de Mourenx"
 	  	}
 	  ]
 	},
