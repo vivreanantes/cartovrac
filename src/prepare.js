@@ -34,10 +34,10 @@ function simplifyDataStructure(fileName) {
 
 		    // Simplify address field
 		    var address = getHtmlFormattedAddress(
-		    	elementTags['addr:housenumber'],
-				elementTags['addr:street'],
-				elementTags['addr:postcode'],
-				elementTags['addr:city']
+		    	elementTags['addr:housenumber'] || elementTags['contact:housenumber'],
+				elementTags['addr:street'] || elementTags['contact:street'],
+				elementTags['addr:postcode'] || elementTags['contact:postcode'],
+				elementTags['addr:city'] || elementTags['contact:city']
 			);
 			addIfNotNull(simplifiedElement, 'addr', address)
 
