@@ -1,6 +1,6 @@
 # CartoVrac
 
-[![CircleCI](https://circleci.com/gh/vivreanantes/cartovrac.svg?style=svg)](https://circleci.com/gh/vivreanantes/cartovrac)
+[![pipeline status](https://forge.tedomum.net/kaiyou/cartovrac/badges/master/pipeline.svg)](https://forge.tedomum.net/kaiyou/cartovrac/-/commits/master)
 
 **CartoVrac** is an open-source project that aims to ease people to buy products without packaging and therefore reduce the amount of generated wastes.
 
