@@ -1,39 +1,30 @@
-import './menu.js';
+import {createMapAndPopulate} from './populate.js';
+import * as config from './config.js';
 
+import '../assets/stylesheets/styles.css';
+import './menu.js';
 import 'typeface-roboto';
 
-import style from "../assets/stylesheets/styles.css";
-import styleLayerGroup from "../assets/stylesheets/leaflet.groupedlayercontrol.css";
-
-import {createMapAndPopulate} from './osm_eco_extractor.js';
-import * as config from './config.js';
-import * as LayerGroup from './leaflet.groupedlayercontrol.js';
-
-// Get query parameters
-var query = require('url').parse(window.location.search, true).query;
+import '../assets/stylesheets/leaflet.groupedlayercontrol.css';
+import './leaflet.groupedlayercontrol.js';
 
 $(document).ready(function(){
-	checkEmbbededMode();
-	createMapAndPopulate("map", getMapConfig());
+	// Get query parameters
+	var query = require('url').parse(window.location.search, true).query;
 
+	// Activated embedded mode if asked in GET paramters
+	if (query["mode"]=="embedded") {
+	  $('body').addClass("embedded");
+	}
+	createMapAndPopulate("map", getMapConfig(query));
 	// Fix waiting for library update
 	$(".leaflet-control-geocoder-icon").attr("aria-label", "Zoomer sur ma position");
 });
 
-
-/**
- * Activated embedded mode if asked in GET paramters
- */ 
-function checkEmbbededMode() {
-	if (query["mode"]=="embedded") {
-	  $('body').addClass("embedded");
-	}
-}
-
 /**
  * Create a map configuration based on default configuration and GET parameters
  */
-function getMapConfig() {
+function getMapConfig(query) {
 	// Get bounds from get parameters and validate them before using it.
 	var mapConfig = {
 		centerLat: query["lat"] || config.defaultCenterLat,
@@ -51,7 +42,6 @@ function getMapConfig() {
 		osmType: query["osmType"],
 		osmId: query["osmId"]
 	}
-
 	// Validate bounds
 	if (mapConfig.boundN < mapConfig.boundS || mapConfig.boundE < mapConfig.boundW) {
 		console.error("error - wrong coordinates parameters");
@@ -60,6 +50,5 @@ function getMapConfig() {
 		mapConfig.boundW = config.minBoundW;
 		mapConfig.boundE = config.maxBoundE;
 	}
-
 	return mapConfig;
 }
