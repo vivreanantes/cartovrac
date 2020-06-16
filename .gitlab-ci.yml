@@ -15,6 +15,7 @@ pages:
   artifacts:
     paths:
     - public
+    expire_in: 2 weeks
 
   only:
   - master
