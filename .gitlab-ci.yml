@@ -8,6 +8,7 @@ pages:
     - node_modules/
 
   script:
+  - rm -rf node_modules/.cache
   - npm install
   - npm run build
 
