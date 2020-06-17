@@ -25,7 +25,8 @@ export var categories = {
   cosmetics: {prefix: 'Magasin de cosmétiques', iconUrl: require('../assets/img/icons/icon_cosmetics.png'), addOrganicSuffix: true, addBulkSuffix: true},
   herbalist: {prefix: 'Herboriste', iconUrl: require('../assets/img/icons/icon_herbalist.png'), addOrganicSuffix: true, addBulkSuffix: true},
   alcohol: {prefix: 'Magasin de vente d\'alcool à emporter', iconUrl: require('../assets/img/icons/icon_alcohol.png'), addOrganicSuffix: true, addBulkSuffix: true},
-  chemist: {prefix: 'Droguerie', iconUrl: require('../assets/img/icons/icon_chemist.png'), addOrganicSuffix: true, addBulkSuffix: true}
+  chemist: {prefix: 'Droguerie', iconUrl: require('../assets/img/icons/icon_chemist.png'), addOrganicSuffix: true, addBulkSuffix: true},
+  printer_ink: {prefix: 'Magasin de recharge d\'encre pour imprimante', iconUrl: require('../assets/img/icons/icon_ink.png'), addOrganicSuffix: false, addBulkSuffix: false}
 };
 
 export var partners = {
