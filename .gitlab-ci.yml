@@ -8,12 +8,14 @@ pages:
     - node_modules/
 
   script:
+  - rm -rf node_modules/.cache
   - npm install
   - npm run build
 
   artifacts:
     paths:
     - public
+    expire_in: 2 weeks
 
   only:
   - master
