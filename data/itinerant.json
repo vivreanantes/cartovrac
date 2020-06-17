@@ -100,6 +100,139 @@
 	  ]
 	},
 	{
+	  "name": "En Vrac'drouille",
+	  "website": "https://envracdrouille.fr",
+	  "bulk_purchase": "only",
+	  "organic": "yes",
+	  "validated_with_owner": false,
+	  "places": [
+	  	{
+	  		"lat": 49.398809,
+	  		"lon": 2.091792,
+	    	"place_name": "40 rue Sénéfontaine, 60000 Allonne"
+		},
+		{
+	  		"lat": 49.418528,
+	  		"lon": 2.157527,
+	    	"place_name": "Mairie de Therdonne, 1 Place Amédée Langlet, 60510 Therdonne"
+		},
+		{
+	  		"lat": 49.301904,
+	  		"lon": 1.987547,
+	    	"place_name": "Rue de la Mairie, 60240 Le Mesnil-Théribus"
+		},
+		{
+	  		"lat": 49.39172,
+	  		"lon": 1.78321,
+	    	"place_name": "Rue du Tour de Ville, 60590 Lalande-en-son"
+		},
+		{
+	  		"lat": 49.482676,
+	  		"lon": 1.725349,
+	    	"place_name": "Marché de Gournay-en-bray, rue du Docteur Duchesnes"
+		},
+		{
+	  		"lat": 49.430048,
+	  		"lon": 2.084297,
+	    	"place_name": "Marché de Beauvais"
+		},
+		{
+	  		"lat": 49.503268,
+	  		"lon": 1.995776,
+	    	"place_name": "Marché de Milly-sur-Thérain"
+		},
+		{
+	  		"lat": 49.423161,
+	  		"lon": 1.990884,
+	    	"place_name": "Marché de Saint-Paul"
+		},
+		{
+	  		"lat": 49.399759,
+	  		"lon": 1.875402,
+	    	"place_name": "Lalandelle"
+		},
+		{
+	  		"lat": 49.355591,
+	  		"lon": 1.76821,
+	    	"place_name": "Sérifontaine"
+		}
+	  ]
+	},
+	{
+	  "name": "Epicerie Mini Ma Liste",
+	  "website": "https://www.epicerie-minimaliste.fr",
+	  "bulk_purchase": "only",
+	  "organic": "only",
+	  "validated_with_owner": false,
+	  "places": [
+	  	{
+	  		"lat": 47.128783399999996,
+	  		"lon": 0.9954384,
+	    	"place_name": "Marché de Loches, Loches"
+		},
+		{
+	  		"lat": 47.4110351,
+	  		"lon": 0.983698,
+	    	"place_name": "Marché d'Amboise"
+		},
+		{
+	  		"lat": 47.2323025,
+	  		"lon": 0.9163536,
+	    	"place_name": "Marché de Reignac"
+		},
+		{
+	  		"lat": 47.34380340576172,
+	  		"lon": 1.1848828792572021,
+	    	"place_name": "Montrichard"
+		},
+		{
+	  		"lat": 47.2869884,
+	  		"lon": 0.7409855,
+	    	"place_name": "Veigné"
+		}  ,
+		{
+	  		"lat": 47.28427505493164,
+	  		"lon": 0.7810690999031067,
+	    	"place_name": "Evres-Sur-Indre"
+		}  ,
+		{
+	  		"lat": 47.2872408,
+	  		"lon": 0.7144705,
+	    	"place_name": "Montbazon"
+		}  ,
+		{
+	  		"lat": 47.3551139831543,
+	  		"lon": 0.9058051109313965,
+	    	"place_name": "Saint-Martin-Le-Beau"
+		}  ,
+		{
+	  		"lat": 47.1824204,
+	  		"lon": 0.9684561,
+	    	"place_name": "Chambourg-Sur-Indre"
+		}  ,
+		{
+	  		"lat": 47.3577,
+	  		"lon": 0.739923,
+	    	"place_name": "Saint-Avertin"
+		}  ,
+		{
+	  		"lat": 47.3900474,
+	  		"lon": 0.6889268,
+	    	"place_name": "Tours"
+		}  ,
+		{
+	  		"lat": 47.26921844482422,
+	  		"lon": 1.3766969442367554,
+	    	"place_name": "Saint-Aignan"
+		}  ,
+		{
+	  		"lat": 46.9865819,
+	  		"lon": 1.1745103,
+	    	"place_name": "Châtillon-Sur-Indre"
+		}
+	  ]
+	},
+	{
 	  "name": "Epistream",
 	  "website": "https://epistream.fr",
 	  "bulk_purchase": "only",
@@ -130,6 +263,50 @@
 	  		"lat": 46.76860,
 	  		"lon": -1.50948,
 	    	"place_name": "Le Poiré-sur-Vie"
+		}
+	  ]
+	},
+	{
+	  "name": "L'Akanomy",
+	  "website": "https://www.facebook.com/LAkanomy/",
+	  "bulk_purchase": "only",
+	  "organic": "yes",
+	  "validated_with_owner": false,
+	  "places": [
+	  	{
+	  		"lat": 46.5761111,
+	  		"lon": -0.024166666666666666,
+	    	"place_name": "Vasles"
+		},
+		{
+	  		"lat": 46.6486111,
+	  		"lon": -0.2477777777777778,
+	    	"place_name": "Parthenay"
+		},
+		{
+	  		"lat": 46.2227778,
+	  		"lon": -0.1438888888888889,
+	    	"place_name": "Melle"
+		},
+		{
+	  		"lat": 46.6580556,
+	  		"lon": -0.07472222222222222,
+	    	"place_name": "La Ferrière-en-Parthenay"
+		},
+		{
+	  		"lat": 46.5725,
+	  		"lon": -0.3047222222222222,
+	    	"place_name": "Château Bourdin La Fabrik"
+		},
+		{
+	  		"lat": 46.4833333,
+	  		"lon": -0.4038888888888889,
+	    	"place_name": "Champdeniers"
+		},
+		{
+	  		"lat": 46.6619444,
+	  		"lon": -0.23305555555555557,
+	    	"place_name": "Châtillon sur Thouet"
 		}
 	  ]
 	},
@@ -752,6 +929,40 @@
 	  		"lat": 43.37160,
 	  		"lon": -0.62929,
 	  		"place_name": "Marché de Mourenx"
+	  	}
+	  ]
+	},
+	{
+	  "name": "Vrac'issime",
+	  "website": "https://vracissime.wordpress.com/",
+	  "bulk_purchase": "only",
+	  "organic": "only",
+	  "validated_with_owner": false,
+	  "places": [
+	  	{
+	  		"lat": 48.73102,
+	  		"lon": 7.71216,
+	  		"place_name": "arché place Geoffroy Velten, Brumath"
+	  	},
+	  	{
+	  		"lat": 48.74188,
+	  		"lon": 7.36188,
+	  		"place_name": "Marché place Général de Gaulle, Saverne"
+	  	},
+	  	{
+	  		"lat": 48.95050,
+	  		"lon": 7.64305,
+	  		"place_name": "Marché place des Thermes Niederbronn"
+	  	},
+	  	{
+	  		"lat": 48.81440,
+	  		"lon": 7.78976,
+	  		"place_name": "Marché Gourmand place de la République, Haguenau"
+	  	},
+	  	{
+	  		"lat": 48.82133,
+	  		"lon": 7.73586,
+	  		"place_name": "Marché place de la Mairie, Schweighouse-sur-Moder"
 	  	}
 	  ]
 	},
