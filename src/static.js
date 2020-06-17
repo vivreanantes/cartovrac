@@ -3,6 +3,7 @@ export var categories = {
   itinerant: {prefix: 'Épicerie itinérante 100% vrac', iconUrl: require('../assets/img/icons/icon_marketplace.png'), addOrganicSuffix: true, addBulkSuffix: false},
   convenience: {prefix: 'Épicerie avec rayon vrac', iconUrl: require('../assets/img/icons/icon_convenience.png'), addOrganicSuffix: true, addBulkSuffix: false},
   organic_supermarket: {prefix: 'Supermarché bio. avec rayon vrac', iconUrl: require('../assets/img/icons/icon_supermarket.png'), addOrganicSuffix: false, addBulkSuffix: false},
+  bulk_supermarket: {prefix: 'Supermarché 100% vrac', iconUrl: require('../assets/img/icons/icon_supermarket.png'), addOrganicSuffix: true, addBulkSuffix: false},
   cooperative_supermarket: {prefix: 'Supermarché coopératif avec rayon vrac', iconUrl: require('../assets/img/icons/icon_supermarket.png'), addOrganicSuffix: true, addBulkSuffix: false},
   farm: {prefix: 'Magasin de producteur(s)', iconUrl: require('../assets/img/icons/icon_agrarian.png'), addOrganicSuffix: true, addBulkSuffix: true},
   butcher: {prefix: 'Boucherie', iconUrl: require('../assets/img/icons/icon_butcher.png'), addOrganicSuffix: true, addBulkSuffix: true},

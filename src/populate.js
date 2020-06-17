@@ -183,10 +183,15 @@ function getType(element) {
 	// Special type for bulk purchase only
 	if (type == "convenience" && element.bulk == "only") {
 		type = "only_bulk_convenience";
-	} else if (type == "supermarket" && element.bio == "only") {
-		type = "organic_supermarket"
-	} else if (type == "supermarket" && element.operator_type == "cooperative") {
-		type = "cooperative_supermarket"
+	} else if (type == "supermarket") {
+		if (element.bulk == "only") {
+			type = "bulk_supermarket";
+		} if (element.operator_type == "cooperative") {
+			type = "cooperative_supermarket";
+		} else if (element.bio == "only") {
+			type = "organic_supermarket";
+		}
 	}
+
 	return type;
 }
