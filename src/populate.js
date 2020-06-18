@@ -186,7 +186,7 @@ function getType(element) {
 	} else if (type == "supermarket") {
 		if (element.bulk == "only") {
 			type = "bulk_supermarket";
-		} if (element.operator_type == "cooperative") {
+		} else if (element.operator_type == "cooperative") {
 			type = "cooperative_supermarket";
 		} else if (element.bio == "only") {
 			type = "organic_supermarket";
