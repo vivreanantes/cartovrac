@@ -159,6 +159,74 @@
 	  ]
 	},
 	{
+	  "name": "Epicerie du Kangourou",
+	  "website": "https://www.epicerie-du-kangourou.fr/points-de-vente-gers/",
+	  "bulk_purchase": "only",
+	  "organic": "only",
+	  "validated_with_owner": false,
+	  "places": [
+	  	{
+	  		"lat": 43.626589,
+	  		"lon": 0.875940,
+	    	"place_name": "Marché de Gimont"
+		},
+		{
+	  		"lat": 43.635852,
+	  		"lon": 0.584515,
+	    	"place_name": "Marché des Hebdos Bios - Auch"
+		},
+		{
+	  		"lat": 43.722125,
+	  		"lon": 0.977512,
+	    	"place_name": "Marché de Cologne"
+		},
+		{
+	  		"lat": 43.934735,
+	  		"lon": 0.619645,
+	    	"place_name": "Marché de Lectoure"
+		},
+		{
+	  		"lat": 43.699147,
+	  		"lon": 0.618621,
+	    	"place_name": "Vente à La Ferme En Coton - Auch"
+		},
+		{
+	  		"lat": 43.646433,
+	  		"lon": 0.585044,
+	    	"place_name": "Marché de Auch"
+		}
+	  ]
+	},,
+	{
+	  "name": "Epicerie Le Gramme",
+	  "website": "http://epicerielegramme.fr/",
+	  "bulk_purchase": "only",
+	  "organic": "yes",
+	  "validated_with_owner": false,
+	  "places": [
+	  	{
+	  		"lat": 43.61655,
+	  		"lon": 4.00917,
+	    	"place_name": "Marché de Mauguio"
+		},
+		{
+	  		"lat": 43.58464,
+	  		"lon": 3.80388,
+	    	"place_name": "Marché de Lavérune"
+		},
+		{
+	  		"lat": 43.74380,
+	  		"lon": 4.00091,
+	    	"place_name": "Marché de Saint-Jean-de-Cornies"
+		},
+		{
+	  		"lat": 43.76708,
+	  		"lon": 3.86493,
+	    	"place_name": "AMAP de Saint-Mathieu-de-Tréviers"
+		}
+	  ]
+	},
+	{
 	  "name": "Epicerie Mini Ma Liste",
 	  "website": "https://www.epicerie-minimaliste.fr",
 	  "bulk_purchase": "only",
@@ -679,6 +747,65 @@
 	  "validated_with_owner": false,
 	  "places": []
 	},
+  	{
+	  "name": "Ti boco",
+	  "website": "https://www.ti-boco.com/",
+	  "bulk_purchase": "only",
+	  "organic": "yes",
+	  "validated_with_owner": false,
+	  "places": [
+	  	{
+		  "lat": 47.58494,
+		  "lon": -3.07594,
+		  "place_name": "Carnac"
+		},
+		{
+		  "lat": 7.662100,
+		  "lon": -2.450530,
+		  "place_name": "Marché de Questembert"
+		},
+		{
+		  "lat": 47.666351,
+		  "lon": -2.982640,
+		  "place_name": "Marché de Auray"
+		},
+		{
+		  "lat": 47.717441,
+		  "lon": -2.580414,
+		  "place_name": "Elven (Diana Pet Food)"
+		},
+		{
+		  "lat": 47.711650,
+		  "lon": -2.516040,
+		  "place_name": "Larré (Bourg)"
+		},
+		{
+		  "lat": 47.682704,
+		  "lon": -2.614223,
+		  "place_name": "Treffléan (Parking du Dévehat)"
+		},
+		{
+		  "lat": 47.6421152,
+		  "lon": -2.7558584,
+		  "place_name": "Vannes - Zone du PIBS"
+		},
+		{
+		  "lat": 47.555240,
+		  "lon": -2.480220,
+		  "place_name": "Marché de Muzillac"
+		},
+		{
+		  "lat": 47.629130,
+		  "lon": -2.648990,
+		  "place_name": "Marché de Theix"
+		},
+		{
+		  "lat": 47.680526,
+		  "lon": -2.614046,
+		  "place_name": "Marché de Treffléan"
+		},
+	  ]
+	},
 	{
 	  "name": "Tootopoids",
 	  "website": "https://tootopoids.com/",
@@ -942,27 +1069,32 @@
 	  	{
 	  		"lat": 48.73102,
 	  		"lon": 7.71216,
-	  		"place_name": "arché place Geoffroy Velten, Brumath"
+	  		"place_name": "Marché place Victor Fischer, Brumath"
 	  	},
 	  	{
-	  		"lat": 48.74188,
-	  		"lon": 7.36188,
-	  		"place_name": "Marché place Général de Gaulle, Saverne"
+	  		"lat": 48.84372,
+	  		"lon": 7.60749,
+	  		"place_name": "Marche du Val-de-Moder, place de la République"
 	  	},
 	  	{
-	  		"lat": 48.95050,
-	  		"lon": 7.64305,
-	  		"place_name": "Marché place des Thermes Niederbronn"
+	  		"lat": 48.65955,
+	  		"lon": 7.82587,
+	  		"place_name": "Marché de La Wantzenau, place de l'Ecole"
 	  	},
 	  	{
-	  		"lat": 48.81440,
-	  		"lon": 7.78976,
-	  		"place_name": "Marché Gourmand place de la République, Haguenau"
+	  		"lat": 48.66359,
+	  		"lon": 7.71113,
+	  		"place_name": "Marché de Vendenheim, place de la Mairie"
 	  	},
 	  	{
-	  		"lat": 48.82133,
-	  		"lon": 7.73586,
-	  		"place_name": "Marché place de la Mairie, Schweighouse-sur-Moder"
+	  		"lat": 48.82136,
+	  		"lon": 7.73556,
+	  		"place_name": "Marché de Schweighouse-sur-Moder, place de la Mairie"
+	  	},
+	  	{
+	  		"lat": 48.75539,
+	  		"lon": 7.46481,
+	  		"place_name": "Marché de Dettwiller, place de l'Ecole"
 	  	}
 	  ]
 	},
