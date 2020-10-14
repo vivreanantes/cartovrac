@@ -196,7 +196,7 @@
 	    	"place_name": "Marché de Auch"
 		}
 	  ]
-	},,
+	},
 	{
 	  "name": "Epicerie Le Gramme",
 	  "website": "http://epicerielegramme.fr/",
@@ -711,6 +711,45 @@
 	  ]
 	},
 	{
+	  "name": "Marie en Vrac",
+	  "website": "https://www.marieenvrac.fr/",
+	  "bulk_purchase": "only",
+	  "organic": "only",
+	  "validated_with_owner": false,
+	  "places": [
+	  	{
+	  		"lat": 46.53911866488212, 
+	  		"lon": -1.61724227364209,
+	  		"place_name": "Grosbreuil"
+	  	},
+	  	{
+	  		"lat": 46.547213842606865, 
+	  		"lon": -1.6730375855699053,
+	  		"place_name": "Marché de Haimps"
+	  	},
+	  	{
+	  		"lat": 46.56169948530587, 
+	  		"lon": -1.7820801108613882,
+	  		"place_name": "L'Ile d'Olonne"
+	  	},
+	  	{
+	  		"lat": 46.51533088498809, 
+	  		"lon": -1.8056996434464923,
+	  		"place_name": "La Chaume"
+	  	},
+	  	{
+	  		"lat": 46.65722, 
+	  		"lon": -1.56953,
+	  		"place_name": "Marché de Landeronde"
+	  	},
+	  	{
+	  		"lat": 46.50487976913473, 
+	  		"lon": -1.7374535172715055,
+	  		"place_name": "Marché du Château d'Olonne"
+	  	}
+	  ]
+	},
+	{
 	  "name": "Mik'a Vrak",
 	  "website": "https://www.facebook.com/mikavrak/",
 	  "bulk_purchase": "only",
@@ -803,7 +842,7 @@
 		  "lat": 47.680526,
 		  "lon": -2.614046,
 		  "place_name": "Marché de Treffléan"
-		},
+		}
 	  ]
 	},
 	{
