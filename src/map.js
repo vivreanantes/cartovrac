@@ -47,7 +47,7 @@ export function newMap(divId, mapConfig, categories) {
 	showUserLocationButton(map);
 
 	// Add search bar
-	var geocoder = L.Control.Geocoder.mapbox(mapConfig.mapToken, {geocodingQueryParams : {"country": "FR"}});
+	var geocoder = L.Control.Geocoder.mapbox({apiKey: mapConfig.mapToken, geocodingQueryParams : {"country": "FR"}});
 	L.Control.geocoder({
 	  geocoder: geocoder,
 		defaultMarkGeocode: false,
