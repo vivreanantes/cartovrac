@@ -44,5 +44,8 @@
     "node-fetch": "^2.6.0",
     "script-loader": "^0.7.2",
     "val-loader": "^2.1.0"
+  },
+  "dependencies": {
+    "@material/dialog": "^8.0.0"
   }
 }

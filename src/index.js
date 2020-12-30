@@ -4,6 +4,7 @@ import * as config from './config.js';
 import '../assets/stylesheets/styles.css';
 import './menu.js';
 import 'typeface-roboto';
+import './contribute.js';
 
 import '../assets/stylesheets/leaflet.groupedlayercontrol.css';
 import './leaflet.groupedlayercontrol.js';
