@@ -100,15 +100,15 @@ function populateItinerantShops(itinerantShopsJson) {
 		var itinerantElement = itinerantShopsJson[shopIndex]
     	var category = categories['itinerant'];
     	var name = itinerantElement['name'];
-    	var url = itinerantElement['website'];
-    	var organic = itinerantElement['organic'];
-    	var bulk_purchase = itinerantElement['bulk_purchase'];
+    	var url = itinerantElement['url'];
+    	var organic = itinerantElement['bio'];
+    	var bulk_purchase = "only";
 
 		for (var placeIndex in itinerantElement['places']) {
 			var placeElement = itinerantElement['places'][placeIndex];
-			var latitude = placeElement['lat'];
-			var longitude = placeElement['lon'];
-			var place_name = placeElement['place_name'];
+			var place_name = placeElement[0];
+			var latitude = placeElement[1];
+			var longitude = placeElement[2];
 
 			// Check that element is valid
 			if (!name || !longitude || !latitude) {
