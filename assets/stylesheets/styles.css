@@ -299,6 +299,10 @@ a.anchor {
   float: right;
 }
 
+.form-legend {
+  font-style: italic;
+}
+
 @media screen and (min-width: 450px) {
   #map {
     top: 115px;
