@@ -48,5 +48,8 @@ module.exports = {
       favicon: "./assets/img/logo.png"
     }),
     new MiniCssExtractPlugin()
-  ]
+  ],
+  optimization: {
+   usedExports: true,
+  }
 };
