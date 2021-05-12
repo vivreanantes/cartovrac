@@ -30,6 +30,7 @@ export function newMap(divId, mapConfig, categories) {
 	var map = L.map(divId, {
 		attributionControl: false,
 		fullscreenControl: true,
+		tap: false, // ref https://github.com/Leaflet/Leaflet/issues/7255
 		center: new L.latLng(mapConfig.centerLat, mapConfig.centerLng),
 		zoom: mapConfig.zoom,
 		minZoom: mapConfig.minZoom,
