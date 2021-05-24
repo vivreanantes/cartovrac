@@ -78,13 +78,15 @@ function addListOfShops() {
 		}
 
 		// Get the type of shop/amenity to manage
-		var typeArray = getTypeRepair(repairTags['service:fabrik:repair'],
-			repairTags['service:bicycle:repair'],
-			repairTags['service:camera:repair'],
-			repairTags['service:computer:repair'],
-			repairTags['service:fabrik:repair'],
-			repairTags['service:furniture:repair'],
-			repairTags['service:small_electronics_device:repair']);
+		var typeArray = getTypeRepair(
+			repairTags['fabrik:repair'], repairTags['service:fabrik:repair'],
+			repairTags['bicycle:repair'], repairTags['service:bicycle:repair'],
+			repairTags['camera:repair'], repairTags['service:camera:repair'],
+			repairTags['computer:repair'], repairTags['service:computer:repair'],
+			repairTags['fabrik:repair'], repairTags['service:fabrik:repair'],
+			repairTags['furniture:repair'], repairTags['service:furniture:repair'],
+			repairTags['small_electronics_device:repair'], repairTags['service:small_electronics_device:repair'],
+			);
 
 		// Check if there is at least one type matching
 		if (typeArray == 0) {
