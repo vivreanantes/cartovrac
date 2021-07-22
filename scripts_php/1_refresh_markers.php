@@ -4,6 +4,7 @@ echo "1_refresh_markers.php : modify http://coreparation.fr/cache_data_temp.json
 echo "-------<br/>";
 // overpass query
 $overpass = 'http://overpass-api.de/api/interpreter?data=[out:json];(area["ISO3166-1"="FR"];)->.searchArea;(node["repair"="assisted_self_service"](area.searchArea););out;';
+// $overpass = 'http://overpass-api.de/api/interpreter?data=[out:json];(area["ISO3166-1"="FR"];)->.fr;((node["repair"~"assisted_self_service"](area.fr);way["repair"~"assisted_self_service"](area.fr);););out center;';
 
 // collecting results in JSON format
 $html = file_get_contents($overpass);
