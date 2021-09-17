@@ -44,6 +44,51 @@
 	  ]
 	},
 	{
+	  "name": "Au ptit colibri",
+	  "url": "https://auptitcolibri.fr/",
+	  "bio": "only",
+	  "validated": false,
+	  "places": [
+	  	["Villers bocage",49.0798,-0.6479],
+		["Feuguerolles Bully - parking de l'église",49.1142,-0.4039],
+		["Ouistreham - marché du bourg",49.2760,-0.2586],
+		["Saint-Contest - parking de l'église",49.2143,-0.4014],
+		["Fresne Camilly - parking de la mairie",49.2579,-0.48856],
+		["Montillieres sur Orne - parking de la mairie",49.0495, -0.4773],
+		["Fontenay le Pesnel - parking de la salle des fetes",49.16915,-0.5788]
+	  ]
+	},
+	{
+	  "name": "Bocal en Balade - le vrac d'Amandine",
+	  "url": "https://amandine.bocalenbalade.com",
+	  "bio": "only",
+	  "validated": false,
+	  "places": [
+	  	["Marché de Vertou",47.16991,-1.46995],
+		["Parking Boulangerie G5",47.06245,-1.51689],
+		["Magasin de producteurs Comptoir du champ",47.05333,-1.49016],
+		["Parking Mr Bricolage",47.08210,-1.41122],
+		["Gaec Vallée de l'Ognon",47.00717,-1.42686],
+		["Marché Saint Philbert de Bouaine",46.98553,-1.52179],
+		["Ferme de Rublé",47.03120,-1.54446],
+		["Place Yann Doucet",47.09853,-1.49067],
+		["Marché de Pont Saint-Martin",47.12390,-1.58292],
+		["Marché des Sorinières",47.14805,-1.53011],
+		["Marché du Douet",47.19315,-1.51812],
+		["AMAP Vertou",47.16425,-1.48813],
+		["Marché Saint-Philbert de Grand-Lieu",47.03642,-1.64172]
+	  ]
+	},
+	{
+	  "name": "Bocal en Balade - le vrac de Mary",
+	  "url": "https://mary.bocalenbalade.com",
+	  "bio": "yes",
+	  "validated": false,
+	  "places": [
+	  	["Marché Saint-Philbert de Grand-Lieu",47.03642,-1.64172]
+	  ]
+	},
+	{
 	  "name": "Ecol&gram'",
 	  "url": "https://www.ecolegram.bzh",
 	  "bio": "yes",
@@ -270,6 +315,16 @@
 	  ]
 	},
 	{
+	  "name": "La Terrienne",
+	  "url": "https://www.facebook.com/fermelaterrienne",
+	  "bio": "only",
+	  "validated": false,
+	  "places": [
+	  	["Marché de La Réole",44.57975,-0.03826],
+	  	["Marché de Sauveterre de Guyenne",44.69299,-0.08610]
+	  ]
+	},
+	{
 	  "name": "La Vrac en Folie",
 	  "url": "https://www.facebook.com/lavracenfolie/",
 	  "bio": "yes",
@@ -289,6 +344,13 @@
 	  ]
 	},
 	{
+	  "name": "Le BoCal'Mion",
+	  "url": "https://www.facebook.com/lebocalmion",
+	  "bio": "yes",
+	  "validated": false,
+	  "places": []
+	},
+	{
 	  "name": "Les courses en vrac",
 	  "url": "https://www.facebook.com/lescoursesensac/",
 	  "bio": "only",
@@ -303,15 +365,33 @@
 	  ]
 	},
 	{
-	  "name": "Le BoCal'Mion",
-	  "url": "https://www.facebook.com/lebocalmion",
+	  "name": "Les soeurs a'drak",
+	  "url": "https://www.facebook.com/epicerie.lessoeursadrak/",
 	  "bio": "yes",
 	  "validated": false,
-	  "places": []
+	  "places": [
+	  	["Marché de Rostrenen",48.21918,-3.34619],
+	  	["Marché de Gourin",48.12210,-3.59620],
+	  	["Marché de Restalgon",48.04779,-3.50013],
+	  	["Marché de Guiscriff",48.04504,-3.64987],
+	  	["Marché de Kerencreach (Bannalec)",47.91686,-3.74812],
+	  	["Marché de Chateauneuf du Faou",48.18555,-3.81215],
+	  	["Marché de Guémené-sur-Scorff",48.18555,-3.81215],
+	  	["Marché de Bénodet",47.87410,-4.11089]
+	  ]
 	},
 	{
 	  "name": "Les Z’écolonomiks",
 	  "url": "https://www.facebook.com/LesZecolonomiks/",
+	  "bio": "yes",
+	  "validated": false,
+	  "places": [
+	  	["Marché de Velleron",43.95445, 5.02669]
+	  ]
+	},
+	{
+	  "name": "Le Vrac d'Annso",
+	  "url": "https://www.facebook.com/levracdannso89",
 	  "bio": "yes",
 	  "validated": false,
 	  "places": [
@@ -413,6 +493,27 @@
 	  "places": []
 	},
 	{
+	  "name": "Vrac en Somme",
+	  "url": "https://www.vrac-en-somme.fr/",
+	  "bio": "yes",
+	  "validated": false,
+	  "places": [
+	  	["Marché de Moreuil",49.77216,2.48292],
+	  	["Marché d'Amiens - place Görlitz",49.87153,2.31931],
+	  	["Marché de Villers-Bretonneux",49.86866,2.51779],
+	  	["Marché de Longueau",49.87011,2.35676],
+	  	["Marché de Blangy-Tronville",49.88029,2.42308],
+	  	["Marché de Camon",49.88758,2.34396],
+	  	["Marché de Corbie",49.88758,2.34396],
+	  	["Marché de Camon",49.88758,2.34396],
+	  	["Marché de Villers-Bocage",49.99645,2.31883],
+	  	["Marché à la Ferme des Tilleuls",49.84140,2.44473],
+	  	["Marché de Conty",49.74088,2.15271],
+	  	["Marché de Millencourt",50.00088,2.58589],
+	  	["Marché de Rosières-en-Santerre",49.81448,2.69927]
+	  ]
+	},
+	{
 	  "name": "Vrac en Vadrouille",
 	  "url": "http://www.vracenvadrouille.fr/",
 	  "bio": "yes",
@@ -462,8 +563,8 @@
 	  ]
 	},
 	{
-	  "name": "Vrac'issime",
-	  "url": "https://vracissime.wordpress.com/",
+	  "name": "VRAQUISTA ",
+	  "url": "https://vraquista.fr",
 	  "bio": "only",
 	  "validated": false,
 	  "places": [
