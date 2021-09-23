@@ -12,7 +12,7 @@
 		["Marché de La Chapelle-sur-Erdre",47.29957,-1.54901],
 		["Marché de Sucé-sur-Erdre",47.33922,-1.52662],
 		["Marché de Champtoceaux",47.33739,-1.26694],
-		["Marché de Vertou",47.16981,-1.47010]
+		["Marché de Vertou",47.16981,-1.4701]
 	  ]
 	},
 	{
@@ -23,11 +23,35 @@
 	  "places": []
 	},
 	{
+	  "name": "Atonbokal",
+	  "url": "https://www.atonbokal.com/",
+	  "bio": "only",
+	  "validated": false,
+	  "places": [
+	  	["Marché  d'Amphion",46.39468,6.53847]
+	  ]
+	},
+	{
 	  "name": "Au Poids Chiche",
 	  "url": "https://www.facebook.com/aupoidschiche",
 	  "bio": "yes",
 	  "validated": false,
 	  "places": []
+	},
+	{
+	  "name": "Au ptit colibri",
+	  "url": "https://auptitcolibri.fr/",
+	  "bio": "only",
+	  "validated": false,
+	  "places": [
+	  	["Villers bocage",49.0798,-0.6479],
+		["Feuguerolles Bully - parking de l'église",49.1142,-0.4039],
+		["Ouistreham - marché du bourg",49.276,-0.2586],
+		["Saint-Contest - parking de l'église",49.2143,-0.4014],
+		["Fresne Camilly - parking de la mairie",49.2579,-0.48856],
+		["Montillieres sur Orne - parking de la mairie",49.0495,-0.4773],
+		["Fontenay le Pesnel - parking de la salle des fetes",49.16915,-0.5788]
+	  ]
 	},
 	{
 	  "name": "Au pti vrac",
@@ -44,19 +68,11 @@
 	  ]
 	},
 	{
-	  "name": "Au ptit colibri",
-	  "url": "https://auptitcolibri.fr/",
-	  "bio": "only",
+	  "name": "Aux Merveilles d’Alice",
+	  "url": "https://facebook.com/aliceetsesmerveilles/",
+	  "bio": "yes",
 	  "validated": false,
-	  "places": [
-	  	["Villers bocage",49.0798,-0.6479],
-		["Feuguerolles Bully - parking de l'église",49.1142,-0.4039],
-		["Ouistreham - marché du bourg",49.2760,-0.2586],
-		["Saint-Contest - parking de l'église",49.2143,-0.4014],
-		["Fresne Camilly - parking de la mairie",49.2579,-0.48856],
-		["Montillieres sur Orne - parking de la mairie",49.0495, -0.4773],
-		["Fontenay le Pesnel - parking de la salle des fetes",49.16915,-0.5788]
-	  ]
+	  "places": []
 	},
 	{
 	  "name": "Bocal en Balade - le vrac d'Amandine",
@@ -67,12 +83,12 @@
 	  	["Marché de Vertou",47.16991,-1.46995],
 		["Parking Boulangerie G5",47.06245,-1.51689],
 		["Magasin de producteurs Comptoir du champ",47.05333,-1.49016],
-		["Parking Mr Bricolage",47.08210,-1.41122],
+		["Parking Mr Bricolage",47.0821,-1.41122],
 		["Gaec Vallée de l'Ognon",47.00717,-1.42686],
 		["Marché Saint Philbert de Bouaine",46.98553,-1.52179],
-		["Ferme de Rublé",47.03120,-1.54446],
+		["Ferme de Rublé",47.0312,-1.54446],
 		["Place Yann Doucet",47.09853,-1.49067],
-		["Marché de Pont Saint-Martin",47.12390,-1.58292],
+		["Marché de Pont Saint-Martin",47.1239,-1.58292],
 		["Marché des Sorinières",47.14805,-1.53011],
 		["Marché du Douet",47.19315,-1.51812],
 		["AMAP Vertou",47.16425,-1.48813],
@@ -87,6 +103,21 @@
 	  "places": [
 	  	["Marché Saint-Philbert de Grand-Lieu",47.03642,-1.64172]
 	  ]
+	},,
+	{
+	  "name": "Coqueli-Vrac",
+	  "url": "https://www.facebook.com/epicerie.coquelivrac",
+	  "bio": "yes",
+	  "validated": false,
+	  "places": [
+	  	["Marché de Quintin",48.40322,-2.9125],
+	  	["Marché de Moncontour",48.36022,-2.63364],
+	  	["Marché d'Uzel",48.27962,-2.84024],
+	  	["Marché de Ploeuc",48.34643,-2.75715],
+	  	["Marché le Plaintel",48.40722,-2.81678],
+	  	["Marché de Corlay",48.31635,-3.05698],
+	  	["Place de l'église St Brandan",48.38987,-2.86988]
+	  ]
 	},
 	{
 	  "name": "Ecol&gram'",
@@ -94,156 +125,16 @@
 	  "bio": "yes",
 	  "validated": false,
 	  "places": [
-	  	["Plélo",48.55510,-2.94673],
+	  	["Plélo",48.5551,-2.94673],
 		["Saint-Donan",48.46937,-2.88279],
-		["Légué",48.50530,-2.68673],
+		["Légué",48.5053,-2.68673],
 		["Boquého",48.48606,-2.96053],
 		["Lanvollon",48.63168,-2.98718],
 		["Lanrodec",48.51589,-3.03158],
 		["Saint-Brieuc",48.49366,-2.75702]
 	  ]
 	},
-	{
-	  "name": "En Vrac'drouille",
-	  "url": "https://envracdrouille.fr",
-	  "bio": "yes",
-	  "validated": false,
-	  "places": [
-	  	["40 rue Sénéfontaine, 60000 Allonne",49.398809,2.091792],
-		["Mairie de Therdonne, 1 Place Amédée Langlet, 60510 Therdonne",49.418528,2.157527],
-		["Rue de la Mairie, 60240 Le Mesnil-Théribus",49.301904,1.987547],
-		["Rue du Tour de Ville, 60590 Lalande-en-son",49.39172,1.78321],
-		["Marché de Gournay-en-bray, rue du Docteur Duchesnes",49.482676,1.725349],
-		["Marché de Beauvais",49.430048,2.084297],
-		["Marché de Milly-sur-Thérain",49.503268,1.995776],
-		["Marché de Saint-Paul",49.423161,1.990884],
-		["Lalandelle",49.399759,1.875402],
-		["Sérifontaine",49.355591,1.76821]
-	  ]
-	},
-	{
-	  "name": "Epicerie du Kangourou",
-	  "url": "https://www.epicerie-du-kangourou.fr/points-de-vente-gers/",
-	  "bio": "only",
-	  "validated": false,
-	  "places": [
-	  	["Marché de Gimont",43.626589,0.875940],
-		["Marché des Hebdos Bios - Auch",43.635852,0.584515],
-		["Marché de Cologne",43.722125,0.977512],
-		["Marché de Lectoure",43.934735,0.619645],
-		["Vente à La Ferme En Coton - Auch",43.699147,0.618621],
-		["Marché de Auch",43.646433,0.585044]
-	  ]
-	},
-	{
-	  "name": "Epicerie Le Gramme",
-	  "url": "http://epicerielegramme.fr/",
-	  "bio": "yes",
-	  "validated": false,
-	  "places": [
-	  	["Marché de Mauguio",43.61655,4.00917],
-		["Marché de Lavérune",43.58464,3.80388],
-		["Marché de Saint-Jean-de-Cornies",43.74380,4.00091],
-		["AMAP de Saint-Mathieu-de-Tréviers",43.76708,3.86493]
-	  ]
-	},
-	{
-	  "name": "Epicerie Mini Ma Liste",
-	  "url": "https://www.epicerie-minimaliste.fr",
-	  "bio": "only",
-	  "validated": false,
-	  "places": [
-	  	["Marché de Loches, Loches",47.128783399999996,0.9954384],
-		["Marché d'Amboise",47.4110351,0.983698],
-		["Marché de Reignac",47.2323025,0.9163536],
-		["Montrichard",47.34380340576172,1.1848828792572021],
-		["Veigné",47.2869884,0.7409855],
-		["Evres-Sur-Indre",47.28427505493164,0.7810690999031067],
-		["Montbazon",47.2872408,0.7144705],
-		["Saint-Martin-Le-Beau",47.3551139831543,0.9058051109313965],
-		["Chambourg-Sur-Indre",47.1824204,0.9684561],
-		["Saint-Avertin",47.3577,0.739923],
-		["Tours",47.3900474,0.6889268],
-		["Saint-Aignan",47.26921844482422,1.3766969442367554],
-		["Châtillon-Sur-Indre",46.9865819,1.1745103]
-	  ]
-	},
-	{
-	  "name": "Epistream",
-	  "url": "https://epistream.fr",
-	  "bio": "yes",
-	  "validated": false,
-	  "places": [
-	  	["Chapelle Palluau",46.77912,-1.62151],
-		["Saint-Christophe du Ligneron",46.82516,-1.76161],
-		["Marché de Belleville-sur-Vie",46.78328,-1.43000],
-		["Beaufou",46.82390,-1.52988],
-		["Le Poiré-sur-Vie",46.76860,-1.50948]
-	  ]
-	},
-	{
-	  "name": "L'Akanomy",
-	  "url": "https://www.facebook.com/LAkanomy/",
-	  "bio": "yes",
-	  "validated": false,
-	  "places": [
-	  	["Vasles",46.5761111,-0.024166666666666666],
-		["Parthenay",46.6486111,-0.2477777777777778],
-		["Melle",46.2227778,-0.1438888888888889],
-		["La Ferrière-en-Parthenay",46.6580556,-0.07472222222222222],
-		["Château Bourdin La Fabrik",46.5725,-0.3047222222222222],
-		["Champdeniers",46.4833333,-0.4038888888888889],
-		["Châtillon sur Thouet",46.6619444,-0.23305555555555557]
-	  ]
-	},
-	{
-	  "name": "L'Eugénie du Bocal",
-	  "url": "https://www.facebook.com/leugeniedubocal/",
-	  "bio": "yes",
-	  "validated": false,
-	  "places": [
-		["Marché bio de Coutances",49.04654,-1.44469],
-		["Marché de Saint-Lo",49.09590,-1.07729],
-		["Marché de Marigny",49.09858,-1.24121],
-		["Marché de Pirou",49.16766,-1.59609],
-		["Marché d'Agon Coutainville",49.04901,-1.59742],
-		["Marché de Lessay",49.21867,-1.53224],
-		["Marché de Saint-Sauveur-Lendelin",49.13073,-1.41214],
-		["Tourville-sur-Sienne",49.04551,-1.54515],
-		["La Haye du puits",49.28844,-1.54242]
-	  ]
-	},
-	{
-	  "name": "Le Vrac Ambulant",
-	  "url": "https://www.facebook.com/levracambulant/",
-	  "bio": "yes",
-	  "validated": false,
-	  "places": [
-		["Marché de Cluses",46.06027,6.57986],
-		["Marché de Bonneville",46.07758,6.40804],
-		["Marché de La-Roche-sur-Foron",46.06697,6.31139],
-		["Marché de Marignier",46.09060,6.50118],
-		["Marché de Scionzier",46.05688,6.55022]
-	  ]
-	},
-	{
-	  "name": "Aux Merveilles d’Alice",
-	  "url": "https://facebook.com/aliceetsesmerveilles/",
-	  "bio": "yes",
-	  "validated": false,
-	  "places": []
-	},
-  	{
-	  "name": "Épicerie Bigre",
-	  "url": "https://www.epiceriebigre.com/",
-	  "bio": "yes",
-	  "validated": false,
-	  "places": [
-	  	["Marche Notre Dame, Versailles",48.80620,2.13205],
-		["Marche Saint Louis, Versailles",48.79844,2.12471]
-	  ]
-	},
-  	{
+  {
 	  "name": "Envie d'épices",
 	  "url": "https://www.facebook.com/enviedepices",
 	  "bio": "only",
@@ -265,6 +156,109 @@
 	  ]
 	},
 	{
+	  "name": "En Vrac'drouille",
+	  "url": "https://envracdrouille.fr",
+	  "bio": "yes",
+	  "validated": false,
+	  "places": [
+	  	["40 rue Sénéfontaine, 60000 Allonne",49.39881,2.09179],
+		["Mairie de Therdonne, 1 Place Amédée Langlet, 60510 Therdonne",49.41853,2.15753],
+		["Rue de la Mairie, 60240 Le Mesnil-Théribus",49.3019,1.98755],
+		["Rue du Tour de Ville, 60590 Lalande-en-son",49.3917,1.7832],
+		["Marché de Gournay-en-bray, rue du Docteur Duchesnes",49.48268,1.72535],
+		["Marché de Beauvais",49.43005,2.0843],
+		["Marché de Milly-sur-Thérain",49.50327,1.99578],
+		["Marché de Saint-Paul",49.42316,1.99088],
+		["Lalandelle",49.39976,1.8754],
+		["Sérifontaine",49.35559,1.7682]
+	  ]
+	},
+  	{
+	  "name": "Épicerie Bigre",
+	  "url": "https://www.epiceriebigre.com/",
+	  "bio": "yes",
+	  "validated": false,
+	  "places": [
+	  	["Marche Notre Dame, Versailles",48.8062,2.13205],
+		["Marche Saint Louis, Versailles",48.79844,2.12471]
+	  ]
+	},
+	{
+	  "name": "Epicerie du Kangourou",
+	  "url": "https://www.epicerie-du-kangourou.fr/points-de-vente-gers/",
+	  "bio": "only",
+	  "validated": false,
+	  "places": [
+	  	["Marché de Gimont",43.62659,0.87594],
+		["Marché des Hebdos Bios - Auch",43.63585,0.58452],
+		["Marché de Cologne",43.72213,0.97751],
+		["Marché de Lectoure",43.93474,0.61965],
+		["Vente à La Ferme En Coton - Auch",43.69915,0.61862],
+		["Marché de Auch",43.64643,0.58504]
+	  ]
+	},
+	{
+	  "name": "Epicerie Le Gramme",
+	  "url": "http://epicerielegramme.fr/",
+	  "bio": "yes",
+	  "validated": false,
+	  "places": [
+	  	["Marché de Mauguio",43.61655,4.00917],
+		["Marché de Lavérune",43.58464,3.80388],
+		["Marché de Saint-Jean-de-Cornies",43.7438,4.00091],
+		["AMAP de Saint-Mathieu-de-Tréviers",43.76708,3.86493]
+	  ]
+	},
+	{
+	  "name": "Epicerie Mini Ma Liste",
+	  "url": "https://www.epicerie-minimaliste.fr",
+	  "bio": "only",
+	  "validated": false,
+	  "places": [
+	  	["Marché de Loches, Loches",47.12878,0.99544],
+		["Marché d'Amboise",47.41104,0.9837],
+		["Marché de Reignac",47.2323,0.91635],
+		["Montrichard",47.3438,1.18488],
+		["Veigné",47.28699,0.74099],
+		["Evres-Sur-Indre",47.28428,0.78107],
+		["Montbazon",47.28724,0.71447],
+		["Saint-Martin-Le-Beau",47.35511,0.90581],
+		["Chambourg-Sur-Indre",47.18242,0.96846],
+		["Saint-Avertin",47.3577,0.739923],
+		["Tours",47.39005,0.68893],
+		["Saint-Aignan",47.26922,1.3767],
+		["Châtillon-Sur-Indre",46.98658,1.1745]
+	  ]
+	},
+	{
+	  "name": "Epistream",
+	  "url": "https://epistream.fr",
+	  "bio": "yes",
+	  "validated": false,
+	  "places": [
+	  	["Chapelle Palluau",46.77912,-1.62151],
+		["Saint-Christophe du Ligneron",46.82516,-1.76161],
+		["Marché de Belleville-sur-Vie",46.78328,-1.43],
+		["Beaufou",46.8239,-1.52988],
+		["Le Poiré-sur-Vie",46.7686,-1.50948]
+	  ]
+	},
+	{
+	  "name": "L'Akanomy",
+	  "url": "https://www.facebook.com/LAkanomy/",
+	  "bio": "yes",
+	  "validated": false,
+	  "places": [
+	  	["Vasles",46.5761,-0.02417],
+		["Parthenay",46.64861,-0.24778],
+		["Melle",46.22278,-0.14389],
+		["La Ferrière-en-Parthenay",46.65806,-0.07472],
+		["Château Bourdin La Fabrik",46.5725,-0.30472],
+		["Champdeniers",46.48333,-0.40389],
+		["Châtillon sur Thouet",46.66194,-0.23306]
+	  ]
+	},
+	{
 	  "name": "La Main dans l'Sac",
 	  "url": "http://lamaindanslsac.fr/",
 	  "bio": "yes",
@@ -278,7 +272,7 @@
 	  "validated": false,
 	  "places": [
 	  	["Place du marché, Sucé-sur-Erdre",47.34158,-1.52684],
-		["Place de l'église, Grandchamp-des-Fontaines",47.36529,-1.60560],
+		["Place de l'église, Grandchamp-des-Fontaines",47.36529,-1.6056],
 		["Place de la mairie, Saffré",47.50147,-1.57965],
 		["Abbaretz",47.55247, -1.53254]
 	  ]
@@ -292,7 +286,7 @@
 	  	["Marché de Sainte-Foy-la-Grande, Place du marché",44.84111,0.21619],
 		["Marché de Libourne, Place Abel Surchamp",44.91485,-0.24491],
 		["Marché de Castillon La Bataille, Place Boyer Andrivet",44.8534,-0.04352],
-		["Marché de producteurs, Ferme des Gardes - Saint-Antoine-de-Breuilh",44.8404653, 0.1217308]
+		["Marché de producteurs, Ferme des Gardes - Saint-Antoine-de-Breuilh",44.8404653,0.1217308]
 	  ]
 	},
 	{
@@ -301,17 +295,17 @@
 	  "bio": "yes",
 	  "validated": false,
 	  "places": [
-	  	["Marché du Port du Canal",47.315953,5.02600],
-	  	["Marché de Varanges",47.230157,5.19464],
-	  	["Marché de Marsannay-la-Côte",47.280558,5.002832],
-	  	["Marché de Pont-de-Pany",47.297403,4.808365],
-	  	["Marché Brazey-en-Plaine",47.133509,5.215763],
-	  	["Marché Nuits-Saint-Georges",47.136503,4.949739],
-	  	["Marché Genlis",47.242861,5.219892],
-	  	["Marché Bio Ferme de la Bussière",47.121478,5.399453],
-	  	["Marché Bio de Quetigny",47.313230,5.110987],
-	  	["Marché Place des Cordeliers - Dijon",47.319045,5.040519],
-	  	["Marché Is-sur-Tille",47.521913,5.112264]
+	  	["Marché du Port du Canal",47.31595,5.026],
+	  	["Marché de Varanges",47.23016,5.19464],
+	  	["Marché de Marsannay-la-Côte",47.28056,5.00283],
+	  	["Marché de Pont-de-Pany",47.2974,4.80837],
+	  	["Marché Brazey-en-Plaine",47.13351,5.21576],
+	  	["Marché Nuits-Saint-Georges",47.1365,4.94974],
+	  	["Marché Genlis",47.24286,5.21989],
+	  	["Marché Bio Ferme de la Bussière",47.12148,5.39945],
+	  	["Marché Bio de Quetigny",47.31323,5.11099],
+	  	["Marché Place des Cordeliers - Dijon",47.31905,5.04052],
+	  	["Marché Is-sur-Tille",47.52191,5.11226]
 	  ]
 	},
 	{
@@ -321,7 +315,7 @@
 	  "validated": false,
 	  "places": [
 	  	["Marché de La Réole",44.57975,-0.03826],
-	  	["Marché de Sauveterre de Guyenne",44.69299,-0.08610]
+	  	["Marché de Sauveterre de Guyenne",44.69299,-0.0861]
 	  ]
 	},
 	{
@@ -359,7 +353,7 @@
 	  	["Marché de Pontchateau",47.43758, -2.09227],
 	  	["Marché d'Assérac",47.42933,-2.39101],
 	  	["Les Vergers de Briére - Missillac",47.4896262,-2.2412034],
-	  	["La Ferme de Lévera - La Madeleine de Guérande",47.3479520,-2.3631991],
+	  	["La Ferme de Lévera - La Madeleine de Guérande",47.347952,-2.3631991],
 	  	["Marché de Guérande",47.32826,-2.42954],
 	  	["Marché de Saint-Nazaire",47.32826,-2.42954]
 	  ]
@@ -371,13 +365,13 @@
 	  "validated": false,
 	  "places": [
 	  	["Marché de Rostrenen",48.21918,-3.34619],
-	  	["Marché de Gourin",48.12210,-3.59620],
+	  	["Marché de Gourin",48.1221,-3.5962],
 	  	["Marché de Restalgon",48.04779,-3.50013],
 	  	["Marché de Guiscriff",48.04504,-3.64987],
 	  	["Marché de Kerencreach (Bannalec)",47.91686,-3.74812],
 	  	["Marché de Chateauneuf du Faou",48.18555,-3.81215],
 	  	["Marché de Guémené-sur-Scorff",48.18555,-3.81215],
-	  	["Marché de Bénodet",47.87410,-4.11089]
+	  	["Marché de Bénodet",47.8741,-4.11089]
 	  ]
 	},
 	{
@@ -386,7 +380,37 @@
 	  "bio": "yes",
 	  "validated": false,
 	  "places": [
-	  	["Marché de Velleron",43.95445, 5.02669]
+	  	["Marché de Velleron",43.95445,5.02669]
+	  ]
+	},
+	{
+	  "name": "L'Eugénie du Bocal",
+	  "url": "https://www.facebook.com/leugeniedubocal/",
+	  "bio": "yes",
+	  "validated": false,
+	  "places": [
+		["Marché bio de Coutances",49.04654,-1.44469],
+		["Marché de Saint-Lo",49.0959,-1.07729],
+		["Marché de Marigny",49.09858,-1.24121],
+		["Marché de Pirou",49.16766,-1.59609],
+		["Marché d'Agon Coutainville",49.04901,-1.59742],
+		["Marché de Lessay",49.21867,-1.53224],
+		["Marché de Saint-Sauveur-Lendelin",49.13073,-1.41214],
+		["Tourville-sur-Sienne",49.04551,-1.54515],
+		["La Haye du puits",49.28844,-1.54242]
+	  ]
+	},
+	{
+	  "name": "Le Vrac Ambulant",
+	  "url": "https://www.facebook.com/levracambulant/",
+	  "bio": "yes",
+	  "validated": false,
+	  "places": [
+		["Marché de Cluses",46.06027,6.57986],
+		["Marché de Bonneville",46.07758,6.40804],
+		["Marché de La-Roche-sur-Foron",46.06697,6.31139],
+		["Marché de Marignier",46.0906,6.50118],
+		["Marché de Scionzier",46.05688,6.55022]
 	  ]
 	},
 	{
@@ -395,7 +419,19 @@
 	  "bio": "yes",
 	  "validated": false,
 	  "places": [
-	  	["Marché de Velleron",43.95445, 5.02669]
+	  	["Marché de Velleron",43.95445,5.02669]
+	  ]
+	},
+	{
+	  "name": "Lou Vrac des Baous",
+	  "url": "https://www.louvracdesbaous.fr",
+	  "bio": "only",
+	  "validated": false,
+	  "places": [
+	  	["Marché de Tourrettes-sur-Loup",43.7166,7.05897],
+	  	["Marché de La Gaude",43.71949,7.15056],
+	  	["Esplanade Saint-Philippe",43.6179,7.08102],
+	  	["Emplacement La Gaude",43.72959,7.16931]
 	  ]
 	},
 	{
@@ -404,12 +440,12 @@
 	  "bio": "only",
 	  "validated": false,
 	  "places": [
-	  	["Grosbreuil",46.53911866488212, -1.61724227364209],
-	  	["Marché de Haimps",46.547213842606865, -1.6730375855699053],
-	  	["L'Ile d'Olonne",46.56169948530587, -1.7820801108613882],
-	  	["La Chaume",46.51533088498809, -1.8056996434464923],
-	  	["Marché de Landeronde",46.65722, -1.56953],
-	  	["Marché du Château d'Olonne",46.50487976913473, -1.7374535172715055]
+	  	["Grosbreuil",46.53912,-1.61724],
+	  	["Marché de Haimps",46.54721,-1.67304],
+	  	["L'Ile d'Olonne",46.5617,-1.78209],
+	  	["La Chaume",46.51533,-1.8057],
+	  	["Marché de Landeronde",46.65722,-1.56953],
+	  	["Marché du Château d'Olonne",46.50488,-1.73745]
 	  ]
 	},
 	{
@@ -418,10 +454,24 @@
 	  "bio": "yes",
 	  "validated": false,
 	  "places": [
-	  	["Marché de Saint-Jean-d'Angély",45.93492, -0.52394],
-	  	["Marché de Haimps",45.86658, -0.25780],
-	  	["L'autre marché au silo, Saintes",45.75692, -0.61729],
-	  	["Marché fermier, Villars-les-bois",45.79961, -0.43784]
+	  	["Marché de Saint-Jean-d'Angély",45.93492,-0.52394],
+	  	["Marché de Haimps",45.86658,-0.2578],
+	  	["L'autre marché au silo, Saintes",45.75692,-0.61729],
+	  	["Marché fermier, Villars-les-bois",45.79961,-0.43784]
+	  ]
+	},
+	{
+	  "name": "Mobi'Vrac",
+	  "url": "https://www.mobivrac.com/",
+	  "bio": "only",
+	  "validated": false,
+	  "places": [
+	  	["Marché de Marnay",47.28878,5.77308],
+	  	["Marché de Pesmes",47.27908,5.56553],
+	  	["Montagney",47.28665,5.66126],
+	  	["Marché de Gray",47.4495,5.59385],
+	  	["Marché de Pugey",47.18694,5.9929],
+	  	["Marché les Auxons",47.30117,5.95884]
 	  ]
 	},
 	{
@@ -438,15 +488,15 @@
 	  "validated": false,
 	  "places": [
 	  	["Carnac",47.58494,-3.07594],
-		["Marché de Questembert",7.662100,-2.450530],
-		["Marché de Auray",47.666351,-2.982640],
-		["Elven (Diana Pet Food)",47.717441,-2.580414],
-		["Larré (Bourg)",47.711650,-2.516040],
-		["Treffléan (Parking du Dévehat)",47.682704,-2.614223],
-		["Vannes - Zone du PIBS",47.6421152,-2.7558584],
-		["Marché de Muzillac",47.555240,-2.480220],
-		["Marché de Theix",47.629130,-2.648990],
-		["Marché de Treffléan",47.680526,-2.614046]
+		["Marché de Questembert",7.6621,-2.45053],
+		["Marché de Auray",47.66635,-2.98264],
+		["Elven (Diana Pet Food)",47.71744,-2.580414],
+		["Larré (Bourg)",47.71165,-2.51604],
+		["Treffléan (Parking du Dévehat)",47.6827,-2.61422],
+		["Vannes - Zone du PIBS",47.64212,-2.75586],
+		["Marché de Muzillac",47.55524,-2.48022],
+		["Marché de Theix",47.62913,-2.64899],
+		["Marché de Treffléan",47.68053,-2.61405]
 	  ]
 	},
 	{
@@ -463,8 +513,8 @@
 	  "validated": true,
 	  "places": [
 	  	["Marché de Sainte-Maure-de-Touraine",47.11272,0.62188],
-	  	["Marché de L'Ile Bouchard",47.12008,0.42450],
-	  	["Marché de Descartes",46.97420,0.69966],
+	  	["Marché de L'Ile Bouchard",47.12008,0.4245],
+	  	["Marché de Descartes",46.9742,0.69966],
 	  	["Marché et AMAP de Ligueil",47.04341,0.81833],
 	  	["Marché et AMAP de Richelieu",47.01206,0.32641],
 	  	["Marché de Nouâtre",47.05072,0.54752],
@@ -480,7 +530,7 @@
 	  	["Carnac",47.58494,-3.07594],
 	  	["Brec'h",47.72031,-2.99904],
 	  	["Crac'h",47.61606,-3.00139],
-	  	["Cap Ressourcerie - Crac'h",47.60645,-2.99570],
+	  	["Cap Ressourcerie - Crac'h",47.60645,-2.9957],
 	  	["Devant la boutique en bois - Auray (sur Commande)",47.66215,-3.00406],
 	  	["Devant le Bocal - Carnac",47.63877,-3.04876]
 	  ]
@@ -507,7 +557,7 @@
 	  	["Marché de Corbie",49.88758,2.34396],
 	  	["Marché de Camon",49.88758,2.34396],
 	  	["Marché de Villers-Bocage",49.99645,2.31883],
-	  	["Marché à la Ferme des Tilleuls",49.84140,2.44473],
+	  	["Marché à la Ferme des Tilleuls",49.8414,2.44473],
 	  	["Marché de Conty",49.74088,2.15271],
 	  	["Marché de Millencourt",50.00088,2.58589],
 	  	["Marché de Rosières-en-Santerre",49.81448,2.69927]
@@ -533,9 +583,9 @@
 	  "bio": "yes",
 	  "validated": false,
 	  "places": [
-	  	["Marché de Savenay",47.3589026,-1.9434343],
-	  	["Marché de Zola - Nantes",47.2137314,-1.5873538],
-	  	["Marché de la Marrière - Nantes",47.2341667,-1.5324899],
+	  	["Marché de Savenay",47.3589,-1.94343],
+	  	["Marché de Zola - Nantes",47.21373,-1.58735],
+	  	["Marché de la Marrière - Nantes",47.23417,-1.53249],
 	  	["Marché des Bouguenais les Couets",47.18081,-1.58674],
 	  	["Marché de Sainte-Luce-sur-Loire",47.2498,-1.48393],
 	  	["Marché de Basse-Indre",47.19858,-1.67446]
@@ -559,7 +609,23 @@
 	  	["Marché place de la Hourquie, Morlaàs",43.34092,-0.26482],
 	  	["Marché de la Place du Junqué, Jurançon",43.28694,-0.38897],
 	  	["Marché d’Idron, avenue du Stade",43.30013,-0.30645],
-	  	["Marché de Mourenx",43.37160,-0.62929]
+	  	["Marché de Mourenx",43.3716,-0.62929]
+	  ]
+	},
+	{
+	  "name": "Vrac'n Roule'",
+	  "url": "https://www.facebook.com/vracnroule/",
+	  "bio": "yes",
+	  "validated": false,
+	  "places": [
+	  	["Devant la salle Jacqueline Auriol - Bouaye",47.14476,-1.69022],
+	  	["Marché de la Montagne - place Similien Guérin",47.18811,-1.68345],
+	  	["Marché de Bouaye - place du Marché",47.14189,-1.68879],
+	  	["Devant la salle des Genets - Saint-Jean-de-Boiseau",47.19234,-1.7255],
+	  	["Ferme de Sergonne - Frossay",47.21475,-1.90364],
+	  	["Marché de La Bernerie - bd. Chaussé du Pays de Retz",47.0806,-2.03632],
+	  	["Ferme des Clos Mouillés - Bourgneuf",47.06912,-1.91057],
+	  	["Marché du Pellerin - rue du docteur Sourdille",47.2017,-1.75461]
 	  ]
 	},
 	{
@@ -574,22 +640,6 @@
 	  	["Marché de Vendenheim, place de la Mairie",48.66359,7.71113],
 	  	["Marché de Schweighouse-sur-Moder, place de la Mairie",48.82136,7.73556],
 	  	["Marché de Dettwiller, place de l'Ecole",48.75539,7.46481]
-	  ]
-	},
-	{
-	  "name": "Vrac'n Roule'",
-	  "url": "https://www.facebook.com/vracnroule/",
-	  "bio": "yes",
-	  "validated": false,
-	  "places": [
-	  	["Devant la salle Jacqueline Auriol - Bouaye",47.14476,-1.69022],
-	  	["Marché de la Montagne - place Similien Guérin",47.18811,-1.68345],
-	  	["Marché de Bouaye - place du Marché",47.14189,-1.68879],
-	  	["Devant la salle des Genets - Saint-Jean-de-Boiseau",47.19234,-1.72550],
-	  	["Ferme de Sergonne - Frossay",47.21475,-1.90364],
-	  	["Marché de La Bernerie - bd. Chaussé du Pays de Retz",47.08060,-2.03632],
-	  	["Ferme des Clos Mouillés - Bourgneuf",47.06912,-1.91057],
-	  	["Marché du Pellerin - rue du docteur Sourdille",47.20170,-1.75461]
 	  ]
 	}
   ]
