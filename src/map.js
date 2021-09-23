@@ -42,7 +42,7 @@ export function newMap(divId, mapConfig, categories) {
 	});
 
 	// Configure vector tiles
-	L.mapboxGL({accessToken: mapConfig.mapToken, style: 'mapbox://styles/mapbox/streets-v11', attributionControl: false}).addTo(map);
+	L.mapboxGL({accessToken: mapConfig.mapToken, style: 'mapbox://styles/mapbox/streets-v11?optimize=true', attributionControl: false}).addTo(map);
 
 	// Add control
 	showUserLocationButton(map);

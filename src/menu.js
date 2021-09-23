@@ -1,10 +1,33 @@
-$("#menu a").on("click", function() { 
-  document.getElementById("menu").classList.remove("show");
-});
+let menu = document.getElementById("menu");
+let menuLinks = menu.getElementsByTagName("a");
+for (const menuLink of menuLinks) {
+  menuLink.onclick = function(e){ 
+    // Override default behavior for smooth scroll
+    event.preventDefault();
+    document.querySelector(menuLink.getAttribute('href')).scrollIntoView({
+      behavior: 'smooth'
+    });
 
-$("#burger").on("click", function() { 
-  document.getElementById("menu").classList.toggle("show");
-});
+    // Hide menu in responsive mobile version
+    menu.classList.remove("show");
+  };
+}
+
+function scrollTo(element, to, duration) {
+    if (duration <= 0) return;
+    var difference = to - element.scrollTop;
+    var perTick = difference / duration * 10;
+
+    setTimeout(function() {
+        element.scrollTop = element.scrollTop + perTick;
+        if (element.scrollTop === to) return;
+        scrollTo(element, to, duration - 10);
+    }, 10);
+}
+
+document.getElementById("burger").onclick = function() { 
+  menu.classList.toggle("show");
+};
 
 window.onclick = function(event) {
   if (!event.target.matches('.dropbtn')) {
@@ -18,10 +41,3 @@ window.onclick = function(event) {
     }
   }
 } 
-
-$(document).on('click', 'a[href^="#"]', function (event) {
-  event.preventDefault();
-  $('html, body').animate({
-    scrollTop: $($.attr(this, 'href')).offset().top
-  }, 500);
-});

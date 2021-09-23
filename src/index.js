@@ -3,24 +3,36 @@ import * as config from './config.js';
 
 import '../assets/stylesheets/styles.css';
 import './menu.js';
-import 'typeface-roboto';
 import './contribute.js';
 
 import '../assets/stylesheets/leaflet.groupedlayercontrol.css';
 import './leaflet.groupedlayercontrol.js';
 
-$(document).ready(function(){
+
+docReady(function() {
 	// Get query parameters
 	var query = require('url').parse(window.location.search, true).query;
 
 	// Activated embedded mode if asked in GET paramters
 	if (query["mode"]=="embedded") {
-	  $('body').addClass("embedded");
+	  document.body.classList.add("embedded");
 	}
+
 	createMapAndPopulate("map", getMapConfig(query));
-	// Fix waiting for library update
-	$(".leaflet-control-geocoder-icon").attr("aria-label", "Zoomer sur ma position");
 });
+
+/**
+ * Execute function fn when DOM is ready
+ */
+function docReady(fn) {
+    // see if DOM is already available
+    if (document.readyState === "complete" || document.readyState === "interactive") {
+        // call on next available tick
+        setTimeout(fn, 1);
+    } else {
+        document.addEventListener("DOMContentLoaded", fn);
+    }
+}    
 
 /**
  * Create a map configuration based on default configuration and GET parameters
