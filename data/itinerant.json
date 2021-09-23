@@ -91,8 +91,7 @@
 		["Marché de Pont Saint-Martin",47.1239,-1.58292],
 		["Marché des Sorinières",47.14805,-1.53011],
 		["Marché du Douet",47.19315,-1.51812],
-		["AMAP Vertou",47.16425,-1.48813],
-		["Marché Saint-Philbert de Grand-Lieu",47.03642,-1.64172]
+		["AMAP Vertou",47.16425,-1.48813]
 	  ]
 	},
 	{
@@ -103,7 +102,7 @@
 	  "places": [
 	  	["Marché Saint-Philbert de Grand-Lieu",47.03642,-1.64172]
 	  ]
-	},,
+	},
 	{
 	  "name": "Coqueli-Vrac",
 	  "url": "https://www.facebook.com/epicerie.coquelivrac",
