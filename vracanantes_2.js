@@ -29,6 +29,7 @@ L.tileLayer(
 		accessToken: 'pk.eyJ1IjoidnJhY2FuYW50ZXMiLCJhIjoiY2psMmtneDllMWowNDN3cDR6NGtwbmk5MyJ9.BLI4o0qCMZBck7mdYcUhuA'
 	}
 ).addTo(map);
+L.Control.geocoder().addTo(map);
 
 /**
  * Load data from cache first
