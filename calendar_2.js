@@ -26,8 +26,8 @@ var load_json_2 = function(type_event) {
                          show = false;
                        }*/
       /*
-                     if (window.location.href.indexOf("coreparation44.fr") > -1) {
-                       // Url is coreparation44
+                     if (window.location.href.indexOf("coreparation.fr") > -1) {
+                       // Url is coreparation
                        if (type_event[cptEventsNotFiltered].department!="Loire-Atlantique") {
                          show = false;
                        }
@@ -171,9 +171,9 @@ $.getJSON("cache_data.json", function(data) {
   });
 });
 
-/*if (window.location.href.indexOf("coreparation44.fr") > -1) {
+/*if (window.location.href.indexOf("coreparation.fr") > -1) {
   // OK !!!!!!!
-    // Url is coreparation44 : je montre
+    // Url is coreparation : je montre
     document.getElementById("filterCalendar44").style.display = 'inline-block';
 } else {
       document.getElementById("filterCalendar44").style.display = 'none';

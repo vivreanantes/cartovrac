@@ -30,6 +30,7 @@ L.tileLayer(
 	}
 ).addTo(map);
 L.Control.geocoder().addTo(map);
+L.control.locate().addTo(map);
 
 /**
  * Load data from cache first
