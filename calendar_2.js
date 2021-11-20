@@ -66,47 +66,64 @@ var load_json_2 = function(type_event) {
 
         textDiv2 += "<address>"; // address
 
-        if (typeof type_event[cptEventsNotFiltered].tags["contact:housename"] !== "undefined") {
+        if (typeof type_event[cptEventsNotFiltered].tags["housename"] !== "undefined") {
+          textDiv2 += type_event[cptEventsNotFiltered].tags["housename"] + " ";
+        }
+        else if (typeof type_event[cptEventsNotFiltered].tags["contact:housename"] !== "undefined") {
           textDiv2 += type_event[cptEventsNotFiltered].tags["contact:housename"] + " ";
         }
-        if (typeof type_event[cptEventsNotFiltered].tags["contact:housenumber"] !== "undefined") {
+        else if (typeof type_event[cptEventsNotFiltered].tags["addr:housename"] !== "undefined") {
+          textDiv2 += type_event[cptEventsNotFiltered].tags["addr:housename"] + " ";
+        }
+        if (typeof type_event[cptEventsNotFiltered].tags["housenumber"] !== "undefined") {
+          textDiv2 += type_event[cptEventsNotFiltered].tags["housenumber"] + " ";
+        }
+        else if (typeof type_event[cptEventsNotFiltered].tags["contact:housenumber"] !== "undefined") {
           textDiv2 += type_event[cptEventsNotFiltered].tags["contact:housenumber"] + " ";
         }
-        if (typeof type_event[cptEventsNotFiltered].tags["addr:housenumber"] !== "undefined") {
+        else if (typeof type_event[cptEventsNotFiltered].tags["addr:housenumber"] !== "undefined") {
           textDiv2 += type_event[cptEventsNotFiltered].tags["addr:housenumber"] + " ";
         }
-        if (typeof type_event[cptEventsNotFiltered].tags["contact:street"] !== "undefined") {
+        if (typeof type_event[cptEventsNotFiltered].tags["street"] !== "undefined") {
+          textDiv2 += type_event[cptEventsNotFiltered].tags["street"] + " ";
+        }
+        else if (typeof type_event[cptEventsNotFiltered].tags["contact:street"] !== "undefined") {
           textDiv2 += type_event[cptEventsNotFiltered].tags["contact:street"] + " ";
         }
-        if (typeof type_event[cptEventsNotFiltered].tags["addr:street"] !== "undefined") {
+        else if (typeof type_event[cptEventsNotFiltered].tags["addr:street"] !== "undefined") {
           textDiv2 += type_event[cptEventsNotFiltered].tags["addr:street"] + " ";
         }
         if (typeof type_event[cptEventsNotFiltered].tags["contact:postcode"] !== "undefined") {
           textDiv2 += type_event[cptEventsNotFiltered].tags["contact:postcode"] + " ";
         }
-        if (typeof type_event[cptEventsNotFiltered].tags["addr:postcode"] !== "undefined") {
+        else if (typeof type_event[cptEventsNotFiltered].tags["contact:postcode"] !== "undefined") {
+          textDiv2 += type_event[cptEventsNotFiltered].tags["contact:postcode"] + " ";
+        }
+        else if (typeof type_event[cptEventsNotFiltered].tags["addr:postcode"] !== "undefined") {
           textDiv2 += type_event[cptEventsNotFiltered].tags["addr:postcode"] + " ";
         }
-        if (typeof type_event[cptEventsNotFiltered].tags["contact:city"] !== "undefined") {
+        if (typeof type_event[cptEventsNotFiltered].tags["city"] !== "undefined") {
+          textDiv2 += type_event[cptEventsNotFiltered].tags["city"] + " ";
+        }
+        else if (typeof type_event[cptEventsNotFiltered].tags["contact:city"] !== "undefined") {
           textDiv2 += type_event[cptEventsNotFiltered].tags["contact:city"] + " ";
         }
-        if (typeof type_event[cptEventsNotFiltered].tags["addr:city"] !== "undefined") {
+        else if (typeof type_event[cptEventsNotFiltered].tags["addr:city"] !== "undefined") {
           textDiv2 += type_event[cptEventsNotFiltered].tags["addr:city"] + " ";
         }
         textDiv2 += "</address>"; // end address
 
-
-        if (typeof type_event[cptEventsNotFiltered].tags["contact:phone"] !== "undefined") {
-          textDiv2 += type_event[cptEventsNotFiltered].tags["contact:phone"] + " ";
-        }
         if (typeof type_event[cptEventsNotFiltered].tags["phone"] !== "undefined") {
           textDiv2 += type_event[cptEventsNotFiltered].tags["phone"] + " ";
         }
-        if (typeof type_event[cptEventsNotFiltered].tags["contact:email"] !== "undefined") {
-          textDiv2 += type_event[cptEventsNotFiltered].tags["contact:email"] + " ";
+        else if (typeof type_event[cptEventsNotFiltered].tags["contact:phone"] !== "undefined") {
+          textDiv2 += type_event[cptEventsNotFiltered].tags["contact:phone"] + " ";
         }
         if (typeof type_event[cptEventsNotFiltered].tags["email"] !== "undefined") {
           textDiv2 += type_event[cptEventsNotFiltered].tags["email"] + " ";
+        }
+        else if (typeof type_event[cptEventsNotFiltered].tags["contact:email"] !== "undefined") {
+          textDiv2 += type_event[cptEventsNotFiltered].tags["contact:email"] + " ";
         }
 
         textDiv2 += "</div>"; // event_conditions
@@ -137,10 +154,13 @@ var load_json_2 = function(type_event) {
         if (typeof type_event[cptEventsNotFiltered].tags["website"] !== "undefined") {
           textDiv2 += "<a href='" + type_event[cptEventsNotFiltered].tags["website"] + "' target=_new><b><i>Site internet</i></b></a> ";
         }
-        if (typeof type_event[cptEventsNotFiltered].tags["contact:website"] !== "undefined") {
+        else if (typeof type_event[cptEventsNotFiltered].tags["contact:website"] !== "undefined") {
           textDiv2 += "<a href='" + type_event[cptEventsNotFiltered].tags["contact:website"] + "' target=_new><b><i>Site internet</i></b></a><br/>";
         }
-        if (typeof type_event[cptEventsNotFiltered].tags["contact:facebook"] !== "undefined") {
+        if (typeof type_event[cptEventsNotFiltered].tags["facebook"] !== "undefined") {
+          textDiv2 += "<a href='" + type_event[cptEventsNotFiltered].tags["facebook"] + "' target=_new><b><i>Facebook</i></b></a><br/>";
+        }
+        else if (typeof type_event[cptEventsNotFiltered].tags["contact:facebook"] !== "undefined") {
           textDiv2 += "<a href='" + type_event[cptEventsNotFiltered].tags["contact:facebook"] + "' target=_new><b><i>Facebook</i></b></a><br/>";
         }
         textDiv2 += "<br/>";
