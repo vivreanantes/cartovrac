@@ -44,7 +44,9 @@ var load_json_2 = function(type_event) {
         if (typeof type_event[cptEventsNotFiltered].tags["image"] == "undefined") {
           textDiv2 += "&nbsp;";
         } else {
-          textDiv2 += "<img src='" + type_event[cptEventsNotFiltered].tags["image"] + "' width='200px' style='width=100%;max-width:100%;height:auto' />";
+          // pour éviter d'importer des images en http
+          textDiv2 += "<img src='" + type_event[cptEventsNotFiltered].tags["image"].replace('http:', 'https:') + "' width='200px' style='width=100%;max-width:100%;height:auto' />";
+          // textDiv2 += "<img src='" + type_event[cptEventsNotFiltered].tags["image"] + "' width='200px' style='width=100%;max-width:100%;height:auto' />";
         }
         if (typeof type_event[cptEventsNotFiltered].tags["mapillary"] == "undefined") {
           textDiv2 += "&nbsp;";
