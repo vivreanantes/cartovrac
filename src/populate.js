@@ -143,16 +143,37 @@ function populateBulkShops(json) {
 			continue;
 		}
 
-		// Add partner banner
-		var partner = partners[element["source:bulk_purchase"]];
-		if (partner) {
-			popup += '<hr style="padding-bottom: ;padding-bottom: 0px;" size="1"><a href="'+partner.link+'" target="_blank" rel="noopener"><div style="display: flex;"><img style="height: 50px; margin-right: 5px;" src="'+partner.icon+'"/><div style="margin: auto; font-weight: bold;">Partenaire <br />'+partner.name+'</div></div></a>';
+		if (element["source:bulk_purchase"]) {
+			popup += getPartnerBannerPart(element["source:bulk_purchase"]);
 		}
 
 		// Add popup on a marker
 		var marker = addMarkerToMap(category, popup, element.lat, element.lon, element.id);
 		bulkMarkerArray.push(marker);
 	}
+}
+
+function getPartnerBannerPart(partnersString) {
+	var shopPartners = partnersString.split(";");
+	if (shopPartners.length === 0) {
+		console.log("Array is empty for element: "+element["source:bulk_purchase"]);
+		return "";
+	}
+
+	var popupPartnerPart = "";
+	for (var shopPartnerIndex in shopPartners) {
+		var shopPartner = shopPartners[shopPartnerIndex].trim();
+		var partner = partners[shopPartner];
+		if (!partner) {
+			console.log("Unknown shop partner: "+shopPartner);
+			continue;
+		}
+
+		console.log("Adding partner: "+partner.name);
+		popupPartnerPart += '<hr style="padding-bottom: ;padding-bottom: 0px;" size="1"><a href="'+partner.link+'" target="_blank" rel="noopener"><div style="display: flex;"><img style="height: 50px; margin-right: 5px;" src="'+partner.icon+'"/><div style="margin: auto; font-weight: bold;">Partenaire <br />'+partner.name+'</div></div></a>';
+	}
+	
+	return popupPartnerPart;
 }
 
 /**
