@@ -1,7 +1,7 @@
 const fetch = require('node-fetch');
 
 module.exports = function() {
-  return fetch('https://www.overpass-api.de/api/interpreter?data=[out:json][timeout:500][maxsize:20737418];(area[%22ISO3166-1%22~%22FR|MC%22];)-%3E.fr;(node[%22bulk_purchase%22~%22yes|only%22](area.fr);way[%22bulk_purchase%22~%22yes|only%22](area.fr););out%20center;')
+  return fetch('https://www.overpass-api.de/api/interpreter?data=[out:json][timeout:5000][maxsize:50000000];(area[%22ISO3166-1%22~%22FR|MC%22];)-%3E.fr;(node[%22bulk_purchase%22~%22yes|only%22](area.fr);way[%22bulk_purchase%22~%22yes|only%22](area.fr););out%20center;')
     .then((response) => (response.text()))
     .then((jsonString) => ({code: simplifyDataStructure(jsonString)}));
 }

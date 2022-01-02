@@ -31,7 +31,7 @@ export var categories = {
 };
 
 export var partners = {
-  "Collectif J'aime tes bocaux": { link: "https://www.lesboitesnomades.com", icon: require("../assets/img/jtb.webp"), name: "J\'aime tes bocaux"},
-  "Les Boîtes Nomades": { link: "https://www.facebook.com/jaimetesbocaux/", icon: require("../assets/img/lesboitesnomades.webp"), name: "Les Boîtes Nomades"},
+  "Collectif J'aime tes bocaux": { link: "https://www.facebook.com/jaimetesbocaux/", icon: require("../assets/img/jtb.webp"), name: "J\'aime tes bocaux"},
+  "Les Boîtes Nomades": { link: "https://www.lesboitesnomades.com", icon: require("../assets/img/lesboitesnomades.webp"), name: "Les Boîtes Nomades"},
   "Syndicat Mixte Cyclad": { link: "http://www.cyclad.org/page.php?P=147#", icon: require("../assets/img/cyclad.webp"), name: "Syndicat Mixte Cyclad"}
 }
